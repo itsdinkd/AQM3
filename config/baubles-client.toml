@@ -1,0 +1,5 @@
+
+[baubles]
+	#When enabled baubles can render on player.
+	render_baubles = true
+

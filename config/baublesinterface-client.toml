@@ -1,0 +1,13 @@
+
+[baublesinterface]
+	#Should this render or not.
+	enabled = true
+	#When enabled, the interface is set to vertical orientation.
+	vertical_orientation = true
+	#Corner Position
+	#Allowed Values: TOP_LEFT, BOTTOM_LEFT, TOP_RIGHT, BOTTOM_RIGHT
+	interface_position = "BOTTOM_LEFT"
+	#Interface corner margins
+	#Range: > 0
+	interface_margins = 5
+
