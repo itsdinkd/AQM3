@@ -1,0 +1,8 @@
+
+[general]
+	#Do baby chickens drop feathers?
+	chicksDropFeathers = false
+	#How often will feathers be shed?
+	#Range: > 6000
+	dropFrequency = 26000
+

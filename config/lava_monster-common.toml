@@ -2,19 +2,19 @@
 #Common changes
 [common]
 	#Lava monsters' maximum health.
-	monsterHealth = 16.0
+	monsterHealth = 26.0
 	#The amount of armor lava monsters have.
-	monsterArmor = 0.0
+	monsterArmor = 6.0
 	#The distance a lava monster will begin attacking. (maximum of 35)
 	monsterRange = 17.0
 	#Ticks a monster must wait after attacking before it can start winding up again.
-	attackCooldown = 80
+	attackCooldown = 45
 	#Number of fireballs shot with each attack.
 	attackShots = 3
 	#Ticks between each fireball shot in an attack.
 	attackSpacing = 6
 	#Ticks it takes before a monster can start an attack.
-	attackWindup = 60
+	attackWindup = 50
 
 	#Spawning
 	[common.spawning]
@@ -42,5 +42,5 @@
 			spawnChance = 0.05
 			#The number of ticks between each lava monster spawn attempt. 
 			#This will not take effect if the shouldUseVanillaSpawning option is enabled.
-			spawnFrequency = 10
+			spawnFrequency = 20
 

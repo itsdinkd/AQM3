@@ -1,0 +1,11 @@
+armor = true
+curios = true
+
+#The types of equip sounds to be played for equipment
+[sounds]
+	armor = true
+	elytra = true
+	skulls = false
+	pumpkins = false
+	anything = false
+

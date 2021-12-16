@@ -44,7 +44,7 @@
 		harvestShrineRange = 4
 		#The amount of element consumed by the Harvest Shrine.
 		#Range: 0 ~ 1000
-		harvestShrineConsumeAmount = 100
+		harvestShrineConsumeAmount = 200
 		#The nember of tick betwenn two Harvest Shrine activations.
 		#Range: 0.0 ~ 2400.0
 		harvestShrinePeriode = 20.0
@@ -66,10 +66,10 @@
 		oreShrineRange = 12
 		#The amount of element consumed by the Ore Shrine.
 		#Range: 0 ~ 10000
-		oreShrineConsumeAmount = 2000
+		oreShrineConsumeAmount = 4000
 		#The nember of tick betwenn two Ore Shrine activations.
 		#Range: 0.0 ~ 2400.0
-		oreShrinePeriode = 200.0
+		oreShrinePeriode = 300.0
 
 	[shrines.overloadShrine]
 		#The amount of element consumed by the overload Shrine.
@@ -102,7 +102,7 @@
 		spawningShrineRange = 4
 		#The amount of element consumed by the spawning Shrine.
 		#Range: 0 ~ 10000
-		spawningShrineConsumeAmount = 2000
+		spawningShrineConsumeAmount = 4000
 		#The nember of tick betwenn two Sweet spawning activations.
 		#Range: 0.0 ~ 2400.0
 		spawningShrinePeriode = 100.0
@@ -217,7 +217,7 @@
 		fireFurnaceMaxRunes = 1
 		#The amount multiplied by the cooking time of the furnace recipe.
 		#Range: 0 ~ 1000
-		fireFurnaceElementAmount = 10
+		fireFurnaceElementAmount = 15
 
 		[instruments.fireFurnace.fireBlastFurnace]
 			#The max amount of element consumed by the fire blast furnace per tick.
@@ -259,13 +259,13 @@
 	[instruments.crystallizer]
 		#The max amount of element consumed by the gem crystallizer per tick.
 		#Range: 0 ~ 1000
-		crystallizerTransferSpeed = 25
+		crystallizerTransferSpeed = 20
 		#The max amount of runes on an crystallizer.
 		#Range: 0 ~ 10
 		crystallizerMaxRunes = 3
 		#The ratio of each luck rune on a crystallizer.
 		#Range: 0.0 ~ 10.0
-		crystallizerLuckRatio = 3.0
+		crystallizerLuckRatio = 2.6
 
 	[instruments.inscriber]
 		#The max amount of element consumed by the gem inscriber per tick.
@@ -332,7 +332,7 @@
 	[instruments.sorter]
 		#The amount of tick between two ordered sorter item transpher.
 		#Range: 0 ~ 100
-		sorterCooldown = 10
+		sorterCooldown = 20
 		#The max amount of items an order sorter can filter.
 		#Range: 0 ~ 100
 		sorterMaxItem = 15
@@ -371,7 +371,7 @@
 	#Range: 1 ~ 1000
 	spellBookMaxSpell = 100
 	#Players start the game with an elementopedia in their inventory.
-	playersSpawnWithBook = false
+	playersSpawnWithBook = true
 	#The amount of element contained in a single shard.
 	#Range: 0 ~ 1000
 	shardElementAmount = 250
@@ -411,26 +411,26 @@
 	disableSourceSpawn = false
 	#Chance to add a source in world (the small the more frequante).
 	#Range: 1 ~ 10000
-	sourceSpawnChance = 30
+	sourceSpawnChance = 50
 	#Chance to add a source in an ocean biome (the small the more frequante).
 	#Range: 1 ~ 10000
-	oceanSourceSpawnChance = 150
+	oceanSourceSpawnChance = 200
 	#Chance to add a source in world ingoring biome elemen type (the small the more frequante).
 	#Range: 1 ~ 10000
-	randomSourceSpawnChance = 300
+	randomSourceSpawnChance = 400
 	#CSource Altar genreration distance setting.
 	#Range: 0 ~ 100
-	sourceAltarDistance = 64
+	sourceAltarDistance = 80
 
 	[worldgen.inertCrystal]
 		#Disable creation of inertCrystals.
 		disableInertCrystal = false
 		#Number of inert crystal vein.
 		#Range: 1 ~ 100
-		inertCrystalCount = 10
+		inertCrystalCount = 6
 		#Size of inert crystal vein.
 		#Range: 1 ~ 100
-		inertCrystalSize = 9
+		inertCrystalSize = 6
 		#max Y level of inert crystal.
 		#Range: 1 ~ 256
 		inertCrystalYMax = 96

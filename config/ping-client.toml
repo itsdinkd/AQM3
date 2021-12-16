@@ -2,10 +2,10 @@
 [general]
 	#Maximum distance a Ping can be from you and still be received
 	#Range: 0.0 ~ 255.0
-	pingAcceptDistance = 64.0
+	pingAcceptDistance = 98.0
 	#How many ticks a Ping should remain active before disappearing
 	#Range: 0 ~ 2147483646
-	pingDuration = 125
+	pingDuration = 160
 	#Whether to play a sound when a Ping is received
 	sound = true
 
@@ -19,7 +19,7 @@
 		#Range: 0 ~ 255
 		red = 255
 		#Range: 0 ~ 255
-		green = 0
+		green = 60
 		#Range: 0 ~ 255
 		blue = 0
 

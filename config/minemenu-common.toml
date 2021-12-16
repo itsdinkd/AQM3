@@ -1,10 +1,10 @@
 
 [general]
 	toggle = false
-	rightClickToEdit = false
+	rightClickToEdit = true
 	releaseToSelect = false
 	menuAnimation = true
-	menuButtonIcon = "minecraft:stone"
+	menuButtonIcon = "minecraft:diamond"
 
 [visual]
 

@@ -1,0 +1,137 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 14, 2021, 1:56:53 PM
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- restored_earth:mud
+- restored_earth:flowing_mud
+- tofucraft:soymilk
+- tofucraft:soymilk_flow
+- tofucraft:soymilk_hell
+- tofucraft:soymilk_hell_flow
+- tofucraft:soymilk_soul
+- tofucraft:soymilk_soul_flow
+- tofucraft:bittern
+- tofucraft:bittern_flow
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- mahoutsukai:murky_still
+- mahoutsukai:murky_flow
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:tin_mineral_fluid
+- electrodynamics:fluidmineraltin
+
+#forge:uranium_hexafluoride
+- nuclearscience:fluiduraniumhexafluoride
+
+#forge:gold_mineral_fluid
+- electrodynamics:fluidmineralgold
+
+#forge:biomass
+- cyclic:biomass
+
+#forge:magentite
+- bigreactors:magentite
+- bigreactors:magentite_flowing
+
+#forge:copper_mineral_fluid
+- electrodynamics:fluidmineralcopper
+
+#forge:lithium_mineral_fluid
+- electrodynamics:fluidminerallithium
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:iron_sulfamate
+- nuclearscience:fluidironsulfamate
+
+#forge:ethanol
+- electrodynamics:fluidethanol
+
+#forge:molybdenum_mineral_fluid
+- electrodynamics:fluidmineralmolybdenum
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:iron_mineral_fluid
+- electrodynamics:fluidmineraliron
+
+#forge:verderium
+- bigreactors:verderium
+- bigreactors:verderium_flowing
+
+#forge:sulfuric_acid
+- electrodynamics:fluidsulfuricacid
+
+#forge:ammonia
+- nuclearscience:fluidammonia
+
+#forge:steam
+- bigreactors:steam
+- bigreactors:steam_flowing
+
+#forge:experience
+- sophisticatedbackpacks:xp_still
+- cyclic:xpjuice
+
+#forge:yellorium
+- bigreactors:yellorium
+- bigreactors:yellorium_flowing
+
+#forge:slime
+- cyclic:slime
+
+#forge:silver_mineral_fluid
+- electrodynamics:fluidmineralsilver
+
+#forge:polyethylene
+- electrodynamics:fluidpolyethylene
+
+#forge:molybdenum
+- electrodynamics:fluidmolybdenum
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:magma
+- cyclic:magma
+
+#forge:hydrofluoric_acid
+- electrodynamics:fluidhydrogenfluoride
+
+#forge:rossinite
+- bigreactors:rossinite
+- bigreactors:rossinite_flowing
+
+#forge:vanadium_mineral_fluid
+- electrodynamics:fluidmineralvanadium
+
+#forge:honey
+- productivebees:honey
+- productivebees:flowing_honey
+- inspirations:honey?
+- cyclic:honey
+- create:flowing_honey
+- create:honey
+
+#forge:lead_mineral_fluid
+- electrodynamics:fluidminerallead
+
+#forge:cyanite
+- bigreactors:cyanite
+- bigreactors:cyanite_flowing
+
+#forge:blutonium
+- bigreactors:blutonium
+- bigreactors:blutonium_flowing

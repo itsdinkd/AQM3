@@ -39,17 +39,17 @@
 		#Don't want to aim but love shooting arrows?
 		enableHoming = true
 		#Want blazing enchantment to only appear in loot?
-		blazingTreasureOnly = false
+		blazingTreasureOnly = true
 		#Want Hops enchantment to only appear in loot?
 		hopsTreasureOnly = false
 		#Want Nimble enchantment to only appear in loot?
-		nimbleTreasureOnly = false
+		nimbleTreasureOnly = true
 		#Want Siphon enchantment to only appear in loot?
-		siphonTreasureOnly = false
+		siphonTreasureOnly = true
 		#Want Veteran enchantment to only appear in loot?
 		veteranTreasureOnly = false
 		#Want Vigor enchantment to only appear in loot?
-		vigorTreasureOnly = false
+		vigorTreasureOnly = true
 		#Want Homing enchantment to only appear in loot?
 		homingTreasureOnly = false
 

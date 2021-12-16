@@ -1,0 +1,35 @@
+
+#Mithril Ore
+[mithril_ore]
+	#Generate Mithril Ore [true / false]
+	mithrilOreGeneration = true
+	#Size of Mithril Ore vein [0-100, default: 4]
+	#Range: 0 ~ 100
+	mithrilOreSize = 2
+	#Chances of Mithril Ore generating [0-100, default: 80]
+	#Range: 0 ~ 100
+	mithrilOreChance = 30
+	#Minimum height for generation of Mithril Ore [0-255, default: 35]
+	#Range: 0 ~ 255
+	mithrilOreMinHeight = 35
+	#Maximum height for generation of Mithril Ore [0-255, default: 80]
+	#Range: 0 ~ 255
+	mithrilOreMaxHeight = 80
+
+#Starcilium Ore
+[starcilium_ore]
+	#Generate Starcilium Ore [true / false]
+	starciliumOreGeneration = true
+	#Size of Starcilium Ore vein [0-100, default: 5]
+	#Range: 0 ~ 100
+	starciliumOreSize = 2
+	#Chances of Starcilium Ore generating [0-100, default: 60]
+	#Range: 0 ~ 100
+	starciliumOreChance = 20
+	#Minimum height for generation of Starcilium Ore [0-255, default: 20]
+	#Range: 0 ~ 255
+	starciliumOreMinHeight = 20
+	#Maximum height for generation of Starcilium Ore [0-255, default: 255]
+	#Range: 0 ~ 255
+	starciliumOreMaxHeight = 255
+

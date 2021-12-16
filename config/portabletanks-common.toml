@@ -1,0 +1,17 @@
+#How much fluid should the basic tank be able to hold (in millibuckets)?
+#Requires a world reload
+#Allowed Range: 1000 ~ 256000  Default: 8000
+basicTankCapacity = 8000
+#How much fluid should the advanced tank be able to hold (in millibuckets)?
+#Requires a world reload
+#Allowed Range: 1000 ~ 256000  Default: 16000
+advancedTankCapacity = 16000
+#How much fluid should the expert tank be able to hold (in millibuckets)?
+#Requires a world reload
+#Allowed Range: 1000 ~ 256000  Default: 64000
+expertTankCapacity = 64000
+#How much fluid should the ultimate tank be able to hold (in millibuckets)?
+#Requires a world reload
+#Allowed Range: 1000 ~ 256000  Default: 128000
+ultimateTankCapacity = 128000
+

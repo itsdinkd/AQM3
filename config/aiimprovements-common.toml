@@ -23,7 +23,7 @@
 		#Remove the fish's random swimming pathfinder. This will cause fish to stay in position more often.
 		remove_swim = false
 		#Remove the fish's panic pathfinder. This will cause fish to not run away.
-		remove_panic = true
+		remove_panic = false
 		#Remove the fish's AI task to avoid players.
 		remove_avoid_player = false
 		#Remove the fish's AI task to follow a leader fish to act as a group of fish.
@@ -41,9 +41,9 @@
 	#Cow
 	[entity.cow]
 		#Remove the cow's float AI task. This causes cows to no longer swim in water.
-		remove_float = false
+		remove_float = true
 		#Remove the cow's panic AI task. This causes cows to no longer run around after being hit, or search water to extinguish themselves.
-		remove_panic = false
+		remove_panic = true
 		#Remove the cow's breed AI task. This causes cows to be unable to breed to create offspring.
 		remove_breed = false
 		#Remove the cow's tempt AI task. This causes cows to no longer follow the player if they're holding an item they like.
@@ -73,7 +73,7 @@
 		#Remove the pig's float AI task. This causes pigs to no longer swim in water.
 		remove_float = false
 		#Remove the pig's panic AI task. This causes pigs to no longer run around after being hit, or search water to extinguish themselves.
-		remove_panic = false
+		remove_panic = true
 		#Remove the pig's breed AI task. This causes pigs to be unable to breed to create offspring.
 		remove_breed = false
 		#Remove the pig's tempt AI task. This causes pigs to no longer follow the player if they're holding an item they like.

@@ -15,7 +15,7 @@
 	#Range: 0 ~ 64
 	max = 4
 	#Range: 0 ~ 100
-	weight = 7
+	weight = 5
 
 ["spawnable biomes"]
 	include = ["SNOWY"]

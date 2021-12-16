@@ -1,0 +1,198 @@
+#Minimum damage on a common weapon
+#Range: > 1
+commonDamageMin = 5
+#Maximum damage on a common weapon
+#Range: > 1
+commonDamageMax = 8
+#Minimum number of potion effects on a common item
+#Range: 0 ~ 5
+commonPotionMin = 0
+#Maximum number of potion effects on a common item
+#Range: 0 ~ 5
+commonPotionMax = 1
+#Minimum number of effects on a common item
+#Range: 0 ~ 4
+commonEffectMin = 0
+#Maximum number of effects on a common item
+#Range: 0 ~ 4
+commonEffectMax = 0
+#Minimum damage on a uncommon weapon
+#Range: > 1
+uncommonDamageMin = 7
+#Maximum damage on a uncommon weapon
+#Range: > 1
+uncommonDamageMax = 12
+#Minimum number of potion effects on a uncommon item
+#Range: 0 ~ 5
+uncommonPotionMin = 2
+#Maximum number of potion effects on a uncommon item
+#Range: 0 ~ 5
+uncommonPotionMax = 3
+#Minimum number of effects on a uncommon item
+#Range: 0 ~ 4
+uncommonEffectMin = 0
+#Maximum number of effects on a uncommon item
+#Range: 2 ~ 4
+uncommonEffectMax = 2
+#Minimum damage on a rare weapon
+#Range: > 1
+rareDamageMin = 9
+#Maximum damage on a rare weapon
+#Range: > 1
+rareDamageMax = 14
+#Minimum number of potion effects on a rare item
+#Range: 0 ~ 5
+rarePotionMin = 1
+#Maximum number of potion effects on a rare item
+#Range: 0 ~ 5
+rarePotionMax = 3
+#Minimum number of effects on a rare item
+#Range: 0 ~ 4
+rareEffectMin = 1
+#Maximum number of effects on a rare item
+#Range: 0 ~ 4
+rareEffectMax = 2
+#Minimum damage on a epic weapon
+#Range: > 1
+epicDamageMin = 15
+#Maximum damage on a epic weapon
+#Range: > 1
+epicDamageMax = 19
+#Minimum number of potion effects on a epic item
+#Range: 0 ~ 5
+epicPotionMin = 1
+#Maximum number of potion effects on a epic item
+#Range: 0 ~ 5
+epicPotionMax = 4
+#Minimum number of effects on a epic item
+#Range: 0 ~ 4
+epicEffectMin = 2
+#Maximum number of effects on a epic item
+#Range: 0 ~ 4
+epicEffectMax = 3
+#Minimum damage on a unique weapon
+#Range: > 1
+uniqueDamageMin = 20
+#Maximum damage on a unique weapon
+#Range: > 1
+uniqueDamageMax = 26
+#Minimum number of potion effects on a unique item
+#Range: 0 ~ 5
+uniquePotionMin = 3
+#Maximum number of potion effects on a unique item
+#Range: 0 ~ 5
+uniquePotionMax = 5
+#Minimum number of effects on a unique item
+#Range: 0 ~ 4
+uniqueEffectMin = 3
+#Maximum number of effects on a unique item
+#Range: 0 ~ 4
+uniqueEffectMax = 4
+#The chance that the lootcrate loot table will be injected into a chest loot table
+#Range: 1 ~ 100
+lootCrateWeight = 90
+#The minimum number of rolls a loot crate will try to generate, each roll has a 30% chance of generating a loot crate
+#Range: 0 ~ 300
+lootCrateMinRolls = 2
+#the maximum number of rolls a loot crate will try to generate, each roll has a 30% chance of generating a loot crate
+#Range: 0 ~ 300
+lootCrateMaxRolls = 3
+#enable wither effect on tools
+enableWither = true
+#enable slowness effect on tools
+enableSlowness = true
+#enable poison effect on tools
+enablePoison = true
+#enable weakness effect on tools
+enableWeakness = true
+#enable blindness effect on tools
+enableBlindness = true
+#enable regeneration effect on tools
+enableRegeneration = false
+#enable speed effect on tools
+enableSpeed = true
+#enable haste effect on tools
+enableHaste = true
+#enable resistance effect on tools
+enableResistance = true
+#enable fire resistance effect on tools
+enableFireResistance = false
+#enable night vision effect on helmets
+enableNightVision = true
+#enable water breathing effect on helmets
+enableWaterBreathing = true
+#enable hero of the village effect on helmets
+enableHeroOfTheVillage = true
+#enable lightning effect on swords
+enableLightning = true
+#enable life leach effect on swords
+enableLeach = true
+#max leach amount
+#Range: 1 ~ 100
+maxLeachAmount = 40
+#enable heal effect on swords
+enableHeal = false
+#enable dash effect on swords
+enableDash = true
+#enable stun effect on swords
+enableStun = true
+#enable sleep effect on tools
+enableSleep = true
+#enable multi tool effect on tools
+enableMultiTool = true
+#enable area miner effect on tools
+enableAreaMiner = false
+#enable auto smelt effect on tools
+enableAutoSmelt = true
+#enable void effect on tools
+enableVoid = true
+#enable jump effect on boots
+enableJump = true
+#max jump level
+#Range: 2 ~ 10
+maxJumpAmount = 4
+#enable parry effect on boots
+enableParry = true
+#maximum parry chance
+#Range: 10 ~ 100
+maximumParryChance = 40
+#enable shockwave effect on leggings and chestplates
+enableShockwave = true
+#enable reflect effect on leggings and chestplates
+enableReflect = true
+#enable health boost effect on leggings and chestplates
+enableHealth = true
+#max health boost
+#Range: 1 ~ 20
+maxHealth = 4
+#enable knockback resistance effect on leggings and chestplates
+enableKnockbackResistance = true
+#max knockback resistance
+#Range: 1 ~ 6
+maxKnockbackResistance = 1
+#enable insight effect on helmets
+enableInsight = true
+#max insight level
+#Range: 1 ~ 20
+maxInsight = 5
+#enables mobs dropping shards
+enableMobDropShards = false
+#chance that a loot crate will generate a common item
+#Range: 0 ~ 100
+commonRarity = 50
+#chance that a loot crate will generate a uncommon item
+#Range: 0 ~ 100
+uncommonRarity = 20
+#chance that a loot crate will generate a rare item
+#Range: 0 ~ 100
+rareRarity = 10
+#chance that a loot crate will generate a epic item
+#Range: 0 ~ 100
+epicRarity = 8
+#chance that a loot crate will generate a unique item
+#Range: 0 ~ 100
+uniqueRarity = 3
+#amount of unique items that can be found in a world
+#Range: 1 ~ 50
+uniqueCount = 8
+

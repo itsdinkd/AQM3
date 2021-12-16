@@ -1,0 +1,82 @@
+
+#General settings
+[general]
+	#Makes it so if you hold hot drinks for too long that you begin taking fire damage [Default: false]
+	hotBurnsPlayer = false
+	#Amount of seconds before you start taking fire damage when 'hotBurnsPlayer' is enabled [Default: 15]
+	#Range: > 1
+	hotTime = 15
+	#When enabled the fruity leaves have to be right-clicked to be harvested [Default: true]
+	rightClickFruitHarvest = false
+	#The chance in which fruit drop from tree when "rightClickFruitHarvest" isn't enabled (1 in X chance) [Default: 20]
+	#Range: > 1
+	treeDropChance = 20
+	#When enabled allows the usage of bonemeal on the mods plants [Default: true]
+	bonemealGrow = true
+	#When enabled allows instant-growth using bonemeal on the mods plants [Default: false]
+	instantGrow = false
+	#Enables Crop to Seeds recipes [Default: true]
+	crop_to_seeds = true
+	#Enables rakes [Default: true]
+	enableRake = true
+	#When enabled makes seeds drop from grass [Default: false]
+	seedsFromGrass = true
+	#When enabled makes seeds drop from grass [Default: false]
+	saplingsFromGrass = false
+
+#Tree settings
+[tree]
+	#Enable generation of Apple trees [Default: true]
+	generateAppleTree = true
+	#Enable generation of Avocado trees [Default: true]
+	generateAvocadoTree = true
+	#Enable generation of Banana trees [Default: true]
+	generateBananaTree = true
+	#Enable generation of Cherry trees [Default: true]
+	generateCherryTree = true
+	#Enable generation of Lemon trees [Default: true]
+	generateLemonTree = true
+	#Enable generation of Mango trees [Default: true]
+	generateMangoTree = true
+	#Enable generation of Olive trees [Default: true]
+	generateOliveTree = true
+	#Enable generation of Orange trees [Default: true]
+	generateOrangeTree = true
+	#Enable generation of Pear trees [Default: true]
+	generatePearTree = true
+
+#Crop settings
+[crop]
+	#Enable generation of wild Nether Flower crops in the nether [Default: true]
+	generateNetherFlower = true
+
+#Tree Rarity
+[rarity]
+	#Rarity of Apple Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 1]
+	#Range: > 1
+	appleTreeRarity = 1
+	#Rarity of Avocado Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 1]
+	#Range: > 1
+	avocadoTreeRarity = 1
+	#Rarity of Banana Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 1]
+	#Range: > 1
+	bananaTreeRarity = 1
+	#Rarity of Cherry Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 1]
+	#Range: > 1
+	cherryTreeRarity = 1
+	#Rarity of Lemon Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 1]
+	#Range: > 1
+	lemonTreeRarity = 1
+	#Rarity of Mango Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 1]
+	#Range: > 1
+	mangoTreeRarity = 1
+	#Rarity of Olive Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 1]
+	#Range: > 1
+	oliveTreeRarity = 1
+	#Rarity of Orange Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 1]
+	#Range: > 1
+	orangeTreeRarity = 1
+	#Rarity of Pear Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 1]
+	#Range: > 1
+	pearTreeRarity = 1
+

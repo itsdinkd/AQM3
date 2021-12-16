@@ -14,7 +14,7 @@
 	#Will the Viler Witch spawn in the wild
 	vilerWitchSpawn = true
 	#Will the Tropical Slime spawn in the wild
-	tropicalSlimeSpawn = false
+	tropicalSlimeSpawn = true
 	#Will the Moobloom spawn in the wild
 	moobloomSpawn = true
 	#Will the Bouldering Zombie spawn in the wild
@@ -23,4 +23,8 @@
 	skeletonWolfSpawn = true
 	#Will the Bone Spider spawn in the wild
 	boneSpiderSpawn = true
+	#Will the Moolip spawn in the wild
+	moolipSpawn = true
+	#Will the Cluckshroom spawn in the wild
+	cluckshroomSpawn = true
 

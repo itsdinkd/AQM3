@@ -156,10 +156,10 @@
 	["Super Foods".Bar]
 		#Hunger value:
 		#Range: 0 ~ 30
-		superFoodBar_hunger = 13
+		superFoodBar_hunger = 12
 		#Hunger value:
 		#Range: 0 ~ 30
-		energyBar_hunger = 13
+		energyBar_hunger = 12
 		#Saturation value:
 		#Range: 0.0 ~ 10.0
 		superFoodBar_saturation = 0.4

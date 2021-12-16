@@ -9,7 +9,7 @@
 	#
 	# How often to auto-refresh a network (one second is 20 ticks)
 	#Range: 2 ~ 4096
-	autoRefreshTicks = 20
+	autoRefreshTicks = 38
 	#
 	# Disable these blocks from ever being able to connect to the network, they will be treated as a non-inventory.
 	NotallowedBlocks = ["extrautils2:playerchest"]

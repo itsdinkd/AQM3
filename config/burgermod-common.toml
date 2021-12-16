@@ -1,0 +1,25 @@
+
+[common]
+
+	#Properties related to Burger Mod effects
+	[common.effects_config]
+		#Adjust the effect duration in ticks here. 20 ticks = 1 second, 200 ticks = 10 seconds etc.
+		rawEggEffectDuration = 200
+		#Adjust the effect level here. 0 = level 1, 1 = level 2 etc.
+		rawEggEffectAmplifier = 0
+		#Adjust the effect duration in ticks here. 20 ticks = 1 second, 200 ticks = 10 seconds etc.
+		rawChampignonEffectDuration = 600
+		#Adjust the effect level here. 0 = level 1, 1 = level 2 etc.
+		rawChampignonEffectAmplifier = 1
+
+		#Properties related to Golden Burger effects
+		[common.effects_config.golden_burger_effects]
+			#Adjust the regeneration effect duration in ticks here. 20 ticks = 1 second, 200 ticks = 10 seconds etc.
+			goldenBurgerRegenDuration = 100
+			#Adjust the regeneration effect level here. 0 = level 1, 1 = level 2 etc.
+			goldenBurgerRegenAmplifier = 1
+			#Adjust the absorption effect duration in ticks here. 20 ticks = 1 second, 200 ticks = 10 seconds etc.
+			goldenBurgerAbsorptionDuration = 1200
+			#Adjust the absorption effect level here. 0 = level 1, 1 = level 2 etc.
+			goldenBurgerAbsorptionAmplifier = 0
+
