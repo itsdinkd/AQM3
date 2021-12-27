@@ -5,7 +5,7 @@
 	#Penguins should drop experience?
 	dropExp = true
 	#Use the Darkosto skin variant by default?
-	darkostoDefault = false
+	darkostoDefault = true
 	"spawn blocks" = ["minecraft:grass_block"]
 
 ["spawn chances"]
@@ -15,7 +15,7 @@
 	#Range: 0 ~ 64
 	max = 4
 	#Range: 0 ~ 100
-	weight = 5
+	weight = 8
 
 ["spawnable biomes"]
 	include = ["SNOWY"]

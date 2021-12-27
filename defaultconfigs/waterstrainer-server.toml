@@ -1,0 +1,55 @@
+
+[IdleTime]
+	#Time (in seconds) until a strainer catches an item. [Default: 30]
+	#Range: 0 ~ 107374182
+	idle_time = 30
+	#Adds a deviation to the idle time to make it more random. [Default: 5]
+	#Range: 0 ~ 107374182
+	idle_time_deviation = 5
+
+#Set the max durability (uses) for each strainer type.
+#Use 0 for infinite durability.
+#Default:
+#- Normal: 120
+#- Solid: 720
+#- Reinforced: 8640
+[Durability]
+	#Range: 0 ~ 2147483646
+	durability_strainer_survivalist = 120
+	#Range: 0 ~ 2147483646
+	durability_strainer_survivalist_solid = 720
+	#Range: 0 ~ 2147483646
+	durability_strainer_survivalist_reinforced = 8640
+	#Range: 0 ~ 2147483646
+	durability_strainer_fisherman = 120
+	#Range: 0 ~ 2147483646
+	durability_strainer_fisherman_solid = 720
+	#Range: 0 ~ 2147483646
+	durability_strainer_fisherman_reinforced = 8640
+
+[Bonus]
+	#Bonus efficiency (in %) for Solid Strainers. Use 0 to disable bonus efficiency. [Default: 10]
+	#Range: 0 ~ 2147483646
+	bonus_solid_efficiency = 10
+	#Bonus efficiency (in %) for Reinforced Strainers. Use 0 to disable bonus efficiency. [Default: 25]
+	#Range: 0 ~ 2147483646
+	bonus_reinforced_efficiency = 20
+
+[WormBin]
+	#Valid food items for the worm bin
+	worm_bin_food = ["minecraft:apple", "minecraft:potato", "minecraft:beetroot", "minecraft:melon_slice", "minecraft:sweet_berries", "minecraft:carrot", "minecraft:chorus_fruit", "croptopia:artichoke", "croptopia:asparagus", "croptopia:bellpepper", "croptopia:broccoli", "croptopia:cabbage", "croptopia:cauliflower", "croptopia:celery", "croptopia:corn", "croptopia:cucumber", "croptopia:eggplant", "croptopia:garlic", "croptopia:greenbean", "croptopia:greenonion", "croptopia:kale", "croptopia:leek", "croptopia:lettuce", "croptopia:olive", "croptopia:onion", "croptopia:radish", "croptopia:rhubarb", "croptopia:rutabaga", "croptopia:soybean", "croptopia:spinach", "croptopia:squash", "croptopia:sweetpotato", "croptopia:tomatillo", "croptopia:tomato", "croptopia:turnip", "croptopia:yam", "croptopia:zucchini", "croptopia:tofu", "croptopia:salsa", "croptopia:artichoke_dip", "croptopia:tomato_juice", "croptopia:kale_smoothie", "croptopia:kale_chips", "croptopia:potato_chips", "croptopia:french_fries", "croptopia:sweet_potato_fries", "croptopia:onion_rings", "croptopia:cucumber_salad", "croptopia:caesar_salad", "croptopia:leafy_salad", "croptopia:veggie_salad", "croptopia:leek_soup", "croptopia:blt", "croptopia:tofuburger", "croptopia:spaghetti_squash", "croptopia:taco", "croptopia:burrito", "croptopia:tostada", "croptopia:carnitas", "croptopia:fajitas", "croptopia:enchilada", "croptopia:tamales", "croptopia:stuffed_poblanos", "croptopia:chili_relleno", "croptopia:refried_beans", "croptopia:shepherds_pie", "croptopia:cornish_pasty", "croptopia:ajvar", "croptopia:ajvar_toast", "croptopia:beef_stew", "croptopia:beef_stir_fry", "croptopia:buttered_green_beans", "croptopia:cheesy_asparagus", "croptopia:eggplant_parmesan", "croptopia:grilled_eggplant", "croptopia:nether_wart_stew", "croptopia:peanut_butter", "croptopia:peanut_butter_with_celery", "croptopia:potato_soup", "croptopia:ratatouille", "croptopia:rhubarb_crisp", "croptopia:roasted_asparagus", "croptopia:roasted_radishes", "croptopia:roasted_squash", "croptopia:roasted_turnips", "croptopia:steamed_broccoli", "croptopia:steamed_green_beans", "croptopia:stir_fry", "croptopia:stuffed_artichoke", "croptopia:blackberry", "croptopia:blueberry", "croptopia:cantaloupe", "croptopia:cranberry", "croptopia:currant", "croptopia:elderberry", "croptopia:grape", "croptopia:honeydew", "croptopia:kiwi", "croptopia:pineapple", "croptopia:raspberry", "croptopia:saguaro", "croptopia:strawberry", "croptopia:orange", "croptopia:banana", "croptopia:persimmon", "croptopia:plum", "croptopia:cherry", "croptopia:lemon", "croptopia:grapefruit", "croptopia:kumquat", "croptopia:peach", "croptopia:coconut", "croptopia:nutmeg", "croptopia:fig", "croptopia:nectarine", "croptopia:mango", "croptopia:dragonfruit", "croptopia:starfruit", "croptopia:avocado", "croptopia:apricot", "croptopia:pear", "croptopia:lime", "croptopia:date", "croptopia:grape_juice", "croptopia:orange_juice", "croptopia:apple_juice", "croptopia:cranberry_juice", "croptopia:saguaro_juice", "croptopia:melon_juice", "croptopia:pineapple_juice", "croptopia:lemonade", "croptopia:limeade", "croptopia:strawberry_smoothie", "croptopia:banana_smoothie", "croptopia:fruit_smoothie", "croptopia:grape_jam", "croptopia:strawberry_jam", "croptopia:peach_jam", "croptopia:apricot_jam", "croptopia:blackberry_jam", "croptopia:blueberry_jam", "croptopia:cherry_jam", "croptopia:elderberry_jam", "croptopia:raspberry_jam", "croptopia:raisins", "croptopia:fruit_salad", "croptopia:toast_with_jam", "croptopia:peanut_butter_and_jam", "croptopia:pineapple_pepperoni_pizza", "croptopia:apple_pie", "croptopia:banana_cream_pie", "croptopia:strawberry_ice_cream", "croptopia:mango_ice_cream", "croptopia:rum_raisin_ice_cream", "croptopia:cherry_pie", "croptopia:banana_nut_bread", "croptopia:almond", "croptopia:cashew", "croptopia:pecan", "croptopia:walnut", "croptopia:quesadilla", "croptopia:eton_mess", "croptopia:scones", "croptopia:figgy_pudding", "croptopia:treacle_tart", "croptopia:avocado_toast", "croptopia:fruit_cake", "croptopia:kiwi_sorbet", "croptopia:lemon_coconut_bar"]
+
+[Misc]
+	#Strainers are more or less efficient based on their placement (water level, biome, adjacent strainers).
+	#Bonus efficiency from strainer type and enchantments still apply. [Default: true]
+	misc_enable_efficiency = true
+	#Reinforced Strainers (Tier 3) can be enchanted. [Default: true]
+	misc_enable_enchanting = true
+	#Defines the maximum 'enchantability' of Enchanted Books collected by a strainer.
+	#A higher value results in more powerful enchantments on the book.
+	#The enchanting power will be a random number ranging from 1 to X [Default: 35]
+	#Range: 1 ~ 70
+	misc_book_max_enchantability = 35
+	#Valid bait items for the Fisherman's Strainer
+	misc_valid_bait = ["waterstrainer:worm", "waterstrainer:super_worm", "aquaculture:worm"]
+

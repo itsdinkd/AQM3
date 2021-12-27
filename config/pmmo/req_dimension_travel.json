@@ -1,6 +1,10 @@
 {
-	"minecraft:overworld":
+	"javd:void":
 	{
-		"excavation": 1
+		"mining": 40
+	},
+	"jamd:mining":
+	{
+		"mining": 20
 	}
 }

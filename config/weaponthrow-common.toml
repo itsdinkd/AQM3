@@ -2,14 +2,14 @@
 #Weapon Throw Mod Configuration Settings
 [general]
 	#Weapon Cant be thrown if it is on cooldown
-	"Not Throw If Cooldown" = false
+	"Not Throw If Cooldown" = true
 
 #If an item is whitelisted and doesn't have damage or attack speed, this values will be assigned
 [default]
 	#Range: 0.0 ~ 256.0
-	"Default Base Damage" = 1.0
+	"Default Base Damage" = 1.5
 	#Range: 0.0 ~ 256.0
-	"Default Base Velocity" = 2.0
+	"Default Base Velocity" = 2.7
 
 [enchantments]
 	#If this is enabled, all tools can be applied mod enchantments too
@@ -33,7 +33,7 @@
 
 [interactions]
 	#Throwing can break blocks at landing?
-	"Break Blocks" = true
+	"Break Blocks" = false
 
 [multipliers]
 
@@ -94,7 +94,7 @@
 	"Charging Multiplier" = 3.0
 	#Time in ticks when throwed items lose their owner
 	#Range: > 0
-	"Lose Owner Time" = 140
+	"Lose Owner Time" = 180
 
 #All Items Whitelisted will get default values
 [whitelist-items]

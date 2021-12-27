@@ -20,7 +20,7 @@
 	#Set this to false will disable all world generation, even if specific world generation is enabled.
 	#This is another way to obtain crops in the mod.
 	#Please make sure there are other ways to obtain crops in the mod if set it to false.
-	enableWorldGeneration = false
+	enableWorldGeneration = true
 	#Set this to false will disable asparagus world generation.
 	asparagusGeneration = true
 	#Set this value to change the chance of asparagus world generation. The higher value, the less generation.

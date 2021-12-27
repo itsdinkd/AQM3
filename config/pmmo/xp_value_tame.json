@@ -38,53 +38,5 @@
 	"minecraft:wolf":
 	{
 		"taming": 10
-	},
-	"alexsmobs:capuchin_monkey":
-	{
-		"taming": 70
-	},
-	"alexsmobs:crow":
-	{
-		"taming": 30
-	},
-	"alexsmobs:elephant":
-	{
-		"taming": 80
-	},
-	"alexsmobs:gorilla":
-	{
-		"taming": 90
-	},
-	"alexsmobs:grizzly_bear":
-	{
-		"taming": 90
-	},
-	"alexsmobs:kangaroo":
-	{
-		"taming": 80
-	},
-	"alexsmobs:komodo_dragon":
-	{
-		"taming": 70
-	},
-	"alexsmobs:mantis_shrimp":
-	{
-		"taming": 40
-	},
-	"alexsmobs:mimic_octopus":
-	{
-		"taming": 80
-	},
-	"alexsmobs:raccoon":
-	{
-		"taming": 40
-	},
-	"alexsmobs:warped_toad":
-	{
-		"taming": 40
-	},
-	"alexsmobs:tarantula_hawk":
-	{
-		"taming": 70
 	}
 }

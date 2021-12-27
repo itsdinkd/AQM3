@@ -1,0 +1,122 @@
+[general]
+	clientID = 877261919948533800
+	enabled = true
+	debugging = false
+	configScreen = true
+	launcherIntegration = true
+	version = 12
+
+[init]
+	enabled = true
+	description = "Minecraft is loading"
+	state = "Game Starting..."
+	largeImageKey = "creeper"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+
+	[[init.buttons]]
+		label = "AQM3"
+		url = ""
+
+[main_menu]
+	enabled = true
+	description = "%player% is currently lazy"
+	state = "Chilling in AQM3 menu"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[server_list]
+	enabled = true
+	description = "%player% is looking for AQM3 server"
+	state = "Searching for friends"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[join_game]
+	enabled = true
+	description = "%player% is joining a game"
+	state = "Joining Game"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[single_player]
+	enabled = true
+	description = "Currently In %world%"
+	state = "Playing lonely mode"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+
+	[[single_player.buttons]]
+		label = "Download AQM3"
+		url = "https://www.curseforge.com/minecraft/modpacks/another-quality-modpack-3"
+
+	[[single_player.buttons]]
+		label = "AQM3 Discord"
+		url = "Discord https://discord.gg/y6Sby9BGVe"
+
+
+[multi_player]
+	enabled = true
+	description = "Playing on %servername% with %players% players"
+	state = "Playing online"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+
+	[[multi_player.buttons]]
+		label = "Download AQM3"
+		url = "https://www.curseforge.com/minecraft/modpacks/another-quality-modpack-3"
+
+[generic]
+	description = "Playing Minecraft"
+	state = ""
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = "overworld"
+		largeImageText = "In the Overworld"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = "nether"
+		largeImageText = "In the Nether"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = "end"
+		largeImageText = "In the End"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+

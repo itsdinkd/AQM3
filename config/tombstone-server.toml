@@ -3,7 +3,7 @@
 [player_death]
 	#Experience loss on death (%) (-1 = disabled) [-1..100|default:80]
 	#Range: -1 ~ 100
-	xp_loss = 80
+	xp_loss = 40
 	#The time in minutes before a grave is unlocked to anyone (-1 = disabled) [-1..MAX|default:-1]
 	#Range: > -1
 	decay_time = -1
@@ -32,7 +32,7 @@
 #Allows to customize or disable the enchantments
 [enchantments]
 	#Shadow Step is only active while sneaking [false/true|default:false]
-	nerf_shadow_step_force_sneak = false
+	nerf_shadow_step_force_sneak = true
 	#Enables the enchantment Shadow Step [false/true|default:true]
 	enable_enchantment_shadow_step = true
 	#Enables the enchantment Soulbound [false/true|default:true]
@@ -147,7 +147,7 @@
 	#Book of Recycling [false/true|default:true]
 	allow_book_of_recycling = true
 	#Book of Repairing [false/true|default:true]
-	allow_book_of_repairing = true
+	allow_book_of_repairing = false
 	#Book of Magic Impregnation [false/true|default:true]
 	allow_book_of_magic_impregnation = true
 
@@ -155,7 +155,7 @@
 [loot]
 	#Chance to loot a Lost Tablet by fishing [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_loot_lost_tablet = 100
+	chance_loot_lost_tablet = 60
 
 #Allows to enable some features related to others mods
 [compatibility]

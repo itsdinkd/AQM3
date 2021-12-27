@@ -1,0 +1,23 @@
+
+#Feature Settings
+[feature]
+	#Should it be possible to export or import the blueprint as json? (default:true)
+	json_blueprint = true
+
+#Performance Settings
+[performance]
+	#Should redstone torches output light to the surrounding area? (default:false)
+	torch_light = false
+	#Maximum redstone tick delay for super repeaters. 10 redstone ticks = 1 second.
+	#Large numbers require more memory. (default:100)
+	#Range: > 4
+	super_repeater_max = 100
+	#How many blocks long can a line of redstone run in a single tick?
+	#This number determines approximately 2x how many zero tick super repeaters can extend a single redstone line?
+	#(Since each repeater can extend signal 2 full blocks.)
+	#Very large numbers may degrade performance and potentially risk crash. (default=32)
+	#Range: 4 ~ 512
+	max_zero_tick_run = 32
+	#List of blocks from other mods to be treated as redstone wire.
+	redstone_wires = ["redstonepen:track", "cb_multipart:multipart"]
+

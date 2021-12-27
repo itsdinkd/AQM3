@@ -9,20 +9,20 @@
     "enableTextToSpeech": false,
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
-    "fluldMode": "NONE",
+    "fluldMode": "SOURCE_ONLY",
     "reachDistance": 0.0,
     "debug": false
   },
   "overlay": {
-    "overlayPosX": 0.5,
-    "overlayPosY": 1.0,
-    "overlayScale": 1.0,
-    "overlayAnchorX": 0.5,
+    "overlayPosX": 0.5093497,
+    "overlayPosY": 0.9805011,
+    "overlayScale": 1.0059277,
+    "overlayAnchorX": 0.5093497,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,
     "color": {
-      "alpha": 0.7,
+      "alpha": 0.6470709,
       "themes": {
         "jade:waila": {
           "id": "jade:waila",
@@ -30,6 +30,24 @@
           "gradientStart": 5243135,
           "gradientEnd": 2621567,
           "titleColor": 16777215,
+          "textColor": 10526880,
+          "textShadow": true
+        },
+        "aqm:default": {
+          "id": "aqm:default",
+          "backgroundColor": 1644825,
+          "gradientStart": 13932543,
+          "gradientEnd": 12613876,
+          "titleColor": 12613876,
+          "textColor": 10526880,
+          "textShadow": true
+        },
+        "aqm:inverted": {
+          "id": "aqm:inverted",
+          "backgroundColor": 1644825,
+          "gradientStart": 16711651,
+          "gradientEnd": 15859597,
+          "titleColor": 15859597,
           "textColor": 10526880,
           "textShadow": true
         },
@@ -61,7 +79,7 @@
           "textShadow": true
         }
       },
-      "activeTheme": "jade:create"
+      "activeTheme": "aqm:default"
     },
     "autoScaleThreshold": 0.5
   },

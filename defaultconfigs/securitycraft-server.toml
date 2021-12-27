@@ -1,0 +1,42 @@
+#Can the codebreaker be used?
+allowCodebreakerItem = true
+#Can the admin tool be used?
+allowAdminTool = false
+#Should mines spawn fire after exploding?
+shouldSpawnFire = true
+#Should players be able to break a mine without it exploding?
+ableToBreakMines = true
+#Should mines' explosions be smaller than usual.
+smallerMineExplosion = true
+#Should mines explode if broken while in Creative mode?
+mineExplodesWhenInCreative = true
+#Set this to false if you want mines to not break blocks when they explode.
+mineExplosionsBreakBlocks = false
+#From how many blocks away can a laser block connect to another laser block?
+#Range: > 0
+laserBlockRange = 5
+#From how many blocks away can an inventory scanner connect to another inventory scanner?
+#Range: > 0
+inventoryScannerRange = 2
+#What is the maximum value that can be set for an alarm's range option? Do note, that this may be limited by chunk loading distance. Higher values may also not be finetuneable.
+#Range: > 1
+maxAlarmRange = 92
+#Allow claiming unowned blocks?
+allowBlockClaim = true
+#Should the sentry/inventory scanner/laser block/etc. ignore players and entities that are invisible?
+respect_invisibility = false
+#Should reinforced blocks' textures be slightly darker than their vanilla counterparts? This does nothing unless force_reinforced_block_tint is set to true.
+reinforced_block_tint = true
+#Set this to true if you want to force the setting of reinforced_block_tint for players.
+force_reinforced_block_tint = false
+#Display owner face on retinal scanner?
+retinalScannerFace = true
+#Set this to true to enable every player on a scoreboard team to own the blocks of every other player on the same team.
+#This enables players on the same team to break each other's reinforced blocks, change options, add/remove modules, and have access to all other owner-restricted things.
+enable_team_ownership = false
+#Set this to true to disable sending the message that SecurityCraft shows when a player joins.
+#Note, that this stops showing the message for every player, even those that want to see them.
+disable_thanks_message = true
+#Set this to true if you want players wearing a different player's skull to be able to trick their retinal scanners and scanner doors into activating.
+trick_scanners_with_player_heads = false
+

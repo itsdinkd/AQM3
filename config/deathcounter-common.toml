@@ -11,5 +11,5 @@
 	singleSession = false
 	#Permission level required to use the op commands for Death Counter
 	#Range: 0 ~ 4
-	commandPermissionLevel = 1
+	commandPermissionLevel = 2
 

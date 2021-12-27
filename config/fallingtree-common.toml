@@ -71,7 +71,7 @@ notification_mode = "ACTION_BAR"
 	minimum_leaves_around_required = 1
 	#When set to true this allow to have any kind of log in a tree trunk.
 	#Otherwise (false) the trunk will be considered as being only one kind of log.
-	allow_mixed_logs = false
+	allow_mixed_logs = true
 	#When set to true nether tree warts (leaves) will be broken along with the trunk.
 	break_nether_tree_warts = true
 	#When set to true nether tree warts (leaves) will be broken with only one hit.
@@ -90,7 +90,7 @@ notification_mode = "ACTION_BAR"
 	#STOP_ALL will stop the search and nothing will be cut.
 	#STOP_BRANCH will stop the current branch only. The rest of the tree will be cut.
 	#Allowed Values: STOP_ALL, STOP_BRANCH
-	adjacent_stop_mode = "STOP_ALL"
+	adjacent_stop_mode = "STOP_BRANCH"
 
 [tools]
 	#When set to true, the mod will be activated no matter what you have in your hand.
@@ -108,7 +108,7 @@ notification_mode = "ACTION_BAR"
 	#If set to 0, it'll still apply 1 damage for every cut.
 	#INFO: This only applies when the tree is cut when using the mod.
 	#Range: 0.0 ~ 100.0
-	damage_multiplicand = 1.0
+	damage_multiplicand = 1.25
 	#How damage taken should be rounded if it isn't a whole number.
 	#ROUNDING will round to the closest whole number.
 	#ROUND_DOWN will round down.

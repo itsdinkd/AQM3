@@ -2,9 +2,9 @@
 #Common changes
 [common]
 	#Lava monsters' maximum health.
-	monsterHealth = 26.0
+	monsterHealth = 38.0
 	#The amount of armor lava monsters have.
-	monsterArmor = 6.0
+	monsterArmor = 7.0
 	#The distance a lava monster will begin attacking. (maximum of 35)
 	monsterRange = 17.0
 	#Ticks a monster must wait after attacking before it can start winding up again.

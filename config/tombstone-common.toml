@@ -2,7 +2,7 @@
 #Options related to player's death
 [player_death]
 	#Whether to unlock access to a grave if the player has been killed by another player [false/true|default:true]
-	pvp_unlock_grave = true
+	pvp_unlock_grave = false
 	#Whether to handle player death [false/true|default:true]
 	handle_player_death = true
 	#Whether to restore beneficial effects after a player dies [false/true|default:true]
@@ -110,7 +110,7 @@
 	#Allows to use the positions of creative players to define the siege location [false/true|default:true]
 	allow_creative_players_for_siege = true
 	#Undeads always wear a helm when sieging [false/true|default:false]
-	undead_wear_helm_in_siege = false
+	undead_wear_helm_in_siege = true
 	#Mobs in siege are persistent [false/true|default:false]
 	persistent_mob_in_siege = false
 	#Shuffles the list of players before testing the siege location [false/true|default:true]
@@ -183,7 +183,7 @@
 	recovery_player_timer = 19
 	#Maximum number of backups per player [5..100|default:15]
 	#Range: 5 ~ 100
-	recovery_player_max_saves = 15
+	recovery_player_max_saves = 7
 
 #Allows to change the chance to drop some items
 [loot]

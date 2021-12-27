@@ -3,6 +3,6 @@
 [client]
 	#Set this to false will disable the special hunger bar overlay when the player has Gnaw's Gift effect.
 	gnawsGiftHungerOverlay = true
-	#Set this to true will make hunger bar overlay shake to match Minecraft's icon animations.
-	showVanillaAnimationsOverlay = true
+	#Set this to false will disable the food effect tooltip.
+	showFoodEffectsTooltip = true
 

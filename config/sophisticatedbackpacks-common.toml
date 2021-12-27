@@ -5,6 +5,8 @@
 	enabledItems = ["void_upgrade:true", "advanced_pickup_upgrade:true", "everlasting_upgrade:true", "compacting_upgrade:true", "advanced_magnet_upgrade:true", "advanced_tool_swapper_upgrade:true", "advanced_filter_upgrade:true", "advanced_feeding_upgrade:true", "diamond_backpack:true", "inception_upgrade:true", "crafting_upgrade:true", "xp_pump_upgrade:true", "tank_upgrade:true", "auto_smelting_upgrade:true", "stack_upgrade_tier_4:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_1:true", "smelting_upgrade:true", "battery_upgrade:true", "advanced_pump_upgrade:true", "upgrade_base:true", "filter_upgrade:true", "refill_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "stonecutter_upgrade:true", "advanced_compacting_upgrade:true", "backpack:true", "pump_upgrade:true", "feeding_upgrade:true", "jukebox_upgrade:true", "advanced_restock_upgrade:true", "pickup_upgrade:true", "magnet_upgrade:true", "gold_backpack:true", "tool_swapper_upgrade:true", "netherite_backpack:true"]
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = true
+	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
+	disallowedItems = []
 
 	#Leather Backpack Settings
 	[common.leatherBackpack]
@@ -13,7 +15,7 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 
 	#Iron Backpack Settings
 	[common.ironBackpack]
@@ -22,7 +24,7 @@
 		inventorySlotCount = 54
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 1
 
 	#Gold Backpack Settings
 	[common.goldBackpack]
@@ -31,7 +33,7 @@
 		inventorySlotCount = 81
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 2
 
 	#Diamond Backpack Settings
 	[common.diamondBackpack]
@@ -40,7 +42,7 @@
 		inventorySlotCount = 108
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 5
+		upgradeSlotCount = 4
 
 	#Netherite Backpack Settings
 	[common.netheriteBackpack]
@@ -49,7 +51,7 @@
 		inventorySlotCount = 120
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 7
+		upgradeSlotCount = 6
 
 	#Compacting Upgrade Settings
 	[common.compactingUpgrade]
@@ -208,12 +210,12 @@
 		filterSlots = 16
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
-		slotsInRow = 4
+		slotsInRow = 5
 
 	#Stack Upgrade Settings
 	[common.stackUpgrade]
 		#List of items that are not supposed to stack in backpack even when stack upgrade is inserted. Item registry names are expected here.
-		nonStackableItems = []
+		nonStackableItems = ["ender_bags:white_bag", "ender_bags:orange_bag", "ender_bags:magenta_bag", "ender_bags:light_blue_bag", "ender_bags:yellow_bag", "ender_bags:lime_bag", "ender_bags:pink_bag", "ender_bags:gray_bag", "ender_bags:light_gray_bag", "ender_bags:cyan_bag", "ender_bags:purple_bag", "ender_bags:blue_bag", "ender_bags:brown_bag", "ender_bags:green_bag", "ender_bags:red_bag", "ender_bags:black_bag"]
 
 	#Smelting Upgrade Settings
 	[common.smeltingUpgrade]
@@ -277,7 +279,7 @@
 		maxInputOutput = 20
 		#Energy in FE the battery upgrade will have per row of backpack slots
 		#Range: 500 ~ 50000
-		energyPerSlotRow = 10000
+		energyPerSlotRow = 7500
 
 	#Pump Upgrade Settings
 	[common.pumpUpgrade]
@@ -295,7 +297,7 @@
 	[common.entityBackpackAdditions]
 		#Chance of an entity spawning with Backpack
 		#Range: 0.0 ~ 1.0
-		chance = 0.01
+		chance = 0.005
 		#Turns on/off addition of loot into backpacks
 		addLoot = true
 		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.
@@ -310,4 +312,12 @@
 		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
 		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
 		playJukebox = true
+
+	#Xp Pump Upgrade Settings
+	[common.xpPumpUpgrade]
+		#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
+		mendingOn = true
+		#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
+		#Range: 1 ~ 20
+		maxXpPointsPerMending = 5
 

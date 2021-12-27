@@ -1,1 +1,10 @@
-{}
+{
+  "entryOverrides": {
+    "quark:glowshroom": {
+      "enabled": false
+    },
+    "quark:glowcelium": {
+      "enabled": false
+    }
+  }
+}

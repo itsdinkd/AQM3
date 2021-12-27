@@ -9,7 +9,7 @@
 	#Planes crash on bad landings
 	planeCrash = true
 	#Allow stealing planes by players
-	plane_heist = true
+	plane_heist = false
 	#Fuel cost of a small plane
 	#Range: > 0
 	plane_fuel_cost = 6

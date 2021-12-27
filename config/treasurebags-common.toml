@@ -7,5 +7,5 @@
 		#Useful for bag-type items; Dank Storage, SGems Gem Bag, backpacks
 		alwaysSpawnItems = false
 		#Disables all treasure bags in these groups. The built-in bags are in the "default" and "example" groups
-		disabledGroups = ["spawn"]
+		disabledGroups = ["spawn", "example"]
 

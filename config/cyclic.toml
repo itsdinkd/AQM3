@@ -11,17 +11,17 @@
 
 		[cyclic.enchantment.traveler]
 			#Set false to disable enchantment
-			enabled = true
+			enabled = false
 
 		[cyclic.enchantment.reach]
 			#Set false to disable enchantment
-			enabled = true
+			enabled = false
 
 		[cyclic.enchantment.beekeeper]
 			#Beheading enchant add player skin head drop, add any mob id and any skin
 			EntityMHF = ["minecraft:blaze:MHF_Blaze", "minecraft:cat:MHF_Ocelot", "minecraft:cave_spider:MHF_CaveSpider", "minecraft:chicken:MHF_Chicken", "minecraft:cow:MHF_Cow", "minecraft:enderman:MHF_Enderman", "minecraft:ghast:MHF_Ghast", "minecraft:iron_golem:MHF_Golem", "minecraft:magma_cube:MHF_LavaSlime", "minecraft:mooshroom:MHF_MushroomCow", "minecraft:ocelot:MHF_Ocelot", "minecraft:pig:MHF_Pig", "minecraft:zombie_pigman:MHF_PigZombie", "minecraft:sheep:MHF_Sheep", "minecraft:slime:MHF_Slime", "minecraft:spider:MHF_Spider", "minecraft:squid:MHF_Squid", "minecraft:villager:MHF_Villager", "minecraft:witch:MHF_Witch", "minecraft:wolf:MHF_Wolf", "minecraft:guardian:MHF_Guardian", "minecraft:elder_guardian:MHF_Guardian", "minecraft:snow_golem:MHF_SnowGolem", "minecraft:silverfish:MHF_Silverfish", "minecraft:endermite:MHF_Endermite"]
 			#Set false to disable enchantment
-			enabled = true
+			enabled = false
 
 		[cyclic.enchantment.experience_boost]
 			#Set false to disable enchantment
@@ -29,7 +29,7 @@
 
 		[cyclic.enchantment.launch]
 			#Set false to disable Multi Jump enchantment
-			enabled = true
+			enabled = false
 
 		[cyclic.enchantment.ender]
 			#Set false to disable enchantment
@@ -158,12 +158,12 @@
 		[cyclic.blocks.sound]
 			#Sound Recorder - how far out does it listen to record sounds
 			#Range: 1 ~ 64
-			radius = 10
+			radius = 14
 
 		[cyclic.blocks.generator_fuel]
 			#RF energy per tick generated while burning furnace fuel in this machine.  Burn time in ticks is the same as furnace values, so 1 coal = 1600 ticks
 			#Range: 1 ~ 6400
-			rf_per_tick = 80
+			rf_per_tick = 32
 
 		[cyclic.blocks.peat_farm]
 			#Power per use peat_farm
@@ -173,22 +173,22 @@
 		[cyclic.blocks.miner]
 			#Power per use miner
 			#Range: 0 ~ 64000
-			energy_cost = 99
+			energy_cost = 300
 
 		[cyclic.blocks.harvester]
 			#Power per use harvester
 			#Range: 0 ~ 64000
-			energy_cost = 500
+			energy_cost = 740
 
 		[cyclic.blocks.forester]
 			#Power per use forester
 			#Range: 0 ~ 64000
-			energy_cost = 250
+			energy_cost = 450
 
 		[cyclic.blocks.crafter]
 			#Power per use crafter
 			#Range: 0 ~ 64000
-			energy_cost = 1000
+			energy_cost = 1500
 
 		[cyclic.blocks.sponge_lava]
 			#Reach of the sponge
@@ -212,7 +212,7 @@
 		[cyclic.blocks.peat]
 			#Chance that Peat Bog converts to Peat when wet (is multiplied by the number of surrounding water blocks)
 			#Range: 0.0010000000474974513 ~ 1.0
-			conversion_chance = 0.02999999821186066
+			conversion_chance = 0.01999999821186066
 
 		#Sprinkler settings
 		[cyclic.blocks.sprinkler]
@@ -226,7 +226,7 @@
 		[cyclic.blocks.generator_food]
 			#RF energy per tick generated while burning food in this machine
 			#Range: 1 ~ 6400
-			rf_per_tick = 60
+			rf_per_tick = 75
 			#This [factor * (item.food + item.saturation) = ticks] results in the number of ticks food will burn at. IE Bread has (5 + 0.6) with factor 100, will burn for 560 ticks.
 			#Range: 1 ~ 6400
 			ticks_per_food = 100
@@ -234,17 +234,17 @@
 		[cyclic.blocks.packager]
 			#Power per recipe in the packager
 			#Range: 0 ~ 64000
-			energy_cost = 50
+			energy_cost = 100
 
 		[cyclic.blocks.collector_fluid]
 			#Power per use collector_fluid
 			#Range: 0 ~ 64000
-			energy_cost = 500
+			energy_cost = 600
 
 		[cyclic.blocks.structure]
 			#Power per tick while in use
 			#Range: 0 ~ 64000
-			energy_cost = 10
+			energy_cost = 30
 
 		[cyclic.blocks.ender_shelf]
 			#Controller Max distance to search (using manhattan distance)
@@ -257,17 +257,17 @@
 		[cyclic.blocks.uncraft]
 			#Power per use uncraft
 			#Range: 0 ~ 64000
-			energy_cost = 1000
+			energy_cost = 64000
 
 		[cyclic.blocks.beacon]
 			#Power per tick while in use
 			#Range: 0 ~ 64000
-			energy_cost = 0
+			energy_cost = 2000
 
 		[cyclic.blocks.anvil_magma]
 			#Cost of magma fluid per action
 			#Range: 1 ~ 64000
-			fluid_cost = 300
+			fluid_cost = 700
 
 		[cyclic.blocks.uncrafter]
 			#When searching for a recipe, does it ignore all NBT values (such as enchantments, RepairCost, Damage, etc).  For example, if false it will not uncraft damaged or enchanted items
@@ -278,7 +278,7 @@
 			#ITEM IDS HERE.  Block ALL recipes that output this item, no matter which recipe they use
 			ignore_list = ["minecraft:elytra", "minecraft:tipped_arrow", "minecraft:magma_block", "minecraft:stick", "minecraft:*_dye", "spectrite:spectrite_arrow", "spectrite:spectrite_arrow_special", "techreborn:uumatter", "projecte:*"]
 			#RECIPE IDS HERE.  Block these recipe ids from being reversed, but do not block all recipes for this output item
-			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*", "forcecraft:transmutation*"]
+			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "attained*", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*", "forcecraft:transmutation*"]
 
 		[cyclic.blocks.user]
 			#Power per use user
@@ -320,7 +320,7 @@
 		[cyclic.items.charm_attack_speed]
 			#Boost given by item charm_attackspeed
 			#Range: 0.0 ~ 2.0
-			boost = 0.15
+			boost = 0.175
 
 		[cyclic.items.charm_speed]
 			#Boost given by item charm_speed
@@ -330,7 +330,7 @@
 		[cyclic.items.prospector]
 			#Ore Prospector radius around player to search for ores
 			#Range: 1 ~ 99
-			range = 8
+			range = 7
 
 		[cyclic.items.chorus_flight]
 			#Seconds of flight per chorus_flight
@@ -355,19 +355,19 @@
 
 		[cyclic.items.monster_ball]
 			#Entity ids that cannot be picked up with the Monster all
-			ignore_list = ["minecraft:ender_dragon", "minecraft:wither"]
+			ignore_list = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:elder_guardian"]
 
 		#Wand settings
 		[cyclic.items.teleport_wand]
 			#Maximum distance to activate
 			#Range: 8 ~ 1024
-			range = 12
+			range = 8
 
 		#Heart items
 		[cyclic.items.heart]
 			#Maximum number of hearts that can be attained (including initial 10)
 			#Range: 1 ~ 200
-			maximum = 100
+			maximum = 15
 			#Experience given when eating a poisoned heart
 			#Range: 0 ~ 99999
 			experience = 100

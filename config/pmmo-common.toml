@@ -121,7 +121,7 @@
 	maxMobDamageBoost = 100.0
 	#How much an aggresive mob's damage will increase per one Power Level?
 	#Range: 0.0 ~ 10.0
-	mobDamageBoostPerPowerLevel = 1.45
+	mobDamageBoostPerPowerLevel = 1.4
 	#What is the maximum amount an aggressive mob's HP will be boosted?
 	#Range: 0.0 ~ 1024.0
 	maxMobHPBoost = 1000.0
@@ -133,7 +133,7 @@
 	maxMobSpeedBoost = 10.0
 	#How much an aggresive mob's speed will increase per one Power Level?
 	#Range: 0.0 ~ 10.0
-	mobSpeedBoostPerPowerLevel = 1.33
+	mobSpeedBoostPerPowerLevel = 1.25
 	#Should mob xp multipliers inside of biomes be enabled? false means no multipliers
 	biomeMobMultiplierEnabled = true
 
@@ -155,15 +155,15 @@
 	#Should mob rare drops be enabled? false means no requirements
 	mobRareDropEnabled = false
 	#Should use requirements be enabled? false means no requirements
-	useReqEnabled = false
+	useReqEnabled = true
 	#Should place requirements be enabled? false means no requirements
-	placeReqEnabled = false
+	placeReqEnabled = true
 	#Should break requirements be enabled? false means no requirements
 	breakReqEnabled = false
 	#Should biome requirements be enabled? false means no requirements
 	biomeReqEnabled = false
 	#Should dimensional travel requirements be enabled? false means no requirements
-	dimensionTravelReqEnabled = false
+	dimensionTravelReqEnabled = true
 	#Should certain items be restricted from being crafted, without the level requirement?
 	craftReqEnabled = false
 	#Should biome negative effects be enabled? false means no negative effects
@@ -216,10 +216,10 @@
 	baseXp = 250.0
 	#What is the xp increase per level (baseXp + level * xpPerLevel)
 	#Range: 1.0 ~ 1000000.0
-	xpIncreasePerLevel = 50.0
+	xpIncreasePerLevel = 65.0
 	#Every how many levels should a level up broadcast be sent to all players? (10 = every 10 levels)
 	#Range: 1 ~ 1000000
-	levelsPerMilestone = 10
+	levelsPerMilestone = 100
 	#Every how many levels should a total level milestone broadcast be sent to all players? (50 = every 50 levels)
 	#Range: 1 ~ 1000000
 	levelsPerTotalLevelMilestone = 50
@@ -280,7 +280,7 @@
 	barOffsetX = 0.0
 	#GUI bar position Y (Height, 0 is top, 1 is bottom (1 is probably invisible due to clipping))
 	#Range: 0.0 ~ 1.0
-	barOffsetY = 0.9
+	barOffsetY = 0.935
 	#GUI bar position X (Width)
 	#Range: 0.0 ~ 1.0
 	veinBarOffsetX = 0.5
@@ -298,7 +298,7 @@
 	skillListOffsetX = 0.0
 	#GUI Skills List position Y (Height, 0 is top, 1 is bottom (1 is probably invisible due to clipping))
 	#Range: 0.0 ~ 1.0
-	skillListOffsetY = 0.0
+	skillListOffsetY = 0.9
 	#How far away does the Xp Drop spawn
 	#Range: 0.0 ~ 1000.0
 	xpDropSpawnDistance = 50.0
@@ -317,7 +317,7 @@
 	#Should xp drops sync up with the bar being open or closed? HIGHLY RECOMMEND TO KEEP FALSE IF YOU ARE MOVING XP DROP POSITIONS
 	xpDropsAttachedToBar = true
 	#If Off, The skills list at the top left corner will no longer appear (You still have the GUI to show you all of your skills info)
-	showSkillsListAtCorner = true
+	showSkillsListAtCorner = false
 	#If Off, xp drops will no longer appear
 	showXpDrops = true
 	#If Off, xp drops will no longer stack with each other
@@ -350,7 +350,7 @@
 ["Breaking Speed"]
 	#Minimum Breaking Speed (1 is Original speed, 0.5 is half)
 	#Range: 0.0 ~ 100.0
-	minBreakSpeed = 1.0
+	minBreakSpeed = 0.9
 	#How many blocks it takes to reach 0 Break Speed (will get capped by Minimum Breaking Speed)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	blocksToUnbreakableY = 1000.0
@@ -395,6 +395,9 @@
 	#How much xp should be awarded in Farming for growing crops? (Json Overrides this) (Set to 0 to disable default xp)
 	#Range: 0.0 ~ 1000000.0
 	defaultBreedingXp = 15.0
+	#How much faster on average should crops grow per level? (Percentage)
+	#Range: 0.0 ~ 1000000.0
+	growthSpeedIncreasePerLevel = 0.003333333333333333
 
 [Agility]
 	#Maximum chance to save each point of fall damage (100 = no fall damage)
@@ -408,16 +411,16 @@
 	maxJumpBoost = 0.33
 	#Every how many levels you gain an extra block of jumping height while Crouching
 	#Range: 1.0 ~ 1.0E9
-	levelsPerCrouchJumpBoost = 45.0
+	levelsPerCrouchJumpBoost = 40.0
 	#Every how many levels you gain an extra block of jumping height while Sprinting
 	#Range: 1.0 ~ 1.0E9
 	levelsPerSprintJumpBoost = 50.0
 	#How much speed boost you can get from Agility (100 = 100% vanilla + 100% = twice as fast max)
 	#Range: 0.0 ~ 1.0E9
-	maxSpeedBoost = 100.0
+	maxSpeedBoost = 60.0
 	#How much speed boost you get from each level (1 = 1% speed boost per level)
 	#Range: 0.0 ~ 100.0
-	speedBoostPerLevel = 0.5
+	speedBoostPerLevel = 0.333
 
 [Endurance]
 	#How much endurance is max (100 = god mode)
@@ -521,7 +524,7 @@
 [Swimming]
 	#Underwater Nightvision Unlock Level
 	#Range: 0 ~ 1000000
-	nightvisionUnlockLevel = 40
+	nightvisionUnlockLevel = 45
 	#Is Underwater Nightvision enabled?
 	underwaterNightVision = true
 

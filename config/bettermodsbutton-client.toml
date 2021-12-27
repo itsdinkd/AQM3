@@ -2,7 +2,7 @@
 #Allowed Values: REPLACE_REALMS, LEFT_TO_REALMS, RIGHT_TO_REALMS, INSERT_BELOW_REALMS, NONE, NO_CHANGE
 main_menu_mods_button = "INSERT_BELOW_REALMS"
 #Show a small green orb indicating that mod updates are available.
-update_notification = false
+update_notification = true
 #Add mod count to mods button.
 mod_count = true
 #Force a dirt background to show for the mod list screen, even when inside of a world where it would normally be transparent.

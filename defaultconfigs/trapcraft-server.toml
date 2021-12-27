@@ -1,0 +1,10 @@
+#The distance at which entities are pushed by the fan.
+#Range: 0 ~ 64
+fan_range = 5
+#The rate at which velocity is added to entities.
+#Range: 0.01 ~ 1.0
+fan_acceleration = 0.05
+#The max velocity entities can be given by a fan.
+#Range: 0.01 ~ 1.0
+fan_max_speed = 0.3
+

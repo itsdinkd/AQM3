@@ -19,7 +19,7 @@
 	#List of entity pairs which spawn in villages. Format = entity1;entity2;5;6   5 is the chance of entity2(one in five), 6 is the total weight of this whole entry to be chosen
 	villageEntityTypes = ["minecraft:zombie;minecraft:stray;3;14", "minecraft:skeleton;minecraft:panda;5;6", "minecraft:husk;minecraft:spider;3;15", "minecraft:creeper;minecraft:cave_spider;3;11", "minecraft:slime;minecraft:rabbit;2;9", "minecraft:zombified_piglin;minecraft:pig;3;7", "minecraft:snow_golem;minecraft:sheep;3;5", "minecraft:witch;minecraft:bat;3;15", "minecraft:vindicator;minecraft:illusioner;5;3", "minecraft:pillager;minecraft:evoker;7;7"]
 	#Additional structures to add as houses for spawning zombie villages, default: []. Example for bountiful and waystones support: ["bountiful:village/common/bounty_gazebo", "waystones:village/common/waystone"]
-	additionalStructures = ["waystones:village/common/waystone",]
+	additionalStructures = ["waystones:village/common/waystone"]
 	#Set higher to increase the amount of additional structures generated, note those replace houses, default: 2
 	#Range: 1 ~ 100
 	additionalStructuresWeight = 2

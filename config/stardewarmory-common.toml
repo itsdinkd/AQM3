@@ -1,0 +1,19 @@
+
+["Config for the Stardew Armory mod"]
+	#Should Guild structures spawn in the world. Default value is true
+	"Guild bool" = true
+	#If the Guild structure is enabled, what is the minimum amount of chunks apart each should be. Default value is 45
+	"Minimum int" = 45
+	#If the Guild structure is enabled, what is the average amount of chunks apart each should be. Default value is 60
+	"Average int" = 60
+	#How many veins of iridium ore should spawn per chunk. Default value is 4
+	"Iridium int" = 4
+	#How many veins of cinder ore should spawn per chunk. Default value is 20
+	"Cinder int" = 20
+	#Chance for a zombie to spawn with a wooden club in hand. Accepts values within a range of [1,0). Default value is 0.05 (5%)
+	"Club float" = 0.05
+	#Should Lucky Hit play the critical sound effect. Default value is true
+	"Crit bool" = true
+	#How likely the warrior ring is to proc after a kill. Default value is 8
+	"Warrior int" = 8
+

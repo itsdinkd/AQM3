@@ -1,0 +1,13 @@
+
+[general]
+	#If TRUE uses a Panel with Half the Height
+	"Small Frame" = true
+	#Should the Panel appear from the Bottom
+	"Lower Border" = true
+	#Should the Panel appear from the Left
+	"Left Border" = false
+	#Sets how long the Panel stays on the Screen
+	Timer = 100
+	#Sets how fast the Panel moves
+	Speed = 200
+

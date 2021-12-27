@@ -1,0 +1,128 @@
+
+#World generation related configuration
+[World]
+	#Controls the weight compared to other world gen [Default: 3]
+	#Range: > 0
+	gysahlGreenSpawnWeight = 2
+	#Controls the Patch Size compared to other world gen [Default: 64]
+	#Range: > 0
+	gysahlGreenPatchSize = 32
+	#Controls the Spawn Chance compared to other world gen [Default: 0.1]
+	#Range: 0.0 ~ 1.0
+	gysahlGreenSpawnChance = 0.07
+	#Controls the weight compared to other world gen [Default: true]
+	gysahlGreensSpawnOnlyInOverworld = true
+
+	#Ability Fruit
+	[World.ability_fruit]
+		#Add ability fruit to dungeon loot [Default: true]
+		addAbilityFruitsToDungeonLoot = true
+		#This number controls the weight ability fruit has compared to other items in a loot table. [Default: 1]
+		#Range: > 0
+		abilityFruitDungeonLootWeight = 1
+
+#Spawning configuration
+[spawning]
+	#Controls Chocobo Spawn Weight [Default: 10]
+	#Range: > 0
+	chocoboSpawnWeight = 3
+	#Controls Chocobo Pack Size Min [Default: 1]
+	#Range: > 0
+	chocoboPackSizeMin = 1
+	#Controls Chocobo Pack Size Max [Default: 3]
+	#Range: > 0
+	chocoboPackSizeMax = 2
+
+#Chocobo configuration
+[Chocobo]
+	#This multiplier controls the tame chance per gysahl used, so .15 results in 15% chance to tame [Default: 0.15]
+	#Range: 0.0 ~ 1.0
+	tameChance = 0.15
+
+	#Stamina Costs
+	[Chocobo.stamina_costs]
+		#Controls the Sprint Stamina cost [Default: 0.06]
+		#Range: 0.0 ~ 1.0
+		sprintStaminaCost = 0.06
+		#Controls the Glide Stamina cost [Default: 0.005]
+		#Range: 0.0 ~ 1.0
+		glideStaminaCost = 0.005
+		#Controls the Fly Stamina cost [Default: 0.08]
+		#Range: 0.0 ~ 1.0
+		flyStaminaCost = 0.14
+		#Controls the Jump Stamina cost [Default: 0.00]
+		#Range: 0.0 ~ 1.0
+		jumpStaminaCost = 0.0
+		#Controls the amount of Stamina recharged per tick [Default: 0.025]
+		#Range: 0.0 ~ 1.0
+		staminaRegenRate = 0.025
+
+	#Defaults
+	[Chocobo.defaults]
+		#Controls the default Stamina [Default: 10]
+		#Range: > 0
+		defaultStamina = 10
+		#Controls the default Speed [Default: 20]
+		#Range: > 0
+		defaultSpeed = 18
+		#Controls the default Health [Default: 20]
+		#Range: > 0
+		defaultHealth = 24
+
+	#Experience Costs
+	[Chocobo.xp_costs]
+		#Controls the experience required to unlock the Sprint Ability [Default: 1500]
+		#Range: > 1
+		ExpCostSprint = 2500
+		#Controls the experience required to unlock the Glide Ability [Default: 1500]
+		#Range: > 1
+		ExpCostGlide = 4000
+		#Controls the experience required to unlock the Dive Ability [Default: 1000]
+		#Range: > 1
+		ExpCostDive = 1750
+		#Controls the experience required to unlock the Fly Ability [Default: 2000]
+		#Range: > 1
+		ExpCostFly = 8000
+
+#Breeding configuration
+[breeding]
+	#Controls the amount of ticks / time till an egg hatches. This value isn't super accurate [Default: 10000]
+	#Range: > 0
+	eggHatchTimeTicks = 10000
+
+	#Max Stats
+	[breeding.Max]
+		#Controls the Max Health a Chocobo can have [Default: 50]
+		#Range: > 0
+		maxHealth = 50
+		#Controls the Max Speed a Chocobo can have [Default: 40]
+		#Range: > 0
+		maxSpeed = 40
+		#Controls the Max Stamina a Chocobo can have [Default: 25]
+		#Range: 0.0 ~ 2.147483647E9
+		maxStamina = 25.0
+
+	#Gain Stats
+	[breeding.gain_stats]
+		#Controls the multiplier the Health stat gains (for example 0.05 would result in a max gain of 5% so 20 to 21) [Default: .1]
+		#Range: 0.0 ~ 2.147483647E9
+		posgainHealth = 0.11
+		#Controls the multiplier the Speed stat gains (for example 0.05 would result in a max gain of 5% so 20 to 21) [Default: .1]
+		#Range: 0.0 ~ 2.147483647E9
+		posgainSpeed = 0.1
+		#Controls the multiplier the Stamina stat gains (for example 0.05 would result in a max gain of 5% so 20 to 21) [Default: .1]
+		#Range: 0.0 ~ 2.147483647E9
+		posgainStamina = 0.1
+
+	#Loss Stats
+	[breeding.loss_stats]
+		#Controls the multiplier the Health stat loss (for example 0.95 would result in a max loss of 5% so 20 to 19) [Default: .95]
+		#Range: 0.0 ~ 2.147483647E9
+		poslossHealth = 0.95
+		#Controls the multiplier the Speed stat gains (for example 0.95 would result in a max loss of 5% so 20 to 19) [Default: .95]
+		#Range: 0.0 ~ 2.147483647E9
+		poslossSpeed = 0.95
+		#Controls the multiplier the Stamina stat gains (for example 0.95 would result in a max loss of 5% so 20 to 19) [Default: .95]
+		#Range: 0.0 ~ 2.147483647E9
+		poslossStamina = 0.95
+
