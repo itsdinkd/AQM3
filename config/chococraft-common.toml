@@ -49,7 +49,7 @@
 		glideStaminaCost = 0.005
 		#Controls the Fly Stamina cost [Default: 0.08]
 		#Range: 0.0 ~ 1.0
-		flyStaminaCost = 0.14
+		flyStaminaCost = 0.3
 		#Controls the Jump Stamina cost [Default: 0.00]
 		#Range: 0.0 ~ 1.0
 		jumpStaminaCost = 0.0

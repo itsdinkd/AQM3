@@ -52,14 +52,14 @@ allowed_waystone_models = ["simple_0", "simple_1", "simple_2", "detailed_0", "de
 		#e.g.: If "tol ", "ker" and "dra" are selected, the name will be "Tol Kerdra"
 		#Here are some language-specific examples:
 		#english:
-		#village_name_prefixes = ["", "", "", "", "", "", "", "", "", "", "", "little ", "grand ", "St ", "new "]
-		#village_name_infixes = ["black", "bow", "long", "cal", "glen", "elk", "taylors", "man", "spring", "cats", "brad", "leakes", "singers", "thorn", "lake", "burn", "chip", "brace", "raven", "middle"]
-		#village_name_postfixes = ["ville", "bridge", "ham", " island", "cester", "water", "town", " creek", " valley", "view", "bury", "burgh", "ington", "field", "dale", " port", "worth", "sey", "don", "pool", "wood", "ley", "ford", " hill", "gate"]
+		village_name_prefixes = ["the", "saint", "tiny", "north", "", "", "", "", "", "", "", "", "little ", "grand ", "St ", "new "]
+		village_name_infixes = ["black", "bow", "long", "cal", "glen", "elk", "taylors", "man", "spring", "cats", "brad", "leakes", "singers", "thorn", "lake", "burn", "chip", "brace", "raven", "middle"]
+		village_name_postfixes = ["ville", "bridge", "ham", " island", "cester", "water", "way", "town", " creek", " valley", "view", "bury", "burgh", "ington", "field", "dale", " port", "worth", "sey", "don", "pool", "wood", "ley", "ford", " hill", "gate"]
 		#german:
 		#village_name_prefixes = ["", "", "", "", "Klein", "Groß", "Nieder", "Ober", "Bad ", "Gau-"]
 		#village_name_infixes = ["", "sege", "mühl", "sängers", "bach", "stein", "holz", "würz", "höch", "wolfs", "katz", "lauter", "hildes", "heides", "ochsen", "königs", "neu", "schaf", "rotten"]
 		#village_name_postfixes = ["heim", "stadt", "stedt", "berg", "tal", "hausen", "dorf", "ingen", "burg", "furt", "haven", "felde", "brück", "brücken", "kirch", "horn"]
-		village_name_prefixes = ["ak", "dev", "dol ", "ed", "il", "og", "por", "rov", "tek ", "tar", "tol ", "ves", ""]
-		village_name_infixes = ["do ", "en", "go", "na", "nah ", "ker", "ol", "ora", "ra", "rem", "ro"]
-		village_name_postfixes = ["ar", "blo", "bo", "bro", "do", "dra", "er", "ker", "lia", "tek"]
+		#village_name_prefixes = ["ak", "dev", "dol ", "ed", "il", "og", "por", "rov", "tek ", "tar", "tol ", "ves", ""]
+		#village_name_infixes = ["do ", "en", "go", "na", "nah ", "ker", "ol", "ora", "ra", "rem", "ro"]
+		#village_name_postfixes = ["ar", "blo", "bo", "bro", "do", "dra", "er", "ker", "lia", "tek"]
 

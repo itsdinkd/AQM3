@@ -4,11 +4,11 @@
 # 1 for spawning in most chunks and 1001 for none.
 [Shipwrecks]
 	#Range: 1 ~ 1001
-	endShipwreckAverageChunkDistance = 24
+	endShipwreckAverageChunkDistance = 32
 	#Range: 1 ~ 1001
-	netherBricksShipwreckAverageChunkDistance = 21
+	netherBricksShipwreckAverageChunkDistance = 29
 	#Range: 1 ~ 1001
-	crimsonShipwreckAverageChunkDistance = 18
+	crimsonShipwreckAverageChunkDistance = 24
 	#Range: 1 ~ 1001
-	warpedShipwreckAverageChunkDistance = 18
+	warpedShipwreckAverageChunkDistance = 22
 

@@ -6,10 +6,10 @@
 	[power.mining_gadget]
 		#Maximum power for the Mining Gadget
 		#Range: > 0
-		maxPower = 1000000
+		maxPower = 100000
 		#Base cost per block broken
 		#Range: > 0
-		baseCost = 500
+		baseCost = 250
 
 	#Upgrade Cost Settings
 	[power.upgrades]
@@ -21,7 +21,7 @@
 		upgradeMagnet = 75
 		#Cost per block for Void Junk upgrade
 		#Range: > 0
-		upgradeVoid = 20
+		upgradeVoid = 30
 		#Cost per block for Fortune 1 upgrade
 		#Range: > 0
 		upgradeFortune1 = 100
@@ -45,7 +45,7 @@
 		upgradeEfficiency4 = 175
 		#Cost per block for Efficiency 5 upgrade
 		#Range: > 0
-		upgradeEfficiency5 = 250
+		upgradeEfficiency5 = 300
 		#Cost per Light Block placed
 		#Range: > 0
 		upgradeLight = 300
@@ -54,11 +54,11 @@
 		upgradeFreeze = 300
 		#Capacity Boost from Battery 1 Upgrade
 		#Range: > 0
-		battery1 = 3000000
+		battery1 = 100000
 		#Capacity Boost from Battery 2 Upgrade
 		#Range: > 0
-		battery2 = 5000000
+		battery2 = 400000
 		#Capacity Boost from Battery 3 Upgrade
 		#Range: > 0
-		battery3 = 10000000
+		battery3 = 700000
 

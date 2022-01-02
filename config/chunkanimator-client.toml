@@ -6,15 +6,15 @@
 # HORIZONTAL_SLIDE_ALTERNATE: Same as HORIZONTAL_SLIDE, but the cardinal direction of a chunk is determined slightly different (just try both :D).
 #
 #Allowed Values: BELOW, ABOVE, HYBRID, HORIZONTAL_SLIDE, HORIZONTAL_SLIDE_ALTERNATE
-mode = "BELOW"
+mode = "HYBRID"
 #Defines the function that should be used to control the movement of chunks.
 #If you want a visual comparison there is a link on the CurseForge page.
 #
 #Allowed Values: LINEAR, QUAD, CUBIC, QUART, QUINT, EXPO, SINE, CIRC, BACK, BOUNCE, ELASTIC
-easingFunction = "SINE"
+easingFunction = "CUBIC"
 #Defines how long the animation should last (in milliseconds).
 #Range: > 0
-animationDuration = 1000
+animationDuration = 800
 #If enabled, chunks that are next to the player will not animate.
 disableAroundPlayer = false
 

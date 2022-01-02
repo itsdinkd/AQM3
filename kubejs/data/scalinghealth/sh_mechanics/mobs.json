@@ -1,0 +1,116 @@
+{
+  "healthMode" : {
+    "operation" : "MULTIPLY_BASE",
+    "scaling_reduction" : 0.5
+  },
+  "general" : {
+    "passiveMultiplier" : 0.0,
+    "hostileMultiplier" : 0.375,
+    "hostilePotionChance" : 0.06,
+    "peacefulPotionChance" : 0.0,
+    "damageBoostScale" : 0.11,
+    "maxDamageBoost" : 300,
+    "spawnerModifier" : 0.33,
+    "xpBoost" : 0.02
+  },
+  "effects" :
+  [
+    {
+      "effect" : "minecraft:speed",
+      "level" : 1,
+      "minDifficulty" : 15,
+      "durationInMinutes" : 10.0
+    },
+    {
+      "effect" : "minecraft:speed",
+      "level" : 2,
+      "minDifficulty" : 50,
+      "durationInMinutes" : 10.0
+    },
+    {
+      "effect" : "minecraft:strength",
+      "level" : 1,
+      "minDifficulty" : 30,
+      "durationInMinutes" : 10.0
+    },
+    {
+      "effect" : "minecraft:fire_resistance",
+      "level" : 1,
+      "minDifficulty" : 10,
+      "durationInMinutes" : 10.0
+    },
+    {
+      "effect" : "minecraft:invisibility",
+      "level" : 1,
+      "minDifficulty" : 35,
+      "durationInMinutes" : 10.0
+    },
+    {
+      "effect" : "minecraft:resistance",
+      "level" : 1,
+      "minDifficulty" : 40,
+      "durationInMinutes" : 10.0
+    }
+  ],
+  "blights" : {
+    "blightChance" : 0.03,
+    "blightXpBoost" : 2,
+    "notifyBlightDeath" : true,
+    "blightDifficultyModifier" : 1.5,
+    "effects" :
+    [
+      {
+        "effect" : "minecraft:speed",
+        "level" : 4,
+        "minDifficulty" : 20,
+        "durationInMinutes" : 5.0
+      },
+      {
+        "effect" : "minecraft:fire_resistance",
+        "level" : 2,
+        "minDifficulty" : 0,
+        "durationInMinutes" : 10.0
+      },
+      {
+        "effect" : "minecraft:strength",
+        "level" : 2,
+        "minDifficulty" : 40,
+        "durationInMinutes" : 5.0
+      },
+      {
+        "effect" : "minecraft:resistance",
+        "level" : 2,
+        "minDifficulty" : 30,
+        "durationInMinutes" : 5.0
+      },
+      {
+        "effect" : "minecraft:absorption",
+        "level" : 1,
+        "minDifficulty" : 60,
+        "durationInMinutes" : 5.0
+      },
+      {
+        "effect" : "minecraft:haste",
+        "level" : 2,
+        "minDifficulty" : 90,
+        "durationInMinutes" : 5.0
+      },
+      {
+        "effect" : "minecraft:strength",
+        "level" : 3,
+        "minDifficulty" : 130,
+        "durationInMinutes" : 5.0
+      },
+      {
+        "effect" : "minecraft:absorption",
+        "level" : 2,
+        "minDifficulty" : 150,
+        "durationInMinutes" : 5.0
+      }
+    ]
+  },
+  "pets" : {
+    "petsRegenDelay" : 30,
+    "petsHealthCrystalGain" : 5
+  }
+}

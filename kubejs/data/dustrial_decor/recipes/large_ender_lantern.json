@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "$$$",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "$": {
+      "item": "occultism:spirit_lantern"
+    }
+  },
+  "result": {
+    "item": "dustrial_decor:large_ender_lantern"
+  }
+}

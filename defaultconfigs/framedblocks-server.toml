@@ -1,0 +1,5 @@
+
+[general]
+	#Wether blocks with block entities can be placed in Framed Blocks
+	allowBlockEntities = false
+

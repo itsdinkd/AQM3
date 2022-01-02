@@ -1,7 +1,8 @@
 // priority: 0
 
-console.info('AQM3 -- Removing Items.... v0.5');
+console.info('AQM3 -- Removing Items.... v1.0');
 const removeJei = [
+'angelring:itemdiamondring',
 'buildinggadgets:gadget_destruction',
 'chanceglobe:chance_globe',
 'cyclic:antigravity',
@@ -14,6 +15,7 @@ const removeJei = [
 'cyclic:apple_iron',
 'cyclic:apple_lapis',
 'cyclic:apple_prismarine',
+'cyclic:apple_sprout_emerald',
 'cyclic:beacon',
 'cyclic:build_scepter',
 'cyclic:charm_antipotion',
@@ -31,7 +33,6 @@ const removeJei = [
 'cyclic:chorus_spectral',
 'cyclic:elevation_wand',
 'cyclic:empty_heart',
-'cyclic:gold_chain',
 'cyclic:ender_book',
 'cyclic:ender_pearl_mounted',
 'cyclic:ender_pearl_reuse',
@@ -39,6 +40,7 @@ const removeJei = [
 'cyclic:eye_teleport',
 'cyclic:fire_scepter',
 'cyclic:glowing_helmet',
+'cyclic:gold_chain',
 'cyclic:ice_scepter',
 'cyclic:lightning_scepter',
 'cyclic:mattock',
@@ -54,25 +56,22 @@ const removeJei = [
 'cyclic:water_candle',
 'cyclic:wireless_item',
 'gobber2:gobber2_boots_dragon',
-'gobber2:gobber2_boots_dragon',
 'gobber2:gobber2_chestplate_dragon',
 'gobber2:gobber2_helmet_dragon',
 'gobber2:gobber2_leggings_dragon',
-'gobber2:gobber2_ring_repair',
-'gobber2:gobber2_ring_pyro',
+'gobber2:gobber2_medallion_glowing',
+'gobber2:gobber2_ring_airwalking',
 'gobber2:gobber2_ring_ascent',
-'gobber2:gobber2_ring_repair',
+'gobber2:gobber2_ring_blaze',
 'gobber2:gobber2_ring_farmer',
+'gobber2:gobber2_ring_husbandry',
+'gobber2:gobber2_ring_pyro',
 'gobber2:gobber2_ring_repair',
+'gobber2:gobber2_ring_swiftness',
+'gobber2:gobber2_ring_vision',
 'gobber2:gobber2_staff_farmer',
 'gobber2:gobber2_staff_harvest',
-'gobber2:gobber2_ring_husbandry',
-'gobber2:gobber2_sword_traveler',
-'gobber2:gobber2_ring_vision',
-'gobber2:gobber2_ring_swiftness',
-'gobber2:gobber2_ring_blaze',
-'gobber2:gobber2_ring_airwalking',
-'gobber2:gobber2_medallion_glowing'
+'gobber2:gobber2_sword_traveler'
 ];
 
 onEvent('jei.hide.items', event => {
@@ -80,3 +79,17 @@ onEvent('jei.hide.items', event => {
     event.hide(item)
   })
 })
+
+onEvent('rei.add.items', event => {
+  event.add(item.of('cyclic:guide_book'));
+  event.add(item.of('kubejs:star_of_icon'));
+  event.add(item.of('kubejs:demon_pearl'))
+  event.add(item.of('kubejs:corrupted_emerald'))
+});
+
+
+onEvent('rei.information', event => {
+  event.add('kubejs:star_of_icon', 'Boss Item', ['To Retrieve..', 'Kill Icon of Sin']);
+  event.add('kubejs:demon_pearl', 'Boss Item', ['To Retrieve..', 'Kill Tyrant']);
+  event.add('kubejs:corrupted_emerald', 'Boss Item', ['To Retrieve..', 'Kill Mother Demon']);
+});

@@ -104,7 +104,7 @@
 	#Dynamic changes in the world
 	[VanillaTweaks.world]
 		#Don't want that that pesky lava pockets in nether to kill you?
-		disableLavaPocketGen = true
+		disableLavaPocketGen = false
 		#Is realistic predator/prey relationships activated?
 		realisticRelationship = true
 		#Want seeds to auto-plant themselves when broken?

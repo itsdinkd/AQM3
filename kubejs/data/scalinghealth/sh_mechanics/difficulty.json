@@ -1,0 +1,61 @@
+{
+  "startingValue" : 0,
+  "minValue" : 0,
+  "maxValue" : 250,
+  "changePerSecond" : 0.0005555555555555555,
+  "mode" : {
+    "type" : "average",
+    "radius": 256,
+    "weighted": true
+  },
+  "groupBonus" : "1 + 0.05 * (areaPlayerCount - 1)",
+  "groupBonusRadius" : 128,
+  "idleMultiplier" : 0.0,
+  "afkMessage" : true,
+  "timeBeforeAfk" : 120,
+  "sleepWarningMessage": false,
+  "multipliers" : {
+    "lunarMultipliers" : [1.05, 1.04, 1.02, 1.01, 0.985, 1.0, 1.01, 1.03],
+    "locationMultipliers" : [
+      {
+        "scale" : 1.0,
+        "dimensions" : ["minecraft:the_end", "minecraft:the_nether"]
+      },
+      {
+        "scale" : 1.0,
+        "dimensions" : ["minecraft:overworld"],
+        "biomes" : ["minecraft:swamp", "minecraft:swamp_hills"]
+      }
+    ]
+  },
+  "mutators" : {
+    "onBlightKilled" : "difficulty + 0.03",
+    "onHostileKilled" : "difficulty + 0.0047",
+    "onPeacefulKilled" : "difficulty",
+    "onPlayerKilled" : "difficulty + 0.2333",
+    "onPlayerDeath" : "difficulty - 0.07777",
+    "onPlayerSleep" : "difficulty",
+    "byEntity" : [
+      {
+        "entities" : ["minecraft:villager"],
+        "onKilled" : "difficulty + 0.05"
+      },
+      {
+        "entities" : ["minecraft:elder_guardian", "minecraft:wither", "minecraft:ender_dragon"],
+        "onKilled" : "difficulty + 0.25"
+      },
+      {
+        "entities" : ["meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:swampjaw"],
+        "onKilled" : "difficulty + 0.15"
+      },
+      {
+        "entities" : ["doom:motherdemon", "doom:tyrant", "doom:iconofsin"],
+        "onKilled" : "difficulty + 0.75"
+      },
+      {
+        "entities" : ["doom:arachnotron", "doom:arachnotroneternal", "doom:arch_maykr", "doom:archvile", "doom:archvileeternal", "doom:armoredbaron", "doom:baron", "doom:baron2016", "doom:blood_maykr", "doom:cacodemon", "doom:chaingunner", "doom:cueball", "doom:cyberdemon", "doom:cyberdemon2016", "doom:doom_hunter", "doom:dreadknight", "doom:firebronebaron", "doom:gargoyle", "doom:gladiator", "doom:gore_nest", "doom:hellknight", "doom:hellknight2016", "doom:imp", "doom:imp2016", "doom:mancubus", "doom:marauder", "doom:maykr_drone", "doom:mechazombie", "doom:nightmare_imp", "doom:painelemental", "doom:pinky", "doom:pinky2016", "doom:possessed_scientist", "doom:possessed_soldier", "doom:possessed_worker", "doom:prowler", "doom:revenant", "doom:revenant2016", "doom:shotgunguy", "doom:spectre", "doom:spidermastermind", "doom:spidermastermind2016", "doom:stone_imp", "doom:summoner", "doom:tentacle", "doom:turret", "doom:unwilling", "doom:whiplash", "doom:zombieman"],
+        "onKilled" : "difficulty + 0.00659"
+      }
+    ]
+  }
+}

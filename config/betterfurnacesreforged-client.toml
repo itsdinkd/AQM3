@@ -46,14 +46,14 @@
 		# 200 ticks is what a regular furnace takes.
 		# Default: 4
 		#Range: 2 ~ 72000
-		speed = 4
+		speed = 6
 
 	[furnaces.ultimate_tier]
 		# Number of ticks to complete one smelting operation.
 		# 200 ticks is what a regular furnace takes.
 		# Default: 1 (Only work with Ultimate Furnaces addon)
 		#Range: 1 ~ 72000
-		speed = 1
+		speed = 3
 
 	[furnaces.furnace_xp_drop]
 		# This value indicates when the furnace should 'overload' and spit out the xp stored. 
@@ -98,5 +98,5 @@
 	[updates.check_updates]
 		# true = check for updates, false = don't check for updates.
 		# Default: true.
-		updates = true
+		updates = false
 

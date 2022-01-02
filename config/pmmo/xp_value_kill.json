@@ -733,7 +733,7 @@
 	},
 	"minecraft:wither":
 	{
-		"combat": 1000
+		"combat": 700
 	},
 	"minecraft:wither_skeleton":
 	{
@@ -741,7 +741,7 @@
 	},
 	"minecraft:zombie":
 	{
-		"combat": 15
+		"combat": 10
 	},
 	"minecraft:zombie_pigman":
 	{

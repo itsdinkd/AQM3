@@ -2,7 +2,7 @@
 #ToolKit common config
 [playerEvent]
 	#Send messages to users on join?
-	message_on_join = false
+	message_on_join = true
 	#if messageOnJoin is true this message will be send to the player on joining world
-	message = "Hello from ToolKit, this message can be change or disabled in config."
+	message = "Welcome to AQM3, Join our discord to chat and read the rules https://discord.gg/y6Sby9BGVe"
 

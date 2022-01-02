@@ -1,6 +1,6 @@
 // priority: 0
 
-console.info('AQM3 -- Removing Recipes....)');
+console.info('AQM3 -- Removing Conflicts....)');
 
 const conflictRemoveJei = [
 'cyclic:gold_chain'

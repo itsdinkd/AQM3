@@ -208,11 +208,11 @@
 		"Render Items In Chat" = true
 
 	[management.inventory_sorting]
-		"Enable Player Inventory" = true
-		"Enable Player Inventory In Chests" = true
-		"Enable Chests" = true
+		"Enable Player Inventory" = false
+		"Enable Player Inventory In Chests" = false
+		"Enable Chests" = false
 		#Play a click when sorting inventories using keybindings
-		"Satisfying Click" = true
+		"Satisfying Click" = false
 
 	[management.expanded_item_interactions]
 		"Enable Armor Interaction" = true
@@ -668,7 +668,7 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.2
+		"Chance Per Chunk" = 0.15
 		"Min Y" = -50
 		"Max Y" = 0
 		"Min Mob Count" = 5
@@ -684,7 +684,7 @@
 	[world.fairy_rings]
 		"Forest Chance" = 0.00425
 		"Plains Chance" = 0.0015
-		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore", "gobber2:gobber2_globette"]
+		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore", "gobber2:gobber2_ore"]
 
 		[world.fairy_rings.dimensions]
 			"Is Blacklist" = false
@@ -1067,13 +1067,13 @@
 
 	[world.big_dungeon]
 		#The chance that a big dungeon spawn candidate will be allowed to spawn. 0.2 is 20%, which is the same as the Pillager Outpost.
-		"Spawn Chance" = 0.1
+		"Spawn Chance" = 0.15
 		"Loot Table" = "minecraft:chests/simple_dungeon"
 		"Max Rooms" = 10
 		"Min Start Y" = -10
 		"Max Start Y" = 10
 		"Chest Chance" = 0.5
-		"Average Distance" = 20
+		"Average Distance" = 30
 		"Minimum Distance" = 11
 
 		[world.big_dungeon.biome_config]
@@ -1367,15 +1367,15 @@
 		"Enable Armor" = true
 
 	[client.improved_tooltips]
-		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Attribute Tooltips" = false
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
 		"Shulker Box Use Colors" = true
 		"Shulker Box Require Shift" = false
 		"Map Require Shift" = false
-		"Show Saturation" = true
+		"Show Saturation" = false
 		"Food Compression Threshold" = 4
 		#The value of each shank of food. Tweak this when using mods like Hardcore Hunger which change that value.
 		"Food Divisor" = 2

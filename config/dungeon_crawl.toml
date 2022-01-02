@@ -31,7 +31,7 @@
 	#Has to be higher than the separation!
 	#
 	#Range: 9 ~ 8192
-	spacing = 24
+	spacing = 98
 	#----------------------------------------------------------------------------------------------------+
 	#The minimum distance between the dungeons in chunks. Has to be lower than the spacing!
 	#The closer the separation is to the spacing, the more grid-aligned and predictable the dungeon placement will be.
@@ -39,7 +39,7 @@
 	#Has to be lower than the spacing!
 	#
 	#Range: 8 ~ 8191
-	separation = 12
+	separation = 52
 
 	["Dungeon Placement".Biomes]
 		#----------------------------------------------------------------------------------------------------+
@@ -88,7 +88,7 @@
 	#The activation range for the spawners in the dungeons.
 	#
 	#Range: 1 ~ 64
-	spawner_activation_range = 12
+	spawner_activation_range = 10
 	#----------------------------------------------------------------------------------------------------+
 	#The number of different entities per spawner. Increasing the number increases the diversity of the monster equipment.
 	#

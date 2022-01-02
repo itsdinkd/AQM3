@@ -1,7 +1,7 @@
 
 [general]
 	#If set to FALSE, support for sewing recipes will not be enabled regardless of the mod's presence.
-	disableAnvilUpgrading = false
+	disableAnvilUpgrading = true
 	#If AUTO, the crafting and upgrade recipes will use the Sewing mechanics if the Sewing Kit mod is present. Off disables anvil upgrading regardless.
 	#Allowed Values: OFF, AUTO, ON
 	anvilUpgrading = "AUTO"

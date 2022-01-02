@@ -1,28 +1,28 @@
 {
 	"aquaculture:neptunium_axe":
 	{
-		"swimming": 2.5
+		"swimming": 3
 	},
 	"aquaculture:neptunium_hoe":
 	{
-		"farming": 20,
-		"swimming": 2.5
+		"farming": 5,
+		"swimming": 5
 	},
 	"aquaculture:neptunium_pickaxe":
 	{
-		"swimming": 2.5
+		"swimming": 5
 	},
 	"aquaculture:neptunium_shovel":
 	{
-		"swimming": 2.5
+		"swimming": 5
 	},
 	"ars_nouveau:apprentice_spell_book":
 	{
-		"magic": 10
+		"magic": 2.5
 	},
 	"ars_nouveau:archmage_spell_book":
 	{
-		"magic": 20
+		"magic": 4
 	},
 	"dungeons_gear:eternal_knife":
 	{
@@ -80,47 +80,51 @@
 	},
 	"extendednether:netherite_hoe":
 	{
-		"farming": 15
+		"farming": 5
 	},
 	"minecraft:diamond_hoe":
 	{
-		"farming": 10
+		"farming": 4
 	},
 	"minecraft:golden_axe":
 	{
-		"woodcutting": 50,
-		"combat": 50
+		"woodcutting": 4,
+		"combat": 2
 	},
 	"minecraft:golden_hoe":
 	{
-		"farming": 20
+		"farming": 6
 	},
 	"minecraft:golden_pickaxe":
 	{
-		"mining": 50
+		"mining": 2.5
 	},
 	"minecraft:golden_shovel":
 	{
-		"excavation": 50
+		"excavation": 5
 	},
 	"minecraft:golden_sword":
 	{
-		"combat": 50
+		"combat": 2.5
 	},
 	"minecraft:iron_hoe":
 	{
-		"farming": 5
+		"farming": 3
 	},
 	"minecraft:netherite_hoe":
 	{
-		"farming": 15
+		"farming": 5
 	},
 	"minecraft:stone_hoe":
 	{
-		"farming": 2.5
+		"farming": 2
 	},
 	"minecraft:wooden_hoe":
 	{
 		"farming": 1
+	},
+	"slashblade:slashblade":
+	{
+		"combat": -25
 	}
 }

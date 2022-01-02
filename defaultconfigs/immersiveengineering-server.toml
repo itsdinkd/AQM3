@@ -328,7 +328,7 @@
 		#Range: 0.001 ~ 1000.0
 		speed = 1.0
 		#Set this to false to disable the ridiculous amounts of particles the Excavator spawns
-		particles = true
+		particles = false
 		#The threshold the perlin noise has to cross for a mineral vein to be generated. Higher means less likely.
 		#Range: 0.0 ~ 1.0
 		chance = 0.9

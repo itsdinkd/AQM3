@@ -3,7 +3,7 @@
 	#Should the Welcome message come up?
 	showWelcome = false
 	#Should your personal Donator Welcome message come up?
-	showPatreonWelcome = true
+	showPatreonWelcome = false
 	#Should a warning come up if your Project MMO is outdated?
 	warnOutdatedVersion = false
 	#Should Xp Boosts be scaled by the item Durability? (Max boost at Max durability, 50% at half Durability)
@@ -43,10 +43,10 @@
 	antiCheeseEnabled = true
 	#How many points of Cheese is the maximum? (At maximum, the xp gain is at minimum, which is the minimumCheeseXpMultiplier value)
 	#Range: 1 ~ 1000000000
-	cheeseMaxStorage = 200
+	cheeseMaxStorage = 100
 	#How many points of Cheese do not contribute to the Cheese Xp Penalty? (This should always be lower than cheeseMaxStorage, otherwise it'd break.)
 	#Range: 1 ~ 1000000000
-	freeCheese = 100
+	freeCheese = 50
 	#How many points of Cheese are reduced when the player is no longer afk? (10 means ten times as fast as gaining while afk)
 	#Range: 1 ~ 1000000000
 	activityCheeseReplenishSpeed = 10
@@ -55,7 +55,7 @@
 	cheeseCheckFrequency = 5.0
 	#What is the minimum xp multiplier a player can reach by afking? (0.1 means 10% xp gained of what you'd gain while not afking at all)
 	#Range: 0.0 ~ 1.0
-	minimumCheeseXpMultiplier = 0.1
+	minimumCheeseXpMultiplier = 0.025
 	#When the Cheese Multiplier falls below this value, the player will get a warning to stop afking every Cheese Check (If this value is 1, any penalty will be displayed. 0 means no warnings will be displayed)
 	#Range: 0.0 ~ 1.0
 	sendPlayerCheeseWarningBelowMultiplier = 1.0
@@ -71,22 +71,22 @@
 	damageToolWhileVeining = true
 	#What is the maximum distance a player's vein can reach?
 	#Range: 1.0 ~ 1.0E9
-	veinMaxDistance = 64.0
+	veinMaxDistance = 40.0
 	#How many blocks max can be veined?
 	#Range: 1 ~ 1000000
-	veinMaxBlocks = 500
+	veinMaxBlocks = 300
 	#How many blocks get broken every tick?
 	#Range: 1 ~ 10000
 	veinSpeed = 1
 	#How many blocks should be highlighted while holding the Vein key
 	#Range: 0 ~ 10000
-	maxVeinDisplay = 125
+	maxVeinDisplay = 120
 	#How much is the lowest cost for each block veined? (1 = 1 charge, 1 charge regens per second)
 	#Range: 0.01 ~ 10000.0
-	minVeinCost = 0.4
+	minVeinCost = 0.5
 	#What is the lowest hardness for each block veined? (Crops have 0 hardness, this makes crops not infinitely veined)
 	#Range: 0.0 ~ 10000.0
-	minVeinHardness = 1.0
+	minVeinHardness = 0.5
 	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 32, your level is 50, and you have 64 charge, you can vein (50 / 160) * 320 = 100 hardness worth of blocks, which is 2.0 Obsidian, or 33.3 Coal Ore)
 	#Range: 0.01 ~ 10000.0
 	levelsPerHardnessMining = 240.0
@@ -104,16 +104,16 @@
 	levelsPerHardnessCrafting = 240.0
 	#How much vein charge can a player hold at max? (1 recharges every second)
 	#Range: 0.0 ~ 100000.0
-	maxVeinCharge = 320.0
+	maxVeinCharge = 275.0
 	#How much vein is restored for each player when the day is skipped by sleeping in bed?
 	#Range: 0.0 ~ 1.0
-	sleepVeinRestorePercent = 0.8477
+	sleepVeinRestorePercent = 0.555
 	#How much hunger should be exhausted per block veined?
 	#Range: 0.0 ~ 20.0
-	exhaustionPerBlock = 0.333
+	exhaustionPerBlock = 0.35
 	#Boost in veining ability dependant on your tool's speed (5 is fairly balanced, raising this number makes tools more powerful while veining)
 	#Range: 1.0E-9 ~ 1.0E9
-	toolSpeedVeinScale = 5.0
+	toolSpeedVeinScale = 2.7
 
 ["Mob Scaling"]
 	#What is the maximum amount an aggressive mob's damage will be boosted?
@@ -121,7 +121,7 @@
 	maxMobDamageBoost = 100.0
 	#How much an aggresive mob's damage will increase per one Power Level?
 	#Range: 0.0 ~ 10.0
-	mobDamageBoostPerPowerLevel = 1.4
+	mobDamageBoostPerPowerLevel = 1.2
 	#What is the maximum amount an aggressive mob's HP will be boosted?
 	#Range: 0.0 ~ 1024.0
 	maxMobHPBoost = 1000.0
@@ -133,9 +133,9 @@
 	maxMobSpeedBoost = 10.0
 	#How much an aggresive mob's speed will increase per one Power Level?
 	#Range: 0.0 ~ 10.0
-	mobSpeedBoostPerPowerLevel = 1.25
+	mobSpeedBoostPerPowerLevel = 1.05
 	#Should mob xp multipliers inside of biomes be enabled? false means no multipliers
-	biomeMobMultiplierEnabled = true
+	biomeMobMultiplierEnabled = false
 
 [Requirements]
 	#Should wear requirements be enabled? false means no requirements
@@ -151,7 +151,7 @@
 	#Should mob kill req be enabled? false means no requirements
 	killReqEnabled = false
 	#Should mob kill xp be enabled? false means no requirements
-	killXpEnabled = false
+	killXpEnabled = true
 	#Should mob rare drops be enabled? false means no requirements
 	mobRareDropEnabled = false
 	#Should use requirements be enabled? false means no requirements
@@ -175,7 +175,7 @@
 	#Should xp values for general things be enabled? (Such as catching fish)
 	xpValueGeneralEnabled = true
 	#Should xp values for breaking things first time be enabled? false means only Hardness xp is awarded for breaking
-	xpValueBreakingEnabled = false
+	xpValueBreakingEnabled = true
 	#Should ores be enabled? false means no extra chance
 	oreEnabled = false
 	#Should logs be enabled? false means no extra chance
@@ -193,9 +193,9 @@
 	#Main held items xp multiplier enabled? false = off
 	heldItemXpBoostEnabled = false
 	#worn items xp boost enabled? false = off
-	wornItemXpBoostEnabled = false
+	wornItemXpBoostEnabled = true
 	#Should config from default_data.json be loaded? false means only data.json is loaded
-	loadDefaultConfig = true
+	loadDefaultConfig = false
 	#When a Tool requirement is not met, should the player be stopped from breaking with it completely?
 	strictReqTool = true
 	#When a Kill requirement is not met, should the player be stopped from dealing any damage?
@@ -216,10 +216,10 @@
 	baseXp = 250.0
 	#What is the xp increase per level (baseXp + level * xpPerLevel)
 	#Range: 1.0 ~ 1000000.0
-	xpIncreasePerLevel = 65.0
+	xpIncreasePerLevel = 75.0
 	#Every how many levels should a level up broadcast be sent to all players? (10 = every 10 levels)
 	#Range: 1 ~ 1000000
-	levelsPerMilestone = 100
+	levelsPerMilestone = 10
 	#Every how many levels should a total level milestone broadcast be sent to all players? (50 = every 50 levels)
 	#Range: 1 ~ 1000000
 	levelsPerTotalLevelMilestone = 50
@@ -230,11 +230,11 @@
 	#Should fireworks appear on level up?
 	levelUpFirework = true
 	#Should fireworks appear on Milestone level up, to other players?
-	milestoneLevelUpFirework = true
+	milestoneLevelUpFirework = false
 	#Should fireworks appear on Milestone level up, to anyone, by you?
-	spawnFireworksCausedByMe = true
+	spawnFireworksCausedByMe = false
 	#Should fireworks appear on Milestone level up, from other players?
-	spawnFireworksCausedByOthers = true
+	spawnFireworksCausedByOthers = false
 	#Should players loose Percentage of Full Levels instead of Xp above Whole Level upon death?
 	deathLoosesLevels = false
 	#Should levels be determined using an Exponential formula? (false = the original way)
@@ -267,10 +267,10 @@
 	hardMultiplier = 1.3333333333333333
 	#How much xp you get in biomes you do not meet the requirements for (1 = Full xp, 0.5 = Half xp)
 	#Range: 0.0 ~ 1.0
-	biomePenaltyMultiplier = 0.7
+	biomePenaltyMultiplier = 0.5
 	#How much percentage of level you loose on death (Full Levels or Xp above Whole Level depends on deathLoosesLevels)
 	#Range: 0.0 ~ 1.0
-	deathPenaltyMultiplier = 0.5
+	deathPenaltyMultiplier = 0.3
 
 [GUI]
 	#True is the animated rainbow, False is the old, plain grey box
@@ -289,10 +289,10 @@
 	veinBarOffsetY = 0.65
 	#GUI Xp drops position X (Width)
 	#Range: 0.0 ~ 1.0
-	xpDropOffsetX = 0.5
+	xpDropOffsetX = 0.51
 	#GUI Xp drops position Y (Height, 0 is top, 1 is bottom (1 is probably invisible due to clipping))
 	#Range: 0.0 ~ 1.0
-	xpDropOffsetY = 0.0
+	xpDropOffsetY = 0.12
 	#GUI Skills List position X (Width)
 	#Range: 0.0 ~ 1.0
 	skillListOffsetX = 0.0
@@ -307,7 +307,7 @@
 	xpDropOpacityPerTime = 5.0
 	#How opaque (visible) can the xp drop get?
 	#Range: 0.0 ~ 255.0
-	xpDropMaxOpacity = 200.0
+	xpDropMaxOpacity = 175.0
 	#At what age do xp drops start to decay?
 	#Range: 0.0 ~ 5000.0
 	xpDropDecayAge = 275.0
@@ -315,7 +315,7 @@
 	#Range: 0.01 ~ 100.0
 	minXpGrow = 5.0
 	#Should xp drops sync up with the bar being open or closed? HIGHLY RECOMMEND TO KEEP FALSE IF YOU ARE MOVING XP DROP POSITIONS
-	xpDropsAttachedToBar = true
+	xpDropsAttachedToBar = false
 	#If Off, The skills list at the top left corner will no longer appear (You still have the GUI to show you all of your skills info)
 	showSkillsListAtCorner = false
 	#If Off, xp drops will no longer appear
@@ -342,7 +342,7 @@
 	showOthersWorldXpDrops = false
 	#Value by which World Xp Drops Size is scaled (2 = twice as big)
 	#Range: 0.01 ~ 100.0
-	worldXpDropsSizeMultiplier = 0.925
+	worldXpDropsSizeMultiplier = 0.9
 	#How far (Max) should World Xp Drops be rotated (Degrees, either direction from flat)
 	#Range: 0.0 ~ 180.0
 	worldXpDropsDecaySpeedMultiplier = 1.0
@@ -350,27 +350,27 @@
 ["Breaking Speed"]
 	#Minimum Breaking Speed (1 is Original speed, 0.5 is half)
 	#Range: 0.0 ~ 100.0
-	minBreakSpeed = 0.9
+	minBreakSpeed = 0.8
 	#How many blocks it takes to reach 0 Break Speed (will get capped by Minimum Breaking Speed)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	blocksToUnbreakableY = 1000.0
+	blocksToUnbreakableY = 7000.0
 	#How much your mining speed increases per level (1 = 1% increase per level)
 	#Range: 0.0 ~ 10.0
-	miningBonusSpeed = 0.5
+	miningBonusSpeed = 0.3
 	#How much your cutting speed increases per level in (1 = 1% increase per level)
 	#Range: 0.0 ~ 10.0
-	woodcuttingBonusSpeed = 0.5
+	woodcuttingBonusSpeed = 0.3
 	#How much your digging speed increases per level in (1 = 1% increase per level)
 	#Range: 0.0 ~ 10.0
-	excavationBonusSpeed = 0.5
+	excavationBonusSpeed = 0.3
 	#How much your farming speed increases per level in (1 = 1% increase per level)
 	#Range: 0.0 ~ 10.0
-	farmingBonusSpeed = 1.0
+	farmingBonusSpeed = 0.7
 
 [Mining]
 	#Hardest considered block (1 hardness = 1 remove xp. 0 = no xp for block hardness, 30 means obsidian caps at 30xp per block.)
 	#Range: 0.0 ~ 1000000.0
-	blockHardnessLimitForBreaking = 20.0
+	blockHardnessLimitForBreaking = 10.0
 
 [Building]
 	#Every how many levels you gain an extra block of reach
@@ -378,7 +378,7 @@
 	levelsPerOneReach = 30.0
 	#What is the maximum reach a player can have
 	#Range: 0.0 ~ 1.0E9
-	maxExtraReachBoost = 12.0
+	maxExtraReachBoost = 14.0
 	#Hardest considered block (1 hardness = 1 build xp. 0 = no xp for block hardness, 30 means obsidian caps at 30xp per block.)
 	#Range: 0.0 ~ 1000000.0
 	blockHardnessLimitForPlacing = 20.0
@@ -431,10 +431,10 @@
 	endurancePerLevel = 0.25
 	#Per how many levels you gain 1 Max Heart
 	#Range: 1.0 ~ 1.0E9
-	levelsPerHeart = 10.0
+	levelsPerHeart = 15.0
 	#How many Max Hearts you can have (20 means 10 vanilla + 20 boosted)
 	#Range: 0 ~ 1000000000
-	maxExtraHeartBoost = 40
+	maxExtraHeartBoost = 30
 	#How many half hearts regenerate per minute at level 0 Endurance (at 1, and at level 0 Endurance, you regenerate half a heart every 60 seconds, 0 means no base regeneration)
 	#Range: 0.0 ~ 1000.0
 	hpRegenPerMinuteBase = 0.0
@@ -443,7 +443,7 @@
 	hpRegenPerMinuteBoostPerLevel = 0.02
 	#Multiplier for xp gained in endurance from Regeneration
 	#Range: 0.0 ~ 1000000.0
-	hpRegenXpMultiplier = 1.0
+	hpRegenXpMultiplier = 1.5
 
 [Combat]
 	#How much percentage bonus damage do you get per Combat level in Melee?
@@ -459,17 +459,17 @@
 	damageBonusPercentPerLevelArchery = 0.002
 	#How much extra damage can you get from the Archery skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostArchery = 45.0
+	maxExtraDamagePercentageBoostArchery = 40.0
 
 [Smithing]
 	#Should PMMO anvil handling be enabled? (xp rewards for repair, and also Enchantment handling) (some mod items break, if you experience lost enchantments, set this to false)
 	anvilHandlingEnabled = true
 	#Max Percentage chance to return each Enchantment Level
 	#Range: 0.0 ~ 100.0
-	maxSalvageEnchantChance = 75.0
+	maxSalvageEnchantChance = 65.0
 	#Each Enchantment Save Chance per Level
 	#Range: 0.0 ~ 100.0
-	enchantSaveChancePerLevel = 0.75
+	enchantSaveChancePerLevel = 0.6
 	#Vanilla starts at 50, hence: (50 - [this] * level)
 	#Range: 0.0 ~ 100.0
 	anvilCostReductionPerLevel = 0.025
@@ -484,21 +484,21 @@
 	anvilFinalItemMaxCostToAnvil = 10
 	#From what level can you salvage from both hands at the same time?
 	#Range: 1 ~ 99999
-	dualSalvageSmithingLevelReq = 50
+	dualSalvageSmithingLevelReq = 60
 	#Anvil combination limits enchantments to max level set in this config
-	bypassEnchantLimit = true
+	bypassEnchantLimit = false
 	#How many levels per each Enchantment Level Bypass above max level enchantment can support in vanilla
 	#Range: 1 ~ 1000000000
 	levelsPerOneEnchantBypass = 50
 	#Max amount of levels enchants are able to go above max vanilla level
 	#Range: 0 ~ 1000000000
-	maxEnchantmentBypass = 5
+	maxEnchantmentBypass = 3
 	#Anvil combination limits enchantments to this level
 	#Range: 0 ~ 255
-	maxEnchantLevel = 250
+	maxEnchantLevel = 10
 	#What is the chance to Bypass a max enchant level (provided you got the skill to do so)
 	#Range: 0.0 ~ 100.0
-	upgradeChance = 60.0
+	upgradeChance = 25.0
 	#What is the chance to Reduce a level after a Upgrade chance fails (100 = everytime you fail bypass, enchant level goes down by 1)
 	#Range: 0.0 ~ 100.0
 	failedUpgradeKeepLevelChance = 50.0
@@ -517,7 +517,7 @@
 
 [Alchemy]
 	#Do players get xp for Brewing potions in Brewing Stands?
-	brewingXpEnabled = false
+	brewingXpEnabled = true
 	#Does Brewing provide a chance to produce Extra potions?
 	brewingEnabled = false
 
@@ -543,10 +543,10 @@
 
 [Crafting]
 	#Should xp values for crafting be enabled? false means the default value is used
-	xpValueCraftingEnabled = false
+	xpValueCraftingEnabled = true
 	#How much xp should be awarded in Crafting for each item crafted? (Json Overrides this) (Set to 0 to disable default xp)
 	#Range: 0.0 ~ 1000000.0
-	defaultCraftingXp = 0.0
+	defaultCraftingXp = 1.0
 
 [Magic]
 	#How much percentage bonus damage do you get per Magic level in Magic?
@@ -554,7 +554,7 @@
 	damageBonusPercentPerLevelMagic = 0.0025
 	#How much extra damage can you get from the Magic skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostMagic = 50.0
+	maxExtraDamagePercentageBoostMagic = 37.0
 
 [Gunslinging]
 	#How much percentage bonus damage do you get per Gunslinging level in Gunslinging?
@@ -593,7 +593,7 @@
 	#If this is off, Decimal point level requirements will be assigned during Auto Value generation
 	autoGenerateRoundedValuesOnly = true
 	#Automatically assign values for Extra Chance? (Works for Ores/Logs/Plants)
-	autoGenerateExtraChanceEnabled = true
+	autoGenerateExtraChanceEnabled = false
 	#Valued used by autoGenerateExtraChanceEnabled, for Ores
 	#Range: 0.0 ~ 1000000.0
 	defaultExtraChanceOre = 0.5
@@ -627,17 +627,17 @@
 	#Range: -1000000.0 ~ 1000000.0
 	autoGenerateToolReqOffset = 0.0
 	#Automatically assign values for Crafting Experience? (Works for Armor/Tools/Weapons)
-	autoGenerateCraftingXpEnabled = false
+	autoGenerateCraftingXpEnabled = true
 	#Automatically assign values for Cooking Experience? (Works for Food)
 	autoGenerateCookingXpEnabled = true
 	#Automatically assign values for Cooking Extra Chance? (Works for Food)
-	autoGenerateCookingExtraChanceEnabled = true
+	autoGenerateCookingExtraChanceEnabled = false
 	#Multiplier for the Auto Generated Crafting Xp Value, in the Crafting skill
 	#Range: 0.0 ~ 1000000.0
-	autoGeneratedCraftingXpValueMultiplierCrafting = 1.0
+	autoGeneratedCraftingXpValueMultiplierCrafting = 0.6
 	#Multiplier for the Auto Generated Crafting Xp Value, in the Smithing skill
 	#Range: 0.0 ~ 1000000.0
-	autoGeneratedCraftingXpValueMultiplierSmithing = 1.0
+	autoGeneratedCraftingXpValueMultiplierSmithing = 0.7
 	#Multiplier for the Auto Generated Crafting Xp Value, in the Cooking skill
 	#Range: 0.0 ~ 1000000.0
 	autoGeneratedCraftingXpValueMultiplierCooking = 1.0

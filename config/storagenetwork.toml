@@ -9,7 +9,7 @@
 	#
 	# How often to auto-refresh a network (one second is 20 ticks)
 	#Range: 2 ~ 4096
-	autoRefreshTicks = 38
+	autoRefreshTicks = 40
 	#
 	# Disable these blocks from ever being able to connect to the network, they will be treated as a non-inventory.
 	NotallowedBlocks = ["extrautils2:playerchest"]
@@ -23,9 +23,9 @@
 	#
 	# Maximum range of the Storage Remote and Crafting Remote.   -1 means unlimited.
 	#Range: -1 ~ 8388607
-	remoteMaxRange = 300
+	remoteMaxRange = 500
 	#
 	# When matching items to recipes in the JEI + button, this is the maximum number of tags to serialize over the network when on a server.  Reduce if you get errors relating to Packet Sizes being too large (Minecraft 1.12.2 had this hardcoded at 5).
 	#Range: 5 ~ 128
-	jeiMaximumRecipeTags = 64
+	jeiMaximumRecipeTags = 58
 

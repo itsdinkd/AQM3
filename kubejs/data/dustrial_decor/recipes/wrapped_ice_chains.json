@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$#",
+    "#$#",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:packed_ice"
+    },
+    "$": {
+      "item": "minecraft:ice"
+    },
+    "A": {
+      "item": "dustrial_decor:gold_chain"
+    }
+  },
+  "result": {
+    "item": "dustrial_decor:wrapped_ice_chains"
+  }
+}

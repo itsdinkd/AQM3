@@ -1,57 +1,57 @@
 {
 	"ars_nouveau:novice_boots":
 	{
-		"magic": 2
+		"magic": 1.15
 	},
 	"ars_nouveau:novice_leggings":
 	{
-		"magic": 2.5
+		"magic": 1.15
 	},
 	"ars_nouveau:novice_robes":
 	{
-		"magic": 3
+		"magic": 1.15
 	},
 	"ars_nouveau:novice_hood":
 	{
-		"magic": 2.5
+		"magic": 1.15
 	},
 	"ars_nouveau:apprentice_boots":
 	{
-		"magic": 3
+		"magic": 1.6
 	},
 	"ars_nouveau:apprentice_leggings":
 	{
-		"magic": 3.5
+		"magic": 1.6
 	},
 	"ars_nouveau:apprentice_robes":
 	{
-		"magic": 4
+		"magic": 1.6
 	},
 	"ars_nouveau:apprentice_hood":
 	{
-		"magic": 3.5
+		"magic": 1.6
 	},
 	"ars_nouveau:archmage_boots":
 	{
-		"magic": 4.5
+		"magic": 2
 	},
 	"ars_nouveau:archmage_leggings":
 	{
-		"magic": 5.5
+		"magic": 2
 	},
 	"ars_nouveau:archmage_robes":
 	{
-		"magic": 6.5
+		"magic": 2
 	},
 	"ars_nouveau:archmage_hood":
 	{
-		"magic": 5.5
+		"magic": 2
 	},
 	"create:extendo_grip":
 	{
-		"building": 10,
-		"combat": 10,
-		"mining": 10
+		"building": 3,
+		"combat": 3,
+		"mining": 3
 	},
 	"createplus:goggle_chainmail_helmet":
 	{
@@ -486,138 +486,10 @@
 	{
 		"swimming": 5
 	},
-	"minecraft:carved_pumpkin":
-	{
-		"combat": 5
-	},
-	"minecraft:chainmail_boots":
-	{
-		"combat": 5
-	},
-	"minecraft:chainmail_chestplate":
-	{
-		"combat": 5
-	},
-	"minecraft:chainmail_helmet":
-	{
-		"combat": 5
-	},
-	"minecraft:chainmail_leggings":
-	{
-		"combat": 5
-	},
-	"minecraft:diamond_boots":
-	{
-		"magic": 2.5
-	},
-	"minecraft:diamond_chestplate":
-	{
-		"magic": 2.5
-	},
-	"minecraft:diamond_helmet":
-	{
-		"magic": 2.5
-	},
-	"minecraft:diamond_leggings":
-	{
-		"magic": 2.5
-	},
-	"minecraft:dragon_head":
-	{
-		"flying": 50,
-		"combat": 25
-	},
-	"minecraft:enchanting_table":
-	{
-		"magic": 10,
-		"alchemy": 10
-	},
-	"minecraft:golden_boots":
-	{
-		"mining": 5,
-		"endurance": 5
-	},
-	"minecraft:golden_chestplate":
-	{
-		"mining": 5,
-		"endurance": 5
-	},
-	"minecraft:golden_helmet":
-	{
-		"mining": 5,
-		"endurance": 5
-	},
-	"minecraft:golden_leggings":
-	{
-		"mining": 5,
-		"endurance": 5
-	},
-	"minecraft:heart_of_the_sea":
-	{
-		"swimming": 25,
-		"fishing": 10
-	},
-	"minecraft:iron_boots":
-	{
-		"smithing": 2.5
-	},
-	"minecraft:iron_chestplate":
-	{
-		"smithing": 2.5
-	},
-	"minecraft:iron_helmet":
-	{
-		"smithing": 2.5
-	},
-	"minecraft:iron_leggings":
-	{
-		"smithing": 2.5
-	},
-	"minecraft:leather_boots":
-	{
-		"agility": 2.5,
-		"farming": 2.5,
-		"woodcutting": 2.5,
-		"fishing": 2.5
-	},
-	"minecraft:leather_chestplate":
-	{
-		"agility": 2.5,
-		"farming": 2.5,
-		"woodcutting": 2.5,
-		"fishing": 2.5
-	},
-	"minecraft:leather_helmet":
-	{
-		"agility": 2.5,
-		"farming": 2.5,
-		"woodcutting": 2.5,
-		"fishing": 2.5
-	},
-	"minecraft:leather_leggings":
-	{
-		"agility": 2.5,
-		"farming": 2.5,
-		"woodcutting": 2.5,
-		"fishing": 2.5
-	},
-	"minecraft:nether_star":
-	{
-		"combat": 10,
-		"endurance": 10,
-		"archery": 10,
-		"magic": 10,
-		"flying": 20
-	},
-	"minecraft:shield":
-	{
-		"endurance": 12.5,
-		"combat": 5
-	},
 	"minecraft:turtle_helmet":
 	{
-		"swimming": 15,
-		"fishing": 7.5
+		"swimming": 3,
+		"fishing": 2.5
 	},
 	"spartanshields:shield_basic_bronze":
 	{
@@ -898,5 +770,13 @@
 	{
 		"endurance": 25,
 		"combat": 10
-	}
+	},
+	"naturesaura:infused_iron_helmet": { "magic": 1.5 },
+	"naturesaura:infused_iron_chest": { "magic": 1.5 },
+	"naturesaura:infused_iron_pants": { "magic": 1.5 },
+	"naturesaura:infused_iron_shoes": { "magic": 1.5 },
+	"naturesaura:sky_helmet": { "magic": 2 },
+	"naturesaura:sky_chest": { "magic": 2 },
+	"naturesaura:sky_pants": { "magic": 2 },
+	"naturesaura:sky_shoes": { "magic": 2 }
 }

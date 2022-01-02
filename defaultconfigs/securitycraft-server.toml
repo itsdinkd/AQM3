@@ -1,7 +1,7 @@
 #Can the codebreaker be used?
-allowCodebreakerItem = true
+allowCodebreakerItem = false
 #Can the admin tool be used?
-allowAdminTool = false
+allowAdminTool = true
 #Should mines spawn fire after exploding?
 shouldSpawnFire = true
 #Should players be able to break a mine without it exploding?
@@ -22,7 +22,7 @@ inventoryScannerRange = 2
 #Range: > 1
 maxAlarmRange = 92
 #Allow claiming unowned blocks?
-allowBlockClaim = true
+allowBlockClaim = false
 #Should the sentry/inventory scanner/laser block/etc. ignore players and entities that are invisible?
 respect_invisibility = false
 #Should reinforced blocks' textures be slightly darker than their vanilla counterparts? This does nothing unless force_reinforced_block_tint is set to true.

@@ -13,6 +13,33 @@ const gNetherIngot = "gobber2:gobber2_ingot_nether";
 
 onEvent('recipes', event => {
 
+// Prefab
+
+event.remove({ output: "prefab:item_starter_farm" });
+event.shaped("prefab:item_starter_farm", [
+["minecraft:wheat_seeds","croptopia:corn_seed", "minecraft:wheat_seeds"],
+["prefab:item_bundle_of_timber", "prefab:block_compressed_dirt","prefab:item_bundle_of_timber"],
+["minecraft:water_bucket","mysticalagriculture:inferium_seeds", "minecraft:white_wool"],
+]);
+
+
+// // Moderate Farm
+ event.remove({ output: "prefab:item_moderate_farm" });
+ event.shaped("prefab:item_moderate_farm", [
+ ["prefab:item_compressed_chest","prefab:block_compressed_obsidian", "prefab:block_double_compressed_dirt"],
+ ["prefab:item_heap_of_timber", "prefab:item_starter_farm","prefab:item_heap_of_timber"],
+ ["prefab:item_pallet_of_bricks","mysticalagriculture:prudentium_block", "prefab:item_pallet_of_bricks"],
+ ]);
+
+// // Advance Farm
+ event.remove({ output: "prefab:item_advanced_farm" });
+ event.shaped("prefab:item_advanced_farm", [
+ ["prefab:block_triple_compressed_stone","prefab:block_double_compressed_obsidian", "prefab:block_triple_compressed_stone"],
+ ["prefab:item_ton_of_timber", "prefab:item_moderate_farm","prefab:item_ton_of_timber"],
+ ["prefab:item_coil_of_lanterns","mysticalagriculture:tertium_block", "prefab:item_pallet_of_bricks"],
+ ]);
+
+
 ///////////////////////// Cyclic
 // Scaffold Replace
 event.replaceInput(
@@ -57,6 +84,12 @@ event.replaceInput(
 );
 
 event.replaceInput(
+  { id:"cyclic:charm_magicdefense" },
+    "cyclic:heart_empty",
+    "ars_nouveau:drygmy_charm"
+);
+
+event.replaceInput(
   { id:"cyclic:charm_venom" },
     "minecraft:gold_nugget",
     "occultism:spirit_attuned_gem"
@@ -80,11 +113,11 @@ event.replaceInput(
     "mysticalagriculture:supremium_essence"
 );
 
-event.replaceInput(
-  { id:"cyclic:apple_sprout_emerald" },
-    "cyclic:apple_chocolate",
-    "mysticalagriculture:insanium_essence"
-);
+// event.replaceInput(
+//   { id:"cyclic:apple_sprout_emerald" },
+//     "cyclic:apple_chocolate",
+//     "mysticalagradditions:insanium_essence"
+// );
 
 event.replaceInput(
   { id:"cyclic:charm_luck" },
@@ -158,23 +191,131 @@ event.replaceInput(
     "gobber2:gobber2_ingot"
 );
 
-////////////////////////// Mystical Agriculture
-// Infusion Crystal
+//mining gadgets - empty upgrade
 event.replaceInput(
-{ id: "mysticalagriculture:infusion_crystal" },
-"minecraft:diamond",
-"tombstone:impregnated_diamond"
+{ id: "mininggadgets:upgrade_empty"},
+"minecraft:lapis_lazuli",
+"gobber2:gobber2_links_end"
 );
-// Master Infusion Crystal
-event.remove({output: "mysticalagriculture:master_infusion_crystal"})
-event.shaped("mysticalagriculture:master_infusion_crystal", [
-["mysticalagriculture:insanium_essence","mysticalagriculture:prosperity_gemstone","mysticalagriculture:insanium_essence"],
-["mysticalagriculture:prosperity_gemstone","mysticalagriculture:insanium_gemstone_block","mysticalagriculture:prosperity_gemstone"],
-["mysticalagriculture:insanium_essence","mysticalagriculture:prosperity_gemstone","mysticalagriculture:insanium_essence"],
-]);
 
+event.replaceInput(
+{ id: "mininggadgets:upgrade_empty"},
+"minecraft:diamond",
+"immersiveengineering:ingot_uranium"
+);
+
+event.replaceInput(
+{ id: "mininggadgets:upgrade_empty"},
+"#forge:glass_panes",
+"naturesaura:infused_iron"
+);
+
+
+//mining gadgets - mk2
+event.replaceInput(
+{ id: "mininggadgets:mininggadget_fancy"},
+"minecraft:redstone",
+"mininggadgets:mininggadget_simple"
+);
+
+//mining gadgets - mk3
+event.replaceInput(
+{ id: "mininggadgets:mininggadget"},
+"minecraft:redstone",
+"mininggadgets:mininggadget_fancy"
+);
+
+event.replaceInput(
+{ id: "wstweaks:lava_blade"},
+"minecraft:lava_bucket",
+"armorplus:block_infused_lava_crystal"
+);
+event.replaceInput(
+{ id: "wstweaks:lava_blade"},
+"minecraft:stick",
+"gobber2:gobber2_sword_end"
+);
+event.replaceInput(
+{ id: "wstweaks:lava_blade"},
+"minecraft:nether_star",
+"progressivebosses:nether_star_shard"
+);
+
+// wstweaks blaze blade
+event.replaceInput(
+{ id: "wstweaks:blaze_blade"},
+"minecraft:nether_star",
+"progressivebosses:nether_star_shard"
+);
+
+event.replaceInput(
+{ id: "wstweaks:blaze_blade"},
+"minecraft:stick",
+"wstweaks:lava_blade"
+);
+
+event.replaceInput(
+{ id: "wstweaks:blaze_blade"},
+"minecraft:blaze_rod",
+"create:blaze_cake"
+);
+
+
+
+// End Game -- Angel Ring
+event.remove({output: 'angelring:itemring'});
+event.recipes.create.mechanical_crafting(
+{
+  "pattern": [
+    "1AGA2",
+    "PAEAP",
+    "QPSPQ",
+    "PACAP",
+    "3AGA4"
+  ],
+  "key": {
+    "P": {
+      "item": "gobber2:dragon_star"
+    },
+    "S": {
+      "item": "armorplus:soul_slayer"
+    },
+    "A": {
+      "item": "mysticalagradditions:insanium_gemstone_block"
+    }
+,    "C": {
+      "item": "alexsmobs:dimensional_carver"
+    },
+    "E": {
+      "item": "assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser"
+    },
+    "1": {
+      "item": "meetyourfight:phantoplasm"
+    },
+    "2": {
+      "item": "meetyourfight:fortunes_favor"
+    },
+    "3": {
+      "item": "meetyourfight:mossy_tooth"
+    },
+    "4": {
+      "item": "assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser"
+    },
+    "G": {
+      "item": "refinedstorage:4096k_fluid_storage_disk"
+    },
+    "Q": {
+      "item": "refinedstorage:4096k_fluid_storage_part"
+    },
+  },
+  "result": {
+    "item": "angelring:itemring",
+    "count": 1
+  },
+  "acceptMirrored": false
 });
 
+});
 onEvent('item.tags', event => {
 // Get the #forge:cobblestone tag collection and add Diamond Ore to it
 // event.get('forge:cobblestone').add('minecraft:diamond_ore')

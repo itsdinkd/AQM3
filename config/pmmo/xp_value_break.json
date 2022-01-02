@@ -77,39 +77,39 @@
 	},
 	"ars_nouveau:blue_archwood_log":
 	{
-		"woodcutting": 7.5
+		"woodcutting": 3.5
 	},
 	"ars_nouveau:blue_archwood_wood":
 	{
-		"woodcutting": 7.5
+		"woodcutting": 3.5
 	},
 	"ars_nouveau:green_archwood_log":
 	{
-		"woodcutting": 7.25
+		"woodcutting": 3.25
 	},
 	"ars_nouveau:green_archwood_wood":
 	{
-		"woodcutting": 7.25
+		"woodcutting": 3.25
 	},
 	"ars_nouveau:purple_archwood_log":
 	{
-		"woodcutting": 7.615
+		"woodcutting": 3.615
 	},
 	"ars_nouveau:purple_archwood_wood":
 	{
-		"woodcutting": 7.615
+		"woodcutting": 3.615
 	},
 	"ars_nouveau:red_archwood_log":
 	{
-		"woodcutting": 7.35
+		"woodcutting": 3.35
 	},
 	"ars_nouveau:red_archwood_wood":
 	{
-		"woodcutting": 7.35
+		"woodcutting": 3.35
 	},
 	"ars_nouveau:mana_bloom_crop":
 	{
-		"farming": 3
+		"farming": 2
 	},
 	"astralsorcery:aquamarine_sand_ore":
 	{
@@ -156,85 +156,85 @@
 	},
 	"biomesoplenty:cherry_log":
 	{
-		"woodcutting": 15
+		"woodcutting": 5
 	},
 	"biomesoplenty:cherry_wood":
 	{
-		"woodcutting": 15
+		"woodcutting": 5
 	},
 	"biomesoplenty:dead_log":
 	{
-		"woodcutting": 6
+		"woodcutting": 1.2
 	},
 	"biomesoplenty:dead_wood":
 	{
-		"woodcutting": 6
+		"woodcutting": 1.2
 	},
 	"biomesoplenty:fir_log":
 	{
-		"woodcutting": 8
+		"woodcutting": 2
 	},
 	"biomesoplenty:fir_wood":
 	{
-		"woodcutting": 8
+		"woodcutting": 2
 	},
 	"biomesoplenty:hellbark_log":
 	{
-		"woodcutting": 10
+		"woodcutting": 3
 	},
 	"biomesoplenty:hellbark_wood":
 	{
-		"woodcutting": 10
+		"woodcutting": 3
 	},
 	"biomesoplenty:jacaranda_log":
 	{
-		"woodcutting": 9
+		"woodcutting": 2.75
 	},
 	"biomesoplenty:jacaranda_wood":
 	{
-		"woodcutting": 9
+		"woodcutting": 2.9
 	},
 	"biomesoplenty:magic_log":
 	{
-		"woodcutting": 15,
-		"magic": 5
+		"woodcutting": 5,
+		"magic": 2
 	},
 	"biomesoplenty:magic_wood":
 	{
-		"woodcutting": 15,
-		"magic": 5
+		"woodcutting": 5,
+		"magic": 2
 	},
 	"biomesoplenty:mahogany_log":
 	{
-		"woodcutting": 8
+		"woodcutting": 3
 	},
 	"biomesoplenty:mahogany_wood":
 	{
-		"woodcutting": 8
+		"woodcutting": 3
 	},
 	"biomesoplenty:palm_log":
 	{
-		"woodcutting": 12
+		"woodcutting": 4
 	},
 	"biomesoplenty:palm_wood":
 	{
-		"woodcutting": 12
+		"woodcutting": 4
 	},
 	"biomesoplenty:redwood_log":
 	{
-		"woodcutting": 7
+		"woodcutting": 2.1
 	},
 	"biomesoplenty:redwood_wood":
 	{
-		"woodcutting": 7
+		"woodcutting": 2.1
 	},
 	"biomesoplenty:umbran_log":
 	{
-		"woodcutting": 9
+		"woodcutting": 3
 	},
 	"biomesoplenty:umbran_wood":
 	{
-		"woodcutting": 9
+		"woodcutting": 3
 	},
 	"biomesoplenty:white_sand":
 	{
@@ -242,11 +242,11 @@
 	},
 	"biomesoplenty:willow_log":
 	{
-		"woodcutting": 14
+		"woodcutting": 5
 	},
 	"biomesoplenty:willow_wood":
 	{
-		"woodcutting": 14
+		"woodcutting": 5
 	},
 	"bno:netheraluminum_ore":
 	{
@@ -386,8 +386,8 @@
 	},
 	"elementalcraft:crystalore":
 	{
-		"mining": 16,
-		"magic": 8
+		"mining": 6,
+		"magic": 1
 	},
 	"endreborn:end_wolframium_ore":
 	{
@@ -469,7 +469,7 @@
 	},
 	"minecraft:acacia_log":
 	{
-		"woodcutting": 14
+		"woodcutting": 4
 	},
 	"minecraft:acacia_planks":
 	{
@@ -477,23 +477,23 @@
 	},
 	"minecraft:acacia_sapling":
 	{
-		"woodcutting": 26
+		"woodcutting": 7
 	},
 	"minecraft:acacia_wood":
 	{
-		"woodcutting": 14
+		"woodcutting": 7
 	},
 	"minecraft:allium":
 	{
-		"farming": 12.5
+		"farming": 7.5
 	},
 	"minecraft:andesite":
 	{
-		"mining": 0.5
+		"mining": 0.4
 	},
 	"minecraft:azure_bluet":
 	{
-		"farming": 4.5
+		"farming": 3.5
 	},
 	"minecraft:bamboo":
 	{
@@ -507,7 +507,7 @@
 	},
 	"minecraft:bedrock":
 	{
-		"mining": 9001
+		"mining": 1
 	},
 	"minecraft:beetroot":
 	{
@@ -523,7 +523,7 @@
 	},
 	"minecraft:birch_log":
 	{
-		"woodcutting": 12
+		"woodcutting": 5
 	},
 	"minecraft:birch_planks":
 	{
@@ -531,27 +531,27 @@
 	},
 	"minecraft:birch_sapling":
 	{
-		"woodcutting": 12
+		"woodcutting": 5
 	},
 	"minecraft:birch_wood":
 	{
-		"woodcutting": 12
+		"woodcutting": 5
 	},
 	"minecraft:blue_orchid":
 	{
-		"farming": 20
+		"farming": 11
 	},
 	"minecraft:bone_block":
 	{
-		"excavation": 15
+		"excavation": 7
 	},
 	"minecraft:bookshelf":
 	{
-		"woodcutting": 50
+		"woodcutting": 10
 	},
 	"minecraft:brown_mushroom":
 	{
-		"farming": 10
+		"farming": 7
 	},
 	"minecraft:brown_mushroom_block":
 	{
@@ -571,7 +571,7 @@
 	},
 	"minecraft:chorus_flower":
 	{
-		"farming": 35
+		"farming": 15
 	},
 	"minecraft:chorus_plant":
 	{
@@ -587,11 +587,11 @@
 	},
 	"minecraft:coarse_dirt":
 	{
-		"excavation": 1.7
+		"excavation": 1.4
 	},
 	"minecraft:cobblestone":
 	{
-		"mining": 0.5
+		"mining": 0.25
 	},
 	"minecraft:cobweb":
 	{
@@ -607,11 +607,11 @@
 	},
 	"minecraft:dandelion":
 	{
-		"farming": 8
+		"farming": 5
 	},
 	"minecraft:dark_oak_leaves":
 	{
-		"woodcutting": 0.6
+		"woodcutting": 0.4
 	},
 	"minecraft:dark_oak_log":
 	{
@@ -623,7 +623,7 @@
 	},
 	"minecraft:dark_oak_sapling":
 	{
-		"woodcutting": 18
+		"woodcutting": 11
 	},
 	"minecraft:dark_oak_wood":
 	{
@@ -631,7 +631,7 @@
 	},
 	"minecraft:dark_prismarine":
 	{
-		"mining": 3.5
+		"mining": 2.5
 	},
 	"minecraft:dead_bush":
 	{
@@ -643,7 +643,7 @@
 	},
 	"minecraft:dirt":
 	{
-		"excavation": 1.5
+		"excavation": 0.4
 	},
 	"minecraft:fern":
 	{
@@ -651,11 +651,12 @@
 	},
 	"minecraft:granite":
 	{
-		"mining": 0.4
+		"mining": 0.32
 	},
 	"minecraft:grass":
 	{
-		"farming": 0.25
+		"excavation": 0.3,
+		"farming": 0.15
 	},
 	"minecraft:grass_block":
 	{
@@ -671,19 +672,19 @@
 	},
 	"minecraft:infested_chiseled_stone_bricks":
 	{
-		"mining": 200
+		"mining": 100
 	},
 	"minecraft:infested_cobblestone":
 	{
-		"mining": 50
+		"mining": 20
 	},
 	"minecraft:infested_cracked_stone_bricks":
 	{
-		"mining": 200
+		"mining": 100
 	},
 	"minecraft:infested_mossy_stone_bricks":
 	{
-		"mining": 200
+		"mining": 100
 	},
 	"minecraft:infested_stone":
 	{
@@ -691,7 +692,7 @@
 	},
 	"minecraft:infested_stone_bricks":
 	{
-		"mining": 200
+		"mining": 100
 	},
 	"minecraft:jungle_leaves":
 	{
@@ -699,19 +700,19 @@
 	},
 	"minecraft:jungle_log":
 	{
-		"woodcutting": 4.5
+		"woodcutting": 3.5
 	},
 	"minecraft:jungle_planks":
 	{
-		"woodcutting": 5
+		"woodcutting": 4
 	},
 	"minecraft:jungle_sapling":
 	{
-		"woodcutting": 24
+		"woodcutting": 16
 	},
 	"minecraft:jungle_wood":
 	{
-		"woodcutting": 4.5
+		"woodcutting": 3.5
 	},
 	"minecraft:kelp":
 	{
@@ -723,15 +724,15 @@
 	},
 	"minecraft:large_fern":
 	{
-		"farming": 5.5
+		"farming": 4.5
 	},
 	"minecraft:lilac":
 	{
-		"farming": 16.5
+		"farming": 11.5
 	},
 	"minecraft:lily_of_the_valley":
 	{
-		"farming": 9.5
+		"farming": 7.5
 	},
 	"minecraft:lily_pad":
 	{
@@ -755,7 +756,7 @@
 	},
 	"minecraft:mossy_cobblestone":
 	{
-		"mining": 1.5
+		"mining": 1
 	},
 	"minecraft:mycelium":
 	{
@@ -764,11 +765,11 @@
 	},
 	"minecraft:nether_bricks":
 	{
-		"mining": 1.5
+		"mining": 0.8
 	},
 	"minecraft:nether_quartz":
 	{
-		"mining": 1.5
+		"mining": 0.9
 	},
 	"minecraft:nether_wart":
 	{
@@ -784,19 +785,19 @@
 	},
 	"minecraft:oak_log":
 	{
-		"woodcutting": 8
+		"woodcutting": 4
 	},
 	"minecraft:oak_planks":
 	{
-		"woodcutting": 5
+		"woodcutting": 4
 	},
 	"minecraft:oak_sapling":
 	{
-		"woodcutting": 15
+		"woodcutting": 9
 	},
 	"minecraft:oak_wood":
 	{
-		"woodcutting": 8
+		"woodcutting": 4
 	},
 	"minecraft:orange_tulip":
 	{
@@ -821,15 +822,15 @@
 	},
 	"minecraft:polished_andesite":
 	{
-		"mining": 0.5
+		"mining": 0.37
 	},
 	"minecraft:polished_diorite":
 	{
-		"mining": 0.3
+		"mining": 0.24
 	},
 	"minecraft:polished_granite":
 	{
-		"mining": 0.4
+		"mining": 0.31
 	},
 	"minecraft:poppy":
 	{
@@ -845,11 +846,11 @@
 	},
 	"minecraft:prismarine":
 	{
-		"mining": 2.5
+		"mining": 1.7
 	},
 	"minecraft:prismarine_bricks":
 	{
-		"mining": 4
+		"mining": 2
 	},
 	"minecraft:pumpkin":
 	{
@@ -861,11 +862,11 @@
 	},
 	"minecraft:purpur_block":
 	{
-		"mining": 2
+		"mining": 1
 	},
 	"minecraft:purpur_pillar":
 	{
-		"mining": 2.5
+		"mining": 1.3
 	},
 	"minecraft:rail":
 	{
@@ -893,7 +894,7 @@
 	},
 	"minecraft:sand":
 	{
-		"excavation": 1
+		"excavation": 0.6
 	},
 	"minecraft:sea_grass":
 	{
@@ -909,41 +910,35 @@
 	},
 	"minecraft:soul_sand":
 	{
-		"excavation": 5
-	},
-	"minecraft:spawner":
-	{
-		"mining": 50,
-		"combat": 150,
-		"endurance": 100
+		"excavation": 3
 	},
 	"minecraft:spruce_leaves":
 	{
-		"woodcutting": 1.5
+		"woodcutting": 0.9
 	},
 	"minecraft:spruce_log":
 	{
-		"woodcutting": 5
+		"woodcutting": 2
 	},
 	"minecraft:spruce_planks":
 	{
-		"woodcutting": 5
+		"woodcutting": 2
 	},
 	"minecraft:spruce_sapling":
 	{
-		"woodcutting": 10
+		"woodcutting": 4
 	},
 	"minecraft:spruce_wood":
 	{
-		"woodcutting": 5
+		"woodcutting": 1
 	},
 	"minecraft:stone":
 	{
-		"mining": 0.1
+		"mining": 0.08
 	},
 	"minecraft:stone_bricks":
 	{
-		"mining": 0.7
+		"mining": 0.4
 	},
 	"minecraft:sugar_cane":
 	{

@@ -4,13 +4,13 @@
 # 1 for spawning in most chunks and 1001 for no spawn.
 [Wells]
 	#Range: 1 ~ 1001
-	witchHutsOakAverageChunkDistance = 48
+	witchHutsOakAverageChunkDistance = 54
 	#Range: 1 ~ 1001
-	witchHutsTaigaAverageChunkDistance = 48
+	witchHutsTaigaAverageChunkDistance = 54
 	#Range: 1 ~ 1001
-	witchHutsGiantTreeTaigaAverageChunkDistance = 48
+	witchHutsGiantTreeTaigaAverageChunkDistance = 54
 	#Range: 1 ~ 1001
-	witchHutsBirchAverageChunkDistance = 48
+	witchHutsBirchAverageChunkDistance = 54
 	#Range: 1 ~ 1001
-	witchHutsDarkForestAverageChunkDistance = 48
+	witchHutsDarkForestAverageChunkDistance = 54
 

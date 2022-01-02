@@ -10,19 +10,19 @@
 	#Disables/Enables Colored lighting on Lanterns
 	disableColorLighting = false
 	#Should Lanterns be lit when placed
-	onByDefault = false
+	onByDefault = true
 
 ["Tiki Torch Config"]
 	#Disables/Enables Colored lighting on Tiki Torches
 	disableColorLighting = false
 	#Should Tiki Torches be lit when placed
-	onByDefault = false
+	onByDefault = true
 
 ["Candle Config"]
 	#Disables/Enables Colored lighting on Candles
 	disableColorLighting = false
 	#Should Candles be lit when placed
-	onByDefault = false
+	onByDefault = true
 
 ["Redstone Config"]
 	#Disables/Enables Colored lighting on Redstone Lamps
@@ -32,7 +32,7 @@
 	#Disables/Enables Colored lighting on Battery Lights
 	disableColorLighting = false
 	#Should Battery Lights be lit when placed
-	onByDefault = false
+	onByDefault = true
 
 ["Campfire Config"]
 	#Disables/Enables Colored lighting on Campfires
@@ -44,11 +44,11 @@
 	#Disables/Enables Colored lighting on Jack O Lanterns
 	disableColorLighting = false
 	#Should Jack O Lanterns be lit when placed
-	onByDefault = false
+	onByDefault = true
 
 ["Underwater Lights Config"]
 	#Disables/Enables Colored lighting on Underwater Lights
 	disableColorLighting = false
 	#Should Underwater Lights be lit when placed
-	onByDefault = false
+	onByDefault = true
 

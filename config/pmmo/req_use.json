@@ -3,5 +3,42 @@
 	{
 		"mining": 60,
 		"smithing": 30
-	}
+	},
+	"prefab:item_start_house":
+	{
+		"building": 1
+	},
+	"prefab:item_ender_gateway":
+	{
+		"building": 25,
+		"excavation": 10
+	},
+	"prefab:item_warehouse":
+	{
+		"building": 10
+	},
+	"prefab:item_nether_gate":
+	{
+		"building": 1
+	},
+	"prefab:item_warehouse_upgrade": { "building": 15 },
+	"prefab:item_instant_bridge": { "building": 3 },
+	"prefab:item_moderate_house": { "building": 7 },
+	"prefab:item_machinery_tower": { "building": 10 },
+	"prefab:item_defense_bunker": { "building": 15 },
+	"prefab:item_aqua_base": { "building": 5, "swimming": 3 },
+	"prefab:item_grassy_plain": { "building": 7 },
+	"prefab:item_magic_temple": { "building": 10, "magic": 5 },
+	"prefab:item_watch_tower": { "building": 7 },
+	"prefab:item_welcome_center": { "building": 25 },
+	"prefab:item_jail": { "building": 7 },
+	"prefab:item_saloon": { "building": 7 },
+	"prefab:item_ski_lodge": { "building": 7 },
+	"prefab:item_wind_mill": { "building": 7 },
+	"prefab:item_town_hall": { "building": 10 },
+	"prefab:item_advanced_aqua_base": { "building": 10, "swimming": 5 },
+	"prefab:item_workshop": { "building": 10 },
+	"prefab:item_villager_houses": { "building": 7 },
+	"prefab:item_advanced_warehouse": { "building": 20 },
+	"prefab:item_modern_buildings": { "building": 10 }
 }

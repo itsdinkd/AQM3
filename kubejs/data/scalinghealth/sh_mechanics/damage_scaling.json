@@ -1,0 +1,14 @@
+{
+  "difficultyWeight": 0.22,
+  "genericScale": 0.22,
+  "affectHostiles": false,
+  "affectPeacefuls": false,
+  "modBlacklist": [""],
+  "mode": "DIFFICULTY",
+  "damageScales": [
+    {
+      "damageTypes" : ["inFire","lightningBolt","onFire","lava","hotFloor","inWall","cramming","drown","starve","cactus","fall","flyIntoWall","outOfWorld","generic","magic","wither","anvil","fallingBlock","dragonBreath","fireworks"],
+      "scale" : 0
+    }
+  ]
+}

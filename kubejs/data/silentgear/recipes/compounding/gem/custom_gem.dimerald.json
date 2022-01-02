@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:compounding/gem",
+  "ingredients": [
+    {
+      "tag": "forge:gems/diamond"
+    },
+    {
+      "tag": "forge:gems/emerald"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_gemstone"
+    }
+  ],
+  "result": {
+    "item": "silentgear:custom_gem",
+    "material": "silentgear:dimerald"
+  }
+}

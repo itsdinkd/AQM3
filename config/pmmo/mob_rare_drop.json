@@ -3,18 +3,13 @@
 	{
 		"minecraft:egg": 10
 	},
-	"minecraft:ender_dragon":
-	{
-		"minecraft:dragon_head": 1,
-		"minecraft:dragon_egg": 3
-	},
 	"minecraft:sheep":
 	{
 		"minecraft:string": 10
 	},
 	"minecraft:slime":
 	{
-		"minecraft:slime_block": 100
+		"minecraft:slime_block": 20
 	},
 	"minecraft:zombie":
 	{

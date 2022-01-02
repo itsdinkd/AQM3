@@ -1,0 +1,7 @@
+
+[Client]
+	#Should the durability tooltip only be shown on vanilla tools?
+	#Requires a world reload
+	#Allowed Values: true, false  Default: false
+	onlyVanillaTools = false
+

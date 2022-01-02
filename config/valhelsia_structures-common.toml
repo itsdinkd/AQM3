@@ -15,13 +15,13 @@
 		generate = true
 		#Spawn Chance [default: 0.5]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.5
+		spawn_chance = 0.4
 		#Spacing (in chunks) [default: 40]
 		#Range: 0 ~ 200
-		spacing = 90
+		spacing = 138
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
-		separation = 17
+		separation = 56
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether, underground, mountain]
 		biome_categories = ["plains", "forest", "taiga"]
@@ -35,13 +35,13 @@
 		generate = true
 		#Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.6
+		spawn_chance = 0.5
 		#Spacing (in chunks) [default: 35]
 		#Range: 0 ~ 200
-		spacing = 70
+		spacing = 90
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
-		separation = 35
+		separation = 45
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether, underground, mountain]
 		biome_categories = ["plains", "forest", "taiga"]
@@ -58,10 +58,10 @@
 		spawn_chance = 0.7
 		#Spacing (in chunks) [default: 30]
 		#Range: 0 ~ 200
-		spacing = 55
+		spacing = 80
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
-		separation = 25
+		separation = 45
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether, underground, mountain]
 		biome_categories = ["desert"]
@@ -78,10 +78,10 @@
 		spawn_chance = 0.7
 		#Spacing (in chunks) [default: 30]
 		#Range: 0 ~ 200
-		spacing = 30
+		spacing = 96
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
-		separation = 14
+		separation = 39
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether, underground, mountain]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
@@ -98,10 +98,10 @@
 		spawn_chance = 0.7
 		#Spacing (in chunks) [default: 30]
 		#Range: 0 ~ 200
-		spacing = 48
+		spacing = 64
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
-		separation = 19
+		separation = 28
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether, underground, mountain]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
@@ -115,13 +115,13 @@
 		generate = true
 		#Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.6
 		#Spacing (in chunks) [default: 30]
 		#Range: 0 ~ 200
-		spacing = 40
+		spacing = 56
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
-		separation = 8
+		separation = 16
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether, underground, mountain]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga", "desert", "mesa", "savanna", "jungle", "icy", "swamp", "mushroom"]
@@ -138,10 +138,10 @@
 		spawn_chance = 0.8
 		#Spacing (in chunks) [default: 25]
 		#Range: 0 ~ 200
-		spacing = 41
+		spacing = 70
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
-		separation = 33
+		separation = 45
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether, underground, mountain]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
@@ -158,10 +158,10 @@
 		spawn_chance = 0.85
 		#Spacing (in chunks) [default: 25]
 		#Range: 0 ~ 200
-		spacing = 31
+		spacing = 61
 		#Minimum Separation (in chunks) [default: 7]
 		#Range: 0 ~ 200
-		separation = 17
+		separation = 27
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether, underground, mountain]
 		biome_categories = ["swamp"]
@@ -175,13 +175,13 @@
 		generate = true
 		#Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.6
 		#Spacing (in chunks) [default: 30]
 		#Range: 0 ~ 200
-		spacing = 30
+		spacing = 50
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
-		separation = 8
+		separation = 20
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether, underground, mountain]
 		biome_categories = ["plains", "forest"]

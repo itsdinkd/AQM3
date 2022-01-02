@@ -8,7 +8,7 @@
 		#Ore Settings
 		[worldgen.oregen.silverOre]
 			#True to generate this ore.
-			generateOre = true
+			generateOre = false
 			#The tag for the blocks this ore will spawn in.
 			fillerBlockTag = "minecraft:stone_ore_replaceables"
 			#The size of veins for this ore.
@@ -35,7 +35,7 @@
 			size = 3
 			#The count value for the decorator for this ore.
 			#Range: 0 ~ 127
-			count = 10
+			count = 8
 			#Range configuration min height.
 			#Range: > -2147483648
 			bottomOffset = 10

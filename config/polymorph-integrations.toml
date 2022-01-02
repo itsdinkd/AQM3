@@ -8,7 +8,7 @@ refinedstorageaddons = true
 craftingcraft = true
 toms_storage = true
 refinedstorage = true
-prettypipes = true
+prettypipes = false
 fastbench = true
 cyclic = true
 

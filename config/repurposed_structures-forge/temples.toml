@@ -4,13 +4,13 @@
 # 1 for spawning in most chunks and 1001 for none.
 [Temples]
 	#Range: 1 ~ 1001
-	netherWastelandTempleAverageChunkDistance = 27
+	netherWastelandTempleAverageChunkDistance = 36
 	#Range: 1 ~ 1001
-	netherBasaltTempleAverageChunkDistance = 27
+	netherBasaltTempleAverageChunkDistance = 36
 	#Range: 1 ~ 1001
-	netherCrimsonTempleAverageChunkDistance = 27
+	netherCrimsonTempleAverageChunkDistance = 36
 	#Range: 1 ~ 1001
-	netherWarpedTempleAverageChunkDistance = 27
+	netherWarpedTempleAverageChunkDistance = 36
 	#Range: 1 ~ 1001
-	netherSoulTempleAverageChunkDistance = 27
+	netherSoulTempleAverageChunkDistance = 36
 

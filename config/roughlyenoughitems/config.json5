@@ -1,8 +1,11 @@
 {
 	"basics": {
-		"favorites": [],
+		"favorites": [
+			"{data:{Count:1b,id:\"minecraft:cobbled_deepslate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:polished_deepslate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+		],
 		// Declares whether cheating mode is on.
-		"cheating": false,
+		"cheating": true,
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
@@ -48,7 +51,7 @@
 		},
 		// Declares whether REI is visible.
 		"overlayVisible": true,
-		"cheatingStyle": "GRAB",
+		"cheatingStyle": "GIVE",
 		"motion": {
 			"favoritesAnimation": true
 		}
@@ -81,7 +84,7 @@
 			"mergeDisplayUnderOne": true
 		},
 		"accessibility": {
-			"entrySize": 1.0,
+			"entrySize": 1.2999999999999998,
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
 			// Declares whether scrolled entry panel should snap to rows.
@@ -120,7 +123,7 @@
 		}
 	},
 	"appearance": {
-		"recipeScreenType": "UNSET",
+		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
 		"theme": "LIGHT",
 		"layout": {

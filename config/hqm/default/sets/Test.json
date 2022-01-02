@@ -1,0 +1,253 @@
+{
+  "name": "The Starting Point",
+  "quests": [
+    {
+      "uuid": "b06797d2-be5d-434e-b5b9-65bd1bfc33e2",
+      "name": "How to Turn in Quest Items",
+      "description": "The hopper is what you will need to connect to the delivery system in order to turn in your consume type quest items. Place one down \nThe big size text under this are your tasks, click it to see what you need to do.\n\nNot all quests will be turn in quests, most are going to be crafting or obtaining. ",
+      "x": 8,
+      "y": 7,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:hopper",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "longDescription": "Place your hopper down and make sure there is enough room for another block to be connected to it, the QDS (Quest Delivery System)",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:hopper",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:item_barrel",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4881f4d8-a6e5-49d5-828f-fbef8f3f9dca",
+      "name": "Deliver Your Torch",
+      "description": "Great! You placed the hopper down, connected it to the QDS, and now you\u0027re ready to turn in a item. \n\nWith your last reward, craft a torch, and drop it in the hopper. Make sure you Select the task, and then Sneak + Right click your QDS with your quest book to bind it.\n\nAfter this, you can manually submit items through the quest book on these type of quests.",
+      "x": 73,
+      "y": 7,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:coal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME_QDS",
+          "longDescription": "With this Task Selected (If you\u0027re seeing this, it is selected) Sneak + Right Click the QDS while holding your quest book to bind it for consumption. You will need to do this for any quest where you need to deliver the item. \n\nRemember; These kind of quests consume your item, you will not get it back.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:torch",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "dd202971-a26c-4317-a5c4-2e55e2cb0075"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:torch",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8f7ac091-0aed-4f39-b3f7-3263357ab595",
+      "name": "Manually Deliver Quest",
+      "description": "Now you understand how to use the QDS for returning items. Did you know you can also deliver w/o a QDS from this book?\n\nSince you have the required items to proceed, on the bottom right of the book, click \"Select Task\" and then \"Manual Submit\u0027. This will consume the required items and complete the quest. Some quests might allow this method.",
+      "x": 106,
+      "y": 7,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:cobblestone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "If the quest allows it, and most consume quests will, you can manually submit here to complete. On the bottom of this page, click the \"Manual Submit\" button.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:torch",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4881f4d8-a6e5-49d5-828f-fbef8f3f9dca"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:stone_pickaxe",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dd202971-a26c-4317-a5c4-2e55e2cb0075",
+      "name": "Place Quest Delivery System",
+      "description": "Nice going! Now it\u0027s time to place your newly rewarded Quest Delivery System (QDS for short) next to your hopper, making sure they are connected. \n\nThis is how you will turn in items for Consume Quests",
+      "x": 40,
+      "y": 7,
+      "bigicon": true,
+      "icon": {
+        "id": "hardcorequesting:item_barrel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "hardcorequesting:item_barrel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b06797d2-be5d-434e-b5b9-65bd1bfc33e2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:stick",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:coal",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f338efd-b8f8-4f47-ac91-03a50ac177cc",
+      "name": "Find Gobber Globettes*",
+      "description": "Gobber Gobber Gobber... If this pack were a human body, Gobber would be the spine. Paxels, Tree Axes, 5x5 Hammers, Rings, Medallions, It\u0027s got it all, but very rare to find the ore. Go find some Gobber Ore and mine it with atleast a diamond pick axe \n\nDo note; a lot of recipes in AQM3 require gobber materials due to gobber ore being very rare. \n\nOnce this task is completed, it will unlock more gobber quests in a different category outside of The Basics",
+      "x": 13,
+      "y": 102,
+      "icon": {
+        "id": "gobber2:gobber2_globette",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "description": "Mine Gobber Ore",
+          "longDescription": "Go out and find a gobber ore block and break it with a diamond or higher pickaxe.",
+          "blocks": [
+            {
+              "item": {
+                "id": "gobber2:gobber2_ore",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Deliver Gobber Globette",
+          "longDescription": "All you need to do for this quest is Obtain a Gobber Globette and Deliver it to QDS. Once delivered, you will open up the Gobber questline.\n\nGlobettes open up a world of recipes for you outside of gobber. Gobber is a very in-demand material for recipes.",
+          "items": [
+            {
+              "item": {
+                "id": "gobber2:gobber2_globette",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gobber2:gobber2_goo",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/w @p Good Job @p, now your adventure begins."
+      ]
+    },
+    {
+      "uuid": "7d86fca9-b7ef-4073-9cae-044855cd6b0c",
+      "name": "Mine Menu",
+      "description": "Did you know we have a radial menu with pre-defined hotkeys for certain keybinds like PMMO Stats? \n\nWell we do! You can even make your own, but be aware, each update includes the \u0027minemenu\u0027 folder in the root folder of AQM3, if you make your own keys, back this up so you can replace mine after every update.\n\nHold the \"R\" key down and then select the radial point you want to activate.",
+      "x": 28,
+      "y": 24,
+      "icon": {
+        "id": "chiselsandbits:measuring_tape",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "description": "How to Activate",
+          "longDescription": "Hold down \"R\" and you will be shown the radial menu. You can then move your mouse to the item you want to select, and left click it. This will \u0027activate\u0027 that menu item."
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "810b7e1d-516a-4134-812d-02f90102fb77",
+      "name": "How to Auto Run",
+      "description": "You can Auto run, auto walk, auto boat, auto everything. Press H to toggle",
+      "x": 44,
+      "y": 14,
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "description": "How to Activate",
+          "longDescription": "Press the \"H\" key and you will begin to Auto whatever. Press the \"H\" key again to stop.."
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

@@ -115,7 +115,7 @@
 	gobberOreDeepslateMinHeight = -64
 	#Maximal height for Gobber Ore Deepslate pocket generation [-64 to 0, default: 0]
 	#Range: -64 ~ 0
-	gobberOreDeepslateMaxHeight = 0
+	gobberOreDeepslateMaxHeight = -24
 	#Chances of Gobber Ore Deepslate pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
 	gobberOreDeepslateChance = 8
@@ -221,13 +221,25 @@
 	gobberArmorEnchantability = 13
 	#Gobber armor durability multiplier [1-200, default: 71]
 	#Range: 1 ~ 200
-	gobberArmorDurabilityMultiplier = 71
+	gobberArmorDurabilityMultiplier = 68
 	#Gobber armor toughness [0-5, default: 2.5]
 	#Range: 0.0 ~ 5.0
-	gobberArmorToughness = 2.5
+	gobberArmorToughness = 2.0
 	#Gobber armor knockback [0-5, default: 0.1]
 	#Range: 0.0 ~ 5.0
 	gobberArmorKnockback = 0.1
+	#Gobber armor head protection [1-20, default: 6]
+	#Range: 1 ~ 20
+	gobberHeadProtection = 4
+	#Gobber armor chest protection [1-20, default: 11]
+	#Range: 1 ~ 20
+	gobberChestProtection = 10
+	#Gobber armor leggings protection [1-20, default: 9]
+	#Range: 1 ~ 20
+	gobberLeggingsProtection = 6
+	#Gobber armor boots protection [1-20, default: 6]
+	#Range: 1 ~ 20
+	gobberBootsProtection = 4
 
 #Gobber Lucky Block Generation
 [gobber2_lucky_block]
@@ -250,7 +262,7 @@
 [nether_gobber_tool_material]
 	#Nether Gobber tool attack damage [1-100, default: 9.0]
 	#Range: 1.0 ~ 100.0
-	netherGobberToolsDamage = 9.0
+	netherGobberToolsDamage = 6.0
 	#Nether Gobber tool durability [1-9000, default: 5200]
 	#Range: 0 ~ 9000
 	netherGobberToolsDurability = 5200
@@ -268,15 +280,27 @@
 	endGobberArmorEnchantability = 17
 	#End Gobber armor toughness [0-5, default: 3.0]
 	#Range: 0.0 ~ 5.0
-	endGobberArmorToughness = 3.0
+	endGobberArmorToughness = 2.85
 	#End Gobber armor knockback [0-5, default: 0.2]
 	#Range: 0.0 ~ 5.0
-	endGobberArmorKnockback = 0.3
+	endGobberArmorKnockback = 0.16
 	#End Gobber armor durability multiplier [1-200, default: 100]
 	#Range: 1 ~ 200
 	endGobberArmorDurabilityMultiplier = 100
 	#Should Armor be unbreakable when crafted? [true / false]
 	endGobberArmorUnbreakable = true
+	#End armor head protection [1-20, default: 8]
+	#Range: 1 ~ 20
+	endHeadProtection = 7
+	#End armor chest protection [1-20, default: 13]
+	#Range: 1 ~ 20
+	endChestProtection = 13
+	#End armor leggings protection [1-20, default: 11]
+	#Range: 1 ~ 20
+	endLeggingsProtection = 10
+	#End armor boots protection [1-20, default: 8]
+	#Range: 1 ~ 20
+	endBootsProtection = 7
 
 #Gobber Ore Generation
 [gobber2_ore]
@@ -321,16 +345,28 @@
 [nether_gobber_armor_material]
 	#Nether Gobber armor knockback [0-5, default: 0.1]
 	#Range: 0.0 ~ 5.0
-	netherGobberArmorKnockback = 0.1
+	netherGobberArmorKnockback = 0.133
 	#Nether Gobber armor toughness [0-5, default: 2.75]
 	#Range: 0.0 ~ 5.0
-	netherGobberArmorToughness = 2.75
+	netherGobberArmorToughness = 2.5
 	#Nether Gobber armor enchantability [1-50, default: 30]
 	#Range: 1 ~ 50
 	netherGobberArmorEnchantability = 15
 	#Nether Gobber armor durability multiplier [1-200, default: 83]
 	#Range: 1 ~ 200
 	netherGobberArmorDurabilityMultiplier = 83
+	#Nether armor head protection [1-20, default: 7]
+	#Range: 1 ~ 20
+	netherHeadProtection = 5
+	#Nether armor chest protection [1-20, default: 12]
+	#Range: 1 ~ 20
+	netherChestProtection = 11
+	#Nether armor leggings protection [1-20, default: 10]
+	#Range: 1 ~ 20
+	netherLeggingsProtection = 7
+	#Nether armor boots protection [1-20, default: 7]
+	#Range: 1 ~ 20
+	netherBootsProtection = 5
 
 #Ring of the Explorer Settings
 [ring_explorer_settings]
@@ -371,7 +407,7 @@
 	gobberToolsSpeed = 9.0
 	#Gobber tool attack damage [1-100, default: 9.0]
 	#Range: 1.0 ~ 100.0
-	gobberToolsDamage = 8.0
+	gobberToolsDamage = 6.0
 
 #End Gobber Tool Material Values
 [end_gobber_tool_material]
@@ -385,7 +421,7 @@
 	endGobberToolsDurability = 8000
 	#End Gobber tool attack damage [1-100, default: 9.0]
 	#Range: 1.0 ~ 100.0
-	endGobberToolsDamage = 9.0
+	endGobberToolsDamage = 6.0
 	#End Gobber tool mining speed [1-25, default: 14.0]
 	#Range: 1.0 ~ 25.0
 	endGobberToolsSpeed = 12.0
@@ -443,4 +479,16 @@
 	#Dragon armor durability multiplier [1-200, default: 100]
 	#Range: 1 ~ 200
 	dragonArmorDurabilityMultiplier = 100
+	#Dragon armor head protection [1-20, default: 8]
+	#Range: 1 ~ 20
+	dragonHeadProtection = 8
+	#Dragon armor chest protection [1-20, default: 13]
+	#Range: 1 ~ 20
+	dragonChestProtection = 13
+	#Dragon armor leggings protection [1-20, default: 11]
+	#Range: 1 ~ 20
+	dragonLeggingsProtection = 11
+	#Dragon armor boots protection [1-20, default: 8]
+	#Range: 1 ~ 20
+	dragonBootsProtection = 8
 

@@ -1,7 +1,7 @@
 {
 	"#forge:ores/aluminum":
 	{
-		"extraChance": 0.45
+		"extraChance": 0.33
 	},
 	"#forge:ores/coal":
 	{
@@ -13,15 +13,15 @@
 	},
 	"#forge:ores/diamond":
 	{
-		"extraChance": 0.33
+		"extraChance": 0.25
 	},
 	"#forge:ores/emerald":
 	{
-		"extraChance": 0.75
+		"extraChance": 0.35
 	},
 	"#forge:ores/netherite_scrap":
 	{
-		"extraChance": 0.2
+		"extraChance": 0.15
 	},
 	"#forge:ores/gold":
 	{
@@ -33,7 +33,7 @@
 	},
 	"#forge:ores/lapis":
 	{
-		"extraChance": 1.5
+		"extraChance": 0.5
 	},
 	"#forge:ores/nickel":
 	{
@@ -45,23 +45,23 @@
 	},
 	"#forge:ores/redstone":
 	{
-		"extraChance": 2
+		"extraChance": 1
 	},
 	"#forge:ores/silver":
 	{
-		"extraChance": 0.4
+		"extraChance": 0.3
 	},
 	"#forge:ores/tin":
 	{
-		"extraChance": 0.8
+		"extraChance": 0.6
 	},
 	"#forge:ores/zinc":
 	{
-		"extraChance": 0.75
+		"extraChance": 0.55
 	},
 	"ars_nouveau:arcane_ore":
 	{
-		"extraChance": 0.75
+		"extraChance": 0.35
 	},
 	"astralsorcery:aquamarine_sand_ore":
 	{
@@ -77,15 +77,15 @@
 	},
 	"bigreactors:anglesite_ore":
 	{
-		"extraChance": 0.35
+		"extraChance": 0.17
 	},
 	"bigreactors:benitoite_ore":
 	{
-		"extraChance": 0.35
+		"extraChance": 0.17
 	},
 	"bigreactors:yellorite_ore":
 	{
-		"extraChance": 0.35
+		"extraChance": 0.17
 	},
 	"bno:netheraluminum_ore":
 	{

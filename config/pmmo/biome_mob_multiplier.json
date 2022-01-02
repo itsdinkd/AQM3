@@ -1,59 +1,59 @@
 {
-	"minecraft:bamboo_jungle":
+	"somemod:bamboo_jungle":
 	{
 		"speedBonus": 1.5,
 		"hpBonus": 1.25
 	},
-	"minecraft:bamboo_jungle_hills":
+	"somemod:bamboo_jungle_hills":
 	{
 		"speedBonus": 1.5,
 		"hpBonus": 1.25
 	},
-	"minecraft:beach":
+	"somemod:beach":
 	{
 		"speedBonus": 0.75,
 		"hpBonus": 0.75,
 		"damageBonus": 0.75
 	},
-	"minecraft:desert":
+	"somemod:desert":
 	{
 		"speedBonus": 0.75,
 		"hpBonus": 0.75,
 		"damageBonus": 0.75
 	},
-	"minecraft:jungle":
+	"somemod:jungle":
 	{
 		"speedBonus": 1.5,
 		"hpBonus": 1.25
 	},
-	"minecraft:jungle_edge":
+	"somemod:jungle_edge":
 	{
 		"speedBonus": 1.5,
 		"hpBonus": 1.25
 	},
-	"minecraft:jungle_hills":
+	"somemod:jungle_hills":
 	{
 		"speedBonus": 1.5,
 		"hpBonus": 1.25
 	},
-	"minecraft:nether":
+	"somemod:nether":
 	{
 		"hpBonus": 1.5,
 		"damageBonus": 1.5
 	},
-	"minecraft:plains":
+	"somemod:plains":
 	{
 		"speedBonus": 0.75,
 		"hpBonus": 0.75,
 		"damageBonus": 0.75
 	},
-	"minecraft:river":
+	"somemod:river":
 	{
 		"speedBonus": 0.75,
 		"hpBonus": 0.75,
 		"damageBonus": 0.75
 	},
-	"minecraft:the_end":
+	"somemod:the_end":
 	{
 		"speedBonus": 1.25,
 		"hpBonus": 2,

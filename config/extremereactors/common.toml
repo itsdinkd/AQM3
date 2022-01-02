@@ -12,7 +12,7 @@
 		powerProductionMultiplier = 1.0
 		#Number of ticks between updates for the Redstone Port.
 		#Range: 10 ~ 100
-		ticksPerRedstoneUpdate = 20
+		ticksPerRedstoneUpdate = 24
 
 	#Define how Reactors works
 	[common.reactor]
@@ -20,11 +20,11 @@
 		#Lower this if your server's players are building ginormous Reactors.
 		#Bigger Y sizes have far less performance impact than X/Z sizes.
 		#Range: 3 ~ 256
-		maxReactorHeight = 48
+		maxReactorHeight = 40
 		#The maximum valid size of a Reactor in the X/Z plane, in blocks.
 		#Lower this if your server's players are building ginormous Reactors.
 		#Range: 3 ~ 256
-		maxReactorSize = 32
+		maxReactorSize = 24
 		#A multiplier for balancing Reactor power production. Stacks with powerProductionMultiplier.
 		#Range: 0.5 ~ 100.0
 		reactorPowerProductionMultiplier = 1.0
@@ -36,10 +36,10 @@
 	[common.turbine]
 		#The maximum valid height of a Turbine (Y axis), in blocks.
 		#Range: 5 ~ 256
-		maxTurbineHeight = 32
+		maxTurbineHeight = 26
 		#The maximum valid size of a Turbine in the X/Z plane, in blocks.
 		#Range: 5 ~ 256
-		maxTurbineSize = 32
+		maxTurbineSize = 26
 		#A multiplier for balancing rotor sizes.
 		#Multiplies the amount of energy lost to aerodynamic drag per tick.
 		#Range: 0.5 ~ 10.0
@@ -67,14 +67,14 @@
 		#The maximum valid size of a Fluidizer in the Y dimension, in blocks.
 		#Lower this if your server's players are building ginormous Fluidizer.
 		#Range: 3 ~ 64
-		maxFluidizerHeight = 16
+		maxFluidizerHeight = 14
 		#The maximum valid size of a Fluidizer in the X/Z plane, in blocks.
 		#Lower this if your server's players are building ginormous Fluidizer.
 		#Range: 3 ~ 64
-		maxFluidizerSize = 16
+		maxFluidizerSize = 14
 		#The amount of energy need to process a single tick of a recipe.
 		#Range: 20 ~ 1000
-		energyPerRecipeTick = 25
+		energyPerRecipeTick = 27
 
 	#Recipes options
 	[common.recipes]

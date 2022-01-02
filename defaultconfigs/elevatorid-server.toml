@@ -4,7 +4,7 @@
 	sameColor = false
 	#Elevator range
 	#Range: 3 ~ 4064
-	range = 384
+	range = 256
 	#Realign players to the center of elevator ?
 	precisionTarget = true
 	#Can mobs spawn on elevators ?

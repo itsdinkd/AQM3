@@ -3,6 +3,7 @@
 console.info('AQM3 -- Removing Recipes....)');
 
 const recipeRemoveJei = [
+'angelring:itemdiamondring',
 'buildinggadgets:gadget_destruction',
 'chanceglobe:chance_globe',
 'cyclic:antigravity',
@@ -15,6 +16,7 @@ const recipeRemoveJei = [
 'cyclic:apple_iron',
 'cyclic:apple_lapis',
 'cyclic:apple_prismarine',
+'cyclic:apple_sprout_emerald',
 'cyclic:beacon',
 'cyclic:build_scepter',
 'cyclic:charm_antipotion',
@@ -32,7 +34,6 @@ const recipeRemoveJei = [
 'cyclic:chorus_spectral',
 'cyclic:elevation_wand',
 'cyclic:empty_heart',
-'cyclic:heart',
 'cyclic:ender_book',
 'cyclic:ender_pearl_mounted',
 'cyclic:ender_pearl_reuse',
@@ -40,6 +41,8 @@ const recipeRemoveJei = [
 'cyclic:eye_teleport',
 'cyclic:fire_scepter',
 'cyclic:glowing_helmet',
+'cyclic:heart',
+'cyclic:heart_empty',
 'cyclic:ice_scepter',
 'cyclic:lightning_scepter',
 'cyclic:mattock',
@@ -53,21 +56,7 @@ const recipeRemoveJei = [
 'cyclic:teleport_wand',
 'cyclic:uncrafter',
 'cyclic:water_candle',
-'cyclic:wireless_item',
-'gobber2:gobber2_ring_pyro',
-'gobber2:gobber2_ring_ascent',
-'gobber2:gobber2_ring_repair',
-'gobber2:gobber2_ring_farmer',
-'gobber2:gobber2_ring_repair',
-'gobber2:gobber2_staff_farmer',
-'gobber2:gobber2_staff_harvest',
-'gobber2:gobber2_ring_husbandry',
-'gobber2:gobber2_sword_traveler',
-'gobber2:gobber2_ring_vision',
-'gobber2:gobber2_ring_swiftness',
-'gobber2:gobber2_ring_blaze',
-'gobber2:gobber2_ring_airwalking',
-'gobber2:gobber2_medallion_glowing'
+'cyclic:wireless_item'
 ];
 
 onEvent('recipes', event => {
@@ -76,7 +65,36 @@ recipeRemoveJei.forEach(item => {
   event.remove({output: item})
 });
 
-})
+
+// Assembly Lines Enchantments
+event.remove({id: 'assemblylinemachines:enchanted_book/mending'});
+
+
+// Armor Plus
+armorPMats = [
+"helmet",
+"chestplate",
+"leggings",
+"boots"
+]
+
+armorPMatsWeapons = [
+'sword',
+'battle_axe',
+'mace',
+'bow',
+'pickaxe'
+]
+
+armorPMats.forEach(item => {
+  event.remove({id: 'armorplus:redstone_'});
+  armorPMatsWeapons.forEach(item => {
+    event.remove({id: 'armorplus:obsidian_'});
+  });
+});
+
+
+});
 
 onEvent('item.tags', event => {
 // Get the #forge:cobblestone tag collection and add Diamond Ore to it

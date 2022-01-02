@@ -8,7 +8,7 @@ filtered_blocks = ["minecraft:barrier", "minecraft:bedrock", "minecraft:dragon_e
 #These items will be filtered if enable_filter is set to true. Whether to use white- or blacklisting is defined by the filter_mode option. Use the item's registry name. E.g. to filter sticks, use minecraft:stick
 filtered_items = ["minecraft:command_block_minecart", "minecraft:knowledge_book"]
 #These mods will be filtered according to filter_mode if enable_filter is set to true. This list contains modids.
-filtered_mods = ["cyclic", "progressivebosses"]
+filtered_mods = ["cyclic", "progressivebosses", "angelring", "armorplus", "assemblylinemachines", "mysticalagriculture", "mysticalagradditions", "gobber2", "mahoutsukai", "meetyourfight", "doom", "kubejs"]
 #The default duration until a block gets placed/an item drops is 10 seconds. With this multiplier, you can change the timing. E.g. setting the value to 2 will make the duration twice as long (20 seconds).
 #Range: 4.9E-324 ~ 1.7976931348623157E308
 duration_multiplier = 1.0

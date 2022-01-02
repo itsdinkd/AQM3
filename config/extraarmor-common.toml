@@ -8,17 +8,17 @@
 	#Enable or Disable Molten Armor Effects
 	enableMolten = true
 	#Enable or Disable Phantom Armor Effects
-	enablePhantom = false
+	enablePhantom = true
 	#Enable or Disable Ghost Armor Effects
-	enableGhost = true
+	enableGhost = false
 	#Enable or Disable Crying Obsidian Armor Effects
 	enableCryingObsidian = true
 	#Enable or Disable Ice Armor Effects
 	enableIce = true
 	#Enable or Disable Glowstone Armor Effects
-	enableGlowstone = true
+	enableGlowstone = false
 	#Enable or Disable Prismarine Shard Armor Effects
-	enablePrismarineShard = true
+	enablePrismarineShard = false
 	#Enable or Disable Prismarine Crystal Armor Effects
 	enablePrismarineCrystal = true
 	#Enable or Disable Emerald Armor Effects
@@ -31,6 +31,12 @@
 	enableSlime = true
 	#Enable or Disable Lapis Armor Effects
 	enableLapis = true
+	#Enable or Disable Crimson Wood Armor Effects
+	enableCrimsonWood = false
+	#Enable or Disable Warped Wood Armor Effects
+	enableWarpedWood = false
+	#Enable or Disable Reinforced Iron Armor Effects
+	enableReinforcedIron = true
 
 ["Set Effect/Enchantment Levels"]
 	#The Level of Thorns Given by the Cactus Set (Default: 1)
@@ -44,7 +50,7 @@
 	emeraldLevel = 2
 	#The Level of Speed Given by the Ender Set (Default: 2)
 	#Range: 1 ~ 5
-	enderLevel = 2
+	enderLevel = 1
 	#The Level of Jump Boost Given by the Feather Set (Default: 2)
 	#Range: 1 ~ 5
 	featherLevel = 2

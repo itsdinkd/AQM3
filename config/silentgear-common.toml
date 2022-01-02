@@ -20,27 +20,27 @@
 			#Range: > 0
 			very_crude = 8
 			#Range: > 0
-			crude = 16
+			crude = 12
 			#Range: > 0
-			sturdy = 32
+			sturdy = 24
 			#Range: > 0
-			crimson = 48
+			crimson = 36
 			#Range: > 0
-			azure = 64
+			azure = 50
 
 		#Efficiency is the percentage of the repair value used. Higher values mean less materials used.
 		#Setting to zero would make the repair kit unusable.
 		[item.repairKits.efficiency]
 			#Range: 0.0 ~ 10.0
-			very_crude = 0.30000001192092896
+			very_crude = 0.20000001192092895
 			#Range: 0.0 ~ 10.0
-			crude = 0.3499999940395355
+			crude = 0.2499999940395355
 			#Range: 0.0 ~ 10.0
-			sturdy = 0.4000000059604645
+			sturdy = 0.3000000059604645
 			#Range: 0.0 ~ 10.0
-			crimson = 0.44999998807907104
+			crimson = 0.34999998807907107
 			#Range: 0.0 ~ 10.0
-			azure = 0.475
+			azure = 0.375
 			#Repair efficiency with loose materials if no repair kit is used.
 			#Setting a value greater than zero makes repair kits optional.
 			#Range: 0.0 ~ 10.0
@@ -110,7 +110,7 @@
 		#Caps how far the saw can look for blocks when chopping down trees. Try decreasing this if you get stack overflow exceptions.
 		#Increasing this value is allowed, but not recommended unless you know what you are doing.
 		#Range: > 0
-		recursionDepth = 190
+		recursionDepth = 160
 
 	#Settings for AOE tools (hammer, excavator)
 	#Match modes determine what blocks are considered similar enough to be mined together.
@@ -130,7 +130,7 @@
 	[gear.repairs]
 		#Effectiveness of gear repairs done in an anvil. Set to 0 to disable anvil repairs.
 		#Range: 0.0 ~ 1.0
-		anvilEffectiveness = 0.465
+		anvilEffectiveness = 0.365
 		#DEPRECATED! Use repair kit configs instead.
 		#Range: 0.0 ~ 1.0
 		quickEffectiveness = 0.35
@@ -150,7 +150,7 @@
 	#Larger numbers will make both higher and lower grades more common.
 	#Extremely large values may completely break the curve, yielding mostly the lowest and highest grades.
 	#Range: 0.0 ~ 100.0
-	standardDeviation = 1.5
+	standardDeviation = 1.7
 
 #Settings for the salvager
 [salvager]
@@ -163,16 +163,16 @@
 		#Maximum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
 		#Rate depends on remaining durability.
 		#Range: 0.0 ~ 1.0
-		max = 0.5
+		max = 0.6
 
 #Settings for the starlight charger
 [starlightCharger]
 	#The rate at which the starlight charger gathers energy during the night
 	#Range: > 0
-	chargeRate = 45
+	chargeRate = 50
 	#The maximum amount of energy the starlight charger can store
 	#Range: > 0
-	maxCharge = 750000
+	maxCharge = 500000
 
 #World generation options (REQUIRES GAME RESTART)
 [world]
@@ -190,7 +190,7 @@
 	[world.crimsonIron]
 		#Veins of crimson iron ore per chunk
 		#Range: 0 ~ 1000
-		count = 8
+		count = 7
 
 	[world.wildFlax]
 		#Number of patches of wild flax to attempt to place per chunk (some biomes only)
@@ -215,12 +215,12 @@
 		#This might help track down more obscure issues.
 		extraPartAndTraitInfo = false
 		#Log stat calculations in the debug.log every time gear stats are recalculated
-		stats = true
+		stats = false
 		#Log information on construction of gear and part models, as well as textures they attempt to load.
 		#This is intended to help find and fix rare issues that some users are experiencing.
 		modelAndTexture = false
 		#Log details about certain features being adding to biomes and other world generator details
-		worldGen = true
+		worldGen = false
 
 [other]
 	#Set to false to remove the text from tooltips
