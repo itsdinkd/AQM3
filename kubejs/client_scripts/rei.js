@@ -3,6 +3,7 @@
 console.info('AQM3 -- Removing Items.... v1.0');
 const removeJei = [
 'angelring:itemdiamondring',
+'armorplus:soul_box',
 'buildinggadgets:gadget_destruction',
 'chanceglobe:chance_globe',
 'cyclic:antigravity',
@@ -55,6 +56,13 @@ const removeJei = [
 'cyclic:uncrafter',
 'cyclic:water_candle',
 'cyclic:wireless_item',
+'essentials:wither_cannon',
+'extradisks:infinite_fluid_storage_block',
+'extradisks:infinite_fluid_storage_disk',
+'extradisks:infinite_fluid_storage_part',
+'extradisks:infinite_storage_block',
+'extradisks:infinite_storage_disk',
+'extradisks:infinite_storage_part',
 'gobber2:gobber2_boots_dragon',
 'gobber2:gobber2_chestplate_dragon',
 'gobber2:gobber2_helmet_dragon',
@@ -71,7 +79,18 @@ const removeJei = [
 'gobber2:gobber2_ring_vision',
 'gobber2:gobber2_staff_farmer',
 'gobber2:gobber2_staff_harvest',
-'gobber2:gobber2_sword_traveler'
+'gobber2:gobber2_sword_traveler',
+'tombstone:book_of_disenchantment',
+'tombstone:book_of_magic_impregnation',
+'tombstone:book_of_repairing',
+'tombstone:dust_of_frost',
+'tombstone:book_of_recycling',
+'tombstone:dust_of_vanishing',
+'tombstone:lost_tablet',
+'tombstone:scroll_of_reach',
+'tombstone:tablet_of_assistance',
+'tombstone:tablet_of_home',
+'tombstone:tablet_of_recall'
 ];
 
 onEvent('jei.hide.items', event => {
@@ -81,12 +100,10 @@ onEvent('jei.hide.items', event => {
 })
 
 onEvent('rei.add.items', event => {
-  event.add(item.of('cyclic:guide_book'));
-  event.add(item.of('kubejs:star_of_icon'));
-  event.add(item.of('kubejs:demon_pearl'))
-  event.add(item.of('kubejs:corrupted_emerald'))
+  event.add('kubejs:star_of_icon');
+  event.add('kubejs:demon_pearl');
+  event.add('kubejs:corrupted_emerald');
 });
-
 
 onEvent('rei.information', event => {
   event.add('kubejs:star_of_icon', 'Boss Item', ['To Retrieve..', 'Kill Icon of Sin']);

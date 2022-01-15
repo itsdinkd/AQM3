@@ -16,7 +16,7 @@
 	augment_limits = []
 	#Base knockback value
 	#Range: 0.0 ~ 1.7976931348623157E308
-	base_value = 1.5
+	base_value = 1.2
 	#Range: 0.0 ~ 2.147483647E9
-	amplify = 1.0
+	amplify = 0.7
 

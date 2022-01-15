@@ -27,4 +27,6 @@
 	moolipSpawn = true
 	#Will the Cluckshroom spawn in the wild
 	cluckshroomSpawn = true
+	#Will the Lobber Zombie spawn in the wild
+	lobberZombieSpawn = true
 

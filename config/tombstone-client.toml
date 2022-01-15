@@ -56,7 +56,7 @@
 	#Allowed Values: DARK, WHITE
 	favorite_grave_marble = "WHITE"
 	#Defines the rule to use for grave's skin [DEFAULT/FORCE_NORMAL/FORCE_HALLOWEEN|default:DEFAULT]
-	#Allowed Values: DEFAULT, FORCE_NORMAL, FORCE_HALLOWEEN
+	#Allowed Values: DEFAULT, FORCE_NORMAL, FORCE_HALLOWEEN, FORCE_CHRISTMAS
 	grave_skin_rule = "DEFAULT"
 	#Defines your grave placement logic (nearest or ideal placement) [SAFEST/NORMAL/NEAREST|default:NORMAL]
 	#Allowed Values: SAFEST, NORMAL, NEAREST
@@ -64,4 +64,7 @@
 	#Defines when to automatically equip your items [NEVER/GRAVE_RECOVERY/DEATH_RESPAWN/ALWAYS|default:ALWAYS]
 	#Allowed Values: NEVER, GRAVE_RECOVERY, DEATH_RESPAWN, ALWAYS
 	auto_equip_rule = "ALWAYS"
+	#Defines the type of marker when holding in hand some items like the Grave's Key [SPARK/BOX|default:SPARK]
+	#Allowed Values: SPARK, NOTE, BOX
+	marker_type = "SPARK"
 

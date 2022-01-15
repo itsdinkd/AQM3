@@ -5,9 +5,6 @@
 	#Distance Factor (Default 1.0) Is multiplied on the structures distance. Allows changing distance of every structure at once. See 'Structure Min Distance' too
 	#Range: 0.0 ~ 100.0
 	distance_factor = 1.2
-	#Seperation Factor (Default 1.0) Is multiplied on the structures separation. Allows changing separation of every structure at once. See 'Structure Min Distance' too
-	#Range: 0.0 ~ 100.0
-	seperation_factor = 1.12
 	#The structures min. distance is the smallest possible distance between two structures (of this mod). You should set this to an lower value if you set the distance and separation to lower values, because to high distances here can prevent any structure from spawning
 	#Range: 1 ~ 100
 	structures_min_distance = 18
@@ -17,7 +14,7 @@
 	banned_blocks = []
 	#All entities in this list will not be placed with the structures
 	banned_entities = []
-	#How many times you need to find a structure to enable it's complete story
-	#Range: 0 ~ 100
-	needed_novels = 5
+	#Separation Factor (Default 1.0) Is multiplied on the structures separation. Allows changing separation of every structure at once. See 'Structure Min Distance' too
+	#Range: 0.0 ~ 100.0
+	separation_factor = 1.0
 

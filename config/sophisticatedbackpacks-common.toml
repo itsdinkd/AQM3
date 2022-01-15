@@ -4,7 +4,7 @@
 	#Disable / enable any items here (disables their recipes)
 	enabledItems = ["void_upgrade:true", "advanced_pickup_upgrade:true", "everlasting_upgrade:true", "compacting_upgrade:true", "advanced_magnet_upgrade:true", "advanced_tool_swapper_upgrade:true", "advanced_filter_upgrade:true", "advanced_feeding_upgrade:true", "diamond_backpack:true", "inception_upgrade:true", "crafting_upgrade:true", "xp_pump_upgrade:true", "tank_upgrade:true", "auto_smelting_upgrade:true", "stack_upgrade_tier_4:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_1:true", "smelting_upgrade:true", "battery_upgrade:true", "advanced_pump_upgrade:true", "upgrade_base:true", "filter_upgrade:true", "refill_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "stonecutter_upgrade:true", "advanced_compacting_upgrade:true", "backpack:true", "pump_upgrade:true", "feeding_upgrade:true", "jukebox_upgrade:true", "advanced_restock_upgrade:true", "pickup_upgrade:true", "magnet_upgrade:true", "gold_backpack:true", "tool_swapper_upgrade:true", "netherite_backpack:true", "auto_smoking_upgrade:true", "auto_blasting_upgrade:true", "smoking_upgrade:true", "blasting_upgrade:true"]
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
-	disallowedItems = ["minecraft:shulker_box"]
+	disallowedItems = ["minecraft:shulker_box", "tombstone:enchanted_bundle"]
 
 	#Leather Backpack Settings
 	[common.leatherBackpack]
@@ -219,28 +219,28 @@
 	[common.smeltingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
-		smeltingSpeedMultiplier = 1.0
+		smeltingSpeedMultiplier = 0.9
 		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
 		#Range: 0.25 ~ 4.0
-		fuelEfficiencyMultiplier = 1.0
+		fuelEfficiencyMultiplier = 0.9
 
 		#Smoking Upgrade Settings
 		[common.smeltingUpgrade.smokingUpgrade]
 			#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 			#Range: 0.25 ~ 4.0
-			smeltingSpeedMultiplier = 1.0
+			smeltingSpeedMultiplier = 0.9
 			#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
 			#Range: 0.25 ~ 4.0
-			fuelEfficiencyMultiplier = 1.0
+			fuelEfficiencyMultiplier = 0.9
 
 			#Blasting Upgrade Settings
 			[common.smeltingUpgrade.smokingUpgrade.blastingUpgrade]
 				#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 				#Range: 0.25 ~ 4.0
-				smeltingSpeedMultiplier = 1.0
+				smeltingSpeedMultiplier = 0.9
 				#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
 				#Range: 0.25 ~ 4.0
-				fuelEfficiencyMultiplier = 1.0
+				fuelEfficiencyMultiplier = 0.9
 				#Turns on/off loot added to various vanilla chest loot tables
 				chestLootEnabled = true
 
@@ -248,10 +248,10 @@
 				[common.smeltingUpgrade.smokingUpgrade.blastingUpgrade.autoSmeltingUpgrade]
 					#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 					#Range: 0.25 ~ 4.0
-					smeltingSpeedMultiplier = 1.0
+					smeltingSpeedMultiplier = 0.8
 					#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
 					#Range: 0.25 ~ 4.0
-					fuelEfficiencyMultiplier = 1.0
+					fuelEfficiencyMultiplier = 0.8
 					#Number of input filter slots
 					#Range: 1 ~ 20
 					inputFilterSlots = 8
@@ -269,10 +269,10 @@
 				[common.smeltingUpgrade.smokingUpgrade.blastingUpgrade.autoSmokingUpgrade]
 					#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 					#Range: 0.25 ~ 4.0
-					smeltingSpeedMultiplier = 1.0
+					smeltingSpeedMultiplier = 0.8
 					#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
 					#Range: 0.25 ~ 4.0
-					fuelEfficiencyMultiplier = 1.0
+					fuelEfficiencyMultiplier = 0.8
 					#Number of input filter slots
 					#Range: 1 ~ 20
 					inputFilterSlots = 8
@@ -290,10 +290,10 @@
 				[common.smeltingUpgrade.smokingUpgrade.blastingUpgrade.autoBlastingUpgrade]
 					#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 					#Range: 0.25 ~ 4.0
-					smeltingSpeedMultiplier = 1.0
+					smeltingSpeedMultiplier = 0.8
 					#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
 					#Range: 0.25 ~ 4.0
-					fuelEfficiencyMultiplier = 1.0
+					fuelEfficiencyMultiplier = 0.8
 					#Number of input filter slots
 					#Range: 1 ~ 20
 					inputFilterSlots = 8
@@ -375,7 +375,7 @@
 					#Turns on/off equiping the entity that wears backpack with armor. What armor material and how enchanted is scaled based on backpack tier the mob wears.
 					equipWithArmor = true
 					#Map of entities that can spawn with backpack and related loot tables (if adding a loot is enabled) in format of "EntityRegistryName|LootTableName"
-					entityLootTableList = ["minecraft:creeper|minecraft:chests/desert_pyramid", "minecraft:drowned|minecraft:chests/shipwreck_treasure", "minecraft:enderman|minecraft:chests/end_city_treasure", "minecraft:evoker|minecraft:chests/woodland_mansion", "minecraft:husk|minecraft:chests/desert_pyramid", "minecraft:piglin|minecraft:chests/bastion_bridge", "minecraft:piglin_brute|minecraft:chests/bastion_treasure", "minecraft:pillager|minecraft:chests/pillager_outpost", "minecraft:skeleton|minecraft:chests/simple_dungeon", "minecraft:stray|minecraft:chests/igloo_chest", "minecraft:vex|minecraft:chests/woodland_mansion", "minecraft:vindicator|minecraft:chests/woodland_mansion", "minecraft:witch|minecraft:chests/buried_treasure", "minecraft:wither_skeleton|minecraft:chests/nether_bridge", "minecraft:zombie|minecraft:chests/simple_dungeon", "minecraft:zombie_villager|minecraft:chests/village/village_armorer", "minecraft:zombified_piglin|minecraft:chests/bastion_other"]
+					entityLootTableList = ["minecraft:drowned|minecraft:chests/shipwreck_treasure", "minecraft:enderman|minecraft:chests/end_city_treasure", "minecraft:evoker|minecraft:chests/woodland_mansion", "minecraft:husk|minecraft:chests/desert_pyramid", "minecraft:piglin|minecraft:chests/bastion_bridge", "minecraft:piglin_brute|minecraft:chests/bastion_treasure", "minecraft:pillager|minecraft:chests/pillager_outpost", "minecraft:skeleton|minecraft:chests/simple_dungeon", "minecraft:stray|minecraft:chests/igloo_chest", "minecraft:vex|minecraft:chests/woodland_mansion", "minecraft:vindicator|minecraft:chests/woodland_mansion", "minecraft:witch|minecraft:chests/buried_treasure", "minecraft:wither_skeleton|minecraft:chests/nether_bridge", "minecraft:zombie|minecraft:chests/simple_dungeon", "minecraft:zombie_villager|minecraft:chests/village/village_armorer", "minecraft:zombified_piglin|minecraft:chests/bastion_other"]
 					#List of music discs that are not supposed to be played by entities
 					discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
 					#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.

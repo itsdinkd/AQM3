@@ -2,7 +2,7 @@
   "startingValue" : 0,
   "minValue" : 0,
   "maxValue" : 250,
-  "changePerSecond" : 0.0005555555555555555,
+  "changePerSecond" : 0.0004855555555555555,
   "mode" : {
     "type" : "average",
     "radius": 256,
@@ -29,11 +29,11 @@
     ]
   },
   "mutators" : {
-    "onBlightKilled" : "difficulty + 0.03",
-    "onHostileKilled" : "difficulty + 0.0047",
+    "onBlightKilled" : "difficulty + 0.012111",
+    "onHostileKilled" : "difficulty + 0.0057",
     "onPeacefulKilled" : "difficulty",
     "onPlayerKilled" : "difficulty + 0.2333",
-    "onPlayerDeath" : "difficulty - 0.07777",
+    "onPlayerDeath" : "difficulty - 0.00799",
     "onPlayerSleep" : "difficulty",
     "byEntity" : [
       {

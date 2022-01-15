@@ -16,5 +16,5 @@
 	augment_limits = []
 	#Potion duration, in seconds
 	#Range: > 0
-	potion_time = 30
+	potion_time = 20
 

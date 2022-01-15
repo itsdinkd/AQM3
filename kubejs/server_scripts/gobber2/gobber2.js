@@ -180,7 +180,7 @@ event.recipes.immersiveengineeringCrusher(
     "energy": 6000
 });
 // Use Compacter for Dragonstar
-event.remove({input: "gobber2:dragon_star"})
+event.remove({output: "gobber2:dragon_star"})
 event.recipes.createCompacting('gobber2:dragon_star', [
   'gobber2:gobber2_block_end',
   'gobber2:gobber2_rod_end',

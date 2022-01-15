@@ -55,4 +55,10 @@
 	blockHittingEvent_OddsTo1 = 20
 	#Only spawn sound senses for players, if false, machines and other things will cause them too
 	blockBreakEvent_PlayersOnly = true
+	#How long before a mob can move around again to track a light source, or scent, or sound, increase number to reduce performance impact of mod if needed
+	#Range: > -2147483648
+	tickCooldownBetweenPathfinds = 300
+	#How likely zombies making noise near you will attract other zombies, higher = less likely, 0 = every time they make a noise
+	#Range: > -2147483648
+	noisyZombiesReinforceOddsTo1 = 5
 

@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "0FAB4A14717CC291", title: "Humble Beginnings" }
+		{ id: "30AC1CE19F5532E7", title: "Getting into the Meat and Potatoes" }
+	]
+}

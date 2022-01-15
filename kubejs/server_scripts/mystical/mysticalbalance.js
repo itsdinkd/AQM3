@@ -59,6 +59,7 @@ mystTools.forEach(function (item) {
   ]);
 })
 
-
+// Mystical Agriculture Flight Augment
+event.remove({id:'mysticalagriculture:augment/flight'})
 
 });

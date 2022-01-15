@@ -1,80 +1,196 @@
-To refresh this file, delete it and run /reload command again! Last updated: Dec 14, 2021, 1:56:53 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jan 5, 2022, 6:39:37 PM
+
+#assemblylinemachines:glacier_water
+- assemblylinemachines:glacier_water
+- assemblylinemachines:glacier_water_flowing
+
+#assemblylinemachines:gasoline
+- assemblylinemachines:gasoline
+- assemblylinemachines:gasoline_flowing
+
+#forge:molten_silicon
+- #beyond_earth:molten_silicon
+
+#forge:crude_oil
 
 #minecraft:water
 - minecraft:water
 - minecraft:flowing_water
 - restored_earth:mud
 - restored_earth:flowing_mud
-- tofucraft:soymilk
-- tofucraft:soymilk_flow
-- tofucraft:soymilk_hell
-- tofucraft:soymilk_hell_flow
-- tofucraft:soymilk_soul
-- tofucraft:soymilk_soul_flow
-- tofucraft:bittern
-- tofucraft:bittern_flow
+- securitycraft:fake_water
+- securitycraft:flowing_fake_water
+- beyond_earth:fuel
+- beyond_earth:flowing_fuel
+- beyond_earth:oil
+- beyond_earth:flowing_oil
 - create:flowing_honey
 - create:honey
 - create:flowing_chocolate
 - create:chocolate
+- hyperlighting:white_colored_water_still
+- hyperlighting:white_colored_water_flowing
+- hyperlighting:orange_colored_water_still
+- hyperlighting:orange_colored_water_flowing
+- hyperlighting:magenta_colored_water_still
+- hyperlighting:magenta_colored_water_flowing
+- hyperlighting:light_blue_colored_water_still
+- hyperlighting:light_blue_colored_water_flowing
+- hyperlighting:yellow_colored_water_still
+- hyperlighting:yellow_colored_water_flowing
+- hyperlighting:lime_colored_water_still
+- hyperlighting:lime_colored_water_flowing
+- hyperlighting:pink_colored_water_still
+- hyperlighting:pink_colored_water_flowing
+- hyperlighting:gray_colored_water_still
+- hyperlighting:gray_colored_water_flowing
+- hyperlighting:light_gray_colored_water_still
+- hyperlighting:light_gray_colored_water_flowing
+- hyperlighting:cyan_colored_water_still
+- hyperlighting:cyan_colored_water_flowing
+- hyperlighting:purple_colored_water_still
+- hyperlighting:purple_colored_water_flowing
+- hyperlighting:blue_colored_water_still
+- hyperlighting:blue_colored_water_flowing
+- hyperlighting:brown_colored_water_still
+- hyperlighting:brown_colored_water_flowing
+- hyperlighting:green_colored_water_still
+- hyperlighting:green_colored_water_flowing
+- hyperlighting:red_colored_water_still
+- hyperlighting:red_colored_water_flowing
+- hyperlighting:black_colored_water_still
+- hyperlighting:black_colored_water_flowing
+- hyperlighting:white_colored_glowing_water_still
+- hyperlighting:white_colored_glowing_water_flowing
+- hyperlighting:orange_colored_glowing_water_still
+- hyperlighting:orange_colored_glowing_water_flowing
+- hyperlighting:magenta_colored_glowing_water_still
+- hyperlighting:magenta_colored_glowing_water_flowing
+- hyperlighting:light_blue_colored_glowing_water_still
+- hyperlighting:light_blue_colored_glowing_water_flowing
+- hyperlighting:yellow_colored_glowing_water_still
+- hyperlighting:yellow_colored_glowing_water_flowing
+- hyperlighting:lime_colored_glowing_water_still
+- hyperlighting:lime_colored_glowing_water_flowing
+- hyperlighting:pink_colored_glowing_water_still
+- hyperlighting:pink_colored_glowing_water_flowing
+- hyperlighting:gray_colored_glowing_water_still
+- hyperlighting:gray_colored_glowing_water_flowing
+- hyperlighting:light_gray_colored_glowing_water_still
+- hyperlighting:light_gray_colored_glowing_water_flowing
+- hyperlighting:cyan_colored_glowing_water_still
+- hyperlighting:cyan_colored_glowing_water_flowing
+- hyperlighting:purple_colored_glowing_water_still
+- hyperlighting:purple_colored_glowing_water_flowing
+- hyperlighting:blue_colored_glowing_water_still
+- hyperlighting:blue_colored_glowing_water_flowing
+- hyperlighting:brown_colored_glowing_water_still
+- hyperlighting:brown_colored_glowing_water_flowing
+- hyperlighting:green_colored_glowing_water_still
+- hyperlighting:green_colored_glowing_water_flowing
+- hyperlighting:red_colored_glowing_water_still
+- hyperlighting:red_colored_glowing_water_flowing
+- hyperlighting:black_colored_glowing_water_still
+- hyperlighting:black_colored_glowing_water_flowing
 - mahoutsukai:murky_still
 - mahoutsukai:murky_flow
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:biodiesel
+- immersiveengineering:biodiesel
 
 #forge:milk
 - minecraft:milk?
 - minecraft:flowing_milk?
 
-#forge:tin_mineral_fluid
-- electrodynamics:fluidmineraltin
+#forge:herbicide
+- immersiveengineering:herbicide
 
-#forge:uranium_hexafluoride
-- nuclearscience:fluiduraniumhexafluoride
+#forge:molten_desh
+- #beyond_earth:molten_desh
 
-#forge:gold_mineral_fluid
-- electrodynamics:fluidmineralgold
+#assemblylinemachines:oil
+- assemblylinemachines:oil
+- assemblylinemachines:oil_flowing
+
+#assemblylinemachines:diesel
+- assemblylinemachines:diesel
+- assemblylinemachines:diesel_flowing
 
 #forge:biomass
 - cyclic:biomass
+
+#assemblylinemachines:naphtha
+- assemblylinemachines:naphtha
+- assemblylinemachines:naphtha_flowing
+
+#forge:plantoil
+- immersiveengineering:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
 
 #forge:magentite
 - bigreactors:magentite
 - bigreactors:magentite_flowing
 
-#forge:copper_mineral_fluid
-- electrodynamics:fluidmineralcopper
-
-#forge:lithium_mineral_fluid
-- electrodynamics:fluidminerallithium
-
 #minecraft:lava
 - minecraft:lava
 - minecraft:flowing_lava
+- securitycraft:fake_lava
+- securitycraft:flowing_fake_lava
 
-#forge:iron_sulfamate
-- nuclearscience:fluidironsulfamate
+#assemblylinemachines:condensed_void
+- assemblylinemachines:condensed_void
+- assemblylinemachines:condensed_void_flowing
+
+#biomesoplenty:blood
+- biomesoplenty:blood
+- biomesoplenty:flowing_blood
 
 #forge:ethanol
-- electrodynamics:fluidethanol
-
-#forge:molybdenum_mineral_fluid
-- electrodynamics:fluidmineralmolybdenum
+- immersiveengineering:ethanol
 
 #forge:chocolate
 - create:flowing_chocolate
 - create:chocolate
 
-#forge:iron_mineral_fluid
-- electrodynamics:fluidmineraliron
+#forge:redstone_acid
+- immersiveengineering:redstone_acid
+
+#assemblylinemachines:liquid_carbon
+- assemblylinemachines:liquid_carbon
+- assemblylinemachines:liquid_carbon_flowing
+
+#assemblylinemachines:liquid_experience
+- assemblylinemachines:liquid_experience
+- assemblylinemachines:liquid_experience_flowing
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#beyond_earth:oil
+- beyond_earth:oil
+- beyond_earth:flowing_oil
 
 #forge:verderium
 - bigreactors:verderium
 - bigreactors:verderium_flowing
 
-#forge:sulfuric_acid
-- electrodynamics:fluidsulfuricacid
+#forge:potion
+- immersiveengineering:potion
 
-#forge:ammonia
-- nuclearscience:fluidammonia
+#beyond_earth:molten_desh
+- beyond_earth:molten_desh?
+- beyond_earth:flowing_molten_desh?
+
+#tconstruct:metal_like
+- #forge:molten_desh
+- #forge:molten_silicon
+
+#assemblylinemachines:dark_energy
+- assemblylinemachines:dark_energy
+- assemblylinemachines:dark_energy_flowing
 
 #forge:steam
 - bigreactors:steam
@@ -91,31 +207,27 @@ To refresh this file, delete it and run /reload command again! Last updated: Dec
 #forge:slime
 - cyclic:slime
 
-#forge:silver_mineral_fluid
-- electrodynamics:fluidmineralsilver
-
-#forge:polyethylene
-- electrodynamics:fluidpolyethylene
-
-#forge:molybdenum
-- electrodynamics:fluidmolybdenum
-
 #forge:tea
 - create:flowing_tea
 - create:tea
 
+#beyond_earth:molten_silicon
+- beyond_earth:molten_silicon?
+- beyond_earth:flowing_molten_silicon?
+
 #forge:magma
 - cyclic:magma
 
-#forge:hydrofluoric_acid
-- electrodynamics:fluidhydrogenfluoride
+#beyond_earth:vehicle_fuel
+- beyond_earth:fuel
+- beyond_earth:flowing_fuel
+
+#immersiveengineering:drill_fuel
+- #forge:biodiesel
 
 #forge:rossinite
 - bigreactors:rossinite
 - bigreactors:rossinite_flowing
-
-#forge:vanadium_mineral_fluid
-- electrodynamics:fluidmineralvanadium
 
 #forge:honey
 - productivebees:honey
@@ -125,8 +237,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Dec
 - create:flowing_honey
 - create:honey
 
-#forge:lead_mineral_fluid
-- electrodynamics:fluidminerallead
+#forge:creosote
+- immersiveengineering:creosote
 
 #forge:cyanite
 - bigreactors:cyanite

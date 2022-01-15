@@ -2,10 +2,10 @@
 #General settings
 [general]
 	#Is Enabled?
-	enabled = true
+	enabled = false
 	#Cost
 	#Range: > -2147483648
-	cost = 5
+	cost = 10
 	#Is Starter Glyph?
 	starter = true
 	#The maximum number of times this glyph may appear in a single spell

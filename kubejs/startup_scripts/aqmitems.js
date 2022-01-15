@@ -15,6 +15,6 @@ onEvent('item.registry', event => {
    item.displayName('Star of Icon').tooltip('§8Something about a Icon of Sin').maxStackSize(1).burnTime(3000);
  });
   event.create('demon_pearl', item => {
-   item.displayName('Demon Pearl').tooltip('§8Tyrant\'s Toy').maxStackSize(1).burnTime(3000);
+   item.displayName('Demon Pearl').tooltip('§8Arch Makyr\'s Dim Pearl').maxStackSize(1).burnTime(3000);
  });
 });

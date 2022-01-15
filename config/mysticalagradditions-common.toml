@@ -3,10 +3,10 @@
 [General]
 	#The percentage chance that a Wither will drop a Withering Soul when killed.
 	#Range: 0.0 ~ 1.0
-	witheringSoulChance = 0.199
+	witheringSoulChance = 0.1
 	#The amount of Dragon Scales that an Ender Dragon will drop when killed.
 	#Range: 0 ~ 64
-	dragonScalesAmount = 3
+	dragonScalesAmount = 1
 	#Can tier 6 crops be fertilized using Mystical Fertilizer or Fertilized Essence?
 	fertilizableTier6Crops = false
 	#The duration of each Essence Apples effects in seconds.

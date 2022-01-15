@@ -192,22 +192,6 @@
 		#Range: 0 ~ 1000
 		count = 7
 
-	[world.wildFlax]
-		#Number of patches of wild flax to attempt to place per chunk (some biomes only)
-		#Range: 0 ~ 100
-		patchCount = 1
-		#Block place attempts per wild flax cluster
-		#Range: 0 ~ 1000
-		tryCount = 11
-
-	[world.wildFluffy]
-		#Number of patches of wild fluffy plants to attempt to place per chunk (some biomes only)
-		#Range: 0 ~ 100
-		patchCount = 1
-		#Block place attempts per wild fluffy plants cluster
-		#Range: 0 ~ 1000
-		tryCount = 11
-
 [debug]
 
 	[debug.logging]

@@ -118,22 +118,22 @@
 ["Mob Scaling"]
 	#What is the maximum amount an aggressive mob's damage will be boosted?
 	#Range: 0.0 ~ 1.0E9
-	maxMobDamageBoost = 100.0
+	maxMobDamageBoost = 7.5
 	#How much an aggresive mob's damage will increase per one Power Level?
 	#Range: 0.0 ~ 10.0
-	mobDamageBoostPerPowerLevel = 1.2
+	mobDamageBoostPerPowerLevel = 0.06
 	#What is the maximum amount an aggressive mob's HP will be boosted?
 	#Range: 0.0 ~ 1024.0
-	maxMobHPBoost = 1000.0
+	maxMobHPBoost = 20.0
 	#How much an aggresive mob's HP will increase per one Power Level?
 	#Range: 0.0 ~ 100.0
-	mobHPBoostPerPowerLevel = 6.333
+	mobHPBoostPerPowerLevel = 0.3
 	#What is the maximum amount an aggressive mob's speed will be boosted?
 	#Range: 0.0 ~ 100.0
-	maxMobSpeedBoost = 10.0
+	maxMobSpeedBoost = 4.0
 	#How much an aggresive mob's speed will increase per one Power Level?
 	#Range: 0.0 ~ 10.0
-	mobSpeedBoostPerPowerLevel = 1.05
+	mobSpeedBoostPerPowerLevel = 0.0333
 	#Should mob xp multipliers inside of biomes be enabled? false means no multipliers
 	biomeMobMultiplierEnabled = false
 
@@ -226,7 +226,7 @@
 	#Should a player have all their skills wiped to level 1 upon death?
 	wipeAllSkillsUponDeathPermanently = false
 	#Should every 10th level up be broadcast to everyone?
-	broadcastMilestone = true
+	broadcastMilestone = false
 	#Should fireworks appear on level up?
 	levelUpFirework = true
 	#Should fireworks appear on Milestone level up, to other players?
@@ -408,58 +408,58 @@
 	saveChancePerLevel = 64.0
 	#How much jump boost can you gain max (above 0.33 makes you take fall damage)
 	#Range: 0.0 ~ 100.0
-	maxJumpBoost = 0.33
+	maxJumpBoost = 0.2
 	#Every how many levels you gain an extra block of jumping height while Crouching
 	#Range: 1.0 ~ 1.0E9
-	levelsPerCrouchJumpBoost = 40.0
+	levelsPerCrouchJumpBoost = 50.0
 	#Every how many levels you gain an extra block of jumping height while Sprinting
 	#Range: 1.0 ~ 1.0E9
-	levelsPerSprintJumpBoost = 50.0
+	levelsPerSprintJumpBoost = 65.0
 	#How much speed boost you can get from Agility (100 = 100% vanilla + 100% = twice as fast max)
 	#Range: 0.0 ~ 1.0E9
-	maxSpeedBoost = 60.0
+	maxSpeedBoost = 40.0
 	#How much speed boost you get from each level (1 = 1% speed boost per level)
 	#Range: 0.0 ~ 100.0
-	speedBoostPerLevel = 0.333
+	speedBoostPerLevel = 0.175
 
 [Endurance]
 	#How much endurance is max (100 = god mode)
 	#Range: 0.0 ~ 100.0
-	maxEndurance = 50.0
+	maxEndurance = 40.0
 	#How much endurance you gain per level (1 = 1% per level)
 	#Range: 0.0 ~ 100.0
-	endurancePerLevel = 0.25
+	endurancePerLevel = 0.2
 	#Per how many levels you gain 1 Max Heart
 	#Range: 1.0 ~ 1.0E9
-	levelsPerHeart = 15.0
+	levelsPerHeart = 8.25
 	#How many Max Hearts you can have (20 means 10 vanilla + 20 boosted)
 	#Range: 0 ~ 1000000000
-	maxExtraHeartBoost = 30
+	maxExtraHeartBoost = 20
 	#How many half hearts regenerate per minute at level 0 Endurance (at 1, and at level 0 Endurance, you regenerate half a heart every 60 seconds, 0 means no base regeneration)
 	#Range: 0.0 ~ 1000.0
 	hpRegenPerMinuteBase = 0.0
 	#Addition per level to hpRegenPerMinuteBase (if set to 0.01, every 100 Endurance levels, you regen 1 more half heart per 60 seconds, 0 means no extra regeneration)
 	#Range: 0.0 ~ 1000.0
-	hpRegenPerMinuteBoostPerLevel = 0.02
+	hpRegenPerMinuteBoostPerLevel = 0.0
 	#Multiplier for xp gained in endurance from Regeneration
 	#Range: 0.0 ~ 1000000.0
-	hpRegenXpMultiplier = 1.5
+	hpRegenXpMultiplier = 0.25
 
 [Combat]
 	#How much percentage bonus damage do you get per Combat level in Melee?
 	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelMelee = 0.00175
+	damageBonusPercentPerLevelMelee = 0.00165
 	#How much extra damage can you get from the Combat skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostMelee = 35.0
+	maxExtraDamagePercentageBoostMelee = 30.0
 
 [Archery]
 	#How much percentage bonus damage do you get per Archery level in Archery?
 	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelArchery = 0.002
+	damageBonusPercentPerLevelArchery = 0.0015
 	#How much extra damage can you get from the Archery skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostArchery = 40.0
+	maxExtraDamagePercentageBoostArchery = 32.0
 
 [Smithing]
 	#Should PMMO anvil handling be enabled? (xp rewards for repair, and also Enchantment handling) (some mod items break, if you experience lost enchantments, set this to false)
@@ -551,15 +551,15 @@
 [Magic]
 	#How much percentage bonus damage do you get per Magic level in Magic?
 	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelMagic = 0.0025
+	damageBonusPercentPerLevelMagic = 0.0015
 	#How much extra damage can you get from the Magic skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostMagic = 37.0
+	maxExtraDamagePercentageBoostMagic = 32.0
 
 [Gunslinging]
 	#How much percentage bonus damage do you get per Gunslinging level in Gunslinging?
 	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelGunslinging = 0.0029
+	damageBonusPercentPerLevelGunslinging = 0.0015
 
 [Slayer]
 	#How much slayer xp is awarded upon killing an aggresive mob by default

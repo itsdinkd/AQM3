@@ -47,6 +47,21 @@ event.replaceInput(
     "minecraft:dirt",
     "compressium:dirt_2"
 );
+event.replaceInput(
+  { id:"cyclic:scaffold_replace" },
+    "minecraft:stick",
+    "prefab:item_bundle_of_timber"
+);
+event.replaceInput(
+  { id:"cyclic:scaffold_fragile" },
+    "minecraft:stick",
+    "prefab:item_bundle_of_timber"
+);
+event.replaceInput(
+  { id:"cyclic:scaffold_responsive" },
+    "minecraft:stick",
+    "prefab:item_bundle_of_timber"
+);
 // Mattock
 event.replaceInput(
   { id:"cyclic:mattock" },
@@ -57,7 +72,7 @@ event.replaceInput(
 event.replaceInput(
   { id:"cyclic:evoker_fang" },
     "minecraft:cobweb",
-    "voidscape:tendril"
+    "beyond_earth:silicon_tank"
 );
 event.replaceInput(
   { id:"cyclic:evoker_fang" },
@@ -149,16 +164,16 @@ event.replaceInput(
     "minecraft:diamond",
     "gobber2:dragon_star"
 );
-var cycArrow = ['voidscape:tendril']
+
 event.replaceInput(
   { id:"cyclic:quiver_damage" },
     "minecraft:arrow",
-    cycArrow
+    "armorplus:super_star_arrow"
 );
 event.replaceInput(
   { id:"cyclic:quiver_lightning" },
     "minecraft:arrow",
-    cycArrow
+    "armorplus:guardian_arrow"
 );
 event.replaceInput(
   { id:"cyclic:charm_magicdefense" },
@@ -225,6 +240,7 @@ event.replaceInput(
 "mininggadgets:mininggadget_fancy"
 );
 
+// Wstweak lava blade
 event.replaceInput(
 { id: "wstweaks:lava_blade"},
 "minecraft:lava_bucket",
@@ -260,7 +276,12 @@ event.replaceInput(
 "create:blaze_cake"
 );
 
-
+// Waystone return scroll
+event.replaceInput(
+{ id: "waystones:return_scroll"},
+"#forge:dyes/purple",
+"gobber2:gobber2_globette"
+);
 
 // End Game -- Angel Ring
 event.remove({output: 'angelring:itemring'});
@@ -302,11 +323,11 @@ event.recipes.create.mechanical_crafting(
       "item": "assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser"
     },
     "G": {
-      "item": "refinedstorage:4096k_fluid_storage_disk"
+      "item": "extradisks:1048576k_storage_part"
     },
     "Q": {
-      "item": "refinedstorage:4096k_fluid_storage_part"
-    },
+      "item": "extradisks:1048576k_fluid_storage_part"
+    }
   },
   "result": {
     "item": "angelring:itemring",
@@ -315,6 +336,177 @@ event.recipes.create.mechanical_crafting(
   "acceptMirrored": false
 });
 
+  event.remove({id: 'extradisks:part/1024k_storage_part'})
+  event.shaped('extradisks:1024k_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'extradisks:256k_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'bigreactors:graphite_dust',
+    t: 'minecraft:emerald_block'
+  });
+
+  event.remove({id: 'refinedstorage:4096k_fluid_storage_part'})
+  event.shaped('refinedstorage:4096k_fluid_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'refinedstorage:1024k_fluid_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'minecraft:bucket',
+    t: '#forge:ingots/netherite'
+  });
+
+  event.remove({id: 'extradisks:part/4096k_storage_part'})
+  event.shaped('extradisks:4096k_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'extradisks:1024k_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'bigreactors:graphite_dust',
+    t: '#forge:ingots/netherite'
+  });
+
+  event.remove({id: 'extradisks:part/16384k_fluid_storage_part'})
+  event.shaped('extradisks:16384k_fluid_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'refinedstorage:4096k_fluid_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'minecraft:bucket',
+    t: 'minecraft:netherite_block'
+  });
+
+  event.remove({id: 'extradisks:part/16384k_storage_part'})
+  event.shaped('extradisks:16384k_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'extradisks:4096k_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'bigreactors:graphite_dust',
+    t: 'minecraft:netherite_block'
+  });
+
+  event.remove({id: 'extradisks:part/65536k_fluid_storage_part'})
+  event.shaped('extradisks:65536k_fluid_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'extradisks:16384k_fluid_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'minecraft:bucket',
+    t: '#forge:ingots/azure_electrum'
+  });
+
+  event.remove({id: 'extradisks:part/65536k_storage_part'})
+  event.shaped('extradisks:65536k_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'extradisks:16384k_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'bigreactors:graphite_dust',
+    t: '#forge:ingots/azure_electrum'
+  });
+
+  event.remove({id: 'extradisks:part/262144k_fluid_storage_part'})
+  event.shaped('extradisks:262144k_fluid_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'extradisks:65536k_fluid_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'minecraft:bucket',
+    t: '#forge:ingots/mystium'
+  });
+
+  event.remove({id: 'extradisks:part/262144k_storage_part'})
+  event.shaped('extradisks:262144k_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'extradisks:65536k_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'bigreactors:graphite_dust',
+    t: '#forge:ingots/mystium'
+  });
+
+  event.remove({id: 'extradisks:part/1048576k_fluid_storage_part'})
+  event.shaped('extradisks:1048576k_fluid_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'extradisks:262144k_fluid_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'minecraft:bucket',
+    t: 'gobber2:dragon_star'
+  });
+
+  event.remove({id: 'extradisks:part/1048576k_storage_part'})
+  event.shaped('extradisks:1048576k_storage_part', ['ltl', 'grg', 'lgl'],
+  {
+    g: 'extradisks:262144k_storage_part',
+    l: 'refinedstorage:advanced_processor',
+    r: 'bigreactors:graphite_dust',
+    t: 'gobber2:dragon_star'
+  });
+
+// Chargers t1 - t3
+event.replaceInput(
+{ id: "chargers:charger_t1"},
+"minecraft:iron_ingot",
+"gobber2:gobber2_ingot_nether"
+);
+event.replaceInput(
+{ id: "chargers:charger_t2"},
+"minecraft:gold_ingot",
+"gobber2:gobber2_ingot_end"
+);
+event.replaceInput(
+{ id: "chargers:charger_t3"},
+"minecraft:diamond",
+"gobber2:dragon_star"
+);
+
+// wireless charger
+event.replaceInput(
+{ id: "chargers:wireless_charger"},
+"minecraft:redstone_block",
+"chargers:charger_t1"
+);
+event.replaceInput(
+{ id: "chargers:wireless_charger"},
+"minecraft:iron_ingot",
+"gobber2:gobber2_ingot"
+);
+
+// Compact Machines
+event.replaceInput(
+{ id: "compactmachines:machine_tiny"},
+"#minecraft:planks",
+"refinedstorage:4k_storage_part"
+);
+
+event.replaceInput(
+{ id: "compactmachines:machine_small"},
+"minecraft:iron_block",
+"refinedstorage:64k_storage_part"
+);
+
+event.replaceInput(
+{ id: "compactmachines:machine_normal"},
+"minecraft:gold_block",
+"extradisks:256k_storage_part"
+);
+
+event.replaceInput(
+{ id: "compactmachines:machine_large"},
+"#chipped:obsidian",
+"extradisks:1024k_storage_part"
+);
+
+event.replaceInput(
+{ id: "compactmachines:machine_giant"},
+"minecraft:diamond_block",
+"extradisks:4096k_storage_part"
+);
+
+event.replaceInput(
+{ id: "compactmachines:machine_maximum"},
+"minecraft:emerald_block",
+"extradisks:16384k_storage_part"
+);
+
+// Explorer Compass
+// event.replaceInput(
+// { id: "explorerscompass:explorers_compass"},
+// "minecraft:compass",
+// "naturescompass:natures_compass"
+// );
 });
 onEvent('item.tags', event => {
 // Get the #forge:cobblestone tag collection and add Diamond Ore to it

@@ -33,6 +33,10 @@
                     "max": 12
                 }
             }]
+        }],
+        "conditions": [
+        {
+            "condition": "minecraft:killed_by_player"
         }]
     },
     {
@@ -41,6 +45,10 @@
         {
             "type": "minecraft:item",
             "name": "doom:argent_block"
+        }],
+        "conditions": [
+        {
+            "condition": "minecraft:killed_by_player"
         }]
     },
     {

@@ -1,0 +1,340 @@
+
+[Enchantments]
+
+	[Enchantments.FishingFanatic]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Chance for increasing enchantment level per every missing level to 6th level. (for example if this value is equal 0.01 then to get 1st level you have 6 * 0.01 = 6% chance, to get 2nd level ( 6-1 ) * 0.01 = 5% chance)
+		#Range: 1.0E-4 ~ 1.0
+		level_increase_chance = 0.01
+		#Chance for increasing enchantment level per every missing level from 6th to 8th level. (for example if this value is equal 0.002 then to get 7th level you have 2 * 0.002 = 0.4% chance and to get 8th level 1 * 0.002 = 0.2% chance)
+		#Range: 1.0E-4 ~ 1.0
+		high_level_increase_chance = 0.002
+		#Independent chance for extra loot with every enchantment level.
+		#Range: 0.01 ~ 1.0
+		extra_loot_chance = 0.33333
+		#Chance multiplier when player is fishing while it is raining.
+		#Range: 1.0 ~ 10.0
+		raining_multiplier = 2.0
+		#Amount of extra damage dealt by the fishing rod for every enchantment level.
+		#Range: 0.0 ~ 5.0
+		damage_bonus = 1.0
+		#Minimum required level of Fishing Fanatic to have a chance to drop special items.
+		#Range: 1 ~ 8
+		special_minimum_level = 7
+		#Chance to drop special items instead of regular one. (chance is separate for each item)
+		#Range: 0.0 ~ 1.0
+		special_drop_chance = 0.05
+
+	[Enchantments.DeathWish]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Maximum damage bonus player can get from this enchantment. (at full health - 0% * value, at half health - 50% * value, at 0 health - 100% * value)
+		#Range: 0.01 ~ 10.0
+		maximum_damage_multiplier = 1.0
+		#Whenever the owner takes damage, the damage is multiplied by this value.
+		#Range: 1.0 ~ 10.0
+		vulnerability_multiplier = 1.25
+
+	[Enchantments.AgainstHumanity]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Damage bonus per enchantment level.
+		#Range: 1.0 ~ 10.0
+		damage_bonus = 2.5
+
+	[Enchantments.PufferfishVengeance]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Pufferfish negative effects duration per enchantment level. (in seconds)
+		#Range: 1.0 ~ 30.0
+		duration = 4.0
+		#Amplifier level of Hunger effect.
+		#Range: 0 ~ 10
+		hunger = 2
+		#Amplifier level of Poison effect.
+		#Range: 0 ~ 10
+		poison = 3
+		#Amplifier level of Nausea effect.
+		#Range: 0 ~ 10
+		nausea = 0
+
+	[Enchantments.Leech]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Chance for stealing positive effect/health from enemy.
+		#Range: 0.0 ~ 1.0
+		leech_chance = 0.25
+		#Maximum duration in seconds that effect can have.
+		#Range: 0.1 ~ 600.0
+		maximum_duration = 120.0
+
+	[Enchantments.Dodge]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Chance to completely ignore any damage source per enchantment level.
+		#Range: 0.01 ~ 0.4
+		dodge_chance = 0.125
+		#Amount of damage converted to pants damage. (for example if this factor is equal 0.5 and player took 10 damage so its pants takes 5 damage)
+		#Range: 0.0 ~ 10.0
+		damage_factor = 0.5
+		#Duration of knockback immunity after successful dodge. (in seconds)
+		#Range: 0.0 ~ 30.0
+		immunity_duration = 3.0
+
+	[Enchantments.Enlightenment]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Increases experience from all sources by that multiplier per enchantment level.
+		#Range: 0.01 ~ 10.0
+		experience_multiplier = 0.25
+
+	[Enchantments.PheonixDive]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Jumping power multiplier per enchantment level.
+		#Range: 0.01 ~ 1.0
+		jump_multiplier = 0.3
+		#Duration of igniting nearby opponents per enchantment level. (in seconds)
+		#Range: 1 ~ 100
+		jump_penalty = 3
+		#Area of entities that will take damage. (area of square where A = (x - value, z - value) and B = (x + value, z + value))
+		#Range: 1.0 ~ 100.0
+		damage_range = 5.0
+
+	[Enchantments.MagicProtection]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Damage reduction bonus per enchantment level.
+		#Range: 1.0 ~ 10.0
+		armor_bonus = 2.0
+
+	[Enchantments.SixthSense]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Maximum distance in blocks from player to entity.
+		#Range: 1.0 ~ 100.0
+		offset = 15.0
+		#Duration of standing still before the entities will be highlighted.
+		#Range: 1.0 ~ 60.0
+		preparing_time = 3.5
+		#Duration between calculating entities to glow.
+		#Range: 0.1 ~ 10.0
+		cooldown = 0.5
+		#Duration of entities being highlighted.
+		#Range: 0.5 ~ 60.0
+		highlight_duration = 5.0
+
+	[Enchantments.Mithridatism]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+
+		[Enchantments.Mithridatism.MithridatismProtection]
+			#Damage sources that deal less damage when the effect is active.
+			damage_source_list = ["magic", "wither", "bleeding"]
+			#Level of Absorption applied to the player per enchantment level rounded down. (minimum. 1lvl)
+			#Range: 0.0 ~ 3.0
+			absorption_per_level = 0.5
+			#Base amount of damage decreased from negative effects.
+			#Range: 0.0 ~ 1.0
+			base_reduction = 0.2
+			#Amount of damage decreased from negative effects per enchantment level.
+			#Range: 0.0 ~ 1.0
+			reduction_per_level = 0.1
+			#Chance for Mithridatism to increase its level.
+			#Range: 0.0 ~ 1.0
+			level_up_chance = 0.025
+			#Duration of both the Absorption and Mithridatism Protection. (in seconds)
+			#Range: 2.0 ~ 600.0
+			duration = 60.0
+
+	[Enchantments.Vitality]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Health bonus per enchantment level.
+		#Range: 1.0 ~ 20.0
+		health_bonus = 2.0
+
+	[Enchantments.Immortality]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+
+	[Enchantments.Absorber]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Minimum required duration to absorb an effect. (in seconds)
+		#Range: 0.0 ~ 60.0
+		minimum_duration = 2.5
+		#MobEffects that can not be absorbed.
+		forbidden_effects = ["majruszs_difficulty:bleeding", "majruszs_difficulty:infested"]
+
+	[Enchantments.FuseCutter]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Maximum distance in blocks from player to entity.
+		#Range: 1.0 ~ 100.0
+		maximum_offset = 6.0
+
+	[Enchantments.GuardianAngel]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Amount of damage redirected to the player. (in percentage)
+		#Range: 0.01 ~ 1.0
+		redirect_multiplier = 0.25
+		#Minimum player's health ratio to redirect damage to the player.
+		#Range: 0.01 ~ 1.0
+		minimum_health_ratio = 0.5
+		#Minimum damage required to redirect damage to any entity.
+		#Range: 2.0 ~ 100.0
+		minimum_damage = 2.0
+		#Maximum distance to the entity to redirect damage.
+		#Range: 1.0 ~ 100.0
+		redirect_distance = 10.0
+		#Maximum amplifier of 'Resistance' effect.
+		#Range: 0 ~ 4
+		maximum_amplifier = 2
+		#Duration of 'Resistance' effect.
+		#Range: 0.0 ~ 600.0
+		effect_duration = 12.0
+
+	[Enchantments.Smelter]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Should this enchantment duplicate custom items when a player have fortune enchantment.
+		should_increase_loot = true
+		#List of blocks that drops more items when a player has both Fortune and Smelter enchantment.
+		fortune_bonus_list = ["for example: minecraft:iron_ore"]
+
+	[Enchantments.GottaMineFast]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Duration is raised to this exponent. (for example exponent = 1.5 and after two minutes bonus is equal 2.0 ^ 1.5 = 2.82 (total 3.82))
+		#Range: 1.01 ~ 5.0
+		exponent = 1.5849625007
+		#Maximum duration increasing mining speed. (in seconds)
+		#Range: 1.0 ~ 3600.0
+		maximum_duration = 120.0
+
+	[Enchantments.Telekinesis]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+
+	[Enchantments.Harvester]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Range increase per enchantment level. (per block in x-axis and z-axis)
+		#Range: 1 ~ 3
+		range = 1
+		#Penalty for increasing age of nearby crops. (per successful increase)
+		#Range: 1 ~ 10
+		durability_penalty = 1
+		#Chance for increasing age of nearby crops. (calculated for each crop separately)
+		#Range: 0.0 ~ 1.0
+		grow_chance = 0.04
+		#Chance for increasing age of nearby Nether Warts. (calculated for each crop separately)
+		#Range: 0.0 ~ 1.0
+		nether_wart_grow_chance = 0.01
+
+	[Enchantments.Swiftness]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Horse movement speed multiplier per enchantment level.
+		#Range: 0.01 ~ 0.5
+		movement_multiplier = 0.125
+
+	[Enchantments.HorseProtection]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Horse armor bonus per enchantment level.
+		#Range: 1 ~ 10
+		armor_bonus = 2
+
+	[Enchantments.HorseFrostWalker]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+
+	[Enchantments.Hunter]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Extra damage multiplier to distance per enchantment level.
+		#Range: 0.0 ~ 0.01
+		damage_multiplier = 1.0E-4
+		#Minimum required distance to not get any damage penalty.
+		#Range: 1.0 ~ 10000.0
+		minimum_distance = 80.0
+		#Maximum damage penalty if a mob is very close.
+		#Range: 0.0 ~ 1.0
+		penalty_multiplier = 0.5
+
+	[Enchantments.ElderGuardianFavor]
+		#Makes this enchantment obtainable in survival mode.
+		is_enabled = true
+		#Duration how long entities are linked before dealing damage.
+		#Range: 1.0 ~ 60.0
+		beam_cooldown = 4.0
+		#Damage dealt by this enchantment.
+		#Range: 1.0 ~ 100.0
+		beam_damage = 6.0
+		#Damage multiplier when both entities are in water.
+		#Range: 1.0 ~ 10.0
+		water_multiplier = 1.5
+
+[Curses]
+
+	[Curses.Slowness]
+		#Makes this curse obtainable in survival mode.
+		is_enabled = true
+		#Cumulative movement speed reduction with each item with this curse.
+		#Range: 0.1 ~ 0.95
+		multiplier = 0.875
+
+	[Curses.Fatigue]
+		#Makes this curse obtainable in survival mode.
+		is_enabled = true
+		#Mining speed reduction with each level.
+		#Range: 0.1 ~ 0.95
+		multiplier = 0.8
+
+	[Curses.Incompatibility]
+		#Makes this curse obtainable in survival mode.
+		is_enabled = true
+
+	[Curses.Vampirism]
+		#Makes this curse obtainable in survival mode.
+		is_enabled = true
+		#Duration of negative effects. (in seconds)
+		#Range: 10.0 ~ 300.0
+		effect_duration = 30.0
+		#Cooldown between applying negative effects. (in seconds)
+		#Range: 1.0 ~ 60.0
+		effect_cooldown = 2.0
+
+	[Curses.Corrosion]
+		#Makes this curse obtainable in survival mode.
+		is_enabled = true
+		#Damage cooldown in seconds.
+		#Range: 1.0 ~ 60.0
+		damage_cooldown_duration = 3.0
+		#Amount of damage dealt to the player every X seconds. (with each enchantment level)
+		#Range: 0.0 ~ 20.0
+		damage_amount = 0.25
+
+[Items]
+
+	[Items.WonderfulBook]
+		#Starting enchanting energy level.
+		#Range: 6 ~ 100
+		starting_level = 6
+		#Maximum level of enchanting energy.
+		#Range: 6 ~ 100
+		maximum_level = 30
+		#Minimum cost of enchanting.
+		#Range: 6 ~ 100
+		minimum_cost = 6
+		#Amount of books combined together.
+		#Range: 1 ~ 10
+		book_amount = 3
+		#Enchanting cost ratio for each extra level beyond starting enchanting energy level.
+		#Range: 0.0 ~ 1.0
+		cost_ratio = 0.75
+

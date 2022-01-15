@@ -3,20 +3,20 @@
 [World]
 	#Controls the weight compared to other world gen [Default: 3]
 	#Range: > 0
-	gysahlGreenSpawnWeight = 2
+	gysahlGreenSpawnWeight = 1
 	#Controls the Patch Size compared to other world gen [Default: 64]
 	#Range: > 0
-	gysahlGreenPatchSize = 32
+	gysahlGreenPatchSize = 16
 	#Controls the Spawn Chance compared to other world gen [Default: 0.1]
 	#Range: 0.0 ~ 1.0
-	gysahlGreenSpawnChance = 0.07
+	gysahlGreenSpawnChance = 0.05
 	#Controls the weight compared to other world gen [Default: true]
 	gysahlGreensSpawnOnlyInOverworld = true
 
 	#Ability Fruit
 	[World.ability_fruit]
 		#Add ability fruit to dungeon loot [Default: true]
-		addAbilityFruitsToDungeonLoot = true
+		addAbilityFruitsToDungeonLoot = false
 		#This number controls the weight ability fruit has compared to other items in a loot table. [Default: 1]
 		#Range: > 0
 		abilityFruitDungeonLootWeight = 1
@@ -25,13 +25,13 @@
 [spawning]
 	#Controls Chocobo Spawn Weight [Default: 10]
 	#Range: > 0
-	chocoboSpawnWeight = 3
+	chocoboSpawnWeight = 2
 	#Controls Chocobo Pack Size Min [Default: 1]
 	#Range: > 0
 	chocoboPackSizeMin = 1
 	#Controls Chocobo Pack Size Max [Default: 3]
 	#Range: > 0
-	chocoboPackSizeMax = 2
+	chocoboPackSizeMax = 1
 
 #Chocobo configuration
 [Chocobo]

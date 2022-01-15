@@ -198,7 +198,7 @@
 
 		["When Configurations Arise"."Fungi Structures"."Mushroom Mines Spawning Settings"]
 			#Whether Mushroom Mines generate on your worlds or not.
-			mushroomMinesGenerates = true
+			mushroomMinesGenerates = false
 			#Maximum separation between Mushroom Mines (in chunks).
 			#Range: 0 ~ 1000000
 			mushroomMinesSpacing = 80

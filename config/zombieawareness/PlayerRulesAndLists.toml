@@ -5,9 +5,6 @@
 	whiteListUsedOmniscient = false
 	#Uses list of people to have senses spawned for
 	whiteListUsedSenses = false
-	#Uses list of people to have spawning of zombies for
-	whiteListUsedExtraSpawning = false
 	whitelistOmniscientTargettedPlayers = "Corosus, SomeDude"
 	whitelistSenses = "Corosus, SomeDude"
-	whitelistExtraSpawning = "Corosus"
 

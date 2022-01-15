@@ -493,7 +493,7 @@
 	},
 	"minecraft:azure_bluet":
 	{
-		"farming": 3.5
+		"farming": 2.5
 	},
 	"minecraft:bamboo":
 	{
@@ -539,7 +539,7 @@
 	},
 	"minecraft:blue_orchid":
 	{
-		"farming": 11
+		"farming": 3
 	},
 	"minecraft:bone_block":
 	{
@@ -551,7 +551,7 @@
 	},
 	"minecraft:brown_mushroom":
 	{
-		"farming": 7
+		"farming": 4
 	},
 	"minecraft:brown_mushroom_block":
 	{
@@ -603,11 +603,11 @@
 	},
 	"minecraft:cornflower":
 	{
-		"farming": 5.5
+		"farming": 3.5
 	},
 	"minecraft:dandelion":
 	{
-		"farming": 5
+		"farming": 2
 	},
 	"minecraft:dark_oak_leaves":
 	{
@@ -635,7 +635,7 @@
 	},
 	"minecraft:dead_bush":
 	{
-		"farming": 5
+		"farming": 0.3
 	},
 	"minecraft:diorite":
 	{
@@ -647,16 +647,51 @@
 	},
 	"minecraft:fern":
 	{
-		"farming": 0.35
+		"farming": 0.12
 	},
 	"minecraft:granite":
 	{
 		"mining": 0.32
 	},
+	"biomesoplenty:bush":
+	{
+		"farming": 0.125
+	},
+	"farmersdelight:wild_carrots":
+	{
+		"farming": 4
+	},
+	"farmersdelight:wild_onions":
+	{
+		"farming": 1.75
+	},
+	"farmersdelight:wild_cabbages":
+	{
+		"farming": 4
+	},
+	"farmersdelight:wild_tomatoes":
+	{
+		"farming": 2
+	},
+	"farmersdelight:wild_potatoes":
+	{
+		"farming": 2
+	},
+	"farmersdelight:wild_beetroots":
+	{
+		"farming": 4
+	},
+	"farmersdelight:wild_rice":
+	{
+		"farming": 5
+	},
+	"biomesoplenty:dead_bush":
+	{
+		"farming": 0.12
+	},
 	"minecraft:grass":
 	{
-		"excavation": 0.3,
-		"farming": 0.15
+		"farming": 0.1
 	},
 	"minecraft:grass_block":
 	{
@@ -672,27 +707,27 @@
 	},
 	"minecraft:infested_chiseled_stone_bricks":
 	{
-		"mining": 100
+		"mining": 5
 	},
 	"minecraft:infested_cobblestone":
 	{
-		"mining": 20
+		"mining": 5
 	},
 	"minecraft:infested_cracked_stone_bricks":
 	{
-		"mining": 100
+		"mining": 5
 	},
 	"minecraft:infested_mossy_stone_bricks":
 	{
-		"mining": 100
+		"mining": 5
 	},
 	"minecraft:infested_stone":
 	{
-		"mining": 50
+		"mining": 5
 	},
 	"minecraft:infested_stone_bricks":
 	{
-		"mining": 100
+		"mining": 5
 	},
 	"minecraft:jungle_leaves":
 	{
@@ -724,15 +759,15 @@
 	},
 	"minecraft:large_fern":
 	{
-		"farming": 4.5
+		"farming": 2
 	},
 	"minecraft:lilac":
 	{
-		"farming": 11.5
+		"farming": 2.25
 	},
 	"minecraft:lily_of_the_valley":
 	{
-		"farming": 7.5
+		"farming": 2.5
 	},
 	"minecraft:lily_pad":
 	{
@@ -744,15 +779,15 @@
 	},
 	"minecraft:melon":
 	{
-		"farming": 7.5
+		"farming": 3.5
 	},
 	"minecraft:melon_seeds":
 	{
-		"farming": 7.5
+		"farming": 3.5
 	},
 	"minecraft:melon_slice":
 	{
-		"farming": 7.5
+		"farming": 3.5
 	},
 	"minecraft:mossy_cobblestone":
 	{
@@ -760,7 +795,7 @@
 	},
 	"minecraft:mycelium":
 	{
-		"excavation": 6,
+		"excavation": 3,
 		"farming": 1
 	},
 	"minecraft:nether_bricks":
@@ -801,19 +836,19 @@
 	},
 	"minecraft:orange_tulip":
 	{
-		"farming": 16.5
+		"farming": 1.25
 	},
 	"minecraft:oxeye_daisy":
 	{
-		"farming": 8.5
+		"farming": 1.5
 	},
 	"minecraft:peony":
 	{
-		"farming": 17.5
+		"farming": 2.25
 	},
 	"minecraft:pink_tulip":
 	{
-		"farming": 6
+		"farming": 3
 	},
 	"minecraft:podzol":
 	{
@@ -834,7 +869,7 @@
 	},
 	"minecraft:poppy":
 	{
-		"farming": 11.5
+		"farming": 1.75
 	},
 	"minecraft:potato":
 	{
@@ -854,11 +889,11 @@
 	},
 	"minecraft:pumpkin":
 	{
-		"farming": 7.5
+		"farming": 2.5
 	},
 	"minecraft:pumpkin_seeds":
 	{
-		"farming": 7.5
+		"farming": 2.5
 	},
 	"minecraft:purpur_block":
 	{
@@ -874,11 +909,11 @@
 	},
 	"minecraft:red_mushroom":
 	{
-		"farming": 12
+		"farming": 3
 	},
 	"minecraft:red_mushroom_block":
 	{
-		"farming": 4
+		"farming": 3
 	},
 	"minecraft:red_sand":
 	{
@@ -886,11 +921,11 @@
 	},
 	"minecraft:red_tulip":
 	{
-		"farming": 7.5
+		"farming": 1.5
 	},
 	"minecraft:rose_bush":
 	{
-		"farming": 13.5
+		"farming": 2.33
 	},
 	"minecraft:sand":
 	{
@@ -898,7 +933,7 @@
 	},
 	"minecraft:sea_grass":
 	{
-		"farming": 4.5
+		"farming": 3.175
 	},
 	"minecraft:sea_pickle":
 	{
@@ -942,11 +977,11 @@
 	},
 	"minecraft:sugar_cane":
 	{
-		"farming": 1.5
+		"farming": 1
 	},
 	"minecraft:sunflower":
 	{
-		"farming": 17.5
+		"farming": 3.5
 	},
 	"minecraft:sweet_berry_bush":
 	{
@@ -954,11 +989,11 @@
 	},
 	"minecraft:tall_grass":
 	{
-		"farming": 4.5
+		"farming": 1.5
 	},
 	"minecraft:vine":
 	{
-		"farming": 3.5
+		"farming": 1.15
 	},
 	"minecraft:wheat":
 	{
@@ -970,7 +1005,7 @@
 	},
 	"minecraft:white_tulip":
 	{
-		"farming": 8.5
+		"farming": 2.5
 	},
 	"minecraft:wither_rose":
 	{
@@ -978,38 +1013,38 @@
 	},
 	"mysticalagradditions:end_inferium_ore":
 	{
-		"mining": 8,
-		"magic": 4
+		"mining": 50,
+		"magic": 10
 	},
 	"mysticalagradditions:end_prosperity_ore":
 	{
-		"mining": 8,
-		"magic": 2
+		"mining": 50,
+		"magic": 10
 	},
 	"mysticalagradditions:nether_inferium_ore":
 	{
-		"mining": 8,
-		"magic": 4
+		"mining": 55,
+		"magic": 15
 	},
 	"mysticalagradditions:nether_prosperity_ore":
 	{
-		"mining": 8,
-		"magic": 2
+		"mining": 65,
+		"magic": 15
 	},
 	"mysticalagriculture:inferium_ore":
 	{
-		"mining": 8,
-		"magic": 4
+		"mining": 50,
+		"magic": 10
 	},
 	"mysticalagriculture:prosperity_ore":
 	{
-		"mining": 8,
-		"magic": 2
+		"mining": 60,
+		"magic": 10
 	},
 	"mysticalagriculture:soulium_ore":
 	{
-		"mining": 18,
-		"magic": 4
+		"mining": 50,
+		"magic": 10
 	},
 	"oresandmetals:adamantite_ore":
 	{

@@ -35,7 +35,7 @@
 		#Set to false to disable the first Wither summoned message.
 		"Show First Summoned Wither Message" = true
 		#Entities that extend the vanilla Wither but shouldn't be taken into account by the mod (e.g. Botania's Pink Wither).
-		"Entity Blacklist" = ["botania:pink_wither"]
+		"Entity Blacklist" = [""]
 
 	#Handles various small features, such as the explosion
 	[Wither.Misc]
@@ -214,7 +214,7 @@
 		"Bonus Difficulty per Player" = 0.5
 		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
 		#Range: > 1
-		"Max Difficulty" = 21
+		"Max Difficulty" = 24
 		#How much difficulty will players start with when joining a world? Note that this will apply when the player joins the world if the current player difficulty is below this value.
 		#Range: > 0
 		"Starting Difficulty" = 1
@@ -240,10 +240,10 @@
 	[Dragon.Attack]
 		#How much more damage per difficulty (percentage) does the Ender Dragon (directly) deal per difficulty?
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Direct Damage" = 0.163
+		"Bonus Direct Damage" = 0.173
 		#How much more damage per difficulty (percentage) does the Ender Dragon's Acid Pool deal per difficulty?
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Acid Pool Damage" = 0.15
+		"Bonus Acid Pool Damage" = 0.155
 		#Normally the Ender Dragon attacks only when leaving the center platform. With this active she has a chance when she has finished charging / fireballing or before checking if she should land in the center to charge the player.
 		#This is the chance to start a charge attack when the difficulty is at max (24 by default). Otherwise it scales accordingly.
 		#The actual chance is: (this_value * (difficulty / max difficulty)).
@@ -265,13 +265,13 @@
 		"Fireball Velocity Multiplier" = 2.5
 		#The dragon will fire (up to) this more fireballs per difficulty. A decimal number dictates the chance to shot 1 more fireball, e.g. at difficulty 2 this value is 1.4, meaning that the dragon will can shot up to 2 fireballs and has 40% chance to shot up to 3. The bonus fireballs aren't directly aimed at the player but have.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Fireballs" = 0.725
+		"Bonus Fireballs" = 0.75
 
 	#Bonus Experience and Dragon Egg per player
 	[Dragon.Rewards]
 		#How much more experience (percentage) will Dragon drop per Difficulty. The percentage is additive (e.g. with this set to 100%, 7 dragons killed = 700% more experience)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Experience per Difficulty" = 1.15
+		"Bonus Experience per Difficulty" = 1.2
 		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg Ã¬Ã¬ will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
 		"Dragon Egg per Player" = true
 		#A list of drops for the Dragons. Entry format: item,amount,difficulty_required,chance,difficulty_mode,chance_mode

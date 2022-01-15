@@ -5,7 +5,7 @@ max_xp = 15000
 #Example: If this config value is set to 0.75, and an XP Tome has 100 XP stored, attempting to retrieve these 100 XP will give back 75 XP.
 #Note: This will not be 100% accurate, as Minecraft's XP does not use decimals.
 #Range: 0.0 ~ 1.0
-retrieval_percentage = 1.0
+retrieval_percentage = 0.95
 #Setting this to true will remove only as much XP from the book at a time as is needed for the player to reach their next level.
 retrieve_until_next_level = false
 #Setting this to true will remove XP from the book in XP orb form. This is useful if you want to use XP from the book for tools enchanted with Mending.

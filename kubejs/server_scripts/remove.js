@@ -4,8 +4,26 @@ console.info('AQM3 -- Removing Recipes....)');
 
 const recipeRemoveJei = [
 'angelring:itemdiamondring',
+'extradisks:infinite_fluid_storage_block',
+'extradisks:infinite_fluid_storage_disk',
+'extradisks:infinite_fluid_storage_part',
+'extradisks:infinite_storage_block',
+'extradisks:infinite_storage_disk',
+'extradisks:infinite_storage_part',
 'buildinggadgets:gadget_destruction',
 'chanceglobe:chance_globe',
+'tombstone:scroll_of_unstable_intangibility',
+'tombstone:scroll_of_knowledge',
+'armorplus:soul_box',
+'tombstone:scroll_of_preservation',
+'essentials:wither_cannon',
+'tombstone:scroll_of_feather_fall',
+'tombstone:scroll_of_purification',
+'tombstone:scroll_of_true_sight',
+'tombstone:scroll_of_reach',
+'tombstone:scroll_of_lightning_resistance',
+'tombstone:scroll_of_frost_resistance',
+'tombstone:scroll_of_aquatic_life',
 'cyclic:antigravity',
 'cyclic:apple_chocolate',
 'cyclic:apple_chorus',
@@ -65,7 +83,7 @@ recipeRemoveJei.forEach(item => {
   event.remove({output: item})
 });
 
-
+event.remove({id: 'mysticalagriculture:mystical_fertilizer'})
 // Assembly Lines Enchantments
 event.remove({id: 'assemblylinemachines:enchanted_book/mending'});
 

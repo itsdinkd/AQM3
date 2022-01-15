@@ -2,7 +2,7 @@
 [General]
 	#How often a hive should attempt special events like spawning undead bees. Default 500.
 	#Range: > 20
-	hiveTickRate = 1500
+	hiveTickRate = 900
 	#How long time a bee should stay in the hive when having delivered honey. Default 4800.
 	#Range: > 20
 	timeInHive = 4800
@@ -20,7 +20,7 @@
 	incubatorProcessingTime = 4000
 	#How much FE to use per tick for an incubator when processing an item. Default 10.
 	#Range: > 1
-	incubatorPowerUse = 20
+	incubatorPowerUse = 40
 	#How many treats to use when incubating a bee. Default 20.
 	#Range: 1 ~ 64
 	incubatorTreatUse = 32
@@ -29,7 +29,7 @@
 	generatorPowerGen = 60
 	#How much honey to consume per tick. Default 5.
 	#Range: > 1
-	generatorHoneyUse = 5
+	generatorHoneyUse = 7
 	#A priority list of Mod IDs that results of comb output should stem from, aka which mod you want the copper to come from.
 	preferredTagSource = ["minecraft", "productivebees", "thermal", "tconstruct", "immersiveengineering", "create", "mekanism", "silents_mechanisms"]
 	#How many bees can fit in a bee bomb. Default is 10
@@ -69,7 +69,7 @@
 	ticks = 2337
 	#Chance that a bee will take damage while leashed in a hostile environment
 	#Range: 0.0 ~ 1.0
-	damageChance = 0.13
+	damageChance = 0.15
 	#Chance to increase tolerance (rain or thunder tolerance trait) while leashed in a hostile environment.
 	#Range: 0.0 ~ 1.0
 	toleranceChance = 0.1
@@ -78,7 +78,7 @@
 	behaviorChance = 0.1
 	#Chance to extract genes from a bottle of bee material.
 	#Range: 0.0 ~ 1.0
-	geneExtractChance = 0.9
+	geneExtractChance = 0.75
 	#Average purity of type genes (does not apply to attribute genes)
 	#Range: 1 ~ 100
 	typeGenePurity = 33
@@ -111,13 +111,13 @@
 ["Hive Upgrades"]
 	#Time bonus gained from time upgrade. 0.2 means 20% reduction of a bee's time inside the hive or centrifuge processing time.
 	#Range: 0.0 ~ 1.0
-	timeBonus = 0.2
+	timeBonus = 0.15
 	#Time penalty from installing the comb block upgrade. .4 means 40% increase of a bee's time inside the hive.
 	#Range: 0.0 ~ 2.147483647E9
 	combBlockTimeModifier = 1.0
 	#Multiplier per productivity upgrade installed in the hive.
 	#Range: 1.0 ~ 2.147483647E9
-	productivityMultiplier = 1.4
+	productivityMultiplier = 1.27
 	#Chance for a bee to produce an offspring after a hive visit.
 	#Range: 0.0 ~ 1.0
 	breedingChance = 0.05

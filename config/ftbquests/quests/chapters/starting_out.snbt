@@ -1,0 +1,429 @@
+{
+	id: "5764523BCE20F718"
+	group: "0FAB4A14717CC291"
+	order_index: 0
+	filename: "starting_out"
+	title: "Starting Out"
+	subtitle: ["Oh no, my knowledge. It's Broken."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Have some saplings for your hard work :)"
+			description: [
+				"These saplings are to help you for later quests."
+				"Try not to lose them :)"
+			]
+			dependencies: ["24CA47E19CBB1738"]
+			id: "0069E0015EB53D0D"
+			tasks: [{
+				id: "576F9DBE6384EBB0"
+				type: "item"
+				title: "THE LOGGENING"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "24B05785F1793202"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "4105796186B48745"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "478FB0908BD367E4"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "779461AC6AADDB68"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "3F8861E2236545B6"
+					type: "item"
+					item: "minecraft:acacia_sapling"
+				}
+				{
+					id: "079CCAD5F2E0FB67"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
+				}
+				{
+					id: "523D479804D26D75"
+					type: "command"
+					title: "Woodcutting XP"
+					icon: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					command: "/pmmo admin @p add Woodcutting 10"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Look at what I made!"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "A better table"
+			description: ["This neat little crafting tab allows on the go crafting."]
+			dependencies: ["0069E0015EB53D0D"]
+			id: "54626924CE9BD31F"
+			tasks: [{
+				id: "1B1562FE78356B61"
+				type: "item"
+				item: "vanillatweaks:crafting_pad"
+			}]
+			rewards: [{
+				id: "00976C9B60B7BDD6"
+				type: "item"
+				item: "minecraft:bread"
+				count: 5
+			}]
+		}
+		{
+			title: "The easy bake oven."
+			icon: "minecraft:smoker"
+			x: 1.5d
+			y: -1.0d
+			subtitle: "And thus a wall of easy bake was born."
+			description: ["Look, it ain't much but it processes food fast when setup."]
+			dependencies: ["54626924CE9BD31F"]
+			hide: true
+			optional: true
+			id: "474EF46C83E6797A"
+			tasks: [
+				{
+					id: "208EC4AC58EFD28F"
+					type: "item"
+					item: "minecraft:smoker"
+					count: 16L
+				}
+				{
+					id: "436C87B38398D904"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 48L
+				}
+				{
+					id: "0ADF328DB6C8CF0A"
+					type: "item"
+					title: "Any #forge:chests"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:chests"
+						}
+					}
+					count: 48L
+				}
+			]
+			rewards: [{
+				id: "29FEEADD36C44CD0"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			title: "A new storage"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "For all your mass item storage needs. (THIS QUEST CONSUMES THE ITEM!)"
+			description: [
+				"These drawers can hold quite a bit of a single item."
+				"They are upgradable and have an option void excess items."
+			]
+			dependencies: ["54626924CE9BD31F"]
+			hide: true
+			id: "01163A11765BCA74"
+			tasks: [{
+				id: "558D52A988DBCD7D"
+				type: "item"
+				title: "Any Storage Drawer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				consume_items: true
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "04FEB09DA8E5CD8A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "A larger Storage"
+			x: 2.5d
+			y: 1.0d
+			subtitle: "Let me tell how much junk this baby can fit. (CONSUMES THE QUEST ITEM!)"
+			description: ["These chests are bigger then normal chests and are worth using for various automatic storages/processing."]
+			dependencies: ["54626924CE9BD31F"]
+			hide: true
+			id: "05F8D5D9AA6FF76D"
+			tasks: [{
+				id: "46BD9E3C1CBE3760"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+				consume_items: true
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "73AF2F1B49BACDCA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "A new furnace?"
+			x: 2.5d
+			y: -1.0d
+			subtitle: "Look man, I don't like waiting to process. (THIS CONSUMES THE ITEM)"
+			description: ["These new furnaces are upgradable and process better then normal chests."]
+			dependencies: ["54626924CE9BD31F"]
+			hide: true
+			id: "2150D0C07467C6F3"
+			tasks: [{
+				id: "22BC97DF84AF3981"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+				consume_items: true
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "2155D35450D5F1B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Auto Run"
+			x: 0.0d
+			y: -0.75d
+			subtitle: "Have a good time running long distances :)"
+			description: ["Did you know you can auto run by pressing H (or whatever you may have set the hotkey to.)?"]
+			dependencies: ["0069E0015EB53D0D"]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 0.5d
+			optional: true
+			id: "694F88A5D3984B52"
+			tasks: [{
+				id: "59F2F5AC46FBAF57"
+				type: "checkmark"
+				title: "Auto Run"
+			}]
+			rewards: [{
+				id: "6A4137D60345B83B"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "I'm Spiderman"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Wall Jumping Basics"
+			description: [
+				"Did you know that you can wall jump?"
+				"To wall jump, jump towards a wall and hold Lshift (or the keybind you chose), this allows you to cling to the wall."
+				"While still clinging to the wall, hold forward and release the binding."
+			]
+			dependencies: ["0069E0015EB53D0D"]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 0.5d
+			optional: true
+			id: "5ADDF4C03B8220EF"
+			tasks: [{
+				id: "731DA39ACF9DDC7E"
+				type: "checkmark"
+				title: "I'm spider Man"
+			}]
+			rewards: [{
+				id: "69B8B7B7C4EB4F54"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "Welcome to the pack!"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Read description <3"
+			description: [
+				"These quest are to help guide you along the pack."
+				"Be sure to complete ALL the quests here for the next chapter."
+			]
+			id: "24CA47E19CBB1738"
+			tasks: [{
+				id: "4C95DABF01BFAFD9"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			title: "Scaling Health and you 2"
+			x: 0.5d
+			y: -1.0d
+			subtitle: "How to scale your difficulty."
+			description: [
+				"There are other ways to scale difficulty in small increments."
+				"Killing Mobs Increases difficulty."
+				"Killing Players (increases by 1/4th a level)."
+				"Killing Blights (slight increase from killing mobs)."
+				"Dying Lowers Difficulty"
+			]
+			min_required_dependencies: 1
+			dependencies: ["3B40419C8AE65204"]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 0.5d
+			optional: true
+			id: "1CDBB1CC97B9EEC0"
+			tasks: [{
+				id: "6425279F4F332B57"
+				type: "checkmark"
+				title: "Scaling Health and you 2"
+			}]
+			rewards: [{
+				id: "51313E9B56F39D61"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Other ways to scale your difficulty."
+			description: [
+				"Consume Enchanted Heart to lower by 10 (Found in dungeons/chests/killing mobs (looting increases chances)"
+				"Consume Cursed Heart to increase by 10 (Found in dungeons/chests/killing mobs (looting increases chances)"
+				"Consume a Chance Heart to either increase or lower difficulty by 10."
+			]
+			min_required_dependencies: 1
+			dependencies: ["1CDBB1CC97B9EEC0"]
+			dependency_requirement: "one_completed"
+			size: 0.5d
+			optional: true
+			id: "53AA8DAE3F5681F9"
+			tasks: [{
+				id: "1F789D66D7ED1C29"
+				type: "checkmark"
+				title: "Scaling Health and you 3"
+			}]
+			rewards: [{
+				id: "242304816EFF04F0"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			subtitle: "Look here!"
+			description: [
+				"Did you know that by holding V (or the keybind you chose), you can bring up a menu to ping different things?"
+				""
+			]
+			dependencies: ["0069E0015EB53D0D"]
+			dependency_requirement: "one_completed"
+			size: 0.5d
+			id: "1C775CBA62C7A6A5"
+			tasks: [{
+				id: "4A75F9F898F6494D"
+				type: "checkmark"
+				title: "Ping!"
+			}]
+			rewards: [{
+				id: "4175DB5F37206142"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.75d
+			subtitle: "Radial Menus? What is this blasphemy!?"
+			description: ["Did you know that hold R (or the keybind you chose) you'll bring up a radial menu that you can assign different actions to?"]
+			dependencies: ["0069E0015EB53D0D"]
+			size: 0.5d
+			id: "58E60A04698EB05B"
+			tasks: [{
+				id: "641F70747CA1AA37"
+				type: "checkmark"
+				title: "Mine Menu"
+			}]
+			rewards: [{
+				id: "47E16D8C27CEB1AB"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "BONSAI"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "<3"
+			description: ["This grows trees and other things automatically."]
+			dependencies: ["54626924CE9BD31F"]
+			id: "1C348E82C09647A6"
+			tasks: [{
+				id: "1B676230F8AE3350"
+				type: "item"
+				item: "bonsaitrees3:bonsaipot"
+			}]
+			rewards: [{
+				id: "23678FB4F53C65FC"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Scaling Difficulty!"
+			description: [
+				"Difficulty scales per player."
+				"You will increase difficulty over time (IDLING/AFK stops time increase), and also averages players in your area within 128 blocks."
+			]
+			dependencies: ["0069E0015EB53D0D"]
+			size: 0.5d
+			optional: true
+			id: "3B40419C8AE65204"
+			tasks: [{
+				id: "5823EC4CE14798E3"
+				type: "checkmark"
+				title: "Scaling Health and You"
+			}]
+			rewards: [{
+				id: "6289276121A01597"
+				type: "xp"
+				xp: 1
+			}]
+		}
+	]
+}

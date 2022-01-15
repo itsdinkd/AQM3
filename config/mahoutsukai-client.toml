@@ -62,4 +62,9 @@
 	OLD_CIRCLE_RENDER = false
 	#Old Circle Animation
 	OLD_CIRCLE_ANIM = false
+	#Show Selected Entity
+	SHOW_SELECTED_ENTITY = true
+	#Selective Displacement Hold Time
+	#Range: 0 ~ 100000
+	SELECTIVE_DISPLACEMENT_HOLD_TIME = 5
 

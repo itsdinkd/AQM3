@@ -17,11 +17,11 @@
 		#The speed at which items are transferred
 		#A value of 1 means every tick
 		#Range: > 1
-		advanced = 5
+		advanced = 7
 		#The speed at which items are transferred
 		#A value of 1 means every tick
 		#Range: > 1
-		ultimate = 2
+		ultimate = 4
 
 	[item_pipe.amount]
 		#The amount of items transferred
@@ -57,7 +57,7 @@
 		advanced = 2000
 		#The amount of mB transferred each tick
 		#Range: > 1
-		ultimate = 8000
+		ultimate = 4000
 
 [energy_pipe]
 
@@ -73,10 +73,10 @@
 		improved = 8192
 		#The amount of FE transferred each tick
 		#Range: > 1
-		advanced = 32768
+		advanced = 16384
 		#The amount of FE transferred each tick
 		#Range: > 1
-		ultimate = 81920
+		ultimate = 32768
 
 [gas_pipe]
 
@@ -100,5 +100,5 @@
 		#The amount of mB transferred each tick
 		#Only available if Mekanism is installed
 		#Range: > 1
-		ultimate = 24000
+		ultimate = 16000
 

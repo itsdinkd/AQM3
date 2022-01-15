@@ -52,3 +52,9 @@
 	#Should Underwater Lights be lit when placed
 	onByDefault = true
 
+["World Gen Config"]
+	#Disables/Enables Glowing Colored Water from spawning
+	genColoredWater = true
+	#Disables/Enables Glowing Colored Water from spawning
+	genGlowingColoredWater = true
+

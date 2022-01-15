@@ -1,0 +1,55 @@
+
+#Chargers configs
+[chargers]
+
+	[chargers.tier_1]
+		#The amount of energy the charger can hold
+		#Range: > 0
+		storage = 25000
+		#The amount of energy/tick that can be inserted
+		#Range: > 0
+		max_input = 15000
+		#The amount of energy/tick that can be extracted
+		#This is the max speed items would be charged at, actual speed could be slower depending on item
+		#Range: > 0
+		max_output = 15000
+
+	[chargers.tier_2]
+		#The amount of energy the charger can hold
+		#Range: > 0
+		storage = 500000
+		#The amount of energy/tick that can be inserted
+		#Range: > 0
+		max_input = 400000
+		#The amount of energy/tick that can be extracted
+		#This is the max speed items would be charged at, actual speed could be slower depending on item
+		#Range: > 0
+		max_output = 400000
+
+	[chargers.tier_3]
+		#The amount of energy the charger can hold
+		#Range: > 0
+		storage = 1000000
+		#The amount of energy/tick that can be inserted
+		#Range: > 0
+		max_input = 900000
+		#The amount of energy/tick that can be extracted
+		#This is the max speed items would be charged at, actual speed could be slower depending on item
+		#Range: > 0
+		max_output = 900000
+
+	[chargers.wireless]
+		#The amount of energy the wireless charger can hold
+		#Range: > 0
+		storage = 200000
+		#The amount of energy/tick that can be inserted
+		#Range: > 0
+		max_input = 25000
+		#The amount of energy/tick that can be extracted
+		#This is the max speed items would be charged at, actual speed could be slower depending on item
+		#Range: > 0
+		max_output = 25000
+		#The range from the charger that item will be charged
+		#Range: 0 ~ 128
+		range = 24
+
