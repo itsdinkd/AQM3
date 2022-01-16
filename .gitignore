@@ -1,0 +1,47 @@
+config/jei/world
+usernamecache.json
+materials-to-use.yaml
+*.jar
+backup mods/*
+crash-reports/*
+defaultconfigs - copy/*
+downloads/*
+emojiful/*
+saves/*
+saves/test8/region/r.49.47.mca
+test/*
+patchouli_books/*
+fancymenu_*/*
+minecolonies/*
+mods*/*
+pmmo-data*/*
+profile*/*
+resources/*
+resourcepacks/*
+schematics/*
+shaderpacks/*
+shrines-*/*
+simple-*/*
+structurize/*
+unknown*/*
+*.zip
+logs/*
+screenshots/*
+realms_persistence.json
+patchouli_data.json
+options.txt
+servers.dat_old
+usercache.json
+minecraftinstance.json
+journeymap/*
+dimensions.txt
+knownkeys.txt
+.curseclient
+allentities.json
+Another Quality Modpack 3 [Forge] (1) - Shortcut.lnk
+artifacts-server.toml
+Another Quality Modpack 3 [Forge] (1) - Shortcut.lnk
+config-backup/*
+kubejs-backup/*
+simple-rpc.bak
+servers.dat

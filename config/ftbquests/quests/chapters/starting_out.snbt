@@ -147,7 +147,7 @@
 			icon: "storagedrawers:oak_full_drawers_1"
 			x: 1.5d
 			y: 1.0d
-			subtitle: "For all your mass item storage needs. (THIS QUEST CONSUMES THE ITEM!)"
+			subtitle: "For all your mass item storage needs"
 			description: [
 				"These drawers can hold quite a bit of a single item."
 				"They are upgradable and have an option void excess items."
@@ -166,7 +166,6 @@
 						value: "storagedrawers:drawers"
 					}
 				}
-				consume_items: true
 				only_from_crafting: true
 			}]
 			rewards: [{
@@ -179,7 +178,7 @@
 			title: "A larger Storage"
 			x: 2.5d
 			y: 1.0d
-			subtitle: "Let me tell how much junk this baby can fit. (CONSUMES THE QUEST ITEM!)"
+			subtitle: "Let me tell how much junk this baby can fit"
 			description: ["These chests are bigger then normal chests and are worth using for various automatic storages/processing."]
 			dependencies: ["54626924CE9BD31F"]
 			hide: true
@@ -188,7 +187,6 @@
 				id: "46BD9E3C1CBE3760"
 				type: "item"
 				item: "expandedstorage:iron_chest"
-				consume_items: true
 				only_from_crafting: true
 			}]
 			rewards: [{
@@ -201,8 +199,11 @@
 			title: "A new furnace?"
 			x: 2.5d
 			y: -1.0d
-			subtitle: "Look man, I don't like waiting to process. (THIS CONSUMES THE ITEM)"
-			description: ["These new furnaces are upgradable and process better then normal chests."]
+			subtitle: "Look man, I don't like waiting to process"
+			description: [
+				"These new furnaces are upgradable and process better then normal chests."
+				"Each Upgraded Tier increase smelt time, and decrease fuel usage"
+			]
 			dependencies: ["54626924CE9BD31F"]
 			hide: true
 			id: "2150D0C07467C6F3"
@@ -210,7 +211,6 @@
 				id: "22BC97DF84AF3981"
 				type: "item"
 				item: "ironfurnaces:iron_furnace"
-				consume_items: true
 				only_from_crafting: true
 			}]
 			rewards: [{
@@ -286,60 +286,113 @@
 			}]
 		}
 		{
-			title: "Scaling Health and you 2"
+			title: "Scaling Health and You (2/3)"
 			x: 0.5d
 			y: -1.0d
-			subtitle: "How to scale your difficulty."
+			subtitle: "Other ways your difficulty level increases"
 			description: [
 				"There are other ways to scale difficulty in small increments."
-				"Killing Mobs Increases difficulty."
-				"Killing Players (increases by 1/4th a level)."
-				"Killing Blights (slight increase from killing mobs)."
-				"Dying Lowers Difficulty"
+				""
+				"Killing Mobs - Increases difficulty."
+				""
+				"Killing Players - Increases by 1/4th a level"
+				""
+				"Killing Blights - Slight increase from killing mobs)."
+				""
+				"Dying - Lowers Difficulty"
 			]
 			min_required_dependencies: 1
 			dependencies: ["3B40419C8AE65204"]
 			hide: true
 			dependency_requirement: "one_completed"
 			size: 0.5d
-			optional: true
 			id: "1CDBB1CC97B9EEC0"
 			tasks: [{
-				id: "6425279F4F332B57"
-				type: "checkmark"
-				title: "Scaling Health and you 2"
+				id: "178B61D832C7E937"
+				type: "stat"
+				title: "Die Once"
+				stat: "minecraft:deaths"
+				value: 1
 			}]
-			rewards: [{
-				id: "51313E9B56F39D61"
-				type: "xp"
-				xp: 1
-			}]
+			rewards: [
+				{
+					id: "17598C678E271826"
+					type: "item"
+					team_reward: false
+					item: "scalinghealth:bandages"
+				}
+				{
+					id: "45DB43FC4ED13CD6"
+					type: "item"
+					team_reward: false
+					item: "scalinghealth:power_crystal"
+				}
+			]
 		}
 		{
+			title: "Scaling Health and You (3/3)"
 			x: 0.5d
 			y: -1.5d
 			subtitle: "Other ways to scale your difficulty."
 			description: [
 				"Consume Enchanted Heart to lower by 10 (Found in dungeons/chests/killing mobs (looting increases chances)"
+				""
 				"Consume Cursed Heart to increase by 10 (Found in dungeons/chests/killing mobs (looting increases chances)"
-				"Consume a Chance Heart to either increase or lower difficulty by 10."
+				""
+				"Consume a Chance Heart to either increase or lower difficulty by 10 via random chance."
 			]
 			min_required_dependencies: 1
 			dependencies: ["1CDBB1CC97B9EEC0"]
+			hide: true
 			dependency_requirement: "one_completed"
 			size: 0.5d
-			optional: true
 			id: "53AA8DAE3F5681F9"
-			tasks: [{
-				id: "1F789D66D7ED1C29"
-				type: "checkmark"
-				title: "Scaling Health and you 3"
-			}]
-			rewards: [{
-				id: "242304816EFF04F0"
-				type: "xp"
-				xp: 1
-			}]
+			tasks: [
+				{
+					id: "27A4921E7872EEFF"
+					type: "item"
+					item: "scalinghealth:cursed_heart"
+					consume_items: true
+				}
+				{
+					id: "59FD16C0E9F6347A"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+					consume_items: true
+				}
+				{
+					id: "6EE3A48D1A85319E"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "39624474B31F2F7A"
+					type: "choice"
+					team_reward: false
+					table_id: 5513900766362080685L
+				}
+				{
+					id: "7D92BA843CB8B278"
+					type: "item"
+					team_reward: false
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "66B6D37F9D716A20"
+					type: "item"
+					team_reward: false
+					item: "scalinghealth:cursed_heart"
+				}
+				{
+					id: "33DF987A54147218"
+					type: "item"
+					team_reward: false
+					item: "scalinghealth:chance_heart"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -395,6 +448,7 @@
 				id: "1B676230F8AE3350"
 				type: "item"
 				item: "bonsaitrees3:bonsaipot"
+				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "23678FB4F53C65FC"
@@ -403,26 +457,127 @@
 			}]
 		}
 		{
+			title: "Scaling Health and You (1/3)"
 			x: 0.5d
 			y: -0.5d
-			subtitle: "Scaling Difficulty!"
+			subtitle: "How Difficulty works in AQM3"
 			description: [
-				"Difficulty scales per player."
+				"Difficulty scales per player, meaning, the mobs that spawn around you are affected by YOUR difficulty, and averages out if other players are within the area"
+				""
 				"You will increase difficulty over time (IDLING/AFK stops time increase), and also averages players in your area within 128 blocks."
+				"{image:scalinghealth:textures/item/heart_crystal.png width:100 height:100 align:1}"
 			]
 			dependencies: ["0069E0015EB53D0D"]
 			size: 0.5d
-			optional: true
 			id: "3B40419C8AE65204"
 			tasks: [{
-				id: "5823EC4CE14798E3"
-				type: "checkmark"
-				title: "Scaling Health and You"
+				id: "77A6E406733B11F3"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 5L
 			}]
 			rewards: [{
 				id: "6289276121A01597"
 				type: "xp"
-				xp: 1
+				team_reward: false
+				xp: 10
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "How does the core of AQM3 work?"
+			description: [
+				"AQM3 Relies on Project MMO (PMMO) to handle stats in a RPG-like way"
+				""
+				"Available stats; combat, endurance, mining, crafting, building, engineering, sailing, swimming, agility, magic, gunslinging, archery, woodcutting, smithing, excavation, cooking, taming, breeding, and more"
+				""
+				"Each Level in each stat will increase something. Agility increases Jump heights, and speed. Combat increases attack damage, Endurance gives 1% damage resistence per level (caps at 50%). Endurance also gives 1 Heart every 7 levels, Magic and Gunslinging also increase attacks done. Crafting/Building gives longer reach (caps at 11 blocks)"
+				""
+				"There are several items gated behind stat levels. Like the Wormhole portal, you need to be a certain level to craft / use it (Items will tell you on tooltip if there is a required level in a stat)"
+			]
+			dependencies: ["24CA47E19CBB1738"]
+			size: 0.5d
+			id: "5B1C211EE38A4861"
+			tasks: [{
+				id: "7A759336A6B7BF7A"
+				type: "checkmark"
+				title: "Stats, Skills, and More"
+			}]
+			rewards: [{
+				id: "71B0D5BD8F3DBDDF"
+				type: "item"
+				item: "scalinghealth:heart_crystal_shard"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.75d
+			shape: "diamond"
+			description: ["The best way to see your stats and skills in PMMO is by using the keybinds to  open up the menu. \"Right CTRL\" will open up the PMMO Menu, which allows you to view everything, and even edit some GUI and In-game Settings like XP Drops"]
+			dependencies: ["5B1C211EE38A4861"]
+			hide: false
+			size: 0.5d
+			id: "04B3DA22DD5E9F02"
+			tasks: [{
+				id: "6820A08B1F343164"
+				type: "checkmark"
+				title: "Stats, Skills, and More pt.2"
+			}]
+			rewards: [{
+				id: "0C7A5B8F8E553217"
+				type: "command"
+				team_reward: false
+				command: "/pmmo admin @p add agility xp 20 true"
+				player_command: false
+			}]
+		}
+		{
+			title: "Too Many Mobs are Spawning"
+			x: -1.5d
+			y: 1.0d
+			subtitle: "How to stop mob spawning in a area"
+			description: ["Torchmaster makes some great items to help stop mobs and even passive mobs from spawning. Craft this guy here, place it down, and you're all set!"]
+			dependencies: ["24CA47E19CBB1738"]
+			id: "53746435C74C767D"
+			tasks: [{
+				id: "7F062C68306017B1"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [{
+				id: "18CFD64814F4F588"
+				type: "xp"
+				team_reward: false
+				xp: 15
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "How to get free loot from others hard work"
+			description: [
+				"Want to create a party and complete quests together?"
+				""
+				"Accept the reward and we will run the command for you :) or hover over reward to see the actual command"
+				"/ftbteams party create"
+				""
+				"You can invite others using /ftbteams party (use auto complete here)"
+			]
+			dependencies: ["24CA47E19CBB1738"]
+			size: 0.5d
+			id: "7EF1B078A616A30A"
+			tasks: [{
+				id: "1909BA37A8AD287F"
+				type: "checkmark"
+				title: "Create a Party"
+			}]
+			rewards: [{
+				id: "2B6869175B5BCE93"
+				type: "command"
+				command: "/ftbteams party create"
+				player_command: true
 			}]
 		}
 	]

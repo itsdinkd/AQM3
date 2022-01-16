@@ -2046,23 +2046,11 @@
 	},
 	"scalinghealth:bandages":
 	{
-		"crafting": 4
-	},
-	"scalinghealth:heart_crystal":
-	{
-		"crafting": 20,
-		"magic": 30,
-		"endurance": 15
+		"crafting": 8
 	},
 	"scalinghealth:medkit":
 	{
 		"crafting": 18
-	},
-	"scalinghealth:power_crystal":
-	{
-		"crafting": 20,
-		"magic": 30,
-		"combat": 15
 	},
 	"quark:bamboo_block":
 	{

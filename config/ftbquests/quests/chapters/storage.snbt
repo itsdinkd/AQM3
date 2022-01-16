@@ -12,14 +12,15 @@
 			title: "Storage Drawers"
 			x: -4.5d
 			y: -0.5d
+			shape: "gear"
 			subtitle: "Let's Learn about these bad bois"
 			description: [
 				"In this questline, you'll go more indepth"
 				"with the mod storage drawers."
 				"The quests after this go over the different kinds of upgrades and drawers."
 			]
-			dependencies: ["0FAB4A14717CC291"]
-			hide: false
+			dependencies: ["01163A11765BCA74"]
+			hide: true
 			id: "69AD2EC81307E997"
 			tasks: [{
 				id: "37917ED7712B4136"
@@ -86,6 +87,7 @@
 			y: 2.0d
 			description: ["This upgrade upgrades the amount of items stored by 2x the amount."]
 			dependencies: ["1C3A38B4CD4108B9"]
+			hide: true
 			id: "6536F140838EF5B3"
 			tasks: [{
 				id: "5F31388A4ED507F1"
@@ -127,6 +129,7 @@
 			y: 2.0d
 			description: ["This upgrades the storage drawer to hold an addition 4x amount of base items."]
 			dependencies: ["6536F140838EF5B3"]
+			hide: true
 			id: "1D0656CAB44ED9F0"
 			tasks: [{
 				id: "01CF6E20753F9B32"
@@ -172,6 +175,7 @@
 			y: 3.0d
 			description: ["This increases storage to 8x the base vaule."]
 			dependencies: ["1D0656CAB44ED9F0"]
+			hide: true
 			id: "106EA439E066EB70"
 			tasks: [{
 				id: "0075846202D2B23F"
@@ -190,6 +194,7 @@
 			y: 3.0d
 			description: ["Increases storage to 16x base value."]
 			dependencies: ["106EA439E066EB70"]
+			hide: true
 			id: "4B9E53921ADE4A70"
 			tasks: [{
 				id: "53560F63B2FE72CA"
@@ -234,6 +239,7 @@
 			y: 4.0d
 			description: ["This makes it so the drawer only holds a single stack. Useful if you plan on destroying everything but a single stack."]
 			dependencies: ["023A704473E92F5F"]
+			hide: true
 			id: "427EFB89C6321811"
 			tasks: [{
 				id: "4A440A85903EEDEC"
@@ -252,6 +258,7 @@
 			y: 5.0d
 			description: ["This item makes it so any item higher then what the drawer can hold is deleted. Useful for automated farms/items."]
 			dependencies: ["427EFB89C6321811"]
+			hide: true
 			id: "1FFA42EC8AA4622D"
 			tasks: [{
 				id: "53FE97C159119684"
@@ -333,8 +340,8 @@
 			x: -6.5d
 			y: 7.0d
 			description: ["This emits a redstone signal for the highest stored item."]
-			hide_dependency_lines: true
 			dependencies: ["752B5BAD624C9C09"]
+			hide: true
 			id: "473606ABB4EA27FB"
 			tasks: [{
 				id: "1BB3AC32525E267C"
@@ -345,7 +352,10 @@
 		{
 			x: -5.5d
 			y: 8.0d
-			description: ["This upgrade will make it so the label of a storage drawer glows at night."]
+			description: [
+				"This upgrade will make it so the label of a storage drawer glows at night."
+				"{image:mahoutsukai:textures/particle/depth.png width:100 height:100 align:1}"
+			]
 			dependencies: ["3707BC54C8567C9D"]
 			hide: true
 			id: "50E5B27E8D089F89"
@@ -362,14 +372,14 @@
 					item: "storagedrawers:illumination_upgrade"
 				}
 				{
-					id: "10CE819A76D58606"
-					type: "item"
-					item: "scalinghealth:heart_crystal_shard"
-				}
-				{
 					id: "73F0B0B59992E96C"
 					type: "item"
 					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "46E66572F74D48B0"
+					type: "choice"
+					table_id: 5513900766362080685L
 				}
 			]
 		}
@@ -378,6 +388,7 @@
 			y: 7.0d
 			description: ["This upgrade shows the fill level of a storage drawer."]
 			dependencies: ["473606ABB4EA27FB"]
+			hide: true
 			id: "3707BC54C8567C9D"
 			tasks: [{
 				id: "66FA94FD2A8C2D74"
@@ -455,6 +466,8 @@
 					id: "4894AAAF8E14671C"
 					type: "item"
 					item: "scalinghealth:heart_crystal_shard"
+					count: 2
+					random_bonus: 2
 				}
 			]
 		}
@@ -530,6 +543,71 @@
 					item: "scalinghealth:heart_crystal_shard"
 				}
 			]
+		}
+		{
+			x: -12.5d
+			y: -0.5d
+			description: [
+				"Want to access all your chests from a remote, or one block? Then this is the storage mod for you."
+				""
+				"Craft this guy here and continue on to learn how to use Simple Storage Network"
+			]
+			id: "52A65F62A5DE74B9"
+			tasks: [{
+				id: "4E5328CEF865DD47"
+				type: "item"
+				title: "Craft Storage Inventory"
+				item: "storagenetwork:inventory"
+				consume_items: false
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4B3797EEB9A5E16A"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -12.5d
+			y: 0.5d
+			description: [
+				"The Storage Network is what you use to connect Link Cables to from your chests. This basically puts all connected inventories into a accessible network, either by remote or right clicking the Storage Master"
+				"Place this next to your Storage Inventory block so it can connect the two. Or you connect them via network cables"
+			]
+			dependencies: ["52A65F62A5DE74B9"]
+			id: "26CC6AD84D34239A"
+			tasks: [{
+				id: "1CBEFCBD7D75EA44"
+				type: "item"
+				title: "Craft Storage Network Root"
+				item: "storagenetwork:master"
+			}]
+			rewards: [{
+				id: "17363F0F138F1062"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -12.5d
+			y: 1.5d
+			subtitle: "Connect these from Chests to Storage Network Root"
+			description: ["Using Link Cables, start it placed onto your chest(s) and connecting to the Storage Network    "]
+			dependencies: ["26CC6AD84D34239A"]
+			id: "0DBBE7F175C989FF"
+			tasks: [{
+				id: "2E3C9E8FE1DAB731"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+				consume_items: false
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "1DCA9EE826BD82AF"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+				count: 12
+			}]
 		}
 	]
 }

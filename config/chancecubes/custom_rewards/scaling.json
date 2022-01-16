@@ -1,0 +1,10 @@
+{
+	"Heart Rewards":
+	{
+		"chance":-20,
+		"Item":
+		[
+			{"item":{"id": "scalinghealth:%%[power_crystal,heart_crystal]%%", "Count":"%%RND(1,3)%%"}}
+		]
+	}
+}
