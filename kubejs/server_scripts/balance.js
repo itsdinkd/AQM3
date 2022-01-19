@@ -72,7 +72,7 @@ event.replaceInput(
 event.replaceInput(
   { id:"cyclic:evoker_fang" },
     "minecraft:cobweb",
-    "beyond_earth:silicon_tank"
+    "beyond_earth:calorite_tank"
 );
 event.replaceInput(
   { id:"cyclic:evoker_fang" },
@@ -180,6 +180,15 @@ event.replaceInput(
     "#forge:nuggets/copper",
     "progressivebosses:nether_star_shard"
 );
+
+// cyclic:collector - gets replaced by item collector basic
+event.remove({output: 'cyclic:collector'})
+event.shaped('cyclic:collector', [
+[null, 'minecraft:ender_pearl', null],
+[null, '#forge:obsidian', null],
+['#forge:obsidian', '#forge:obsidian', '#forge:obsidian'],
+]).replaceIngredient('cyclic:collector', 'itemcollectors:basic_collector')
+
 ////////////////////////// Doom
 // Argent Tools
       var doom_tools = [
@@ -225,6 +234,11 @@ event.replaceInput(
 "naturesaura:infused_iron"
 );
 
+event.replaceInput(
+{ id: "mininggadgets:upgrade_empty"},
+"minecraft:redstone",
+"extendedcrafting:redstone_component"
+);
 
 //mining gadgets - mk2
 event.replaceInput(
@@ -241,40 +255,22 @@ event.replaceInput(
 );
 
 // Wstweak lava blade
-event.replaceInput(
-{ id: "wstweaks:lava_blade"},
-"minecraft:lava_bucket",
-"armorplus:block_infused_lava_crystal"
-);
-event.replaceInput(
-{ id: "wstweaks:lava_blade"},
-"minecraft:stick",
-"gobber2:gobber2_sword_end"
-);
-event.replaceInput(
-{ id: "wstweaks:lava_blade"},
-"minecraft:nether_star",
-"progressivebosses:nether_star_shard"
-);
+event.remove({output: 'wstweaks:lava_blade'});
+event.shaped('wstweaks:lava_blade', [' le', 'lel', 'sl '],
+  {
+    l: 'armorplus:block_infused_lava_crystal',
+    s: 'gobber2:gobber2_sword_end',
+    e: 'extendedcrafting:ender_star'
+  });
 
 // wstweaks blaze blade
-event.replaceInput(
-{ id: "wstweaks:blaze_blade"},
-"minecraft:nether_star",
-"progressivebosses:nether_star_shard"
-);
-
-event.replaceInput(
-{ id: "wstweaks:blaze_blade"},
-"minecraft:stick",
-"wstweaks:lava_blade"
-);
-
-event.replaceInput(
-{ id: "wstweaks:blaze_blade"},
-"minecraft:blaze_rod",
-"create:blaze_cake"
-);
+event.remove({output: 'wstweaks:blaze_blade'});
+event.shaped('wstweaks:lava_blade', [' be', 'beb', 'sb '],
+  {
+    b: 'create:blaze_cake',
+    s: 'wstweaks:lava_blade',
+    e: 'extendedcrafting:ender_star'
+  });
 
 // Waystone return scroll
 event.replaceInput(
@@ -299,12 +295,12 @@ event.recipes.create.mechanical_crafting(
       "item": "gobber2:dragon_star"
     },
     "S": {
-      "item": "armorplus:soul_slayer"
+      "item": "extendedcrafting:ultimate_singularity"
     },
     "A": {
       "item": "mysticalagradditions:insanium_gemstone_block"
     }
-,    "C": {
+,   "C": {
       "item": "alexsmobs:dimensional_carver"
     },
     "E": {
@@ -323,7 +319,7 @@ event.recipes.create.mechanical_crafting(
       "item": "assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser"
     },
     "G": {
-      "item": "extradisks:1048576k_storage_part"
+      "item": "armorplus:soul_slayer"
     },
     "Q": {
       "item": "extradisks:1048576k_fluid_storage_part"
@@ -502,11 +498,81 @@ event.replaceInput(
 );
 
 // Explorer Compass
-// event.replaceInput(
-// { id: "explorerscompass:explorers_compass"},
-// "minecraft:compass",
-// "naturescompass:natures_compass"
-// );
+ event.replaceInput(
+ { id: "explorerscompass:explorers_compass"},
+ "minecraft:compass",
+ "naturescompass:naturescompass"
+ );
+
+// Simple Planes Propeller
+
+event.remove({ output: "simpleplanes:propeller" });
+  event.shaped('simpleplanes:propeller', ['i i',' g ', 'i i'],
+  {
+    i: 'minecraft:iron_ingot',
+    g: 'gobber2:gobber2_rod_nether'
+  });
+
+// Simple Planes Booster
+event.replaceInput(
+ { id: "simpleplanes:booster"},
+ "minecraft:iron_ingot",
+ "gobber2:gobber2_ingot_end"
+ );
+
+// Simple Planes Electric Engine
+event.replaceInput(
+ { id: "simpleplanes:electric_engine"},
+ "minecraft:blaze_rod",
+ "minecraft:elytra"
+ );
+
+// Simple Planes Booster
+event.replaceInput(
+ { id: "simpleplanes:furnace_engine"},
+ "minecraft:blast_furnace",
+ "ironfurnaces:obsidian_furnace"
+ );
+
+// Chance Cubes Pendents
+event.replaceInput(
+ { id: "chancecubes:tier_1_pendant_crafting"},
+ "minecraft:lapis_block",
+ "mysticalagriculture:inferium_gemstone_block"
+ );
+
+event.replaceInput(
+ { id: "chancecubes:tier_2_pendant_crafting"},
+ "minecraft:lapis_block",
+ "mysticalagriculture:prudentium_gemstone_block"
+ );
+
+event.replaceInput(
+ { id: "chancecubes:tier_3_pendant_crafting"},
+ "minecraft:lapis_block",
+ "mysticalagriculture:tertium_gemstone_block"
+ );
+
+// Doggy Talents Bone doggytalents:master_treat
+event.replaceInput(
+ { id: "doggytalents:training_treat"},
+ "minecraft:string",
+ "gobber2:gobber2_globette"
+ );
+
+event.replaceInput(
+ { id: "doggytalents:master_treat"},
+ "minecraft:diamond",
+ "tombstone:impregnated_diamond"
+ );
+
+event.replaceInput(
+ { id: "doggytalents:dire_treat"},
+ "minecraft:end_stone",
+ "extendedcrafting:ender_star"
+ );
+
+
 });
 onEvent('item.tags', event => {
 // Get the #forge:cobblestone tag collection and add Diamond Ore to it

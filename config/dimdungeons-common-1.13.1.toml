@@ -20,12 +20,12 @@
 
 #Enemy Sets for Dungeons
 [enemySets]
-	basicEnemySet1 = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:spider"]
-	basicEnemySet2 = ["minecraft:wither_skeleton", "minecraft:stray", "minecraft:skeleton", "minecraft:pillager"]
-	advancedEnemySet1 = ["minecraft:pillager", "minecraft:skeleton", "minecraft:stray", "minecraft:blaze"]
-	advancedEnemySet2 = ["minecraft:wither_skeleton", "minecraft:hoglin", "minecraft:vindicator", "minecraft:witch"]
+	basicEnemySet1 = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:spider", "restored_earth:bouldering_zombie", "restored_earth:skeleton_wolf"]
+	basicEnemySet2 = ["minecraft:wither_skeleton", "minecraft:stray", "minecraft:skeleton", "minecraft:pillager", "hunterillager:hunterillager", "doom:imp"]
+	advancedEnemySet1 = ["minecraft:pillager", "minecraft:skeleton", "minecraft:stray", "minecraft:blaze", "doom:zombieman", "doom:stone_imp", "valhelsia_structures:mossy_skeleton"]
+	advancedEnemySet2 = ["minecraft:wither_skeleton", "minecraft:hoglin", "minecraft:vindicator", "minecraft:witch", "doom:chaingunner", "doom:nightmare_imp"]
 	basicEnemyHealthScaling = 1.0
-	advancedEnemyHealthScaling = 2.0
+	advancedEnemyHealthScaling = 2.2
 
 #Settings for Theme 1
 [dungeonTheme1]
@@ -35,8 +35,8 @@
 	themeHallways1 = [["dimdungeons:theme1_hallway1"], ["dimdungeons:theme1_hallway2"], ["dimdungeons:theme1_hallway3"], ["dimdungeons:theme1_hallway4"], ["dimdungeons:theme1_hallway5"], ["dimdungeons:theme1_hallway6"]]
 	themeCorners1 = [["dimdungeons:theme1_corner1"], ["dimdungeons:theme1_corner2"], ["dimdungeons:theme1_corner3"], ["dimdungeons:theme1_corner4"], ["dimdungeons:theme1_corner5"], ["dimdungeons:theme1_corner6"]]
 	themeEnds1 = [["dimdungeons:theme1_end1"], ["dimdungeons:theme1_end2"], ["dimdungeons:theme1_end3"], ["dimdungeons:theme1_end4"], ["dimdungeons:theme1_end5"], ["dimdungeons:theme1_end6"]]
-	themeEnemySet1_1 = ["minecraft:skeleton", "minecraft:piglin", "minecraft:blaze"]
-	themeEnemySet2_1 = ["minecraft:wither_skeleton", "minecraft:blaze", "minecraft:wither_skeleton", "minecraft:blaze", "minecraft:hoglin", "minecraft:piglin_brute"]
+	themeEnemySet1_1 = ["minecraft:skeleton", "minecraft:piglin", "minecraft:blaze", "hunterillager:hunterillager", "doom:imp", "restored_earth:bouldering_zombie", "restored_earth:skeleton_wolf"]
+	themeEnemySet2_1 = ["minecraft:wither_skeleton", "minecraft:blaze", "minecraft:wither_skeleton", "minecraft:blaze", "minecraft:hoglin", "minecraft:piglin_brute", "doom:chaingunner", "doom:nightmare_imp", "valhelsia_structures:mossy_skeleton"]
 	themeEnemyHealthScaling1 = 1.0
 	themeDungeonSize1 = 14
 

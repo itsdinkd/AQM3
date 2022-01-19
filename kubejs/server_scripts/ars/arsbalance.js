@@ -76,6 +76,13 @@ event.replaceInput(
 "ars_nouveau:end_fiber"
 );
 
+// ars nouveau apprentice spell book
+event.replaceInput(
+{ id: "ars_nouveau:archmage_spell_book_upgrade"},
+"minecraft:nether_star",
+"extendedcrafting:ender_star"
+);
+
 // ars nouveau gem block
 event.remove({id: 'ars_nouveau:imbuement_amethyst_block'})
 event.remove({id: 'ars_nouveau:source_gem_block'})

@@ -12,7 +12,6 @@
 			title: "Storage Drawers"
 			x: -4.5d
 			y: -0.5d
-			shape: "gear"
 			subtitle: "Let's Learn about these bad bois"
 			description: [
 				"In this questline, you'll go more indepth"
@@ -25,7 +24,7 @@
 			tasks: [{
 				id: "37917ED7712B4136"
 				type: "item"
-				title: "Any #storagedrawers:drawers"
+				title: "Craft any Storage Drawer"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -545,8 +544,10 @@
 			]
 		}
 		{
+			title: "Simple Storage Network"
 			x: -12.5d
 			y: -0.5d
+			subtitle: "Easy way to connect all chests to one network"
 			description: [
 				"Want to access all your chests from a remote, or one block? Then this is the storage mod for you."
 				""

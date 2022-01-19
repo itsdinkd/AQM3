@@ -1,0 +1,375 @@
+{
+	id: "2844CA4B7FEF5212"
+	group: "30AC1CE19F5532E7"
+	order_index: 3
+	filename: "gibber_gobber"
+	title: "Gibber Gobber"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Nether Globettes, scary."
+			dependencies: ["6E6D7F4C37CD0CFC"]
+			id: "79F4D4DA705033B9"
+			tasks: [{
+				id: "33970CE27F99CB90"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+			}]
+			rewards: [{
+				id: "418E0F1B525216A2"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Are you tired of this yet?"
+			dependencies: ["79F4D4DA705033B9"]
+			id: "35B3650C5AC1562F"
+			tasks: [{
+				id: "081FC071BD83F56E"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+			}]
+			rewards: [{
+				id: "3AF5AB5B66A16250"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "You know what to do"
+			dependencies: ["79F4D4DA705033B9"]
+			id: "454CCF93166E73EF"
+			tasks: [{
+				id: "35BC5730A922B107"
+				type: "item"
+				item: "gobber2:gobber2_glob_nether"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "3D847A611372DEC7"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "The last glob...."
+			dependencies: ["35B3650C5AC1562F"]
+			id: "2CD163E1780FAD0D"
+			tasks: [{
+				id: "02B5502A2B3E3B0E"
+				type: "item"
+				item: "gobber2:gobber2_glob_end"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4C1DEFF96DAF23BB"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Got Gobbs?"
+			dependencies: ["454CCF93166E73EF"]
+			id: "6DC760A92F8BE047"
+			tasks: [{
+				id: "7F181343F0AD7FF3"
+				type: "item"
+				item: "gobber2:gobber2_ingot_nether"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "15C09858ED29D9DD"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+				count: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["2CD163E1780FAD0D"]
+			id: "291C047CCE48E8B2"
+			tasks: [{
+				id: "1AC12AB3A5DEE33A"
+				type: "item"
+				item: "gobber2:gobber2_ingot_end"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "3AAAC548166A699A"
+				type: "item"
+				item: "scalinghealth:heart_crystal_shard"
+				count: 3
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["5F87690E9ED5F080"]
+			id: "156DB03AE9BE4795"
+			tasks: [{
+				id: "542BA83CB52EA04D"
+				type: "item"
+				item: "gobber2:gobber2_links_end"
+			}]
+			rewards: [{
+				id: "2CB8DEF9D82A20EF"
+				type: "item"
+				item: "gobber2:gobber2_glob_end"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["291C047CCE48E8B2"]
+			id: "45F3BD5D86B2024A"
+			tasks: [{
+				id: "32D76CD53B44885A"
+				type: "item"
+				item: "gobber2:gobber2_rod_end"
+			}]
+			rewards: [{
+				id: "718375A852D82C9E"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["291C047CCE48E8B2"]
+			id: "40B65FA30052F614"
+			tasks: [{
+				id: "130080CBDD7CD24C"
+				type: "item"
+				item: "gobber2:gobber2_ring_end"
+			}]
+			rewards: [{
+				id: "1B2E3E7819481052"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["6DC760A92F8BE047"]
+			id: "4727F254D09DAE2A"
+			tasks: [{
+				id: "715B76FABBF07D0D"
+				type: "item"
+				item: "gobber2:gobber2_rod_nether"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "166EAC606AC2B7B7"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+				count: 3
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			subtitle: "Have fun with this one"
+			description: ["The Gobber Dragon Star is needed for several great items, but also requires a machine from another mod to create it!"]
+			dependencies: ["40B65FA30052F614"]
+			id: "5F87690E9ED5F080"
+			tasks: [{
+				id: "6382BC08FD43FC90"
+				type: "item"
+				item: "gobber2:dragon_star"
+			}]
+			rewards: [
+				{
+					id: "2EDE588270450EA7"
+					type: "item"
+					item: "gobber2:gobber2_glob_end"
+				}
+				{
+					id: "0DA43EFD1AB6033D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "Craft End Gobber Armor Set"
+			x: 6.0d
+			y: 1.5d
+			subtitle: "My personal favorite"
+			dependencies: ["156DB03AE9BE4795"]
+			id: "00513081E349E179"
+			tasks: [
+				{
+					id: "531F21194849D2C4"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+				{
+					id: "5136C33DE5F7B7FA"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C90F4EE43490171"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3ADD3315CDF0001E"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "77D1F1FEEC8706B0"
+					type: "choice"
+					table_id: 5513900766362080685L
+				}
+				{
+					id: "2428EC9598F5BBFA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Fuel Fuel Fuel!"
+			dependencies: ["454CCF93166E73EF"]
+			id: "6B2457F8831B7ADD"
+			tasks: [{
+				id: "4A93D30C26DC064D"
+				type: "item"
+				item: "gobber2:gobber2_foo_nether"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "1F2DEB9F4FCBEDB6"
+				type: "item"
+				item: "gobber2:gobber2_foo_nether"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Literally the best fuel in the pack"
+			dependencies: ["2CD163E1780FAD0D"]
+			id: "5EEFF9007CB80901"
+			tasks: [{
+				id: "33694931837EEFF6"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "6422DB59097B7835"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["6DC760A92F8BE047"]
+			id: "1C0B0A977700023F"
+			tasks: [{
+				id: "0024F99372D51400"
+				type: "item"
+				item: "gobber2:gobber2_medallion_nether"
+			}]
+			rewards: [{
+				id: "79B3476EC020A65D"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+				count: 3
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["6DC760A92F8BE047"]
+			id: "5832FE697A573092"
+			tasks: [{
+				id: "6F256EFCCE5581A8"
+				type: "item"
+				item: "gobber2:gobber2_ring_nether"
+			}]
+			rewards: [{
+				id: "1D1A1418A99EF9B5"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "to receive some gobber food, yum"
+			dependencies: ["79F4D4DA705033B9"]
+			id: "640CD2A4796A60F9"
+			tasks: [
+				{
+					id: "5E2374F2A3C22D9E"
+					type: "item"
+					item: "gobber2:gobber2_lucky_block_nether"
+				}
+				{
+					id: "56667DB47626AB0E"
+					type: "observation"
+					title: "Break a Lucky Nether Block"
+					icon: "gobber2:gobber2_lucky_block_nether"
+					timer: 3L
+					observe_type: 0
+					to_observe: "gobber2:gobber2_lucky_block_nether"
+				}
+			]
+			rewards: [{
+				id: "671135A4B41FA0D7"
+				type: "item"
+				item: "gobber2:gobber2_goo_nether"
+			}]
+		}
+	]
+}

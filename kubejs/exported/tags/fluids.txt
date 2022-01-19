@@ -1,15 +1,16 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jan 5, 2022, 6:39:37 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jan 17, 2022, 9:39:38 AM
 
 #assemblylinemachines:glacier_water
 - assemblylinemachines:glacier_water
 - assemblylinemachines:glacier_water_flowing
 
+#beyond_earth:molten_calorite
+- beyond_earth:molten_calorite?
+- beyond_earth:flowing_molten_calorite?
+
 #assemblylinemachines:gasoline
 - assemblylinemachines:gasoline
 - assemblylinemachines:gasoline_flowing
-
-#forge:molten_silicon
-- #beyond_earth:molten_silicon
 
 #forge:crude_oil
 
@@ -97,6 +98,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - createaddition:flowing_seed_oil
 - createaddition:seed_oil
 
+#forge:molten_ostrum
+- #beyond_earth:molten_ostrum
+
 #forge:biodiesel
 - immersiveengineering:biodiesel
 
@@ -113,6 +117,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #assemblylinemachines:oil
 - assemblylinemachines:oil
 - assemblylinemachines:oil_flowing
+
+#tconstruct:tooltips/metal
+- #forge:molten_desh
+- #forge:molten_ostrum
+- #forge:molten_calorite
 
 #assemblylinemachines:diesel
 - assemblylinemachines:diesel
@@ -158,6 +167,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:redstone_acid
 - immersiveengineering:redstone_acid
 
+#beyond_earth:molten_ostrum
+- beyond_earth:molten_ostrum?
+- beyond_earth:flowing_molten_ostrum?
+
 #assemblylinemachines:liquid_carbon
 - assemblylinemachines:liquid_carbon
 - assemblylinemachines:liquid_carbon_flowing
@@ -184,10 +197,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - beyond_earth:molten_desh?
 - beyond_earth:flowing_molten_desh?
 
-#tconstruct:metal_like
-- #forge:molten_desh
-- #forge:molten_silicon
-
 #assemblylinemachines:dark_energy
 - assemblylinemachines:dark_energy
 - assemblylinemachines:dark_energy_flowing
@@ -211,16 +220,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - create:flowing_tea
 - create:tea
 
-#beyond_earth:molten_silicon
-- beyond_earth:molten_silicon?
-- beyond_earth:flowing_molten_silicon?
-
 #forge:magma
 - cyclic:magma
 
 #beyond_earth:vehicle_fuel
 - beyond_earth:fuel
 - beyond_earth:flowing_fuel
+- thermal:refined_fuel?
+- vehicle:fuelium?
+- car:bio_diesel?
+- immersivepetroleum:diesel?
+- immersiveengineering:biodiesel?
+- industrialforegoing:biofuel?
 
 #immersiveengineering:drill_fuel
 - #forge:biodiesel
@@ -228,6 +239,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:rossinite
 - bigreactors:rossinite
 - bigreactors:rossinite_flowing
+
+#forge:molten_calorite
+- #beyond_earth:molten_calorite
 
 #forge:honey
 - productivebees:honey

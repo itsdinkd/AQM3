@@ -1,0 +1,284 @@
+{
+  "dropConfig": [
+    {
+      "item": "minecraft:wheat_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "minecraft:beetroot_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "veggie_way:quinoa_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "veggie_way:soybean_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "veggie_way:lentil_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "veggie_way:corn_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "immersiveengineering:seed",
+      "chance": 0.73
+    },
+    {
+      "item": "silentgear:flax_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "silentgear:fluffy_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:artichoke_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:asparagus_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:bellpepper_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:blackbean_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:blackberry_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:blueberry_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:broccoli_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:cabbage_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:cantaloupe_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:cauliflower_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:celery_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:coffee_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:corn_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:cranberry_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:cucumber_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:currant_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:eggplant_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:elderberry_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:garlic_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:grape_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:greenbean_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:greenonion_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:honeydew_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:hops_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:kale_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:kiwi_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:leek_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:lettuce_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:olive_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:onion_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:peanut_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:pineapple_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:radish_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:raspberry_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:rhubarb_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:rice_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:rutabaga_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:saguaro_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:spinach_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:squash_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:strawberry_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:sweetpotato_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:tomatillo_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:tomato_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:turnip_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:yam_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:zucchini_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:mustard_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:chile_pepper_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:turmeric_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:ginger_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:basil_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:oat_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:barley_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:soybean_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:vanilla_seeds",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:pepper_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "croptopia:tea_seed",
+      "chance": 0.73
+    },
+    {
+      "item": "occultism:datura_seeds",
+      "chance": 0.73
+    }
+  ]
+}

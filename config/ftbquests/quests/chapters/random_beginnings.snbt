@@ -1,0 +1,418 @@
+{
+	id: "6C844DBC02F69E64"
+	group: "0FAB4A14717CC291"
+	order_index: 1
+	filename: "random_beginnings"
+	title: "ILOVERANDOMThings"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "You want to do this.. trust me."
+			id: "75EE6386DD00AE82"
+			tasks: [{
+				id: "111C6DA609F1210D"
+				type: "kill"
+				title: "Kill a Rattlesnake"
+				icon: "alexsmobs:rattlesnake_rattle"
+				entity: "minecraft:zombie"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0A0DC20D0EC42F05"
+				type: "item"
+				item: "alexsmobs:maraca"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Just look at it"
+			description: ["Once done, immediately do the next quest :)"]
+			dependencies: ["75EE6386DD00AE82"]
+			hide: true
+			id: "67B36217C96C8458"
+			tasks: [{
+				id: "08B1A952604735D6"
+				type: "observation"
+				title: "Find a Cockroach"
+				icon: "alexsmobs:cockroach_ootheca"
+				timer: 0L
+				observe_type: 0
+				to_observe: "alexsmobs:cockroach"
+			}]
+			rewards: [{
+				id: "451B97FA44D04B62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Mariachi Time"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "Sneak + Right click the Maracas on the Roach"
+			dependencies: ["67B36217C96C8458"]
+			hide: true
+			id: "08D1989CCD5BC2B2"
+			tasks: [{
+				id: "12D1198B39A22AAC"
+				type: "advancement"
+				title: "Make it Dance"
+				icon: {
+					id: "instrumentalmobs:maracas"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "alexsmobs:alexsmobs/la_cucaracha"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "HOOKS!"
+			description: ["Crafting material for the Spear hook, which does some pretty neat things when crafted."]
+			hide_dependency_lines: false
+			id: "44ADEA383E1418B3"
+			tasks: [{
+				id: "3D9BC2E24871716D"
+				type: "item"
+				item: "adhooks:spear_hook"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "157722972A3B3F27"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			subtitle: "Okay now you're ready"
+			description: ["Make sure you check your keybinds for this one as each hook has different keybinds for the most part. "]
+			hide_dependency_lines: false
+			dependencies: ["44ADEA383E1418B3"]
+			hide: false
+			id: "1E8F9738BE5A5DAA"
+			tasks: [{
+				id: "35E7155477A25943"
+				type: "item"
+				item: {
+					id: "adhooks:spear_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2177ABFD0BFD6F1E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Crafting Material for spiderman hook"
+			hide_dependency_lines: false
+			dependencies: ["44ADEA383E1418B3"]
+			hide: false
+			id: "4961D065748C0A86"
+			tasks: [{
+				id: "747FD1808B2A6262"
+				type: "item"
+				item: "adhooks:web_hook"
+			}]
+			rewards: [{
+				id: "1B1C963D604FC06F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Go and be spidey man"
+			hide_dependency_lines: false
+			dependencies: ["4961D065748C0A86"]
+			hide: false
+			id: "371B069CA58921BA"
+			tasks: [{
+				id: "2E7FA29006D8ACCF"
+				type: "item"
+				item: {
+					id: "adhooks:web_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2446CCA59FF7614C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			subtitle: "Crafting material for pudgy hook"
+			hide_dependency_lines: false
+			dependencies: ["4961D065748C0A86"]
+			hide: false
+			hide_text_until_complete: false
+			id: "59953074D92A54FB"
+			tasks: [{
+				id: "2EB24904F82CE56B"
+				type: "item"
+				item: "adhooks:pudge_hook"
+			}]
+			rewards: [{
+				id: "614A40C625391796"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			subtitle: "Warning: will pierce through skin of your enemies"
+			hide_dependency_lines: false
+			dependencies: ["59953074D92A54FB"]
+			hide: false
+			id: "70EEB9F1796A3E03"
+			tasks: [{
+				id: "7AF1B341A7A729D3"
+				type: "item"
+				item: {
+					id: "adhooks:pudge_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F0DEEF604A7F5D9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			subtitle: "Your Doggy Trainer Item"
+			description: ["Once leveled, hold out your stick you just crafted and right click the pup to open up the Leveling GUI. Here you can select what skills you want to level up, rename your pup, and select its behavior. "]
+			dependencies: ["4E3BDCF4DD692408"]
+			hide: true
+			id: "527D0BA82129DD6C"
+			tasks: [{
+				id: "11A015B503E18B55"
+				type: "item"
+				item: "minecraft:stick"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "01AE6D0B30FDD682"
+				type: "item"
+				item: "doggytalents:sunglasses"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			subtitle: "Get your Doggy Dog on"
+			description: ["Time for Doggy Talents mod! Go tame a dog, and then use your reward, the training treat on it to level it up."]
+			id: "169E9B5BD5E843CE"
+			tasks: [{
+				id: "4B604D698905AA7F"
+				type: "observation"
+				title: "Tame a Dog"
+				icon: "doggytalents:doggy_charm"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "3F655173650C2617"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			subtitle: "Train that doggy"
+			description: ["After crafting the training treat, hold it and right click your pup with it to train the beast and level it up"]
+			dependencies: ["169E9B5BD5E843CE"]
+			hide: false
+			id: "4E3BDCF4DD692408"
+			tasks: [{
+				id: "1CD5003251EF365F"
+				type: "item"
+				item: "doggytalents:training_treat"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4E979C8D69ADF3A2"
+				type: "item"
+				item: "doggytalents:training_treat"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.5d
+			subtitle: "Command your puppy and change its behavior"
+			dependencies: ["527D0BA82129DD6C"]
+			hide: true
+			id: "4EA2DE2FF209168E"
+			tasks: [{
+				id: "0EFC2D728E656ABA"
+				type: "item"
+				item: "doggytalents:whistle"
+			}]
+			rewards: [{
+				id: "64F57CEA6E6C635B"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			subtitle: "Lost puppy no more!"
+			dependencies: ["527D0BA82129DD6C"]
+			hide: true
+			id: "23BFD42742DDCED3"
+			tasks: [{
+				id: "745E8B3DDC671DBA"
+				type: "item"
+				item: "doggytalents:radar"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "660D2656BE3D6DA8"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			subtitle: "Cut its hair, duh."
+			dependencies: ["527D0BA82129DD6C"]
+			hide: true
+			id: "150484A73201A679"
+			tasks: [{
+				id: "7E4130DC1578F618"
+				type: "item"
+				item: "doggytalents:collar_shears"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			subtitle: "How about a tiny pup?"
+			description: ["Alternatively, you can make the pup really really small, you can use this until its like a inch big"]
+			dependencies: ["19F5B3FFFA8B8373"]
+			hide: true
+			optional: true
+			id: "7CD574508EE0643E"
+			tasks: [{
+				id: "6883FEC6C9BB16B1"
+				type: "item"
+				item: "doggytalents:tiny_bone"
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			subtitle: "Lets make that pup huge"
+			description: ["Once crafted, use this on your pup to increase its size. The dog can take 3 large bones from its normal size"]
+			dependencies: ["527D0BA82129DD6C"]
+			hide: true
+			optional: true
+			id: "19F5B3FFFA8B8373"
+			tasks: [{
+				id: "513AC56CD1990B48"
+				type: "item"
+				item: "doggytalents:big_bone"
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			subtitle: "The next level... to level"
+			dependencies: ["4E3BDCF4DD692408"]
+			hide: true
+			id: "6039DDE455BF904F"
+			tasks: [{
+				id: "571ADB4E89B20DE9"
+				type: "item"
+				item: "doggytalents:super_treat"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "768BE214760EB63F"
+				type: "item"
+				item: "doggytalents:super_treat"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			subtitle: "This will bring it to its third tier after X amount of levels is reached"
+			dependencies: ["6039DDE455BF904F"]
+			hide: true
+			id: "15E8ADAB61E2A14E"
+			tasks: [{
+				id: "3093586887345C48"
+				type: "item"
+				item: "doggytalents:master_treat"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "0B522FE748CF8217"
+				type: "item"
+				item: "doggytalents:master_treat"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -0.5d
+			subtitle: "The Dire levels are pretty important"
+			description: ["You can only use the dire treat when your puppy hits a certain level, after all the other bones are used in order."]
+			dependencies: ["15E8ADAB61E2A14E"]
+			hide: true
+			id: "08A353A06E0643EA"
+			tasks: [{
+				id: "37DEC628D4EF2201"
+				type: "item"
+				item: "doggytalents:dire_treat"
+			}]
+			rewards: [
+				{
+					id: "590632049996126D"
+					type: "item"
+					item: "doggytalents:dire_treat"
+				}
+				{
+					id: "01AC6ACCDE17BD8A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

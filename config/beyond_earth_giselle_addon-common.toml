@@ -15,8 +15,8 @@
 
 	[machines.gravity_normalizer]
 		#final energy usage = 'base' + range * 'perRange'
-		energyUsingBase = 0
-		energyUsingPerRange = 1
+		energyUsingBase = 10
+		energyUsingPerRange = 2
 
 [compats]
 

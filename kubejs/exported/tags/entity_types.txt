@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jan 5, 2022, 6:39:36 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jan 17, 2022, 9:39:39 AM
 
 #supplementaries:cage_baby_catchable
 - minecraft:cow
@@ -42,6 +42,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:horses
 - minecraft:horse
 
+#blue_skies:poison_allies
+- blue_skies:arachnarch
+- blue_skies:nested_spider
+- blue_skies:venom_spit
+- blue_skies:venom_spider
+- minecraft:spider
+- minecraft:cave_spider
+
 #alexsmobs:scatters_crows
 - #alexsmobs:neutral_land_animals
 
@@ -74,6 +82,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - alexsmobs:snow_leopard
 - alexsmobs:moose
 - alexsmobs:gelada_monkey
+- alexsmobs:terrapin
 - minecraft:dolphin
 
 #minecraft:powder_snow_walkable_mobs
@@ -93,6 +102,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - alexsmobs:bald_eagle
 - alexsmobs:tiger
 - alexsmobs:maned_wolf
+- alexsmobs:jerboa
 
 #industrialforegoing:mob_imprisonment_tool_blacklist
 - artifacts:mimic
@@ -100,10 +110,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:llamas
 - minecraft:llama
 - minecraft:trader_llama
-
-#beyond_earth:entities/venus_fire
-- beyond_earth:pygro
-- beyond_earth:mogler
 
 #farmersdelight:dog_food_users
 - minecraft:wolf
@@ -145,6 +151,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:goat
 - alexsmobs:toucan
 - alexsmobs:maned_wolf
+- alexsmobs:jerboa
 
 #alexsmobs:villagers
 - minecraft:villager
@@ -161,6 +168,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:wither_skull
 - supplementaries:rope_arrow
 - supplementaries:brick_projectile
+- restored_earth:rotten_flesh
 
 #minecraft:beehive_inhabitors
 - minecraft:bee
@@ -248,6 +256,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:villager
 - minecraft:wandering_trader
 
+#blue_skies:nature_allies
+- blue_skies:starlit_crusher
+- blue_skies:spewter
+- blue_skies:snow_owl
+- blue_skies:ent_wall
+- blue_skies:ent_root
+- blue_skies:ent_leaf
+- blue_skies:stonelet
+
+#blue_skies:bosses
+- blue_skies:summoner
+- blue_skies:alchemist
+- blue_skies:starlit_crusher
+- blue_skies:arachnarch
+- blue_skies:armored_maw?
+
 #forge:zombies
 - minecraft:zombie
 - minecraft:zombie_villager
@@ -300,6 +324,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - alexsmobs:froststalker
 - alexsmobs:tusklin
 - alexsmobs:raccoon
+
+#ars_nouveau:spell_can_hit
 
 #alexsmobs:orca_targets
 - alexsmobs:moose
@@ -442,8 +468,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:vindicator
 - minecraft:illusioner
 - minecraft:witch
-- enchantwithmob:enchanter
 - hunterillager:hunterillager
+- blue_skies:summoner
+- blue_skies:alchemist
 
 #occultism:afrit_allies
 - minecraft:blaze
@@ -499,6 +526,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - iceandfire:pixie?
 - druidcraft:lunar_moth?
 - druidcraft:dreadfish?
+
+#beyond_earth:entities/planet_fire
+- beyond_earth:pygro
+- beyond_earth:mogler
 
 #supplementaries:flute_pet
 - minecraft:horse?
@@ -629,6 +660,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #minecolonies:mob_attack_blacklist
 - minecraft:enderman
 - minecraft:llama
+
+#blue_skies:frost_spirits
+- blue_skies:frost_spirit
+- blue_skies:armored_frost_spirit
+- blue_skies:crynocerous
 
 #ars_nouveau:disintegration_blacklist
 
@@ -809,3 +845,4 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:rabbit
 - minecraft:salmon
 - alexsmobs:raccoon
+- alexsmobs:jerboa

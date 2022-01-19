@@ -2,7 +2,7 @@
 ["General Settings"]
 	#The minimum chance range value. Changes the range of chance that the chance block can pick from. i.e. If you have your rangemin set to 10 and range max set to 15. A chance cube with a chance value of 0 can get rewards of -10 to 15 in chance value.
 	#Range: 0 ~ 100
-	ChanceRangeMin = 5
+	ChanceRangeMin = 10
 	#The maximum chance range value. Changes the range of chance that the chance block can pick from. i.e. If you have your rangemin set to 10 and range max set to 15. A chance cube with a chance value of 0 can get rewards of -10 to 15 in chance value.
 	#Range: 0 ~ 100
 	ChanceRangeMax = 10
@@ -21,21 +21,21 @@
 	GenerateAsOre = true
 	#Amount of chance cubes to try and spawn, per chunk, as an ore
 	#Range: 1 ~ 100
-	OreGenAmount = 2
+	OreGenAmount = 1
 	#true if Chance Cubes should generate on the surface of the world. false if they should not
 	GenerateOnSurface = true
 	#Chance of a chunk to have a chance cube spawned on the surface. The math is 1/(surfaceGenerationAmount), so increase to make more rare, and decrese to make more common.
 	#Range: > 0
 	SurfaceGenerationAmount = 100
 	#Worlds that Chance cubes shold not generate in
-	BlockedWorlds = ["javd:void", "dimdungeons:dungeon_dimension", "blue_skies:everdawn", "blue_skies:everbright", "compactmachines:compact_world", "mahoutsukai:reality_marble", "beyond_earth:mars_orbit", "beyond_earth:mercury_orbit", "beyond_earth:moon_orbit", "beyond_earth:overworld_orbit", "beyond_earth:venus_orbit"]
+	BlockedWorlds = ["javd:void", "dimdungeons:dungeon_dimension", "blue_skies:everdawn", "blue_skies:everbright"]
 	#True if Chance Cubes should generate as chest loot in the world. false if they should not
 	ChestLoot = true
 	#Blocks that should not be replaced when rewards are "restored" after a reward is over, i.e don't remove graves when the boss dome get's cleared
-	BlockRestoreBlacklist = []
+	BlockRestoreBlacklist = ["tombstone:grave_simple", "tombstone:grave_normal", "tombstone:grave_cross", "tombstone:tombstone", "tombstone:subaraki_grave", "tombstone:grave_original"]
 	#How many blocks above the Chance Cube that a block that will fall should be dropped from
 	#Range: 0 ~ 256
-	FallingBlockDropHeight = 25
+	FallingBlockDropHeight = 20
 	#True if Chance Cubes should load in user specific rewards (for a select few only)
 	UserSpecificRewards = true
 	#True if Chance Cubes should check for globally disabled rewards (Rewards that are usually bugged or not working correctly). NOTE: The mod sends your Chance Cubes mod version to the web server to check for disabled rewards for your given version and the version number is subsequently logged. Feel free to make an inquiry if you wish to know more.

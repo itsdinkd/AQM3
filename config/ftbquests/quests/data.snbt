@@ -1,16 +1,17 @@
 {
 	version: 13
 	title: "Another Quality Modpack 3"
+	icon: "extendedcrafting:ultimate_singularity"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"
-	default_quest_shape: "circle"
-	default_quest_disable_jei: true
-	emergency_items_cooldown: 300
+	default_quest_shape: "hexagon"
+	default_quest_disable_jei: false
+	emergency_items_cooldown: 2
 	drop_loot_crates: false
 	loot_crate_no_drop: {
-		passive: 4000
-		monster: 600
+		passive: 0
+		monster: 0
 		boss: 0
 	}
 	disable_gui: false

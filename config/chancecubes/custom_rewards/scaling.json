@@ -4,7 +4,15 @@
 		"chance":-20,
 		"Item":
 		[
-			{"item":{"id": "scalinghealth:%%[power_crystal,heart_crystal]%%", "Count":"%%RND(1,3)%%"}}
+			{"item":{"id": "scalinghealth:%%[power_crystal,heart_crystal]%%", "Count":1}}
+		]
+	},
+	"Chance Globe":
+	{
+		"chance": -30
+		"Item":
+		[
+			{"item":{"id": "chanceglobe:chance_globe", "Count": 1}}
 		]
 	}
 }

@@ -17,6 +17,7 @@
 				"Try not to lose them :)"
 			]
 			dependencies: ["24CA47E19CBB1738"]
+			size: 0.75d
 			id: "0069E0015EB53D0D"
 			tasks: [{
 				id: "576F9DBE6384EBB0"
@@ -85,6 +86,7 @@
 			subtitle: "A better table"
 			description: ["This neat little crafting tab allows on the go crafting."]
 			dependencies: ["0069E0015EB53D0D"]
+			size: 0.75d
 			id: "54626924CE9BD31F"
 			tasks: [{
 				id: "1B1562FE78356B61"
@@ -107,6 +109,7 @@
 			description: ["Look, it ain't much but it processes food fast when setup."]
 			dependencies: ["54626924CE9BD31F"]
 			hide: true
+			size: 0.75d
 			optional: true
 			id: "474EF46C83E6797A"
 			tasks: [
@@ -136,11 +139,18 @@
 					count: 48L
 				}
 			]
-			rewards: [{
-				id: "29FEEADD36C44CD0"
-				type: "item"
-				item: "minecraft:coal_block"
-			}]
+			rewards: [
+				{
+					id: "29FEEADD36C44CD0"
+					type: "item"
+					item: "minecraft:coal_block"
+				}
+				{
+					id: "7EA739D8379BD187"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 		}
 		{
 			title: "A new storage"
@@ -154,6 +164,7 @@
 			]
 			dependencies: ["54626924CE9BD31F"]
 			hide: true
+			size: 0.75d
 			id: "01163A11765BCA74"
 			tasks: [{
 				id: "558D52A988DBCD7D"
@@ -182,6 +193,7 @@
 			description: ["These chests are bigger then normal chests and are worth using for various automatic storages/processing."]
 			dependencies: ["54626924CE9BD31F"]
 			hide: true
+			size: 0.75d
 			id: "05F8D5D9AA6FF76D"
 			tasks: [{
 				id: "46BD9E3C1CBE3760"
@@ -206,11 +218,19 @@
 			]
 			dependencies: ["54626924CE9BD31F"]
 			hide: true
+			size: 0.75d
 			id: "2150D0C07467C6F3"
 			tasks: [{
 				id: "22BC97DF84AF3981"
 				type: "item"
-				item: "ironfurnaces:iron_furnace"
+				title: "Any #forge:furnaces/iron"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:furnaces/iron"
+					}
+				}
 				only_from_crafting: true
 			}]
 			rewards: [{
@@ -221,12 +241,11 @@
 		}
 		{
 			title: "Auto Run"
-			x: 0.0d
-			y: -0.75d
+			x: -2.75d
+			y: -1.25d
 			subtitle: "Have a good time running long distances :)"
 			description: ["Did you know you can auto run by pressing H (or whatever you may have set the hotkey to.)?"]
-			dependencies: ["0069E0015EB53D0D"]
-			hide: true
+			dependencies: ["24CA47E19CBB1738"]
 			dependency_requirement: "one_completed"
 			size: 0.5d
 			optional: true
@@ -237,22 +256,23 @@
 				title: "Auto Run"
 			}]
 			rewards: [{
-				id: "6A4137D60345B83B"
+				id: "2D40F9FBA98E1E32"
 				type: "xp"
-				xp: 1
+				team_reward: false
+				xp: 10
 			}]
 		}
 		{
 			title: "I'm Spiderman"
-			x: -0.5d
-			y: -0.5d
+			x: -2.25d
+			y: -0.75d
 			subtitle: "Wall Jumping Basics"
 			description: [
 				"Did you know that you can wall jump?"
 				"To wall jump, jump towards a wall and hold Lshift (or the keybind you chose), this allows you to cling to the wall."
 				"While still clinging to the wall, hold forward and release the binding."
 			]
-			dependencies: ["0069E0015EB53D0D"]
+			dependencies: ["24CA47E19CBB1738"]
 			hide: true
 			dependency_requirement: "one_completed"
 			size: 0.5d
@@ -266,18 +286,16 @@
 			rewards: [{
 				id: "69B8B7B7C4EB4F54"
 				type: "xp"
-				xp: 1
+				team_reward: false
+				xp: 10
 			}]
 		}
 		{
-			title: "Welcome to the pack!"
+			title: "Welcome to Another Quality Modpack 3"
 			x: -1.5d
 			y: 0.0d
 			subtitle: "Read description <3"
-			description: [
-				"These quest are to help guide you along the pack."
-				"Be sure to complete ALL the quests here for the next chapter."
-			]
+			description: ["This chapter will go over some of the core mods of the pack and explain how to do certain things. Make sure you complete these quests to unlock other areas like Storage Drawers"]
 			id: "24CA47E19CBB1738"
 			tasks: [{
 				id: "4C95DABF01BFAFD9"
@@ -287,8 +305,15 @@
 		}
 		{
 			title: "Scaling Health and You (2/3)"
-			x: 0.5d
-			y: -1.0d
+			icon: {
+				id: "tombstone:decorative_grave_simple"
+				Count: 1b
+				tag: {
+					model_texture: 0
+				}
+			}
+			x: 0.0d
+			y: -1.5d
 			subtitle: "Other ways your difficulty level increases"
 			description: [
 				"There are other ways to scale difficulty in small increments."
@@ -303,12 +328,11 @@
 			]
 			min_required_dependencies: 1
 			dependencies: ["3B40419C8AE65204"]
-			hide: true
 			dependency_requirement: "one_completed"
 			size: 0.5d
 			id: "1CDBB1CC97B9EEC0"
 			tasks: [{
-				id: "178B61D832C7E937"
+				id: "4D73FF40D9B29B8F"
 				type: "stat"
 				title: "Die Once"
 				stat: "minecraft:deaths"
@@ -316,23 +340,21 @@
 			}]
 			rewards: [
 				{
-					id: "17598C678E271826"
+					id: "52CF722E85555044"
 					type: "item"
-					team_reward: false
 					item: "scalinghealth:bandages"
 				}
 				{
-					id: "45DB43FC4ED13CD6"
+					id: "5E7A93F380AA7851"
 					type: "item"
-					team_reward: false
 					item: "scalinghealth:power_crystal"
 				}
 			]
 		}
 		{
 			title: "Scaling Health and You (3/3)"
-			x: 0.5d
-			y: -1.5d
+			x: 0.0d
+			y: -2.25d
 			subtitle: "Other ways to scale your difficulty."
 			description: [
 				"Consume Enchanted Heart to lower by 10 (Found in dungeons/chests/killing mobs (looting increases chances)"
@@ -352,57 +374,33 @@
 					id: "27A4921E7872EEFF"
 					type: "item"
 					item: "scalinghealth:cursed_heart"
-					consume_items: true
 				}
 				{
 					id: "59FD16C0E9F6347A"
 					type: "item"
 					item: "scalinghealth:enchanted_heart"
-					consume_items: true
 				}
 				{
 					id: "6EE3A48D1A85319E"
 					type: "item"
 					item: "scalinghealth:chance_heart"
-					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "39624474B31F2F7A"
-					type: "choice"
-					team_reward: false
-					table_id: 5513900766362080685L
-				}
-				{
-					id: "7D92BA843CB8B278"
-					type: "item"
-					team_reward: false
-					item: "scalinghealth:enchanted_heart"
-				}
-				{
-					id: "66B6D37F9D716A20"
-					type: "item"
-					team_reward: false
-					item: "scalinghealth:cursed_heart"
-				}
-				{
-					id: "33DF987A54147218"
-					type: "item"
-					team_reward: false
-					item: "scalinghealth:chance_heart"
-				}
-			]
+			rewards: [{
+				id: "111BEAF1DC5E4B89"
+				type: "choice"
+				table_id: 5513900766362080685L
+			}]
 		}
 		{
-			x: -0.5d
-			y: 0.5d
+			x: -3.25d
+			y: -1.75d
 			subtitle: "Look here!"
 			description: [
 				"Did you know that by holding V (or the keybind you chose), you can bring up a menu to ping different things?"
 				""
 			]
-			dependencies: ["0069E0015EB53D0D"]
+			dependencies: ["24CA47E19CBB1738"]
 			dependency_requirement: "one_completed"
 			size: 0.5d
 			id: "1C775CBA62C7A6A5"
@@ -414,15 +412,16 @@
 			rewards: [{
 				id: "4175DB5F37206142"
 				type: "xp"
+				team_reward: false
 				xp: 1
 			}]
 		}
 		{
-			x: 0.0d
-			y: 0.75d
+			x: -3.75d
+			y: -2.25d
 			subtitle: "Radial Menus? What is this blasphemy!?"
 			description: ["Did you know that hold R (or the keybind you chose) you'll bring up a radial menu that you can assign different actions to?"]
-			dependencies: ["0069E0015EB53D0D"]
+			dependencies: ["24CA47E19CBB1738"]
 			size: 0.5d
 			id: "58E60A04698EB05B"
 			tasks: [{
@@ -433,7 +432,8 @@
 			rewards: [{
 				id: "47E16D8C27CEB1AB"
 				type: "xp"
-				xp: 1
+				team_reward: false
+				xp: 10
 			}]
 		}
 		{
@@ -441,8 +441,12 @@
 			x: 3.0d
 			y: 0.0d
 			subtitle: "<3"
-			description: ["This grows trees and other things automatically."]
+			description: [
+				"This grows trees and other things automatically."
+				"To learn how to upgrade your Bonsai plots, in JEI, hover over the plot and press 'U' to see all the upgrades available"
+			]
 			dependencies: ["54626924CE9BD31F"]
+			size: 0.75d
 			id: "1C348E82C09647A6"
 			tasks: [{
 				id: "1B676230F8AE3350"
@@ -451,15 +455,15 @@
 				only_from_crafting: true
 			}]
 			rewards: [{
-				id: "23678FB4F53C65FC"
-				type: "xp"
-				xp: 1
+				id: "77D6877CFAF0CAAA"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 		}
 		{
 			title: "Scaling Health and You (1/3)"
-			x: 0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -0.75d
 			subtitle: "How Difficulty works in AQM3"
 			description: [
 				"Difficulty scales per player, meaning, the mobs that spawn around you are affected by YOUR difficulty, and averages out if other players are within the area"
@@ -477,10 +481,9 @@
 				value: 5L
 			}]
 			rewards: [{
-				id: "6289276121A01597"
-				type: "xp"
-				team_reward: false
-				xp: 10
+				id: "5A75939ECC9DA202"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 		}
 		{
@@ -540,6 +543,7 @@
 			subtitle: "How to stop mob spawning in a area"
 			description: ["Torchmaster makes some great items to help stop mobs and even passive mobs from spawning. Craft this guy here, place it down, and you're all set!"]
 			dependencies: ["24CA47E19CBB1738"]
+			size: 0.75d
 			id: "53746435C74C767D"
 			tasks: [{
 				id: "7F062C68306017B1"
@@ -550,7 +554,7 @@
 				id: "18CFD64814F4F588"
 				type: "xp"
 				team_reward: false
-				xp: 15
+				xp: 50
 			}]
 		}
 		{
@@ -578,6 +582,215 @@
 				type: "command"
 				command: "/ftbteams party create"
 				player_command: true
+			}]
+		}
+		{
+			icon: "gobber2:gobber2_ore"
+			x: 0.0d
+			y: 1.125d
+			subtitle: "With a diamond pickaxe!"
+			description: [
+				""
+				"The bread and butter of the pack, Gobber. Highly recommended to use these tools if you want Paxels, Tree Axes, buffs, and more."
+				""
+				"Gobber contains all the tool you need in tiered progression, from overworld, nether, and end, each has one set of ore that are very very rare."
+				""
+				"Complete this questline to unlock all the other gobber quests in another chapter"
+			]
+			dependencies: ["0069E0015EB53D0D"]
+			size: 0.75d
+			id: "3D7A5E0801B65B73"
+			tasks: [{
+				id: "439605F75A9665A9"
+				type: "item"
+				title: "Break Gobber Ore"
+				item: "gobber2:gobber2_globette"
+			}]
+			rewards: [{
+				id: "3F78D345E57BD2F6"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.875d
+			subtitle: "Gonna need these"
+			description: ["The globette is an very important item. Make sure to keep a few of these lying around as they are used as payments for Signposts and other things that you will discover"]
+			dependencies: ["3D7A5E0801B65B73"]
+			size: 0.75d
+			id: "177503564A97DC2E"
+			tasks: [{
+				id: "14AB39FF75C418CB"
+				type: "item"
+				title: "Craft Gobber Glob"
+				item: "gobber2:gobber2_glob"
+			}]
+			rewards: [{
+				id: "32EF20F595ED2AC8"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.625d
+			subtitle: "The mighty gobber ingot"
+			description: ["Not only is the ingot required for Gobber items, its used in a lot of other recipes from other mods as well. "]
+			dependencies: ["177503564A97DC2E"]
+			size: 0.75d
+			id: "1B2E343F569AAA31"
+			tasks: [{
+				id: "458D5F92FC591871"
+				type: "item"
+				title: "Craft Gobber Ingot"
+				item: "gobber2:gobber2_ingot"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4F6369A731C2265B"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 3.375d
+			subtitle: "Don't you want 3x3 mining?"
+			description: ["You did it, you are now ready for the ultimate hammer!"]
+			dependencies: ["6E6D7F4C37CD0CFC"]
+			size: 0.75d
+			id: "4BF8675CAEA1A8E2"
+			tasks: [{
+				id: "23C137F4ED27F333"
+				type: "item"
+				title: "Craft Gobber Hammer"
+				item: {
+					id: "gobber2:gobber2_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7366F11F196998D7"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.375d
+			subtitle: "Last material needed for the overworld tier"
+			description: ["This is an important material as you need them for the overworld tools"]
+			dependencies: ["1B2E343F569AAA31"]
+			size: 0.75d
+			id: "6E6D7F4C37CD0CFC"
+			tasks: [{
+				id: "36987E0DA09C5736"
+				type: "item"
+				title: "Craft Gobber Rod"
+				item: "gobber2:gobber2_rod"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "5DD3E92DCA8CCFBB"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: 0.75d
+			y: 1.875d
+			subtitle: "Burn some foo, foo."
+			description: ["An amazing fuel source is Gobber Foo. You can use this in furnaces, planes, basically anything that uses coal for fuel. This lasts 10x longer than coal, and this is only the first  tier of fuel."]
+			dependencies: [
+				"79F4D4DA705033B9"
+				"177503564A97DC2E"
+			]
+			size: 0.75d
+			id: "0DB970F7028929A9"
+			tasks: [{
+				id: "06E33A63F3FBA237"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "57EF39F07F559F5D"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+			}]
+		}
+		{
+			title: "Gobber Armor Set"
+			x: 0.75d
+			y: 2.625d
+			subtitle: "Woooooooo"
+			description: ["Look at that armor, toughness, and resistance. You want this set :)"]
+			dependencies: [
+				"1B2E343F569AAA31"
+				"4BF8675CAEA1A8E2"
+			]
+			size: 0.75d
+			id: "6F391B22B106059B"
+			tasks: [
+				{
+					id: "420D86F36A360F95"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+				{
+					id: "18D70F5AF50F304D"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+				{
+					id: "13CACBEB0E545D4E"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+				{
+					id: "099473B91F9E3805"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+			]
+			rewards: [{
+				id: "57D7156E7AB1B03C"
+				type: "item"
+				item: "gobber2:gobber2_glob"
 			}]
 		}
 	]

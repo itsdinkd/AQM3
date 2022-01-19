@@ -85,7 +85,7 @@
 	voidWormSpawnDimensions = ["minecraft:the_end"]
 	#All void worm damage is scaled to this.
 	#Range: 0.0 ~ 100.0
-	voidWormDamageModifier = 5.0
+	voidWormDamageModifier = 6.0
 	#Max Health of the void worm boss.
 	#Range: 0.0 ~ 1000000.0
 	voidWormMaxHealth = 1560.0

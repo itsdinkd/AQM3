@@ -58,7 +58,7 @@
 #Settings for Singularities.
 [Singularities]
 	#Should the Singularities be enabled?
-	enabled = false
+	enabled = true
 	#The default amount of items required to create a Singularity.
 	#Range: > 1
 	defaultMaterialsRequired = 10000

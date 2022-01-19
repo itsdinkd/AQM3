@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jan 5, 2022, 6:39:37 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jan 17, 2022, 9:39:40 AM
 
 #forge:storage_blocks/raw_flerovium
 - assemblylinemachines:raw_flerovium_block
@@ -57,6 +57,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - connectedglass:tinted_borderless_glass_green
 - connectedglass:tinted_borderless_glass_red
 - connectedglass:tinted_borderless_glass_black
+- minecraft:tinted_glass
 
 #quark:planks_vertical_slab
 - buildersaddition:acacia_vertical_slab
@@ -136,11 +137,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:yellow_stained_glass_pane_7
 - chipped:yellow_stained_glass_pane_8
 
-#productivebees:flowers/gems/topaz
-- #forge:storage_blocks/topaz?
-- silentgems:topaz_glowrose?
-- gemsnjewels:topaz_block?
-
 #forge:terracotta/lime
 - #chipped:lime_terracotta
 
@@ -154,34 +150,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:cracked_stone_bricks
 - minecraft:chiseled_stone_bricks
 
-#productivebees:flowers/gems/sunstone
-- #forge:storage_blocks/sunstone?
-- silentgems:sunstone_glowrose?
-- gemsnjewels:sunstone_block?
+#occultism:worldgen_blacklist
+- minecraft:end_portal
+- minecraft:end_portal_frame
 
 #alexsmobs:roadrunner_spawns
-- #minecraft:sand
-- minecraft:grass_block
-- minecraft:coarse_dirt
-- minecraft:podzol
-- minecraft:mycelium
-- minecraft:terracotta
-- minecraft:white_terracotta
-- minecraft:orange_terracotta
-- minecraft:magenta_terracotta
-- minecraft:light_blue_terracotta
-- minecraft:yellow_terracotta
-- minecraft:lime_terracotta
-- minecraft:pink_terracotta
-- minecraft:gray_terracotta
-- minecraft:light_gray_terracotta
-- minecraft:cyan_terracotta
-- minecraft:purple_terracotta
-- minecraft:blue_terracotta
-- minecraft:brown_terracotta
-- minecraft:green_terracotta
-- minecraft:red_terracotta
-- minecraft:black_terracotta
+- #alexsmobs:am_spawns
 
 #chipped:jack_o_lantern
 - minecraft:jack_o_lantern
@@ -207,11 +181,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:jack_o_lantern_17
 - chipped:jack_o_lantern_18
 - chipped:jack_o_lantern_19
-
-#productivebees:flowers/gems/pearl
-- #forge:storage_blocks/pearl?
-- silentgems:pearl_glowrose?
-- gemsnjewels:pearl_block?
 
 #chipped:light_gray_wool
 - minecraft:light_gray_wool
@@ -266,7 +235,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:ores/redstone
 - minecraft:deepslate_redstone_ore
-- minecraft:redstone_ore
+- #minecraft:redstone_ores
 
 #minecraft:features_cannot_replace
 - minecraft:bedrock
@@ -344,6 +313,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:red_concrete_17
 - chipped:red_concrete_18
 
+#structure_gel:gel
+- structure_gel:red_gel
+- structure_gel:blue_gel
+- structure_gel:green_gel
+- structure_gel:cyan_gel
+- structure_gel:orange_gel
+- structure_gel:yellow_gel
+
 #productivebees:flowers/ferric_flowers
 - minecraft:iron_ore
 - minecraft:deepslate_iron_ore
@@ -366,11 +343,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #productivebees:flowers/crystalline_flowers
 - #productivebees:flowers/crystalline
 
-#productivebees:flowers/gems/lepidolite
-- #forge:storage_blocks/lepidolite?
-- silentgems:lepidolite_glowrose?
-- gemsnjewels:lepidolite_block?
-
 #domum_ornamentum:shingles_roof
 - minecraft:clay
 - minecraft:bricks
@@ -386,11 +358,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:copper_block
 - minecraft:copper_block
 - minecraft:cut_copper
+- minecraft:copper_block
+- minecraft:cut_copper
 
-#productivebees:flowers/gems/kunzite
-- #forge:storage_blocks/kunzite?
-- silentgems:kunzite_glowrose?
-- gemsnjewels:kunzite_block?
+#productivebees:flowers/cats_eye
+- #forge:storage_blocks/cats_eye?
 
 #securitycraft:reinforced/crimson_stems
 - securitycraft:reinforced_crimson_stem
@@ -412,11 +384,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:cyan_stained_glass_pane_6
 - chipped:cyan_stained_glass_pane_7
 - chipped:cyan_stained_glass_pane_8
-
-#productivebees:flowers/gems/black_opal
-- #forge:storage_blocks/black_opal?
-- silentgems:black_opal_glowrose?
-- gemsnjewels:black_opal_block?
 
 #forge:raw_blocks/nickel
 - immersiveengineering:raw_block_nickel
@@ -448,6 +415,36 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - create:scoria
 - create:scorchia
 - create:veridium
+
+#productivebees:flowers/benitoite
+- #forge:storage_blocks/benitoite?
+
+#alexsmobs:am_spawns
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:mycelium
+- minecraft:sand
+- minecraft:red_sand
+- minecraft:gravel
+- minecraft:terracotta
+- minecraft:white_terracotta
+- minecraft:orange_terracotta
+- minecraft:magenta_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:pink_terracotta
+- minecraft:gray_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:cyan_terracotta
+- minecraft:purple_terracotta
+- minecraft:blue_terracotta
+- minecraft:brown_terracotta
+- minecraft:green_terracotta
+- minecraft:red_terracotta
+- minecraft:black_terracotta
 
 #forge:storage_blocks/lapis
 - minecraft:lapis_block
@@ -548,6 +545,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:glowstone
 - minecraft:redstone_lamp
 
+#productivebees:flowers/ruby
+- #forge:storage_blocks/ruby?
+- silentgems:ruby_glowrose?
+- gemsnjewels:ruby_block?
+
 #supplementaries:posts
 - #minecraft:fences?
 
@@ -586,6 +588,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:pink_stained_glass_6
 - chipped:pink_stained_glass_7
 - chipped:pink_stained_glass_8
+
+#productivebees:flowers/opal
+- #forge:storage_blocks/opal?
+- gemsnjewels:opal_block?
 
 #chipped:cyan_concrete
 - minecraft:cyan_concrete
@@ -655,6 +661,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:redstone_lamp_17
 - chipped:redstone_lamp_18
 
+#productivebees:flowers/amber
+- #forge:storage_blocks/amber?
+- betterendforge:amber_block?
+
 #minecraft:dripstone_replaceable_blocks
 - #minecraft:base_stone_overworld
 - minecraft:dirt
@@ -690,10 +700,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:spruce_planks_17
 - chipped:spruce_planks_18
 
-#productivebees:flowers/gems/green_sapphire
-- #forge:storage_blocks/green_sapphire?
-- silentgems:green_sapphire_glowrose?
-- gemsnjewels:green_sapphire_block?
+#blue_skies:ores/diopside
+- blue_skies:everbright_diopside_ore
+- blue_skies:everdawn_diopside_ore
 
 #chipped:lantern
 - minecraft:lantern
@@ -712,6 +721,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:special_lantern_2
 - chipped:special_lantern_3
 - chipped:special_lantern_4
+
+#forge:storage_blocks/raw_ostrum
+- beyond_earth:raw_ostrum_block
 
 #create:fan_transparent
 - create:blaze_burner
@@ -901,6 +913,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecolonies:composted_dirt
 - minecolonies:blockminecoloniesgrave
 - minecolonies:blockminecoloniesnamedgrave
+- blue_skies:turquoise_grass_block
+- blue_skies:turquoise_dirt
+- blue_skies:coarse_turquoise_dirt
+- blue_skies:turquoise_farmland
+- blue_skies:sea_moss_block
+- blue_skies:midnight_sand
+- blue_skies:lunar_grass_block
+- blue_skies:lunar_dirt
+- blue_skies:coarse_lunar_dirt
+- blue_skies:lunar_mud
+- blue_skies:lunar_farmland
+- blue_skies:crystal_sand
+- blue_skies:turquoise_cherry_grass_block
+- blue_skies:lunar_cherry_grass_block
+
+#blue_skies:ores/aquite
+- blue_skies:everbright_aquite_ore
+- blue_skies:everdawn_aquite_ore
 
 #forge:storage_blocks/sapphire
 - iceandfire:sapphire_block?
@@ -1062,8 +1092,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - securitycraft:reinforced_warped_slab
 
 #alexsmobs:lobster_spawns
-- #minecraft:sand
-- #forge:gravel
+- #alexsmobs:am_spawns
 - minecraft:stone
 - minecraft:water
 
@@ -1294,6 +1323,39 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:soul_sandstone_wall
 - quark:tuff_bricks_wall
 - quark:tuff_wall
+- blue_skies:blinding_wall
+- blue_skies:glowing_blinding_wall
+- blue_skies:nature_stonebrick_wall
+- blue_skies:glowing_nature_stonebrick_wall
+- blue_skies:poison_stonebrick_wall
+- blue_skies:aquatic_wall
+- blue_skies:glowing_aquatic_wall
+- blue_skies:life_wall
+- blue_skies:glowing_life_wall
+- blue_skies:turquoise_cobblestone_wall
+- blue_skies:mossy_turquoise_cobblestone_wall
+- blue_skies:turquoise_stonebrick_wall
+- blue_skies:mossy_turquoise_stonebrick_wall
+- blue_skies:cracked_turquoise_stonebrick_wall
+- blue_skies:brumble_wall
+- blue_skies:polished_brumble_wall
+- blue_skies:polished_brumble_brick_wall
+- blue_skies:taratite_wall
+- blue_skies:polished_taratite_wall
+- blue_skies:rimestone_wall
+- blue_skies:polished_rimestone_wall
+- blue_skies:lunar_cobblestone_wall
+- blue_skies:mossy_lunar_cobblestone_wall
+- blue_skies:lunar_stonebrick_wall
+- blue_skies:mossy_lunar_stonebrick_wall
+- blue_skies:cracked_lunar_stonebrick_wall
+- blue_skies:midnight_sandstone_wall
+- blue_skies:crystal_sandstone_wall
+- blue_skies:crystallized_wall
+- blue_skies:umber_wall
+- blue_skies:polished_umber_wall
+- blue_skies:cinderstone_wall
+- blue_skies:polished_cinderstone_wall
 
 #forge:storage_blocks/lead
 - immersiveengineering:storage_lead
@@ -1327,6 +1389,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - biomesoplenty:orange_sand
 - biomesoplenty:white_sand
 - biomesoplenty:rooted_sand
+- beyond_earth:moon_sand
+- beyond_earth:mars_sand
+- beyond_earth:venus_sand
+- beyond_earth:moon_sand
+- beyond_earth:mars_sand
+- beyond_earth:venus_sand
+- blue_skies:crystal_sand
+- blue_skies:midnight_sand
 
 #minecraft:waystone
 - signpost:waystone_model_simple_0
@@ -1338,6 +1408,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - signpost:waystone_model_dwarf
 - signpost:waystone_model_ygnar
 - signpost:waystone
+
+#forge:storage_blocks/inanite
+- bigreactors:inanite_block
+
+#productivebees:flowers/kyanite
+- #forge:storage_blocks/kyanite?
+- silentgems:kyanite_glowrose?
 
 #forge:treated_wood
 - immersiveengineering:treated_wood_horizontal
@@ -1460,6 +1537,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #minecraft:infiniburn_nether
 - #minecraft:infiniburn_overworld
+- beyond_earth:infernal_spire_block
 
 #domum_ornamentum:stairs_materials
 - minecraft:blackstone
@@ -1560,6 +1638,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #libx:impl_wooden_trapdoors
 - domum_ornamentum:fancy_trapdoors
 - ars_nouveau:archwood_trapdoor
+- blue_skies:bluebright_trapdoor
+- blue_skies:starlit_trapdoor
+- blue_skies:frostbright_trapdoor
+- blue_skies:lunar_trapdoor
+- blue_skies:dusk_trapdoor
+- blue_skies:maple_trapdoor
+- blue_skies:cherry_trapdoor
 
 #create:valve_handles
 - create:copper_valve_handle
@@ -1633,13 +1718,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:light_blue_carpet_17
 - chipped:light_blue_carpet_18
 
-#productivebees:flowers/gems/jasper
-- #forge:storage_blocks/jasper?
-- silentgems:jasper_glowrose?
-- gemsnjewels:jasper_block?
-
 #forge:storage_blocks/amethyst
 - minecraft:amethyst_block
+- minecraft:amethyst_block
+
+#blue_skies:dungeon/aquatic
+- blue_skies:aquatic_stone
+- blue_skies:glowing_aquatic_stone
 
 #chipped:white_stained_glass
 - minecraft:white_stained_glass
@@ -1661,6 +1746,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:smooth_red_sandstone
 - #chipped:red_sandstone
 
+#lootr:shulkers
+- lootr:lootr_shulker
+
 #securitycraft:reinforced/planks
 - securitycraft:reinforced_acacia_planks
 - securitycraft:reinforced_birch_planks
@@ -1670,6 +1758,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - securitycraft:reinforced_oak_planks
 - securitycraft:reinforced_spruce_planks
 - securitycraft:reinforced_warped_planks
+
+#productivebees:flowers/garnet
+- #forge:storage_blocks/garnet?
+- gemsnjewels:garnet_block?
 
 #minecraft:wooden_doors
 - minecraft:oak_door
@@ -1838,6 +1930,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mcwdoors:dark_oak_nether_door
 - mcwdoors:warped_nether_door
 - ars_nouveau:archwood_door
+- blue_skies:bluebright_door
+- blue_skies:starlit_door
+- blue_skies:frostbright_door
+- blue_skies:lunar_door
+- blue_skies:dusk_door
+- blue_skies:maple_door
+- blue_skies:cherry_door
+- blue_skies:crystallized_door
 
 #forge:terracotta/light_blue
 - #chipped:light_blue_terracotta
@@ -1862,6 +1962,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:lime_carpet_16
 - chipped:lime_carpet_17
 - chipped:lime_carpet_18
+
+#productivebees:flowers/chrysoprase
+- #forge:storage_blocks/chrysoprase?
 
 #libx:impl_pressure_plates
 
@@ -1933,33 +2036,60 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - immersiveengineering:raw_block_aluminum
 - minecraft:copper_block
 - immersiveengineering:storage_aluminum
-- beyond_earth:venus_coal_ore
-- beyond_earth:mercury_iron_ore
+- beyond_earth:moon_stone
 - beyond_earth:moon_iron_ore
-- beyond_earth:mars_ice_shard_ore
-- beyond_earth:mars_iron_ore
 - beyond_earth:moon_cheese_ore
+- beyond_earth:moon_ice_shard_ore
+- beyond_earth:moon_stone_bricks
+- beyond_earth:moon_stone_brick_slab
+- beyond_earth:moon_stone_brick_stairs
+- beyond_earth:cracked_moon_stone_bricks
+- beyond_earth:mars_stone
+- beyond_earth:mars_iron_ore
+- beyond_earth:mars_ice_shard_ore
+- beyond_earth:mars_stone_bricks
+- beyond_earth:mars_stone_brick_slab
+- beyond_earth:mars_stone_brick_stairs
+- beyond_earth:cracked_mars_stone_bricks
+- beyond_earth:mercury_stone
+- beyond_earth:mercury_iron_ore
+- beyond_earth:mercury_stone_bricks
+- beyond_earth:mercury_stone_brick_slab
+- beyond_earth:mercury_stone_brick_stairs
+- beyond_earth:cracked_mercury_stone_bricks
+- beyond_earth:venus_stone
+- beyond_earth:venus_sandstone
+- beyond_earth:venus_coal_ore
+- beyond_earth:venus_stone_bricks
+- beyond_earth:venus_stone_brick_slab
+- beyond_earth:venus_stone_brick_stairs
+- beyond_earth:cracked_venus_stone_bricks
+- beyond_earth:venus_sandstone_bricks
+- beyond_earth:venus_sandstone_brick_slab
+- beyond_earth:venus_sandstone_brick_stairs
+- beyond_earth:cracked_venus_sandstone_bricks
+- beyond_earth:glacio_stone
+- beyond_earth:glacio_coal_ore
+- beyond_earth:glacio_lapis_ore
+- beyond_earth:glacio_iron_ore
+- beyond_earth:glacio_copper_ore
+- beyond_earth:glacio_ice_shard_ore
+- beyond_earth:glacio_stone_bricks
+- beyond_earth:cracked_glacio_stone_bricks
+- beyond_earth:glacio_stone_brick_slab
+- beyond_earth:glacio_stone_brick_stairs
 - beyond_earth:steel_block
 - beyond_earth:desh_block
-- beyond_earth:silicon_block
+- beyond_earth:ostrum_block
+- beyond_earth:calorite_block
 - beyond_earth:iron_plating_block
 - beyond_earth:rusted_iron_pillar_block
 - beyond_earth:rusted_iron_plating_block
 - beyond_earth:blue_iron_plating_block
 - beyond_earth:iron_mark_block
-- beyond_earth:cracked_moon_bricks
-- beyond_earth:cracked_moon_brick_slab
-- beyond_earth:cracked_moon_brick_stairs
-- beyond_earth:moon_bricks
-- beyond_earth:moon_brick_slab
-- beyond_earth:moon_brick_stairs
 - beyond_earth:sky_stone
-- beyond_earth:mars_stone
-- beyond_earth:mercury_stone
-- beyond_earth:moon_stone
-- beyond_earth:venus_sandstone
-- beyond_earth:venus_stone
 - beyond_earth:infernal_spire_block
+- beyond_earth:permafrost
 - dustrial_decor:padded_trapdoor
 - dustrial_decor:padded_door
 - dustrial_decor:barbed_iron_bars
@@ -2131,6 +2261,40 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mysticalagradditions:awakened_draconium_crux
 - mysticalagradditions:nitro_crystal_crux
 - aquaculture:tackle_box
+- #blue_skies:ores/pyrope
+- #blue_skies:storage_blocks/pyrope
+- #blue_skies:ores/aquite
+- #blue_skies:storage_blocks/aquite
+- #blue_skies:ores/ventium
+- #blue_skies:storage_blocks/ventium
+- #blue_skies:ores/falsite
+- #blue_skies:storage_blocks/falsite
+- #blue_skies:storage_blocks/horizonite
+- #blue_skies:ores/horizonite
+- blue_skies:raw_ventium_block
+- blue_skies:raw_falsite_block
+- blue_skies:raw_horizonite_block
+- blue_skies:raw_aquite_block
+- bonsaitrees3:bonsaipot
+- extendedcrafting:luminessence_block
+- extendedcrafting:black_iron_block
+- extendedcrafting:redstone_ingot_block
+- extendedcrafting:ender_ingot_block
+- extendedcrafting:enhanced_ender_ingot_block
+- extendedcrafting:frame
+- extendedcrafting:pedestal
+- extendedcrafting:crafting_core
+- extendedcrafting:basic_table
+- extendedcrafting:advanced_table
+- extendedcrafting:elite_table
+- extendedcrafting:ultimate_table
+- extendedcrafting:basic_auto_table
+- extendedcrafting:advanced_auto_table
+- extendedcrafting:elite_auto_table
+- extendedcrafting:ultimate_auto_table
+- extendedcrafting:compressor
+- extendedcrafting:ender_alternator
+- extendedcrafting:ender_crafter
 
 #productivebees:flowers/quarry
 - #forge:dirt
@@ -2162,6 +2326,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:green_terracotta
 - minecraft:red_terracotta
 - minecraft:black_terracotta
+
+#blue_skies:storage_blocks/charoite
+- blue_skies:charoite_block
+
+#productivebees:flowers/heliodor
+- #forge:storage_blocks/heliodor?
+- silentgems:heliodor_glowrose?
 
 #forge:storage_blocks/compressed_glow_stone
 - prefab:block_compressed_glowstone
@@ -2275,6 +2446,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - securitycraft:secret_spruce_sign_wall
 - securitycraft:secret_warped_sign_wall
 
+#productivebees:flowers/malachite
+- #forge:storage_blocks/malachite?
+
 #alexsmobs:froststalker_fears
 - #minecraft:fire
 - #minecraft:campfires
@@ -2302,6 +2476,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #productivebees:nests/glowstone_nests
 - productivebees:glowstone_nest
 - #productivebees:advanced_beehives
+
+#forge:ores_in_ground/deepslate
+- minecraft:deepslate_coal_ore
+- minecraft:deepslate_copper_ore
+- minecraft:deepslate_diamond_ore
+- minecraft:deepslate_emerald_ore
+- minecraft:deepslate_gold_ore
+- minecraft:deepslate_iron_ore
+- minecraft:deepslate_lapis_ore
+- minecraft:deepslate_redstone_ore
 
 #valhelsia_structures:lapidified_jungle_logs
 - valhelsia_structures:lapidified_jungle_log
@@ -2339,7 +2523,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #forge:obsidian
 - #forge:stone
 
+#alexsmobs:leafcutter_pupa_usable_on
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:mycelium
+
+#blue_skies:storage_blocks/raw_charoite
+- blue_skies:raw_charoite_block
+
 #libx:impl_stairs
+
+#forge:storage_blocks/raw_gold
+- minecraft:raw_gold_block
 
 #forge:storage_blocks/silver
 - immersiveengineering:storage_silver
@@ -2350,6 +2547,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:deepslate_gold_ore
 - beyond_earth:venus_gold_ore
 - #minecraft:gold_ores
+
+#lootr:chests
+- lootr:lootr_chest
+- lootr:lootr_inventory
+
+#blue_skies:storage_blocks/raw_ventium
+- blue_skies:raw_ventium_block
 
 #productivebees:flowers/prismarine
 - minecraft:prismarine
@@ -2583,6 +2787,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:dark_oak_trapped_chest
 - quark:warped_trapped_chest
 - quark:crimson_trapped_chest
+- blue_skies:bluebright_chest
+- blue_skies:starlit_chest
+- blue_skies:frostbright_chest
+- blue_skies:lunar_chest
+- blue_skies:dusk_chest
+- blue_skies:maple_chest
+- blue_skies:cherry_chest
 
 #forge:storage_blocks/aluminum
 - immersiveengineering:storage_aluminum
@@ -2652,9 +2863,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:lime_concrete_18
 
 #alexsmobs:anaconda_spawns
-- #minecraft:sand
-- #forge:gravel
-- #forge:dirt
+- #alexsmobs:am_spawns
 
 #minecraft:carpets
 - minecraft:white_carpet
@@ -2704,6 +2913,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:jasper
 - quark:limestone
 - quark:shale
+
+#blue_skies:storage_blocks/pyrope
+- blue_skies:pyrope_block
 
 #alexsmobs:crow_foodblocks
 - #minecraft:crops
@@ -2802,8 +3014,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - domum_ornamentum:vanilla_slab_compat
 - #securitycraft:reinforced/slabs
 - securitycraft:crystal_quartz_slab
-- beyond_earth:moon_brick_slab
-- beyond_earth:cracked_moon_brick_slab
+- beyond_earth:moon_stone_brick_slab
+- beyond_earth:mars_stone_brick_slab
+- beyond_earth:mercury_stone_brick_slab
+- beyond_earth:venus_sandstone_brick_slab
+- beyond_earth:venus_stone_brick_slab
+- beyond_earth:glacio_stone_brick_slab
 - ars_nouveau:archwood_slab
 - create:cut_granite_slab
 - create:polished_cut_granite_slab
@@ -2925,6 +3141,50 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:tuff_slab
 - quark:white_shingles_slab
 - quark:yellow_shingles_slab
+- blue_skies:blinding_slab
+- blue_skies:glowing_blinding_slab
+- blue_skies:nature_stone_slab
+- blue_skies:glowing_nature_stone_slab
+- blue_skies:nature_stonebrick_slab
+- blue_skies:glowing_nature_stonebrick_slab
+- blue_skies:poison_stone_slab
+- blue_skies:glowing_poison_stone_slab
+- blue_skies:poison_stonebrick_slab
+- blue_skies:rough_poison_stonebrick_slab
+- blue_skies:aquatic_slab
+- blue_skies:glowing_aquatic_slab
+- blue_skies:life_slab
+- blue_skies:glowing_life_slab
+- blue_skies:crystallized_slab
+- blue_skies:turquoise_stone_slab
+- blue_skies:turquoise_cobblestone_slab
+- blue_skies:mossy_turquoise_cobblestone_slab
+- blue_skies:turquoise_stonebrick_slab
+- blue_skies:mossy_turquoise_stonebrick_slab
+- blue_skies:cracked_turquoise_stonebrick_slab
+- blue_skies:midnight_sandstone_slab
+- blue_skies:smooth_midnight_sandstone_slab
+- blue_skies:brumble_slab
+- blue_skies:polished_brumble_slab
+- blue_skies:polished_brumble_brick_slab
+- blue_skies:taratite_slab
+- blue_skies:polished_taratite_slab
+- blue_skies:rimestone_slab
+- blue_skies:polished_rimestone_slab
+- blue_skies:lunar_stone_slab
+- blue_skies:lunar_cobblestone_slab
+- blue_skies:mossy_lunar_cobblestone_slab
+- blue_skies:lunar_stonebrick_slab
+- blue_skies:mossy_lunar_stonebrick_slab
+- blue_skies:cracked_lunar_stonebrick_slab
+- blue_skies:crystal_sandstone_slab
+- blue_skies:smooth_crystal_sandstone_slab
+- blue_skies:cut_midnight_sandstone_slab
+- blue_skies:cut_crystal_sandstone_slab
+- blue_skies:umber_slab
+- blue_skies:polished_umber_slab
+- blue_skies:cinderstone_slab
+- blue_skies:polished_cinderstone_slab
 
 #minecraft:animals_spawnable_on
 - minecraft:grass_block
@@ -2953,6 +3213,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - lootr:lootr_chest
 - lootr:lootr_trapped_chest
 - lootr:lootr_barrel
+- beyond_earth:venus_gold_ore
 - assortedstorage:acacia_warehouse_crate
 - assortedstorage:birch_warehouse_crate
 - assortedstorage:dark_oak_warehouse_crate
@@ -3009,10 +3270,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #libx:impl_wooden_trapdoors
 
-#occultism:datura_seed_sources
-- minecraft:grass
-- minecraft:tall_grass
-
 #minecraft:buttons
 - #minecraft:wooden_buttons
 - minecraft:stone_button
@@ -3042,6 +3299,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:blue_wool_16
 - chipped:blue_wool_17
 - chipped:blue_wool_18
+
+#lootr:containers
+- #lootr:barrels
+- #lootr:chests
+- #lootr:trapped_chests
+- #lootr:shulkers
 
 #productivebees:flowers/draconic_flowers
 - minecraft:dragon_egg
@@ -3114,6 +3377,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - biomesoplenty:hellbark_pressure_plate
 - #libx:impl_wooden_pressure_plates
 - valhelsia_structures:lapidified_jungle_pressure_plate
+- blue_skies:bluebright_pressure_plate
+- blue_skies:starlit_pressure_plate
+- blue_skies:frostbright_pressure_plate
+- blue_skies:lunar_pressure_plate
+- blue_skies:dusk_pressure_plate
+- blue_skies:maple_pressure_plate
+- blue_skies:cherry_pressure_plate
 
 #create:brittle
 - cookingforblockheads:fridge
@@ -3153,11 +3423,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - biomesoplenty:redwood_wood
 - biomesoplenty:stripped_redwood_log
 - biomesoplenty:stripped_redwood_wood
-
-#productivebees:flowers/gems/spinel
-- #forge:storage_blocks/spinel?
-- silentgems:spinel_glowrose?
-- gemsnjewels:spinel_block?
 
 #cucumber:mineable/paxel
 - #minecraft:mineable/pickaxe
@@ -3308,14 +3573,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #libx:impl_stone_pressure_plates
 
-#productivebees:flowers/gems/ammolite
-- #forge:storage_blocks/ammolite?
-- silentgems:ammolite_glowrose?
-- gemsnjewels:ammolite_block?
-
-#forge:storage_blocks/silicon
-- beyond_earth:silicon_block
-
 #chipped:yellow_terracotta
 - minecraft:yellow_terracotta
 - chipped:yellow_terracotta_1
@@ -3336,12 +3593,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:yellow_terracotta_16
 - chipped:yellow_terracotta_17
 - chipped:yellow_terracotta_18
-
-#productivebees:flowers/gems/sapphire
-- #forge:storage_blocks/sapphire?
-- silentgems:sapphire_glowrose?
-- gemsnjewels:sapphire_block?
-- iceandfire:sapphire_block?
 
 #tombstone:decorative_graves
 - tombstone:decorative_grave_simple
@@ -3405,6 +3656,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:cyan_stained_glass_7
 - chipped:cyan_stained_glass_8
 
+#productivebees:flowers/spinel
+- #forge:storage_blocks/spinel?
+- gemsnjewels:spinel_block?
+
 #chipped:clay
 - minecraft:clay
 - chipped:clay_1
@@ -3428,14 +3683,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:clay_19
 
 #assemblylinemachines:world/gas_flammable
+- #minecraft:campfires
+- #minecraft:fire
+- #minecraft:strider_warm_blocks
 - assemblylinemachines:naphtha_fire
 - assemblylinemachines:naphtha_block
 - minecraft:torch
 - minecraft:redstone_torch
 - minecraft:soul_torch
-- #minecraft:campfires
-- #minecraft:fire
-- #minecraft:strider_warm_blocks
 
 #forge:glass_panes/light_blue
 - #chipped:light_blue_stained_glass_pane
@@ -3548,9 +3803,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - ars_nouveau:magebloom_crop
 
 #alexsmobs:alligator_snapping_turtle_spawns
-- #minecraft:sand
-- #forge:gravel
-- #forge:dirt
+- #alexsmobs:am_spawns
 
 #forge:fiber/flax
 - supplementaries:flax
@@ -3604,11 +3857,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:storage_blocks/coal_coke
 - immersiveengineering:coke
-
-#productivebees:flowers/gems/sodalite
-- #forge:storage_blocks/sodalite?
-- silentgems:sodalite_glowrose?
-- gemsnjewels:sodalite_block?
 
 #forge:storage_blocks/iron
 - minecraft:iron_block
@@ -3675,6 +3923,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:cut_vine
 - valhelsia_structures:hanging_vines_body
 - valhelsia_structures:hanging_vines
+- #blue_skies:ladders
+- #blue_skies:vines
+- multibeds:ladder
 
 #corail_pillar:wooden_pillar
 - corail_pillar:pillar_dark_oak_planks
@@ -3850,11 +4101,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:packed_ice
 - minecraft:gravel
 
-#productivebees:flowers/gems/tektite
-- #forge:storage_blocks/tektite?
-- silentgems:tektite_glowrose?
-- gemsnjewels:tektite_block?
-
 #securitycraft:reinforced/ice
 - securitycraft:reinforced_ice
 - securitycraft:reinforced_packed_ice
@@ -3875,9 +4121,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - biomesoplenty:desert_grass?
 - biomesoplenty:dead_grass?
 - biomesoplenty:dead_branch?
-
-#forge:ores/chesse
-- beyond_earth:moon_cheese_ore
 
 #forge:mushrooms
 - minecraft:brown_mushroom
@@ -3970,11 +4213,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:ice
 - #minecraft:leaves
 
-#productivebees:flowers/gems/yellow_diamond
-- #forge:storage_blocks/yellow_diamond?
-- silentgems:yellow_diamond_glowrose?
-- gemsnjewels:yellow_diamond_block?
-
 #chipped:cyan_carpet
 - minecraft:cyan_carpet
 - chipped:cyan_carpet_1
@@ -4002,6 +4240,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #supplementaries:pane_connection
 - supplementaries:iron_gate?
 - supplementaries:gold_gate?
+
+#productivebees:flowers/peridot
+- #forge:storage_blocks/peridot?
+- silentgems:peridot_glowrose?
+- gemsnjewels:peridot_block?
 
 #buildinggadgets:blacklist/destruction
 
@@ -4084,6 +4327,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:pink_blossom_sapling
 - quark:yellow_blossom_sapling
 - quark:red_blossom_sapling
+- blue_skies:bluebright_sapling
+- blue_skies:starlit_sapling
+- blue_skies:frostbright_sapling
+- blue_skies:lunar_sapling
+- blue_skies:dusk_sapling
+- blue_skies:maple_sapling
+- blue_skies:cherry_sapling
+- blue_skies:crescent_fruit_sapling
 
 #occultism:candles
 - occultism:candle_white
@@ -4092,14 +4343,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:copper_ore
 - minecraft:deepslate_copper_ore
 - minecraft:copper_ore
+- beyond_earth:glacio_copper_ore
+- #minecraft:copper_ores
 
 #minecraft:unstable_bottom_center
 - #minecraft:fence_gates
-
-#productivebees:flowers/gems/moldavite
-- #forge:storage_blocks/moldavite?
-- silentgems:moldavite_glowrose?
-- gemsnjewels:moldavite_block?
 
 #productivebees:nests/soul_sand_nests
 - productivebees:soul_sand_nest
@@ -4139,9 +4387,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:red_wall_banner
 - minecraft:black_wall_banner
 
-#forge:ores/silicon
-- beyond_earth:mars_silicon_ore
-
 #minecraft:wooden_fences
 - minecraft:oak_fence
 - minecraft:acacia_fence
@@ -4168,6 +4413,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - domum_ornamentum:vanilla_fence_compat
 - ars_nouveau:archwood_fence
 - valhelsia_structures:lapidified_jungle_fence
+- blue_skies:bluebright_fence
+- blue_skies:starlit_fence
+- blue_skies:frostbright_fence
+- blue_skies:lunar_fence
+- blue_skies:dusk_fence
+- blue_skies:maple_fence
+- blue_skies:cherry_fence
 
 #chipped:hay_block
 - minecraft:hay_block
@@ -4230,14 +4482,38 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - securitycraft:reinforced_water_cauldron
 - securitycraft:reinforced_powder_snow_cauldron
 
+#productivebees:flowers/moonstone
+- #forge:storage_blocks/moonstone?
+
+#forge:ore_rates/singular
+- minecraft:ancient_debris
+- minecraft:coal_ore
+- minecraft:deepslate_coal_ore
+- minecraft:deepslate_diamond_ore
+- minecraft:deepslate_emerald_ore
+- minecraft:deepslate_gold_ore
+- minecraft:deepslate_iron_ore
+- minecraft:diamond_ore
+- minecraft:emerald_ore
+- minecraft:gold_ore
+- minecraft:iron_ore
+- minecraft:nether_quartz_ore
+- blue_skies:everdawn_emerald_ore
+- blue_skies:everbright_emerald_ore
+- blue_skies:everdawn_pyrope_ore
+- blue_skies:everbright_pyrope_ore
+- blue_skies:everdawn_diopside_ore
+- blue_skies:everbright_diopside_ore
+- blue_skies:everdawn_aquite_ore
+- blue_skies:everbright_aquite_ore
+- blue_skies:everdawn_charoite_ore
+- blue_skies:everbright_charoite_ore
+- blue_skies:horizonite_ore
+- blue_skies:falsite_ore
+- blue_skies:ventium_ore
+
 #buildinggadgets:whitelist/building
 - #buildinggadgets:whitelist/generic
-
-#productivebees:flowers/gems/amber
-- #forge:storage_blocks/amber?
-- betterendforge:amber_block?
-- silentgems:amber_glowrose?
-- gemsnjewels:amber_block?
 
 #securitycraft:reinforced/stone
 - securitycraft:reinforced_andesite
@@ -4285,12 +4561,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:ores/coal
 - minecraft:deepslate_coal_ore
 - beyond_earth:venus_coal_ore
-- minecraft:coal_ore
-
-#productivebees:flowers/gems/black_diamond
-- #forge:storage_blocks/black_diamond?
-- silentgems:black_diamond_glowrose?
-- gemsnjewels:black_diamond_block?
+- beyond_earth:glacio_coal_ore
+- #minecraft:coal_ores
 
 #minecolonies:decoblocks
 - minecraft:dead_tube_coral_block
@@ -4332,11 +4604,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - cfm:stripped_dark_oak_upgraded_gate
 - cfm:stripped_crimson_upgraded_gate
 - cfm:stripped_warped_upgraded_gate
-
-#productivebees:flowers/gems/tourmaline
-- #forge:storage_blocks/tourmaline?
-- silentgems:tourmaline_glowrose?
-- gemsnjewels:tourmaline_block?
 
 #minecraft:base_stone_nether
 - minecraft:netherrack
@@ -4392,10 +4659,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - domum_ornamentum:fancy_trapdoors
 - securitycraft:reinforced_iron_trapdoor
 - ars_nouveau:archwood_trapdoor
+- blue_skies:crystallized_trapdoor
+
+#forge:ores/calorite
+- beyond_earth:venus_calorite_ore
 
 #forge:glass/cyan
 - #chipped:cyan_stained_glass
 - minecraft:cyan_stained_glass
+
+#productivebees:flowers/topaz
+- #forge:storage_blocks/topaz?
+- silentgems:topaz_glowrose?
+- gemsnjewels:topaz_block?
+
+#lootr:barrels
+- lootr:lootr_barrel
+
+#forge:storage_blocks/raw_calorite
+- beyond_earth:raw_calorite_block
 
 #occultism:tree_soil
 - #forge:dirt
@@ -4504,6 +4786,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #chipped:black_stained_glass_pane
 - #forge:glass/colorless
 - #forge:stained_glass
+- #forge:glass/tinted
 - quark:dirty_glass
 - quark:framed_glass
 - quark:black_framed_glass
@@ -4539,6 +4822,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:packed_ice
 - minecraft:blue_ice
 
+#supplementaries:planters
+- supplementaries:planter?
+- supplementaries:planter_rich?
+- supplementaries:planter_rich_soul?
+
+#forge:ores_in_ground/netherrack
+- minecraft:nether_gold_ore
+- minecraft:nether_quartz_ore
+
 #minecraft:cave_vines
 - minecraft:cave_vines_plant
 - minecraft:cave_vines
@@ -4557,6 +4849,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:storage_blocks/brass
 - create:brass_block
+
+#productivebees:flowers/tanzanite
+- #forge:storage_blocks/tanzanite?
+- gemsnjewels:tanzanite_block?
+
+#productivebees:flowers/morganite
+- #forge:storage_blocks/morganite?
+- gemsnjewels:morganite_block?
 
 #forge:stained_glass_panes
 - connectedglass:borderless_glass_white_pane
@@ -4623,6 +4923,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:green_stained_glass_pane
 - minecraft:red_stained_glass_pane
 - minecraft:black_stained_glass_pane
+- blue_skies:crystal_glass_pane
+- blue_skies:midnight_glass_pane
 
 #capsule:excluded
 - #tombstone:player_graves
@@ -4639,10 +4941,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:storage_blocks/zinc
 - create:zinc_block
 
-#productivebees:flowers/gems/kyanite
-- #forge:storage_blocks/kyanite?
-- silentgems:kyanite_glowrose?
-- gemsnjewels:kyanite_block?
+#blue_skies:storage_blocks/raw_horizonite
+- blue_skies:raw_horizonite_block
 
 #minecraft:copper_ores
 - minecraft:copper_ore
@@ -4669,6 +4969,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:sea_lantern_14
 - chipped:sea_lantern_15
 - chipped:sea_lantern_16
+
+#productivebees:flowers/pearl
+- #forge:storage_blocks/pearl?
 
 #minecraft:mineable/hoe
 - minecraft:nether_wart_block
@@ -4752,6 +5055,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:thatch_stairs
 - quark:bamboo_mat
 - quark:bamboo_mat_carpet
+- blue_skies:bluebright_leaves
+- blue_skies:starlit_leaves
+- blue_skies:frostbright_leaves
+- blue_skies:lunar_leaves
+- blue_skies:dusk_leaves
+- blue_skies:maple_leaves
+- blue_skies:cherry_leaves
+- blue_skies:crescent_fruit_leaves
+- blue_skies:sea_moss
+- blue_skies:sea_moss_block
+- blue_skies:sea_moss_carpet
 
 #forge:glass/gray
 - #chipped:gray_stained_glass
@@ -5066,7 +5380,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - supplementaries:hanging_sign_olive?
 - supplementaries:hanging_sign_fir_lotr?
 - supplementaries:hanging_sign_mangrove_un?
-- supplementaries:hanging_sign_cactus?
+- supplementaries:hanging_sign_cactus_extra?
 - supplementaries:hanging_sign_cypress_bb?
 - supplementaries:hanging_sign_nanab?
 - supplementaries:hanging_sign_grongle?
@@ -5182,6 +5496,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:polished_andesite
 - minecraft:polished_diorite
 - minecraft:polished_granite
+- minecraft:deepslate
+- minecraft:polished_deepslate
+- minecraft:infested_deepslate
+- minecraft:tuff
 - quark:jasper
 - quark:limestone
 - quark:permafrost
@@ -5192,6 +5510,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:polished_calcite
 - quark:polished_shale
 - quark:polished_myalite
+- beyond_earth:moon_stone
+- beyond_earth:mars_stone
+- beyond_earth:venus_stone
+- beyond_earth:mercury_stone
+- beyond_earth:glacio_stone
+- #blue_skies:stone
 
 #forge:storage_blocks/triple_compressed_stone
 - prefab:block_triple_compressed_stone
@@ -5218,6 +5542,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #minecraft:infiniburn_end
 - #minecraft:infiniburn_overworld
 - minecraft:bedrock
+- beyond_earth:infernal_spire_block
 
 #chipped:warped_wart_block
 - minecraft:warped_wart_block
@@ -5245,6 +5570,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #buildinggadgets:whitelist/destruction
 
+#blue_skies:ores/moonstone
+- blue_skies:everbright_moonstone_ore
+- blue_skies:everdawn_moonstone_ore
+
 #ars_nouveau:magic_plants
 - #ars_nouveau:magic_saplings
 - ars_nouveau:sourceberry_bush
@@ -5270,9 +5599,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:weeping_vines
 - minecraft:twisting_vines
 
+#blue_skies:storage_blocks/moonstone
+- blue_skies:moonstone_block
+
 #farmersdelight:heat_conductors
 - minecraft:hopper
 - create:chute?
+
+#forge:ore_rates/sparse
+- minecraft:nether_gold_ore
+- blue_skies:everdawn_moonstone_ore
+- blue_skies:everbright_moonstone_ore
 
 #domum_ornamentum:floating_carpet
 - domum_ornamentum:white_floating_carpet
@@ -5296,15 +5633,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:crimson_planks
 - minecraft:warped_planks
 
+#forge:ore_bearing_ground/netherrack
+- minecraft:netherrack
+
+#blue_skies:logs/cherry
+- blue_skies:cherry_log
+- blue_skies:cherry_wood
+- blue_skies:stripped_cherry_log
+- blue_skies:stripped_cherry_wood
+
+#productivebees:flowers/tektite
+- #forge:storage_blocks/tektite?
+
 #forge:storage_blocks/double_compressed_dirt
 - prefab:block_double_compressed_dirt
 
 #alexsmobs:seal_spawns
-- #minecraft:sand
-- #forge:gravel
+- #alexsmobs:am_spawns
 - #minecraft:ice
 - #minecraft:base_stone_overworld
 - minecraft:snow_block
+
+#productivebees:flowers/rose_quartz
+- #forge:storage_blocks/rose_quartz?
+- silentgems:rose_quartz_glowrose?
 
 #minecraft:shulker_boxes
 - minecraft:shulker_box
@@ -5346,11 +5698,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:orange_wool_16
 - chipped:orange_wool_17
 - chipped:orange_wool_18
-
-#productivebees:flowers/gems/zircon
-- #forge:storage_blocks/zircon?
-- silentgems:zircon_glowrose?
-- gemsnjewels:zircon_block?
 
 #valhelsia_structures:cut_posts
 - valhelsia_structures:cut_oak_post
@@ -5396,6 +5743,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:soul_fire
 - minecraft:soul_campfire
 
+#blue_skies:storage_blocks/horizonite
+- blue_skies:horizonite_block
+
+#forge:storage_blocks/ludicrite
+- bigreactors:ludicrite_block
+
 #quark:pike_trophies
 - minecraft:skeleton_skull
 - minecraft:zombie_head
@@ -5426,6 +5779,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #forge:netherrack
 - #forge:dirt
 - minecraft:farmland
+
+#blue_skies:crafting_tables
+- blue_skies:bluebright_crafting_table
+- blue_skies:starlit_crafting_table
+- blue_skies:frostbright_crafting_table
+- blue_skies:lunar_crafting_table
+- blue_skies:dusk_crafting_table
+- blue_skies:maple_crafting_table
+- blue_skies:cherry_crafting_table
 
 #forge:cactus
 - byg:mini_cactus?
@@ -5504,12 +5866,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #armorplus:ores/lava_crystal
 - #armorplus:ores/frost_crystal
 
+#blue_skies:dungeon/life
+- blue_skies:life_stone
+- blue_skies:glowing_life_stone
+
 #forge:ores/lapis
 - minecraft:deepslate_lapis_ore
-- minecraft:lapis_ore
+- beyond_earth:glacio_lapis_ore
+- #minecraft:lapis_ores
 
 #forge:storage_blocks/raw_chromium
 - assemblylinemachines:raw_chromium_block
+
+#blue_skies:dungeon/illager_teleportable
+- blue_skies:turquoise_stonebrick
+- blue_skies:mossy_turquoise_stonebrick
+- blue_skies:cracked_turquoise_stonebrick
+- blue_skies:lunar_stonebrick
+- blue_skies:mossy_lunar_stonebrick
+- blue_skies:cracked_lunar_stonebrick
 
 #securitycraft:reinforced/slabs
 - #securitycraft:reinforced/wooden_slabs
@@ -5570,6 +5945,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - supplementaries:fodder
 - biomesoplenty:origin_grass_block
 - naturesaura:nether_grass
+- #securitycraft:reinforced/dirt
+- valhelsia_structures:grass_block
+- valhelsia_structures:dirt
+- valhelsia_structures:coarse_dirt
 - minecraft:dirt
 - minecraft:grass_block
 - minecraft:coarse_dirt
@@ -5580,16 +5959,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - graveyard:tg_moss_block
 - graveyard:tg_coarse_dirt
 - graveyard:tg_rooted_dirt
-- #securitycraft:reinforced/dirt
-- farmersdelight:rich_soil
-- minecraft:dirt
-- minecraft:grass_block
-- minecraft:coarse_dirt
-- minecraft:podzol
-- minecraft:mycelium
-- valhelsia_structures:grass_block
-- valhelsia_structures:dirt
-- valhelsia_structures:coarse_dirt
 
 #minecraft:bamboo_plantable_on
 - #minecraft:sand
@@ -5598,18 +5967,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:bamboo_sapling
 - minecraft:gravel
 - supplementaries:fodder
-- supplementaries:planter
-- #minecraft:sand
-- #minecraft:dirt
-- minecraft:bamboo
-- minecraft:bamboo_sapling
-- minecraft:gravel
-- graveyard:tg_moss_block
-- graveyard:tg_grass_block
-- graveyard:tg_coarse_dirt
-- graveyard:tg_dirt
-- graveyard:tg_rooted_dirt
-- graveyard:tg_podzol
+- #supplementaries:planters
 - #securitycraft:reinforced/sand
 - securitycraft:reinforced_gravel
 - securitycraft:reinforced_dirt
@@ -5622,6 +5980,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - farmersdelight:rich_soil
 - valhelsia_structures:grass_block
 - valhelsia_structures:dirt
+- #minecraft:sand
+- #minecraft:dirt
+- minecraft:bamboo
+- minecraft:bamboo_sapling
+- minecraft:gravel
+- graveyard:tg_moss_block
+- graveyard:tg_grass_block
+- graveyard:tg_coarse_dirt
+- graveyard:tg_dirt
+- graveyard:tg_rooted_dirt
+- graveyard:tg_podzol
+
+#productivebees:flowers/ametrine
+- #forge:storage_blocks/ametrine?
+- gemsnjewels:ametrine_block?
 
 #minecraft:pressure_plates
 - minecraft:light_weighted_pressure_plate
@@ -5813,6 +6186,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:crimson_fence_gate
 - minecraft:warped_fence_gate
 - valhelsia_structures:lapidified_jungle_fence_gate
+- blue_skies:bluebright_fence_gate
+- blue_skies:starlit_fence_gate
+- blue_skies:frostbright_fence_gate
+- blue_skies:lunar_fence_gate
+- blue_skies:dusk_fence_gate
+- blue_skies:maple_fence_gate
+- blue_skies:cherry_fence_gate
 
 #forge:ores/aluminum
 - immersiveengineering:ore_aluminum
@@ -5973,8 +6353,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mcwwindows:crimson_blinds
 - mcwwindows:warped_blinds
 - essentials:slotted_chest
-- waterstrainer:strainer_base
-- waterstrainer:worm_bin
 - supplementaries:flower_box
 - supplementaries:clock_block
 - supplementaries:pulley_block
@@ -5995,8 +6373,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - biomesoplenty:flesh_tendons
 - biomesoplenty:flesh_tendons_strand
 - biomesoplenty:willow_vine
-- biomesoplenty:tree_roots
-- biomesoplenty:tree_roots_stem
 - biomesoplenty:bramble
 - #silentgear:netherwood_logs
 - silentgear:gear_smithing_table
@@ -6055,7 +6431,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - framedblocks:framed_half_pillar
 - framedblocks:framed_post
 - framedblocks:framed_collapsible_block
-- hardcorequesting:item_barrel
 - assemblylinemachines:chaosbark_fence_gate
 - assemblylinemachines:stripped_chaosbark_log
 - assemblylinemachines:chaosbark_stairs
@@ -6067,6 +6442,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - assemblylinemachines:chaosbark_door
 - assemblylinemachines:chaosbark_planks
 - assemblylinemachines:compressed_crafting_table
+- farmingforblockheads:market
+- farmingforblockheads:feeding_trough
+- farmingforblockheads:chicken_nest
 - immersiveengineering:craftingtable
 - immersiveengineering:workbench
 - immersiveengineering:circuit_table
@@ -6123,6 +6501,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - slabmachines:trapped_chest_slab
 - slabmachines:note_slab
 - chanceglobe:chance_globe
+- cookingforblockheads:tool_rack
+- cookingforblockheads:spice_rack
+- cookingforblockheads:fruit_basket
 - buddycards:acacia_card_display
 - buddycards:birch_card_display
 - buddycards:crimson_card_display
@@ -6680,6 +7061,190 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #valhelsia_structures:cut_posts
 - valhelsia_structures:hanging_vines
 - valhelsia_structures:hanging_vines_body
+- blue_skies:turquoise_grass
+- blue_skies:tall_turquoise_grass
+- blue_skies:camellia
+- blue_skies:snowbloom
+- blue_skies:blush_blossom
+- blue_skies:polar_posy
+- blue_skies:chillweed
+- blue_skies:brittlebush
+- blue_skies:briskbloom
+- blue_skies:frose
+- blue_skies:midday_bayhop
+- blue_skies:bluebright_sapling
+- blue_skies:starlit_sapling
+- blue_skies:frostbright_sapling
+- blue_skies:brewberry_bush
+- blue_skies:chilled_lily_pad
+- blue_skies:snowcap_pinhead
+- blue_skies:snowcap_mushroom
+- blue_skies:snowcap_mushroom_block
+- blue_skies:snowcap_mushroom_stem
+- blue_skies:bluebright_vine
+- blue_skies:bluebright_log
+- blue_skies:bluebright_wood
+- blue_skies:stripped_bluebright_log
+- blue_skies:stripped_bluebright_wood
+- blue_skies:bluebright_planks
+- blue_skies:starlit_vine
+- blue_skies:starlit_log
+- blue_skies:starlit_wood
+- blue_skies:stripped_starlit_log
+- blue_skies:stripped_starlit_wood
+- blue_skies:starlit_planks
+- blue_skies:frostbright_vine
+- blue_skies:frostbright_log
+- blue_skies:frostbright_wood
+- blue_skies:stripped_frostbright_log
+- blue_skies:stripped_frostbright_wood
+- blue_skies:frostbright_planks
+- blue_skies:bluebright_crafting_table
+- blue_skies:starlit_crafting_table
+- blue_skies:frostbright_crafting_table
+- blue_skies:bluebright_chest
+- blue_skies:starlit_chest
+- blue_skies:frostbright_chest
+- blue_skies:lunar_grass
+- blue_skies:tall_lunar_grass
+- blue_skies:moonlit_bloom
+- blue_skies:crystal_flower
+- blue_skies:blaze_bud
+- blue_skies:flare_floret
+- blue_skies:nightcress
+- blue_skies:muckweed
+- blue_skies:lucentroot
+- blue_skies:lunar_sapling
+- blue_skies:dusk_sapling
+- blue_skies:maple_sapling
+- blue_skies:moonlit_water_lily
+- blue_skies:baneful_mushroom
+- blue_skies:glimmer_reed
+- blue_skies:crystallized_grass
+- blue_skies:lunar_vine
+- blue_skies:lunar_log
+- blue_skies:lunar_wood
+- blue_skies:stripped_lunar_log
+- blue_skies:stripped_lunar_wood
+- blue_skies:lunar_planks
+- blue_skies:dusk_vine
+- blue_skies:dusk_log
+- blue_skies:dusk_wood
+- blue_skies:stripped_dusk_log
+- blue_skies:stripped_dusk_wood
+- blue_skies:dusk_planks
+- blue_skies:maple_vine
+- blue_skies:maple_log
+- blue_skies:maple_wood
+- blue_skies:stripped_maple_log
+- blue_skies:stripped_maple_wood
+- blue_skies:maple_planks
+- blue_skies:lunar_crafting_table
+- blue_skies:dusk_crafting_table
+- blue_skies:maple_crafting_table
+- blue_skies:lunar_chest
+- blue_skies:dusk_chest
+- blue_skies:maple_chest
+- blue_skies:cherry_grass
+- blue_skies:cherry_log
+- blue_skies:cherry_wood
+- blue_skies:stripped_cherry_log
+- blue_skies:stripped_cherry_wood
+- blue_skies:cherry_planks
+- blue_skies:cherry_sapling
+- blue_skies:cherry_crafting_table
+- blue_skies:cherry_chest
+- blue_skies:crescent_fruit_sapling
+- blue_skies:crescent_fruit
+- blue_skies:bluebright_door
+- blue_skies:starlit_door
+- blue_skies:frostbright_door
+- blue_skies:lunar_door
+- blue_skies:dusk_door
+- blue_skies:maple_door
+- blue_skies:cherry_door
+- blue_skies:bluebright_bookshelf
+- blue_skies:starlit_bookshelf
+- blue_skies:frostbright_bookshelf
+- blue_skies:lunar_bookshelf
+- blue_skies:dusk_bookshelf
+- blue_skies:maple_bookshelf
+- blue_skies:cherry_bookshelf
+- blue_skies:bluebright_fence
+- blue_skies:starlit_fence
+- blue_skies:frostbright_fence
+- blue_skies:lunar_fence
+- blue_skies:dusk_fence
+- blue_skies:maple_fence
+- blue_skies:cherry_fence
+- blue_skies:bluebright_fence_gate
+- blue_skies:starlit_fence_gate
+- blue_skies:frostbright_fence_gate
+- blue_skies:lunar_fence_gate
+- blue_skies:dusk_fence_gate
+- blue_skies:maple_fence_gate
+- blue_skies:cherry_fence_gate
+- blue_skies:bluebright_trapdoor
+- blue_skies:starlit_trapdoor
+- blue_skies:frostbright_trapdoor
+- blue_skies:lunar_trapdoor
+- blue_skies:dusk_trapdoor
+- blue_skies:maple_trapdoor
+- blue_skies:cherry_trapdoor
+- blue_skies:bluebright_pressure_plate
+- blue_skies:starlit_pressure_plate
+- blue_skies:frostbright_pressure_plate
+- blue_skies:lunar_pressure_plate
+- blue_skies:dusk_pressure_plate
+- blue_skies:maple_pressure_plate
+- blue_skies:cherry_pressure_plate
+- blue_skies:bluebright_sign
+- blue_skies:starlit_sign
+- blue_skies:frostbright_sign
+- blue_skies:lunar_sign
+- blue_skies:dusk_sign
+- blue_skies:maple_sign
+- blue_skies:cherry_sign
+- blue_skies:bluebright_wall_sign
+- blue_skies:starlit_wall_sign
+- blue_skies:frostbright_wall_sign
+- blue_skies:lunar_wall_sign
+- blue_skies:dusk_wall_sign
+- blue_skies:maple_wall_sign
+- blue_skies:cherry_wall_sign
+- blue_skies:bluebright_slab
+- blue_skies:starlit_slab
+- blue_skies:frostbright_slab
+- blue_skies:lunar_slab
+- blue_skies:dusk_slab
+- blue_skies:maple_slab
+- blue_skies:cherry_slab
+- blue_skies:bluebright_stairs
+- blue_skies:starlit_stairs
+- blue_skies:frostbright_stairs
+- blue_skies:lunar_stairs
+- blue_skies:dusk_stairs
+- blue_skies:maple_stairs
+- blue_skies:cherry_stairs
+- blue_skies:trough
+- blue_skies:tool_box
+- blue_skies:summoning_table
+- blue_skies:alchemy_table
+- blue_skies:food_prep_table
+- blue_skies:winter_leaves
+- blue_skies:fiery_beans
+- blue_skies:solnuts
+- blue_skies:cryo_roots
+- blue_skies:scalefruits
+- blue_skies:pine_fruits
+- multibeds:custom
+- multibeds:slab
+- multibeds:cot
+- multibeds:classic
+- multibeds:vintage
+- multibeds:modern
+- multibeds:rustic
+- multibeds:ladder
 
 #chipped:brown_mushroom
 - minecraft:brown_mushroom
@@ -6836,6 +7401,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:soul_torch
 - minecraft:soul_wall_torch
 
+#productivebees:flowers/black_diamond
+- #forge:storage_blocks/black_diamond?
+- silentgems:black_diamond_glowrose?
+
 #chipped:red_stained_glass
 - minecraft:red_stained_glass
 - chipped:red_stained_glass_1
@@ -6879,17 +7448,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - expandedstorage:white_mini_present
 - expandedstorage:candy_cane_mini_present
 - expandedstorage:green_mini_present
-
-#productivebees:flowers/gems/aquamarine
-- #forge:storage_blocks/aquamarine?
-- silentgems:aquamarine_glowrose?
-- gemsnjewels:aquamarine_block?
-- astralsorcery:aquamarine_sand_ore?
-
-#productivebees:flowers/gems/garnet
-- #forge:storage_blocks/garnet?
-- silentgems:garnet_glowrose?
-- gemsnjewels:garnet_block?
 
 #minecraft:flowers
 - #minecraft:small_flowers
@@ -6942,9 +7500,38 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:blue_carpet_17
 - chipped:blue_carpet_18
 
+#forge:storage_blocks/calorite
+- beyond_earth:calorite_block
+
 #alexsmobs:soul_vulture_perches
 - minecraft:bone_block
 - #minecraft:logs
+
+#forge:glass/silica
+- minecraft:glass
+- minecraft:black_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:green_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:red_stained_glass
+- minecraft:white_stained_glass
+- minecraft:yellow_stained_glass
+- blue_skies:crystal_glass
+- blue_skies:midnight_glass
+
+#productivebees:flowers/fluorite
+- #forge:storage_blocks/fluorite?
+- mekanism:fluorite_ore?
+- #forge:ores/fluorite?
 
 #minecraft:fence_gates
 - minecraft:acacia_fence_gate
@@ -7003,8 +7590,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #forge:ores/crimson_iron
 - #forge:ores/azure_silver
 - #forge:ores/titanium
-- #forge:ores/flerovium
 - #forge:ores/chromium
+- #forge:ores/flerovium
 - #forge:ores/copper
 - #forge:ores/aluminum
 - #forge:ores/lead
@@ -7014,17 +7601,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #forge:ores/copper
 - #forge:ores/silver
 - #forge:ores/iesnium
-- beyond_earth:moon_desh_ore
-- beyond_earth:mars_diamond_ore
-- beyond_earth:mars_iron_ore
-- beyond_earth:moon_cheese_ore
-- beyond_earth:mercury_iron_ore
-- beyond_earth:mars_silicon_ore
-- beyond_earth:mars_ice_shard_ore
 - beyond_earth:moon_iron_ore
+- beyond_earth:moon_desh_ore
+- beyond_earth:moon_cheese_ore
+- beyond_earth:moon_ice_shard_ore
+- beyond_earth:mars_iron_ore
+- beyond_earth:mars_ostrum_ore
+- beyond_earth:mars_diamond_ore
+- beyond_earth:mars_ice_shard_ore
+- beyond_earth:mercury_iron_ore
+- beyond_earth:venus_gold_ore
 - beyond_earth:venus_coal_ore
 - beyond_earth:venus_diamond_ore
-- beyond_earth:venus_gold_ore
+- beyond_earth:venus_calorite_ore
+- beyond_earth:glacio_lapis_ore
+- beyond_earth:glacio_ice_shard_ore
 - bigreactors:yellorite_ore
 - bigreactors:anglesite_ore
 - bigreactors:benitoite_ore
@@ -7034,6 +7625,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #forge:ores/prosperity
 - #forge:ores/soulium
 - #forge:ores/coal
+- #forge:ores/copper
 - #forge:ores/diamond
 - #forge:ores/emerald
 - #forge:ores/gold
@@ -7042,6 +7634,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #forge:ores/redstone
 - #forge:ores/quartz
 - #forge:ores/netherite_scrap
+- #blue_skies:ores/moonstone
+- #blue_skies:ores/pyrope
+- #blue_skies:ores/diopside
+- #blue_skies:ores/aquite
+- #blue_skies:ores/charoite
+- #blue_skies:ores/horizonite
+- #blue_skies:ores/falsite
+- #blue_skies:ores/ventium
+
+#alexsmobs:fly_spawns
+- #alexsmobs:am_spawns
 
 #forge:storage_blocks/graphite
 - bigreactors:graphite_block
@@ -7057,11 +7660,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:crimson_nylium
 - minecraft:warped_nylium
 - #securitycraft:reinforced/nylium
-
-#productivebees:flowers/gems/benitoite
-- #forge:storage_blocks/benitoite?
-- silentgems:benitoite_glowrose?
-- gemsnjewels:benitoite_block?
 
 #alexsmobs:warped_mosco_breakables
 - #minecraft:leaves
@@ -7079,6 +7677,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - inspirations:vine?
 - druidcraft:rope?
 - xercamod:rope?
+
+#blue_skies:vines
+- blue_skies:bluebright_vine
+- blue_skies:starlit_vine
+- blue_skies:frostbright_vine
+- blue_skies:lunar_vine
+- blue_skies:dusk_vine
+- blue_skies:maple_vine
 
 #domum_ornamentum:default
 - minecraft:hay_block
@@ -7176,6 +7782,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #chipped:magenta_stained_glass_pane
 - minecraft:magenta_stained_glass_pane
 
+#blue_skies:logs/bluebright
+- blue_skies:bluebright_log
+- blue_skies:bluebright_wood
+- blue_skies:stripped_bluebright_log
+- blue_skies:stripped_bluebright_wood
+
 #chipped:light_blue_concrete
 - minecraft:light_blue_concrete
 - chipped:light_blue_concrete_1
@@ -7197,6 +7809,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:light_blue_concrete_17
 - chipped:light_blue_concrete_18
 
+#forge:storage_blocks/ostrum
+- beyond_earth:ostrum_block
+
 #valhelsia_structures:jars
 - valhelsia_structures:glazed_jar
 - valhelsia_structures:cracked_glazed_jar
@@ -7205,11 +7820,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #minecraft:occludes_vibration_signals
 - #minecraft:wool
 - #securitycraft:reinforced/wool
-
-#productivebees:flowers/gems/rose_quartz
-- #forge:storage_blocks/rose_quartz?
-- silentgems:rose_quartz_glowrose?
-- gemsnjewels:rose_quartz_block?
 
 #domum_ornamentum:fence_gate_materials
 - #domum_ornamentum:fence_materials
@@ -7406,6 +8016,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:storage_blocks/nickel
 - immersiveengineering:storage_nickel
 
+#productivebees:flowers/carnelian
+- #forge:storage_blocks/carnelian?
+- silentgems:carnelian_glowrose?
+
 #minecraft:mineable/mattock
 - #minecraft:mineable/shovel
 - #minecraft:mineable/pickaxe
@@ -7448,8 +8062,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - productivebees:advanced_bop_jacaranda_beehive
 
 #forge:ores/titanium
-- assemblylinemachines:deepslate_titanium_ore
 - assemblylinemachines:titanium_ore
+- assemblylinemachines:deepslate_titanium_ore
 
 #refinedstorage:storage_blocks/items
 - #refinedstorage:storage_blocks/items/256k
@@ -8026,6 +8640,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - immersiveengineering:dynamo
 - immersiveengineering:thermoelectric_generator
 
+#blue_skies:ores/charoite
+- blue_skies:everbright_charoite_ore
+- blue_skies:everdawn_charoite_ore
+
 #chipped:nether_wart_block
 - minecraft:nether_wart_block
 - chipped:nether_wart_block_1
@@ -8139,11 +8757,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #chipped:green_stained_glass_pane
 - minecraft:green_stained_glass_pane
 
-#productivebees:flowers/gems/phosphophyllite
-- #forge:storage_blocks/phosphophyllite?
-- silentgems:phosphophyllite_glowrose?
-- gemsnjewels:phosphophyllite_block?
-
 #minecraft:prevent_mob_spawning_inside
 - #minecraft:rails
 - cyclic:flower_cyan?
@@ -8200,6 +8813,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:cut_red_sandstone
 - minecraft:chiseled_red_sandstone
 - minecraft:smooth_red_sandstone
+- beyond_earth:venus_sandstone
+- blue_skies:crystal_sandstone
+- blue_skies:chiseled_crystal_sandstone
+- blue_skies:cut_crystal_sandstone
+- blue_skies:smooth_crystal_sandstone
+- blue_skies:midnight_sandstone
+- blue_skies:chiseled_midnight_sandstone
+- blue_skies:cut_midnight_sandstone
 
 #forge:glass_panes/colorless
 - connectedglass:borderless_glass_pane
@@ -8213,10 +8834,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:raw_blocks/lead
 - immersiveengineering:raw_block_lead
 
-#productivebees:flowers/gems/pyrope
-- #forge:storage_blocks/pyrope?
-- silentgems:pyrope_glowrose?
-- gemsnjewels:pyrope_block?
+#productivebees:flowers/black_opal
+- #forge:storage_blocks/black_opal?
+- gemsnjewels:black_opal_block?
+- oresabovediamonds:black_opal_block?
+- oresabovediamonds:black_opal_block?
 
 #chipped:end_stone
 - minecraft:end_stone
@@ -8238,6 +8860,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:end_stone_16
 - chipped:end_stone_17
 - chipped:end_stone_18
+
+#blue_skies:logs/dusk
+- blue_skies:dusk_log
+- blue_skies:dusk_wood
+- blue_skies:stripped_dusk_log
+- blue_skies:stripped_dusk_wood
 
 #chipped:magenta_stained_glass_pane
 - minecraft:magenta_stained_glass_pane
@@ -8279,6 +8907,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #twilightforest:antibuilder_ignores
 - #tombstone:graves
+
+#blue_skies:storage_blocks/diopside
+- blue_skies:diopside_block
+
+#productivebees:flowers/agate
+- #forge:storage_blocks/agate?
 
 #forge:storage_blocks/azure_electrum
 - silentgear:azure_electrum_block
@@ -8326,6 +8960,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:white_bed
 - minecraft:yellow_bed
 - restored_earth:rainbow_bed
+- multibeds:classic
+- multibeds:cot
+- multibeds:custom
+- multibeds:modern
+- multibeds:rustic
+- multibeds:slab
+- multibeds:vintage
 
 #alexsmobs:gelada_monkey_grass
 - minecraft:grass
@@ -8339,7 +8980,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:deepslate_diamond_ore
 - beyond_earth:mars_diamond_ore
 - beyond_earth:venus_diamond_ore
-- minecraft:diamond_ore
+- #minecraft:diamond_ores
 
 #minecraft:doors
 - #minecraft:wooden_doors
@@ -8371,11 +9012,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - assortedstorage:locked_oak_door
 - assortedstorage:locked_crimson_door
 - ars_nouveau:archwood_door
-
-#productivebees:flowers/gems/citrine
-- #forge:storage_blocks/citrine?
-- silentgems:citrine_glowrose?
-- gemsnjewels:citrine_block?
+- blue_skies:crystallized_door
 
 #minecraft:infiniburn_overworld
 - minecraft:netherrack
@@ -8384,6 +9021,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - cyclic:fireplace?
 - quark:charcoal_block
 - quark:blaze_lantern
+- beyond_earth:infernal_spire_block
 
 #minecraft:flower_pots
 - minecraft:flower_pot
@@ -8480,6 +9118,41 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:potted_weeping_vines
 - quark:potted_wheat
 - quark:potted_yellow_blossom_sapling
+- blue_skies:potted_baneful_mushroom
+- blue_skies:potted_snowcap_mushroom
+- blue_skies:potted_brewberry_bush
+- blue_skies:potted_camellia
+- blue_skies:potted_snowbloom
+- blue_skies:potted_briskbloom
+- blue_skies:potted_blush_blossom
+- blue_skies:potted_polar_posy
+- blue_skies:potted_chillweed
+- blue_skies:potted_brittlebush
+- blue_skies:potted_frose
+- blue_skies:potted_midday_bayhop
+- blue_skies:potted_moonlit_bloom
+- blue_skies:potted_crystal_flower
+- blue_skies:potted_blaze_bud
+- blue_skies:potted_flare_floret
+- blue_skies:potted_nightcress
+- blue_skies:potted_muckweed
+- blue_skies:potted_lucentroot
+- blue_skies:potted_bluebright_sapling
+- blue_skies:potted_starlit_sapling
+- blue_skies:potted_frostbright_sapling
+- blue_skies:potted_lunar_sapling
+- blue_skies:potted_dusk_sapling
+- blue_skies:potted_maple_sapling
+- blue_skies:potted_cherry_sapling
+- blue_skies:potted_crescent_fruit_sapling
+
+#forge:ore_rates/dense
+- minecraft:copper_ore
+- minecraft:deepslate_copper_ore
+- minecraft:deepslate_lapis_ore
+- minecraft:deepslate_redstone_ore
+- minecraft:lapis_ore
+- minecraft:redstone_ore
 
 #chipped:melon
 - minecraft:melon
@@ -8493,6 +9166,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:melon_8
 - chipped:melon_9
 - chipped:melon_10
+
+#productivebees:flowers/alexandrite
+- #forge:storage_blocks/alexandrite?
+- silentgems:alexandrite_glowrose?
+- gemsnjewels:alexandrite_block?
+
+#forge:mineable/hammer
 
 #forge:needs_iron_tool
 - quark:gold_bars
@@ -8534,6 +9214,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #tombstone:grave_marbles
 - tombstone:dark_marble
 - tombstone:white_marble
+
+#productivebees:flowers/amethyst
+- minecraft:amethyst_block
+- minecraft:budding_amethyst
+- minecraft:amethyst_cluster
+- silentgems:amethyst_glowrose?
+- oresabovediamonds:amethyst_block?
 
 #chipped:red_wool
 - minecraft:red_wool
@@ -8646,8 +9333,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:magenta_terracotta_18
 
 #alexsmobs:mimic_octopus_spawns
-- #minecraft:sand
-- #forge:gravel
+- #alexsmobs:am_spawns
 
 #minecraft:hoglin_repellents
 - minecraft:warped_fungus
@@ -8677,8 +9363,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:magenta_concrete_17
 - chipped:magenta_concrete_18
 
+#productivebees:flowers/lepidolite
+- #forge:storage_blocks/lepidolite?
+
 #domum_ornamentum:fence_materials
 - #domum_ornamentum:default
+
+#productivebees:flowers/apatite
+- #forge:storage_blocks/apatite?
 
 #chipped:orange_stained_glass
 - minecraft:orange_stained_glass
@@ -8691,30 +9383,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:orange_stained_glass_7
 - chipped:orange_stained_glass_8
 
+#blue_skies:dungeon/poison
+- blue_skies:poison_stone
+- blue_skies:glowing_poison_stone
+- blue_skies:poison_stonebrick
+
 #alexsmobs:komodo_dragon_spawns
-- #minecraft:sand
-- minecraft:dirt
-- minecraft:grass_block
-- minecraft:coarse_dirt
-- minecraft:podzol
-- minecraft:mycelium
-- minecraft:terracotta
-- minecraft:white_terracotta
-- minecraft:orange_terracotta
-- minecraft:magenta_terracotta
-- minecraft:light_blue_terracotta
-- minecraft:yellow_terracotta
-- minecraft:lime_terracotta
-- minecraft:pink_terracotta
-- minecraft:gray_terracotta
-- minecraft:light_gray_terracotta
-- minecraft:cyan_terracotta
-- minecraft:purple_terracotta
-- minecraft:blue_terracotta
-- minecraft:brown_terracotta
-- minecraft:green_terracotta
-- minecraft:red_terracotta
-- minecraft:black_terracotta
+- #alexsmobs:am_spawns
 
 #farmersdelight:straw_blocks
 - farmersdelight:rice_bag
@@ -8724,6 +9399,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - farmersdelight:tatami
 - farmersdelight:full_tatami_mat
 - farmersdelight:half_tatami_mat
+
+#blue_skies:dungeon/blinding
+- blue_skies:blinding_stone
+- blue_skies:glowing_blinding_stone
 
 #forge:terracotta/red
 - #chipped:red_terracotta
@@ -8812,10 +9491,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:storage_blocks/charcoal
 - quark:charcoal_block
 
-#productivebees:flowers/gems/malachite
-- #forge:storage_blocks/malachite?
-- silentgems:malachite_glowrose?
-- gemsnjewels:malachite_block?
+#blue_skies:storage_blocks/raw_falsite
+- blue_skies:raw_falsite_block
 
 #minecraft:coral_blocks
 - minecraft:tube_coral_block
@@ -8835,6 +9512,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:wooden_stairs
 - #minecraft:wooden_slabs
 - #minecraft:wool
+
+#productivebees:flowers/pyrope
+- #forge:storage_blocks/pyrope?
 
 #forge:needs_stone_tool
 - quark:cut_copper_vertical_slab
@@ -8935,6 +9615,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:corals
 - #minecraft:wall_corals
 
+#productivebees:flowers/citrine
+- #forge:storage_blocks/citrine?
+- silentgems:citrine_glowrose?
+- gemsnjewels:citrine_block?
+
 #securitycraft:secret_standing_signs
 - securitycraft:secret_acacia_sign_standing
 - securitycraft:secret_birch_sign_standing
@@ -8945,10 +9630,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - securitycraft:secret_spruce_sign_standing
 - securitycraft:secret_warped_sign_standing
 
-#productivebees:flowers/gems/euclase
-- #forge:storage_blocks/euclase?
-- silentgems:euclase_glowrose?
-- gemsnjewels:euclase_block?
+#blue_skies:ores/pyrope
+- blue_skies:everbright_pyrope_ore
+- blue_skies:everdawn_pyrope_ore
 
 #minecraft:impermeable
 - minecraft:glass
@@ -9087,11 +9771,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:white_framed_glass
 - quark:yellow_framed_glass
 - valhelsia_structures:metal_framed_glass
-
-#productivebees:flowers/gems/alexandrite
-- #forge:storage_blocks/alexandrite?
-- silentgems:alexandrite_glowrose?
-- gemsnjewels:alexandrite_block?
+- blue_skies:crystal_glass
+- blue_skies:midnight_glass
 
 #forge:end_stones
 - #chipped:end_stone
@@ -9170,6 +9851,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:gray_concrete_17
 - chipped:gray_concrete_18
 
+#minecraft:empty_dummy_tag
+
 #supplementaries:walls
 - cfm:acacia_hedge?
 - cfm:birch_hedge?
@@ -9226,6 +9909,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:storage_blocks/compressed_stone
 - prefab:block_compressed_stone
 
+#forge:storage_blocks/ridiculite
+- bigreactors:ridiculite_block
+
+#productivebees:flowers/phosphophyllite
+- #forge:storage_blocks/phosphophyllite?
+
 #forge:fences/wooden
 - biomesoplenty:fir_fence
 - biomesoplenty:redwood_fence
@@ -9239,14 +9928,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - biomesoplenty:umbran_fence
 - biomesoplenty:hellbark_fence
 - ars_nouveau:archwood_fence
-- minecraft:oak_fence
-- minecraft:spruce_fence
-- minecraft:birch_fence
-- minecraft:jungle_fence
-- minecraft:acacia_fence
-- minecraft:dark_oak_fence
-- minecraft:crimson_fence
-- minecraft:warped_fence
+- #minecraft:wooden_fences
 - valhelsia_structures:lapidified_jungle_fence
 
 #sereneseasons:summer_crops
@@ -9347,17 +10029,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #forge:storage_blocks/azure_silver
 - #forge:storage_blocks/azure_electrum
 - #forge:storage_blocks/tyrian_steel
-- #forge:storage_blocks/novasteel
-- #forge:storage_blocks/mystium
-- #forge:storage_blocks/raw_flerovium
-- #forge:storage_blocks/titanium
 - #forge:storage_blocks/raw_titanium
 - #forge:storage_blocks/chromium
+- #forge:storage_blocks/steel
+- #forge:storage_blocks/raw_flerovium
 - #forge:storage_blocks/energized_gold
+- #forge:storage_blocks/flerovium
+- #forge:storage_blocks/titanium
+- #forge:storage_blocks/novasteel
 - #forge:storage_blocks/attuned_titanium
 - #forge:storage_blocks/raw_chromium
-- #forge:storage_blocks/flerovium
-- #forge:storage_blocks/steel
+- #forge:storage_blocks/mystium
 - #forge:storage_blocks/copper
 - #forge:storage_blocks/aluminum
 - #forge:storage_blocks/lead
@@ -9368,28 +10050,42 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #forge:storage_blocks/electrum
 - #forge:storage_blocks/steel
 - #forge:storage_blocks/desh
-- #forge:storage_blocks/silicon
+- #forge:storage_blocks/ostrum
+- #forge:storage_blocks/calorite
 - #forge:storage_blocks/steel
 - #forge:storage_blocks/honeycombs
 - #forge:storage_blocks/wax
 - create:zinc_block
 - create:brass_block
+- #forge:storage_blocks/amethyst
 - #forge:storage_blocks/coal
+- #forge:storage_blocks/copper
 - #forge:storage_blocks/diamond
 - #forge:storage_blocks/emerald
 - #forge:storage_blocks/gold
 - #forge:storage_blocks/iron
 - #forge:storage_blocks/lapis
 - #forge:storage_blocks/quartz
+- #forge:storage_blocks/raw_copper
+- #forge:storage_blocks/raw_gold
+- #forge:storage_blocks/raw_iron
 - #forge:storage_blocks/redstone
 - #forge:storage_blocks/netherite
 - #forge:storage_blocks/neptunium
 - #forge:storage_blocks/charcoal
-
-#productivebees:flowers/gems/ruby
-- #forge:storage_blocks/ruby?
-- silentgems:ruby_glowrose?
-- gemsnjewels:ruby_block?
+- #blue_skies:storage_blocks/moonstone
+- #blue_skies:storage_blocks/pyrope
+- #blue_skies:storage_blocks/diopside
+- #blue_skies:storage_blocks/aquite
+- #blue_skies:storage_blocks/raw_aquite
+- #blue_skies:storage_blocks/charoite
+- #blue_skies:storage_blocks/raw_charoite
+- #blue_skies:storage_blocks/horizonite
+- #blue_skies:storage_blocks/raw_horizonite
+- #blue_skies:storage_blocks/falsite
+- #blue_skies:storage_blocks/raw_falsite
+- #blue_skies:storage_blocks/ventium
+- #blue_skies:storage_blocks/raw_ventium
 
 #ars_nouveau:an_decorative
 - ars_nouveau:sas_basket
@@ -9509,11 +10205,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #forge:cobblestone
 - #minecraft:base_stone_overworld
 
-#productivebees:flowers/gems/opal
-- #forge:storage_blocks/opal?
-- silentgems:opal_glowrose?
-- gemsnjewels:opal_block?
-
 #artifacts:mineable/digging_claws
 - #minecraft:mineable/pickaxe
 - #minecraft:mineable/shovel
@@ -9541,6 +10232,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #assemblylinemachines:world/naphtha_fireproof
 - assemblylinemachines:smoldering_stone
 
+#blue_skies:storage_blocks/ventium
+- blue_skies:ventium_block
+
 #chipped:green_stained_glass
 - minecraft:green_stained_glass
 - chipped:green_stained_glass_1
@@ -9554,6 +10248,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:storage_blocks/redstone
 - minecraft:redstone_block
+
+#paraglider:statues
+- paraglider:horned_statue
+- #paraglider:statues/goddess
 
 #minecraft:stairs
 - #minecraft:wooden_stairs
@@ -9628,8 +10326,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - domum_ornamentum:vanilla_stairs_compat
 - #securitycraft:reinforced/stairs
 - securitycraft:crystal_quartz_stairs
-- beyond_earth:moon_brick_stairs
-- beyond_earth:cracked_moon_brick_stairs
+- beyond_earth:moon_stone_brick_stairs
+- beyond_earth:mars_stone_brick_stairs
+- beyond_earth:mercury_stone_brick_stairs
+- beyond_earth:venus_sandstone_brick_stairs
+- beyond_earth:venus_stone_brick_stairs
+- beyond_earth:glacio_stone_brick_stairs
 - ars_nouveau:archwood_stairs
 - create:cut_granite_stairs
 - create:polished_cut_granite_stairs
@@ -9749,6 +10451,48 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:tuff_stairs
 - quark:white_shingles_stairs
 - quark:yellow_shingles_stairs
+- blue_skies:blinding_stairs
+- blue_skies:glowing_blinding_stairs
+- blue_skies:nature_stone_stairs
+- blue_skies:glowing_nature_stone_stairs
+- blue_skies:nature_stonebrick_stairs
+- blue_skies:glowing_nature_stonebrick_stairs
+- blue_skies:poison_stone_stairs
+- blue_skies:glowing_poison_stone_stairs
+- blue_skies:poison_stonebrick_stairs
+- blue_skies:rough_poison_stonebrick_stairs
+- blue_skies:aquatic_stairs
+- blue_skies:glowing_aquatic_stairs
+- blue_skies:life_stairs
+- blue_skies:glowing_life_stairs
+- blue_skies:crystallized_stairs
+- blue_skies:turquoise_stone_stairs
+- blue_skies:turquoise_stonebrick_stairs
+- blue_skies:mossy_turquoise_stonebrick_stairs
+- blue_skies:cracked_turquoise_stonebrick_stairs
+- blue_skies:turquoise_cobblestone_stairs
+- blue_skies:mossy_turquoise_cobblestone_stairs
+- blue_skies:midnight_sandstone_stairs
+- blue_skies:smooth_midnight_sandstone_stairs
+- blue_skies:brumble_stairs
+- blue_skies:polished_brumble_stairs
+- blue_skies:polished_brumble_brick_stairs
+- blue_skies:taratite_stairs
+- blue_skies:polished_taratite_stairs
+- blue_skies:rimestone_stairs
+- blue_skies:polished_rimestone_stairs
+- blue_skies:lunar_stone_stairs
+- blue_skies:lunar_stonebrick_stairs
+- blue_skies:mossy_lunar_stonebrick_stairs
+- blue_skies:cracked_lunar_stonebrick_stairs
+- blue_skies:lunar_cobblestone_stairs
+- blue_skies:mossy_lunar_cobblestone_stairs
+- blue_skies:crystal_sandstone_stairs
+- blue_skies:smooth_crystal_sandstone_stairs
+- blue_skies:umber_stairs
+- blue_skies:polished_umber_stairs
+- blue_skies:cinderstone_stairs
+- blue_skies:polished_cinderstone_stairs
 
 #alexsmobs:grizzly_beehive
 - #minecraft:beehives
@@ -9814,6 +10558,41 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - valhelsia_structures:lapidified_jungle_log
 - valhelsia_structures:lapidified_jungle_wood
 - #valhelsia_structures:lapidified_jungle_logs
+- blue_skies:bluebright_log
+- blue_skies:bluebright_wood
+- blue_skies:stripped_bluebright_log
+- blue_skies:stripped_bluebright_wood
+- blue_skies:starlit_log
+- blue_skies:starlit_wood
+- blue_skies:stripped_starlit_log
+- blue_skies:stripped_starlit_wood
+- blue_skies:frostbright_log
+- blue_skies:frostbright_wood
+- blue_skies:stripped_frostbright_log
+- blue_skies:stripped_frostbright_wood
+- blue_skies:lunar_log
+- blue_skies:lunar_wood
+- blue_skies:stripped_lunar_log
+- blue_skies:stripped_lunar_wood
+- blue_skies:dusk_log
+- blue_skies:dusk_wood
+- blue_skies:stripped_dusk_log
+- blue_skies:stripped_dusk_wood
+- blue_skies:maple_log
+- blue_skies:maple_wood
+- blue_skies:stripped_maple_log
+- blue_skies:stripped_maple_wood
+- blue_skies:cherry_log
+- blue_skies:cherry_wood
+- blue_skies:stripped_cherry_log
+- blue_skies:stripped_cherry_wood
+- blue_skies:crystallized_log
+- blue_skies:crystallized_wood
+
+#forge:ores/ice_shard
+- beyond_earth:moon_ice_shard_ore
+- beyond_earth:mars_ice_shard_ore
+- beyond_earth:glacio_ice_shard_ore
 
 #chipped:oak_planks
 - minecraft:oak_planks
@@ -9841,17 +10620,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - immersiveengineering:slab_treated_wood_vertical
 - immersiveengineering:slab_treated_wood_packaged
 
+#blue_skies:logs/frostbright
+- blue_skies:frostbright_log
+- blue_skies:frostbright_wood
+- blue_skies:stripped_frostbright_log
+- blue_skies:stripped_frostbright_wood
+
 #alexsmobs:crocodile_spawns
-- #minecraft:sand
-- #forge:gravel
-- #forge:dirt
-- minecraft:hay_block
+- #alexsmobs:am_spawns
 
 #minecraft:valid_spawn
 - minecraft:grass_block
 - minecraft:podzol
 - biomesoplenty:origin_grass_block
 - valhelsia_structures:grass_block
+- blue_skies:turquoise_grass_block
+- blue_skies:lunar_grass_block
+- blue_skies:turquoise_cherry_grass_block
+- blue_skies:lunar_cherry_grass_block
 
 #minecraft:mushroom_grow_block
 - minecraft:mycelium
@@ -9873,6 +10659,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #quark:wraith_spawnable
 - minecraft:soul_sand
 - minecraft:soul_soil
+
+#productivebees:flowers/white_diamond
+- #forge:storage_blocks/white_diamond?
+- silentgems:white_diamond_glowrose?
 
 #minecraft:signpost
 - signpost:post_oak
@@ -9925,6 +10715,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #minecraft:emerald_ores
 - minecraft:emerald_ore
 - minecraft:deepslate_emerald_ore
+- blue_skies:everbright_emerald_ore
+- blue_skies:everdawn_emerald_ore
 
 #sereneseasons:autumn_crops
 - biomesoplenty:origin_sapling
@@ -10166,11 +10958,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:purple_stained_glass_pane_7
 - chipped:purple_stained_glass_pane_8
 
-#productivebees:flowers/gems/cats_eye
-- #forge:storage_blocks/cats_eye?
-- silentgems:cats_eye_glowrose?
-- gemsnjewels:cats_eye_block?
-
 #chipped:red_terracotta
 - minecraft:red_terracotta
 - chipped:red_terracotta_1
@@ -10198,11 +10985,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:storage_blocks/blutonium
 - bigreactors:blutonium_block
 
-#forge:candles
-- #occultism:candles
-- #minecraft:candles
-
 #libx:impl_trapdoors
+
+#blue_skies:cobblestone
+- blue_skies:turquoise_cobblestone
+- blue_skies:lunar_cobblestone
 
 #minecraft:beacon_base_blocks
 - minecraft:netherite_block
@@ -10217,7 +11004,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - securitycraft:reinforced_netherite_block
 - beyond_earth:steel_block
 - beyond_earth:desh_block
-- beyond_earth:silicon_block
+- beyond_earth:ostrum_block
+- beyond_earth:calorite_block
 - buddycards:buddysteel_block
 - compressium:iron_1
 - compressium:iron_2
@@ -10278,6 +11066,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - create:zinc_block
 - create:brass_block
 - quark:golden_apple_crate
+- #blue_skies:storage_blocks/pyrope
+- #blue_skies:storage_blocks/diopside
+- #blue_skies:storage_blocks/aquite
+- #blue_skies:storage_blocks/charoite
+- #blue_skies:storage_blocks/horizonite
+- #blue_skies:storage_blocks/falsite
+- #blue_skies:storage_blocks/ventium
 
 #alexsmobs:orca_breakables
 - minecraft:ice
@@ -10285,11 +11080,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:lily_pad
 
 #libx:impl_wooden_fences
-
-#productivebees:flowers/gems/turquoise
-- #forge:storage_blocks/turquoise?
-- silentgems:turquoise_glowrose?
-- gemsnjewels:turquoise_block?
 
 #immersiveengineering:mineable/wirecutter
 - immersiveengineering:razor_wire
@@ -10332,16 +11122,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - create:scoria
 - create:scorchia
 - create:veridium
+- #blue_skies:stone
 
 #forge:sand
 - biomesoplenty:black_sand
 - biomesoplenty:orange_sand
 - biomesoplenty:white_sand
+- beyond_earth:moon_sand
+- beyond_earth:mars_sand
+- beyond_earth:venus_sand
 - #forge:sand/colorless
 - #forge:sand/red
+- beyond_earth:moon_sand
+- beyond_earth:mars_sand
+- beyond_earth:venus_sand
+- blue_skies:crystal_sand
+- blue_skies:midnight_sand
 
 #forge:sheetmetals/lead
 - immersiveengineering:sheetmetal_lead
+
+#productivebees:flowers/sodalite
+- #forge:storage_blocks/sodalite?
+- silentgems:sodalite_glowrose?
+- gemsnjewels:sodalite_block?
+
+#blue_skies:storage_blocks/raw_aquite
+- blue_skies:raw_aquite_block
 
 #chipped:gray_stained_glass
 - minecraft:gray_stained_glass
@@ -10369,6 +11176,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #minecraft:iron_ores
 - minecraft:iron_ore
 - minecraft:deepslate_iron_ore
+
+#blue_skies:ores/horizonite
+- blue_skies:horizonite_ore
 
 #chipped:light_blue_terracotta
 - minecraft:light_blue_terracotta
@@ -10539,6 +11349,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #chipped:soul_lantern
 - dustrial_decor:large_soul_lantern
 - valhelsia_structures:soul_brazier
+- blue_skies:warding_pearl
+- blue_skies:wall_warding_pearl
 
 #forge:glass/black
 - #chipped:black_stained_glass
@@ -10594,7 +11406,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - beyond_earth:mars_iron_ore
 - beyond_earth:mercury_iron_ore
 - beyond_earth:moon_iron_ore
-- minecraft:iron_ore
+- beyond_earth:glacio_iron_ore
+- #minecraft:iron_ores
 
 #chipped:orange_terracotta
 - minecraft:orange_terracotta
@@ -10638,6 +11451,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:birch_planks_17
 - chipped:birch_planks_18
 
+#productivebees:flowers/diamond
+- #forge:storage_blocks/diamond
+- #forge:ores/diamond
+
+#blue_skies:logs/starlit
+- blue_skies:starlit_log
+- blue_skies:starlit_wood
+- blue_skies:stripped_starlit_log
+- blue_skies:stripped_starlit_wood
+
 #minecraft:wooden_stairs
 - minecraft:oak_stairs
 - minecraft:spruce_stairs
@@ -10663,6 +11486,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - domum_ornamentum:vanilla_stairs_compat
 - ars_nouveau:archwood_stairs
 - valhelsia_structures:lapidified_jungle_stairs
+- blue_skies:bluebright_stairs
+- blue_skies:starlit_stairs
+- blue_skies:frostbright_stairs
+- blue_skies:lunar_stairs
+- blue_skies:dusk_stairs
+- blue_skies:maple_stairs
+- blue_skies:cherry_stairs
 
 #securitycraft:reinforced/stone_bricks
 - securitycraft:reinforced_stone_bricks
@@ -10693,6 +11523,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #libx:impl_wooden_buttons
 - ars_nouveau:archwood_button
 - valhelsia_structures:lapidified_jungle_button
+- blue_skies:bluebright_button
+- blue_skies:starlit_button
+- blue_skies:frostbright_button
+- blue_skies:lunar_button
+- blue_skies:dusk_button
+- blue_skies:maple_button
+- blue_skies:cherry_button
 
 #minecraft:axolotls_spawnable_on
 - minecraft:clay
@@ -10719,6 +11556,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:storage_blocks/quartz
 - minecraft:quartz_block
 
+#productivebees:flowers/zircon
+- #forge:storage_blocks/zircon?
+- gemsnjewels:zircon_block?
+
+#productivebees:flowers/coral
+- #forge:storage_blocks/coral?
+
 #chipped:pink_concrete
 - minecraft:pink_concrete
 - chipped:pink_concrete_1
@@ -10742,7 +11586,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:ores/emerald
 - minecraft:deepslate_emerald_ore
-- minecraft:emerald_ore
+- #minecraft:emerald_ores
+- blue_skies:everbright_emerald_ore
+- blue_skies:everdawn_emerald_ore
+
+#blue_skies:stone
+- blue_skies:turquoise_stone
+- blue_skies:lunar_stone
 
 #chipped:red_mushroom
 - minecraft:red_mushroom
@@ -10774,11 +11624,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #buildinggadgets:whitelist/exchanging
 - #buildinggadgets:whitelist/generic
-
-#productivebees:flowers/gems/heliodor
-- #forge:storage_blocks/heliodor?
-- silentgems:heliodor_glowrose?
-- gemsnjewels:heliodor_block?
 
 #minecraft:corals
 - #minecraft:coral_plants
@@ -10855,8 +11700,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - domum_ornamentum:green_cactus_extra
 - domum_ornamentum:white_paper_extra
 
+#forge:storage_blocks/raw_iron
+- minecraft:raw_iron_block
+
 #forge:storage_blocks/clay
 - minecraft:clay
+
+#blue_skies:storage_blocks/aquite
+- blue_skies:aquite_block
 
 #chipped:crying_obsidian
 - minecraft:crying_obsidian
@@ -10937,6 +11788,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:polished_blackstone_pressure_plate
 - #libx:impl_stone_pressure_plates
 
+#forge:ores_in_ground/stone
+- minecraft:coal_ore
+- minecraft:copper_ore
+- minecraft:diamond_ore
+- minecraft:emerald_ore
+- minecraft:gold_ore
+- minecraft:iron_ore
+- minecraft:lapis_ore
+- minecraft:redstone_ore
+
 #productivebees:flowers/cupric_flowers
 - minecraft:copper_ore
 - minecraft:deepslate_copper_ore
@@ -11004,6 +11865,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:lime_stained_glass_7
 - chipped:lime_stained_glass_8
 
+#productivebees:flowers/moldavite
+- #forge:storage_blocks/moldavite?
+- silentgems:moldavite_glowrose?
+
 #minecraft:dirt
 - minecraft:dirt
 - minecraft:grass_block
@@ -11015,6 +11880,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - biomesoplenty:origin_grass_block
 - biomesoplenty:glowing_moss_block
 - #securitycraft:reinforced/dirt
+- farmersdelight:rich_soil
+- blue_skies:turquoise_grass_block
+- blue_skies:lunar_grass_block
+- blue_skies:turquoise_dirt
+- blue_skies:lunar_dirt
+- blue_skies:coarse_turquoise_dirt
+- blue_skies:coarse_lunar_dirt
+- blue_skies:turquoise_cherry_grass_block
+- blue_skies:lunar_cherry_grass_block
 
 #forge:netherrack
 - #chipped:netherrack
@@ -11136,6 +12010,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - ars_nouveau:intangible_air
 - ars_nouveau:redstone_air
 - ars_nouveau:mage_block
+- ars_nouveau:sconce
+- ars_nouveau:light_block
 
 #minecraft:needs_netherite_tool
 - #armorplus:needs_netherite_tool
@@ -11246,22 +12122,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:glass
 - valhelsia_structures:metal_framed_glass
 
-#productivebees:flowers/gems/fluorite
-- #forge:storage_blocks/fluorite?
-- mekanism:fluorite_ore?
-- #forge:ores/fluorite?
-- silentgems:fluorite_glowrose?
-- gemsnjewels:fluorite_block?
-
 #minecolonies:protectionexception
 - waystones:sandy_waystone?
 - waystones:waystone?
 - waystones:mossy_waystone?
-
-#productivebees:flowers/gems/emerald
-- #forge:storage_blocks/emerald
-- #forge:ores/emerald
-- gemsnjewels:emerald_block?
 
 #minecraft:beehives
 - minecraft:bee_nest
@@ -11270,6 +12134,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:storage_blocks/cyanite
 - bigreactors:cyanite_block
+
+#blue_skies:logs/maple
+- blue_skies:maple_log
+- blue_skies:maple_wood
+- blue_skies:stripped_maple_log
+- blue_skies:stripped_maple_wood
 
 #minecraft:ice
 - minecraft:ice
@@ -11438,6 +12308,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:green_stained_glass
 - minecraft:red_stained_glass
 - minecraft:black_stained_glass
+- blue_skies:crystal_glass
+- blue_skies:midnight_glass
 
 #toughasnails:cooling_blocks
 - biomesoplenty:blackstone_bulb
@@ -11450,6 +12322,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:budding_amethyst
 - biomesoplenty:rose_quartz_block
 - securitycraft:reinforced_amethyst_block
+
+#blue_skies:storage_blocks/falsite
+- blue_skies:falsite_block
 
 #create:wrench_pickup
 - #minecraft:rails
@@ -11678,6 +12553,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - biomesoplenty:hellbark_stairs
 - biomesoplenty:hellbark_button
 - biomesoplenty:hellbark_door
+- biomesoplenty:hellbark_sign
+- biomesoplenty:hellbark_wall_sign
 - #chipped:warped_planks
 - #chipped:crimson_planks
 - quark:warped_chest
@@ -11693,11 +12570,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - valhelsia_structures:brazier
 - valhelsia_structures:soul_brazier
 
-#productivebees:flowers/gems/peridot
-- #forge:storage_blocks/peridot?
-- silentgems:peridot_glowrose?
-- gemsnjewels:peridot_block?
-
 #chipped:blue_stained_glass
 - minecraft:blue_stained_glass
 - chipped:blue_stained_glass_1
@@ -11709,17 +12581,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:blue_stained_glass_7
 - chipped:blue_stained_glass_8
 
+#paraglider:statues/goddess
+- paraglider:goddess_statue
+- paraglider:kakariko_goddess_statue
+- paraglider:goron_goddess_statue
+- paraglider:rito_goddess_statue
+
 #alexsmobs:drops_bananas
 - minecraft:jungle_leaves
 
 #minecraft:lapis_ores
 - minecraft:lapis_ore
 - minecraft:deepslate_lapis_ore
-
-#productivebees:flowers/gems/morganite
-- #forge:storage_blocks/morganite?
-- silentgems:morganite_glowrose?
-- gemsnjewels:morganite_block?
 
 #chipped:gray_carpet
 - minecraft:gray_carpet
@@ -11767,11 +12640,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - create:pulse_repeater
 - create:pulse_extender
 - #minecraft:signs
-
-#productivebees:flowers/gems/chrysoprase
-- #forge:storage_blocks/chrysoprase?
-- silentgems:chrysoprase_glowrose?
-- gemsnjewels:chrysoprase_block?
 
 #productivebees:flowers/swamp_flowers
 - #minecraft:flowers
@@ -12189,7 +13057,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - supplementaries:cage
 - supplementaries:safe
 - supplementaries:pedestal
-- supplementaries:planter
+- #supplementaries:planters
 - supplementaries:globe_sepia
 - supplementaries:ash_bricks_vertical_slab
 - supplementaries:ash_bricks_slab
@@ -12538,6 +13406,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - scalinghealth:deepslate_heart_crystal_ore
 - scalinghealth:deepslate_power_crystal_ore
 - tesseract:tesseract
+- compactmachines:wall
+- compactmachines:machine_tiny
+- compactmachines:machine_large
+- compactmachines:machine_small
+- compactmachines:machine_normal
+- compactmachines:machine_maximum
+- compactmachines:machine_giant
 - assemblylinemachines:naphtha_turbine
 - assemblylinemachines:quarry_speed_addon
 - assemblylinemachines:item_pipe
@@ -12887,6 +13762,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - occultism:stable_wormhole
 - occultism:dimensional_mineshaft
 - occultism:silver_ore
+- occultism:silver_ore_deepslate
 - occultism:iesnium_ore
 - occultism:iesnium_ore_natural
 - occultism:silver_block
@@ -12904,11 +13780,39 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - advancedperipherals:block_reader
 - advancedperipherals:geo_scanner
 - advancedperipherals:nbt_storage
+- cookingforblockheads:cooking_table
+- cookingforblockheads:fridge
+- cookingforblockheads:sink
+- cookingforblockheads:counter
+- cookingforblockheads:cabinet
+- cookingforblockheads:corner
+- cookingforblockheads:oven
+- cookingforblockheads:toaster
+- cookingforblockheads:milk_jar
+- cookingforblockheads:cow_jar
+- cookingforblockheads:hanging_corner
+- cookingforblockheads:white_kitchen_floor
+- cookingforblockheads:orange_kitchen_floor
+- cookingforblockheads:magenta_kitchen_floor
+- cookingforblockheads:light_blue_kitchen_floor
+- cookingforblockheads:yellow_kitchen_floor
+- cookingforblockheads:lime_kitchen_floor
+- cookingforblockheads:pink_kitchen_floor
+- cookingforblockheads:gray_kitchen_floor
+- cookingforblockheads:light_gray_kitchen_floor
+- cookingforblockheads:cyan_kitchen_floor
+- cookingforblockheads:purple_kitchen_floor
+- cookingforblockheads:blue_kitchen_floor
+- cookingforblockheads:brown_kitchen_floor
+- cookingforblockheads:green_kitchen_floor
+- cookingforblockheads:red_kitchen_floor
+- cookingforblockheads:black_kitchen_floor
 - alexsmobs:hummingbird_feeder
 - alexsmobs:gustmaker
 - alexsmobs:straddlite_block
 - alexsmobs:capsid
 - alexsmobs:void_worm_beak
+- alexsmobs:rainbow_glass
 - roads:road
 - roads:road_stairs
 - roads:road_slab
@@ -12921,22 +13825,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - beyond_earth:oxygen_bubble_distributor
 - beyond_earth:water_pump
 - beyond_earth:raw_desh_block
-- beyond_earth:raw_silicon_block
+- beyond_earth:raw_ostrum_block
+- beyond_earth:raw_calorite_block
 - beyond_earth:rocket_launch_pad
 - beyond_earth:steel_block
 - beyond_earth:desh_block
-- beyond_earth:silicon_block
+- beyond_earth:ostrum_block
+- beyond_earth:calorite_block
 - beyond_earth:iron_plating_block
 - beyond_earth:rusted_iron_pillar_block
 - beyond_earth:rusted_iron_plating_block
 - beyond_earth:blue_iron_plating_block
 - beyond_earth:iron_mark_block
-- beyond_earth:cracked_moon_bricks
-- beyond_earth:cracked_moon_brick_slab
-- beyond_earth:cracked_moon_brick_stairs
-- beyond_earth:moon_bricks
-- beyond_earth:moon_brick_slab
-- beyond_earth:moon_brick_stairs
 - beyond_earth:sky_stone
 - beyond_earth:mars_stone
 - beyond_earth:mercury_stone
@@ -12944,17 +13844,37 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - beyond_earth:venus_sandstone
 - beyond_earth:venus_stone
 - beyond_earth:infernal_spire_block
+- beyond_earth:moon_stone_bricks
+- beyond_earth:moon_stone_brick_slab
+- beyond_earth:moon_stone_brick_stairs
+- beyond_earth:cracked_moon_stone_bricks
+- beyond_earth:mars_stone_bricks
+- beyond_earth:mars_stone_brick_slab
+- beyond_earth:mars_stone_brick_stairs
+- beyond_earth:cracked_mars_stone_bricks
+- beyond_earth:mercury_stone_bricks
+- beyond_earth:mercury_stone_brick_slab
+- beyond_earth:mercury_stone_brick_stairs
+- beyond_earth:cracked_mercury_stone_bricks
+- beyond_earth:venus_sandstone_bricks
+- beyond_earth:venus_sandstone_brick_slab
+- beyond_earth:venus_sandstone_brick_stairs
+- beyond_earth:cracked_venus_sandstone_bricks
+- beyond_earth:venus_stone_bricks
+- beyond_earth:venus_stone_brick_slab
+- beyond_earth:venus_stone_brick_stairs
+- beyond_earth:cracked_venus_stone_bricks
 - beyond_earth:moon_cheese_ore
 - beyond_earth:moon_desh_ore
 - beyond_earth:moon_iron_ore
-- beyond_earth:mars_ice_shard_ore
 - beyond_earth:mars_iron_ore
 - beyond_earth:mars_diamond_ore
-- beyond_earth:mars_silicon_ore
+- beyond_earth:mars_ostrum_ore
 - beyond_earth:mercury_iron_ore
 - beyond_earth:venus_coal_ore
 - beyond_earth:venus_diamond_ore
 - beyond_earth:venus_gold_ore
+- beyond_earth:venus_calorite_ore
 - beyond_earth:flag
 - beyond_earth:flag_blue
 - beyond_earth:flag_brown
@@ -12969,6 +13889,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - beyond_earth:flag_purple
 - beyond_earth:flag_red
 - beyond_earth:flag_yellow
+- beyond_earth:moon_ice_shard_ore
+- beyond_earth:mars_ice_shard_ore
+- beyond_earth:glacio_ice_shard_ore
+- beyond_earth:glacio_coal_ore
+- beyond_earth:glacio_copper_ore
+- beyond_earth:glacio_iron_ore
+- beyond_earth:glacio_lapis_ore
+- beyond_earth:glacio_stone_bricks
+- beyond_earth:cracked_glacio_stone_bricks
+- beyond_earth:glacio_stone_brick_slab
+- beyond_earth:glacio_stone_brick_stairs
+- beyond_earth:glacio_stone
+- beyond_earth:permafrost
 - buddycards:buddysteel_block
 - chipped:mason_table
 - #chipped:stone
@@ -13409,6 +14342,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - ars_nouveau:ab_smooth_slab
 - ars_nouveau:ab_smooth
 - ars_nouveau:ab_alternating
+- ars_nouveau:arcane_bricks
+- ars_nouveau:sas_basket
 - gobber2:gobber2_ore
 - gobber2:gobber2_ore_deepslate
 - gobber2:gobber2_ore_nether
@@ -13610,8 +14545,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - productivebees:glowstone_nest
 - productivebees:nether_brick_nest
 - productivebees:dragon_egg_hive
-- voidscape:voidic_crystal_ore
-- voidscape:voidic_crystal_block
 - trashcans:energy_trash_can
 - trashcans:item_trash_can
 - trashcans:liquid_trash_can
@@ -14066,6 +14999,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - create:small_veridium_brick_wall
 - create:layered_veridium
 - create:veridium_pillar
+- waystones:black_sharestone
+- waystones:blue_sharestone
+- waystones:brown_sharestone
+- waystones:cyan_sharestone
+- waystones:gray_sharestone
+- waystones:green_sharestone
+- waystones:light_blue_sharestone
+- waystones:light_gray_sharestone
+- waystones:lime_sharestone
+- waystones:magenta_sharestone
+- waystones:mossy_waystone
+- waystones:orange_sharestone
+- waystones:pink_sharestone
+- waystones:portstone
+- waystones:purple_sharestone
+- waystones:red_sharestone
+- waystones:sandy_waystone
+- waystones:sharestone
+- waystones:warp_plate
+- waystones:waystone
+- waystones:white_sharestone
+- waystones:yellow_sharestone
 - chococraft:chocobo_egg
 - mysticalagriculture:prosperity_block
 - mysticalagriculture:inferium_block
@@ -14606,6 +15561,279 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - createaddition:furnace_burner
 - createaddition:crude_burner
 - createaddition:tesla_coil
+- beyond_earth_giselle_addon:fuel_loader
+- beyond_earth_giselle_addon:electric_blast_furnace
+- beyond_earth_giselle_addon:advanced_compressor
+- beyond_earth_giselle_addon:gravity_normalizer
+- blue_skies:turquoise_stone
+- blue_skies:turquoise_cobblestone
+- blue_skies:mossy_turquoise_cobblestone
+- blue_skies:turquoise_stonebrick
+- blue_skies:mossy_turquoise_stonebrick
+- blue_skies:cracked_turquoise_stonebrick
+- blue_skies:chiseled_turquoise_stonebrick
+- blue_skies:taratite
+- blue_skies:polished_taratite
+- blue_skies:rimestone
+- blue_skies:polished_rimestone
+- blue_skies:brumble_block
+- blue_skies:polished_brumble
+- blue_skies:polished_brumble_bricks
+- blue_skies:chiseled_polished_brumble
+- blue_skies:brumble_lantern
+- blue_skies:midnight_sandstone
+- blue_skies:chiseled_midnight_sandstone
+- blue_skies:cut_midnight_sandstone
+- blue_skies:smooth_midnight_sandstone
+- blue_skies:midnight_sandstone_pillar
+- blue_skies:turquoise_dripstone
+- blue_skies:everbright_diopside_ore
+- blue_skies:everbright_pyrope_ore
+- blue_skies:everbright_aquite_ore
+- blue_skies:everbright_charoite_ore
+- blue_skies:everbright_moonstone_ore
+- blue_skies:everbright_emerald_ore
+- blue_skies:falsite_ore
+- blue_skies:ventium_ore
+- blue_skies:lunar_stone
+- blue_skies:lunar_cobblestone
+- blue_skies:mossy_lunar_cobblestone
+- blue_skies:lunar_stonebrick
+- blue_skies:mossy_lunar_stonebrick
+- blue_skies:cracked_lunar_stonebrick
+- blue_skies:chiseled_lunar_stonebrick
+- blue_skies:umber
+- blue_skies:polished_umber
+- blue_skies:cinderstone
+- blue_skies:polished_cinderstone
+- blue_skies:crystallized_leaves
+- blue_skies:crystallized_log
+- blue_skies:crystallized_wood
+- blue_skies:crystallized_planks
+- blue_skies:vitreous_moonstone
+- blue_skies:crystal_sandstone
+- blue_skies:chiseled_crystal_sandstone
+- blue_skies:cut_crystal_sandstone
+- blue_skies:smooth_crystal_sandstone
+- blue_skies:crystal_sandstone_pillar
+- blue_skies:lunar_dripstone
+- blue_skies:decaying_spike
+- blue_skies:spider_nest
+- blue_skies:everdawn_diopside_ore
+- blue_skies:everdawn_pyrope_ore
+- blue_skies:everdawn_aquite_ore
+- blue_skies:everdawn_charoite_ore
+- blue_skies:everdawn_moonstone_ore
+- blue_skies:everdawn_emerald_ore
+- blue_skies:horizonite_ore
+- blue_skies:raw_falsite_block
+- blue_skies:raw_ventium_block
+- blue_skies:raw_horizonite_block
+- blue_skies:raw_aquite_block
+- blue_skies:raw_charoite_block
+- blue_skies:moonstone_block
+- blue_skies:sunstone_block
+- blue_skies:falsite_block
+- blue_skies:ventium_block
+- blue_skies:horizonite_block
+- blue_skies:pyrope_block
+- blue_skies:aquite_block
+- blue_skies:diopside_block
+- blue_skies:charoite_block
+- blue_skies:moonstone_lantern
+- blue_skies:warding_pearl
+- blue_skies:wall_warding_pearl
+- blue_skies:snowcap_oven
+- blue_skies:horizonite_forge
+- blue_skies:crystallized_door
+- blue_skies:crystallized_trapdoor
+- blue_skies:moonstone_pressure_plate
+- blue_skies:turquoise_stone_pressure_plate
+- blue_skies:lunar_stone_pressure_plate
+- blue_skies:crystallized_pressure_plate
+- blue_skies:blinding_stone
+- blue_skies:glowing_blinding_stone
+- blue_skies:carved_blinding_stone
+- blue_skies:blinding_stone_pillar
+- blue_skies:blinding_stairs
+- blue_skies:glowing_blinding_stairs
+- blue_skies:blinding_slab
+- blue_skies:glowing_blinding_slab
+- blue_skies:blinding_wall
+- blue_skies:glowing_blinding_wall
+- blue_skies:nature_stone
+- blue_skies:glowing_nature_stone
+- blue_skies:nature_stonebrick
+- blue_skies:glowing_nature_stonebrick
+- blue_skies:carved_nature_stonebrick
+- blue_skies:nature_stone_pillar
+- blue_skies:nature_stone_stairs
+- blue_skies:glowing_nature_stone_stairs
+- blue_skies:nature_stonebrick_stairs
+- blue_skies:glowing_nature_stonebrick_stairs
+- blue_skies:nature_stone_slab
+- blue_skies:glowing_nature_stone_slab
+- blue_skies:nature_stonebrick_slab
+- blue_skies:glowing_nature_stonebrick_slab
+- blue_skies:nature_stonebrick_wall
+- blue_skies:glowing_nature_stonebrick_wall
+- blue_skies:poison_stone
+- blue_skies:glowing_poison_stone
+- blue_skies:poison_stonebrick
+- blue_skies:rough_poison_stonebrick
+- blue_skies:carved_poison_stonebrick
+- blue_skies:poison_stone_pillar
+- blue_skies:poison_stone_stairs
+- blue_skies:glowing_poison_stone_stairs
+- blue_skies:poison_stonebrick_stairs
+- blue_skies:rough_poison_stonebrick_stairs
+- blue_skies:poison_stone_slab
+- blue_skies:glowing_poison_stone_slab
+- blue_skies:poison_stonebrick_slab
+- blue_skies:rough_poison_stonebrick_slab
+- blue_skies:poison_stonebrick_wall
+- blue_skies:aquatic_stone
+- blue_skies:glowing_aquatic_stone
+- blue_skies:aquatic_stairs
+- blue_skies:glowing_aquatic_stairs
+- blue_skies:aquatic_slab
+- blue_skies:glowing_aquatic_slab
+- blue_skies:aquatic_wall
+- blue_skies:glowing_aquatic_wall
+- blue_skies:life_stone
+- blue_skies:glowing_life_stone
+- blue_skies:life_stairs
+- blue_skies:glowing_life_stairs
+- blue_skies:life_slab
+- blue_skies:glowing_life_slab
+- blue_skies:life_wall
+- blue_skies:glowing_life_wall
+- blue_skies:bright_blinding_keystone
+- blue_skies:dawn_blinding_keystone
+- blue_skies:nature_keystone
+- blue_skies:poison_keystone
+- blue_skies:summoner_trophy
+- blue_skies:alchemist_trophy
+- blue_skies:starlit_crusher_trophy
+- blue_skies:arachnarch_trophy
+- blue_skies:crystallized_slab
+- blue_skies:turquoise_stone_slab
+- blue_skies:turquoise_cobblestone_slab
+- blue_skies:mossy_turquoise_cobblestone_slab
+- blue_skies:turquoise_stonebrick_slab
+- blue_skies:mossy_turquoise_stonebrick_slab
+- blue_skies:cracked_turquoise_stonebrick_slab
+- blue_skies:midnight_sandstone_slab
+- blue_skies:smooth_midnight_sandstone_slab
+- blue_skies:brumble_slab
+- blue_skies:polished_brumble_slab
+- blue_skies:polished_brumble_brick_slab
+- blue_skies:taratite_slab
+- blue_skies:polished_taratite_slab
+- blue_skies:rimestone_slab
+- blue_skies:polished_rimestone_slab
+- blue_skies:lunar_stone_slab
+- blue_skies:lunar_cobblestone_slab
+- blue_skies:mossy_lunar_cobblestone_slab
+- blue_skies:lunar_stonebrick_slab
+- blue_skies:mossy_lunar_stonebrick_slab
+- blue_skies:cracked_lunar_stonebrick_slab
+- blue_skies:crystal_sandstone_slab
+- blue_skies:smooth_crystal_sandstone_slab
+- blue_skies:cut_midnight_sandstone_slab
+- blue_skies:cut_crystal_sandstone_slab
+- blue_skies:umber_slab
+- blue_skies:polished_umber_slab
+- blue_skies:cinderstone_slab
+- blue_skies:polished_cinderstone_slab
+- blue_skies:turquoise_cobblestone_wall
+- blue_skies:mossy_turquoise_cobblestone_wall
+- blue_skies:turquoise_stonebrick_wall
+- blue_skies:mossy_turquoise_stonebrick_wall
+- blue_skies:cracked_turquoise_stonebrick_wall
+- blue_skies:brumble_wall
+- blue_skies:polished_brumble_wall
+- blue_skies:polished_brumble_brick_wall
+- blue_skies:taratite_wall
+- blue_skies:polished_taratite_wall
+- blue_skies:rimestone_wall
+- blue_skies:polished_rimestone_wall
+- blue_skies:lunar_cobblestone_wall
+- blue_skies:mossy_lunar_cobblestone_wall
+- blue_skies:lunar_stonebrick_wall
+- blue_skies:mossy_lunar_stonebrick_wall
+- blue_skies:cracked_lunar_stonebrick_wall
+- blue_skies:midnight_sandstone_wall
+- blue_skies:crystal_sandstone_wall
+- blue_skies:crystallized_wall
+- blue_skies:umber_wall
+- blue_skies:polished_umber_wall
+- blue_skies:cinderstone_wall
+- blue_skies:polished_cinderstone_wall
+- blue_skies:crystallized_stairs
+- blue_skies:turquoise_stone_stairs
+- blue_skies:turquoise_stonebrick_stairs
+- blue_skies:mossy_turquoise_stonebrick_stairs
+- blue_skies:cracked_turquoise_stonebrick_stairs
+- blue_skies:turquoise_cobblestone_stairs
+- blue_skies:mossy_turquoise_cobblestone_stairs
+- blue_skies:midnight_sandstone_stairs
+- blue_skies:smooth_midnight_sandstone_stairs
+- blue_skies:brumble_stairs
+- blue_skies:polished_brumble_stairs
+- blue_skies:polished_brumble_brick_stairs
+- blue_skies:taratite_stairs
+- blue_skies:polished_taratite_stairs
+- blue_skies:rimestone_stairs
+- blue_skies:polished_rimestone_stairs
+- blue_skies:lunar_stone_stairs
+- blue_skies:lunar_stonebrick_stairs
+- blue_skies:mossy_lunar_stonebrick_stairs
+- blue_skies:cracked_lunar_stonebrick_stairs
+- blue_skies:lunar_cobblestone_stairs
+- blue_skies:mossy_lunar_cobblestone_stairs
+- blue_skies:crystal_sandstone_stairs
+- blue_skies:smooth_crystal_sandstone_stairs
+- blue_skies:umber_stairs
+- blue_skies:polished_umber_stairs
+- blue_skies:cinderstone_stairs
+- blue_skies:polished_cinderstone_stairs
+- blue_skies:star_emitter
+- blue_skies:moonstone_crystal
+- blue_skies:sunstone_crystal
+- blue_skies:turquoise_stone_button
+- blue_skies:lunar_stone_button
+- blue_skies:crystallized_button
+- blue_skies:food_prep_table
+- bonsaitrees3:bonsaipot
+- paraglider:goddess_statue
+- paraglider:kakariko_goddess_statue
+- paraglider:goron_goddess_statue
+- paraglider:rito_goddess_statue
+- paraglider:horned_statue
+- extendedcrafting:luminessence_block
+- extendedcrafting:black_iron_block
+- extendedcrafting:redstone_ingot_block
+- extendedcrafting:ender_ingot_block
+- extendedcrafting:enhanced_ender_ingot_block
+- extendedcrafting:crystaltine_block
+- extendedcrafting:the_ultimate_block
+- extendedcrafting:nether_star_block
+- extendedcrafting:ender_star_block
+- extendedcrafting:advanced_auto_table
+- extendedcrafting:advanced_table
+- extendedcrafting:basic_auto_table
+- extendedcrafting:basic_table
+- extendedcrafting:compressor
+- extendedcrafting:crafting_core
+- extendedcrafting:elite_auto_table
+- extendedcrafting:elite_table
+- extendedcrafting:ender_alternator
+- extendedcrafting:ender_crafter
+- extendedcrafting:frame
+- extendedcrafting:pedestal
+- extendedcrafting:ultimate_auto_table
+- extendedcrafting:ultimate_table
 
 #chipped:white_terracotta
 - minecraft:white_terracotta
@@ -14700,31 +15928,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - valhelsia_structures:lapidified_jungle_pressure_plate
 - valhelsia_structures:doused_torch
 - valhelsia_structures:doused_soul_torch
+- blue_skies:moonstone
 
 #alexsmobs:rattlesnake_spawns
-- #minecraft:sand
-- minecraft:dirt
-- minecraft:grass_block
-- minecraft:coarse_dirt
-- minecraft:podzol
-- minecraft:mycelium
-- minecraft:terracotta
-- minecraft:white_terracotta
-- minecraft:orange_terracotta
-- minecraft:magenta_terracotta
-- minecraft:light_blue_terracotta
-- minecraft:yellow_terracotta
-- minecraft:lime_terracotta
-- minecraft:pink_terracotta
-- minecraft:gray_terracotta
-- minecraft:light_gray_terracotta
-- minecraft:cyan_terracotta
-- minecraft:purple_terracotta
-- minecraft:blue_terracotta
-- minecraft:brown_terracotta
-- minecraft:green_terracotta
-- minecraft:red_terracotta
-- minecraft:black_terracotta
+- #alexsmobs:am_spawns
 
 #chipped:purple_carpet
 - minecraft:purple_carpet
@@ -14794,25 +16001,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:ice
 
 #alexsmobs:kangaroo_spawns
-- #minecraft:sand
-- #forge:dirt
-- minecraft:terracotta
-- minecraft:white_terracotta
-- minecraft:orange_terracotta
-- minecraft:magenta_terracotta
-- minecraft:light_blue_terracotta
-- minecraft:yellow_terracotta
-- minecraft:lime_terracotta
-- minecraft:pink_terracotta
-- minecraft:gray_terracotta
-- minecraft:light_gray_terracotta
-- minecraft:cyan_terracotta
-- minecraft:purple_terracotta
-- minecraft:blue_terracotta
-- minecraft:brown_terracotta
-- minecraft:green_terracotta
-- minecraft:red_terracotta
-- minecraft:black_terracotta
+- #alexsmobs:am_spawns
 
 #productivebees:nests/bumble_bee
 - productivebees:bumble_bee_nest
@@ -14838,12 +16027,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:prismarine_17
 - chipped:prismarine_18
 
-#productivebees:flowers/gems/amethyst
-- minecraft:amethyst_block
-- minecraft:budding_amethyst
-- minecraft:amethyst_cluster
-- silentgems:amethyst_glowrose?
-
 #forge:storage_blocks/novasteel
 - assemblylinemachines:novasteel_block
 
@@ -14857,13 +16040,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #refinedstorage:storage_blocks/items/65536k
 - extradisks:65536k_storage_block
 
+#forge:mineable/wrench
+
 #forge:sheetmetals/electrum
 - immersiveengineering:sheetmetal_electrum
-
-#productivebees:flowers/gems/onyx
-- #forge:storage_blocks/onyx?
-- silentgems:onyx_glowrose?
-- gemsnjewels:onyx_block?
 
 #minecraft:needs_diamond_tool
 - minecraft:obsidian
@@ -14925,11 +16105,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - expandedstorage:netherite_chest
 - expandedstorage:old_obsidian_chest
 - expandedstorage:old_netherite_chest
-- voidscape:voidic_crystal_ore
-- voidscape:voidic_crystal_block
 - #armorplus:needs_diamond_tool
 - valhelsia_structures:dungeon_door
 - valhelsia_structures:dungeon_door_leaf
+
+#productivebees:flowers/jade
+- #forge:storage_blocks/jade?
 
 #minecraft:wall_signs
 - minecraft:oak_wall_sign
@@ -14940,6 +16121,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_wall_sign
 - minecraft:crimson_wall_sign
 - minecraft:warped_wall_sign
+- biomesoplenty:fir_wall_sign
+- biomesoplenty:redwood_wall_sign
+- biomesoplenty:cherry_wall_sign
+- biomesoplenty:mahogany_wall_sign
+- biomesoplenty:jacaranda_wall_sign
+- biomesoplenty:palm_wall_sign
+- biomesoplenty:willow_wall_sign
+- biomesoplenty:dead_wall_sign
+- biomesoplenty:magic_wall_sign
+- biomesoplenty:umbran_wall_sign
+- biomesoplenty:hellbark_wall_sign
 - #libx:impl_wall_signs
 - #securitycraft:secret_wall_signs
 - farmersdelight:canvas_wall_sign
@@ -14959,6 +16151,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - farmersdelight:green_canvas_wall_sign
 - farmersdelight:red_canvas_wall_sign
 - farmersdelight:black_canvas_wall_sign
+- blue_skies:bluebright_wall_sign
+- blue_skies:starlit_wall_sign
+- blue_skies:frostbright_wall_sign
+- blue_skies:lunar_wall_sign
+- blue_skies:dusk_wall_sign
+- blue_skies:maple_wall_sign
+- blue_skies:cherry_wall_sign
 
 #quark:vertical_slabs
 - supplementaries:checker_vertical_slab
@@ -14967,6 +16166,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #productivebees:flowers/wither_flowers
 - minecraft:wither_rose
+
+#blue_skies:dungeon/nature
+- blue_skies:nature_stone
+- blue_skies:glowing_nature_stone
 
 #chipped:white_wool
 - minecraft:white_wool
@@ -15301,6 +16504,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:sand
 - minecraft:red_sand
 
+#forge:ores/cheese
+- beyond_earth:moon_cheese_ore
+
 #chipped:black_carpet
 - minecraft:black_carpet
 - chipped:black_carpet_1
@@ -15567,6 +16773,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:pink_blossom_leaves
 - quark:yellow_blossom_leaves
 - quark:red_blossom_leaves
+- blue_skies:bluebright_leaves
+- blue_skies:starlit_leaves
+- blue_skies:frostbright_leaves
+- blue_skies:lunar_leaves
+- blue_skies:dusk_leaves
+- blue_skies:maple_leaves
+- blue_skies:crystallized_leaves
+- blue_skies:cherry_leaves
+- blue_skies:crescent_fruit_leaves
+
+#productivebees:flowers/emerald
+- #forge:storage_blocks/emerald
+- #forge:ores/emerald
+- gemsnjewels:emerald_block?
 
 #forge:glass_panes/gray
 - #chipped:gray_stained_glass_pane
@@ -16081,6 +17301,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mysticalagriculture:witherproof_bricks
 - mysticalagriculture:witherproof_glass
 
+#productivebees:flowers/turquoise
+- #forge:storage_blocks/turquoise?
+- silentgems:turquoise_glowrose?
+
 #chipped:black_terracotta
 - minecraft:black_terracotta
 - chipped:black_terracotta_1
@@ -16146,25 +17370,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:red_sand
 
 #alexsmobs:emu_spawns
-- #minecraft:sand
-- #forge:dirt
-- minecraft:terracotta
-- minecraft:white_terracotta
-- minecraft:orange_terracotta
-- minecraft:magenta_terracotta
-- minecraft:light_blue_terracotta
-- minecraft:yellow_terracotta
-- minecraft:lime_terracotta
-- minecraft:pink_terracotta
-- minecraft:gray_terracotta
-- minecraft:light_gray_terracotta
-- minecraft:cyan_terracotta
-- minecraft:purple_terracotta
-- minecraft:blue_terracotta
-- minecraft:brown_terracotta
-- minecraft:green_terracotta
-- minecraft:red_terracotta
-- minecraft:black_terracotta
+- #alexsmobs:am_spawns
+
+#productivebees:flowers/iolite
+- #forge:storage_blocks/iolite?
+- silentgems:iolite_glowrose?
+- gemsnjewels:iolite_block?
 
 #forge:glass/brown
 - #chipped:brown_stained_glass
@@ -16222,6 +17433,34 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - ars_nouveau:stripped_red_archwood_wood
 - ars_nouveau:stripped_purple_archwood_log
 - ars_nouveau:stripped_purple_archwood_wood
+- blue_skies:bluebright_log
+- blue_skies:bluebright_wood
+- blue_skies:stripped_bluebright_log
+- blue_skies:stripped_bluebright_wood
+- blue_skies:starlit_log
+- blue_skies:starlit_wood
+- blue_skies:stripped_starlit_log
+- blue_skies:stripped_starlit_wood
+- blue_skies:frostbright_log
+- blue_skies:frostbright_wood
+- blue_skies:stripped_frostbright_log
+- blue_skies:stripped_frostbright_wood
+- blue_skies:lunar_log
+- blue_skies:lunar_wood
+- blue_skies:stripped_lunar_log
+- blue_skies:stripped_lunar_wood
+- blue_skies:dusk_log
+- blue_skies:dusk_wood
+- blue_skies:stripped_dusk_log
+- blue_skies:stripped_dusk_wood
+- blue_skies:maple_log
+- blue_skies:maple_wood
+- blue_skies:stripped_maple_log
+- blue_skies:stripped_maple_wood
+- blue_skies:cherry_log
+- blue_skies:cherry_wood
+- blue_skies:stripped_cherry_log
+- blue_skies:stripped_cherry_wood
 
 #chipped:light_gray_terracotta
 - minecraft:light_gray_terracotta
@@ -16248,6 +17487,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #chipped:crying_obsidian
 - #chipped:obsidian
 
+#productivebees:flowers/euclase
+- #forge:storage_blocks/euclase?
+
 #minecraft:needs_iron_tool
 - minecraft:diamond_block
 - minecraft:diamond_ore
@@ -16271,6 +17513,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - scalinghealth:power_crystal_ore
 - scalinghealth:deepslate_heart_crystal_ore
 - scalinghealth:deepslate_power_crystal_ore
+- compactmachines:wall
+- compactmachines:machine_tiny
+- compactmachines:machine_large
+- compactmachines:machine_small
+- compactmachines:machine_normal
+- compactmachines:machine_maximum
+- compactmachines:machine_giant
 - immersiveengineering:ore_lead
 - immersiveengineering:deepslate_ore_lead
 - immersiveengineering:raw_block_lead
@@ -16309,13 +17558,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - beyond_earth:oxygen_bubble_distributor
 - beyond_earth:water_pump
 - beyond_earth:raw_desh_block
-- beyond_earth:raw_silicon_block
+- beyond_earth:raw_ostrum_block
+- beyond_earth:raw_calorite_block
 - beyond_earth:rocket_launch_pad
 - beyond_earth:moon_desh_ore
 - beyond_earth:mars_diamond_ore
-- beyond_earth:mars_silicon_ore
+- beyond_earth:mars_ostrum_ore
 - beyond_earth:venus_diamond_ore
 - beyond_earth:venus_gold_ore
+- beyond_earth:venus_calorite_ore
 - buddycards:buddysteel_block
 - compressium:diamond_1
 - compressium:diamond_2
@@ -16448,6 +17699,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - aquaculture:neptunium_block
 - aquaculture:neptunes_bounty
 - modularrouters:modular_router
+- beyond_earth_giselle_addon:fuel_loader
+- beyond_earth_giselle_addon:electric_blast_furnace
+- beyond_earth_giselle_addon:advanced_compressor
+- beyond_earth_giselle_addon:gravity_normalizer
+- #blue_skies:storage_blocks/diopside
+- #blue_skies:ores/diopside
+- #blue_skies:storage_blocks/charoite
+- #blue_skies:ores/charoite
+- blue_skies:everbright_emerald_ore
+- blue_skies:everdawn_emerald_ore
+- blue_skies:raw_charoite_block
+- extendedcrafting:crystaltine_block
+- extendedcrafting:the_ultimate_block
+- extendedcrafting:nether_star_block
+- extendedcrafting:ender_star_block
 
 #expandedstorage:mini_chest_secret_cycle
 - expandedstorage:vanilla_wood_mini_chest
@@ -16492,12 +17758,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - domum_ornamentum:vanilla_slab_compat
 - ars_nouveau:archwood_slab
 - valhelsia_structures:lapidified_jungle_slab
+- blue_skies:bluebright_slab
+- blue_skies:starlit_slab
+- blue_skies:frostbright_slab
+- blue_skies:lunar_slab
+- blue_skies:dusk_slab
+- blue_skies:maple_slab
+- blue_skies:cherry_slab
 
 #alexsmobs:platypus_spawns
-- #minecraft:sand
-- #forge:gravel
-- #forge:dirt
-- minecraft:hay_block
+- #alexsmobs:am_spawns
 
 #chipped:red_stained_glass_pane
 - minecraft:red_stained_glass_pane
@@ -16509,6 +17779,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:red_stained_glass_pane_6
 - chipped:red_stained_glass_pane_7
 - chipped:red_stained_glass_pane_8
+
+#productivebees:flowers/ammolite
+- #forge:storage_blocks/ammolite?
+- silentgems:ammolite_glowrose?
 
 #minecraft:small_flowers
 - minecraft:dandelion
@@ -16544,10 +17818,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - farmersdelight:wild_tomatoes
 - farmersdelight:wild_onions
 - cyclic:flower_cyan?
+- blue_skies:camellia
+- blue_skies:snowbloom
+- blue_skies:blush_blossom
+- blue_skies:polar_posy
+- blue_skies:chillweed
+- blue_skies:brittlebush
+- blue_skies:briskbloom
+- blue_skies:frose
+- blue_skies:midday_bayhop
+- blue_skies:moonlit_bloom
+- blue_skies:crystal_flower
+- blue_skies:blaze_bud
+- blue_skies:flare_floret
+- blue_skies:nightcress
+- blue_skies:muckweed
+- blue_skies:lucentroot
 
-#productivebees:flowers/gems/diamond
-- #forge:storage_blocks/diamond
-- #forge:ores/diamond
+#blue_skies:logs/lunar
+- blue_skies:lunar_log
+- blue_skies:lunar_wood
+- blue_skies:stripped_lunar_log
+- blue_skies:stripped_lunar_wood
 
 #productivebees:flowers/fiery
 - minecraft:magma_block
@@ -16568,6 +17860,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - create:scorchia
 - create:veridium
 
+#forge:ore_bearing_ground/stone
+- minecraft:stone
+
 #chipped:orange_stained_glass_pane
 - minecraft:orange_stained_glass_pane
 - chipped:orange_stained_glass_pane_1
@@ -16579,10 +17874,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:orange_stained_glass_pane_7
 - chipped:orange_stained_glass_pane_8
 
-#productivebees:flowers/gems/moonstone
-- #forge:storage_blocks/moonstone?
-- silentgems:moonstone_glowrose?
-- gemsnjewels:moonstone_block?
+#lootr:trapped_chests
+- lootr:lootr_trapped_chest
 
 #cfm:fences/upgraded
 - #cfm:fences/picket
@@ -16602,6 +17895,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - cfm:stripped_dark_oak_upgraded_fence
 - cfm:stripped_crimson_upgraded_fence
 - cfm:stripped_warped_upgraded_fence
+
+#productivebees:flowers/sapphire
+- #forge:storage_blocks/sapphire?
+- silentgems:sapphire_glowrose?
+- gemsnjewels:sapphire_block?
+- iceandfire:sapphire_block?
 
 #chipped:diorite
 - minecraft:diorite
@@ -16654,11 +17953,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - druidcraft:rope?
 - #decorative_blocks:seats?
 
-#productivebees:flowers/gems/apatite
-- #forge:storage_blocks/apatite?
-- silentgems:apatite_glowrose?
-- gemsnjewels:apatite_block?
-
 #sereneseasons:winter_crops
 - biomesoplenty:origin_sapling
 - biomesoplenty:flowering_oak_sapling
@@ -16710,11 +18004,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:raw_blocks/silver
 - immersiveengineering:raw_block_silver
-
-#productivebees:flowers/gems/iolite
-- #forge:storage_blocks/iolite?
-- silentgems:iolite_glowrose?
-- gemsnjewels:iolite_block?
 
 #minecolonies:pathblocks
 - #minecolonies:concrete
@@ -16817,6 +18106,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - computercraft:computer_advanced
 - computercraft:computer_command
 
+#blue_skies:logs/crystallized
+- blue_skies:crystallized_log
+- blue_skies:crystallized_wood
+
 #armorplus:ores/lava_crystal
 - armorplus:ore_lava_crystal
 - armorplus:ore_lava_crystal_stone
@@ -16831,6 +18124,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_sign
 - minecraft:crimson_sign
 - minecraft:warped_sign
+- biomesoplenty:fir_sign
+- biomesoplenty:redwood_sign
+- biomesoplenty:cherry_sign
+- biomesoplenty:mahogany_sign
+- biomesoplenty:jacaranda_sign
+- biomesoplenty:palm_sign
+- biomesoplenty:willow_sign
+- biomesoplenty:dead_sign
+- biomesoplenty:magic_sign
+- biomesoplenty:umbran_sign
+- biomesoplenty:hellbark_sign
 - #libx:impl_standing_signs
 - #securitycraft:secret_standing_signs
 - farmersdelight:canvas_sign
@@ -16850,10 +18154,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - farmersdelight:green_canvas_sign
 - farmersdelight:red_canvas_sign
 - farmersdelight:black_canvas_sign
+- blue_skies:bluebright_sign
+- blue_skies:starlit_sign
+- blue_skies:frostbright_sign
+- blue_skies:lunar_sign
+- blue_skies:dusk_sign
+- blue_skies:maple_sign
+- blue_skies:cherry_sign
+
+#productivebees:flowers/tourmaline
+- #forge:storage_blocks/tourmaline?
+- gemsnjewels:tourmaline_block?
 
 #productivebees:nests/slimy_nests
 - productivebees:slimy_nest
 - #productivebees:advanced_beehives
+
+#blue_skies:ores/falsite
+- blue_skies:falsite_ore
 
 #securitycraft:reinforced/stairs
 - #securitycraft:reinforced/wooden_stairs
@@ -16904,10 +18222,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #alexsmobs:leafcutter_ant_breakables
 - #minecraft:leaves
 
-#productivebees:flowers/gems/agate
-- #forge:storage_blocks/agate?
-- silentgems:agate_glowrose?
-- gemsnjewels:agate_block?
+#productivebees:flowers/kunzite
+- #forge:storage_blocks/kunzite?
+- gemsnjewels:kunzite_block?
+
+#forge:storage_blocks/raw_desh
+- beyond_earth:raw_desh_block
 
 #libx:impl_fence_gates
 
@@ -16963,16 +18283,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:podzol
 - minecraft:mycelium
 
-#productivebees:flowers/gems/jade
-- #forge:storage_blocks/jade?
-- silentgems:jade_glowrose?
-- gemsnjewels:jade_block?
-
-#productivebees:flowers/gems/tanzanite
-- #forge:storage_blocks/tanzanite?
-- silentgems:tanzanite_glowrose?
-- gemsnjewels:tanzanite_block?
-
 #domum_ornamentum:trapdoors_materials
 - #domum_ornamentum:default
 - #minecraft:planks
@@ -16985,6 +18295,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:storage_blocks/double_compressed_glow_stone
 - prefab:block_double_compressed_glowstone
 
+#productivebees:flowers/jasper
+- #forge:storage_blocks/jasper?
+
 #forge:glass_panes/purple
 - #chipped:purple_stained_glass_pane
 - minecraft:purple_stained_glass_pane
@@ -16992,6 +18305,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:glass/yellow
 - #chipped:yellow_stained_glass
 - minecraft:yellow_stained_glass
+
+#forge:ores/ostrum
+- beyond_earth:mars_ostrum_ore
 
 #chipped:lime_stained_glass_pane
 - minecraft:lime_stained_glass_pane
@@ -17035,6 +18351,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:carved_pumpkin_18
 - chipped:carved_pumpkin_19
 
+#blue_skies:bookshelves
+- blue_skies:bluebright_bookshelf
+- blue_skies:starlit_bookshelf
+- blue_skies:frostbright_bookshelf
+- blue_skies:lunar_bookshelf
+- blue_skies:dusk_bookshelf
+- blue_skies:maple_bookshelf
+- blue_skies:cherry_bookshelf
+
+#productivebees:flowers/sunstone
+- #forge:storage_blocks/sunstone?
+
 #buildinggadgets:whitelist/copy_paste
 
 #libx:impl_buttons
@@ -17077,6 +18405,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:ores/inferium
 - mysticalagriculture:inferium_ore
 - mysticalagriculture:deepslate_inferium_ore
+
+#blue_skies:ores/ventium
+- blue_skies:ventium_ore
 
 #minecraft:mooshrooms_spawnable_on
 - minecraft:mycelium
@@ -17247,11 +18578,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - chipped:black_wool_17
 - chipped:black_wool_18
 
-#productivebees:flowers/gems/ametrine
-- #forge:storage_blocks/ametrine?
-- silentgems:ametrine_glowrose?
-- gemsnjewels:ametrine_block?
-
 #chipped:glass
 - minecraft:glass
 - chipped:glass_1
@@ -17337,13 +18663,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - expandedstorage:lavender_mini_present_with_sparrow
 - expandedstorage:pink_amethyst_mini_present_with_sparrow
 
+#forge:storage_blocks/raw_copper
+- minecraft:raw_copper_block
+
 #forge:ores/azure_silver
 - silentgear:azure_silver_ore
-
-#productivebees:flowers/gems/carnelian
-- #forge:storage_blocks/carnelian?
-- silentgems:carnelian_glowrose?
-- gemsnjewels:carnelian_block?
 
 #domum_ornamentum:bricks
 - domum_ornamentum:brown_bricks
@@ -17550,6 +18874,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #productivebees:nests/cold_nests
 - productivebees:snow_nest
 
+#blue_skies:ladders
+- blue_skies:bluebright_ladder
+- blue_skies:starlit_ladder
+- blue_skies:frostbright_ladder
+- blue_skies:lunar_ladder
+- blue_skies:dusk_ladder
+- blue_skies:maple_ladder
+- blue_skies:cherry_ladder
+
 #alexsmobs:void_worm_breakables
 - #minecraft:leaves
 - minecraft:bamboo
@@ -17588,17 +18921,29 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #chipped:crimson_planks
 - ars_nouveau:archwood_planks
 - valhelsia_structures:lapidified_jungle_planks
+- blue_skies:bluebright_planks
+- blue_skies:starlit_planks
+- blue_skies:frostbright_planks
+- blue_skies:lunar_planks
+- blue_skies:dusk_planks
+- blue_skies:maple_planks
+- blue_skies:cherry_planks
+
+#productivebees:flowers/green_sapphire
+- #forge:storage_blocks/green_sapphire?
 
 #forge:cobblestone
 - #chipped:cobblestone
 - minecraft:cobblestone
 - minecraft:infested_cobblestone
 - minecraft:mossy_cobblestone
+- minecraft:cobbled_deepslate
+- #blue_skies:cobblestone
 
-#productivebees:flowers/gems/coral
-- #forge:storage_blocks/coral?
-- silentgems:coral_glowrose?
-- gemsnjewels:coral_block?
+#productivebees:flowers/aquamarine
+- #forge:storage_blocks/aquamarine?
+- gemsnjewels:aquamarine_block?
+- astralsorcery:aquamarine_sand_ore?
 
 #productivebees:flowers/burning
 - minecraft:magma_block
@@ -17660,6 +19005,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:red_candle
 - minecraft:black_candle
 - supplementaries:skull_candle
+- #occultism:candles
+
+#productivebees:flowers/onyx
+- #forge:storage_blocks/onyx?
 
 #chipped:warped_fungus
 - minecraft:warped_fungus
@@ -17689,6 +19038,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #domum_ornamentum:doors_materials
 - #domum_ornamentum:default
 - #minecraft:planks
+
+#forge:ore_bearing_ground/deepslate
+- minecraft:deepslate
 
 #supplementaries:bellows_tickable
 - #minecraft:campfires?

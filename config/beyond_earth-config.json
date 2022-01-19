@@ -6,7 +6,7 @@
   "Mogler Spawn": true,
   "Martian Raptor Spawn": true,
   "Alien Village Structure": true,
-  "Meteor Structure": true,
+  "Meteor Structure": false,
   "Venus Bullet Structure": true,
   "Venus Tower Structure": false,
   "Oil Well Structure": true,
