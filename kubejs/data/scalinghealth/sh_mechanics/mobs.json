@@ -53,7 +53,7 @@
     }
   ],
   "blights" : {
-    "blightChance" : 0.02444,
+    "blightChance" : 0.01444,
     "blightXpBoost" : 2,
     "notifyBlightDeath" : true,
     "blightDifficultyModifier" : 1.5,

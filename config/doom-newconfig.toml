@@ -138,17 +138,17 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Gladiator Biomes" = ["#nether"]
 	#Range: > 1
-	"Gladiator Spawn Weight" = 3
+	"Gladiator Spawn Weight" = 1
 	#Range: > 1
 	"Gladiator Min Group" = 1
 	#Range: > 1
 	"Gladiator Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gladiator Max Health" = 340.0
+	"Sets Gladiator Max Health" = 680.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gladiator Ranged Damage" = 15.0
+	"Sets Gladiator Ranged Damage" = 35.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gladiator Melee Damage" = 17.0
+	"Sets Gladiator Melee Damage" = 21.0
 
 ["Mob Settings:Mancubus"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #

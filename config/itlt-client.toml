@@ -384,7 +384,7 @@
 				# 
 				# The maximum amount of allocated RAM in GB to be able to launch the modpack.
 				#Range: 0.1 ~ 1024.0
-				reqMaxMemoryAmountInGB = 16.0
+				reqMaxMemoryAmountInGB = 12.0
 
 			[Java.Memory.Max.Warning]
 				# 
@@ -398,7 +398,7 @@
 				# The maximum recommended amount of allocated RAM in GB needed to skip the warning
 				# message when launching the modpack.
 				#Range: 0.1 ~ 1024.0
-				warnMaxMemoryAmountInGB = 14.0
+				warnMaxMemoryAmountInGB = 10.0
 
 		[Java.Memory.NearMax]
 

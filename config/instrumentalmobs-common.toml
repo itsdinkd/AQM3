@@ -11,5 +11,5 @@
 	soundDamageChance = 0.35
 	#The chance of instrument dropping from a mob holding one [default: 0.5D]
 	#Range: 0.0 ~ 1.0
-	instrumentDropChance = 0.5
+	instrumentDropChance = 0.65
 

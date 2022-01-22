@@ -32,7 +32,7 @@
 [World]
 	#The percentage chance a Soulium Ore spawns in a Soulstone cluster.
 	#Range: 0.0 ~ 1.0
-	souliumOreChance = 0.05
+	souliumOreChance = 0.0225
 	#Should Prosperity Ore generate in the world?
 	generateProsperityOre = true
 	#How many Prosperity Ore veins should spawn in a chunk.

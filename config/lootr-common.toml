@@ -1,9 +1,9 @@
 #determine whether or not loot generated is the same for all players using the provided seed, or randomised per player
 randomise_seed = false
 #whether or not mineshaft chest minecarts should be converted to standard loot chests
-convert_mineshafts = false
+convert_mineshafts = true
 #whether or not quark chests used in world generation for loot purposes should be replaced with Lootr chests
-convert_quark = false
+convert_quark = true
 #whether or not the entire forge:chests/wooden tag should be added to the conversion list for structures (if they are backed by RandomizableContainerBlockEntity)
 convert_wooden_chests = true
 #whether or not the entire forge:chests/trapped tag should be added to the conversion list for structures (if they are backed by RandomizableContainerBlockEntity
@@ -36,9 +36,9 @@ report_unresolved_tables = false
 #list of modids whose loot tables shouldn't be converted (in the format of ["modid", "other_modid"])
 loot_modid_blacklist = ["dungeons_arise", "graveyard"]
 #list of structures in which contains shouldn't be converted (in the format of ["modid:structure_name", "othermodid:other_structure_name"])
-loot_structure_blacklist = []
+loot_structure_blacklist = ["graveyard:large_graveyard", "graveyard:medium_graveyard", "dungeons_arise:heavenly_challenger", "dungeons_arise:heavenly_conqueror", "dungeons_arise:heavenly_rider", "dungeons_arise:coliseum", "dungeons_arise:illager_castle", "dungeons_arise:illager_fort"]
 #list of structures in which loot chests should automatically decay (in the format of ["modid:structure_name", "modid:other_structure_name"])
-decay_structures = []
+decay_structures = ["graveyard:large_graveyard", "graveyard:medium_graveyard"]
 #how long (in ticks) a refreshing loot containers should take to refresh their contents (default 20 minutes = 20 * 60 * 20)
 #Range: > 0
 refresh_value = 24000

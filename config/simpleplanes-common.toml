@@ -15,7 +15,7 @@
 	plane_fuel_cost = 6
 	#Fuel cost of a large plane
 	#Range: > 0
-	large_plane_fuel_cost = 12
+	large_plane_fuel_cost = 10
 	#Fuel cost of a helicopter
 	#Range: > 0
 	helicopter_fuel_cost = 9

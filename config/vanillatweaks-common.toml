@@ -83,9 +83,9 @@
 		#Want to shear nametag of named entities?
 		shearOffNameTag = true
 		#Want baby zombies to burn by the light of the day?
-		babyZombieBurnInDaylight = true
+		babyZombieBurnInDaylight = false
 		#Want creeper's to burn in daylight?
-		creeperBurnInDaylight = true
+		creeperBurnInDaylight = false
 		#Want TNT to ignite when next to lava or magma block?
 		tntIgnition = true
 		#Want hoe to act like a sickle?

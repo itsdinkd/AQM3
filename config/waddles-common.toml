@@ -1,12 +1,12 @@
 
 [general]
 	#Enable that penguins drop fish (0 - 2 Raw Cod)
-	dropFish = false
+	dropFish = true
 	#Penguins should drop experience?
 	dropExp = true
 	#Use the Darkosto skin variant by default?
 	darkostoDefault = true
-	"spawn blocks" = ["minecraft:grass_block"]
+	"spawn blocks" = ["minecraft:grass_block", "minecraft:snow_block"]
 
 ["spawn chances"]
 	#Configure penguins spawn weight & min/max group size. Set weight to 0 to disable.

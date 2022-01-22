@@ -3,7 +3,7 @@
 [General]
 	#The percentage chance that a Wither will drop a Withering Soul when killed.
 	#Range: 0.0 ~ 1.0
-	witheringSoulChance = 0.1
+	witheringSoulChance = 0.075
 	#The amount of Dragon Scales that an Ender Dragon will drop when killed.
 	#Range: 0 ~ 64
 	dragonScalesAmount = 1
@@ -22,7 +22,7 @@
 	netherProsperitySpawnRate = 2
 	#The maximum amount of Nether Prosperity Ore blocks that can spawn in a vein.
 	#Range: > 0
-	netherProsperitySpawnSize = 3
+	netherProsperitySpawnSize = 2
 	#The minimum Y level that Nether Prosperity Ore veins can spawn.
 	#Range: 0 ~ 128
 	netherProsperitySpawnMinY = 25
@@ -47,10 +47,10 @@
 	generateEndProsperityOre = true
 	#How many End Prosperity Ore veins should spawn in a chunk.
 	#Range: > 0
-	endProsperitySpawnRate = 2
+	endProsperitySpawnRate = 1
 	#The maximum amount of End Prosperity Ore blocks that can spawn in a vein.
 	#Range: > 0
-	endProsperitySpawnSize = 2
+	endProsperitySpawnSize = 1
 	#The minimum Y level that Prosperity Ore veins can spawn.
 	#Range: 0 ~ 128
 	endProsperitySpawnMinY = 10
@@ -61,10 +61,10 @@
 	generateEndInferiumOre = true
 	#How many End Inferium Ore veins should spawn in a chunk.
 	#Range: > 0
-	endInferiumSpawnRate = 2
+	endInferiumSpawnRate = 1
 	#The maximum amount of End Inferium Ore blocks that can spawn in a vein.
 	#Range: > 0
-	endInferiumSpawnSize = 2
+	endInferiumSpawnSize = 1
 	#The minimum Y level that End Inferium Ore veins can spawn.
 	#Range: 0 ~ 128
 	endInferiumSpawnMinY = 55

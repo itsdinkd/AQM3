@@ -16,7 +16,7 @@
   },
   "parent": "slashblade:material/proudsoul_tiny",
   "criteria": {
-    "BrokenBlade_soul": {
+    "BrokenBladeSoul": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -30,7 +30,7 @@
   },
   "requirements": [
     [
-      "BrokenBlade_soul"
+      "BrokenBladeSoul"
     ]
   ],
   "rewards": {

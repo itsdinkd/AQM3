@@ -4,7 +4,6 @@
 	order_index: 1
 	filename: "random_beginnings"
 	title: "ILOVERANDOMThings"
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -18,7 +17,7 @@
 				type: "kill"
 				title: "Kill a Rattlesnake"
 				icon: "alexsmobs:rattlesnake_rattle"
-				entity: "minecraft:zombie"
+				entity: "alexsmobs:rattlesnake"
 				value: 1L
 			}]
 			rewards: [{
