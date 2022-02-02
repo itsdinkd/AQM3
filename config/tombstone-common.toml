@@ -80,8 +80,6 @@
 	knowledge_reduce_phantom_spawn = true
 	#Allows players to be hurt by special damages related to some items [false/true|default:true]
 	allow_beyond_the_grave_damage = true
-	#Fishing treasures can only be found in open water [false/true|default:true]
-	fishing_treasure_in_open_water = true
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
 	#Range: > 1200
 	time_for_phantom_spawn = 72000

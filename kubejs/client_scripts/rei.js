@@ -8,6 +8,7 @@ const removeJei = [
 'chanceglobe:chance_globe',
 'cyclic:antigravity',
 'cyclic:apple_chocolate',
+'cagedmobs:dnasamplernetherite',
 'cyclic:apple_chorus',
 'cyclic:apple_diamond',
 'cyclic:apple_emerald',
@@ -18,7 +19,12 @@ const removeJei = [
 'cyclic:apple_prismarine',
 'cyclic:apple_sprout_emerald',
 'cyclic:beacon',
+'enigmaticlegacy:ultimate_potion',
+'enigmaticlegacy:ultimate_potion_splash',
+'enigmaticlegacy:ultimate_potion_lingering',
 'chancecubes:scanner',
+'cyclic:tile_transporter_empty',
+'cyclic:tile_transporter',
 'cyclic:crafter',
 'cyclic:heart',
 'cyclic:empty_heart',
@@ -60,7 +66,6 @@ const removeJei = [
 'cyclic:uncrafter',
 'cyclic:water_candle',
 'cyclic:wireless_item',
-'essentials:wither_cannon',
 'extradisks:infinite_fluid_storage_block',
 'extradisks:infinite_fluid_storage_disk',
 'extradisks:infinite_fluid_storage_part',
@@ -107,6 +112,48 @@ onEvent('jei.hide.items', event => {
   removeJei.forEach(item => {
     event.hide(item)
   })
+
+// refined storage colors removal
+let rsColors = [
+'white',
+'orange',
+'magenta',
+'light_blue',
+'yellow',
+'blue',
+'lime',
+'pink',
+'gray',
+'light_gray',
+'cyan',
+'purple',
+'brown',
+'green',
+'red',
+'black'
+];
+
+rsColors.forEach(item => {
+  event.hide('refinedstorage:' + item + '_grid')
+  event.hide('refinedstorage:' + item + '_creative_controller')
+  event.hide('refinedstorage:' + item + '_controller')
+  event.hide('refinedstorage:' + item + '_crafting_grid')
+  event.hide('refinedstorage:' + item + '_fluid_grid')
+  event.hide('refinedstorage:' + item + '_pattern_grid')
+  event.hide('refinedstorage:' + item + '_network_receiver')
+  event.hide('refinedstorage:' + item + '_network_transmitter')
+  event.hide('refinedstorage:' + item + '_relay')
+  event.hide('refinedstorage:' + item + '_detector')
+  event.hide('refinedstorage:' + item + '_detector')
+  event.hide('refinedstorage:' + item + '_security_manager')
+  event.hide('refinedstorage:' + item + '_wireless_transmitter')
+  event.hide('refinedstorage:' + item + '_disk_manipulator')
+  event.hide('refinedstorage:' + item + '_crafter_manager')
+  event.hide('refinedstorage:' + item + '_crafter')
+  event.hide('refinedstorage:' + item + '_crafting_monitor')
+});
+
+
 })
 
 onEvent('rei.add.items', event => {
@@ -116,7 +163,19 @@ onEvent('rei.add.items', event => {
 });
 
 onEvent('rei.information', event => {
+  event.add('minecraft:spawner', 'Spawning Disabled', ['Silktouch on spawners is only enabled so you can use it for the Caged Mob recipe', '', 'Placing this spawner down will only spawn pigs, meaning its disabled']);
   event.add('kubejs:star_of_icon', 'Boss Item', ['To Retrieve..', 'Kill Icon of Sin']);
   event.add('kubejs:demon_pearl', 'Boss Item', ['To Retrieve..', 'Kill Tyrant']);
   event.add('kubejs:corrupted_emerald', 'Boss Item', ['To Retrieve..', 'Kill Mother Demon']);
+  event.add('enigmaticlegacy:oblivion_stone', 'How to Use', [
+  "In it's initial state, keystone does nothing due to having it's list empty. You will have to combine it in a crafting grid with any item or block in order to add it to that list",
+  "",
+  "Combining Keystone",
+  "",
+  "The process can be repeated until all desired items are added. The list itself, however, has some limitations:",
+  "",
+  "- After adding 25 or more items to the list, it will be fixed at displaying exactly 25 items in Ctrl tooltip. Those items will be chosen randomly from whole list and constantly shuffled, making it basically unreadable for human's eyes;",
+  "- After adding 100 items to the list, it will be impossible to add more via crafting grid. Technically, keystones with larger lists still could be obtained by using commands or NBT editors;",
+  "- List completely ignores damage, enchants and NBT of added items. Therefore, it's not possible to specify seperate item types that are divided by those parameters (for instance - if any vanilla Splash Potion is combined with the keystone, it will consume any Splash Potions regardless of effects);"
+  ]);
 });

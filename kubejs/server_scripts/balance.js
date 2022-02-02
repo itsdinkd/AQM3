@@ -3,7 +3,7 @@
 settings.logAddedRecipes = false;
 settings.logRemovedRecipes = false;
 settings.logSkippedRecipes = false;
-settings.logErroringRecipes = false;
+settings.logErroringRecipes = true;
 
 console.info('AQM3 -- Modifying Recipes)');
 
@@ -72,7 +72,7 @@ event.replaceInput(
 event.replaceInput(
   { id:"cyclic:evoker_fang" },
     "minecraft:cobweb",
-    "beyond_earth:calorite_tank"
+    "enigmaticlegacy:ender_rod"
 );
 event.replaceInput(
   { id:"cyclic:evoker_fang" },
@@ -278,6 +278,35 @@ event.replaceInput(
 "#forge:dyes/purple",
 "gobber2:gobber2_globette"
 );
+
+// Mystical Agriculture
+const banMaItems =  [
+    'apatite',
+    'brass',
+    'bronze',
+    'chrome',
+    'constantan',
+    'electrum',
+    'fluix',
+    'graphite',
+    'invar',
+    'iridium',
+    'mithril',
+    'quartz_enriched_iron',
+    'rubber',
+    'ruby',
+    'sapphire',
+    'steel',
+    'titanium',
+    'tungsten',
+  ]
+
+banMaItems.forEach(item => {
+    ['seeds', 'essence'].forEach(itemType => {
+      event.remove({output: `mysticalagriculture:${item}_${itemType}`})
+      event.remove({input: `mysticalagriculture:${item}_${itemType}`})
+    })
+  });
 
 // End Game -- Angel Ring
 event.remove({output: 'angelring:itemring'});
@@ -572,11 +601,32 @@ event.replaceInput(
  "extendedcrafting:ender_star"
  );
 
+// Caged Mobs
+event.remove({id: 'cagedmobs:crafting/mobcage'})
+event.shaped('cagedmobs:mobcage', [' s ', 'ggg', ' s '],
+  {
+    s: 'minecraft:spawner',
+    g: 'gobber2:gobber2_ingot'
+  }
+);
 
-});
-onEvent('item.tags', event => {
-// Get the #forge:cobblestone tag collection and add Diamond Ore to it
-// event.get('forge:cobblestone').add('minecraft:diamond_ore')
-// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
-// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
+event.remove({id: 'cagedmobs:crafting/dnasampler'})
+event.shaped('cagedmobs:dnasampler', ['i i', ' d ', 's b'],
+  {
+    i: "gobber2:gobber2_ingot_nether",
+    d: "refinedstorage:silk_touch_upgrade",
+    b: "oresabovediamonds:amethyst_block"
+  }
+);
+
+event.remove({id: 'cagedmobs:crafting/dnasamplerdiamond'})
+event.shaped('cagedmobs:dnasamplerdiamond', ['i  i', ' d ', 's b'],
+  {
+    i: "cagedmobs:star_infused_netherite_ingot",
+    d: "refinedstorage:silk_touch_upgrade",
+    b: "oresabovediamonds:black_opal_block"
+  }
+);
+
+
 })

@@ -2,11 +2,11 @@
   "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
   "configVersion": 4,
   "startingBlocks": 300,
-  "maxClaimBlocks": 5000,
-  "ticksForNextBlock": 900,
+  "maxClaimBlocks": 6000,
+  "ticksForNextBlock": 1200,
   "minClaimsize": 100,
   "defaultClaimDepth": 10,
-  "maxClaims": -1,
+  "maxClaims": 5,
   "blacklistedWorlds": [
     "minecraft:overworld"
   ],

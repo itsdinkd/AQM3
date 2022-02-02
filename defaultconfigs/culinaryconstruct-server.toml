@@ -1,0 +1,14 @@
+
+[server]
+	#The maximum amount of food that a single sandwich can give
+	#Range: 1 ~ 100
+	maxFoodPerSandwich = 8
+	#Blacklist ingredients with more than this max saturation modifier, -1 to disable
+	#Range: -1.0 ~ 100.0
+	maxIngredientSaturation = 14
+	#Blacklist ingredients with more than this max food value, -1 to disable
+	#Range: -1 ~ 100
+	maxIngredientFood = 12
+	#List of items to blacklist as ingredients
+	ingredientBlacklist = ["gobber2:gobber2_goo", "gobber2:gobber2_gooey_apple", "gobber2:gobber2_gooey_nether", "gobber2:gobber2_gooey_bread", "gobber2:gobber2_gooey_bread_nether", "gobber2:gobber2_gooey_beef", "gobber2:gobber2_gooey_beef_nether", "gobber2:gobber2_gooey_beefstew", "gobber2:gobber2_gooey_beefstew_nether"]
+

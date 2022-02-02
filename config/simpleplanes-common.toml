@@ -6,8 +6,6 @@
 	turnThreshold = 20
 	#Easier flight mode, disables the extreme movements
 	easyFlight = false
-	#Planes crash on bad landings
-	planeCrash = true
 	#Allow stealing planes by players
 	plane_heist = false
 	#Fuel cost of a small plane

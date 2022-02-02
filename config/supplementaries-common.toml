@@ -67,9 +67,9 @@
 		#Allows the player to directly drink from jar items
 		drink_from_jar_item = false
 		#Dynamically allows all small mobs inside jars depending on their hitbox size. Tinted jars can accept hostile mbos too
-		jar_auto_detect = true
+		jar_auto_detect = false
 		#Allow Jars to capture small mobs
-		jar_capture = true
+		jar_capture = false
 		#Allow Jars to hold cookies
 		jar_cookies = true
 		#Allow Jars to hold liquids from bottles, buckets and bowls
@@ -79,11 +79,14 @@
 		#Allows all entities to be captured by cages and jars. Not meant for survival
 		allow_all_mobs = false
 		#Allows all baby mobs to be captured by cages
-		cage_allow_all_babies = true
+		cage_allow_all_babies = false
 		#Dynamically allows all small mobs inside cages depending on their hitbox size
 		cage_auto_detect = false
 		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
-		persistent_mobs = true
+		persistent_mobs = false
+		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
+		#Range: 1 ~ 100
+		health_threshold = 50
 
 	[blocks.goblet]
 		#Allows drinking from goblets
@@ -105,7 +108,7 @@
 
 	[blocks.safe]
 		#Makes safes only breakable by their owner or by a player in creative
-		prevent_breaking = true
+		prevent_breaking = false
 		#Make safes simpler so they do not require keys:
 		#they will be bound to the first person that opens one and only that person will be able to interact with them
 		simple_safes = true
@@ -169,12 +172,12 @@
 		stick_pole = true
 		#Maximum allowed pole length
 		#Range: 0 ~ 256
-		pole_length = 16
+		pole_length = 20
 
 	[blocks.bubble_block]
 		#Max lifetime of bubble blocks. Set to 10000 to have it infinite
 		#Range: 1 ~ 10000
-		lifetime = 1200
+		lifetime = 1800
 		#Can bubble break when stepped on?
 		break_when_touched = true
 
@@ -292,7 +295,7 @@
 		#Allow wall lanterns placement
 		enabled = true
 		#Gives high priority to wall lantern placement. Enable to override other wall lanterns placements, disable if it causes issues with other mods that use lower priority block click events
-		high_priority = true
+		high_priority = false
 		#Mod ids of mods that have lantern block that extend the base lantern class but don't look like one
 		mod_blacklist = ["extlights", "betterendforge", "tconstruct"]
 
@@ -314,7 +317,7 @@
 		enabled = true
 		#Number of ticks it takes for gunpowder to burn 1 stage (out of 8). Increase to slow it down
 		#Range: 0 ~ 20
-		speed = 2
+		speed = 3
 		#Age at which it spread to the next gunpowder block. Also affects speed
 		#Range: 0 ~ 8
 		spread_age = 2
@@ -325,7 +328,7 @@
 
 	[tweaks.bottle_xp]
 		#Allow bottling up xp by using a bottle on an enchanting table
-		enabled = true
+		enabled = false
 		#bottling health cost
 		#Range: 0 ~ 20
 		cost = 2
@@ -422,7 +425,7 @@
 	[items.slingshot]
 		#Slingshot range multiplier. Affect the initial projectile speed
 		#Range: 0.0 ~ 5.0
-		range_multiplier = 1.4
+		range_multiplier = 1.5
 		#Time in ticks to fully charge a slingshot
 		#Range: 0 ~ 100
 		charge_time = 37

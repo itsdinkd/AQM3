@@ -30,6 +30,8 @@
 	"Shotgun Damage" = 12.5
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Unmaykr Damage" = 1.7
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Grenade Damage" = 20.0
 
 ["Mob Settings:Imps"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #

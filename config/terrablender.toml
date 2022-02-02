@@ -44,4 +44,6 @@
 	#The weighting of data pack biome regions in the nether.
 	#Range: 0-2147483647
 	datapack_nether_region_weight = 15
+	#Force the biome parameters to reset when loading worlds.
+	force_reset_biome_parameters = false
 

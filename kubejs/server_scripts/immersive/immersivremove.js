@@ -1,14 +1,12 @@
 // priority: 0
 console.info('AQM3 -- Removing Immersive Recipes)');
-const ieEnchantRemove = [
-"mending",
-"infinity",
-"unbreaking"
-];
-
 onEvent('recipes', event => {
-ieEnchantRemove.forEach(item => {
-  event.remove({output: 'minecraft:' + item, type: 'assemblylinemachines:enchantment_book'})
-})
+event.remove({output: 'immersiveengineering:cloche'})
+  event.shaped('immersiveengineering:cloche', ['GGG', 'E R', 'AGA'], {
+    G: '#doom:glass',
+    E: 'immersiveengineering:electron_tube',
+    A: 'gobber2:gobber2_globette',
+    R: 'immersiveengineering:logic_unit'
+  })
 
 });

@@ -42,7 +42,7 @@
       },
       {
         "entities" : ["minecraft:elder_guardian", "minecraft:wither", "minecraft:ender_dragon"],
-        "onKilled" : "difficulty + 0.25"
+        "onKilled" : "difficulty + 0.33"
       },
       {
         "entities" : ["meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:swampjaw"],

@@ -8,6 +8,7 @@ const recipeRemoveJei = [
 'buildinggadgets:gadget_destruction',
 'chanceglobe:chance_globe',
 'chancecubes:chance_cube',
+'cagedmobs:dnasamplernetherite',
 'cyclic:antigravity',
 'cyclic:apple_chocolate',
 'cyclic:apple_chorus',
@@ -47,6 +48,7 @@ const recipeRemoveJei = [
 'cyclic:heart',
 'cyclic:heart_empty',
 'cyclic:ice_scepter',
+'cyclic:tile_transporter_empty',
 'cyclic:lightning_scepter',
 'cyclic:mattock',
 'cyclic:mattock_nether',
@@ -59,7 +61,6 @@ const recipeRemoveJei = [
 'cyclic:teleport_wand',
 'cyclic:uncrafter',
 'cyclic:water_candle',
-'essentials:wither_cannon',
 'extradisks:infinite_fluid_storage_block',
 'extradisks:infinite_fluid_storage_disk',
 'extradisks:infinite_fluid_storage_part',
@@ -91,9 +92,9 @@ recipeRemoveJei.forEach(item => {
   event.remove({output: item})
 });
 
+event.remove({output: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:bronze"}')})
+
 event.remove({id: 'mysticalagriculture:mystical_fertilizer'})
-// Assembly Lines Enchantments
-event.remove({id: 'assemblylinemachines:enchanted_book/mending'});
 
 
 // Armor Plus
@@ -113,18 +114,24 @@ armorPMatsWeapons = [
 ]
 
 armorPMats.forEach(item => {
-  event.remove({id: 'armorplus:redstone_'});
-  armorPMatsWeapons.forEach(item => {
-    event.remove({id: 'armorplus:obsidian_'});
+  event.remove({id: 'armorplus:redstone_' + item});
+  event.remove({id: 'armorplus:obsidian_' + item});
   });
+
+armorPMatsWeapons.forEach(item => {
+  event.remove({id: 'armorplus:obsidian_' + item});
 });
 
+// Assembly Lines Enchantments
+const ieEnchantRemove = [
+"mending",
+"infinity",
+"unbreaking",
+];
 
-});
-
-onEvent('item.tags', event => {
-// Get the #forge:cobblestone tag collection and add Diamond Ore to it
-// event.get('forge:cobblestone').add('minecraft:diamond_ore')
-// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
-// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
+ieEnchantRemove.forEach(item => {
+  event.remove({id: 'assemblylinemachines:enchanted_book/' + item})
 })
+
+
+});

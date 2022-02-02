@@ -88,7 +88,7 @@
 	#How frequently gear will recalcute stats as damaged
 	#Higher numbers will cause more recalculations, allowing traits to update stat values more often
 	#Range: > 1
-	damageFactorLevels = 9
+	damageFactorLevels = 10
 	#If true, gear breaks permanently, like vanilla tools and armor
 	breaksPermanently = false
 
@@ -137,7 +137,9 @@
 
 	[gear.upgrades]
 		#If true, upgrade parts may only be applied in an anvil.
-		applyInAnvilOnly = false
+		applyInAnvilOnly = true
+		#This applies to the recipe where placing a gear item and a part into a crafting grid will swap out the part.
+		destroySwappedParts = true
 
 #Settings for the material grader
 [materialGrader]

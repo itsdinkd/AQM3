@@ -1,0 +1,18 @@
+
+[general]
+
+	#Spawn rate settings
+	[general.spawnrate]
+
+		#Allay
+		[general.spawnrate.allay]
+			#Spawn Chance
+			#Range: > 0
+			weight = 10
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+

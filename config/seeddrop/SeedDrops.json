@@ -277,6 +277,10 @@
       "chance": 0.73
     },
     {
+      "item": "animalcrops:pollen",
+      "chance": 0.25
+    },
+    {
       "item": "occultism:datura_seeds",
       "chance": 0.73
     }

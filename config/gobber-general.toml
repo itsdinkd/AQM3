@@ -141,6 +141,14 @@
 	gobberEndArmorHealthPerks = false
 	#Enable/disable Gobber Armor water breathing
 	gobberArmorWaterBreathing = false
+	#Enable/disable Gobber Armor auto feeding
+	gobberArmorAutofeed = true
+	#Enable/disable Gobber Nether Armor auto feeding
+	gobberNetherArmorAutofeed = true
+	#Enable/disable Gobber End Armor auto feeding
+	gobberEndArmorAutofeed = true
+	#Enable/disable Gobber Dragon Armor auto feeding
+	gobberDragonArmorAutofeed = true
 
 #Auto Replanting Settings
 [replanting_settings]
@@ -328,13 +336,13 @@
 	gobberOreEndGeneration = true
 	#Size of Gobber End Ore pockets [0-100, default: 9]
 	#Range: 0 ~ 100
-	gobberOreEndSize = 5
+	gobberOreEndSize = 4
 	#Maximal height for Gobber End Ore pocket generation [0-255, default: 255]
 	#Range: 0 ~ 255
-	gobberOreEndMaxHeight = 110
+	gobberOreEndMaxHeight = 90
 	#Chances of Gobber End Ore pocket being generated [0-30, default: 15]
 	#Range: 0 ~ 30
-	gobberOreEndChance = 10
+	gobberOreEndChance = 8
 
 #Enable Dragon Armor Void Protect - immune to /kill command
 [dragon_armor_void]

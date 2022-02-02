@@ -2,7 +2,7 @@
 ["Version Configuration"]
 	# Define a version here. On world load the mod will look up the serverconfig version and reset all files that specified up to the newest version.
 	# Example: ["1=minecraft","2=forge"] will reset minecraft and forge config on first load, but will only reset forge if the world has been loaded before with only version 1 defined
-	versions = ["1=artifacts,signpost,dimdungeons,scalinghealth,elevatorid,minecolonies,refinedstorage,forge,refinedstorageaddons,mahoutsukai,rangedpumps,solcarrot,immersiveengineering,securitycraft,xptome,occultism", "2=minecolonies", "3=scalinghealth,minecolonies,productivebees,pipez,carryon,engineersdecor,xptome,chargers,compactmachines,signpost,assemblylinemachines", "4=carryon", "5=artifacts"]
+	versions = ["1=artifacts,signpost,dimdungeons,scalinghealth,elevatorid,minecolonies,refinedstorage,forge,refinedstorageaddons,mahoutsukai,rangedpumps,solcarrot,immersiveengineering,securitycraft,xptome,occultism", "2=minecolonies", "3=scalinghealth,minecolonies,productivebees,pipez,carryon,engineersdecor,xptome,chargers,compactmachines,signpost,assemblylinemachines", "4=carryon", "5=artifacts", "6=carryon"]
 
 ["File Deleter"]
 	# This is intended for deleting files for pack updates. This is a last resort! Replace with empty files instead when possible. The file will be deleted every launch if it exists! Specify the path to the file. Comma Separated List. Example: scripts/badscript.zs

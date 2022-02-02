@@ -58,3 +58,7 @@
 	#Disables/Enables Glowing Colored Water from spawning
 	genGlowingColoredWater = true
 
+["Neon Sign Config"]
+	#Enable/Disable the neon hum sound
+	neonHum = true
+

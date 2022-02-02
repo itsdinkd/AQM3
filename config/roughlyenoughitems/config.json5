@@ -824,7 +824,7 @@
 		"theme": "LIGHT",
 		"layout": {
 			// Declares the position of the search field.
-			"searchFieldLocation": "BOTTOM_SIDE",
+			"searchFieldLocation": "CENTER",
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
@@ -849,6 +849,7 @@
 		"leftSideMobEffects": true,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
-		"allowInventoryHighlighting": true
+		"allowInventoryHighlighting": true,
+		"itemCheatingMode": "REI_LIKE"
 	}
 }

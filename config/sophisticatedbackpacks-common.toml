@@ -356,7 +356,7 @@
 				#Xp Pump Upgrade Settings
 				[common.smeltingUpgrade.smokingUpgrade.blastingUpgrade.xpPumpUpgrade]
 					#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
-					mendingOn = true
+					mendingOn = false
 					#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
 					#Range: 1 ~ 20
 					maxXpPointsPerMending = 4

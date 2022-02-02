@@ -1,0 +1,21 @@
+
+[general]
+	#Determines if bonemeal can be applied to the animal crops, anemonemals, animal shrooms, and magnemones
+	bonemeal = false
+	#If CONSUME, the entity is killed when pollen are used, though no items are dropped
+	#If DAMAGE, the entity will take 2 hearts of damage when pollen are used
+	#Allowed Values: CONSUME, DAMAGE, NONE
+	action = "CONSUME"
+
+[grassDrops]
+	#If true, grass will rarely drop animal pollen
+	animal_pollen = true
+	#If true, grass will rarely drop a random animal seed
+	animal_seeds = false
+	#If true, sea grass will rarely drop a random anemonemal
+	anemonemal = false
+	#If true, nether sprouts will rarely drop a random animal shroom
+	animal_shrooms = false
+	#If true, nether sprouts will rarely drop a random magnemones
+	magnemones = false
+

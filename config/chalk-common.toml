@@ -7,4 +7,7 @@ GlowItems = ["minecraft:glowstone_dust", "minecraft:glow_ink_sac"]
 #If enabled, Chalks will generate in Dungeons, Abandoned Mineshafts, Planes and Savanna villages, Cartographer houses
 #Default: true
 ShouldGenerateInChests = true
+#How many light glowing mark produces. Default: 5
+#Range: 0 ~ 14
+GlowingMarkLightLevel = 5
 
