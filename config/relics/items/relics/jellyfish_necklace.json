@@ -1,0 +1,9 @@
+{
+  "stats": {
+    "swimSpeedModifier": -0.4,
+    "magicResistance": 0.25,
+    "healMultiplier": 1.5,
+    "riptideCooldown": 9,
+    "riptidePower": 2.0
+  }
+}

@@ -1,0 +1,26 @@
+
+#Server side config for CagedMobs. If changed it will affect the whole server!
+[server]
+	#Disables Hopping Cages' automatic harvest, making them work the same as the non-hopping variant.
+	hoppingCagesDisabled = false
+	#Makes all samplers (all tiers) only single use. After a mob is sampled and put into the cage the sampler will break.
+	singleUseSamplers = true
+	#Sets the speed of all cages. The bigger the value the faster the cages will work (by default: 1.00).
+	#Range: 0.01 ~ 100.0
+	cagesSpeed = 0.95
+	#List of all entities blacklisted from use (in a modid:name format). Players will not be able to put entities from this list into cages nor sample them.
+	#To switch this list into a whitelist, set the 'entitiesListInWhitelistMode' value to true. 
+	#Example use: when 'entitiesList' contains ["minecraft:pig", "minecraft:cow","minecraft:rabbit"] vanilla pig, cow and rabbit will be blacklisted.
+	entitiesList = ["minecraft:axolotl", "minecraft:bat", "minecraft:bee", "minecraft:blaze", "minecraft:cat", "minecraft:cave_spider", "minecraft:chicken", "minecraft:cod", "minecraft:cow", "minecraft:creeper", "minecraft:dolphin", "minecraft:donkey", "minecraft:drowned", "minecraft:enderman", "minecraft:endermite", "minecraft:evoker", "minecraft:fox", "minecraft:ghast", "minecraft:giant", "minecraft:glow_squid", "minecraft:goat", "minecraft:guardian", "minecraft:hoglin", "minecraft:horse", "minecraft:husk", "minecraft:illusioner", "minecraft:llama", "minecraft:magma_cube", "minecraft:mooshroom", "minecraft:mule", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:phantom", "minecraft:pig", "minecraft:piglin", "minecraft:piglin_brute", "minecraft:pillager", "minecraft:polar_bear", "minecraft:pufferfish", "minecraft:rabbit", "minecraft:ravager", "minecraft:salmon", "minecraft:sheep", "minecraft:shulker", "minecraft:silverfish", "minecraft:skeleton", "minecraft:skeleton_horse", "minecraft:slime", "minecraft:spider", "minecraft:squid", "minecraft:stray", "minecraft:strider", "minecraft:tropical_fish", "minecraft:turtle", "minecraft:vex", "minecraft:vindicator", "minecraft:witch", "minecraft:wither_skeleton", "minecraft:wolf", "minecraft:zoglin", "minecraft:zombie", "minecraft:zombie_horse", "minecraft:zombie_villager", "minecraft:zombified_piglin"]
+	#Changes the entities list into a whitelist (only entities inside 'entitiesList' will be available). 
+	#Example use: when 'entitiesListInWhitelistMode' value is set to true and 'entitiesList' contains ["minecraft:pig", "minecraft:chicken"] all entities will be blacklisted except vanilla pig and chicken.
+	entitiesListInWhitelistMode = true
+	#List of all items blacklisted from use (in a modid:name format).
+	#Items in this list will not be able to be produced from cages, even if they are present in one or more recipes.
+	#To switch this list into a whitelist, set the 'itemsListInWhitelistMode' value to true. 
+	#Example use: when 'itemsList' contains ["minecraft:iron_ingot", "minecraft:gold_ingot", "minecraft:wither_rose"] iron ingot, gold ingot and wither rose will not drop from any cage recipe.
+	itemsList = ["scalinghealth:heart_crystal", "scalinghealth:heart_crystal_shard", "scalinghealth:heart_crystal_dust", "scalinghealth:power_crystal", "scalinghealth:power_crystal_shard", "scalinghealth:power_crystal_dust", "scalinghealth:cursed_heart", "scalinghealth:enchanted_heart", "scalinghealth_chance_heart"]
+	#Changes the items list into a whitelist (only items inside 'itemsList' can drop from caged mobs). 
+	#Example use: when 'itemsListInWhitelistMode' value is set to true and 'itemsList' contains ["minecraft:iron_ingot"] only iron ingots could be obtained from caged entities.
+	itemsListInWhitelistMode = false
+

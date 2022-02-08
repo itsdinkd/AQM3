@@ -1,0 +1,9 @@
+{
+  "stats": {
+    "flySpeed": 1.47,
+    "breathConsumptionRadius": 10,
+    "breathCapacity": 1000,
+    "breathConsumptionSpeed": 0.02,
+    "breathRegenerationCooldown": 4
+  }
+}

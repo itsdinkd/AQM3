@@ -1,0 +1,11 @@
+{
+  "stats": {
+    "chance": 0.25,
+    "radius": 3,
+    "cooldown": 7,
+    "poisonAmplifier": 1,
+    "poisonDuration": 5,
+    "slownessAmplifier": 0,
+    "slownessDuration": 3
+  }
+}

@@ -10,6 +10,8 @@ const removeJei = [
 'cyclic:apple_chocolate',
 'cagedmobs:dnasamplernetherite',
 'cyclic:apple_chorus',
+'cyclic:ender_shelf',
+'cyclic:ender_controller',
 'cyclic:apple_diamond',
 'cyclic:apple_emerald',
 'cyclic:apple_ender',

@@ -28,7 +28,7 @@
 		"Bonus Difficulty per Player" = 0.47
 		#The Maximum difficulty (times spawned) reachable by Wither.
 		#Range: > 1
-		"Max Difficulty" = 21
+		"Max Difficulty" = 24
 		#How much difficulty will players start with when joining a world? Note that this will apply when the first Wither is spawned so if the player has already spawned one this will not apply.
 		#Range: > 0
 		"Starting Difficulty" = 1
@@ -50,7 +50,7 @@
 		#The Wither will break even blocks below him when hit.
 		"Bigger Breaking Blocks" = true
 		#If true the Wither will break even blocks that are witherproof.
-		"Ignore Witherproof Blocks" = false
+		"Ignore Witherproof Blocks" = true
 		#The wither can only be spawned in the Nether.
 		#Note that this feature completely disables Wither Skulls from begin placed nearby Soul Sand when not in the Nether or when on the Nether Roof.
 		#Requires Minecraft restart.
@@ -115,7 +115,7 @@
 		"Bonus Minion Every Difficulty" = 2
 		#Maximum Minions spawned by the Wither
 		#Range: > 0
-		"Max Minions Spawned" = 5
+		"Max Minions Spawned" = 8
 		#Maximum amount of Minions that can be around the Wither in a 16 block radius. After this number is reached the Wither will stop spawning minions. Set to 0 to disable this check
 		#Range: > 0
 		"Max Minions Around" = 17
@@ -130,7 +130,7 @@
 		"Cooldown Multiplier Below Half Health" = 0.5
 		#Percentage bonus speed per difficulty. (0.01 means 1%)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Movement Speed Per Difficulty" = 0.012
+		"Bonus Movement Speed Per Difficulty" = 0.016
 		#Wither Minions will take magic damage multiplied by this value.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Magic Damage Multiplier" = 3.0
@@ -148,10 +148,10 @@
 			"Bow Chance Below Half Health" = 0.08
 			#Chance (per difficulty) for the Wither Minion Sword / Bow to be enchanted with Sharpness / Power. Note that every 100% chance adds one guaranteed level of the enchantment, while the remaining chance dictates if one more level will be added.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Power / Sharpness Chance" = 0.22
+			"Power / Sharpness Chance" = 0.33
 			#Chance (per difficulty) for the Wither Minion Sword / Bow to be enchanted with Knockback / Punch. Note that every 100% chance adds one guaranteed level of the enchantment, while the remaining chance dictates if one more level will be added.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Punch / Knockback Chance" = 0.1
+			"Punch / Knockback Chance" = 0.14
 
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	[Wither.Attack]
@@ -159,15 +159,15 @@
 		"Apply to Vanilla Wither" = true
 		#Max Chance every time the Wither takes damage to start a charge attack. The actual chance is inversely proportional to Wither's health (100% health = 0% chance, 50% health = 2.5% chance, ...).
 		#Range: 0.0 ~ 1.0
-		"Max Charge Attack Chance" = 0.06
+		"Max Charge Attack Chance" = 0.1
 		#Percentage bonus damage dealt by the Wither per difficulty.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Increased Damage" = 0.048
+		"Increased Damage" = 0.16
 
 		[Wither.Attack."Barrage Attack"]
 			#Chance (per difficulty) every time the Wither takes damage to start a barrage attack. The actual chance is inversely proportional to Wither's health and damage taken (more damage and less health = higher chance).
 			#Range: 0.0 ~ 1.0
-			"Max Barrage Attack Chance Per Difficulty" = 0.006
+			"Max Barrage Attack Chance Per Difficulty" = 0.01
 			#Min time (in ticks) for the duration of the barrage attack. The actual duration is inversely proportional to Wither's health and damage taken (more damage and less health = higher chance)
 			#Range: > 0
 			"Min Barrage Duration" = 30
@@ -240,10 +240,10 @@
 	[Dragon.Attack]
 		#How much more damage per difficulty (percentage) does the Ender Dragon (directly) deal per difficulty?
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Direct Damage" = 0.173
+		"Bonus Direct Damage" = 0.19
 		#How much more damage per difficulty (percentage) does the Ender Dragon's Acid Pool deal per difficulty?
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Acid Pool Damage" = 0.155
+		"Bonus Acid Pool Damage" = 0.2
 		#Normally the Ender Dragon attacks only when leaving the center platform. With this active she has a chance when she has finished charging / fireballing or before checking if she should land in the center to charge the player.
 		#This is the chance to start a charge attack when the difficulty is at max (24 by default). Otherwise it scales accordingly.
 		#The actual chance is: (this_value * (difficulty / max difficulty)).
@@ -253,7 +253,7 @@
 		#This is the chance to start a fireball attack when the difficulty is at max (24 by default). Otherwise it scales accordingly.
 		#The actual chance is: (this_value * (difficulty / max difficulty)).
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Fireball Max Chance" = 0.45
+		"Fireball Max Chance" = 0.48
 		#Since around 1.13/1.14 the Ender Dragon can no longer dive for more than about 3 blocks so she takes a lot to rise / fall. With this active the dragon will be able to rise and fall many more blocks, making easier to hit the player and approach the center.
 		"Increase Max Rise and Fall" = true
 		#On impact the Acid Fireball will deal magic damage in an area.
@@ -271,7 +271,7 @@
 	[Dragon.Rewards]
 		#How much more experience (percentage) will Dragon drop per Difficulty. The percentage is additive (e.g. with this set to 100%, 7 dragons killed = 700% more experience)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Experience per Difficulty" = 1.2
+		"Bonus Experience per Difficulty" = 1.3
 		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg Ã¬Ã¬ will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
 		"Dragon Egg per Player" = true
 		#A list of drops for the Dragons. Entry format: item,amount,difficulty_required,chance,difficulty_mode,chance_mode
@@ -295,16 +295,16 @@
 		"Minion at Difficulty" = 2
 		#Minimum ticks (20 ticks = 1 seconds) after Minions can spwan.
 		#Range: > 0
-		"Minimum Cooldown" = 1400
+		"Minimum Cooldown" = 400
 		#Maximum ticks (20 ticks = 1 seconds) after Minions can spwan.
 		#Range: > 0
-		"Maximum Cooldown" = 2300
+		"Maximum Cooldown" = 600
 		#Percentage cooldown reduction per difficulty for the cooldown of Minion spawning.
 		#Range: 0.0 ~ 1.0
-		"Cooldown Reduction" = 0.02
+		"Cooldown Reduction" = 0.025
 		#Percentage chance per difficulty for a Minion to spawn as a Blinding Minion.
 		#Range: 0.0 ~ 1.0
-		"Blinding Chance" = 0.0175
+		"Blinding Chance" = 0.0275
 		#Dragon Minions are immune to any damage from the Ender Dragon, either direct or Acid.
 		"Dragon Immune" = true
 
@@ -321,10 +321,10 @@
 		"Max Larvae Spawned" = 6
 		#Minimum ticks (20 ticks = 1 seconds) after Minions can spwan.
 		#Range: > 0
-		"Minimum Cooldown" = 800
+		"Minimum Cooldown" = 300
 		#Maximum ticks (20 ticks = 1 seconds) after Minions can spwan.
 		#Range: > 0
-		"Maximum Cooldown" = 1600
+		"Maximum Cooldown" = 550
 		#Dragon Minions are immune to any damage from the Ender Dragon, either direct or Acid.
 		"Dragon Immune" = true
 
@@ -332,13 +332,13 @@
 	[Dragon."Resistances & Vulnerabilities"]
 		#Percentage of Dragon's current health dealth as Bonus damage when attacked directly (melee) and she's not at the center.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Current Health Direct Damage" = 0.02
+		"Bonus Current Health Direct Damage" = 0.025
 		#Percentage of Dragon's current health dealth as Bonus damage when attacked indirectly (e.g. arrows) and she's not at the center.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Current Health Indirect Damage" = 0.0086
+		"Bonus Current Health Indirect Damage" = 0.0094
 		#Melee Damage reduction per difficulty while the Ender Dragon is at the center.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Melee Damage reduction while at the center" = 0.011
+		"Melee Damage reduction while at the center" = 0.014
 		#Damage reduction when hit by explosions.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Explosion Damage reduction" = 0.48
@@ -361,7 +361,7 @@
 		"Enable crystal respawn" = true
 		#Difficulty multiplied by this number will output how many tries will the dragon take to respawn crystals. Tries are capped between 1 and 100.
 		#Range: 0.0 ~ 100.0
-		"Crystal Respawn Multiplier" = 0.33
+		"Crystal Respawn Multiplier" = 0.3
 		#When respawning Crystals, chance for the crystal to be spawned inside a Tower instead of on top
 		#Range: 0.0 ~ 1.0
 		"Crystal Respawn Inside Tower Chance" = 0.0038
@@ -386,7 +386,7 @@
 	["Elder Guardian".Health]
 		#Increase Elder Guardians' Health by this percentage (1 = +100% health)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 0.625
+		"Health Bonus per Difficulty" = 0.655
 		#Adds absorption health to Elder Guradians (health that doesn't regen)
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Absorption Health" = 65.0
@@ -409,7 +409,7 @@
 	["Elder Guardian".Attack]
 		#Percentage Bonus damage per defeated Elder Guardian.
 		#Range: 0.0 ~ 128.0
-		"Bonus Damage per Elder Guardian Defeated" = 0.15
+		"Bonus Damage per Elder Guardian Defeated" = 0.2
 		#How many ticks faster will Elder Guardian attack (multiplied by defeated Elder Guardians). Vanilla Attack Duration is 60 ticks (3 secs)
 		#Range: 0 ~ 60
 		"Attack Duration Reduction per Elder Guardian Defeated" = 20
@@ -430,7 +430,7 @@
 		"Base Experience" = 100
 		#How much more experience (percentage) will Elder Guardian drop per killed Elder Guardian. The percentage is additive (e.g. with this set to 100%, the last Elder will drop 200% more experience)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Experience" = 1.2
+		"Bonus Experience" = 1.23
 		#A list of bonus drops for the Elder Guardian. Entry format: item,amount,missing_guardians,chance,mode,chance_mode
 		#item: item id
 		#amount: amount

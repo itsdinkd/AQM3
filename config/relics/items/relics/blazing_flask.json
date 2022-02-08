@@ -1,0 +1,9 @@
+{
+  "stats": {
+    "levitationHeight": 4.0,
+    "levitationSpeed": 0.65,
+    "consumptionCooldown": 20,
+    "consumptionRadius": 10,
+    "capacity": 100
+  }
+}

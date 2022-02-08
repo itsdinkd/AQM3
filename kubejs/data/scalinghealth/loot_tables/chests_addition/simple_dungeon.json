@@ -20,7 +20,7 @@
         },
         {
           "type": "minecraft:item",
-          "quality": 5,
+          "quality": 3,
           "functions": [
             {
               "function": "minecraft:set_count",

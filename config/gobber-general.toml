@@ -142,13 +142,13 @@
 	#Enable/disable Gobber Armor water breathing
 	gobberArmorWaterBreathing = false
 	#Enable/disable Gobber Armor auto feeding
-	gobberArmorAutofeed = true
+	gobberArmorAutofeed = false
 	#Enable/disable Gobber Nether Armor auto feeding
-	gobberNetherArmorAutofeed = true
+	gobberNetherArmorAutofeed = false
 	#Enable/disable Gobber End Armor auto feeding
-	gobberEndArmorAutofeed = true
+	gobberEndArmorAutofeed = false
 	#Enable/disable Gobber Dragon Armor auto feeding
-	gobberDragonArmorAutofeed = true
+	gobberDragonArmorAutofeed = false
 
 #Auto Replanting Settings
 [replanting_settings]
@@ -226,7 +226,7 @@
 [gobber_armor_material]
 	#Gobber armor enchantability [1-50, default: 25]
 	#Range: 1 ~ 50
-	gobberArmorEnchantability = 13
+	gobberArmorEnchantability = 15
 	#Gobber armor durability multiplier [1-200, default: 71]
 	#Range: 1 ~ 200
 	gobberArmorDurabilityMultiplier = 68
@@ -279,7 +279,7 @@
 	netherGobberToolsSpeed = 11.0
 	#Nether Gobber tool enchantability [0-50, default: 25]
 	#Range: 1 ~ 50
-	netherGobberToolsEnchantability = 14
+	netherGobberToolsEnchantability = 17
 
 #End Gobber Armor Material Values
 [end_gobber_armor_material]
@@ -291,7 +291,7 @@
 	endGobberArmorToughness = 3.5
 	#End Gobber armor knockback [0-5, default: 0.2]
 	#Range: 0.0 ~ 5.0
-	endGobberArmorKnockback = 0.1222
+	endGobberArmorKnockback = 0.15
 	#End Gobber armor durability multiplier [1-200, default: 100]
 	#Range: 1 ~ 200
 	endGobberArmorDurabilityMultiplier = 100
@@ -302,10 +302,10 @@
 	endHeadProtection = 8
 	#End armor chest protection [1-20, default: 13]
 	#Range: 1 ~ 20
-	endChestProtection = 13
+	endChestProtection = 12
 	#End armor leggings protection [1-20, default: 11]
 	#Range: 1 ~ 20
-	endLeggingsProtection = 11
+	endLeggingsProtection = 10
 	#End armor boots protection [1-20, default: 8]
 	#Range: 1 ~ 20
 	endBootsProtection = 8
@@ -353,7 +353,7 @@
 [nether_gobber_armor_material]
 	#Nether Gobber armor knockback [0-5, default: 0.1]
 	#Range: 0.0 ~ 5.0
-	netherGobberArmorKnockback = 0.14
+	netherGobberArmorKnockback = 0.13
 	#Nether Gobber armor toughness [0-5, default: 2.75]
 	#Range: 0.0 ~ 5.0
 	netherGobberArmorToughness = 2.75

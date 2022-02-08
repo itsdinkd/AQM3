@@ -1,0 +1,12 @@
+{
+  "stats": {
+    "maxCharges": 6,
+    "chargeRegenerationTime": 10,
+    "damage": 5,
+    "throwCooldown": 7,
+    "bounceChanceMultiplier": 0.015,
+    "bounceRadius": 6,
+    "projectileSpeed": 0.7,
+    "maxBounces": 10
+  }
+}

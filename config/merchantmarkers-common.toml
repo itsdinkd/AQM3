@@ -35,7 +35,24 @@
 		marker_type = "custom"
 		# A list of professions to ignore when displaying markers. Use "none" for villagers with no profession.
 		profession_blacklist = ["none", "nitwit"]
+		# The opacity of displayed markers and arrows.
+		#Range: 0.1 ~ 1.0
+		opacity = 1.0
+
 		# The items associated with each villager profession.  Only used when marker type is set to "items".
-		# If not specified here, vanilla professions will have a default item and modded professions will have a generic icon.
-		associated_items = {}
+		[client.visual_options.associated_items]
+			armorer = "minecraft:iron_chestplate"
+			butcher = "minecraft:beef"
+			cartographer = "minecraft:compass"
+			cleric = "minecraft:rotten_flesh"
+			farmer = "minecraft:wheat"
+			fisherman = "minecraft:cod"
+			fletcher = "minecraft:bow"
+			leatherworker = "minecraft:leather"
+			librarian = "minecraft:bookshelf"
+			mason = "minecraft:brick"
+			shepherd = "minecraft:shears"
+			toolsmith = "minecraft:iron_pickaxe"
+			weaponsmith = "minecraft:iron_sword"
+			wandering_trader = "minecraft:emerald"
 

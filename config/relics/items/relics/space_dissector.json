@@ -1,0 +1,12 @@
+{
+  "stats": {
+    "projectileSpeed": 0.8,
+    "maxThrownTime": 45,
+    "timeBeforeReturn": 10,
+    "cooldownAfterTeleport": 60,
+    "maxBounces": 8,
+    "additionalTimeAfterBounce": 3,
+    "baseDamage": 7,
+    "damageMultiplierPerBounce": 1.2
+  }
+}

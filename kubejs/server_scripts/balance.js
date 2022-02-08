@@ -615,18 +615,32 @@ event.shaped('cagedmobs:dnasampler', ['i i', ' d ', 's b'],
   {
     i: "gobber2:gobber2_ingot_nether",
     d: "refinedstorage:silk_touch_upgrade",
-    b: "oresabovediamonds:amethyst_block"
+    b: "oresabovediamonds:amethyst_block",
+    s: "minecraft:spawner"
   }
 );
 
 event.remove({id: 'cagedmobs:crafting/dnasamplerdiamond'})
-event.shaped('cagedmobs:dnasamplerdiamond', ['i  i', ' d ', 's b'],
+event.shaped('cagedmobs:dnasamplerdiamond', ['i i', ' d ', 's b'],
   {
     i: "cagedmobs:star_infused_netherite_ingot",
     d: "refinedstorage:silk_touch_upgrade",
-    b: "oresabovediamonds:black_opal_block"
+    b: "oresabovediamonds:black_opal_block",
+    s: "minecraft:spawner"
   }
 );
 
+//Electrodynamics
+event.remove({id: 'electrodynamics:jetpack'})
+event.shaped('electrodynamics:jetpack', ['crc', 'psp', 'eae'],
+  {
+    c: "electrodynamics:circuitadvanced",
+    r: "electrodynamics:tankreinforced",
+    p: "electrodynamics:pipesteel",
+    s: "electrodynamics:sheetplastic",
+    a: "gobber2:dragon_elytra",
+    e: "#forge:plates/steel",
+  }
+);
 
 })

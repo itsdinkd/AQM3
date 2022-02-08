@@ -47,3 +47,5 @@ simple-rpc.bak
 servers.dat
 .persistent/multibeds/embroidery.dat
 kubejs/assets/*
+*.psd
+tconstruct-common.toml

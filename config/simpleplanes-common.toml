@@ -4,8 +4,6 @@
 	#For controllers, a threshold for the joystick movement of the plane
 	#Range: 0 ~ 90
 	turnThreshold = 20
-	#Easier flight mode, disables the extreme movements
-	easyFlight = false
 	#Allow stealing planes by players
 	plane_heist = false
 	#Fuel cost of a small plane

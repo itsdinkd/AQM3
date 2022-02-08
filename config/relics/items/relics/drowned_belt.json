@@ -1,0 +1,7 @@
+{
+  "stats": {
+    "incomingDamageMultiplier": 2.5,
+    "dealtDamageMultiplier": 2.0,
+    "riptideCooldown": 20
+  }
+}

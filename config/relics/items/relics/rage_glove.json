@@ -1,0 +1,7 @@
+{
+  "stats": {
+    "stackDuration": 2,
+    "dealtDamageMultiplier": 0.075,
+    "incomingDamageMultiplier": 0.033
+  }
+}

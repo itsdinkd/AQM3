@@ -28,9 +28,6 @@
           "condition": "minecraft:random_chance_with_looting",
           "chance": 0.005,
           "looting_multiplier": 0.004
-        },
-        {
-          "condition": "minecraft:killed_by_player"
         }
       ]
     },
@@ -77,7 +74,7 @@
           "entity": "this",
           "is_blight": false,
           "difficulty": {
-            "min": 10.0,
+            "min": 1.0,
             "max": 2.14748365E9
           }
         },
@@ -114,6 +111,16 @@
               "count": 1
             }
           ],
+          "name": "scalinghealth:cursed_heart"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
           "name": "scalinghealth:enchanted_heart"
         }
       ],
@@ -123,8 +130,8 @@
           "entity": "this",
           "is_blight": false,
           "difficulty": {
-            "min": 70.0,
-            "max": 2.14748365E9
+            "min": 50.0,
+            "max": 300
           }
         },
         {
@@ -170,8 +177,8 @@
           "entity": "this",
           "is_blight": true,
           "difficulty": {
-            "min": 0.0,
-            "max": 2.14748365E9
+            "min": 20.0,
+            "max": 300
           }
         },
         {

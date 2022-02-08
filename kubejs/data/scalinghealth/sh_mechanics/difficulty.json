@@ -42,14 +42,14 @@
       },
       {
         "entities" : ["minecraft:elder_guardian", "minecraft:wither", "minecraft:ender_dragon"],
-        "onKilled" : "difficulty + 0.33"
+        "onKilled" : "difficulty + 0.5"
       },
       {
         "entities" : ["meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:swampjaw"],
         "onKilled" : "difficulty + 0.15"
       },
       {
-        "entities" : ["doom:motherdemon", "doom:tyrant", "doom:iconofsin"],
+        "entities" : ["doom:motherdemon", "doom:tyrant", "doom:iconofsin", "doom:gladiator"],
         "onKilled" : "difficulty + 0.75"
       },
       {

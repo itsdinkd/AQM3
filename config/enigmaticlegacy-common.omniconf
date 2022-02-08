@@ -36,6 +36,9 @@
     # Whether or not bonus recipes for wool dyeing should be enabled. [default: true, synchronized: yes]
     B:BonusWoolRecipesEnabled=true
 
+    # Whether or not Bulwark of Blazing Pride should be enabled. [default: true, synchronized: yes]
+    B:BulwarkofBlazingPrideEnabled=true
+
     # Whether or not Ceaseless Enchantment should be enabled. [default: true, synchronized: yes]
     B:CeaselessEnchantmentEnabled=true
 
@@ -294,6 +297,10 @@
     # Chance to deflect projectile when having Angel's Blessing equipped. Measured in percents. [range: 0 ~ 100, default: 50, synchronized: yes]
     I:AngelBlessingDeflectChance=40
 
+    # List of entities that should count towards the curse-altering effect of Guide to Animal Companionship, and thus remain neutral to players bearing Ring of the Seven Curses if they posses such guide. Examples: minecraft:iron_golem, minecraft:zombified_piglin [default: , synchronized: no]
+    S:AnimalGuideAnimalExclusionList <
+     >
+
     # The depth of Astral Breaker AOE mining. [range: 0 ~ 127, default: 1, synchronized: yes]
     I:AstralBreakerMiningDepth=1
 
@@ -384,6 +391,9 @@
     # Cooldown of Etherium Broadsword ability. Measured in ticks. [range: 0 ~ 32768, default: 40, synchronized: yes]
     I:EtheriumSwordCooldown=160
 
+    # Attack damage increase for next attack after using active ability. Defined as percentage. [range: 0 ~ 32768, default: 150, synchronized: yes]
+    I:EyeOfNebulaAttackEmpower=150
+
     # Active ability cooldown for Eye of the Nebula. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 60, synchronized: yes]
     I:EyeOfNebulaCooldown=90
 
@@ -392,6 +402,9 @@
 
     # Range in which Eye of the Nebula searches for a position to teleport it's bearer to when dodging the attack. [range: 1.0 ~ 128.0, default: 16.0, synchronized: yes]
     D:EyeOfNebulaDodgeRange=16.0
+
+    # Magic Damage boost provided by Eye of the Nebula. Defined as percentage. [range: 0 ~ 32768, default: 40, synchronized: yes]
+    I:EyeOfNebulaMagicBoost=40
 
     # Magic Damage resistance provided by Eye of the Nebula. Defined as percentage. [range: 0 ~ 100, default: 65, synchronized: yes]
     I:EyeOfNebulaMagicResistance=30

@@ -12,6 +12,8 @@ const recipeRemoveJei = [
 'cyclic:antigravity',
 'cyclic:apple_chocolate',
 'cyclic:apple_chorus',
+'cyclic:ender_controller',
+'cyclic:ender_shelf',
 'cyclic:apple_diamond',
 'cyclic:apple_emerald',
 'cyclic:apple_ender',
