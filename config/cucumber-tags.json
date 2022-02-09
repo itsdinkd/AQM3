@@ -19,7 +19,7 @@
   "forge:ingots/mithril": "null",
   "forge:ingots/nickel": "immersiveengineering:ingot_nickel",
   "forge:ingots/platinum": "null",
-  "forge:ingots/silver": "occultism:silver_ingot",
+  "forge:ingots/silver": "electrodynamics:ingotsilver",
   "forge:ingots/steel": "assemblylinemachines:steel_ingot",
   "forge:ingots/tin": "electrodynamics:ingottin",
   "forge:ingots/titanium": "assemblylinemachines:titanium_ingot",

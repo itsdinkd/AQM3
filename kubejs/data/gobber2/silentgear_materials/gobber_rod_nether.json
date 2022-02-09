@@ -22,11 +22,11 @@
   },
   "stats": {
     "rod": {
-      "ranged_speed": {
-        "add": 0.1
+      "harvest_speed": {
+        "add": 1.0
       },
       "attack_speed": {
-        "add": 0.22
+        "add": 0.3
       },
       "melee_damage": {
         "mul2": -0.0525

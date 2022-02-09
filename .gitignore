@@ -49,3 +49,4 @@ servers.dat
 kubejs/assets/*
 *.psd
 tconstruct-common.toml
+TrashSlotSaveState.json

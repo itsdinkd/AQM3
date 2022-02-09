@@ -3,7 +3,7 @@
 settings.logAddedRecipes = false;
 settings.logRemovedRecipes = false;
 settings.logSkippedRecipes = false;
-settings.logErroringRecipes = true;
+settings.logErroringRecipes = false;
 
 console.info('AQM3 -- Modifying Recipes)');
 

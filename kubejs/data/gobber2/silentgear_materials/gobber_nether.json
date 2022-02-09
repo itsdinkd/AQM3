@@ -30,17 +30,17 @@
       "harvest_speed": 12.0,
       "melee_damage": 4.0,
       "melee_damage/sword": 6.0,
-      "melee_damage/pickaxe": 2.5,
+      "melee_damage/pickaxe": 0.0,
       "melee_damage/axe": 5.0,
-      "melee_damage/paxel": 6.5,
+      "melee_damage/paxel": 5.0,
       "melee_damage/shovel": 3.0,
       "melee_damage/mattock": -4.0,
       "melee_damage/hammer": 3.0,
       "melee_damage/excavator": 2.5,
       "magic_damage": 6.0,
       "attack_speed": 0.0,
-      "attack_speed/sword": 0.0,
-      "attack_speed/pickaxe": 0.0,
+      "attack_speed/sword": 0.6,
+      "attack_speed/pickaxe": 0.5,
       "attack_speed/mattock": 0.0,
       "armor": 29.0,
       "knockback_resistance": 0.52,
@@ -66,6 +66,10 @@
       },
       {
         "name": "silentgear:chilled",
+        "level": 2
+      },
+      {
+        "name": "silentgear:malleable",
         "level": 2
       }
     ]
