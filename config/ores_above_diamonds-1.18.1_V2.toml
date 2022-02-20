@@ -39,16 +39,16 @@
 [ore_rarity]
 	#Approximately how many times rarer the amethyst should be than diamonds. All dimensions uses these values. 1 = As common as diamonds, 2 = Half as common as diamonds etc. Default = 3
 	#Range: > 1
-	amethyst_chance = 7
+	amethyst_chance = 5
 	#Approximately how many times rarer the black opal should be than diamonds. All dimensions uses these values. Default = 9
 	#Range: > 1
-	black_opal_chance = 13
+	black_opal_chance = 10
 	#Max vein size for an Amethyst Ore vein. WARNING: Reducing vein sizes by 10%+ for some reason can reduce the total ores by 35%+. For reference, diamonds have a vein size of 8. Default = 8
 	#Range: 0 ~ 64
-	amethyst_vein_size = 6
+	amethyst_vein_size = 7
 	#Max vein size for an Black Opal Ore vein. WARNING: Reducing vein sizes by 10%+ for some reason can reduce the total ores by 35%+.  Default = 8
 	#Range: 0 ~ 64
-	black_opal_vein_size = 6
+	black_opal_vein_size = 7
 	#Maximum spawn height size for an Amethyst ore vein. Default = 8
 	#Range: -63 ~ 255
 	amethyst_max_spawn_height_overworld = 8
@@ -63,10 +63,10 @@
 	black_opal_max_spawn_height_nether = 90
 	#Maximum spawn height size for an Amethyst ore vein for the end. Default = 75
 	#Range: 0 ~ 255
-	amethyst_max_spawn_height_end = 75
+	amethyst_max_spawn_height_end = 100
 	#Maximum spawn height size for a Black Opal ore vein for the end. Default = 75
 	#Range: 0 ~ 255
-	black_opal_max_spawn_height_end = 75
+	black_opal_max_spawn_height_end = 100
 	#Wherever diamonds can naturally generate in chests, black opal and amethyst can too at a reduced rate! Default = true
 	chest_loot = false
 

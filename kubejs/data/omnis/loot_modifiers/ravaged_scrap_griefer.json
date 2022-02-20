@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "savageandravage:entities/griefer"
+    }
+  ],
+  "itemChance": 0.75,
+  "itemCount": 1,
+  "extraItemCount": 2,
+  "item": "omnis:ravaged_scrap",
+  "type": "omnis:ravaged_scrap_griefer"
+}

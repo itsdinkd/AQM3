@@ -40,16 +40,16 @@
 	#    Tooltip text - Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
 	#    NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&map!=128", "&Enchantments"
 	[client.definitions]
-		level0_entries = ["!epic", "!rare"]
-		level1_entries = []
-		level2_entries = []
-		level3_entries = []
-		level4_entries = []
-		level5_entries = []
-		level6_entries = []
-		level7_entries = []
-		level8_entries = []
-		level9_entries = []
+		level0_entries = ["kubejs:demon_pearl", "kubejs:star_of_sin", "kubejs:corrupted_emerald", "%Gobber End", "netherite_sword", "netherite_shovel", "netherite_pickaxe", "netherite_axe", "netherite_hoe", "netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots"]
+		level1_entries = ["%Gobber Nether", "experience_bottle", "golden_carrot", "golden_apple", "enchanted_golden_apple", "diamond_sword", "diamond_shovel", "diamond_pickaxe", "diamond_axe", "diamond_hoe", "diamond_helmet", "diamond_chestplate", "diamond_leggings", "diamond_boots", "enchanted_book", "turtle_helmet", "tipped_arrow", "spectral_arrow"]
+		level2_entries = ["&Enchantments", "!rare", "iron_sword", "iron_shovel", "iron_pickaxe", "iron_axe", "iron_hoe", "iron_helmet", "iron_chestplate", "iron_leggings", "iron_boots", "golden_sword", "golden_shovel", "golden_pickaxe", "golden_axe", "golden_hoe", "golden_helmet", "golden_chestplate", "golden_leggings", "golden_boots", "%Chainmail", "compass", "clock", "spyglass", "shears", "%Bucket", "lead", "name_tag", "flint_and_steel", "bow", "crossbow", "trident", "shield"]
+		level3_entries = ["$forge:ingots/crimson_iron", "%Nether B", "%Nether Q", "%Nether G", "netherrack", "%Nylium", "crimson_fungus", "warped_fungus", "campfire", "fire_charge", "%Firework", "%Lava", "@doom"]
+		level4_entries = ["%Sea", "%Breathing", "sea_lantern", "heart_of_the_sea", "%Prismarine", "conduit", "nautilus_shell"]
+		level5_entries = ["$minecraft:small_flowers", "$minecraft:flowers", "$minecraft:leaves", "$minecraft:saplings", "$minecraft:tall_flowers", "%Azalea", "%Dripleaf", "%Vines", "bamboo", "%Essence", "%Crop", "%Seed", "%Flower", "%Sapling", "%Bee", "%Honey"]
+		level6_entries = ["%Dragon", "%Skull", "wither_rose", "%Obsidian", "respawn_anchor", "%Soul", "%Void"]
+		level7_entries = ["iron_door", "iron_trapdoor", "iron_block", "%Anvil", "%Minecart", "%Rail", "hopper", "observer", "dispenser", "dropper", "%Piston", "$c:iron_ingots", "$forge:ingots/iron"]
+		level8_entries = ["%End", "%Purpur", "%Chorus", "%Shulker", "%End Anchor"]
+		level9_entries = ["%Angel Ring", "%Elytra", "elytra", "%Glow", "totem_of_undying"]
 		level10_entries = []
 		level11_entries = []
 		level12_entries = []
@@ -61,42 +61,42 @@
 
 	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.  Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, don't worry about it.
 	[client.priorities]
-		priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+		priorities = [9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15]
 
 	# The start and end border colors and background colors of each level.
 	# Note that they can be entered as any one of: a decimal or hex color code in the format 0xAARRGGBB or 0xRRGGBB, OR a string color name or color code.
 	# Examples: 0xFFFF00, 0xFF73D984, 4290445567, "red", "#FFCC00" are all valid.
 	[client.colors]
-		level0_start_color = -6723294
-		level0_end_color = -10864099
-		level0_bg_color = -266991104
-		level1_start_color = -6723294
-		level1_end_color = -10864099
-		level1_bg_color = -266991104
-		level2_start_color = -6723294
-		level2_end_color = -10864099
-		level2_bg_color = -266991104
-		level3_start_color = -6723294
-		level3_end_color = -10864099
-		level3_bg_color = -266991104
-		level4_start_color = -6723294
-		level4_end_color = -10864099
-		level4_bg_color = -266991104
-		level5_start_color = -6723294
-		level5_end_color = -10864099
-		level5_bg_color = -266991104
-		level6_start_color = -6723294
-		level6_end_color = -10864099
-		level6_bg_color = -266991104
-		level7_start_color = -6723294
-		level7_end_color = -10864099
-		level7_bg_color = -266991104
-		level8_start_color = -6723294
-		level8_end_color = -10864099
-		level8_bg_color = -266991104
-		level9_start_color = -6723294
-		level9_end_color = -10864099
-		level9_bg_color = -266991104
+		level0_start_color = "#996922"
+		level0_end_color = "#5B3B1D"
+		level0_bg_color = 4027976192
+		level1_start_color = "#697C8C"
+		level1_end_color = "#3A4C61"
+		level1_bg_color = 4027976192
+		level2_start_color = "#70453D"
+		level2_end_color = "#542323"
+		level2_bg_color = 4027976192
+		level3_start_color = "#912307"
+		level3_end_color = "#818385"
+		level3_bg_color = 4027976192
+		level4_start_color = "#008FCC"
+		level4_end_color = "#044B8A"
+		level4_bg_color = 4027976192
+		level5_start_color = "#5C4C2D"
+		level5_end_color = "#5C4C2D"
+		level5_bg_color = 4027976192
+		level6_start_color = "#705A87"
+		level6_end_color = "#393556"
+		level6_bg_color = 4027976192
+		level7_start_color = "#7D8A91"
+		level7_end_color = "#7D8A91"
+		level7_bg_color = 4027976192
+		level8_start_color = "#A591B6"
+		level8_end_color = "#A591B6"
+		level8_bg_color = 4027976192
+		level9_start_color = "#FFFADB"
+		level9_end_color = "#FFDFAD"
+		level9_bg_color = 4027976192
 		level10_start_color = -6723294
 		level10_end_color = -10864099
 		level10_bg_color = -266991104

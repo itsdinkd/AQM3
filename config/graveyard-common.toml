@@ -167,7 +167,7 @@
 		enabled = true
 		#Set the spawn weight: 
 		#Range: 0 ~ 100
-		weight = 15
+		weight = 12
 		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeGhoul = 2
@@ -184,13 +184,13 @@
 		enabled = true
 		#Set the spawn weight: 
 		#Range: 0 ~ 100
-		weight = 15
+		weight = 12
 		#Set the min group size on spawn: 
 		#Range: 1 ~ 100
 		minGroupSizeRevenant = 2
 		#Set the max group size on spawn: 
 		#Range: 1 ~ 100
-		maxGroupSizeRevenant = 4
+		maxGroupSizeRevenant = 3
 		#Allowed biome categories to spawn: 
 		biome_categories = ["forest", "taiga", "swamp", "mountain", "mesa", "underground", "extreme_hills", "plains", "savanna", "beach", "jungle", "desert", "icy"]
 		#Blacklisted biomes to spawn: 

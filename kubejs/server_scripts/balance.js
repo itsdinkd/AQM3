@@ -3,7 +3,7 @@
 settings.logAddedRecipes = false;
 settings.logRemovedRecipes = false;
 settings.logSkippedRecipes = false;
-settings.logErroringRecipes = false;
+settings.logErroringRecipes = true;
 
 console.info('AQM3 -- Modifying Recipes)');
 
@@ -178,7 +178,7 @@ event.replaceInput(
 event.replaceInput(
   { id:"cyclic:charm_magicdefense" },
     "#forge:nuggets/copper",
-    "progressivebosses:nether_star_shard"
+    "ars_nouveau:end_fiber"
 );
 
 // cyclic:collector - gets replaced by item collector basic
@@ -603,30 +603,29 @@ event.replaceInput(
 
 // Caged Mobs
 event.remove({id: 'cagedmobs:crafting/mobcage'})
-event.shaped('cagedmobs:mobcage', [' s ', 'ggg', ' s '],
+event.shaped('cagedmobs:mobcage', [' s ', 'g g', ' a '],
   {
-    s: 'minecraft:spawner',
-    g: 'gobber2:gobber2_ingot'
+    s: 'minecraft:chain',
+    g: 'gobber2:gobber2_ingot',
+    a: 'doom:argent_plate'
   }
 );
 
 event.remove({id: 'cagedmobs:crafting/dnasampler'})
-event.shaped('cagedmobs:dnasampler', ['i i', ' d ', 's b'],
+event.shaped('cagedmobs:dnasampler', ['i i', ' d ', ' b '],
   {
     i: "gobber2:gobber2_ingot_nether",
     d: "refinedstorage:silk_touch_upgrade",
-    b: "oresabovediamonds:amethyst_block",
-    s: "minecraft:spawner"
+    b: "oresabovediamonds:amethyst_block"
   }
 );
 
 event.remove({id: 'cagedmobs:crafting/dnasamplerdiamond'})
-event.shaped('cagedmobs:dnasamplerdiamond', ['i i', ' d ', 's b'],
+event.shaped('cagedmobs:dnasamplerdiamond', ['i i', ' d ', ' b '],
   {
     i: "cagedmobs:star_infused_netherite_ingot",
-    d: "refinedstorage:silk_touch_upgrade",
-    b: "oresabovediamonds:black_opal_block",
-    s: "minecraft:spawner"
+    d: "cagedmobs:dnasampler",
+    b: "oresabovediamonds:black_opal_block"
   }
 );
 
@@ -642,5 +641,24 @@ event.shaped('electrodynamics:jetpack', ['crc', 'psp', 'eae'],
     e: "#forge:plates/steel",
   }
 );
+
+event.replaceInput(
+{ id: "enigmaticlegacy:the_infinitum" },
+"minecraft:netherite_ingot",
+"gobber2:dragon_star"
+)
+
+event.replaceInput(
+{ id: "enigmaticlegacy:the_twist" },
+"minecraft:netherite_ingot",
+"gobber2:gobber2_ingot_end"
+)
+
+event.replaceInput(
+{ id: "enigmaticlegacy:ender_slayer" },
+"minecraft:obsidian",
+"gobber2:gobber2_block_end"
+)
+
 
 })

@@ -87,4 +87,9 @@
 	bubble_blower = true
 	globe_sepia = true
 	present = true
+	stasis = true
+	silver_trapdoor = true
+	silver_door = true
+	lead_trapdoor = true
+	lead_door = true
 

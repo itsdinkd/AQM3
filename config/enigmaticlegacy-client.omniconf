@@ -9,6 +9,13 @@
 ##########################################################################################################
 
 "Generic Config" {
+    # Text overflow mode which should be used by The Acknowledgment specifically. This is separate from Patchouli's global setting since it uses RESIZE by default, which unpromptly attempts to rescale font even when no rescaling is neccessary, and it is never neccessary for The Acknowledgment thanks to my continuous efforts to make texts fit perfectly on each and every page. [default: OVERFLOW]
+    # Valid values: OVERFLOW, TRUNCATE, RESIZE
+    S:AcknowledgmentOverflowMode=OVERFLOW
+
+    # If false, active ability of Angel's Blessing will not be triggerable by pressing jump key in mid-air. [default: true]
+    B:AngelBlessingDoubleJump=true
+
     # Whether or not flame particles should appear when the Astral Breaker breaks a block [default: true]
     B:AstralBreakerFlameParticlesToggle=true
 

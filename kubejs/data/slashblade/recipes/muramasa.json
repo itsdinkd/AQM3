@@ -70,12 +70,12 @@
                 "Items": [
                     {
                         "Slot": 5,
-                        "id": "minecraft:soul_sand",
+                        "id": "gobber2:gobber2_rod_end",
                         "Count": 1
                     },
                     {
                         "Slot": 13,
-                        "id": "minecraft:soul_sand",
+                        "id": "gobber2:gobber2_rod_end",
                         "Count": 1
                     },
                     {

@@ -16,4 +16,6 @@ populateNeighborTable = false
 replacePropertyMap = true
 #Deduplicate vertex data of baked quads in the basic model implementations
 bakedQuadDeduplication = true
+#Replace objects used to detect multi-threaded access to chunks by a much smaller field
+smallThreadingDetector = true
 

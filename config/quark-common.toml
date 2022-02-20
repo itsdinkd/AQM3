@@ -162,6 +162,8 @@
 
 	[building.glass_item_frame]
 		"Glass Item Frames Update Maps" = true
+		#The scale at which items render in the Glass Item Frame. To match the vanilla Item Frame size, set to 1.0
+		"Item Render Scale" = 1.5
 
 	[building.compressed_blocks]
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
@@ -203,6 +205,7 @@
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
 	"Chests In Boats" = true
+	"Quick Armor Swapping" = true
 
 	[management.item_sharing]
 		"Render Items In Chat" = true
@@ -221,6 +224,9 @@
 
 	[management.easy_transfering]
 		"Enable Shift Lock" = true
+
+	[management.quick_armor_swapping]
+		"Swap Off Hand" = true
 
 [tools]
 	Trowel = true
@@ -351,7 +357,7 @@
 	"Compasses Work Everywhere" = true
 	"Campfires Boost Elytra" = true
 	"Better Elytra Rocket" = true
-	"Automatic Recipe Unlock" = true
+	"Automatic Recipe Unlock" = false
 	"Armed Armor Stands" = true
 	"Skull Pikes" = true
 
@@ -454,6 +460,8 @@
 		"Ignored Recipes" = []
 		"Force Limited Crafting" = false
 		"Disable Recipe Book" = false
+		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
+		"Filter Recipe Advancements" = true
 
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
@@ -470,6 +478,8 @@
 	"Blossom Trees" = true
 	"Big Stone Clusters" = true
 	"Big Dungeon" = true
+	"Glimmering Weald" = true
+	"Azalea Wood" = true
 
 	[world.spiral_spires]
 		Rarity = 200
@@ -1344,6 +1354,7 @@
 	"Chest Searching" = true
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = false
+	"Soul Candles" = true
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true

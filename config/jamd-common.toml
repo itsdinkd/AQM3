@@ -6,4 +6,6 @@ surface_structures = false
 entities = true
 #Stop mods from adding lakes
 lakes = false
+#Main world id
+main_world = "minecraft:overworld"
 

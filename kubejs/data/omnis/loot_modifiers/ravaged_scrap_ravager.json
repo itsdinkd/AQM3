@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/ravager"
+    }
+  ],
+  "itemChance": 1.0,
+  "itemCount": 2,
+  "extraItemCount": 8,
+  "item": "omnis:ravaged_scrap",
+  "type": "omnis:ravaged_scrap_ravager"
+}

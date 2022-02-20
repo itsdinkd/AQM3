@@ -9,7 +9,7 @@
 	},
 	"Chance Globe":
 	{
-		"chance": -30
+		"chance": -30,
 		"Item":
 		[
 			{"item":{"id": "chanceglobe:chance_globe", "Count": 1}}

@@ -6,6 +6,15 @@
 # Accessibility Options
 #--------------------------------------------------------------------------------------------------------#
 # You may disable certain items or features from being obtainable/usable here.
+# 
+# A BLASTED WARNING, PLEASE READ CAREFULLY:
+# This WILL NOT "delete" any of the items from the mod. For items, none of the options here do more than
+# just disable default ways of obtaining them. For stuff in dungeon loot - it is removed from dungeon loot, 
+# for starter items - no longer given at the start, for craftables - default recipe is disabled.
+# If you're a modpack developer or whatever, that is your way to add your own ways of obtaining them.
+# Want to disable Enigmatic Amulet/Ring of the Seven Curses from being granted to player when they spawn?
+# HERE IS THE PLACE AND TIME, COME ON AND SLAM!
+# 
 # Please note that as of release 2.6.0 of Enigmatic Legacy, those options are automatically generated
 # for most items in the mod. They may refer to items that do not exist yet or are not obtainable in any
 # case, and may not work for certain items due to non-generic obtaining methods or generic oversight.
@@ -42,6 +51,9 @@
     # Whether or not Ceaseless Enchantment should be enabled. [default: true, synchronized: yes]
     B:CeaselessEnchantmentEnabled=true
 
+    # Whether or not Celestial Fruit should be enabled. [default: true, synchronized: yes]
+    B:CelestialFruitEnabled=true
+
     # Whether or not Charm of Treasure Hunter should be enabled. [default: true, synchronized: yes]
     B:CharmofTreasureHunterEnabled=false
 
@@ -74,6 +86,15 @@
 
     # Whether or not Crying Netherite Sword should be enabled. [default: true, synchronized: yes]
     B:CryingNetheriteSwordEnabled=true
+
+    # Whether or not Curse of Eternal Binding should be enabled. [default: true, synchronized: yes]
+    B:CurseofEternalBindingEnabled=true
+
+    # Whether or not Curse of Nemesis should be enabled. [default: true, synchronized: yes]
+    B:CurseofNemesisEnabled=true
+
+    # Whether or not Curse of Sorrow should be enabled. [default: true, synchronized: yes]
+    B:CurseofSorrowEnabled=true
 
     # Whether or not this mod should add any custom loot to dungeon chests' loot tables. This options is mainly for modpack developers and enables them to re-add that loot on their own terms, since no other ways of modifying what Enigmatic Legacy adds to loot tables currently exist. [default: true, synchronized: yes]
     B:CustomDungeonLootEnabled=true
@@ -159,6 +180,12 @@
     # Whether or not Guite to Animal Companionship should be enabled. [default: true, synchronized: yes]
     B:GuitetoAnimalCompanionshipEnabled=true
 
+    # Whether or not Heart of the Abyss should be enabled. [default: true, synchronized: yes]
+    B:HeartoftheAbyssEnabled=true
+
+    # Whether or not Heart of the Cosmos should be enabled. [default: true, synchronized: yes]
+    B:HeartoftheCosmosEnabled=true
+
     # Whether or not Heart of the Earth should be enabled. [default: true, synchronized: yes]
     B:HeartoftheEarthEnabled=true
 
@@ -188,9 +215,6 @@
 
     # Whether or not Nefarious Essence should be enabled. [default: true, synchronized: yes]
     B:NefariousEssenceEnabled=true
-
-    # Whether or not Nemesis Curse should be enabled. [default: true, synchronized: yes]
-    B:NemesisCurseEnabled=true
 
     # Whether or not Pact of Infinite Avarice should be enabled. [default: true, synchronized: yes]
     B:PactofInfiniteAvariceEnabled=true
@@ -237,8 +261,17 @@
     # Whether or not The Acknowledgment should be enabled. [default: true, synchronized: yes]
     B:TheAcknowledgmentEnabled=true
 
+    # Whether or not The Architect's Favor should be enabled. [default: true, synchronized: yes]
+    B:TheArchitectsFavorEnabled=true
+
     # Whether or not The Architect's Inkwell should be enabled. [default: true, synchronized: yes]
     B:TheArchitectsInkwellEnabled=true
+
+    # Whether or not The Ender Slayer should be enabled. [default: true, synchronized: yes]
+    B:TheEnderSlayerEnabled=true
+
+    # Whether or not The Infinitum should be enabled. [default: true, synchronized: yes]
+    B:TheInfinitumEnabled=true
 
     # Whether or not The Twist should be enabled. [default: true, synchronized: yes]
     B:TheTwistEnabled=true
@@ -334,6 +367,18 @@
     # Whether or not crossbows with Ceaseless should be able to shoot basic arrows even if there are none in player's inventory. [default: true, synchronized: yes]
     B:CeaselessEnchantmentAllowNoArrow=true
 
+    # Cooldown of death protection ability of The Architect's Favor. Measured in seconds. [range: 0 ~ 32768, default: 600, synchronized: yes]
+    I:CosmicScrollDeathProtectionCooldown=900
+
+    # Alternative Etherium Shield health requirement for those who bear The Architect's Favor. Defined as percentage. [range: 0 ~ 100, default: 80, synchronized: yes]
+    I:CosmicScrollEtheriumShieldThreshold=80
+
+    # Attack damage bonus of The Architect's Favor against non-chosen players. [range: 0 ~ 32768, default: 100, synchronized: yes]
+    I:CosmicScrollUnchosenDamageBonus=80
+
+    # Knockback bonus of The Architect's Favor against non-chosen players. [range: 0 ~ 32768, default: 100, synchronized: yes]
+    I:CosmicScrollUnchosenKnockbackBonus=80
+
     # Damage increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
     I:CursedScrollDamageBoost=3
 
@@ -342,6 +387,29 @@
 
     # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
     I:CursedScrollRegenBoost=2
+
+    # Attack damage of The Ender Slayer, actual damage shown in tooltip will be is 4 + this_value. [range: 0 ~ 32768, default: 4, synchronized: yes]
+    I:EnderSlayerAttackDamage=4
+
+    # Attack speed of The Ender Slayer. [range: -32768.0 ~ 32768.0, default: -2.6, synchronized: yes]
+    D:EnderSlayerAttackSpeed=-2.6
+
+    # Attack damage bonus of The Ender Slayer against dwellers of The End. [range: 0 ~ 32768, default: 150, synchronized: yes]
+    I:EnderSlayerEndDamageBonus=125
+
+    # List of entities that should be considered dwellers of The End by The Ender Slayer. Examples: minecraft:iron_golem, minecraft:zombified_piglin [default: , synchronized: no]
+    S:EnderSlayerEndDwellers <
+        doom:maykr_drone
+        doom:blood_maykr
+        minecraft:enderman
+        minecraft:endermite
+        alexsmobs:cosmic_cod
+        alexsmobs:void_worm
+        alexsmobs:spectre
+     >
+
+    # Knockback bonus of The Ender Slayer against dwellers of The End. [range: 0 ~ 32768, default: 600, synchronized: yes]
+    I:EnderSlayerEndKnockbackBonus=400
 
     # The damage bonus stat provided by red Enigmatic Amulet. [range: -32768.0 ~ 32768.0, default: 1.5, synchronized: yes]
     D:EnigmaticAmuletDamageBonus=1.0
@@ -520,6 +588,24 @@
     # Whether or not Dislocation Ring should play sound effect when teleporting items to player. [default: false, synchronized: yes]
     B:SuperMagnetRingSound=false
 
+    # Attack damage of The Infinitum, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 15.0, synchronized: yes]
+    D:TheInfinitumAttackDamage=12.0
+
+    # Attack speed of The Infinitum. [range: -32768.0 ~ 32768.0, default: -2.0, synchronized: yes]
+    D:TheInfinitumAttackSpeed=-2.0
+
+    # Attack damage bonus of The Infinitum against players and bosses. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    I:TheInfinitumBossDamageBonus=100
+
+    # Knockback bonus of The Infinitum. For Phantoms, this value is multiplied by 1.5. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    I:TheInfinitumKnockbackPowerBonus=100
+
+    # Lifesteal bonus of The Infinitum. [range: 0 ~ 32768, default: 10, synchronized: yes]
+    I:TheInfinitumLifestealBonus=7
+
+    # Chance of lethal damage prevention when holding The Infinitum. [range: 0 ~ 100, default: 85, synchronized: yes]
+    I:TheInfinitumUndeadProbability=60
+
     # Attack damage of The Twist, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 8.0, synchronized: yes]
     D:TheTwistAttackDamage=8.0
 
@@ -527,10 +613,10 @@
     D:TheTwistAttackSpeed=-1.6
 
     # Attack damage bonus of The Twist against players and bossess. [range: 0 ~ 32768, default: 300, synchronized: yes]
-    I:TheTwistBossDamageBonus=200
+    I:TheTwistBossDamageBonus=50
 
     # Knockback bonus of The Twist. For Phantoms, this value is multiplied by 1.5. [range: 0 ~ 32768, default: 300, synchronized: yes]
-    I:TheTwistKnockbackPowerBonus=200
+    I:TheTwistKnockbackPowerBonus=40
 
     # Base damage dealt by Darkness every half a second, when it devours a creature in proximity of bearer of the pearl. [range: 0.0 ~ 1000.0, default: 4.0, synchronized: yes]
     D:VoidPearlBaseDarknessDamage=4.0
@@ -565,6 +651,17 @@
 ##########################################################################################################
 
 "Generic Config" {
+    # List of entities that should be accounted for as bosses by The Twist and The Infinitum. Changing this option requires game restart to take effect. [default: [minecraft:ender_dragon], [minecraft:wither], [minecraft:elder_guardian], synchronized: no]
+    S:CompleteBossList <
+        minecraft:ender_dragon
+        minecraft:wither
+        minecraft:elder_guardian
+        doom:gladiator
+        doom:mother_demon
+        doom:arch_maykr
+        doom:iconofsin
+     >
+
     # Maximum amount of Soul Crystals a player can loose before they won't drop anymore. Each crystal lost subtracts 10% of from their maximum possible health value. [range: 1 ~ 10, default: 9, synchronized: no]
     I:MaxSoulCrystalLoss=9
 

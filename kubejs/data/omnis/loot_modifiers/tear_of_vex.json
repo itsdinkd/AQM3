@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/vex"
+    }
+  ],
+  "itemChance": 0.05,
+  "itemCount": 1,
+  "extraItemCount": 1,
+  "item": "omnis:tear_of_vex",
+  "type": "omnis:tear_of_vex"
+}

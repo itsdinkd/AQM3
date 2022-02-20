@@ -12,7 +12,7 @@
 	endAutomataCoreWarpPointLimit = 64
 	#Chance that overpowered automata will break after rotation cycle
 	#Range: 0.0 ~ 1.0
-	overpoweredAutomataBreakChance = 0.002
+	overpoweredAutomataBreakChance = 0.0085
 	#Range: 1 ~ 64
 	tier1AutomataCoreInteractionRadius = 2
 	#Range: 1 ~ 32

@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/vindicator"
+    }
+  ],
+  "itemChance": 0.6,
+  "itemCount": 1,
+  "extraItemCount": 3,
+  "item": "omnis:ravaged_scrap",
+  "type": "omnis:ravaged_scrap_vindicator"
+}

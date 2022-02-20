@@ -7,4 +7,6 @@
 	"Blanket Loom" = "DEFAULT"
 	#Allowed Values: DEFAULT, VANILLA
 	"Embroidery Thread" = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	"Embroidery Draw" = "DEFAULT"
 

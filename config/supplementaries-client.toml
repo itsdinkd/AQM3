@@ -186,6 +186,10 @@
 	#ignore this
 	#Range: -10.0 ~ 10.0
 	test3 = 0.0
+	#Allows dynamic resource generations for signs to pick textures from installed resource pack. Will only really work well if those texture pack have a similar format to vanilla otherwise it will result in glitched textures
+	dynamic_textures_from_resource_packs = false
+	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
+	debug_save_dynamic_pack = false
 
 #Game tweaks
 [tweaks]

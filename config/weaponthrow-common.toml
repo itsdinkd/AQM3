@@ -3,6 +3,10 @@
 [general]
 	#Weapon Cant be thrown if it is on cooldown
 	"Not Throw If Cooldown" = true
+	"No Roll Items" = ["minecraft:trident"]
+	#Angle used for no roll list
+	#Range: 0.0 ~ 356.0
+	"Default Roll Angle" = 90.0
 
 #If an item is whitelisted and doesn't have damage or attack speed, this values will be assigned
 [default]

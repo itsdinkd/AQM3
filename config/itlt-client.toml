@@ -50,7 +50,7 @@
 		# 
 		# Turning this on should give you a more crisp and detailed icon on higher resolution displays,
 		# rather than the comparatively blurry 32px PNG that is normally used.
-		enableEnhancedVanillaIcon = true
+		enableEnhancedVanillaIcon = false
 		# 
 		# Enable this if you want to change the window and taskbar icon of the Minecraft window.
 		# ICO, ICNS and PNG icons provided to this mod are supported on all operating systems.
@@ -60,7 +60,7 @@
 		# Note: See the itlt wiki for more info.
 		# 
 		# Note: This will override the enableEnhancedVanillaIcon when a valid custom icon is found.
-		enableCustomIcon = true
+		enableCustomIcon = false
 		# 
 		# Enable this if you want itlt to automatically detect your modpack's icon when launching
 		# from a supported launcher. If unable to auto-detect, it will fallback to a provided

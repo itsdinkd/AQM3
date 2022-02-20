@@ -187,6 +187,7 @@
     "chancecubes:beacon_arena": true,
     "chancecubes:world_infection": true,
     "chancecubes:block_thrower": true,
-    "Heart Rewards": true
+    "Heart Rewards": true,
+    "Chance Globe": true
   }
 }

@@ -55,7 +55,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'Another Quality Modpack 3 - v1.18.1';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 

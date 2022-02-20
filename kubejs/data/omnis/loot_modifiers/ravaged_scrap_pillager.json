@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/pillager"
+    }
+  ],
+  "itemChance": 0.25,
+  "itemCount": 1,
+  "extraItemCount": 2,
+  "item": "omnis:ravaged_scrap",
+  "type": "omnis:ravaged_scrap_pillager"
+}

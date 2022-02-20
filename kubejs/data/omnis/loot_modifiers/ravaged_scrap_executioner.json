@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "savageandravage:entities/executioner"
+    }
+  ],
+  "itemChance": 1.0,
+  "itemCount": 1,
+  "extraItemCount": 3,
+  "item": "omnis:ravaged_scrap",
+  "type": "omnis:ravaged_scrap_executioner"
+}

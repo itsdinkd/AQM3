@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/evoker"
+    }
+  ],
+  "itemChance": 0.1,
+  "itemCount": 1,
+  "extraItemCount": 0,
+  "item": "omnis:evoker_charm",
+  "type": "omnis:evoker_charm"
+}

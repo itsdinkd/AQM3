@@ -32,6 +32,8 @@
 	"Unmaykr Damage" = 1.7
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Grenade Damage" = 20.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Max Meathook Distance" = 32.0
 
 ["Mob Settings:Imps"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -138,7 +140,7 @@
 
 ["Mob Settings:Gladiator"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
-	"Gladiator Biomes" = ["#nether"]
+	"Gladiator Biomes" = [""]
 	#Range: > 1
 	"Gladiator Spawn Weight" = 1
 	#Range: > 1
@@ -210,20 +212,6 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Arachnotron Ranged Damage" = 6.8
 
-["Mob Settings:Imps 2016"]
-	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
-	"Imp 2016 Biomes" = ["#nether"]
-	#Range: > 1
-	"Imp 2016 Spawn Weight" = 15
-	#Range: > 1
-	"Imp 2016 Min Group" = 1
-	#Range: > 1
-	"Imp 2016 Max Group" = 3
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Imp 2016 Max Health" = 36.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Imp 2016 Ranged Damage" = 7.1
-
 ["Mob Settings:Gargoyle"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Gargoyle Biomes" = ["#nether"]
@@ -239,20 +227,6 @@
 	"Sets Gargoyle Ranged Damage" = 7.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Gargoyle Melee Damage" = 7.0
-
-["Mob Settings:Nightmare Imp"]
-	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
-	"Nightmare Imp Biomes" = ["#nether"]
-	#Range: > 1
-	"Nightmare Imp Spawn Weight" = 11
-	#Range: > 1
-	"Nightmare Imp Min Group" = 1
-	#Range: > 1
-	"Nightmare Imp Max Group" = 3
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Nightmare Imp Max Health" = 50.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Nightmare Imp Ranged Damage" = 8.4
 
 ["Mob Settings:Chaingunner"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -320,7 +294,7 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets the Ranged Damage" = 10.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Hellknight Melee Damage" = 13.0
+	"Sets Hellknight Melee Damage" = 15.0
 
 ["Mob Settings:Hellknight 2016"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -476,32 +450,6 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Tentacle Melee Damage" = 6.0
 
-["Mob Settings:Cyberdemon 2016"]
-	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
-	"Cyberdemon 2016 Biomes" = ["#nether"]
-	#Range: > 1
-	"Cyberdemon 2016 Spawn Weight" = 3
-	#Range: > 1
-	"Cyberdemon 2016 Min Group" = 1
-	#Range: > 1
-	"Cyberdemon 2016 Max Group" = 1
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Cyberdemon 2016 Max Health" = 500.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Cyberdemon 2016 Ranged Damage" = 18.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Cyberdemon 2016 Melee Damage" = 14.0
-
-["Mob Settings:Tyrant"]
-	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
-	"Tyrant Biomes" = ["#nether"]
-	#Range: > 1
-	"Tyrant Spawn Weight" = 4
-	#Range: > 1
-	"Tyrant Min Group" = 1
-	#Range: > 1
-	"Tyrant Max Group" = 1
-
 ["Mob Settings:Spider Mastermind"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Spider Mastermind Biomes" = ["#nether"]
@@ -582,41 +530,41 @@
 	#Range: > 1
 	"Summoner Max Group" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Summoner Max Health" = 30.0
+	"Sets Summoner Max Health" = 60.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Summoner Ranged Damage" = 12.0
 
 ["Mob Settings:Maykr Drone"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
-	"Maykr Drone Biomes" = ["#the_end"]
+	"Maykr Drone Biomes" = ["minecraft:small_end_islands", "minecraft:end_midlands", "minecraft:end_barrens", "minecraft:end_highlands"]
 	#Range: > 1
-	"Maykr Drone Spawn Weight" = 40
+	"Maykr Drone Spawn Weight" = 12
 	#Range: > 1
 	"Maykr Drone Min Group" = 1
 	#Range: > 1
 	"Maykr Drone Max Group" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Maykr Drone Max Health" = 48.0
+	"Sets Maykr Drone Max Health" = 58.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Maykr Drone Ranged Damage" = 10.0
+	"Sets Maykr Drone Ranged Damage" = 11.0
 
 ["Mob Settings:Blood Maykr"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
-	"Blood Maykr Biomes" = ["#the_end"]
+	"Blood Maykr Biomes" = ["minecraft:small_end_islands", "minecraft:end_midlands", "minecraft:end_barrens", "minecraft:end_highlands"]
 	#Range: > 1
-	"Blood Maykr Spawn Weight" = 6
+	"Blood Maykr Spawn Weight" = 5
 	#Range: > 1
 	"Blood Maykr Min Group" = 1
 	#Range: > 1
 	"Blood Maykr Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Blood Maykr Max Health" = 80.0
+	"Sets Blood Maykr Max Health" = 110.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Blood Maykr Ranged Damage" = 12.0
+	"Sets Blood Maykr Ranged Damage" = 16.0
 
 ["Mob Settings:Archmaykr"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
-	"Archmaykr Biomes" = ["#the_end"]
+	"Archmaykr Biomes" = ["minecraft:small_end_islands", "minecraft:end_midlands", "minecraft:end_barrens", "minecraft:end_highlands"]
 	#Range: > 1
 	"Archmaykr Spawn Weight" = 1
 	#Range: > 1
@@ -624,9 +572,9 @@
 	#Range: > 1
 	"Archmaykr Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Max Health" = 600.0
+	"Sets Archmaykr Max Health" = 700.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage" = 24.0
+	"Sets Archmaykr Ranged Damage" = 25.0
 
 ["Mob Settings:Motherdemon"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -653,4 +601,6 @@
 	"Sets Icon of Sin Max Health" = 1500.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Icon of Sin Melee Damage" = 47.0
+	#Icon of Sin Wave Mobs List
+	"Icon of Sin Wave Mobs" = ["doom:gladiator", "doom:mancubus", "doom:mancubus", "doom:marauder", "doom:marauder", "doom:firebronebaron", "doom:baron2016", "doom:baron2016", "doom:baron2016", "doom:baron2016", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul"]
 

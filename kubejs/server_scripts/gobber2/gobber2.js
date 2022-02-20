@@ -27,35 +27,6 @@ onEvent('recipes', event => {
     event.remove({output: item})
   })
 
-// Test
-const multiCrushing = function(outputs, inputs, counts, chances, secondarys, andRemove) {
-   if (andRemove) {
-      event.remove({input: inputs});
-   }
-  // event.recipes.immersiveengineeringCrusher(outputs, inputs, {chance: chances, output: secondarys});
-event.recipes.immersiveengineeringCrusher(
-{
-    "secondaries": [
-    {
-        "chance": chances,
-        "output":
-        {
-            "item": secondarys
-        }
-    }],
-    "result":
-    {
-        "item": outputs,
-        "count": counts
-    },
-    "input":
-    {
-        "item": inputs
-    },
-    "energy": 6000
-});
-};
-
 event.replaceInput(
   { id:"gobber2:gobber2_links_end" },
     "minecraft:nether_star",
@@ -86,108 +57,31 @@ event.shaped("gobber2:gobber2_medallion_hero", [
 ]);
 
 // Gobber Ore
+// event.recipes.immersiveengineeringCrusher(output, input)
+// event.recipes.immersiveengineeringCrusher(output, input, [secondaries]) // Secondary output format: {chance: 0.5, output: 'item:id'}
+// EXAMPLE: event.recipes.immersiveengineeringCrusher('7x create:crushed_copper_ore', 'minecraft:copper_ore', [Item.of('minecraft:copper_ore').withChance(0.5)])
 event.remove({input: "gobber2:gobber2_ore"})
-event.recipes.immersiveengineeringCrusher(
-{
-    "secondaries": [
-    {
-        "chance": 0.055,
-        "output":
-        {
-            "item": "gobber2:gobber2_glob"
-        }
-    }],
-    "result":
-    {
-        "item": "gobber2:gobber2_globette",
-        "count": 3
-    },
-    "input":
-    {
-        "item": "gobber2:gobber2_ore"
-    },
-    "energy": 6000
-});
-
+event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette', 'gobber2:gobber2_ore', [Item.of('gobber2:gobber2_glob').withChance(0.055)]);
 event.remove({input: "gobber2:gobber2_ore_deepslate"})
-event.recipes.immersiveengineeringCrusher(
-{
-    "secondaries": [
-    {
-        "chance": 0.056,
-        "output":
-        {
-            "item": "gobber2:gobber2_glob"
-        }
-    }],
-    "result":
-    {
-        "item": "gobber2:gobber2_globette",
-        "count": 3
-    },
-    "input":
-    {
-        "item": "gobber2:gobber2_ore_deepslate"
-    },
-    "energy": 6000
-});
-
-// Gobber Nether Ore
+event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette', 'gobber2:gobber2_ore_deepslate', [Item.of('gobber2:gobber2_glob').withChance(0.056)]);
 event.remove({input: "gobber2:gobber2_ore_nether"})
-event.recipes.immersiveengineeringCrusher(
-{
-    "secondaries": [
-    {
-        "chance": 0.0575,
-        "output":
-        {
-            "item": "gobber2:gobber2_glob_nether"
-        }
-    }],
-    "result":
-    {
-        "item": "gobber2:gobber2_globette_nether",
-        "count": 3
-    },
-    "input":
-    {
-        "item": "gobber2:gobber2_ore_nether"
-    },
-    "energy": 6000
-});
-
-// Gobber Nether Ore
+event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette_nether', 'gobber2:gobber2_ore_nether', [Item.of('gobber2:gobber2_glob_nether').withChance(0.0575)]);
 event.remove({input: "gobber2:gobber2_ore_end"})
-event.recipes.immersiveengineeringCrusher(
-{
-    "secondaries": [
-    {
-        "chance": 0.059999,
-        "output":
-        {
-            "item": "gobber2:gobber2_glob_end"
-        }
-    }],
-    "result":
-    {
-        "item": "gobber2:gobber2_globette_end",
-        "count": 3
-    },
-    "input":
-    {
-        "item": "gobber2:gobber2_ore_end"
-    },
-    "energy": 6000
-});
+event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette_end', 'gobber2:gobber2_ore_end', [Item.of('gobber2:gobber2_glob_end').withChance(0.0575)]);
+
 // Use Compacter for Dragonstar
 event.remove({output: "gobber2:dragon_star"})
 event.recipes.createCompacting('gobber2:dragon_star', [
   'gobber2:gobber2_block_end',
   'gobber2:gobber2_rod_end',
   'gobber2:gobber2_ore_end']).heated()
-// event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette', 'gobber2:gobber2_ore', {chance:0.0509999, output:'gobber2:gobber2_glob'})
 
-//multiCrushing('gobber2:gobber2_globette_nether', 'gobber2:gobber2_ore_nether', 3, 0.05555, 'gobber2:gobber2_glob_nether', true);
+event.replaceInput(
+  { id:"mysticalagriculture:globette_end_seeds_infusion" },
+    "mysticalagriculture:supremium_essence",
+    "mysticalagradditions:insanium_essence"
+);
+
 
 //end
 });

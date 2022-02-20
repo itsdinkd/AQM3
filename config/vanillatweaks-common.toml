@@ -91,7 +91,7 @@
 		#Want hoe to act like a sickle?
 		hoeActsAsSickle = true
 		#Want the ability to move spawners with silk touch?
-		enableSilkSpawner = true
+		enableSilkSpawner = false
 		#Want an way to swap armor with armor stand?
 		enableArmorStandSwapping = true
 		#Want to see the no of bees or the honey level of an beehive?

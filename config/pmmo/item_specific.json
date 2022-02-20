@@ -727,5 +727,49 @@
 	"cgm:grenade":
 	{
 		"gunWeapon": 1
+	},
+	"doom:bfg9000":
+	{
+		"gunWeapon": 1
+	},
+	"doom:shotgun":
+	{
+		"gunWeapon": 1
+	},
+	"doom:bfg_eternal":
+	{
+		"gunWeapon": 1
+	},
+	"doom:unmaykr":
+	{
+		"gunWeapon": 1
+	},
+	"doom:ballista":
+	{
+		"archeryWeapon": 1
+	},
+	"doom:pistol":
+	{
+		"gunWeapon": 1
+	},
+	"doom:chaingun":
+	{
+		"gunWeapon": 1
+	},
+	"doom:rocketlauncher":
+	{
+		"gunWeapon": 1
+	},
+	"doom:plasmagun":
+	{
+		"gunWeapon": 1
+	},
+	"doom:supershotgun":
+	{
+		"gunWeapon": 1
+	},
+	"doom:heavycannon":
+	{
+		"gunWeapon": 1
 	}
 }

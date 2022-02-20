@@ -102,4 +102,7 @@
 	#Whether mobs from spawners should despawn naturally or not.
 	#
 	natural_despawn = true
+	#----------------------------------------------------------------------------------------------------+
+	#Whether the dungeons should generate at a fixed height or not. Enable this if the dungeons are generating too high.
+	fixed_generation_height = false
 

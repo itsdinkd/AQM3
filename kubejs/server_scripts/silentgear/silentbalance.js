@@ -17,5 +17,10 @@ event.replaceInput(
 "gobber2:gobber2_ingot_nether",
 );
 
+event.replaceInput(
+{ id: "silentgear:starlight_charger"},
+"minecraft:polished_blackstone",
+"gobber2:dragon_star",
+);
 
 });

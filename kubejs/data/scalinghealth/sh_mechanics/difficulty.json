@@ -49,11 +49,11 @@
         "onKilled" : "difficulty + 0.15"
       },
       {
-        "entities" : ["doom:motherdemon", "doom:tyrant", "doom:iconofsin", "doom:gladiator"],
+        "entities" : ["doom:motherdemon", "doom:iconofsin", "doom:gladiator", "doom:arch_maykr"],
         "onKilled" : "difficulty + 0.75"
       },
       {
-        "entities" : ["doom:arachnotron", "doom:arachnotroneternal", "doom:arch_maykr", "doom:archvile", "doom:archvileeternal", "doom:armoredbaron", "doom:baron", "doom:baron2016", "doom:blood_maykr", "doom:cacodemon", "doom:chaingunner", "doom:cueball", "doom:cyberdemon", "doom:cyberdemon2016", "doom:doom_hunter", "doom:dreadknight", "doom:firebronebaron", "doom:gargoyle", "doom:gladiator", "doom:gore_nest", "doom:hellknight", "doom:hellknight2016", "doom:imp", "doom:imp2016", "doom:mancubus", "doom:marauder", "doom:maykr_drone", "doom:mechazombie", "doom:nightmare_imp", "doom:painelemental", "doom:pinky", "doom:pinky2016", "doom:possessed_scientist", "doom:possessed_soldier", "doom:possessed_worker", "doom:prowler", "doom:revenant", "doom:revenant2016", "doom:shotgunguy", "doom:spectre", "doom:spidermastermind", "doom:spidermastermind2016", "doom:stone_imp", "doom:summoner", "doom:tentacle", "doom:turret", "doom:unwilling", "doom:whiplash", "doom:zombieman"],
+        "entities" : ["doom:arachnotron", "doom:arachnotroneternal", "doom:arch_maykr", "doom:archvile", "doom:armoredbaron", "doom:baron", "doom:baron2016", "doom:blood_maykr", "doom:cacodemon", "doom:chaingunner", "doom:cueball", "doom:cyberdemon", "doom:doom_hunter", "doom:dreadknight", "doom:firebronebaron", "doom:gargoyle", "doom:gladiator", "doom:gore_nest", "doom:hellknight", "doom:hellknight2016", "doom:imp", "doom:mancubus", "doom:marauder", "doom:maykr_drone", "doom:mechazombie", "doom:painelemental", "doom:pinky", "doom:possessed_scientist", "doom:possessed_soldier", "doom:possessed_worker", "doom:prowler", "doom:revenant", "doom:revenant2016", "doom:shotgunguy", "doom:spectre", "doom:spidermastermind", "doom:spidermastermind2016", "doom:stone_imp", "doom:summoner", "doom:tentacle", "doom:turret", "doom:unwilling", "doom:whiplash", "doom:zombieman"],
         "onKilled" : "difficulty + 0.00659"
       }
     ]

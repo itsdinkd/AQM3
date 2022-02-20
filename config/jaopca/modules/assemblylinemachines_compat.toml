@@ -1,0 +1,11 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have hammer to plate recipes added.
+	toDustMaterialBlacklist = []
+	#The materials that should not have metal shaper to plate recipes added.
+	toPlateMaterialBlacklist = []
+
