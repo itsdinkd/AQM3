@@ -9,17 +9,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Storage Drawers"
-			x: -4.5d
-			y: -0.5d
+			title: "Craft any Storage Drawer"
+			x: -2.5d
+			y: 0.0d
 			subtitle: "Let's Learn about these bad bois"
-			description: [
-				"In this questline, you'll go more indepth"
-				"with the mod storage drawers."
-				"The quests after this go over the different kinds of upgrades and drawers."
-			]
-			dependencies: ["01163A11765BCA74"]
+			description: ["Store large quanties of a single type of items in drawers."]
 			hide: true
+			size: 1.5d
 			id: "69AD2EC81307E997"
 			tasks: [{
 				id: "37917ED7712B4136"
@@ -41,11 +37,18 @@
 		}
 		{
 			x: -6.0d
-			y: 1.0d
+			y: 0.0d
 			subtitle: "But...it does nothing?"
-			description: ["This template is used for all the upgrades in this mod."]
+			description: [
+				"This template is used for all the upgrades in this mod."
+				""
+				"Drawers can have up to 7 upgrades."
+				""
+				"Right click to add upgrade or shift right click on the drawer to access its upgrades."
+			]
 			dependencies: ["69AD2EC81307E997"]
 			hide: true
+			size: 1.5d
 			id: "1C3A38B4CD4108B9"
 			tasks: [{
 				id: "34DF734A0697CF77"
@@ -60,191 +63,67 @@
 			}]
 		}
 		{
-			title: "1x1 Drawers"
-			x: -3.5d
-			y: 1.0d
-			subtitle: "Also available as a cabinet!"
-			description: ["These drawers can hold 32 item stacks (2048 items!) and come with 7 upgrade slots. Ideal for a single type of item."]
-			dependencies: ["69AD2EC81307E997"]
-			hide: true
-			id: "5AEC4FC459FF69C3"
-			tasks: [{
-				id: "2E3BE87888D9F637"
-				type: "item"
-				title: "1x1"
-				item: "storagedrawers:oak_full_drawers_1"
-				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "10B4DA57C6B764E1"
-				type: "choice"
-				table_id: 5105327100113857232L
-			}]
-		}
-		{
 			x: -5.5d
-			y: 2.0d
-			description: ["This upgrade upgrades the amount of items stored by 2x the amount."]
+			y: -1.5d
+			subtitle: "Bigger Drawers!"
+			description: [
+				"Use upgrades to increase the number of stacks that it can store."
+				""
+				"Right click to install the upgrade."
+			]
 			dependencies: ["1C3A38B4CD4108B9"]
 			hide: true
 			id: "6536F140838EF5B3"
 			tasks: [{
-				id: "5F31388A4ED507F1"
+				id: "00B0DE49F991CD07"
 				type: "item"
-				item: "storagedrawers:obsidian_storage_upgrade"
-				consume_items: true
+				title: "Craft Any Upgrade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:obsidian_storage_upgrade"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:iron_storage_upgrade"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:gold_storage_upgrade"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:diamond_storage_upgrade"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:emerald_storage_upgrade"
+							}
+						]
+					}
+				}
 			}]
 			rewards: [{
-				id: "20EB6FD787CDDF52"
+				id: "5DE5A7FA43902733"
 				type: "item"
-				item: "storagedrawers:obsidian_storage_upgrade"
-			}]
-		}
-		{
-			title: "1x2 Drawers"
-			x: -3.5d
-			y: 2.0d
-			subtitle: "Also available as a cabinet!"
-			description: [
-				"This storage drawer contains 16 stacks of 2 items."
-				"This is useful for things like a wheat farm which generates and item and seeds."
-			]
-			dependencies: ["5AEC4FC459FF69C3"]
-			hide: true
-			id: "108478ADA02DB7AF"
-			tasks: [{
-				id: "25030E2790F48B13"
-				type: "item"
-				item: "storagedrawers:oak_full_drawers_2"
-			}]
-			rewards: [{
-				id: "04EEA8BD6BEDC295"
-				type: "choice"
-				table_id: 1627579529458196308L
+				item: "storagedrawers:upgrade_template"
 			}]
 		}
 		{
 			x: -6.5d
-			y: 2.0d
-			description: ["This upgrades the storage drawer to hold an addition 4x amount of base items."]
-			dependencies: ["6536F140838EF5B3"]
-			hide: true
-			id: "1D0656CAB44ED9F0"
-			tasks: [{
-				id: "01CF6E20753F9B32"
-				type: "item"
-				item: "storagedrawers:iron_storage_upgrade"
-				consume_items: true
-			}]
-			rewards: [{
-				id: "5DE55075E8890441"
-				type: "item"
-				item: "storagedrawers:iron_storage_upgrade"
-			}]
-		}
-		{
-			title: "2x2 Drawers"
-			x: -3.5d
-			y: 3.0d
-			subtitle: "Also available as a cabinet!"
-			description: ["These hold 8 items per slot. Very useful for things like compressed cobble or other things that have four variations of one item."]
-			dependencies: ["108478ADA02DB7AF"]
-			hide: true
-			id: "524223EB7BB445D7"
-			tasks: [{
-				id: "63161BE4DC3907E1"
-				type: "item"
-				item: "storagedrawers:oak_full_drawers_4"
-			}]
-			rewards: [
-				{
-					id: "4625689090F5E500"
-					type: "choice"
-					table_id: 5296801943254881699L
-				}
-				{
-					id: "0CCF3AB3FEC62C99"
-					type: "item"
-					item: "scalinghealth:heart_crystal_shard"
-				}
-			]
-		}
-		{
-			x: -6.5d
-			y: 3.0d
-			description: ["This increases storage to 8x the base vaule."]
-			dependencies: ["1D0656CAB44ED9F0"]
-			hide: true
-			id: "106EA439E066EB70"
-			tasks: [{
-				id: "0075846202D2B23F"
-				type: "item"
-				item: "storagedrawers:gold_storage_upgrade"
-				consume_items: true
-			}]
-			rewards: [{
-				id: "71EFF261863CD297"
-				type: "item"
-				item: "storagedrawers:gold_storage_upgrade"
-			}]
-		}
-		{
-			x: -5.5d
-			y: 3.0d
-			description: ["Increases storage to 16x base value."]
-			dependencies: ["106EA439E066EB70"]
-			hide: true
-			id: "4B9E53921ADE4A70"
-			tasks: [{
-				id: "53560F63B2FE72CA"
-				type: "item"
-				item: "storagedrawers:diamond_storage_upgrade"
-				consume_items: true
-			}]
-			rewards: [{
-				id: "64BF95DEFE3B40A4"
-				type: "item"
-				item: "storagedrawers:diamond_storage_upgrade"
-			}]
-		}
-		{
-			x: -5.5d
-			y: 4.0d
-			description: ["Increases storage to 32x base amount."]
-			dependencies: ["4B9E53921ADE4A70"]
-			hide: true
-			id: "023A704473E92F5F"
-			tasks: [{
-				id: "3A7A04A36891165C"
-				type: "item"
-				item: "storagedrawers:emerald_storage_upgrade"
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "5A93778DBEC85500"
-					type: "item"
-					item: "storagedrawers:emerald_storage_upgrade"
-				}
-				{
-					id: "267B36E0AA545B4C"
-					type: "item"
-					item: "scalinghealth:heart_crystal_shard"
-				}
-			]
-		}
-		{
-			x: -6.5d
-			y: 4.0d
+			y: -1.5d
 			description: ["This makes it so the drawer only holds a single stack. Useful if you plan on destroying everything but a single stack."]
-			dependencies: ["023A704473E92F5F"]
+			dependencies: ["1C3A38B4CD4108B9"]
 			hide: true
 			id: "427EFB89C6321811"
 			tasks: [{
 				id: "4A440A85903EEDEC"
 				type: "item"
 				item: "storagedrawers:one_stack_upgrade"
-				consume_items: true
 			}]
 			rewards: [{
 				id: "122332CED37DF1FA"
@@ -253,17 +132,16 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 5.0d
+			x: -7.5d
+			y: -0.5d
 			description: ["This item makes it so any item higher then what the drawer can hold is deleted. Useful for automated farms/items."]
-			dependencies: ["427EFB89C6321811"]
+			dependencies: ["1C3A38B4CD4108B9"]
 			hide: true
 			id: "1FFA42EC8AA4622D"
 			tasks: [{
 				id: "53FE97C159119684"
 				type: "item"
 				item: "storagedrawers:void_upgrade"
-				consume_items: true
 			}]
 			rewards: [{
 				id: "58477D6885DCA953"
@@ -272,17 +150,16 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 5.0d
+			x: -7.5d
+			y: 0.5d
 			description: ["This item automatically converts items that are applicable."]
-			dependencies: ["1FFA42EC8AA4622D"]
+			dependencies: ["1C3A38B4CD4108B9"]
 			hide: true
 			id: "5B6B33CEAFD7D583"
 			tasks: [{
 				id: "0AC7D84CBBF5DF26"
 				type: "item"
 				item: "storagedrawers:conversion_upgrade"
-				consume_items: true
 			}]
 			rewards: [
 				{
@@ -298,17 +175,16 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 6.0d
+			x: -7.5d
+			y: 1.5d
 			description: ["This emits a redstone signal for total storage."]
-			dependencies: ["5B6B33CEAFD7D583"]
+			dependencies: ["1C3A38B4CD4108B9"]
 			hide: true
 			id: "4EE6850C8E3F0F26"
 			tasks: [{
 				id: "5909198E27A34E73"
 				type: "item"
 				item: "storagedrawers:redstone_upgrade"
-				consume_items: true
 			}]
 			rewards: [{
 				id: "41BDC7F5D93C1419"
@@ -317,52 +193,57 @@
 			}]
 		}
 		{
+			title: "Redstone Upgrades"
 			x: -6.5d
-			y: 6.0d
-			description: ["This emits a redstone signal for the lowest item in the drawer."]
-			dependencies: ["4EE6850C8E3F0F26"]
+			y: 1.5d
+			subtitle: "But what if I have don't have 1X1 Drawer"
+			description: [
+				"Min Redstone Upgrade emits a redstone signal for the lowest item in the drawer."
+				""
+				"Max Redstone Upgrade emits a redstone signal for the highest stored item."
+			]
+			dependencies: ["1C3A38B4CD4108B9"]
 			hide: true
 			id: "752B5BAD624C9C09"
-			tasks: [{
-				id: "2DD0F3C81E181BDC"
-				type: "item"
-				item: "storagedrawers:min_redstone_upgrade"
-				consume_items: true
-			}]
-			rewards: [{
-				id: "5086A667569E7807"
-				type: "item"
-				item: "storagedrawers:min_redstone_upgrade"
-			}]
+			tasks: [
+				{
+					id: "2DD0F3C81E181BDC"
+					type: "item"
+					item: "storagedrawers:min_redstone_upgrade"
+				}
+				{
+					id: "17C207D4F2E12AE4"
+					type: "item"
+					item: "storagedrawers:max_redstone_upgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "5086A667569E7807"
+					type: "item"
+					item: "storagedrawers:min_redstone_upgrade"
+				}
+				{
+					id: "4F3BF1716FF25FB5"
+					type: "item"
+					item: "storagedrawers:max_redstone_upgrade"
+				}
+			]
 		}
 		{
-			x: -6.5d
-			y: 7.0d
-			description: ["This emits a redstone signal for the highest stored item."]
-			dependencies: ["752B5BAD624C9C09"]
-			hide: true
-			id: "473606ABB4EA27FB"
-			tasks: [{
-				id: "1BB3AC32525E267C"
-				type: "item"
-				item: "storagedrawers:max_redstone_upgrade"
-			}]
-		}
-		{
-			x: -5.5d
-			y: 8.0d
+			x: -7.5d
+			y: -1.5d
 			description: [
 				"This upgrade will make it so the label of a storage drawer glows at night."
 				"{image:mahoutsukai:textures/particle/depth.png width:100 height:100 align:1}"
 			]
-			dependencies: ["3707BC54C8567C9D"]
+			dependencies: ["1C3A38B4CD4108B9"]
 			hide: true
 			id: "50E5B27E8D089F89"
 			tasks: [{
 				id: "4528AA1C06366D09"
 				type: "item"
 				item: "storagedrawers:illumination_upgrade"
-				consume_items: true
 			}]
 			rewards: [
 				{
@@ -384,16 +265,15 @@
 		}
 		{
 			x: -5.5d
-			y: 7.0d
+			y: 1.5d
 			description: ["This upgrade shows the fill level of a storage drawer."]
-			dependencies: ["473606ABB4EA27FB"]
+			dependencies: ["1C3A38B4CD4108B9"]
 			hide: true
 			id: "3707BC54C8567C9D"
 			tasks: [{
 				id: "66FA94FD2A8C2D74"
 				type: "item"
 				item: "storagedrawers:fill_level_upgrade"
-				consume_items: true
 			}]
 			rewards: [{
 				id: "712073EAECB6298C"
@@ -403,12 +283,12 @@
 		}
 		{
 			x: -2.5d
-			y: 3.0d
+			y: -1.5d
 			description: [
 				"This block will search for any connected drawer within 12 blocks, and then expose all of those drawers as a large combined inventory. This lets you hook up a single pipe, tube, duct, spark, storage bus, etc. and interact with the entire bank of drawers."
 				"The second function of the controller is as a deposit-only interactive block. By right-clicking on the front face with an item, the item will be deposited into the connected network. By double-right clicking, it will attempt to dump your entire inventory. Items will only be dumped if they already exist in the network, allowing you to clear out a bunch of mob drops or farmed crops without literally dumping your entire inventory."
 			]
-			dependencies: ["524223EB7BB445D7"]
+			dependencies: ["69AD2EC81307E997"]
 			hide: true
 			id: "6CEB25718D942747"
 			tasks: [{
@@ -425,7 +305,7 @@
 		}
 		{
 			x: -2.5d
-			y: 2.0d
+			y: -2.5d
 			description: ["Controller Slaves act as an extension of a drawer controller, exposing more faces for attaching machines, pipes, or crafting frames. Controllers will bind to a slave when they find them on the network, and all slaves bound to the same controller will share the same inventory and range as that controller. Unlike drawers, slaves cannot be shared, and you should be careful to not put them in range of multiple controllers. Using controller slaves is better for performance than using multiple controllers."]
 			dependencies: ["6CEB25718D942747"]
 			hide: true
@@ -443,10 +323,10 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 1.0d
+			x: -1.0d
+			y: 0.0d
 			description: ["Compacting drawers are a special stone-colored drawer that auto-convert compressible items. Instead of manually crafting and uncrafting between gold blocks, ingots, and nuggets, put them in a compacting drawer. The drawer will internally maintain a pool of the material, and let you insert or remove the material in any of the shown forms."]
-			dependencies: ["7F6F1D0A48B60954"]
+			dependencies: ["69AD2EC81307E997"]
 			hide: true
 			id: "0EDEFE7FCA00C189"
 			tasks: [{
@@ -471,13 +351,13 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 4.0d
+			x: -2.5d
+			y: 1.5d
 			description: [
 				"This key is used to lock and unlock storage drawers."
 				"Quite useful in automated systems to prevent any other items other then what is locked from being put into the drawer."
 			]
-			dependencies: ["524223EB7BB445D7"]
+			dependencies: ["69AD2EC81307E997"]
 			hide: true
 			id: "5DCCD4B3AD397096"
 			tasks: [{
@@ -493,8 +373,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 5.0d
+			x: -2.0d
+			y: 2.5d
 			description: [
 				"This key shows the amount of items you have stored in the storage drawer."
 				"Quite useful if you need to know how much of an item you have."
@@ -506,42 +386,28 @@
 				id: "6E671A81D87B86E9"
 				type: "item"
 				item: "storagedrawers:quantify_key"
-				consume_items: true
-			}]
-			rewards: [{
-				id: "0EF05032F265AF8A"
-				type: "item"
-				item: "storagedrawers:quantify_key"
 			}]
 		}
 		{
-			x: -3.5d
-			y: 6.0d
+			x: -3.0d
+			y: 2.5d
 			description: [
 				"This key shows or hides what item is being stored."
 				"Useful if you go based off item names instead of images."
 			]
-			dependencies: ["4D408056757D880B"]
+			dependencies: ["5DCCD4B3AD397096"]
 			hide: true
 			id: "60C7929D1CFD9AB5"
 			tasks: [{
 				id: "5E2630362236B5B6"
 				type: "item"
 				item: "storagedrawers:shroud_key"
-				consume_items: true
 			}]
-			rewards: [
-				{
-					id: "247C6277F9BAED2F"
-					type: "item"
-					item: "storagedrawers:shroud_key"
-				}
-				{
-					id: "0095C2BA33B8D075"
-					type: "item"
-					item: "scalinghealth:heart_crystal_shard"
-				}
-			]
+			rewards: [{
+				id: "0095C2BA33B8D075"
+				type: "item"
+				item: "scalinghealth:heart_crystal_shard"
+			}]
 		}
 		{
 			title: "Simple Storage Network"
