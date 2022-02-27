@@ -81,7 +81,7 @@
 		}
 		{
 			title: "Look at what I made!"
-			x: 2.0d
+			x: 1.125d
 			y: 0.0d
 			subtitle: "A better table"
 			description: ["This neat little crafting tab allows on the go crafting."]
@@ -101,97 +101,11 @@
 			}]
 		}
 		{
-			title: "The easy bake oven."
-			icon: "minecraft:smoker"
-			x: 1.5d
-			y: -1.0d
-			subtitle: "And thus a wall of easy bake was born."
-			description: ["Look, it ain't much but it processes food fast when setup."]
-			dependencies: ["54626924CE9BD31F"]
-			hide: true
-			size: 0.75d
-			optional: true
-			id: "474EF46C83E6797A"
-			tasks: [
-				{
-					id: "208EC4AC58EFD28F"
-					type: "item"
-					item: "minecraft:smoker"
-					count: 16L
-				}
-				{
-					id: "436C87B38398D904"
-					type: "item"
-					item: "minecraft:hopper"
-					count: 48L
-				}
-				{
-					id: "0ADF328DB6C8CF0A"
-					type: "item"
-					title: "Any #forge:chests"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:chests"
-						}
-					}
-					count: 48L
-				}
-			]
-			rewards: [
-				{
-					id: "29FEEADD36C44CD0"
-					type: "item"
-					item: "minecraft:coal_block"
-				}
-				{
-					id: "7EA739D8379BD187"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			title: "A new storage"
-			icon: "storagedrawers:oak_full_drawers_1"
-			x: 1.5d
-			y: 1.0d
-			subtitle: "For all your mass item storage needs"
-			description: [
-				"These drawers can hold quite a bit of a single item."
-				"They are upgradable and have an option void excess items."
-			]
-			dependencies: ["54626924CE9BD31F"]
-			hide: true
-			size: 0.75d
-			id: "01163A11765BCA74"
-			tasks: [{
-				id: "558D52A988DBCD7D"
-				type: "item"
-				title: "Any Storage Drawer"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "storagedrawers:drawers"
-					}
-				}
-				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "04FEB09DA8E5CD8A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
 			title: "A larger Storage"
-			x: 2.5d
-			y: 1.0d
+			x: 3.375d
+			y: 0.0d
 			subtitle: "Let me tell how much junk this baby can fit"
 			description: ["These chests are bigger then normal chests and are worth using for various automatic storages/processing."]
-			dependencies: ["54626924CE9BD31F"]
 			hide: true
 			size: 0.75d
 			id: "05F8D5D9AA6FF76D"
@@ -209,29 +123,20 @@
 		}
 		{
 			title: "A new furnace?"
-			x: 2.5d
-			y: -1.0d
+			x: 2.25d
+			y: 0.0d
 			subtitle: "Look man, I don't like waiting to process"
 			description: [
 				"These new furnaces are upgradable and process better then normal chests."
 				"Each Upgraded Tier increase smelt time, and decrease fuel usage"
 			]
-			dependencies: ["54626924CE9BD31F"]
 			hide: true
 			size: 0.75d
 			id: "2150D0C07467C6F3"
 			tasks: [{
-				id: "22BC97DF84AF3981"
+				id: "739B0D5337674C1E"
 				type: "item"
-				title: "Any #forge:furnaces/iron"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:furnaces/iron"
-					}
-				}
-				only_from_crafting: true
+				item: "ironfurnaces:iron_furnace"
 			}]
 			rewards: [{
 				id: "2155D35450D5F1B9"
@@ -438,14 +343,13 @@
 		}
 		{
 			title: "BONSAI"
-			x: 3.0d
+			x: 4.5d
 			y: 0.0d
 			subtitle: "<3"
 			description: [
 				"This grows trees and other things automatically."
 				"To learn how to upgrade your Bonsai plots, in JEI, hover over the plot and press 'U' to see all the upgrades available"
 			]
-			dependencies: ["54626924CE9BD31F"]
 			size: 0.75d
 			id: "1C348E82C09647A6"
 			tasks: [{
