@@ -27,12 +27,18 @@ event.shaped("mysticalagriculture:master_infusion_crystal", [
 
 const mystTools = [
 'sword',
+'bow',
+'crossbow',
 'pickaxe',
 'shovel',
 'axe',
 'hoe',
 'staff',
 'watering_can',
+'helmet',
+'chestplate',
+'leggings',
+'boots',
 ];
 
 mystTools.forEach(function (item) {
@@ -53,9 +59,9 @@ mystTools.forEach(function (item) {
 //Tertium Tools
   event.remove({output: "mysticalagriculture:tertium_" + item})
   event.shaped("mysticalagriculture:tertium_" + item, [
-    ["assemblylinemachines:mystium_ingot", "mysticalagriculture:tertium__gemstone", "assemblylinemachines:mystium_ingot"],
-    ["mysticalagriculture:tertium__ingot","mysticalagriculture:prudentium_" + item, "mysticalagriculture:tertium__ingot"],
-    ["assemblylinemachines:mystium_ingot","mysticalagriculture:tertium__gemstone", "assemblylinemachines:mystium_ingot"],
+    ["assemblylinemachines:mystium_ingot", "mysticalagriculture:tertium_gemstone", "assemblylinemachines:mystium_ingot"],
+    ["mysticalagriculture:tertium_ingot","mysticalagriculture:prudentium_" + item, "mysticalagriculture:tertium_ingot"],
+    ["assemblylinemachines:mystium_ingot","mysticalagriculture:tertium_gemstone", "assemblylinemachines:mystium_ingot"],
   ]);
 })
 
