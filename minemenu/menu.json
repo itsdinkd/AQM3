@@ -1,0 +1,76 @@
+{
+  "main": {
+    "1": {
+      "title": "Difficulty Meter (X)",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:totem_of_undying\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.scalinghealth.difficultyMeter",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Light Overlay",
+      "icon": {
+        "stack": "{Count:1b,id:\"silentgear:phantom_light\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.lightoverlay.enable_overlay",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Toggle PMMO Tooltips",
+      "icon": {
+        "stack": "{Count:1b,id:\"cyclic:screen\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.pmmo.toggleTooltip",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "Skills and Stats",
+      "icon": {
+        "stack": "{Count:1b,id:\"immersiveengineering:shader_bag_uncommon\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.pmmo.openMenu",
+          "toggle": true
+        }
+      }
+    },
+    "5": {
+      "title": "Shoulder Surfing",
+      "icon": {
+        "stack": "{Count:1b,id:\"securitycraft:security_camera\"}"
+      },
+      "action": {
+        "key": {
+          "key": "Toggle perspective",
+          "toggle": true
+        }
+      }
+    },
+    "6": {
+      "title": "Create Party (/pmmo party create)",
+      "icon": {
+        "stack": "{Count:1b,id:\"aquaculture:neptunium_sword\",tag:{Damage:0}}"
+      },
+      "action": {
+        "command": {
+          "command": "/pmmo party create",
+          "clipboard": false
+        }
+      }
+    }
+  }
+}

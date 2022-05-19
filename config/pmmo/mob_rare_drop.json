@@ -1,0 +1,18 @@
+{
+	"minecraft:chicken":
+	{
+		"minecraft:egg": 10
+	},
+	"minecraft:sheep":
+	{
+		"minecraft:string": 10
+	},
+	"minecraft:slime":
+	{
+		"minecraft:slime_block": 20
+	},
+	"minecraft:zombie":
+	{
+		"minecraft:beetroot": 40
+	}
+}

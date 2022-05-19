@@ -1,0 +1,263 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 17, 2022, 9:39:38 AM
+
+#assemblylinemachines:glacier_water
+- assemblylinemachines:glacier_water
+- assemblylinemachines:glacier_water_flowing
+
+#beyond_earth:molten_calorite
+- beyond_earth:molten_calorite?
+- beyond_earth:flowing_molten_calorite?
+
+#assemblylinemachines:gasoline
+- assemblylinemachines:gasoline
+- assemblylinemachines:gasoline_flowing
+
+#forge:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- restored_earth:mud
+- restored_earth:flowing_mud
+- securitycraft:fake_water
+- securitycraft:flowing_fake_water
+- beyond_earth:fuel
+- beyond_earth:flowing_fuel
+- beyond_earth:oil
+- beyond_earth:flowing_oil
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- hyperlighting:white_colored_water_still
+- hyperlighting:white_colored_water_flowing
+- hyperlighting:orange_colored_water_still
+- hyperlighting:orange_colored_water_flowing
+- hyperlighting:magenta_colored_water_still
+- hyperlighting:magenta_colored_water_flowing
+- hyperlighting:light_blue_colored_water_still
+- hyperlighting:light_blue_colored_water_flowing
+- hyperlighting:yellow_colored_water_still
+- hyperlighting:yellow_colored_water_flowing
+- hyperlighting:lime_colored_water_still
+- hyperlighting:lime_colored_water_flowing
+- hyperlighting:pink_colored_water_still
+- hyperlighting:pink_colored_water_flowing
+- hyperlighting:gray_colored_water_still
+- hyperlighting:gray_colored_water_flowing
+- hyperlighting:light_gray_colored_water_still
+- hyperlighting:light_gray_colored_water_flowing
+- hyperlighting:cyan_colored_water_still
+- hyperlighting:cyan_colored_water_flowing
+- hyperlighting:purple_colored_water_still
+- hyperlighting:purple_colored_water_flowing
+- hyperlighting:blue_colored_water_still
+- hyperlighting:blue_colored_water_flowing
+- hyperlighting:brown_colored_water_still
+- hyperlighting:brown_colored_water_flowing
+- hyperlighting:green_colored_water_still
+- hyperlighting:green_colored_water_flowing
+- hyperlighting:red_colored_water_still
+- hyperlighting:red_colored_water_flowing
+- hyperlighting:black_colored_water_still
+- hyperlighting:black_colored_water_flowing
+- hyperlighting:white_colored_glowing_water_still
+- hyperlighting:white_colored_glowing_water_flowing
+- hyperlighting:orange_colored_glowing_water_still
+- hyperlighting:orange_colored_glowing_water_flowing
+- hyperlighting:magenta_colored_glowing_water_still
+- hyperlighting:magenta_colored_glowing_water_flowing
+- hyperlighting:light_blue_colored_glowing_water_still
+- hyperlighting:light_blue_colored_glowing_water_flowing
+- hyperlighting:yellow_colored_glowing_water_still
+- hyperlighting:yellow_colored_glowing_water_flowing
+- hyperlighting:lime_colored_glowing_water_still
+- hyperlighting:lime_colored_glowing_water_flowing
+- hyperlighting:pink_colored_glowing_water_still
+- hyperlighting:pink_colored_glowing_water_flowing
+- hyperlighting:gray_colored_glowing_water_still
+- hyperlighting:gray_colored_glowing_water_flowing
+- hyperlighting:light_gray_colored_glowing_water_still
+- hyperlighting:light_gray_colored_glowing_water_flowing
+- hyperlighting:cyan_colored_glowing_water_still
+- hyperlighting:cyan_colored_glowing_water_flowing
+- hyperlighting:purple_colored_glowing_water_still
+- hyperlighting:purple_colored_glowing_water_flowing
+- hyperlighting:blue_colored_glowing_water_still
+- hyperlighting:blue_colored_glowing_water_flowing
+- hyperlighting:brown_colored_glowing_water_still
+- hyperlighting:brown_colored_glowing_water_flowing
+- hyperlighting:green_colored_glowing_water_still
+- hyperlighting:green_colored_glowing_water_flowing
+- hyperlighting:red_colored_glowing_water_still
+- hyperlighting:red_colored_glowing_water_flowing
+- hyperlighting:black_colored_glowing_water_still
+- hyperlighting:black_colored_glowing_water_flowing
+- mahoutsukai:murky_still
+- mahoutsukai:murky_flow
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:molten_ostrum
+- #beyond_earth:molten_ostrum
+
+#forge:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:molten_desh
+- #beyond_earth:molten_desh
+
+#assemblylinemachines:oil
+- assemblylinemachines:oil
+- assemblylinemachines:oil_flowing
+
+#tconstruct:tooltips/metal
+- #forge:molten_desh
+- #forge:molten_ostrum
+- #forge:molten_calorite
+
+#assemblylinemachines:diesel
+- assemblylinemachines:diesel
+- assemblylinemachines:diesel_flowing
+
+#forge:biomass
+- cyclic:biomass
+
+#assemblylinemachines:naphtha
+- assemblylinemachines:naphtha
+- assemblylinemachines:naphtha_flowing
+
+#forge:plantoil
+- immersiveengineering:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:magentite
+- bigreactors:magentite
+- bigreactors:magentite_flowing
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+- securitycraft:fake_lava
+- securitycraft:flowing_fake_lava
+
+#assemblylinemachines:condensed_void
+- assemblylinemachines:condensed_void
+- assemblylinemachines:condensed_void_flowing
+
+#biomesoplenty:blood
+- biomesoplenty:blood
+- biomesoplenty:flowing_blood
+
+#forge:ethanol
+- immersiveengineering:ethanol
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:redstone_acid
+- immersiveengineering:redstone_acid
+
+#beyond_earth:molten_ostrum
+- beyond_earth:molten_ostrum?
+- beyond_earth:flowing_molten_ostrum?
+
+#assemblylinemachines:liquid_carbon
+- assemblylinemachines:liquid_carbon
+- assemblylinemachines:liquid_carbon_flowing
+
+#assemblylinemachines:liquid_experience
+- assemblylinemachines:liquid_experience
+- assemblylinemachines:liquid_experience_flowing
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#beyond_earth:oil
+- beyond_earth:oil
+- beyond_earth:flowing_oil
+
+#forge:verderium
+- bigreactors:verderium
+- bigreactors:verderium_flowing
+
+#forge:potion
+- immersiveengineering:potion
+
+#beyond_earth:molten_desh
+- beyond_earth:molten_desh?
+- beyond_earth:flowing_molten_desh?
+
+#assemblylinemachines:dark_energy
+- assemblylinemachines:dark_energy
+- assemblylinemachines:dark_energy_flowing
+
+#forge:steam
+- bigreactors:steam
+- bigreactors:steam_flowing
+
+#forge:experience
+- sophisticatedbackpacks:xp_still
+- cyclic:xpjuice
+
+#forge:yellorium
+- bigreactors:yellorium
+- bigreactors:yellorium_flowing
+
+#forge:slime
+- cyclic:slime
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:magma
+- cyclic:magma
+
+#beyond_earth:vehicle_fuel
+- beyond_earth:fuel
+- beyond_earth:flowing_fuel
+- thermal:refined_fuel?
+- vehicle:fuelium?
+- car:bio_diesel?
+- immersivepetroleum:diesel?
+- immersiveengineering:biodiesel?
+- industrialforegoing:biofuel?
+
+#immersiveengineering:drill_fuel
+- #forge:biodiesel
+
+#forge:rossinite
+- bigreactors:rossinite
+- bigreactors:rossinite_flowing
+
+#forge:molten_calorite
+- #beyond_earth:molten_calorite
+
+#forge:honey
+- productivebees:honey
+- productivebees:flowing_honey
+- inspirations:honey?
+- cyclic:honey
+- create:flowing_honey
+- create:honey
+
+#forge:creosote
+- immersiveengineering:creosote
+
+#forge:cyanite
+- bigreactors:cyanite
+- bigreactors:cyanite_flowing
+
+#forge:blutonium
+- bigreactors:blutonium
+- bigreactors:blutonium_flowing

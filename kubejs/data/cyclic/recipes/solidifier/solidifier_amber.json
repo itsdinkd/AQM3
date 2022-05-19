@@ -1,0 +1,21 @@
+{
+  "type": "cyclic:solidifier",
+  "ingredients":[ {
+    "item": "minecraft:fire_charge"
+  },
+  {
+    "item": "minecraft:redstone"
+  },
+   {
+    "item": "gobber2:gobber2_ingot_nether"
+  }],
+  "mix": {
+    "fluid": "cyclic:honey",
+    "tag": "forge:honey",
+    "count": 750
+  },
+  "result": {
+    "item": "cyclic:gem_amber",
+    "count": 2
+  }
+}

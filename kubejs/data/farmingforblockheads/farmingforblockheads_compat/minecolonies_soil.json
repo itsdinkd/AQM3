@@ -1,0 +1,16 @@
+{
+  "modId": "minecolonies",
+  "group": {
+    "name": "Minecolonies Compost",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:diamond"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "minecolonies:composted_dirt"
+    }
+  ]
+}

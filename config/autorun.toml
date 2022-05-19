@@ -1,0 +1,25 @@
+
+#####################################################################################
+#Mod settings such as speed in different situations
+#####################################################################################
+[autorun]
+	#
+	# Creative flight speed
+	#Range: 0.0010000000474974513 ~ 1.0
+	flightSpeed = 1.0
+	#
+	# Mounted riding speed, while riding any Living Entity 
+	#Range: 0.0010000000474974513 ~ 1.0
+	ridingSpeed = 0.44999998807907104
+	#
+	# Boating speed (any entity that extends BoatEntity) 
+	#Range: 0.0010000000474974513 ~ 1.0
+	boatingSpeed = 0.5
+	#
+	# Allowed while using Elytra
+	allowElytra = false
+	#
+	# Walking speed 
+	#Range: 0.0010000000474974513 ~ 1.0
+	walkingSpeed = 0.5700000238418579
+

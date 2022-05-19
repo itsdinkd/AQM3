@@ -1,0 +1,30 @@
+
+[general]
+	toggle = false
+	rightClickToEdit = true
+	releaseToSelect = true
+	menuAnimation = true
+	menuButtonIcon = "minecraft:diamond"
+
+[visual]
+
+	[visual.menu]
+		#Range: 0 ~ 255
+		alpha = 153
+		#Range: 0 ~ 255
+		red = 239
+		#Range: 0 ~ 255
+		green = 232
+		#Range: 0 ~ 255
+		blue = 120
+
+	[visual.select]
+		#Range: 0 ~ 255
+		alpha = 153
+		#Range: 0 ~ 255
+		red = 255
+		#Range: 0 ~ 255
+		green = 104
+		#Range: 0 ~ 255
+		blue = 243
+

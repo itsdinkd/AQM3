@@ -1,0 +1,89 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/gobber"
+      }
+    }
+  ],
+  "availability": {
+    "tier": 3,
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/gobber"
+    }
+  },
+  "name": {
+    "text": "Gobber"
+  },
+  "stats": {
+    "main": {
+      "durability": 4000.0,
+      "armor_durability": 400.0,
+      "enchantability": 15.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 11.0,
+      "melee_damage": 4.0,
+      "melee_damage/sword": 5.0,
+      "melee_damage/pickaxe": 0.0,
+      "melee_damage/axe": 3.0,
+      "melee_damage/paxel": 3.0,
+      "melee_damage/shovel": 2.5,
+      "melee_damage/mattock": -3.0,
+      "melee_damage/hammer": 2.0,
+      "melee_damage/excavator": 2.0,
+      "magic_damage": 5.0,
+      "attack_speed": 0.0,
+      "attack_speed/sword": 0.4,
+      "attack_speed/pickaxe": 0.4,
+      "attack_speed/mattock": 0.0,
+      "armor": 25.0,
+      "knockback_resistance": 0.4,
+      "armor/helmet": 5.0,
+      "armor/chestplate": 10.0,
+      "armor/leggings": 6.0,
+      "armor/boots": 4.0,
+      "armor_toughness": 9.0,
+      "magic_armor": 14.0,
+      "ranged_damage": 1.75,
+      "ranged_speed": 0.92,
+      "projectile_speed": 1.2,
+      "rarity": 82.0,
+      "chargeability": 1.4
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:bounce",
+        "level": 1
+      },
+      {
+        "name": "silentgear:aquatic",
+        "level": 3
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#548ec8"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#548ec8"
+      }
+    ]
+  }
+}

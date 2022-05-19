@@ -1,0 +1,92 @@
+{
+  "general": {
+    "displayTooltip": true,
+    "displayBlocks": true,
+    "displayEntities": true,
+    "displayMode": "TOGGLE",
+    "hideFromDebug": true,
+    "iconMode": "TOP",
+    "enableTextToSpeech": false,
+    "maxHealthForRender": 40,
+    "maxHeartsPerLine": 10,
+    "fluidMode": "NONE",
+    "reachDistance": 0.0,
+    "debug": false
+  },
+  "overlay": {
+    "overlayPosX": 0.5093497,
+    "overlayPosY": 0.9805011,
+    "overlayScale": 1.0059277,
+    "overlayAnchorX": 0.5093497,
+    "overlayAnchorY": 0.0,
+    "overlaySquare": false,
+    "flipMainHand": false,
+    "color": {
+      "alpha": 0.828283,
+      "themes": {
+        "jade:waila": {
+          "id": "jade:waila",
+          "backgroundColor": 1048592,
+          "gradientStart": 5243135,
+          "gradientEnd": 2621567,
+          "titleColor": 16777215,
+          "textColor": 10526880,
+          "textShadow": true
+        },
+        "aqm:default": {
+          "id": "aqm:default",
+          "backgroundColor": 1644825,
+          "gradientStart": 13932543,
+          "gradientEnd": 12613876,
+          "titleColor": 12613876,
+          "textColor": 10526880,
+          "textShadow": true
+        },
+        "aqm:inverted": {
+          "id": "aqm:inverted",
+          "backgroundColor": 1644825,
+          "gradientStart": 16711651,
+          "gradientEnd": 15859597,
+          "titleColor": 15859597,
+          "textColor": 10526880,
+          "textShadow": true
+        },
+        "jade:dark": {
+          "id": "jade:dark",
+          "backgroundColor": 1250067,
+          "gradientStart": 3684408,
+          "gradientEnd": 2368548,
+          "titleColor": 16777215,
+          "textColor": 10526880,
+          "textShadow": true
+        },
+        "jade:create": {
+          "id": "jade:create",
+          "backgroundColor": 0,
+          "gradientStart": 2762278,
+          "gradientEnd": 1709847,
+          "titleColor": 16777215,
+          "textColor": 10526880,
+          "textShadow": true
+        },
+        "jade:top": {
+          "id": "jade:top",
+          "backgroundColor": 1426089625,
+          "gradientStart": -6710887,
+          "gradientEnd": -6710887,
+          "titleColor": 16777215,
+          "textColor": 10526880,
+          "textShadow": true
+        }
+      },
+      "activeTheme": "aqm:inverted"
+    },
+    "autoScaleThreshold": 0.5
+  },
+  "formatting": {
+    "modName": "§9§o%s",
+    "blockName": "%s",
+    "entityName": "%s",
+    "registryName": "§7[%s]"
+  }
+}

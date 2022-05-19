@@ -1,0 +1,30 @@
+
+["Spawn Biome Utility Control Values"]
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
+	#generateReport
+	generateReport = true
+	#suppressMinecraftMobReporting
+	suppressMinecraftMobReporting = false
+	#fixEmptyNether
+	fixEmptyNether = false
+	#Use the BiomeMobWeight.CSV file to balance Biome spawn values
+	balanceBiomeSpawnValues = true
+	#Fix min, max values and add nether creatures
+	fixSpawnValues = true
+	#Use the StructMobWeight.CSV file to balance structure spawn values
+	balanceStructureSpawnValues = true
+	#Mod Name set separated by SemiColons of mods to report.
+	includedReportModsSet = "alexsmobs;occultism;ars_nouveau;aquaculture;instrumentalmobs;minecraft;doom;beyond_earth;armorplus;graveyard;enchantwithmob;meetyourfight;mahoutsukai;lava_monster;minecolonies;occultism;productivebees;quark;restored_earth;supplementaries;valhelsia_structures;tombstone;voidscape;waddles;"
+
+["Spawn Weight Values"]
+	#minimum Spawn Weight
+	#Range: 1 ~ 1000
+	minSpawnWeight = 3
+	#maximum Spawn Weight
+	#Range: 1 ~ 1000
+	maxSpawnWeight = 80
+	#list of Mod:MobName,DefaultSpawnweight;
+	defaultSpawnWeightList = "minecraft:enderman,5;minecraft:witch,5;"
+

@@ -1,0 +1,701 @@
+{
+	id: "5764523BCE20F718"
+	group: "0FAB4A14717CC291"
+	order_index: 0
+	filename: "starting_out"
+	title: "Starting Out"
+	subtitle: ["Oh no, my knowledge. It's Broken."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Have some saplings for your hard work :)"
+			description: [
+				"These saplings are to help you for later quests."
+				"Try not to lose them :)"
+			]
+			dependencies: ["24CA47E19CBB1738"]
+			size: 0.75d
+			id: "0069E0015EB53D0D"
+			tasks: [{
+				id: "576F9DBE6384EBB0"
+				type: "item"
+				title: "THE LOGGENING"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "24B05785F1793202"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "4105796186B48745"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "478FB0908BD367E4"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "779461AC6AADDB68"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "3F8861E2236545B6"
+					type: "item"
+					item: "minecraft:acacia_sapling"
+				}
+				{
+					id: "079CCAD5F2E0FB67"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
+				}
+				{
+					id: "523D479804D26D75"
+					type: "command"
+					title: "Woodcutting XP"
+					icon: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					command: "/pmmo admin @p add Woodcutting 10"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Look at what I made!"
+			x: 1.125d
+			y: 0.0d
+			subtitle: "A better table"
+			description: ["This neat little crafting tab allows on the go crafting."]
+			dependencies: ["0069E0015EB53D0D"]
+			size: 0.75d
+			id: "54626924CE9BD31F"
+			tasks: [{
+				id: "1B1562FE78356B61"
+				type: "item"
+				item: "vanillatweaks:crafting_pad"
+			}]
+			rewards: [{
+				id: "00976C9B60B7BDD6"
+				type: "item"
+				item: "minecraft:bread"
+				count: 5
+			}]
+		}
+		{
+			title: "A larger Storage"
+			x: 3.375d
+			y: 0.0d
+			subtitle: "Let me tell how much junk this baby can fit"
+			description: ["These chests are bigger then normal chests and are worth using for various automatic storages/processing."]
+			hide: true
+			size: 0.75d
+			id: "05F8D5D9AA6FF76D"
+			tasks: [{
+				id: "46BD9E3C1CBE3760"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "73AF2F1B49BACDCA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "A new furnace?"
+			x: 2.25d
+			y: 0.0d
+			subtitle: "Look man, I don't like waiting to process"
+			description: [
+				"These new furnaces are upgradable and process better then normal chests."
+				"Each Upgraded Tier increase smelt time, and decrease fuel usage"
+			]
+			hide: true
+			size: 0.75d
+			id: "2150D0C07467C6F3"
+			tasks: [{
+				id: "739B0D5337674C1E"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [{
+				id: "2155D35450D5F1B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Auto Run"
+			x: -2.75d
+			y: -1.25d
+			subtitle: "Have a good time running long distances :)"
+			description: ["Did you know you can auto run by pressing H (or whatever you may have set the hotkey to.)?"]
+			dependencies: ["24CA47E19CBB1738"]
+			dependency_requirement: "one_completed"
+			size: 0.5d
+			optional: true
+			id: "694F88A5D3984B52"
+			tasks: [{
+				id: "59F2F5AC46FBAF57"
+				type: "checkmark"
+				title: "Auto Run"
+			}]
+			rewards: [{
+				id: "2D40F9FBA98E1E32"
+				type: "xp"
+				team_reward: false
+				xp: 10
+			}]
+		}
+		{
+			title: "I'm Spiderman"
+			x: -2.25d
+			y: -0.75d
+			subtitle: "Wall Jumping Basics"
+			description: [
+				"Did you know that you can wall jump?"
+				"To wall jump, jump towards a wall and hold Lshift (or the keybind you chose), this allows you to cling to the wall."
+				"While still clinging to the wall, hold forward and release the binding."
+			]
+			dependencies: ["24CA47E19CBB1738"]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 0.5d
+			optional: true
+			id: "5ADDF4C03B8220EF"
+			tasks: [{
+				id: "731DA39ACF9DDC7E"
+				type: "checkmark"
+				title: "I'm spider Man"
+			}]
+			rewards: [{
+				id: "69B8B7B7C4EB4F54"
+				type: "xp"
+				team_reward: false
+				xp: 10
+			}]
+		}
+		{
+			title: "Welcome to Another Quality Modpack 3"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Read description <3"
+			description: ["This chapter will go over some of the core mods of the pack and explain how to do certain things. Make sure you complete these quests to unlock other areas like Storage Drawers"]
+			id: "24CA47E19CBB1738"
+			tasks: [{
+				id: "4C95DABF01BFAFD9"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			title: "Scaling Health and You (2/3)"
+			icon: {
+				id: "tombstone:decorative_grave_simple"
+				Count: 1b
+				tag: {
+					model_texture: 0
+				}
+			}
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Other ways your difficulty level increases"
+			description: [
+				"There are other ways to scale difficulty in small increments."
+				""
+				"Killing Mobs - Increases difficulty."
+				""
+				"Killing Players - Increases by 1/4th a level"
+				""
+				"Killing Blights - Slight increase from killing mobs)."
+				""
+				"Dying - Lowers Difficulty"
+			]
+			min_required_dependencies: 1
+			dependencies: ["3B40419C8AE65204"]
+			dependency_requirement: "one_completed"
+			size: 0.5d
+			id: "1CDBB1CC97B9EEC0"
+			tasks: [{
+				id: "4D73FF40D9B29B8F"
+				type: "stat"
+				title: "Die Once"
+				stat: "minecraft:deaths"
+				value: 1
+			}]
+			rewards: [
+				{
+					id: "52CF722E85555044"
+					type: "item"
+					item: "scalinghealth:bandages"
+				}
+				{
+					id: "5E7A93F380AA7851"
+					type: "item"
+					item: "scalinghealth:power_crystal"
+				}
+			]
+		}
+		{
+			title: "Scaling Health and You (3/3)"
+			x: 0.0d
+			y: -2.25d
+			subtitle: "Other ways to scale your difficulty."
+			description: [
+				"Consume Enchanted Heart to lower by 10 (Found in dungeons/chests/killing mobs (looting increases chances)"
+				""
+				"Consume Cursed Heart to increase by 10 (Found in dungeons/chests/killing mobs (looting increases chances)"
+				""
+				"Consume a Chance Heart to either increase or lower difficulty by 10 via random chance."
+			]
+			min_required_dependencies: 1
+			dependencies: ["1CDBB1CC97B9EEC0"]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 0.5d
+			id: "53AA8DAE3F5681F9"
+			tasks: [
+				{
+					id: "27A4921E7872EEFF"
+					type: "item"
+					item: "scalinghealth:cursed_heart"
+				}
+				{
+					id: "59FD16C0E9F6347A"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "6EE3A48D1A85319E"
+					type: "item"
+					item: "scalinghealth:chance_heart"
+				}
+			]
+			rewards: [{
+				id: "111BEAF1DC5E4B89"
+				type: "choice"
+				table_id: 5513900766362080685L
+			}]
+		}
+		{
+			x: -3.25d
+			y: -1.75d
+			subtitle: "Look here!"
+			description: [
+				"Did you know that by holding V (or the keybind you chose), you can bring up a menu to ping different things?"
+				""
+			]
+			dependencies: ["24CA47E19CBB1738"]
+			dependency_requirement: "one_completed"
+			size: 0.5d
+			id: "1C775CBA62C7A6A5"
+			tasks: [{
+				id: "4A75F9F898F6494D"
+				type: "checkmark"
+				title: "Ping!"
+			}]
+			rewards: [{
+				id: "4175DB5F37206142"
+				type: "xp"
+				team_reward: false
+				xp: 1
+			}]
+		}
+		{
+			x: -3.75d
+			y: -2.25d
+			subtitle: "Radial Menus? What is this blasphemy!?"
+			description: ["Did you know that hold R (or the keybind you chose) you'll bring up a radial menu that you can assign different actions to?"]
+			dependencies: ["24CA47E19CBB1738"]
+			size: 0.5d
+			id: "58E60A04698EB05B"
+			tasks: [{
+				id: "641F70747CA1AA37"
+				type: "checkmark"
+				title: "Mine Menu"
+			}]
+			rewards: [{
+				id: "47E16D8C27CEB1AB"
+				type: "xp"
+				team_reward: false
+				xp: 10
+			}]
+		}
+		{
+			title: "BONSAI"
+			x: 4.5d
+			y: 0.0d
+			subtitle: "<3"
+			description: [
+				"This grows trees and other things automatically."
+				"To learn how to upgrade your Bonsai plots, in JEI, hover over the plot and press 'U' to see all the upgrades available"
+			]
+			size: 0.75d
+			id: "1C348E82C09647A6"
+			tasks: [{
+				id: "1B676230F8AE3350"
+				type: "item"
+				item: "bonsaitrees3:bonsaipot"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "77D6877CFAF0CAAA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Scaling Health and You (1/3)"
+			x: 0.0d
+			y: -0.75d
+			subtitle: "How Difficulty works in AQM3"
+			description: [
+				"Difficulty scales per player, meaning, the mobs that spawn around you are affected by YOUR difficulty, and averages out if other players are within the area"
+				""
+				"You will increase difficulty over time (IDLING/AFK stops time increase), and also averages players in your area within 128 blocks."
+				"{image:scalinghealth:textures/item/heart_crystal.png width:100 height:100 align:1}"
+			]
+			dependencies: ["0069E0015EB53D0D"]
+			size: 0.5d
+			id: "3B40419C8AE65204"
+			tasks: [{
+				id: "77A6E406733B11F3"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 5L
+			}]
+			rewards: [{
+				id: "5A75939ECC9DA202"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "How does the core of AQM3 work?"
+			description: [
+				"AQM3 Relies on Project MMO (PMMO) to handle stats in a RPG-like way"
+				""
+				"Available stats; combat, endurance, mining, crafting, building, engineering, sailing, swimming, agility, magic, gunslinging, archery, woodcutting, smithing, excavation, cooking, taming, breeding, and more"
+				""
+				"Each Level in each stat will increase something. Agility increases Jump heights, and speed. Combat increases attack damage, Endurance gives 1% damage resistence per level (caps at 50%). Endurance also gives 1 Heart every 7 levels, Magic and Gunslinging also increase attacks done. Crafting/Building gives longer reach (caps at 11 blocks)"
+				""
+				"There are several items gated behind stat levels. Like the Wormhole portal, you need to be a certain level to craft / use it (Items will tell you on tooltip if there is a required level in a stat)"
+			]
+			dependencies: ["24CA47E19CBB1738"]
+			size: 0.5d
+			id: "5B1C211EE38A4861"
+			tasks: [{
+				id: "7A759336A6B7BF7A"
+				type: "checkmark"
+				title: "Stats, Skills, and More"
+			}]
+			rewards: [{
+				id: "71B0D5BD8F3DBDDF"
+				type: "item"
+				item: "scalinghealth:heart_crystal_shard"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.75d
+			shape: "diamond"
+			description: ["The best way to see your stats and skills in PMMO is by using the keybinds to  open up the menu. \"Right CTRL\" will open up the PMMO Menu, which allows you to view everything, and even edit some GUI and In-game Settings like XP Drops"]
+			dependencies: ["5B1C211EE38A4861"]
+			hide: false
+			size: 0.5d
+			id: "04B3DA22DD5E9F02"
+			tasks: [{
+				id: "6820A08B1F343164"
+				type: "checkmark"
+				title: "Stats, Skills, and More pt.2"
+			}]
+			rewards: [{
+				id: "0C7A5B8F8E553217"
+				type: "command"
+				team_reward: false
+				command: "/pmmo admin @p add agility xp 20 true"
+				player_command: false
+			}]
+		}
+		{
+			title: "Too Many Mobs are Spawning"
+			x: -1.5d
+			y: 1.0d
+			subtitle: "How to stop mob spawning in a area"
+			description: ["Torchmaster makes some great items to help stop mobs and even passive mobs from spawning. Craft this guy here, place it down, and you're all set!"]
+			dependencies: ["24CA47E19CBB1738"]
+			size: 0.75d
+			id: "53746435C74C767D"
+			tasks: [{
+				id: "7F062C68306017B1"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [{
+				id: "18CFD64814F4F588"
+				type: "xp"
+				team_reward: false
+				xp: 50
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "How to get free loot from others hard work"
+			description: [
+				"Want to create a party and complete quests together?"
+				""
+				"Accept the reward and we will run the command for you :) or hover over reward to see the actual command"
+				"/ftbteams party create"
+				""
+				"You can invite others using /ftbteams party (use auto complete here)"
+			]
+			dependencies: ["24CA47E19CBB1738"]
+			size: 0.5d
+			id: "7EF1B078A616A30A"
+			tasks: [{
+				id: "1909BA37A8AD287F"
+				type: "checkmark"
+				title: "Create a Party"
+			}]
+			rewards: [{
+				id: "2B6869175B5BCE93"
+				type: "command"
+				command: "/ftbteams party create"
+				player_command: true
+			}]
+		}
+		{
+			icon: "gobber2:gobber2_ore"
+			x: 0.0d
+			y: 1.125d
+			subtitle: "With a diamond pickaxe!"
+			description: [
+				""
+				"The bread and butter of the pack, Gobber. Highly recommended to use these tools if you want Paxels, Tree Axes, buffs, and more."
+				""
+				"Gobber contains all the tool you need in tiered progression, from overworld, nether, and end, each has one set of ore that are very very rare."
+				""
+				"Complete this questline to unlock all the other gobber quests in another chapter"
+			]
+			dependencies: ["0069E0015EB53D0D"]
+			size: 0.75d
+			id: "3D7A5E0801B65B73"
+			tasks: [{
+				id: "439605F75A9665A9"
+				type: "item"
+				title: "Break Gobber Ore"
+				item: "gobber2:gobber2_globette"
+			}]
+			rewards: [{
+				id: "3F78D345E57BD2F6"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.875d
+			subtitle: "Gonna need these"
+			description: ["The globette is an very important item. Make sure to keep a few of these lying around as they are used as payments for Signposts and other things that you will discover"]
+			dependencies: ["3D7A5E0801B65B73"]
+			size: 0.75d
+			id: "177503564A97DC2E"
+			tasks: [{
+				id: "14AB39FF75C418CB"
+				type: "item"
+				title: "Craft Gobber Glob"
+				item: "gobber2:gobber2_glob"
+			}]
+			rewards: [{
+				id: "32EF20F595ED2AC8"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.625d
+			subtitle: "The mighty gobber ingot"
+			description: ["Not only is the ingot required for Gobber items, its used in a lot of other recipes from other mods as well. "]
+			dependencies: ["177503564A97DC2E"]
+			size: 0.75d
+			id: "1B2E343F569AAA31"
+			tasks: [{
+				id: "458D5F92FC591871"
+				type: "item"
+				title: "Craft Gobber Ingot"
+				item: "gobber2:gobber2_ingot"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4F6369A731C2265B"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 3.375d
+			subtitle: "Don't you want 3x3 mining?"
+			description: ["You did it, you are now ready for the ultimate hammer!"]
+			dependencies: ["6E6D7F4C37CD0CFC"]
+			size: 0.75d
+			id: "4BF8675CAEA1A8E2"
+			tasks: [{
+				id: "23C137F4ED27F333"
+				type: "item"
+				title: "Craft Gobber Hammer"
+				item: {
+					id: "gobber2:gobber2_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7366F11F196998D7"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.375d
+			subtitle: "Last material needed for the overworld tier"
+			description: ["This is an important material as you need them for the overworld tools"]
+			dependencies: ["1B2E343F569AAA31"]
+			size: 0.75d
+			id: "6E6D7F4C37CD0CFC"
+			tasks: [{
+				id: "36987E0DA09C5736"
+				type: "item"
+				title: "Craft Gobber Rod"
+				item: "gobber2:gobber2_rod"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "5DD3E92DCA8CCFBB"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: 0.75d
+			y: 1.875d
+			subtitle: "Burn some foo, foo."
+			description: ["An amazing fuel source is Gobber Foo. You can use this in furnaces, planes, basically anything that uses coal for fuel. This lasts 10x longer than coal, and this is only the first  tier of fuel."]
+			dependencies: [
+				"79F4D4DA705033B9"
+				"177503564A97DC2E"
+			]
+			size: 0.75d
+			id: "0DB970F7028929A9"
+			tasks: [{
+				id: "06E33A63F3FBA237"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "57EF39F07F559F5D"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+			}]
+		}
+		{
+			title: "Gobber Armor Set"
+			x: 0.75d
+			y: 2.625d
+			subtitle: "Woooooooo"
+			description: ["Look at that armor, toughness, and resistance. You want this set :)"]
+			dependencies: [
+				"1B2E343F569AAA31"
+				"4BF8675CAEA1A8E2"
+			]
+			size: 0.75d
+			id: "6F391B22B106059B"
+			tasks: [
+				{
+					id: "420D86F36A360F95"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+				{
+					id: "18D70F5AF50F304D"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+				{
+					id: "13CACBEB0E545D4E"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+				{
+					id: "099473B91F9E3805"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+			]
+			rewards: [{
+				id: "57D7156E7AB1B03C"
+				type: "item"
+				item: "gobber2:gobber2_glob"
+			}]
+		}
+	]
+}

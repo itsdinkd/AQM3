@@ -1,0 +1,66 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "subs": {
+      "rod": {
+        "tag": "forge:rods/gobber_rod_nether"
+      }
+    }
+  },
+  "name": {
+    "text": "Nether Gobber Rod"
+  },
+  "stats": {
+    "rod": {
+      "harvest_speed": {
+        "add": 1.0
+      },
+      "attack_speed": {
+        "add": 0.3
+      },
+      "melee_damage": {
+        "mul2": -0.0525
+      },
+      "ranged_damage": {
+        "add": 0.75
+      },
+      "rarity": 20.0
+    }
+  },
+  "traits": {
+    "rod": [
+      {
+        "name": "silentgear:fiery",
+        "level": 1
+      },
+      {
+        "name": "silentgear:accelerate",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#9e3158"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#9e3158"
+      }
+    ]
+  }
+}

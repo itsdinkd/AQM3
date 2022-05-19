@@ -1,0 +1,23 @@
+
+[Client]
+	#What should be the base text color of the tooltip?
+	#Requires a world reload
+	#Allowed Range: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET  Default: §7
+	baseTooltipColor = "GOLD"
+	#What should be the style of the tooltip? 'numbers' means 'Durability: 30 / 100', 'text' means 'Durability: pristine/slight damaged/nearly broken', 'bar' means 'Durability: [â–ˆâ–ˆâ–ˆâ–’â–’â–’â–’â–’â–’â–’]'
+	#Requires a world reload
+	#Allowed Range: BAR, NUMBERS, TEXT  Default: NUMBERS
+	tooltipStyle = "NUMBERS"
+	#Should the tooltip include the 'Durability:' hint?
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	showTooltipHint = true
+	#Should the durability tooltip only be shown on vanilla tools?
+	#Requires a world reload
+	#Allowed Values: true, false  Default: false
+	onlyVanillaTools = false
+	#What colors should be used for the reactive part (numbers/text/bar characters) of the tooltip? 'base' means use the base color, 'gold' means always gold, 'varying' means green/orange/red depending on remaining durability.
+	#Requires a world reload
+	#Allowed Range: BASE, GOLD, VARYING  Default: VARYING
+	tooltipColorStyle = "VARYING"
+

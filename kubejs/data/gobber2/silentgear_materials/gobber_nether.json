@@ -1,0 +1,94 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/gobber_nether"
+      }
+    }
+  ],
+  "availability": {
+    "tier": 4,
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/gobber_nether"
+    }
+  },
+  "name": {
+    "text": "Nether Gobber"
+  },
+  "stats": {
+    "main": {
+      "durability": 5500.0,
+      "armor_durability": 500.0,
+      "enchantability": 20.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 12.0,
+      "melee_damage": 4.0,
+      "melee_damage/sword": 6.0,
+      "melee_damage/pickaxe": 0.0,
+      "melee_damage/axe": 5.0,
+      "melee_damage/paxel": 5.0,
+      "melee_damage/shovel": 3.0,
+      "melee_damage/mattock": -4.0,
+      "melee_damage/hammer": 3.0,
+      "melee_damage/excavator": 2.5,
+      "magic_damage": 6.0,
+      "attack_speed": 0.0,
+      "attack_speed/sword": 0.6,
+      "attack_speed/pickaxe": 0.5,
+      "attack_speed/mattock": 0.0,
+      "armor": 29.0,
+      "knockback_resistance": 0.52,
+      "armor/helmet": 6.0,
+      "armor/chestplate": 11.0,
+      "armor/leggings": 7.0,
+      "armor/boots": 5.0,
+      "armor_toughness": 11.0,
+      "magic_armor": 15.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": 1.0,
+      "projectile_speed": 1.5,
+      "projectile_accuracy": 1.3,
+      "rarity": 102.0,
+      "chargeability": 1.4
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:flame_ward",
+        "level": 1
+      },
+      {
+        "name": "silentgear:chilled",
+        "level": 2
+      },
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#9e3158"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#9e3158"
+      }
+    ]
+  }
+}

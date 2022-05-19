@@ -1,0 +1,17 @@
+{
+  "name": "Gobber End Globette",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "gobber2:gobber2_globette_end"
+  },
+  "color": "1fb2a3",
+  "textures": {
+    "flower": "kubejs:block/gobber_globette_end_flower",
+    "essence": "kubejs:item/gobber_globette_end_essence",
+    "seeds": "kubejs:item/gobber_globette_end_seeds"
+  },
+  "crux": "gobber2:gobber2_ore_end",
+  "glint": true,
+  "enabled": true
+}

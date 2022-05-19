@@ -1,0 +1,314 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/am3/bhaqmbackground.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400310%
+  orientation = mid-centered
+  x = 65
+  action = movebutton
+  y = -48
+}
+
+customization {
+  identifier = %id=400310%
+  width = 143
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=400310%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400310%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmmultiplayerhover.png
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmmultiplayer.png
+}
+
+customization {
+  identifier = %id=400310%
+  seconds = 0.45
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = mid-centered
+  x = 65
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=400358%
+  width = 143
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=400358%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400358%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmmodshover.png
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmmods.png
+}
+
+customization {
+  identifier = %id=400358%
+  seconds = 0.55
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=604394%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = mid-centered
+  x = 65
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=400286%
+  width = 143
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=400286%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400286%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmsingleplayerhover.png
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmsingleplayer.png
+}
+
+customization {
+  identifier = %id=400286%
+  seconds = 0.4
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-centered
+  x = 65
+  action = movebutton
+  y = -11
+}
+
+customization {
+  identifier = %id=400394%
+  width = 143
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=400394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmoptionshover.png
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmoptions.png
+}
+
+customization {
+  identifier = %id=400394%
+  seconds = 0.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-centered
+  x = 65
+  action = movebutton
+  y = 62
+}
+
+customization {
+  identifier = %id=502394%
+  width = 143
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=502394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmquitgamehover.png
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmquitgame.png
+}
+
+customization {
+  identifier = %id=502394%
+  seconds = 0.6
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376394%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmserverhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -232
+  width = 66
+  actionid = 1ea8d6a2-9462-4cc7-81f9-7f82f9c6f5981640811245256
+  action = addbutton
+  y = 95
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmserver.png
+  value = 23.185.16.87:25566
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/assets/am3/bhaqmseperator.png
+  orientation = mid-centered
+  x = -161
+  width = 5
+  action = addtexture
+  actionid = 7b0196dc-5aba-4aaf-9031-0c7753fe57c41640811334421
+  y = 97
+  height = 17
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmrentaserverhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -150
+  width = 70
+  actionid = dea5713d-be7b-4471-97b6-35169d279cb81640811348303
+  action = addbutton
+  y = 95
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmrentaserver.png
+  value = https://bisecthosting.com/itsdinkd
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/assets/am3/bhaqmseperator.png
+  orientation = mid-centered
+  x = -76
+  width = 5
+  action = addtexture
+  actionid = f26e819c-00c6-464f-a495-f54bff1bf1f21640811399978
+  y = 98
+  height = 17
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmdiscordhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -63
+  width = 70
+  actionid = 38aec86a-fe3b-4e10-9d6d-7532cbbbfd161640811412675
+  action = addbutton
+  y = 97
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmdiscord.png
+  value = https://discord.gg/y6Sby9BGVe
+  height = 16
+}
+
+customization {
+  orientation = mid-centered
+  name = identifier_4760f8a8f2624dc5
+  x = -222
+  width = 194
+  actionid = 38a48bc6-8d2e-410a-a39d-09ec62c63f021640886802537
+  action = addanimation
+  y = -138
+  height = 194
+}
+

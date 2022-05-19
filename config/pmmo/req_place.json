@@ -1,0 +1,14 @@
+{
+	"wormhole:portal_frame":
+	{
+		"mining": 50,
+		"building": 10,
+		"agility": 30 
+	},
+	"wormhole:portal_stabilizer":
+	{
+		"mining": 50,
+		"building": 10,
+		"agility": 30 
+	}
+}

@@ -1,0 +1,110 @@
+
+#Weapon Throw Mod Configuration Settings
+[general]
+	#Weapon Cant be thrown if it is on cooldown
+	"Not Throw If Cooldown" = true
+	"No Roll Items" = ["minecraft:trident"]
+	#Angle used for no roll list
+	#Range: 0.0 ~ 356.0
+	"Default Roll Angle" = 90.0
+
+#If an item is whitelisted and doesn't have damage or attack speed, this values will be assigned
+[default]
+	#Range: 0.0 ~ 256.0
+	"Default Base Damage" = 1.5
+	#Range: 0.0 ~ 256.0
+	"Default Base Velocity" = 2.7
+
+[enchantments]
+	#If this is enabled, all tools can be applied mod enchantments too
+	"Enchant All" = false
+	#Should Throw Enchantment be applied on survival?
+	"Enable Throw Enchantment" = true
+	#Should Conccusion Enchantment be applied on survival?
+	"Enable Conccusion Enchantment" = true
+	#Should Grounded Edge Enchantment be applied on survival?
+	"Enable Grounded Edge Enchantment" = true
+	#Should Gravity Enchantment be applied on survival?
+	"Enable Gravity Enchantment" = true
+	#Should gravity curse drop after some time?
+	"Gravity Drop" = false
+	#Should Return Enchantment be applied on survival?
+	"Enable Return Enchantment" = true
+
+[experimental]
+	#Enable using all items as a weapon
+	"Throw all items" = false
+
+[interactions]
+	#Throwing can break blocks at landing?
+	"Break Blocks" = false
+
+[multipliers]
+
+	#Specific multipliers for tools, multitools use the average from each tool that represents
+	[multipliers.tools]
+		#Range: 0.0 ~ 256.0
+		"Pickaxe Multiplier" = 0.8
+		#Range: 0.0 ~ 256.0
+		"Axe Multiplier" = 1.2
+		#Range: 0.0 ~ 256.0
+		"Sword Multiplier" = 1.0
+		#Range: 0.0 ~ 256.0
+		"Hoe Multiplier" = 1.3
+		#Range: 0.0 ~ 256.0
+		"Shovel Multiplier" = 0.9
+
+	#Nultiplicative to the base damage of an item
+	[multipliers.damage]
+		#Range: 0.0 ~ 256.0
+		"Base Damage Multiplier" = 0.25
+		#Range: 0.0 ~ 256.0
+		"Stack Size Damage Multiplier" = 0.0
+		#Range: 0.0 ~ 256.0
+		"Modified Damage Multiplier" = 0.5
+
+	#Multiplicative to the base attack speed of the item
+	[multipliers.velocity]
+		#Range: 0.0 ~ 64.0
+		"Base Velocity Multiplier" = 0.25
+		#Range: 0.0 ~ 64.0
+		"Stack Size Velocity Multiplier" = 0.005
+		#Range: 0.0 ~ 64.0
+		"Modified Velocity Multiplier" = 0.4
+
+	#Inversely multiplicative to the base attack speed of item
+	[multipliers.exhaustion]
+		#Range: 0.0 ~ 256.0
+		"Base Exhaustion Multiplier" = 0.075
+		#Range: 0.0 ~ 256.0
+		"Stack Size Exhaustion Multiplier" = 0.01
+		#Range: 0.0 ~ 256.0
+		"Modified Exhaustion Multiplier" = 2.0
+
+#Integration with Project MMO
+[pmmo]
+	#Disable this if running Minecraft 1.16.3 and below
+	"Enable PMMO Integration" = true
+	#Minimum Level Required to use Loyalty, 0 is none
+	#Range: > 0
+	"Loyalty Requirement" = 10
+
+[time]
+	#Time in ticks when the throwed items should dissapear
+	#Range: > 0
+	"Despawn Time" = 1200
+	#Attack Speed Multiplier to charging
+	#Range: 0.0 ~ 256.0
+	"Charging Multiplier" = 3.0
+	#Time in ticks when throwed items lose their owner
+	#Range: > 0
+	"Lose Owner Time" = 180
+
+#All Items Whitelisted will get default values
+[whitelist-items]
+	"Whitelisted items" = ["minecraft:brick", "minecraft:glass"]
+
+#All Blacklisted blocks cannot be destroyed
+[blacklist-blocks]
+	"Blacklisted blocks" = ["minecraft:bedrock"]
+

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:paper"
+    },
+    {
+      "item": "gobber2:gobber2_globette"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "tag": "forge:stone"
+    }
+  ],
+  "result": {
+    "item": "silentgear:upgrade_base",
+    "count": 4
+  }
+}

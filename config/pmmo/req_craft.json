@@ -1,0 +1,11 @@
+{
+	"mininggadgets:mininggadget_simple":
+	{
+		"mining": 60,
+		"woodcutting": 50,
+		"excavation": 40
+	},
+	"electrodynamics:railgunplasma": {"combat": 100, "agility": 30, "crafting": 30},
+	"silentgear:prospector_hammer_blueprint": {"mining": 50},
+	"silentgear:prospector_hammer_template": {"mining": 50}
+}

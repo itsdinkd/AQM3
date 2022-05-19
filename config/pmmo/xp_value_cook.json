@@ -1,0 +1,45 @@
+{
+	"foodexpansion:bat_wing":
+	{
+		"cooking": 7.5
+	},
+	"minecraft:cactus":
+	{
+		"cooking": 12.5,
+		"crafting": 4
+	},
+	"minecraft:chorus_fruit":
+	{
+		"cooking": 25,
+		"crafting": 22.5
+	},
+	"minecraft:egg":
+	{
+		"cooking": 5.5
+	},
+	"minecraft:pumpkin_seed":
+	{
+		"cooking": 5
+	},
+	"minecraft:sea_pickle":
+	{
+		"cooking": 8.5,
+		"crafting": 2
+	},
+	"minecraft:wet_sponge":
+	{
+		"cooking": 15,
+		"crafting": 15
+	},
+	"minecraft:bread": {"cooking": 1, "crafting": 1},
+	"minecraft:cooked_salmon": {"cooking": 3},
+	"minecraft:cooked_rabbit": {"cooking": 3},
+	"alexsmobs:cooked_lobster_tail": {"cooking": 15},
+	"blue_skies:cooked_municipal_monkfish": {"cooking": 12},
+	"blue_skies:cooked_grittle_flatfish": {"cooking": 12},
+	"blue_skies:cooked_charscale_moki": {"cooking": 12},
+	"blue_skies:cookedhorizofin_tunid": {"cooking": 10},
+	"croptopia:cooked_beacon": {"cooking": 10, "crafting": 5},
+	"quark:cooked_frog_leg": {"cooking": 12},
+	"quark:cooked_crab_leg": {"cooking": 12}
+}

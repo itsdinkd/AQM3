@@ -1,0 +1,11 @@
+{
+	id: "4C854F8879C415AD"
+	order_index: 3
+	title: "Scaling Hearts"
+	icon: "scalinghealth:heart_crystal"
+	loot_size: 1
+	rewards: [
+		{ item: "scalinghealth:heart_crystal" }
+		{ item: "scalinghealth:power_crystal" }
+	]
+}

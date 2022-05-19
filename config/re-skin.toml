@@ -1,0 +1,11 @@
+#Server side variable allowing transparent skins to be set
+allowTransparentSkin = false
+#Does setting their own skins need op?
+setSelfSkinsNeedsOp = false
+#Does setting other peoples skins need op?
+setOtherSkinsNeedsOp = true
+#Server skin whitelist
+enableSkinServerWhitelist = true
+#Server skin whitelist
+enforceSkinWhitelist = ["https://i.imgur.com/"]
+

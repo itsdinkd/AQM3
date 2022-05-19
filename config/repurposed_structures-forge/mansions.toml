@@ -1,0 +1,24 @@
+#
+# Only make supports downward if there is land below.
+# (Helps make structure look better in floating island worlds instead of support going down to void at world bottom)
+pillarOnlyToLand = true
+
+#
+# Average distance between spawn attempts for Repurposed Structures Mansions.
+# 1 for spawning in most chunks and 1001 for none.
+[Mansions]
+	#Range: 1 ~ 1001
+	mansionBirchAverageChunkDistance = 200
+	#Range: 1 ~ 1001
+	mansionJungleAverageChunkDistance = 225
+	#Range: 1 ~ 1001
+	mansionOakAverageChunkDistance = 231
+	#Range: 1 ~ 1001
+	mansionSavannaAverageChunkDistance = 250
+	#Range: 1 ~ 1001
+	mansionTaigaAverageChunkDistance = 231
+	#Range: 1 ~ 1001
+	mansionDesertAverageChunkDistance = 225
+	#Range: 1 ~ 1001
+	mansionSnowyAverageChunkDistance = 235
+

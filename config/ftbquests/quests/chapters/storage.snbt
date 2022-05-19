@@ -1,0 +1,480 @@
+{
+	id: "4754CD36676DC7F1"
+	group: "30AC1CE19F5532E7"
+	order_index: 0
+	filename: "storage"
+	title: "Storage!"
+	subtitle: ["Mmmm Storage."]
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Craft any Storage Drawer"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Let's Learn about these bad bois"
+			description: ["Store large quanties of a single type of items in drawers."]
+			hide: true
+			size: 1.5d
+			id: "69AD2EC81307E997"
+			tasks: [{
+				id: "37917ED7712B4136"
+				type: "item"
+				title: "Craft any Storage Drawer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "276B06EFD6B73E93"
+				type: "choice"
+				table_id: 5105327100113857232L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			subtitle: "But...it does nothing?"
+			description: [
+				"This template is used for all the upgrades in this mod."
+				""
+				"Drawers can have up to 7 upgrades."
+				""
+				"Right click to add upgrade or shift right click on the drawer to access its upgrades."
+			]
+			dependencies: ["69AD2EC81307E997"]
+			hide: true
+			size: 1.5d
+			id: "1C3A38B4CD4108B9"
+			tasks: [{
+				id: "34DF734A0697CF77"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "14F85E184703D5E2"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			subtitle: "Bigger Drawers!"
+			description: [
+				"Use upgrades to increase the number of stacks that it can store."
+				""
+				"Right click to install the upgrade."
+			]
+			dependencies: ["1C3A38B4CD4108B9"]
+			hide: true
+			id: "6536F140838EF5B3"
+			tasks: [{
+				id: "00B0DE49F991CD07"
+				type: "item"
+				title: "Craft Any Upgrade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:obsidian_storage_upgrade"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:iron_storage_upgrade"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:gold_storage_upgrade"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:diamond_storage_upgrade"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:emerald_storage_upgrade"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DE5A7FA43902733"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			description: ["This makes it so the drawer only holds a single stack. Useful if you plan on destroying everything but a single stack."]
+			dependencies: ["1C3A38B4CD4108B9"]
+			hide: true
+			id: "427EFB89C6321811"
+			tasks: [{
+				id: "4A440A85903EEDEC"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+			rewards: [{
+				id: "122332CED37DF1FA"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			description: ["This item makes it so any item higher then what the drawer can hold is deleted. Useful for automated farms/items."]
+			dependencies: ["1C3A38B4CD4108B9"]
+			hide: true
+			id: "1FFA42EC8AA4622D"
+			tasks: [{
+				id: "53FE97C159119684"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+			rewards: [{
+				id: "58477D6885DCA953"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			description: ["This item automatically converts items that are applicable."]
+			dependencies: ["1C3A38B4CD4108B9"]
+			hide: true
+			id: "5B6B33CEAFD7D583"
+			tasks: [{
+				id: "0AC7D84CBBF5DF26"
+				type: "item"
+				item: "storagedrawers:conversion_upgrade"
+			}]
+			rewards: [
+				{
+					id: "194AE9100742DFCC"
+					type: "item"
+					item: "storagedrawers:conversion_upgrade"
+				}
+				{
+					id: "7A8FFD306968422E"
+					type: "item"
+					item: "scalinghealth:heart_crystal_shard"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			description: ["This emits a redstone signal for total storage."]
+			dependencies: ["1C3A38B4CD4108B9"]
+			hide: true
+			id: "4EE6850C8E3F0F26"
+			tasks: [{
+				id: "5909198E27A34E73"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+			rewards: [{
+				id: "41BDC7F5D93C1419"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+		}
+		{
+			title: "Redstone Upgrades"
+			x: -6.5d
+			y: 1.5d
+			subtitle: "But what if I have don't have 1X1 Drawer"
+			description: [
+				"Min Redstone Upgrade emits a redstone signal for the lowest item in the drawer."
+				""
+				"Max Redstone Upgrade emits a redstone signal for the highest stored item."
+			]
+			dependencies: ["1C3A38B4CD4108B9"]
+			hide: true
+			id: "752B5BAD624C9C09"
+			tasks: [
+				{
+					id: "2DD0F3C81E181BDC"
+					type: "item"
+					item: "storagedrawers:min_redstone_upgrade"
+				}
+				{
+					id: "17C207D4F2E12AE4"
+					type: "item"
+					item: "storagedrawers:max_redstone_upgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "5086A667569E7807"
+					type: "item"
+					item: "storagedrawers:min_redstone_upgrade"
+				}
+				{
+					id: "4F3BF1716FF25FB5"
+					type: "item"
+					item: "storagedrawers:max_redstone_upgrade"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			description: [
+				"This upgrade will make it so the label of a storage drawer glows at night."
+				"{image:mahoutsukai:textures/particle/depth.png width:100 height:100 align:1}"
+			]
+			dependencies: ["1C3A38B4CD4108B9"]
+			hide: true
+			id: "50E5B27E8D089F89"
+			tasks: [{
+				id: "4528AA1C06366D09"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+			rewards: [
+				{
+					id: "422F4DAF50D9B9F1"
+					type: "item"
+					item: "storagedrawers:illumination_upgrade"
+				}
+				{
+					id: "73F0B0B59992E96C"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "46E66572F74D48B0"
+					type: "choice"
+					table_id: 5513900766362080685L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			description: ["This upgrade shows the fill level of a storage drawer."]
+			dependencies: ["1C3A38B4CD4108B9"]
+			hide: true
+			id: "3707BC54C8567C9D"
+			tasks: [{
+				id: "66FA94FD2A8C2D74"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+			rewards: [{
+				id: "712073EAECB6298C"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			description: [
+				"This block will search for any connected drawer within 12 blocks, and then expose all of those drawers as a large combined inventory. This lets you hook up a single pipe, tube, duct, spark, storage bus, etc. and interact with the entire bank of drawers."
+				"The second function of the controller is as a deposit-only interactive block. By right-clicking on the front face with an item, the item will be deposited into the connected network. By double-right clicking, it will attempt to dump your entire inventory. Items will only be dumped if they already exist in the network, allowing you to clear out a bunch of mob drops or farmed crops without literally dumping your entire inventory."
+			]
+			dependencies: ["69AD2EC81307E997"]
+			hide: true
+			id: "6CEB25718D942747"
+			tasks: [{
+				id: "42F7883A6418C4EF"
+				type: "item"
+				item: "storagedrawers:controller"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "03CF28C6B91AE345"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			description: ["Controller Slaves act as an extension of a drawer controller, exposing more faces for attaching machines, pipes, or crafting frames. Controllers will bind to a slave when they find them on the network, and all slaves bound to the same controller will share the same inventory and range as that controller. Unlike drawers, slaves cannot be shared, and you should be careful to not put them in range of multiple controllers. Using controller slaves is better for performance than using multiple controllers."]
+			dependencies: ["6CEB25718D942747"]
+			hide: true
+			id: "7F6F1D0A48B60954"
+			tasks: [{
+				id: "226AC81615083C53"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4957B80610F5D368"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["Compacting drawers are a special stone-colored drawer that auto-convert compressible items. Instead of manually crafting and uncrafting between gold blocks, ingots, and nuggets, put them in a compacting drawer. The drawer will internally maintain a pool of the material, and let you insert or remove the material in any of the shown forms."]
+			dependencies: ["69AD2EC81307E997"]
+			hide: true
+			id: "0EDEFE7FCA00C189"
+			tasks: [{
+				id: "11F9A5A70CB6E238"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "03F8556DAFC06DBC"
+					type: "item"
+					item: "storagedrawers:compacting_drawers_3"
+				}
+				{
+					id: "4894AAAF8E14671C"
+					type: "item"
+					item: "scalinghealth:heart_crystal_shard"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			description: [
+				"This key is used to lock and unlock storage drawers."
+				"Quite useful in automated systems to prevent any other items other then what is locked from being put into the drawer."
+			]
+			dependencies: ["69AD2EC81307E997"]
+			hide: true
+			id: "5DCCD4B3AD397096"
+			tasks: [{
+				id: "427B8185CEAA3972"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3C6F769B865E2294"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			description: [
+				"This key shows the amount of items you have stored in the storage drawer."
+				"Quite useful if you need to know how much of an item you have."
+			]
+			dependencies: ["5DCCD4B3AD397096"]
+			hide: true
+			id: "4D408056757D880B"
+			tasks: [{
+				id: "6E671A81D87B86E9"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			description: [
+				"This key shows or hides what item is being stored."
+				"Useful if you go based off item names instead of images."
+			]
+			dependencies: ["5DCCD4B3AD397096"]
+			hide: true
+			id: "60C7929D1CFD9AB5"
+			tasks: [{
+				id: "5E2630362236B5B6"
+				type: "item"
+				item: "storagedrawers:shroud_key"
+			}]
+			rewards: [{
+				id: "0095C2BA33B8D075"
+				type: "item"
+				item: "scalinghealth:heart_crystal_shard"
+			}]
+		}
+		{
+			title: "Simple Storage Network"
+			x: -12.5d
+			y: -0.5d
+			subtitle: "Easy way to connect all chests to one network"
+			description: [
+				"Want to access all your chests from a remote, or one block? Then this is the storage mod for you."
+				""
+				"Craft this guy here and continue on to learn how to use Simple Storage Network"
+			]
+			id: "52A65F62A5DE74B9"
+			tasks: [{
+				id: "4E5328CEF865DD47"
+				type: "item"
+				title: "Craft Storage Inventory"
+				item: "storagenetwork:inventory"
+				consume_items: false
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4B3797EEB9A5E16A"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -12.5d
+			y: 0.5d
+			description: [
+				"The Storage Network is what you use to connect Link Cables to from your chests. This basically puts all connected inventories into a accessible network, either by remote or right clicking the Storage Master"
+				"Place this next to your Storage Inventory block so it can connect the two. Or you connect them via network cables"
+			]
+			dependencies: ["52A65F62A5DE74B9"]
+			id: "26CC6AD84D34239A"
+			tasks: [{
+				id: "1CBEFCBD7D75EA44"
+				type: "item"
+				title: "Craft Storage Network Root"
+				item: "storagenetwork:master"
+			}]
+			rewards: [{
+				id: "17363F0F138F1062"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -12.5d
+			y: 1.5d
+			subtitle: "Connect these from Chests to Storage Network Root"
+			description: ["Using Link Cables, start it placed onto your chest(s) and connecting to the Storage Network    "]
+			dependencies: ["26CC6AD84D34239A"]
+			id: "0DBBE7F175C989FF"
+			tasks: [{
+				id: "2E3C9E8FE1DAB731"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+				consume_items: false
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "1DCA9EE826BD82AF"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+				count: 12
+			}]
+		}
+	]
+}
