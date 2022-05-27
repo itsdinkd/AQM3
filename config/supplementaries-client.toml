@@ -142,38 +142,12 @@
 #Particle parameters
 [particles]
 
-	#Firefly jar particle
-	[particles.firefly_glow]
-		#Scale
-		#Range: 0.0 ~ 1.0
-		scale = 0.075
-		#Maximum age in ticks. Note that actual max age with be this + a random number between 0 and 10
-		#Range: 1 ~ 256
-		max_age = 40
-
 	#Rotation particle
 	[particles.turn_particle]
 		#An RGBA color
 		initial_color = "2a77ea"
 		#An RGBA color
 		fade_color = "32befa"
-
-#Entities parameters
-[entities]
-
-	[entities.firefly]
-		#Firefly glow animation uses following equation:
-		#scale = {max[(1-<intensity>)*sin(time*2pi/<period>)+<intensity>, 0]}^<exponent>
-		#Where:
-		# - scale = entity transparency & entity scale
-		# - period = period of the animation. This variable is located in common configs<intensity> affects how long the pulse last, not how frequently it occurs.
-		#Use 0.5 for normal sin wave. Higher and it won't turn off completely
-		#
-		#Range: -100.0 ~ 1.0
-		intensity = 0.2
-		#Affects the shape of the wave. Stay under 0.5 for sharper transitions
-		#Range: 0.0 ~ 10.0
-		exponent = 0.5
 
 #General settings
 [general]
@@ -194,6 +168,8 @@
 	test3 = 0.0
 	#Allows dynamic resource generations for signs to pick textures from installed resource pack. Will only really work well if those texture pack have a similar format to vanilla otherwise it will result in glitched textures
 	dynamic_textures_from_resource_packs = false
+	#Show tooltips items that have been made placeable
+	placeable_tooltips = true
 
 #Game tweaks
 [tweaks]

@@ -15,7 +15,7 @@
 		enableDynamite = true
 		#Cooldown for the dynamite in ticks
 		#Range: > 0
-		dynamiteCooldown = 20
+		dynamiteCooldown = 30
 		#Explosion power for dynamite. TNT has 4, Ender Crystal has 6
 		#Range: 0 ~ 10
 		dynamiteExplosionPower = 3

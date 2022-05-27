@@ -7,6 +7,7 @@
     "hideFromDebug": true,
     "iconMode": "TOP",
     "enableTextToSpeech": false,
+    "ttsMode": "PRESS",
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
     "fluidMode": "NONE",
@@ -79,7 +80,7 @@
           "textShadow": true
         }
       },
-      "activeTheme": "aqm:inverted"
+      "activeTheme": "aqm:default"
     },
     "autoScaleThreshold": 0.5
   },

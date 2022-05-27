@@ -25,4 +25,7 @@ storing_amount = -1
 #Note: This will not be 100% accurate, as Minecraft's XP does not use decimals.
 #Range: 0.0 ~ 1.0
 retrieval_percentage = 0.95
+#Setting this to true will remove XP from the block in XP orb form. This is useful if you want to use XP from the block for tools enchanted with Mending.
+#These XP orbs will not be picked back up by the XP Block, if "pickupXP" is true.
+retrieve_xp_orbs = false
 

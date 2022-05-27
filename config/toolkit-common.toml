@@ -4,5 +4,5 @@
 	#Send messages to users on join?
 	message_on_join = true
 	#if messageOnJoin is true this message will be send to the player on joining world
-	message = "Welcome to AQM3, Support @ https://discord.gg/aqm2"
+	message = "Another Quality Modpack 3 Discord @ https://discord.gg/aqm2"
 

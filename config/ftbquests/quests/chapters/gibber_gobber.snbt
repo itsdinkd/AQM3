@@ -1,7 +1,7 @@
 {
 	id: "2844CA4B7FEF5212"
 	group: "30AC1CE19F5532E7"
-	order_index: 3
+	order_index: 2
 	filename: "gibber_gobber"
 	title: "Gibber Gobber"
 	default_quest_shape: ""
@@ -30,11 +30,22 @@
 			subtitle: "Are you tired of this yet?"
 			dependencies: ["79F4D4DA705033B9"]
 			id: "35B3650C5AC1562F"
-			tasks: [{
-				id: "081FC071BD83F56E"
-				type: "item"
-				item: "gobber2:gobber2_globette_end"
-			}]
+			tasks: [
+				{
+					id: "081FC071BD83F56E"
+					type: "item"
+					item: "gobber2:gobber2_globette_end"
+				}
+				{
+					id: "62EF7CF46107F6E5"
+					type: "questsadditions:break"
+					title: "Mine End Gobber"
+					icon: "gobber2:gobber2_ore_end"
+					block: "gobber2:gobber2_ore_end"
+					value: 1L
+					checkItem: false
+				}
+			]
 			rewards: [{
 				id: "3AF5AB5B66A16250"
 				type: "item"
@@ -115,9 +126,12 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 4.5d
 			y: 3.0d
-			dependencies: ["5F87690E9ED5F080"]
+			dependencies: [
+				"5F87690E9ED5F080"
+				"40B65FA30052F614"
+			]
 			id: "156DB03AE9BE4795"
 			tasks: [{
 				id: "542BA83CB52EA04D"
@@ -182,11 +196,11 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 3.0d
+			x: 4.463265306122452d
+			y: -0.34795918367347767d
 			subtitle: "Have fun with this one"
 			description: ["The Gobber Dragon Star is needed for several great items, but also requires a machine from another mod to create it!"]
-			dependencies: ["40B65FA30052F614"]
+			size: 2.0d
 			id: "5F87690E9ED5F080"
 			tasks: [{
 				id: "6382BC08FD43FC90"
@@ -208,7 +222,7 @@
 		}
 		{
 			title: "Craft End Gobber Armor Set"
-			x: 6.0d
+			x: 4.5d
 			y: 1.5d
 			subtitle: "My personal favorite"
 			dependencies: ["156DB03AE9BE4795"]
@@ -264,7 +278,6 @@
 				{
 					id: "77D1F1FEEC8706B0"
 					type: "choice"
-					table_id: 5513900766362080685L
 				}
 				{
 					id: "2428EC9598F5BBFA"
@@ -369,6 +382,98 @@
 				id: "671135A4B41FA0D7"
 				type: "item"
 				item: "gobber2:gobber2_goo_nether"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			description: ["Top armor in AQM3"]
+			dependencies: ["5F87690E9ED5F080"]
+			id: "05949212CE488337"
+			tasks: [{
+				id: "7541354B759380F0"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_helmet_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.466666666666676d
+			y: -5.598639455782308d
+			subtitle: "Water Breathing, Elytra, No Fall Damage."
+			description: ["Top armor in AQM3"]
+			dependencies: [
+				"5F87690E9ED5F080"
+				"05949212CE488337"
+				"3CA26C0DB6D9EF0A"
+				"3EF949092E8EF88F"
+			]
+			size: 2.0d
+			id: "72D13DACBFA03B35"
+			tasks: [{
+				id: "0C6770C3716C98E1"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "26252406DB47576C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 3
+				}
+				{
+					id: "6E8B9AFB31C414F4"
+					type: "random"
+					table_id: 5396437845961881468L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			description: ["Top armor in AQM3"]
+			dependencies: ["5F87690E9ED5F080"]
+			id: "3EF949092E8EF88F"
+			tasks: [{
+				id: "4D854F6B48512206"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_leggings_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			description: ["Top armor in AQM3"]
+			dependencies: ["5F87690E9ED5F080"]
+			id: "3CA26C0DB6D9EF0A"
+			tasks: [{
+				id: "21A70556098621F7"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_boots_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

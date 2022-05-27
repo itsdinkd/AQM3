@@ -97,7 +97,7 @@ event.replaceInput(
 event.replaceInput(
   { id:"cyclic:charm_creeper" },
     "cyclic:eye_teleport",
-    "meetyourfight:phantoplasm"
+    "thermal:lightning_tnt"
 );
 
 event.replaceInput(
@@ -109,7 +109,7 @@ event.replaceInput(
 event.replaceInput(
   { id:"cyclic:charm_venom" },
     "minecraft:gold_nugget",
-    "occultism:spirit_attuned_gem"
+    "evilcraft:poison_bottle"
 );
 
 event.replaceInput(
@@ -167,7 +167,7 @@ event.shaped('cyclic:prospector', ['  g', ' g ', 'gsc'],
   {
     g: 'gobber2:dragon_star',
     c: 'compressium:quartz_4',
-    s: 'electrodynamics:seismicscanner'
+    s: 'itemcollectors:basic_collector'
   });
 
 event.replaceInput(
@@ -206,6 +206,9 @@ event.shaped('cyclic:collector', [
       event.remove({output: "doom:argent_" + item});
     });
 
+// Rainbow Linker furnace
+event.replaceInput({output: "ironfurnaces:item_linker"}, "minecraft:netherite_nugget", "extendedcrafting:the_ultimate_ingot");
+
 // Argent Plate
 event.replaceInput(
 { id: "doom:argent_plate" },
@@ -220,6 +223,12 @@ event.replaceInput(
     "gobber2:gobber2_ingot"
 );
 
+event.replaceInput(
+  { id:"waystones:warp_stone" },
+    "minecraft:emerald",
+    "hexerei:animal_fat"
+);
+
 //mining gadgets - empty upgrade
 event.replaceInput(
 { id: "mininggadgets:upgrade_empty"},
@@ -230,13 +239,7 @@ event.replaceInput(
 event.replaceInput(
 { id: "mininggadgets:upgrade_empty"},
 "minecraft:diamond",
-"immersiveengineering:ingot_uranium"
-);
-
-event.replaceInput(
-{ id: "mininggadgets:upgrade_empty"},
-"#forge:glass_panes",
-"naturesaura:infused_iron"
+"assemblylinemachines:novasteel_ingot"
 );
 
 event.replaceInput(
@@ -258,24 +261,6 @@ event.replaceInput(
 "minecraft:redstone",
 "mininggadgets:mininggadget_fancy"
 );
-
-// Wstweak lava blade
-event.remove({output: 'wstweaks:lava_blade'});
-event.shaped('wstweaks:lava_blade', [' le', 'lel', 'sl '],
-  {
-    l: 'armorplus:block_infused_lava_crystal',
-    s: 'gobber2:gobber2_sword_end',
-    e: 'extendedcrafting:ender_star'
-  });
-
-// wstweaks blaze blade
-event.remove({output: 'wstweaks:blaze_blade'});
-event.shaped('wstweaks:blaze_blade', [' be', 'beb', 'sb '],
-  {
-    b: 'create:blaze_cake',
-    s: 'wstweaks:lava_blade',
-    e: 'extendedcrafting:ender_star'
-  });
 
 // Waystone return scroll
 event.replaceInput(
@@ -357,6 +342,10 @@ banMaItems.forEach(item => {
 //   },
 //   "acceptMirrored": false
 // });
+  // reliquary void tear to nebulous heart
+  event.replaceInput({}, 'reliquary:void_tear', "reliquary:nebulous_heart")
+
+  
   event.remove({output: 'angelring:itemring'});
   event.recipes.extendedcrafting.shapedTable('angelring:itemring', [
    'diwf fMid',
@@ -373,7 +362,7 @@ banMaItems.forEach(item => {
      d: 'gobber2:dragon_star',
      C: 'alexsmobs:dimensional_carver',
      i: 'mysticalagriculture:master_infusion_crystal',
-     z: 'extendedcrafting:ultimate_singularity',
+     z: 'extendedcrafting:the_ultimate_ingot',
      F: 'extradisks:1048576k_fluid_storage_part',
      E: 'assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser',
      1: 'minecraft:apple',
@@ -392,7 +381,8 @@ banMaItems.forEach(item => {
      x: 'blue_skies:summoner_trophy',
      8: 'blue_skies:alchemist_trophy',
      9: 'blue_skies:starlit_crusher_trophy',
-     0: 'blue_skies:arachnarch_trophy'
+     0: 'blue_skies:arachnarch_trophy',
+     M: 'minecraft:apple'
    })
 
   event.remove({id: 'extradisks:part/1024k_storage_part'})
@@ -574,33 +564,33 @@ event.replaceInput(
 
 // Simple Planes Propeller
 
-event.remove({ output: "simpleplanes:propeller" });
-  event.shaped('simpleplanes:propeller', ['i i',' g ', 'i i'],
-  {
-    i: 'minecraft:iron_ingot',
-    g: 'gobber2:gobber2_rod_nether'
-  });
+// event.remove({ output: "simpleplanes:propeller" });
+//   event.shaped('simpleplanes:propeller', ['i i',' g ', 'i i'],
+//   {
+//     i: 'minecraft:iron_ingot',
+//     g: 'gobber2:gobber2_rod_nether'
+//   });
 
-// Simple Planes Booster
-event.replaceInput(
- { id: "simpleplanes:booster"},
- "minecraft:iron_ingot",
- "gobber2:gobber2_ingot_end"
- );
+// // Simple Planes Booster
+// event.replaceInput(
+//  { id: "simpleplanes:booster"},
+//  "minecraft:iron_ingot",
+//  "gobber2:gobber2_ingot_end"
+//  );
 
-// Simple Planes Electric Engine
-event.replaceInput(
- { id: "simpleplanes:electric_engine"},
- "minecraft:blaze_rod",
- "minecraft:elytra"
- );
+// // Simple Planes Electric Engine
+// event.replaceInput(
+//  { id: "simpleplanes:electric_engine"},
+//  "minecraft:blaze_rod",
+//  "minecraft:elytra"
+//  );
 
-// Simple Planes Booster
-event.replaceInput(
- { id: "simpleplanes:furnace_engine"},
- "minecraft:blast_furnace",
- "ironfurnaces:obsidian_furnace"
- );
+// // Simple Planes Booster
+// event.replaceInput(
+//  { id: "simpleplanes:furnace_engine"},
+//  "minecraft:blast_furnace",
+//  "ironfurnaces:obsidian_furnace"
+//  );
 
 // Chance Cubes Pendents
 event.replaceInput(

@@ -1,7 +1,7 @@
 #Set this to false to disable seasonal features, such as halloween and christmas.
 seasonalFeatures = true
 #Set to false to disable Botania's messages in the F3 debug screen
-debugInfo = true
+debugInfo = false
 #Set this to false to disable the references in the flower tooltips. (You monster D:)
 references = true
 #Set this to false to disable Botania's splashes in the main menu.

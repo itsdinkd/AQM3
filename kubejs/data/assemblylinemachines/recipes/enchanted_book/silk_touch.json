@@ -1,0 +1,9 @@
+{
+	"type": "assemblylinemachines:enchantment_book",
+	"input":{
+		"item": "gobber2:gobber2_ingot_end",
+		"count": 3
+	},
+	"enchantment": "minecraft:silk_touch",
+	"cost": 300
+}

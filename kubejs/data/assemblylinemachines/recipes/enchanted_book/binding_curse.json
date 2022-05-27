@@ -1,0 +1,8 @@
+{
+	"type": "assemblylinemachines:enchantment_book",
+	"input":{
+		"item": "minecraft:cobweb"
+	},
+	"enchantment": "minecraft:binding_curse",
+	"cost": 50
+}

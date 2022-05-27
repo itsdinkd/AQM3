@@ -1,0 +1,8 @@
+{
+	"type": "assemblylinemachines:enchantment_book",
+	"input":{
+		"item": "minecraft:emerald"
+	},
+	"enchantment": "minecraft:fortune",
+	"cost": 125
+}

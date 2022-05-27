@@ -11,4 +11,6 @@
 	maxIngredientFood = 12
 	#List of items to blacklist as ingredients
 	ingredientBlacklist = ["gobber2:gobber2_goo", "gobber2:gobber2_gooey_apple", "gobber2:gobber2_gooey_nether", "gobber2:gobber2_gooey_bread", "gobber2:gobber2_gooey_bread_nether", "gobber2:gobber2_gooey_beef", "gobber2:gobber2_gooey_beef_nether", "gobber2:gobber2_gooey_beefstew", "gobber2:gobber2_gooey_beefstew_nether"]
+	#Set to true to show nutrition and saturation information in the extended tooltip
+	showNutritionInfo = true
 

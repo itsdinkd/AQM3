@@ -2,5 +2,5 @@
 #Server-side functions that required for Client-Side integrations to work.
 [FTBChunks]
 	#Enable FTBChunks Integration
-	ftbChunks = true
+	ftbChunks = false
 

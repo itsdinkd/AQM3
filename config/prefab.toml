@@ -5,9 +5,9 @@
 	#Determines if the Preview buttons in structure GUIs and other structure previews functions are enabled. Client side only.
 	"Include Structure Previews" = true
 	#Determines which starting item a player gets on first world join. Valid values for this option are: "Starting House", "Moderate House", "Nothing". Server configuration overrides client.
-	"Starting Item" = "Starting House"
+	"Starting Item" = "Nothing"
 	#Determines if the bulldozer item can create drops when it clears an area.
-	"Bulldozer Creates Drops" = false
+	"Bulldozer Creates Drops" = true
 	#Enable Automation Options For Moderate Farm
 	"Enable Automation Options For Moderate Farm" = false
 	#Determines if the spawners for the Monster Masher building are included. Server configuration overrides client.
@@ -29,7 +29,7 @@
 		#Determines if the chest contents is included in the starter house. When playing on a server, the server configuration is used
 		"Add Chest Contents" = true
 		#Determines if the furnace is included in the starter house. When playing on a server, the server configuration is used
-		"Add Furnace" = true
+		"Add Furnace" = false
 
 	[general.recipes]
 		#Determines if the recipe(s) associated with the Grassy Plains are enabled.

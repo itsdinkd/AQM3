@@ -1,0 +1,261 @@
+{
+	id: "4AE3FFA11D08377C"
+	order_index: 4
+	title: "Artifacts"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "artifacts:umbrella"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:everlasting_beef", only_one: true }
+		{
+			item: {
+				id: "artifacts:eternal_steak"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				id: "artifacts:plastic_drinking_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:novelty_drinking_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:snorkel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:villager_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:night_vision_goggles"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:superstitious_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:lucky_scarf"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:scarf_of_invisibility"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:cross_necklace" }
+		{
+			item: {
+				id: "artifacts:panic_necklace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:shock_pendant"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:flame_pendant"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:thorn_pendant"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{
+			item: {
+				id: "artifacts:obsidian_skull"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:antidote_vessel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:universal_attractor" }
+		{
+			item: {
+				id: "artifacts:crystal_heart"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:helium_flamingo"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:digging_claws" }
+		{
+			item: {
+				id: "artifacts:feral_claws"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:power_glove"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:fire_gauntlet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:pocket_piston"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:vampiric_glove"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:aqua_dashers" }
+		{
+			item: {
+				id: "artifacts:bunny_hoppers"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:kitty_slippers"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:running_shoes"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "artifacts:steadfast_spikes"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:flippers" }
+		{ item: "artifacts:whoopee_cushion" }
+	]
+}

@@ -750,5 +750,9 @@
 	"minecraft:zombie_villager":
 	{
 		"combat": 15
+	},
+	"dummmmmmy:target_dummy": 
+	{
+			"combat": 0
 	}
 }

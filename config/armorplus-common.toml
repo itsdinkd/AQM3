@@ -241,3 +241,66 @@
 		#Range: -63 ~ 318
 		maxY = -30
 
+#Enchantment Configuration
+[enchantments]
+	#is a list of registry names that will not work with the enchantment "Soul Harden"
+	disallowWithSoulHardenList = ["minecraft:mending", "minecraft:unbreaking", "minecraft:vanishing_curse"]
+
+#Mob Drops Configuration
+[drops]
+
+	#wither_boss drop configuration
+	[drops.wither_boss]
+		#ArmorPlus's wither_boss trophy drops: enable/disable
+		enableTrophyDrops = true
+		#ArmorPlus's wither_boss regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's wither_boss soul drops: enable/disable
+		enableSoulDrops = true
+
+	#ender_dragon drop configuration
+	[drops.ender_dragon]
+		#ArmorPlus's ender_dragon trophy drops: enable/disable
+		enableTrophyDrops = true
+		#ArmorPlus's ender_dragon regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's ender_dragon soul drops: enable/disable
+		enableSoulDrops = true
+
+	#elder_guardian drop configuration
+	[drops.elder_guardian]
+		#ArmorPlus's elder_guardian trophy drops: enable/disable
+		enableTrophyDrops = true
+		#ArmorPlus's elder_guardian regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's elder_guardian soul drops: enable/disable
+		enableSoulDrops = true
+
+	#wither_skeleton drop configuration
+	[drops.wither_skeleton]
+		#ArmorPlus's wither_skeleton regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's wither_skeleton soul drops: enable/disable
+		enableSoulDrops = true
+
+	#guardian drop configuration
+	[drops.guardian]
+		#ArmorPlus's guardian regular drops: enable/disable
+		enableRegularDrops = false
+		#ArmorPlus's guardian soul drops: enable/disable
+		enableSoulDrops = true
+
+	#enderman drop configuration
+	[drops.enderman]
+		#ArmorPlus's enderman regular drops: enable/disable
+		enableRegularDrops = false
+		#ArmorPlus's enderman soul drops: enable/disable
+		enableSoulDrops = true
+
+	#blaze drop configuration
+	[drops.blaze]
+		#ArmorPlus's blaze regular drops: enable/disable
+		enableRegularDrops = false
+		#ArmorPlus's blaze soul drops: enable/disable
+		enableSoulDrops = true
+

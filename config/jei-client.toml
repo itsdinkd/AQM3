@@ -6,19 +6,14 @@
 	CenterSearch = true
 	#Set low-memory mode (makes search very slow, but uses less RAM)
 	LowMemorySlowSearchEnabled = false
+	#Enable cheating items into the hotbar by using the shift+number keys.
+	CheatToHotbarUsingHotkeysEnabled = false
 	#How items should be handed to you
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
 	GiveMode = "INVENTORY"
-	#Max number of columns shown
-	#Range: 4 ~ 100
-	MaxColumns = 32
 	#Max. recipe gui height
 	#Range: > 175
 	RecipeGuiHeight = 350
-	#Enable fast batched item rendering for JEI (disable this if items in JEI are not rendering correctly)
-	FastItemRenderingEnabled = true
-	#Enable cheating items into the hotbar by using the shift+number keys.
-	CheatToHotbarUsingHotkeysEnabled = false
 
 [colors]
 	#Color values to search for
@@ -26,7 +21,7 @@
 
 [sorting]
 	#Sorting order for the ingredient list. Valid stages: [MOD_NAME, INGREDIENT_TYPE, ALPHABETICAL, CREATIVE_MENU, TAG, TOOL_TYPE, WEAPON_DAMAGE, ARMOR, MAX_DURABILITY]
-	IngredientSortStages = ["MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU", "ALPHABETICAL", "WEAPON_DAMAGE", "TOOL_TYPE", "ARMOR", "TAG"]
+	IngredientSortStages = ["MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU"]
 
 [search]
 	#Search mode for Mod Names (prefix: @)
@@ -34,21 +29,21 @@
 	ModNameSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Tooltips (prefix: #)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	TooltipSearchMode = "ENABLED"
+	TooltipSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Tag Names (prefix: $)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	TagSearchMode = "ENABLED"
+	TagSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Creative Tab Names (prefix: %)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	CreativeTabSearchMode = "ENABLED"
+	CreativeTabSearchMode = "DISABLED"
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ColorSearchMode = "DISABLED"
-	#Search advanced tooltips (visible with F3+H)
-	SearchAdvancedTooltips = true
 	#Search mode for resources locations (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ResourceLocationSearchMode = "ENABLED"
+	#Search advanced tooltips (visible with F3+H)
+	SearchAdvancedTooltips = true
 
 [modname]
 	#Formatting for mod name tooltip
@@ -57,4 +52,42 @@
 	#With these formatting options:
 	#obfuscated, bold, strikethrough, underline, italic
 	ModNameFormat = "gold bold italic"
+
+[IngredientList]
+	#Max number of rows shown
+	#Range: 1 ~ 100
+	MaxRows = 32
+	#Max number of columns shown
+	#Range: 4 ~ 100
+	MaxColumns = 32
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: LEFT, CENTER, RIGHT
+	HorizontalAlignment = "RIGHT"
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: TOP, CENTER, BOTTOM
+	VerticalAlignment = "TOP"
+	#Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.
+	#Allowed Values: ENABLED, AUTO_HIDE, DISABLED
+	ButtonNavigationVisibility = "ENABLED"
+	#Set to true to draw a background texture behind the gui.
+	DrawBackground = false
+
+[BookmarkList]
+	#Max number of rows shown
+	#Range: 1 ~ 100
+	MaxRows = 16
+	#Max number of columns shown
+	#Range: 4 ~ 100
+	MaxColumns = 9
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: LEFT, CENTER, RIGHT
+	HorizontalAlignment = "LEFT"
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: TOP, CENTER, BOTTOM
+	VerticalAlignment = "TOP"
+	#Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.
+	#Allowed Values: ENABLED, AUTO_HIDE, DISABLED
+	ButtonNavigationVisibility = "ENABLED"
+	#Set to true to draw a background texture behind the gui.
+	DrawBackground = false
 

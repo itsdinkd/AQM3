@@ -1,0 +1,21 @@
+{
+  "type": "cyclic:solidifier",
+  "ingredients":[ {
+    "tag": "forge:obsidian"
+  },
+  {
+    "item": "cyclic:gem_amber"
+  },
+   {
+    "item": "gobber2:gobber2_ingot_end"
+  }],
+  "mix": {
+    "fluid": "cyclic:slime",
+    "tag": "forge:slime",
+    "count": 1000
+  },
+  "result": {
+    "item": "cyclic:gem_obsidian",
+  	"count": 1
+  }
+}

@@ -10,8 +10,6 @@
 	#Minimal height for Gobber Lucky Block Nether pocket generation, [0-255, default: 1]
 	#Range: 0 ~ 255
 	gobberLuckyBlockNetherMinHeight = 1
-	#Generate Gobber Lucky Block Nether in the world [true / false]
-	gobberLuckyBlockNetherGeneration = true
 	#Chances of Gobber Lucky Block Nether pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
 	gobberLuckyBlockNetherChance = 10
@@ -75,7 +73,7 @@
 
 #Medallion of Experience Settings
 [medallion_exp_settings]
-	#Medallion of Experience multiplier for extra mob loot [default: 10]
+	#Medallion of Experience multiplier for extra mob loot [default: 20]
 	#Range: 5 ~ 100
 	medallionExpLoot = 7
 	#Medallion of Experience multiplier for extra XP orbs [default: 5]
@@ -93,7 +91,7 @@
 	delayedBreakMode = true
 	#Ring of Repair - Delay time between repair ticks [default: 120]
 	#Range: 20 ~ 600
-	ringRepairDelay = 200
+	ringRepairDelay = 400
 	#Enable a single use of the Ring of Teleport [true / false]
 	limitedUseRingTeleport = false
 	#Reverse the drop/no drops feature on Ring of Miner [true / false]
@@ -107,23 +105,6 @@
 	#Ring of Attraction - Distance coal blocks magnet effect [default: 5]
 	#Range: 0 ~ 15
 	ringAttractionBlocking = 4
-
-#Gobber Ore Deepslate Generation
-[gobber2_ore_deepslate]
-	#Minimal height for Gobber Ore Deepslate pocket generation, [-64 to 0, default: -64]
-	#Range: -64 ~ 0
-	gobberOreDeepslateMinHeight = -64
-	#Maximal height for Gobber Ore Deepslate pocket generation [-64 to 0, default: 0]
-	#Range: -64 ~ 0
-	gobberOreDeepslateMaxHeight = -24
-	#Chances of Gobber Ore Deepslate pocket being generated [0-30, default: 20]
-	#Range: 0 ~ 30
-	gobberOreDeepslateChance = 8
-	#Generate Gobber Ore Deepslate in the world [true / false]
-	gobberOreDeepslateGeneration = true
-	#Size of Gobber Ore Deepslate pockets [3-100, default: 4]
-	#Range: 3 ~ 100
-	gobberOreDeepslateSize = 3
 
 #Armor Health Perks Settings
 [armor_health_perk_settings]
@@ -149,13 +130,21 @@
 	gobberEndArmorAutofeed = false
 	#Enable/disable Gobber Dragon Armor auto feeding
 	gobberDragonArmorAutofeed = false
+	#Enable/disable Gobber Dragon Armor flight
+	gobberDragonArmorFlight = false
+	#Enable/disable Gobber Nether Armor yellow hearts perks
+	gobberNetherArmorYellowHeartsPerks = false
+	#Enable/disable Gobber End Armor yellow hearts perks
+	gobberEndArmorYellowHeartsPerks = false
+	#Enable/disable Gobber Dragon Armor yellow hearts perks
+	gobberDragonArmorYellowHeartsPerks = true
 
 #Auto Replanting Settings
 [replanting_settings]
 	#Should the Staff of the Farmer auto-replant? [true / false]
 	StaffFarmerReplant = true
 	#Should the Staff of Harvest auto-replant? [true / false]
-	StaffHarvestReplant = true
+	StaffHarvestReplant = false
 
 #Armor Hunger/Saturation Settings
 [armor_health_settings]
@@ -251,19 +240,17 @@
 
 #Gobber Lucky Block Generation
 [gobber2_lucky_block]
-	#Generate Gobber Lucky Block in the world [true / false]
-	gobberLuckyBlockGeneration = true
 	#Size of Gobber Lucky Block pockets [3-100, default: 4]
 	#Range: 3 ~ 100
 	gobberLuckyBlockSize = 3
 	#Chances of Gobber Lucky Block pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
 	gobberLuckyBlockChance = 9
-	#Minimal height for Gobber Lucky Block pocket generation, [0-384, default: 1]
-	#Range: 0 ~ 384
+	#Minimal height for Gobber Lucky Block pocket generation, [-64 to -384, default: -40]
+	#Range: -64 ~ 384
 	gobberLuckyBlockMinHeight = 1
-	#Maximal height for Gobber Lucky Block pocket generation [0-384, default: 255]
-	#Range: 0 ~ 384
+	#Maximal height for Gobber Lucky Block pocket generation [-64 to -384, default: 255]
+	#Range: -64 ~ 384
 	gobberLuckyBlockMaxHeight = 255
 
 #Nether Gobber Tool Material Values
@@ -312,28 +299,24 @@
 
 #Gobber Ore Generation
 [gobber2_ore]
-	#Generate Gobber Ore in the world [true / false]
-	gobberOreGeneration = true
 	#Size of Gobber Ore pockets [3-100, default: 4]
 	#Range: 3 ~ 100
 	gobberOreSize = 3
 	#Chances of Gobber Ore pocket being generated [0-30, default: 15]
 	#Range: 0 ~ 30
-	gobberOreChance = 7
-	#Minimal height for Gobber Ore pocket generation, [0-255, default: 20]
-	#Range: 0 ~ 384
-	gobberOreMinHeight = 0
-	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
-	#Range: 0 ~ 384
+	gobberOreChance = 10
+	#Minimal height for Gobber Ore pocket generation, [-64 to -255, default: -40]
+	#Range: -64 ~ 384
+	gobberOreMinHeight = -44
+	#Maximal height for Gobber Ore pocket generation [-64 to -255, default: 15]
+	#Range: -64 ~ 384
 	gobberOreMaxHeight = 40
 
 #Gobber End Ore Generation
 [gobber2_ore_end]
-	#Minimal height for Gobber End Ore pocket generation, [0-255, default: 40]
+	#Minimal height for Gobber End Ore pocket generation, [0-255, default: 20]
 	#Range: 0 ~ 255
 	gobberOreEndMinHeight = 0
-	#Generate Gobber End Ore in the world [true / false]
-	gobberOreEndGeneration = true
 	#Size of Gobber End Ore pockets [0-100, default: 9]
 	#Range: 0 ~ 100
 	gobberOreEndSize = 4
@@ -342,7 +325,7 @@
 	gobberOreEndMaxHeight = 90
 	#Chances of Gobber End Ore pocket being generated [0-30, default: 15]
 	#Range: 0 ~ 30
-	gobberOreEndChance = 8
+	gobberOreEndChance = 6
 
 #Enable Dragon Armor Void Protect - immune to /kill command
 [dragon_armor_void]
@@ -385,23 +368,6 @@
 	#Range: 0 ~ 100000
 	ringExplorerMin = 500
 
-#Gobber Lucky Block Deepslate Generation
-[gobber2_lucky_block_deepslate]
-	#Generate Gobber Lucky Block Deepslate in the world [true / false]
-	gobberLuckyBlockDeepslateGeneration = true
-	#Size of Gobber Lucky Block Deepslate pockets [3-100, default: 4]
-	#Range: 3 ~ 100
-	gobberLuckyBlockDeepslateSize = 3
-	#Chances of Gobber Lucky Block Deepslate pocket being generated [0-30, default: 20]
-	#Range: 0 ~ 30
-	gobberLuckyBlockDeepslateChance = 10
-	#Minimal height for Gobber Lucky Block Deepslate pocket generation, [-64 to 0, default: -64]
-	#Range: -64 ~ 0
-	gobberLuckyBlockDeepslateMinHeight = -64
-	#Maximal height for Gobber Lucky Block Deepslate pocket generation [-64 to 0, default: 0]
-	#Range: -64 ~ 0
-	gobberLuckyBlockDeepslateMaxHeight = 0
-
 #Gobber Tool Material Values
 [gobber_tool_material]
 	#Gobber tool enchantability [0-50, default: 20]
@@ -438,7 +404,7 @@
 [farmer_settings]
 	#Ring of the Farmer base tick delay [default: 20]
 	#Range: 10 ~ 120
-	ringFarmerTickDelay = 40
+	ringFarmerTickDelay = 60
 	#Staff of the Farmer radius from player [default: 10]
 	#Range: 2 ~ 20
 	staffFarmerRadius = 8
@@ -447,7 +413,7 @@
 	staffFarmerTickDelay = 40
 	#Ring of the Farmer radius from player [default: 10]
 	#Range: 2 ~ 20
-	ringFarmerRadius = 8
+	ringFarmerRadius = 6
 
 #Dragon Star Special
 [dragonStar_special]
@@ -462,8 +428,6 @@
 	#Minimal height for Gobber Nether Ore pocket generation, [0-255, default: 5]
 	#Range: 0 ~ 255
 	gobberOreNetherMinHeight = 40
-	#Generate Gobber Nether Ore in the world [true / false]
-	gobberOreNetherGeneration = true
 	#Size of Gobber Nether Ore pockets [3-100, default: 3]
 	#Range: 3 ~ 100
 	gobberOreNetherSize = 4
@@ -477,13 +441,13 @@
 	dragonArmorUnbreakable = true
 	#Dragon armor enchantability [1-50, default: 30]
 	#Range: 1 ~ 50
-	dragonArmorEnchantability = 18
+	dragonArmorEnchantability = 20
 	#Dragon armor toughness [0-5, default: 3.0]
 	#Range: 0.0 ~ 5.0
-	dragonArmorToughness = 3.0
+	dragonArmorToughness = 3.75
 	#Dragon armor knockback [0-5, default: 0.3]
 	#Range: 0.0 ~ 5.0
-	dragonArmorKnockback = 0.3
+	dragonArmorKnockback = 0.175
 	#Dragon armor durability multiplier [1-200, default: 100]
 	#Range: 1 ~ 200
 	dragonArmorDurabilityMultiplier = 100

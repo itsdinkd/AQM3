@@ -318,7 +318,7 @@
 	#Range: > -1
 	hosePulleyBlockThreshold = 10000
 	# 
-	#Whether hose pulleys should continue filling up above-threshold sources
+	#Whether hose pulleys should continue filling up above-threshold sources.
 	fillInfinite = false
 	# 
 	#[in Blocks]
@@ -326,8 +326,12 @@
 	#Range: > 1
 	hosePulleyRange = 128
 	# 
-	#Whether open-ended pipes and hose pulleys should be allowed to place fluid sources
+	#Whether open-ended pipes and hose pulleys should be allowed to place fluid sources.
 	placeFluidSourceBlocks = true
+	# 
+	#Configure which fluids can be drained infinitely.
+	#Allowed Values: ALLOW_ALL, DENY_ALL, ALLOW_BY_TAG, DENY_BY_TAG
+	bottomlessFluidMode = "ALLOW_BY_TAG"
 
 # 
 #Tweaks for logistical components

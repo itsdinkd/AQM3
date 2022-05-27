@@ -1,0 +1,64 @@
+
+#Hyper Lighting Config
+["Torch Config"]
+	#Disables/Enables Colored lighting on Torches
+	disableColorLighting = false
+	#Should Torches be lit when placed
+	onByDefault = true
+
+["Lantern Config"]
+	#Disables/Enables Colored lighting on Lanterns
+	disableColorLighting = false
+	#Should Lanterns be lit when placed
+	onByDefault = false
+
+["Tiki Torch Config"]
+	#Disables/Enables Colored lighting on Tiki Torches
+	disableColorLighting = false
+	#Should Tiki Torches be lit when placed
+	onByDefault = false
+
+["Candle Config"]
+	#Disables/Enables Colored lighting on Candles
+	disableColorLighting = false
+	#Should Candles be lit when placed
+	onByDefault = false
+
+["Redstone Config"]
+	#Disables/Enables Colored lighting on Redstone Lamps
+	disableColorLighting = false
+
+["Battery Light Config"]
+	#Disables/Enables Colored lighting on Battery Lights
+	disableColorLighting = false
+	#Should Battery Lights be lit when placed
+	onByDefault = false
+
+["Campfire Config"]
+	#Disables/Enables Colored lighting on Campfires
+	disableColorLighting = false
+	#Should Campfires be lit when placed
+	onByDefault = false
+
+["Jack O Lantern Config"]
+	#Disables/Enables Colored lighting on Jack O Lanterns
+	disableColorLighting = false
+	#Should Jack O Lanterns be lit when placed
+	onByDefault = false
+
+["Underwater Lights Config"]
+	#Disables/Enables Colored lighting on Underwater Lights
+	disableColorLighting = false
+	#Should Underwater Lights be lit when placed
+	onByDefault = false
+
+["Neon Sign Config"]
+	#Enable/Disable the neon hum sound
+	neonHum = true
+
+["World Gen Config"]
+	#Disables/Enables Glowing Colored Water from spawning
+	genColoredWater = true
+	#Disables/Enables Glowing Colored Water from spawning
+	genGlowingColoredWater = true
+

@@ -1,27 +1,51 @@
 {
-  "requiredReviveProgress": 100.0,
-  "progressPerPlayer": 1.0,
-  "maxDistance": 3,
-  "bleedTime": 900,
-  "haltBleedTime": true,
-  "reviveItem": "{id:\"item\",item:\"minecraft:paper\"}",
-  "needReviveItem": false,
-  "consumeReviveItem": false,
-  "healthAfterRevive": 2,
-  "affectFood": true,
-  "foodAfterRevive": 4,
-  "exhaustion": 0.5,
   "banPlayerAfterDeath": false,
-  "disableBleedingMessage": false,
+  "bleeding": {
+    "bleedTime": 1200,
+    "bleedingMessage": true,
+    "bleedingMessageTrackingOnly": true,
+    "shouldGlow": true,
+    "hasBleedingMobEffect": true,
+    "bleedingMobEffect": {
+      "effect": "minecraft:slowness",
+      "amplifier": 2,
+      "duration": 10
+    },
+    "affectHunger": true,
+    "remainingHunger": 6,
+    "bleedingHealth": 10,
+    "disableMobDamage": true,
+    "disablePlayerDamage": true,
+    "disableOtherDamage": false
+  },
+  "revive": {
+    "requiredReviveProgress": 100.0,
+    "progressPerPlayer": 1.0,
+    "exhaustion": 0.5,
+    "haltBleedTime": true,
+    "abortOnDamage": false,
+    "resetProgress": false,
+    "hasRevivedMobEffect": false,
+    "revivedMobEffect": {
+      "effect": "minecraft:slowness",
+      "amplifier": 2,
+      "duration": 1
+    },
+    "reviveItem": "{id:\"item\",item:\"minecraft:paper\"}",
+    "needReviveItem": false,
+    "consumeReviveItem": false,
+    "maxDistance": 3,
+    "healthAfter": 2
+  },
   "sounds": {
     "death": {
       "sound": "playerrevive:death",
-      "volume": 0.6,
+      "volume": 0.1,
       "pitch": 1.0
     },
     "revived": {
       "sound": "playerrevive:revived",
-      "volume": 0.75,
+      "volume": 0.25,
       "pitch": 1.0
     }
   },

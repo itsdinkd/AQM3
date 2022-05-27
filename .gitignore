@@ -50,3 +50,17 @@ kubejs/assets/*
 *.psd
 tconstruct-common.toml
 TrashSlotSaveState.json
+AQM3-1.18.2/
+.persistent/multibeds/projects.dat
+enigmatic_persistence.dat
+config/spark/activity.json
+replay_pid7788.log
+replay_pid12492.log
+reauth.toml
+AQM3 1.18.2.rar
+.vscode/probe.code-snippets
+not-enough-crashes/Uploaded Crash logs.txt
+hs_err_pid12492.log
+hs_err_pid41036.log
+hs_err_pid7504.log
+hs_err_pid7788.log

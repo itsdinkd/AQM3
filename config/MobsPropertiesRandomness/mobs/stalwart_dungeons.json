@@ -1,0 +1,27 @@
+{
+    "mob_id": "stalwart_dungeons",
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Stalwart Dungeon HP Increase",
+            "amount": {
+                "min": 0.25,
+                "max": 2.0
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "Stalwart Dungeon HP Increase",
+            "amount": {
+                "min": 0.4,
+                "max": 0.88
+            },
+            "operation": "multiply_base"
+        },
+    ],
+    "experience_multiplier": {
+        "min": 0.0,
+        "max": 1.5
+    }
+}

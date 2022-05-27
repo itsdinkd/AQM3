@@ -23,6 +23,8 @@
 [pillager]
 	"Have pillagers run while reloading?" = true
 	"Have pillagers go closer to you if they have a multishot crossbow?" = true
+	#Range: 0.0 ~ 900.0
+	"Chance of a pillager patrol leader getting a spyglass" = 0.5
 
 [animals]
 	#Any mob id in this list will not attempt to find an area to stay in while it's raining or at night.

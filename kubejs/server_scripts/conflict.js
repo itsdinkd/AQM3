@@ -1,7 +1,4 @@
 // priority: 0
-
-console.info('AQM3 -- Removing Conflicts....)');
-
 const conflictRemoveJei = [
 'cyclic:gold_chain'
 ];
@@ -13,3 +10,7 @@ conflictRemoveJei.forEach(item => {
 });
 
 });
+
+onEvent('tags.items', event => {
+  event.remove('minecraft:coals', 'doom:argent_energy')
+})

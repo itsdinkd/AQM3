@@ -1,10 +1,10 @@
 
 #General Settings
 [general]
-	#Forge Energy conversion rate (in FE/t at max RPM).
+	#Forge Energy conversion rate (in FE/t at 256 RPM).
 	#Range: > 0
 	fe_conversion = 240
-	#Max stress for the Alternator and Electric Motor (in SU at max RPM).
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
 	#Range: > 0
 	baseline_stress = 8192
 
@@ -88,24 +88,12 @@
 	#Range: > 0
 	accumulator_capacity = 4196000
 
-#Charger (Deprecated)
-[charger]
-	#Charger max input in FE/t (Energy transfer).
-	#Range: > 0
-	charger_max_input = 8192
-	#Charger charge rate in FE/t.
-	#Range: > 0
-	charger_charge_rate = 8192
-	#Charger internal capacity in FE.
-	#Range: > 0
-	charger_capacity = 32000
-
 #Tesla Coil
 [tesla_coil]
-	#Charger max input in FE/t (Energy transfer).
+	#Tesla Coil max input in FE/t (Energy transfer).
 	#Range: > 0
 	tesla_coil_max_input = 8192
-	#Charger charge rate in FE/t.
+	#Tesla Coil charge rate in FE/t.
 	#Range: > 0
 	tesla_coil_charge_rate = 8192
 	#Charger internal capacity in FE.
@@ -132,18 +120,15 @@
 	#Tesla Coil fire interval (in ticks).
 	#Range: > 0
 	tesla_coil_fire_cooldown = 20
-	#The chance that a AE2 Certus Quartz will be turned into Charged Certus Quartz for every tick.
-	#Range: 0.0 ~ 1.0
-	certus_quartz_charge_chance = 0.96
+	#Tesla Coil charge rate in FE/t for recipes.
+	#Range: > 0
+	tesla_coil_recipe_charge_rate = 1024
 
 #Misc
 [misc]
 	#Diamond Grit Sandpaper durability (number of uses).
 	#Range: > 3
 	diamond_grit_sandpaper_uses = 1024
-	#The energy cost of turning Chromatic Compound into Overcharged Alloy.
-	#Range: > 1
-	overcharging_energy_cost = 16777216
 	#The relative speed of the Furnace Engine when powered by a Furnace Burner.
 	#Range: 0.0 ~ 100.0
 	furnace_burner_engine_speed = 1.0

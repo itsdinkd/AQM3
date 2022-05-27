@@ -1,0 +1,8 @@
+{
+	"type": "assemblylinemachines:enchantment_book",
+	"input":{
+		"tag": "forge:dusts/titanium"
+	},
+	"enchantment": "minecraft:power",
+	"cost": 125
+}

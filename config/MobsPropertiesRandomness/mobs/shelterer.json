@@ -1,0 +1,14 @@
+{
+    "mob_id": "stalwart_dungeons:shelterer",
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Shelterer Health",
+            "amount": {
+                "min": 8.0,
+                "max": 10.0
+            },
+            "operation": "multiply_base"
+        }
+    ]
+}

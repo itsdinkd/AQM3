@@ -2,7 +2,7 @@
 debugNormals = false
 #Enable or disable the entire engine
 #Allowed Values: OFF, BATCHING, INSTANCING
-backend = "INSTANCING"
+backend = "OFF"
 #Enable or disable instance update limiting with distance.
 limitUpdates = true
 

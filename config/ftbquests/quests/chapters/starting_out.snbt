@@ -209,95 +209,6 @@
 			}]
 		}
 		{
-			title: "Scaling Health and You (2/3)"
-			icon: {
-				id: "tombstone:decorative_grave_simple"
-				Count: 1b
-				tag: {
-					model_texture: 0
-				}
-			}
-			x: 0.0d
-			y: -1.5d
-			subtitle: "Other ways your difficulty level increases"
-			description: [
-				"There are other ways to scale difficulty in small increments."
-				""
-				"Killing Mobs - Increases difficulty."
-				""
-				"Killing Players - Increases by 1/4th a level"
-				""
-				"Killing Blights - Slight increase from killing mobs)."
-				""
-				"Dying - Lowers Difficulty"
-			]
-			min_required_dependencies: 1
-			dependencies: ["3B40419C8AE65204"]
-			dependency_requirement: "one_completed"
-			size: 0.5d
-			id: "1CDBB1CC97B9EEC0"
-			tasks: [{
-				id: "4D73FF40D9B29B8F"
-				type: "stat"
-				title: "Die Once"
-				stat: "minecraft:deaths"
-				value: 1
-			}]
-			rewards: [
-				{
-					id: "52CF722E85555044"
-					type: "item"
-					item: "scalinghealth:bandages"
-				}
-				{
-					id: "5E7A93F380AA7851"
-					type: "item"
-					item: "scalinghealth:power_crystal"
-				}
-			]
-		}
-		{
-			title: "Scaling Health and You (3/3)"
-			x: 0.0d
-			y: -2.25d
-			subtitle: "Other ways to scale your difficulty."
-			description: [
-				"Consume Enchanted Heart to lower by 10 (Found in dungeons/chests/killing mobs (looting increases chances)"
-				""
-				"Consume Cursed Heart to increase by 10 (Found in dungeons/chests/killing mobs (looting increases chances)"
-				""
-				"Consume a Chance Heart to either increase or lower difficulty by 10 via random chance."
-			]
-			min_required_dependencies: 1
-			dependencies: ["1CDBB1CC97B9EEC0"]
-			hide: true
-			dependency_requirement: "one_completed"
-			size: 0.5d
-			id: "53AA8DAE3F5681F9"
-			tasks: [
-				{
-					id: "27A4921E7872EEFF"
-					type: "item"
-					item: "scalinghealth:cursed_heart"
-				}
-				{
-					id: "59FD16C0E9F6347A"
-					type: "item"
-					item: "scalinghealth:enchanted_heart"
-				}
-				{
-					id: "6EE3A48D1A85319E"
-					type: "item"
-					item: "scalinghealth:chance_heart"
-				}
-			]
-			rewards: [{
-				id: "111BEAF1DC5E4B89"
-				type: "choice"
-				table_id: 5513900766362080685L
-			}]
-		}
-		{
 			x: -3.25d
 			y: -1.75d
 			subtitle: "Look here!"
@@ -360,32 +271,6 @@
 			}]
 			rewards: [{
 				id: "77D6877CFAF0CAAA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			title: "Scaling Health and You (1/3)"
-			x: 0.0d
-			y: -0.75d
-			subtitle: "How Difficulty works in AQM3"
-			description: [
-				"Difficulty scales per player, meaning, the mobs that spawn around you are affected by YOUR difficulty, and averages out if other players are within the area"
-				""
-				"You will increase difficulty over time (IDLING/AFK stops time increase), and also averages players in your area within 128 blocks."
-				"{image:scalinghealth:textures/item/heart_crystal.png width:100 height:100 align:1}"
-			]
-			dependencies: ["0069E0015EB53D0D"]
-			size: 0.5d
-			id: "3B40419C8AE65204"
-			tasks: [{
-				id: "77A6E406733B11F3"
-				type: "kill"
-				entity: "minecraft:zombie"
-				value: 5L
-			}]
-			rewards: [{
-				id: "5A75939ECC9DA202"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -695,6 +580,26 @@
 				id: "57D7156E7AB1B03C"
 				type: "item"
 				item: "gobber2:gobber2_glob"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "Use Away from World Spawn"
+			description: ["You've done it. You have played AQM3 for 5+ Minutes and earned a starter house. Prefab features tons of pre-built structures that you can use, but for the other prefab's youll need to upgrade your PMMO attributes like building. "]
+			secret: true
+			id: "75ACA4C3F5E0CA41"
+			tasks: [{
+				id: "007A10849D5CADA1"
+				type: "questsadditions:time"
+				title: "Free Starting House"
+				icon: "prefab:item_start_house"
+				elapsedTime: 360L
+			}]
+			rewards: [{
+				id: "5F2CAFC68360C942"
+				type: "item"
+				item: "prefab:item_start_house"
 			}]
 		}
 	]

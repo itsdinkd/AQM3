@@ -1,0 +1,127 @@
+{
+	id: "4D20FF19192106E7"
+	group: "30AC1CE19F5532E7"
+	order_index: 3
+	filename: "bosses"
+	title: "Bosses"
+	icon: "minecraft:dragon_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Stalwart Dungeon - Kill End Boss"
+			dependencies: ["03965AA0FD6D4738"]
+			id: "026D6AFB7A39F5E3"
+			tasks: [
+				{
+					id: "31E3F4DECEEC6D51"
+					type: "item"
+					item: "stalwart_dungeons:void_crystal"
+				}
+				{
+					id: "07B1FF60BF835AB3"
+					type: "kill"
+					title: "Kill Shelterer"
+					icon: "minecraft:creeper_spawn_egg"
+					entity: "stalwart_dungeons:shelterer"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "19BC38B8AE0C772E"
+					type: "pmmo:levelreward"
+					title: "3 Combat Levels"
+					skill: "combat"
+					amount: 3.0d
+				}
+				{
+					id: "75C0C161A54072DC"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "Stalwart Dungeons - Kill Nether Boss"
+			dependencies: ["2EBC224388B2F394"]
+			id: "03965AA0FD6D4738"
+			tasks: [
+				{
+					id: "4156F50696ABD4C4"
+					type: "item"
+					item: "stalwart_dungeons:awful_crystal"
+				}
+				{
+					id: "58428B4240BE657C"
+					type: "kill"
+					title: "Kill Awful Ghast"
+					icon: "ars_nouveau:whirlisprig_se"
+					entity: "stalwart_dungeons:awful_ghast"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1CF2756E45418A74"
+					type: "item"
+					auto: "invisible"
+					item: "stalwart_dungeons:raw_tungsten"
+					count: 3
+				}
+				{
+					id: "2A2E06C4B370541E"
+					type: "item"
+					item: "chanceglobe:chance_globe"
+				}
+			]
+		}
+		{
+			title: "Ancient Fire"
+			x: -2.0d
+			y: -0.5d
+			subtitle: "Stalwart Dungeons - Kill Nether Mini Boss"
+			description: ["But.... how do you get there?"]
+			id: "2EBC224388B2F394"
+			tasks: [
+				{
+					id: "535470CFB95E0308"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:ancient_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BDF4AB914163D09"
+					type: "kill"
+					title: "Kill Nether Keeper"
+					icon: "minecraft:endermite_spawn_egg"
+					disable_toast: true
+					entity: "stalwart_dungeons:nether_keeper"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6B9C69507E3EA31A"
+					type: "item"
+					item: "stalwart_dungeons:blaze_armor_scrap"
+					count: 2
+				}
+				{
+					id: "1D3C67D6BFAF3066"
+					type: "random"
+					table_id: 5396437845961881468L
+				}
+			]
+		}
+	]
+}

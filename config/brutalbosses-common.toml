@@ -4,7 +4,7 @@
 	printChestLoottableOnOpen = false
 	#Global difficulty multiplier, affects health and damage of all bosses
 	#Range: 0.1 ~ 1000.0
-	globalDifficultyMultiplier = 8.0
+	globalDifficultyMultiplier = 10.0
 	#Global boss spawn chance, determines the chance per treasure chest spawn at which a boss can appear in a structure. Chance X in 100, default = 30
 	#Range: 1 ~ 100
 	globalBossSpawnChance = 5

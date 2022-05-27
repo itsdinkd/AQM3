@@ -1,0 +1,12 @@
+#Do you want to render custom tooltip frame colors for some specific items?
+#If false, the tooltip will be standard.
+customTooltipColors = true
+#Do you want to render custom tooltip frame textures for some specific items?
+#If false, the tooltip will be standard. This has no effect if customTooltipColors is false.
+customTooltipFrames = true
+#Do you want to receive a copy of Assembly Lines & You when you first connect to a server and you have Patchouli installed?
+#This may be overridden by the server.
+receiveGuideBook = true
+#Do you want to receive mod update messages when the mod is out of date and you connect to a server?
+receiveUpdateMessages = true
+

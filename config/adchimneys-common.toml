@@ -15,3 +15,8 @@
 	#Range: 16 ~ 256
 	maxRenderDistance = 100
 
+[Pipe]
+	#Number of pipes that can be placed(when holding pipe items in both hands) / broken(when crouching) at once
+	#Range: 1 ~ 128
+	maxPipesAtOnce = 8
+

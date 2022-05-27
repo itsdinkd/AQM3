@@ -3,10 +3,6 @@
 console.info('AQM3 -- Modifying Gobber2)');
 
 const gobberRemove = [
-'gobber2:gobber2_boots_dragon',
-'gobber2:gobber2_chestplate_dragon',
-'gobber2:gobber2_helmet_dragon',
-'gobber2:gobber2_leggings_dragon',
 'gobber2:gobber2_medallion_glowing',
 'gobber2:gobber2_ring_airwalking',
 'gobber2:gobber2_ring_ascent',
@@ -27,11 +23,11 @@ onEvent('recipes', event => {
     event.remove({output: item})
   })
 
-event.replaceInput(
-  { id:"gobber2:gobber2_links_end" },
-    "minecraft:nether_star",
-    "gobber2:dragon_star"
-);
+// event.replaceInput(
+//   { id:"gobber2:gobber2_links_end" },
+//     "minecraft:nether_star",
+//     "gobber2:dragon_star"
+// );
 
 // swimming
 event.replaceInput(
@@ -60,14 +56,14 @@ event.shaped("gobber2:gobber2_medallion_hero", [
 // event.recipes.immersiveengineeringCrusher(output, input)
 // event.recipes.immersiveengineeringCrusher(output, input, [secondaries]) // Secondary output format: {chance: 0.5, output: 'item:id'}
 // EXAMPLE: event.recipes.immersiveengineeringCrusher('7x create:crushed_copper_ore', 'minecraft:copper_ore', [Item.of('minecraft:copper_ore').withChance(0.5)])
-event.remove({input: "gobber2:gobber2_ore"})
-event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette', 'gobber2:gobber2_ore', [Item.of('gobber2:gobber2_glob').withChance(0.055)]);
-event.remove({input: "gobber2:gobber2_ore_deepslate"})
-event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette', 'gobber2:gobber2_ore_deepslate', [Item.of('gobber2:gobber2_glob').withChance(0.056)]);
-event.remove({input: "gobber2:gobber2_ore_nether"})
-event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette_nether', 'gobber2:gobber2_ore_nether', [Item.of('gobber2:gobber2_glob_nether').withChance(0.0575)]);
-event.remove({input: "gobber2:gobber2_ore_end"})
-event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette_end', 'gobber2:gobber2_ore_end', [Item.of('gobber2:gobber2_glob_end').withChance(0.0575)]);
+// event.remove({input: "gobber2:gobber2_ore"})
+// event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette', 'gobber2:gobber2_ore', [Item.of('gobber2:gobber2_glob').withChance(0.055)]);
+// event.remove({input: "gobber2:gobber2_ore_deepslate"})
+// event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette', 'gobber2:gobber2_ore_deepslate', [Item.of('gobber2:gobber2_glob').withChance(0.056)]);
+// event.remove({input: "gobber2:gobber2_ore_nether"})
+// event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette_nether', 'gobber2:gobber2_ore_nether', [Item.of('gobber2:gobber2_glob_nether').withChance(0.0575)]);
+// event.remove({input: "gobber2:gobber2_ore_end"})
+// event.recipes.immersiveengineeringCrusher('3x gobber2:gobber2_globette_end', 'gobber2:gobber2_ore_end', [Item.of('gobber2:gobber2_glob_end').withChance(0.0575)]);
 
 // Use Compacter for Dragonstar
 event.remove({output: "gobber2:dragon_star"})

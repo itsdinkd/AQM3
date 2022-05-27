@@ -1,154 +1,18 @@
 
-["Machine Options"]
-	#If using the Crank without meaning, what chould be the chance it snaps?
-	#Value is 1 in X chance to snap, where X is the value in the config.
-	#Set to -1 to disable snapping completely.
-	#Range: -1 ~ 1000
-	crankSnapChance = 100
-	#Interact Mode (in the Interactor block) can cause issues with intercompatability with some mods. Do you want this mode enabled?
-	#For example, attempting to "interact with" a block with a GUI will cause an exception.
-	interactorInteractMode = true
-	#Should Interact Mode (in the Interactor block) fail with an exception, what type of logging should be performed?
-	#NONE - Interact Mode exceptions are completely silenced.
-	#BASIC - The first line of the exception, a simple description, is placed in the console. (If unsure, use this!)
-	#COMPLETE - Full stack traces are placed in the console, useful for debugging.
-	#Allowed Values: NONE, BASIC, COMPLETE
-	interactorInteractDebug = "BASIC"
-	#If the Entropy Reactor reaches higher than 98% Entropy, should it explode?
-	reactorExplosions = true
-	#What is the maximum amount of FE the Tool Charger can place into an item per cycle?
-	#The Tool Charger runs one cycle every 2.5 seconds.
-	#Range: > 1
-	toolChargerChargeRate = 6500
-	#What should the FE capacity of the Tool Charger be?
-	#Range: > 1
-	toolChargerMaxEnergyStorage = 100000
-	#How many XP Points per half-second should the Experience Siphon drain?
-	#Range: 1 ~ 500
-	experienceSiphonMaxDrain = 25
-	#What should the base FE multiplier for burn-time-to-FE be for fuel in the Coal Generator?
-	#Every 1 is equal to 4 FE more per burn tick over the 60 seconds of operation.
-	#For example, every 1 would increase the FE output of Charcoal by 3.2KFE.
-	#Range: 1 ~ 100
-	coalGeneratorMultiplier = 2
-	#What should the base operating time multiplier be for when the Naphtha Turbine is placed on the Coal Generator?
-	#Every 1 is equal to 60 seconds.
-	#Range: 1 ~ 100
-	naphthaTurbineMultiplier = 4
-
-["Tools and Armor"]
-	#What multiplier should each level of the Overclock enchantment give?
-	#For example, the default of "0.2" is a 20% increase per enchantment level.
-	#Range: 0.001 ~ 1.0
-	overclockEnchantmentMultiplier = 0.15
-
-	["Tools and Armor".Titanium]
-		#What is the base damage Titanium Tools should do?
-		#Range: 0.1 ~ 1000.0
-		titaniumToolAttack = 5.0
-		#What is the base harvest speed Titanium Tools should do?
-		#Range: 0.1 ~ 100.0
-		titaniumToolHarvestSpeed = 7.0
-		#What should the enchantability of Titanium Tools and Armor be?
-		#Range: 0 ~ 100
-		titaniumEnchantability = 8
-		#What should the base durability of Titanium Tools and Armor be?
-		#Range: 10 ~ 100000
-		titaniumDurability = 1150
-		#What should the knockback resistance of Titanium Armor be?
-		#Range: 0.0 ~ 1.0
-		titaniumArmorKnockbackResistance = 0.0
-		#What should the base damage reduction of Titanium Armor be?
-		#Range: 2 ~ 100
-		titaniumArmorDamageReduction = 4
-		#What should the toughness of Titanium Armor be?
-		#Range: 0.0 ~ 1.0
-		titaniumArmorToughness = 0.0
-
-	["Tools and Armor".Steel]
-		#What is the base damage Steel Tools should do?
-		#Range: 0.1 ~ 1000.0
-		steelToolAttack = 7.0
-		#What is the base harvest speed Steel Tools should do?
-		#Range: 0.1 ~ 100.0
-		steelToolHarvestSpeed = 9.0
-		#What should the enchantability of Steel Tools and Armor be?
-		#Range: 0 ~ 100
-		steelEnchantability = 6
-		#What should the base durability of Steel Tools and Armor be?
-		#Range: 10 ~ 100000
-		steelDurability = 1800
-		#What should the knockback resistance of Steel Armor be?
-		#Range: 0.0 ~ 1.0
-		steelArmorKnockbackResistance = 0.1
-		#What should the base damage reduction of Steel Armor be?
-		#Range: 2 ~ 100
-		steelArmorDamageReduction = 4
-		#What should the toughness of Steel Armor be?
-		#Range: 0.0 ~ 1.0
-		steelArmorToughness = 0.5
-
-	["Tools and Armor".Crank-Powered]
-		#What is the base damage Crank-Powered Tools should do?
-		#Range: 0.1 ~ 1000.0
-		crankToolAttack = 8.0
-		#What is the base harvest speed Crank-Powered Tools should do?
-		#Range: 0.1 ~ 100.0
-		crankToolHarvestSpeed = 11.0
-		#What should the enchantability of Crank-Powered Tools be?
-		#Range: 0 ~ 100
-		crankToolEnchantability = 14
-		#What should the base physical durability of Crank-Powered Tools be?
-		#Range: 10 ~ 100000
-		crankToolDurability = 75
-		#What should the base kinetic durability (Cranks) of Crank-Powered Tools be?
-		#Range: > 1
-		crankToolMaxCranks = 750
-
-	["Tools and Armor".Mystium]
-		#What is the base damage Mystium Tools should do?
-		#Range: 0.1 ~ 1000.0
-		mystiumToolAttack = 9.0
-		#What is the base harvest speed Mystium Tools should do?
-		#Range: 0.1 ~ 100.0
-		mystiumToolHarvestSpeed = 19.0
-		#What should the enchantability of Mystium Tools be?
-		#Range: 0 ~ 100
-		mystiumToolEnchantability = 189
-		#What should the base physical durability of Mystium Tools be?
-		#Range: 10 ~ 100000
-		mystiumToolDurability = 150
-		#What should the base electrical durability (Forge Energy) of Mystium Tools be?
-		#Range: > 1
-		mystiumToolMaxFE = 1000000
-
-	["Tools and Armor".Novasteel]
-		#What is the base damage Novasteel Tools should do?
-		#Range: 0.1 ~ 1000.0
-		novasteelToolAttack = 10.5
-		#What is the base harvest speed Novasteel Tools should do?
-		#Range: 0.1 ~ 100.0
-		novasteelToolHarvestSpeed = 21.0
-		#What should the enchantability of Novasteel Tools be?
-		novasteelToolEnchantability = 24
-		#What should the base physical durability of Novasteel Tools be?
-		#Range: 10 ~ 100000
-		novasteelToolDurability = 300
-		#What should the base electrical durability (Forge Energy) of Novasteel Tools be?
-		#Range: > 1
-		novasteelToolMaxFE = 10000000
-
 [World]
 	#Should Mystium Farmland get exhausted over time and stop performing grow operations?
 	mystiumFarmlandDeath = true
-	#Should the update check message be sent when a player joins a single-player world/the SMP server?
-	updateChecker = false
 	#Should Gasoline and Diesel explode when placed next to a flammable block?
 	gasolineExplosions = true
-	#When Patchouli is installed, should players be automatically given the Guidebook when they first connect?
-	guideBook = true
+	#Should players receive a copy of Assembly Lines & You when they first connect to this server and Patchouli is installed?
+	#If this is false, this server will override the config of all clients.
+	#If clients are configured to false, that client will not receive a copy regardless of this option.
+	distributeGuideBook = true
+	#In recipe types which support inter-mod compatible output, which Mod ID should be preferred?
+	#If the selected Mod ID is invalid or does not provide an appropriate item for a tag, the first Mod ID alphabetically will be used.
+	preferredModid = "assemblylinemachines"
 
-	[World."Titanium Generation"]
+	[World.Titanium]
 		#What should the maximum size per vein of Titanium Ore be?
 		#Set to 0 to disable Titanium Ore generation.
 		#Range: 0 ~ 1000
@@ -168,23 +32,23 @@
 		#Allowed Values: UNIFORM, TRIANGLE
 		titaniumOreGenStyle = "TRIANGLE"
 
-	[World."Black Granite Generation"]
+	[World.Black-Granite]
 		#Should generated Black Granite have the "natural" tag?
 		#This tag, if present, will only allow Black Granite to be dropped if mined with a Crank-Powered Pickaxe.
 		#This is the intended progression, but can be disabled in order to make all Pickaxes mine it.
 		blackGraniteSpawnsWithNaturalTag = true
 		#What should the maximum size per vein of Black Granite be?
 		#Set to 0 to disable Black Granite generation.
-		blackGraniteVeinSize = 37
+		blackGraniteVeinSize = 24
 		#How many veins of Black Granite should generate per chunk?
 		#Set to 0 to disable Black Granite generation.
 		blackGraniteFrequency = 7
 
-	[World."Chromium Generation"]
+	[World.Chromium]
 		#What should the maximum size per vein of Chromium Ore be?
 		#Set to 0 to disable Chromium Ore generation.
 		#Range: 0 ~ 1000
-		chromiumVeinSize = 10
+		chromiumVeinSize = 6
 		#How many veins of Chromium Ore should generate per chunk?
 		#Set to 0 to disable Chromium Ore generation.
 		#Range: 0 ~ 1000
@@ -192,4 +56,186 @@
 		#Should Chromium Ore generate on the Dragon Island in The End?
 		#If false, Chromium Ore will only generate on the outer End islands accessed by the End Gateway.
 		chromiumOnDragonIsland = false
+
+[Machines]
+	#If using the Crank without meaning, what chould be the chance it snaps?
+	#Value is 1 in X chance to snap, where X is the value in the config.
+	#Set to -1 to disable snapping completely.
+	#Range: -1 ~ 1000
+	crankSnapChance = 100
+	#If the Entropy Reactor reaches higher than 98% Entropy, should it explode?
+	reactorExplosions = true
+	#What is the maximum amount of FE the Tool Charger can place into an item per cycle?
+	#The Tool Charger runs one cycle every 2.5 seconds.
+	#Range: > 1
+	toolChargerChargeRate = 5000
+	#What should the FE capacity of the Tool Charger be?
+	#Range: > 1
+	toolChargerMaxEnergyStorage = 80000
+	#How many XP Points per half-second should the Experience Siphon drain?
+	#Range: 1 ~ 500
+	experienceSiphonMaxDrain = 40
+	#What should the base FE multiplier for burn-time-to-FE be for fuel in the Coal Generator?
+	#Every 1 is equal to 4 FE more per burn tick over the 60 seconds of operation.
+	#For example, every 1 would increase the FE output of Charcoal by 3.2KFE.
+	#Range: 1 ~ 100
+	coalGeneratorMultiplier = 2
+	#What should the base operating time multiplier be for when the Naphtha Turbine is placed on the Coal Generator?
+	#Every 1 is equal to 60 seconds.
+	#Range: 1 ~ 100
+	naphthaTurbineMultiplier = 4
+	#What items should be blacklisted from being accepted into the Fluid Bath?
+	#A handful of items cannot be accepted regardless of list content.
+	disallowedFluidBathItems = []
+	#On a failed recipe, should the Fluid Bath return Sludge when emptied?
+	#If false, it will instead return both of the input items.
+	invalidBathReturnsSludge = true
+	#What should the multiplier for the amount of grinds (uses of the Manual Grinder) to convert to minimum seconds in the Kinetic Grinder be?
+	#For example, a recipe with 10 grinds with a multiplier of 2 will take a minimum of 20 seconds to craft.
+	#Range: 0.01 ~ 100.0
+	simpleGrinderCycleModifier = 2.0
+	#What should the multiplier for the amount of stirs (uses of a Stirring Stick on Fluid Bath) to convert to minimum seconds in the Kinetic Fluid Mixer be?
+	#For example, a recipe with 10 stirs with a multiplier of 0.7 will take a minimum of 7 seconds to craft.
+	#Range: 0.01 ~ 100.0
+	simpleFluidMixerCycleModifier = 1.33
+
+["Interactor Settings"]
+	#Interact Mode can cause issues with intercompatability with some mods. Do you want this mode enabled?
+	#For example, attempting to "interact with" a block with a GUI will cause an exception or other fatal issues.
+	interactMode = true
+	#Should Interact Mode fail with an exception, what type of logging should be performed?
+	#NONE - Interact Mode exceptions are silenced.
+	#MESSAGE - A basic informative message to identify the error.
+	#STACK_TRACE - A full stacktrace, for developers to identify source of error.
+	#Allowed Values: NONE, MESSAGE, STACK_TRACE
+	interactExceptionReporting = "STACK_TRACE"
+	#If logging occurs based on the option selected in interactExceptionReporting, what Log4J level should the log be placed at?
+	interactExceptionReportLevel = "DEBUG"
+
+[Tools]
+	#What multiplier should each level of the Overclock enchantment give?
+	#For example, the default of "0.2" is a 20% increase per enchantment level.
+	#Range: 0.001 ~ 1.0
+	overclockEnchantmentMultiplier = 0.15
+	#What additional multiplier should each level of the Engineer's Fury enchantment give to knockback?
+	#For example, "0.1" at Level X would be +1 knockback.
+	#Range: 0.0 ~ 1.0
+	engineersFuryKnockbackMultiplier = 0.5
+
+	[Tools.Titanium]
+		#What is the base damage Titanium Tools should do?
+		#Range: 0.1 ~ 1000.0
+		titaniumToolAttack = 5.0
+		#What is the base harvest speed Titanium Tools should do?
+		#Range: 0.1 ~ 100.0
+		titaniumToolHarvestSpeed = 7.0
+		#What should the enchantability of Titanium Tools and Armor be?
+		#Range: 0 ~ 100
+		titaniumEnchantability = 8
+		#What should the base durability of Titanium Tools and Armor be?
+		#Range: 10 ~ 100000
+		titaniumDurability = 1150
+		#What should the knockback resistance of Titanium Armor be?
+		#Range: 0.0 ~ 1.0
+		titaniumArmorKnockbackResistance = 0.0
+		#What should the base damage reduction of Titanium Armor be?
+		#Range: 2 ~ 100
+		titaniumArmorDamageReduction = 4
+		#What should the toughness of Titanium Armor be?
+		#Range: 0.0 ~ 100.0
+		titaniumArmorToughness = 0.0
+
+	[Tools.Steel]
+		#What is the base damage Steel Tools should do?
+		#Range: 0.1 ~ 1000.0
+		steelToolAttack = 7.0
+		#What is the base harvest speed Steel Tools should do?
+		#Range: 0.1 ~ 100.0
+		steelToolHarvestSpeed = 9.0
+		#What should the enchantability of Steel Tools and Armor be?
+		#Range: 0 ~ 100
+		steelEnchantability = 6
+		#What should the base durability of Steel Tools and Armor be?
+		#Range: 10 ~ 100000
+		steelDurability = 1800
+		#What should the knockback resistance of Steel Armor be?
+		#Range: 0.0 ~ 1.0
+		steelArmorKnockbackResistance = 0.1
+		#What should the base damage reduction of Steel Armor be?
+		#Range: 2 ~ 100
+		steelArmorDamageReduction = 4
+		#What should the toughness of Steel Armor be?
+		#Range: 0.0 ~ 100.0
+		steelArmorToughness = 2.5
+
+	[Tools.Crank]
+		#What is the base damage Crank-Powered Tools should do?
+		#Range: 0.1 ~ 1000.0
+		crankToolAttack = 8.0
+		#What is the base harvest speed Crank-Powered Tools should do?
+		#Range: 0.1 ~ 100.0
+		crankToolHarvestSpeed = 11.0
+		#What should the enchantability of Crank-Powered Tools be?
+		#Range: 0 ~ 100
+		crankToolEnchantability = 16
+		#What should the base physical durability of Crank-Powered Tools be?
+		#Range: 10 ~ 100000
+		crankToolDurability = 75
+		#What should the base kinetic durability (Cranks) of Crank-Powered Tools be?
+		#Range: > 1
+		crankToolMaxCranks = 750
+
+	[Tools.Mystium]
+		#What is the base damage Mystium Tools should do?
+		#Range: 0.1 ~ 1000.0
+		mystiumToolAttack = 9.0
+		#What is the base harvest speed Mystium Tools should do?
+		#Range: 0.1 ~ 100.0
+		mystiumToolHarvestSpeed = 19.0
+		#What should the enchantability of Mystium Tools and Armor be?
+		#Range: 0 ~ 100
+		mystiumToolEnchantability = 28
+		#What should the base physical durability of Mystium Tools and Armor be?
+		#Range: 10 ~ 100000
+		mystiumToolDurability = 150
+		#What should the knockback resistance of Mystium Armor be?
+		#Range: 0.0 ~ 1.0
+		mystiumArmorKnockbackResistance = 0.15
+		#What should the base damage reduction of Mystium Armor be?
+		#Range: 2 ~ 100
+		mystiumArmorDamageReduction = 7
+		#What should the toughness of Mystium Armor be?
+		#Range: 0.0 ~ 100.0
+		mystiumArmorToughness = 5.0
+		#What should the base electrical durability (Forge Energy) of Mystium Tools be?
+		#Range: > 1
+		mystiumToolMaxFE = 1000000
+		#What should the base electrical durability (Forge Energy) of the Enhanced Mystium Chestplate be?
+		#Range: > 1
+		enhancedMystiumChestplateMaxFE = 10000000
+
+	[Tools.Novasteel]
+		#What is the base damage Novasteel Tools should do?
+		#Range: 0.1 ~ 1000.0
+		novasteelToolAttack = 10.5
+		#What is the base harvest speed Novasteel Tools should do?
+		#Range: 0.1 ~ 100.0
+		novasteelToolHarvestSpeed = 23.0
+		#What should the enchantability of Novasteel Tools be?
+		novasteelToolEnchantability = 37
+		#What should the base physical durability of Novasteel Tools be?
+		#Range: 10 ~ 100000
+		novasteelToolDurability = 300
+		#What should the base electrical durability (Forge Energy) of Novasteel Tools be?
+		#Range: > 1
+		novasteelToolMaxFE = 20000000
+
+	[Tools.Wrench-O-Matic]
+		#In half-hearts, what is the amount of damage the Wrench-O-Matic in Wrath Mode should do?
+		#Range: 0.0 ~ 1.7976931348623157E308
+		wrenchAttack = 6.0
+		#How much base knockback should the Wrench-O-Matic do?
+		#Note that Engineer's Fury adds additional knockback.
+		#Range: 0.0 ~ 5.0
+		wrenchKnockback = 0.5
 

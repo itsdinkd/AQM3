@@ -24,6 +24,9 @@
 ##########################################################################################################
 
 "Accessibility Options" {
+    # Whether or not Amulet of Ascension should be enabled. [default: true, synchronized: yes]
+    B:AmuletofAscensionEnabled=true
+
     # Whether or not Angel's Blessing should be enabled. [default: true, synchronized: yes]
     B:AngelsBlessingEnabled=true
 
@@ -32,6 +35,9 @@
 
     # Whether or not Astral Dust should be enabled. [default: true, synchronized: yes]
     B:AstralDustEnabled=true
+
+    # Whether or not Astral Potato should be enabled. [default: true, synchronized: yes]
+    B:AstralPotatoEnabled=true
 
     # Whether or not Axe of Executioner should be enabled. [default: true, synchronized: yes]
     B:AxeofExecutionerEnabled=true
@@ -66,27 +72,6 @@
     # Whether or not Enigmatic Legacy should purposefully crash client whenever any mod tries to inject unnamed LootPool into any loot table. If false, stacktraces will be printed to log but game will proceed as normal. [default: true, synchronized: no]
     B:CrashOnUnnamedPool=true
 
-    # Whether or not Crying Netherite Armor should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteArmorEnabled=true
-
-    # Whether or not Crying Netherite Axe should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteAxeEnabled=true
-
-    # Whether or not Crying Netherite Hoe should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteHoeEnabled=true
-
-    # Whether or not Crying Netherite Ingot should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteIngotEnabled=true
-
-    # Whether or not Crying Netherite Pickaxe should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheritePickaxeEnabled=true
-
-    # Whether or not Crying Netherite Shovel should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteShovelEnabled=true
-
-    # Whether or not Crying Netherite Sword should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteSwordEnabled=true
-
     # Whether or not Curse of Eternal Binding should be enabled. [default: true, synchronized: yes]
     B:CurseofEternalBindingEnabled=true
 
@@ -98,9 +83,6 @@
 
     # Whether or not this mod should add any custom loot to dungeon chests' loot tables. This options is mainly for modpack developers and enables them to re-add that loot on their own terms, since no other ways of modifying what Enigmatic Legacy adds to loot tables currently exist. [default: true, synchronized: yes]
     B:CustomDungeonLootEnabled=true
-
-    # Whether or not Dark Armor should be enabled. [default: true, synchronized: yes]
-    B:DarkArmorEnabled=true
 
     # Whether or not Darkest Scroll should be enabled. [default: true, synchronized: yes]
     B:DarkestScrollEnabled=true
@@ -135,11 +117,17 @@
     # Whether or not Etherium Ingot should be enabled. [default: true, synchronized: yes]
     B:EtheriumIngotEnabled=true
 
+    # Whether or not Etherium Nugget should be enabled. [default: true, synchronized: yes]
+    B:EtheriumNuggetEnabled=true
+
     # Whether or not Etherium Ore should be enabled. [default: true, synchronized: yes]
     B:EtheriumOreEnabled=true
 
     # Whether or not Etherium Pickaxe should be enabled. [default: true, synchronized: yes]
     B:EtheriumPickaxeEnabled=true
+
+    # Whether or not Etherium Scraps should be enabled. [default: true, synchronized: yes]
+    B:EtheriumScrapsEnabled=true
 
     # Whether or not Etherium Scythe should be enabled. [default: true, synchronized: yes]
     B:EtheriumScytheEnabled=true
@@ -162,17 +150,11 @@
     # Whether or not Forbidden Fruit should be enabled. [default: true, synchronized: yes]
     B:ForbiddenFruitEnabled=true
 
-    # Whether or not Fruit of Ascension should be enabled. [default: true, synchronized: yes]
-    B:FruitofAscensionEnabled=true
-
-    # Whether or not Gem of Binding should be enabled. [default: true, synchronized: yes]
-    B:GemofBindingEnabled=true
-
     # Whether or not Gift of the Heaven should be enabled. [default: true, synchronized: yes]
     B:GiftoftheHeavenEnabled=false
 
     # Whether or not Grace of the Creator should be enabled. [default: true, synchronized: yes]
-    B:GraceoftheCreatorEnabled=true
+    B:GraceoftheCreatorEnabled=false
 
     # Whether or not Guide to Feral Hunt should be enabled. [default: true, synchronized: yes]
     B:GuidetoFeralHuntEnabled=true
@@ -215,6 +197,12 @@
 
     # Whether or not Nefarious Essence should be enabled. [default: true, synchronized: yes]
     B:NefariousEssenceEnabled=true
+
+    # Whether or not Nefarious Ingot should be enabled. [default: true, synchronized: yes]
+    B:NefariousIngotEnabled=true
+
+    # Whether or not Non-Euclidean Cube should be enabled. [default: true, synchronized: yes]
+    B:NonEuclideanCubeEnabled=true
 
     # Whether or not Pact of Infinite Avarice should be enabled. [default: true, synchronized: yes]
     B:PactofInfiniteAvariceEnabled=true
@@ -261,11 +249,11 @@
     # Whether or not The Acknowledgment should be enabled. [default: true, synchronized: yes]
     B:TheAcknowledgmentEnabled=true
 
-    # Whether or not The Architect's Favor should be enabled. [default: true, synchronized: yes]
-    B:TheArchitectsFavorEnabled=true
-
     # Whether or not The Architect's Inkwell should be enabled. [default: true, synchronized: yes]
     B:TheArchitectsInkwellEnabled=true
+
+    # Whether or not The Burden of Desolation should be enabled. [default: true, synchronized: yes]
+    B:TheBurdenofDesolationEnabled=true
 
     # Whether or not The Ender Slayer should be enabled. [default: true, synchronized: yes]
     B:TheEnderSlayerEnabled=true
@@ -273,8 +261,14 @@
     # Whether or not The Infinitum should be enabled. [default: true, synchronized: yes]
     B:TheInfinitumEnabled=true
 
+    # Whether or not The Testament of Contempt should be enabled. [default: true, synchronized: yes]
+    B:TheTestamentofContemptEnabled=true
+
     # Whether or not The Twist should be enabled. [default: true, synchronized: yes]
     B:TheTwistEnabled=true
+
+    # Whether or not Tome of Devoured Malignancy should be enabled. [default: true, synchronized: yes]
+    B:TomeofDevouredMalignancyEnabled=true
 
     # Whether or not Tome of Hungering Knowledge should be enabled. [default: true, synchronized: yes]
     B:TomeofHungeringKnowledgeEnabled=false
@@ -297,14 +291,14 @@
     # Whether or not Unholy Stone should be enabled. [default: true, synchronized: yes]
     B:UnholyStoneEnabled=true
 
+    # Whether or not Wayfinder of the Damned should be enabled. [default: true, synchronized: yes]
+    B:WayfinderoftheDamnedEnabled=true
+
     # Whether or not Will of the Ocean should be enabled. [default: true, synchronized: yes]
     B:WilloftheOceanEnabled=true
 
     # Whether or not Withered Tome should be enabled. [default: true, synchronized: yes]
     B:WitheredTomeEnabled=true
-
-    # Whether or not Wormhole Potion should be enabled. [default: true, synchronized: yes]
-    B:WormholePotionEnabled=true
 
     # Whether or not Wrath Enchantment should be enabled. [default: true, synchronized: yes]
     B:WrathEnchantmentEnabled=true
@@ -498,6 +492,11 @@
     # Default amount of armor points provided by Heart of the Golem. [range: 0.0 ~ 256.0, default: 4.0, synchronized: yes]
     D:GolemHeartDefaultArmor=4.0
 
+    # List of items that should not be counted as armor by Heart of the Golem, even when equipped in armor slots. [default: [minecraft:elytra], synchronized: no]
+    S:GolemHeartExcludedArmor <
+        minecraft:elytra
+     >
+
     # Resistance to explosion damage provided by Heart of the Golem. Defined as percentage. [range: 0 ~ 100, default: 40, synchronized: yes]
     I:GolemHeartExplosionResistance=30
 
@@ -545,6 +544,9 @@
 
     # Mining speed boost granted by Charm of Treasure Hunter. Defined as percentage. [range: 0 ~ 1000, default: 30, synchronized: yes]
     I:MiningCharmBreakSpeed=15
+
+    # Whether Night Vision ability of Charm of Treasure Hunter should be enabled. [default: true, synchronized: yes]
+    B:MiningCharmEnableNightVision=true
 
     # Additional block reach granted by Charm of Treasure Hunter. [range: 0.0 ~ 16.0, default: 2.15, synchronized: yes]
     D:MiningCharmReachDistance=1.5
@@ -653,13 +655,34 @@
 "Generic Config" {
     # List of entities that should be accounted for as bosses by The Twist and The Infinitum. Changing this option requires game restart to take effect. [default: [minecraft:ender_dragon], [minecraft:wither], [minecraft:elder_guardian], synchronized: no]
     S:CompleteBossList <
+        alexsmobs:void_portal
+        alexsmobs:void_worm_part
+        alexsmobs:void_worm_shot
+        alexsmobs:void_worm
+        ars_nouveau:wilden_boss
+        ars_nouveau:wilden_guardian
+        artifacts:mimic
+        blue_skies:alchemist
+        blue_skies:polargeist
+        blue_skies:starlit_crusher
+        blue_skies:arachnarch
+        doom:arch_makyr
+        doom:gladiator
+        doom:iconofsin
+        doom:motherdemon
+        goblinsanddungeons:goblin_king
+        goblinsanddungeons:ogre
+        minecraft:elder_guardian
         minecraft:ender_dragon
         minecraft:wither
-        minecraft:elder_guardian
-        doom:gladiator
-        doom:mother_demon
-        doom:arch_maykr
-        doom:iconofsin
+        stalwart_dungeons:awful_ghast
+        stalwart_dungeons:nether_keeper
+        stalwart_dungeons:reinforced_blaze
+        stalwart_dungeons:shelterer
+        undergarden:masticator
+        undergarden:forgotten_guardian
+        weaponthrow:weaponthrow
+        orcz:bigorcboss
      >
 
     # Maximum amount of Soul Crystals a player can loose before they won't drop anymore. Each crystal lost subtracts 10% of from their maximum possible health value. [range: 1 ~ 10, default: 9, synchronized: no]
@@ -692,6 +715,9 @@
 "The Seven Curses" {
     # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
     I:CursedRingArmorDebuff=60
+
+    # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when it enters their inventory. This is different from ultra hardcore option as the way through which ring ends up in player's inventory does not matter. [default: false, synchronized: yes]
+    B:CursedRingAutoEquip=false
 
     # Set to false to disable ALL special drops that can be obtained from vanilla mobs when bearing Ring of the Seven Curses. [default: true, synchronized: yes]
     B:CursedRingEnableSpecialDrops=true

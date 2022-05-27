@@ -1,0 +1,32 @@
+{
+    "mob_id": "minecraft:creeper",
+    "creeper": {
+        "fuse": {
+            "min": 20,
+            "max": 26,
+            "difficulty_modifier": {
+                "world_difficulty": {
+                    "operation": "add",
+                    "hard": -3
+                }
+            }
+        },
+        "explosion_radius": {
+            "min": 3,
+            "max": 4
+        },
+        "powered_chance": 0.2,
+        "fire_chance": 0.1
+    },
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+        "modifier_name": "Speedy Creeps",
+        "amount": {
+            "min": 0.00,
+            "max": 0.15
+            },
+            "operation": "multiply_base"
+        }
+    ]
+}

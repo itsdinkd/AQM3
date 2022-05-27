@@ -17,7 +17,7 @@
 	#Range: 3.0 ~ 256.0
 	minFallDistance = 3.0
 	#Play a rush of wind as you fall to your doom
-	playFallSound = true
+	playFallSound = false
 	#Sprint speed boost; set to 0.0 to disable
 	#Range: 0.0 ~ 5.0
 	sprintSpeedBoost = 0.0

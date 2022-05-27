@@ -1,0 +1,12 @@
+
+#General Settings
+[general]
+	#Should generate in world
+	world_gen = true
+	#Lava Sponge Vein Size
+	#Range: 0 ~ 50
+	vein_size = 1
+	#Nether Amount
+	#Range: 0 ~ 200
+	nether_amount = 100
+

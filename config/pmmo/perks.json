@@ -28,30 +28,6 @@
 			"per_level": 0.04}
 		]
 	},
-	"JUMPING": { 
-		"agility": [ 
-			{"perk":"pmmo:jump_boost",
-			 "per_level": 0.0005,
-			 "max_boost": 0.033
-			}
-		]
-	},
-	"SPRINT_JUMP": { 
-		"agility": [ 	
-			{"perk":"pmmo:jump_boost",
-			 "per_level": 0.0002,
-			 "max_boost": 0.02
-			}
-		]
-	},
-	"CROUCH_JUMP": { 
-		"agility": [ 
-			{"perk":"pmmo:jump_boost",
-			 "per_level": 0.00015,
-			 "max_boost": 0.025
-			}
-		]
-	},
 	"SUBMERGED": { 
 		"swimming": [ 
 			{"perk":"pmmo:breath"},
@@ -76,11 +52,11 @@
 			"per_level": 0.0022}
 		],
 		"magic": [
-			{"perk":"pmmo:damage_boost"
+			{"perk":"pmmo:damage_boost",
 			"per_level": 0.0025}
 		],
 		"gunslinging": [
-			{"perk":"pmmo:damage_boost"
+			{"perk":"pmmo:damage_boost",
 			"per_level": 0.0029}
 		]
 	}

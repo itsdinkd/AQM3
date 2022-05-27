@@ -1,72 +1,10 @@
 {
 	id: "09A8DB71B4CAF006"
 	group: "30AC1CE19F5532E7"
-	order_index: 2
+	order_index: 1
 	filename: "dungeons"
 	title: "Dungeons"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [
-		{
-			x: -4.5d
-			y: 0.0d
-			subtitle: "Explore the Dimensional Dungeons"
-			description: ["You need a portal keyhole to start your adventure in dimensional dungeons"]
-			id: "04162AE5D706C090"
-			tasks: [{
-				id: "735C61899B401ADD"
-				type: "item"
-				title: "Craft Portal Keyhole"
-				item: "dimdungeons:block_portal_keyhole"
-			}]
-			rewards: [{
-				id: "4934A2FD8979A572"
-				type: "choice"
-				table_id: 5513900766362080685L
-			}]
-		}
-		{
-			x: -4.5d
-			y: 1.5d
-			subtitle: "Now you need the key"
-			description: ["Once crafted, you will need to find a end portal frame, and use it along with your key. This will activate the key, allowing you to use it on your portal keyhole"]
-			dependencies: ["04162AE5D706C090"]
-			hide: true
-			id: "6A737FCA543B66EE"
-			tasks: [{
-				id: "0189720A1804DF81"
-				type: "item"
-				title: "Craft Blank Portal Key"
-				icon: "dimdungeons:item_portal_key"
-				item: "dimdungeons:item_portal_key"
-				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "7F82FD03A990DFD5"
-				type: "item"
-				item: "scalinghealth:heart_crystal_shard"
-			}]
-		}
-		{
-			title: "Enter the Dimensional Dungeon"
-			x: -4.5d
-			y: 3.0d
-			subtitle: "Woo good luck"
-			description: ["You've entered 1 of the 70 variants of dimensional dungeons available. There are various puzzles spread out with tons of loot. Have fun!"]
-			dependencies: ["6A737FCA543B66EE"]
-			hide: true
-			id: "3213B3CADAC2473F"
-			tasks: [{
-				id: "770817847FE88D1E"
-				type: "dimension"
-				icon: "dimdungeons:block_gold_portal"
-				dimension: "dimdungeons:dungeon_dimension"
-			}]
-			rewards: [{
-				id: "36CB5FB89278A042"
-				type: "choice"
-				table_id: 5513900766362080685L
-			}]
-		}
-	]
+	quests: [ ]
 }

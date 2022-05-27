@@ -8,205 +8,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: -2.0d
-			subtitle: "You want to do this.. trust me."
-			id: "75EE6386DD00AE82"
-			tasks: [{
-				id: "111C6DA609F1210D"
-				type: "kill"
-				title: "Kill a Rattlesnake"
-				icon: "alexsmobs:rattlesnake_rattle"
-				entity: "alexsmobs:rattlesnake"
-				value: 1L
-			}]
-			rewards: [{
-				id: "0A0DC20D0EC42F05"
-				type: "item"
-				item: "alexsmobs:maraca"
-			}]
-		}
-		{
-			x: 1.5d
-			y: -2.0d
-			subtitle: "Just look at it"
-			description: ["Once done, immediately do the next quest :)"]
-			dependencies: ["75EE6386DD00AE82"]
-			hide: true
-			id: "67B36217C96C8458"
-			tasks: [{
-				id: "08B1A952604735D6"
-				type: "observation"
-				title: "Find a Cockroach"
-				icon: "alexsmobs:cockroach_ootheca"
-				timer: 0L
-				observe_type: 0
-				to_observe: "alexsmobs:cockroach"
-			}]
-			rewards: [{
-				id: "451B97FA44D04B62"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			title: "Mariachi Time"
-			x: 3.0d
-			y: -2.0d
-			subtitle: "Sneak + Right click the Maracas on the Roach"
-			dependencies: ["67B36217C96C8458"]
-			hide: true
-			id: "08D1989CCD5BC2B2"
-			tasks: [{
-				id: "12D1198B39A22AAC"
-				type: "advancement"
-				title: "Make it Dance"
-				icon: {
-					id: "instrumentalmobs:maracas"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				advancement: "alexsmobs:alexsmobs/la_cucaracha"
-				criterion: ""
-			}]
-		}
-		{
-			x: 0.0d
-			y: -0.5d
-			subtitle: "HOOKS!"
-			description: ["Crafting material for the Spear hook, which does some pretty neat things when crafted."]
-			hide_dependency_lines: false
-			id: "44ADEA383E1418B3"
-			tasks: [{
-				id: "3D9BC2E24871716D"
-				type: "item"
-				item: "adhooks:spear_hook"
-				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "157722972A3B3F27"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 1.5d
-			y: -0.5d
-			subtitle: "Okay now you're ready"
-			description: ["Make sure you check your keybinds for this one as each hook has different keybinds for the most part. "]
-			hide_dependency_lines: false
-			dependencies: ["44ADEA383E1418B3"]
-			hide: false
-			id: "1E8F9738BE5A5DAA"
-			tasks: [{
-				id: "35E7155477A25943"
-				type: "item"
-				item: {
-					id: "adhooks:spear_launcher"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "2177ABFD0BFD6F1E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 0.0d
-			y: 1.0d
-			subtitle: "Crafting Material for spiderman hook"
-			hide_dependency_lines: false
-			dependencies: ["44ADEA383E1418B3"]
-			hide: false
-			id: "4961D065748C0A86"
-			tasks: [{
-				id: "747FD1808B2A6262"
-				type: "item"
-				item: "adhooks:web_hook"
-			}]
-			rewards: [{
-				id: "1B1C963D604FC06F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 1.5d
-			y: 1.0d
-			subtitle: "Go and be spidey man"
-			hide_dependency_lines: false
-			dependencies: ["4961D065748C0A86"]
-			hide: false
-			id: "371B069CA58921BA"
-			tasks: [{
-				id: "2E7FA29006D8ACCF"
-				type: "item"
-				item: {
-					id: "adhooks:web_launcher"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "2446CCA59FF7614C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 0.0d
-			y: 2.5d
-			subtitle: "Crafting material for pudgy hook"
-			hide_dependency_lines: false
-			dependencies: ["4961D065748C0A86"]
-			hide: false
-			hide_text_until_complete: false
-			id: "59953074D92A54FB"
-			tasks: [{
-				id: "2EB24904F82CE56B"
-				type: "item"
-				item: "adhooks:pudge_hook"
-			}]
-			rewards: [{
-				id: "614A40C625391796"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 1.5d
-			y: 2.5d
-			subtitle: "Warning: will pierce through skin of your enemies"
-			hide_dependency_lines: false
-			dependencies: ["59953074D92A54FB"]
-			hide: false
-			id: "70EEB9F1796A3E03"
-			tasks: [{
-				id: "7AF1B341A7A729D3"
-				type: "item"
-				item: {
-					id: "adhooks:pudge_launcher"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "5F0DEEF604A7F5D9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
 			x: -6.5d
 			y: 1.0d
 			subtitle: "Your Doggy Trainer Item"
@@ -412,6 +213,141 @@
 					item: "chancecubes:chance_cube"
 				}
 			]
+		}
+		{
+			x: -18.0d
+			y: 1.0d
+			subtitle: "The OG Deku Leaf Glider"
+			description: ["You can get the Deku Leaf by using your Paraglider in the recipe"]
+			dependencies: ["7CBE9B3C3D57E4CB"]
+			id: "3DB8680538C770EF"
+			tasks: [{
+				id: "6DA5DD7C33A76006"
+				type: "item"
+				title: "Craft Deku Leaf"
+				item: "paraglider:deku_leaf"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "71D93B997C270349"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+		}
+		{
+			title: "Paraglider of the Wild"
+			x: -18.0d
+			y: -0.5d
+			subtitle: "Paraglider what?"
+			description: [
+				"That's right. Become Link. Glide around. But you need stamina!"
+				" "
+				"Once you use your glider (opens immediately if held and you are in the air) it will use up your stamina, like in breath of the wild"
+				""
+				"You can get Stamina Vessels from bosses, and find spirit orbs in chests to trade it for Stamina and Heart vessels."
+				""
+				"Search for the Goddess and Horned statues in the world to bargain/trade stamina for essence and orbs"
+			]
+			id: "7CBE9B3C3D57E4CB"
+			tasks: [{
+				id: "19CCB9B95204E2B8"
+				type: "item"
+				title: "Craft Paraglider"
+				item: "paraglider:paraglider"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "1BEEC12766C87011"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -16.0d
+			y: -0.5d
+			subtitle: "Can you find me?"
+			description: ["Spirit Orbs can only be found in chests so get to searching!"]
+			dependencies: ["7CBE9B3C3D57E4CB"]
+			id: "366B8E414B186F5A"
+			tasks: [{
+				id: "14D72A39E277B044"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+			rewards: [{
+				id: "4AF179EA1E54109A"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -0.5d
+			subtitle: "Who doesn't enjoy stamina?"
+			description: ["Kill a wither and pray that this vessel drops"]
+			dependencies: ["366B8E414B186F5A"]
+			id: "627B228A95F086AC"
+			tasks: [{
+				id: "33326285A9B0DB6D"
+				type: "item"
+				title: "Obtain the Stamina Vessel"
+				item: "paraglider:stamina_vessel"
+			}]
+			rewards: [{
+				id: "4D1D241E5F767CA0"
+				type: "item"
+				item: "paraglider:heart_container"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -2.5d
+			subtitle: "Now we're getting somewhere"
+			description: ["The horned statue differs from the Goddess Statue. Interacting with the Horned Statue allows you to exchange your stamina for emeralds, and visa versa. Though you need essence to trade for stamina, and you only get essence by giving your stamina to the statue."]
+			dependencies: ["366B8E414B186F5A"]
+			id: "42069BB40BAF431D"
+			tasks: [{
+				id: "10BCC7479369D640"
+				type: "observation"
+				title: "Find the Horned Statue"
+				icon: "paraglider:horned_statue"
+				timer: 0L
+				observe_type: 0
+				to_observe: "paraglider:horned_statue"
+			}]
+			rewards: [{
+				id: "3BFE59A25BCA1DDB"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+		}
+		{
+			title: "Find The Goddess Statue"
+			icon: "paraglider:goddess_statue"
+			x: -17.0d
+			y: -2.5d
+			subtitle: "Spirit Orbs wanted"
+			description: [
+				"Find a goddess statue and interact with it to trade your precious spirit orbs in for more stamina vessels"
+				""
+				"You can even buy up to 12 heart containers :)"
+			]
+			dependencies: ["366B8E414B186F5A"]
+			id: "2E08A5EF881CE13B"
+			tasks: [{
+				id: "48BD5554034667CC"
+				type: "observation"
+				title: "Look at a Goddess Statue"
+				icon: "paraglider:goddess_statue"
+				timer: 0L
+				observe_type: 0
+				to_observe: "paraglider:statues/goddess"
+			}]
+			rewards: [{
+				id: "4D1127E16E452D3E"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
 		}
 	]
 }

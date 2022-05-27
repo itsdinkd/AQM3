@@ -2,7 +2,7 @@
 [General]
 	#How often a hive should attempt special events like spawning undead bees. Default 500.
 	#Range: > 20
-	hiveTickRate = 900
+	hiveTickRate = 1200
 	#How long time a bee should stay in the hive when having delivered honey. Default 4800.
 	#Range: > 20
 	timeInHive = 4800
@@ -60,22 +60,28 @@
 	#How many cuckoo bees can spawn from a nest before it shuts off
 	#Range: > 0
 	cuckooSpawnCount = 2
+	#Chance of catching a bee when fishing
 	#Range: 0.0 ~ 1.0
 	fishingBeeChance = 0.05
+	#Chance to spawn a KamikazBee when hit while wearing bee nest armor
+	#Range: 0.0 ~ 1.0
+	kamikazBeeChance = 0.3
+	#Disable the wander goal in bees to increase performance
+	disableWanderGoal = false
 
 ["Bee attributes"]
 	#Number of ticks between effects on nearby entities
 	#Range: > 20
-	ticks = 2337
+	ticks = 2000
 	#Chance that a bee will take damage while leashed in a hostile environment
 	#Range: 0.0 ~ 1.0
 	damageChance = 0.15
 	#Chance to increase tolerance (rain or thunder tolerance trait) while leashed in a hostile environment.
 	#Range: 0.0 ~ 1.0
-	toleranceChance = 0.1
+	toleranceChance = 0.15
 	#Chance to increase behavior (nocturnal trait) while leashed in a hostile environment.
 	#Range: 0.0 ~ 1.0
-	behaviorChance = 0.1
+	behaviorChance = 0.125
 	#Chance to extract genes from a bottle of bee material.
 	#Range: 0.0 ~ 1.0
 	geneExtractChance = 0.75
@@ -84,7 +90,7 @@
 	typeGenePurity = 33
 
 [Worldgen]
-	#Which nests should generate in the level. Nest will still be craftable and attract bees when placed in the level.
+	#Which nests should generate in the level. Nest will still be craftable and attract bees when placed in the world.
 	"enable_productivebees:oak_wood_nest" = true
 	"enable_productivebees:spruce_wood_nest" = true
 	"enable_productivebees:dark_oak_wood_nest" = true
@@ -112,16 +118,13 @@
 	#Time bonus gained from time upgrade. 0.2 means 20% reduction of a bee's time inside the hive or centrifuge processing time.
 	#Range: 0.0 ~ 1.0
 	timeBonus = 0.15
-	#Time penalty from installing the comb block upgrade. .4 means 40% increase of a bee's time inside the hive.
-	#Range: 0.0 ~ 2.147483647E9
-	combBlockTimeModifier = 1.0
 	#Multiplier per productivity upgrade installed in the hive.
 	#Range: 1.0 ~ 2.147483647E9
 	productivityMultiplier = 1.27
 	#Chance for a bee to produce an offspring after a hive visit.
 	#Range: 0.0 ~ 1.0
-	breedingChance = 0.05
-	#Chance for a bee to produce an offspring after a hive visit.
+	breedingChance = 0.08
+	#How many bees can be around a hive before a babee upgrade stops working.
 	#Range: > 0
 	breedingMaxNearbyEntities = 10
 	#Chance for a gene sample to be taken from a bee after a hive visit.

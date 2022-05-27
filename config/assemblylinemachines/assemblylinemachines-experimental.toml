@@ -1,0 +1,7 @@
+#This config's values may be considered extremely unstable and may be removed at any time. Edit at your own risk.
+#If the client config does not exactly match values given in the server config, you will be unable to join that server.
+#Therefore, it's recommended to only edit these options when creating a modpack where all clients would always have the same default modified values.
+#All tools have default stats, this option allows you to override those and provide your own stats.
+#For more information, view the developer wiki.
+toolStats = []
+

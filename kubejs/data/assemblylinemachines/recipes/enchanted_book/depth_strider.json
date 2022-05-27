@@ -1,0 +1,8 @@
+{
+	"type": "assemblylinemachines:enchantment_book",
+	"input":{
+		"item": "minecraft:pufferfish"
+	},
+	"enchantment": "minecraft:depth_strider",
+	"cost": 125
+}

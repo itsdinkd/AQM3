@@ -1,0 +1,9 @@
+{
+	"type": "assemblylinemachines:enchantment_book",
+	"input":{
+		"item": "minecraft:blue_ice",
+		"count": 4
+	},
+	"enchantment": "minecraft:frost_walker",
+	"cost": 100
+}

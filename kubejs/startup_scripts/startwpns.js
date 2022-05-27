@@ -13,19 +13,4 @@ onEvent('item.modification', event => {
     item.fireResistant = true
   });
 
-  event.modify('wstweaks:blaze_blade', item => {
-    item.fireResistant = true
-    tier = tierOptions => {
-      tierOptions.attackDamageBonus = 3.0
-    }
-  });
-
-  event.modify('wstweaks:lava_blade', item => {
-    item.fireResistant = true
-    tier = tierOptions => {
-      tierOptions.attackDamageBonus = 1.0
-    }
-  });
-
-
 });

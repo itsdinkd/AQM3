@@ -1,0 +1,18 @@
+
+[client]
+
+	[client.options]
+		# If enabled, all wiki lookups will be opened in new browser tabs.
+		# This is the recommended method, since opening in the same tab is surprisingly complicated.  In order to do so, WikiLookup has to open a local file that then redirects to the proper wiki page meanwhile managing tabs in your browser itself.
+		# Therefore, when opening pages in the same tab, you will not see the proper URL in your browser, and other issues could occur.
+		open_in_new_tabs = true
+		# If enabled, the mod will try to determine which of the currently-configured wikis to use based on the typed query.  No effect if only one wiki is configured.
+		# The mod will look for matching items/entities/biomes, and so on that match closely to the query, determine the source mod, and check for specific wikis configured for that mod ID.
+		# Depending on the number of mods loaded, this process could be slow.)
+		attempt_wiki_resolution = true
+
+		# Set wiki definitions here, in the format <mod id> = "<URL>".  Each URL MUST contain one and only one set of curly braces {} to indicate where the query parameter goes.
+		# For mod id, use _ for the default wiki (will be used for any queries not tied to other configured mod id).
+		[client.options.wiki_definitions]
+			_ = "https://minecraft.fandom.com/wiki/Special:Search?go=Search&search={}"
+

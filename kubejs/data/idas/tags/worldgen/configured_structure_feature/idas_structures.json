@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+	  "idas:labyrinth",
+	  "idas:pillager_fortress",
+	  "idas:wizardtower",
+	  "idas:enchantingtower",
+	  "idas:castle",
+	  "idas:cottage",
+	  "idas:brickhouse",
+	  "idas:hauntedhouse",
+	  "idas:abandonedhouse",
+	  "idas:ancient_mines",
+	  "idas:bearclaw_inn",
+	  "idas:sunken_ship"
+  ]
+}

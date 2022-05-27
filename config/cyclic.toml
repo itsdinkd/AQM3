@@ -241,15 +241,15 @@
 		[cyclic.blocks.generator_food]
 			#RF energy per tick generated while burning food in this machine
 			#Range: 1 ~ 6400
-			rf_per_tick = 75
+			rf_per_tick = 64
 			#This [factor * (item.food + item.saturation) = ticks] results in the number of ticks food will burn at. IE Bread has (5 + 0.6) with factor 100, will burn for 560 ticks.
 			#Range: 1 ~ 6400
-			ticks_per_food = 100
+			ticks_per_food = 40
 
 		[cyclic.blocks.packager]
 			#Power per recipe in the packager
 			#Range: 0 ~ 64000
-			energy_cost = 100
+			energy_cost = 200
 
 		[cyclic.blocks.collector_fluid]
 			#Power per use collector_fluid
@@ -259,7 +259,7 @@
 		[cyclic.blocks.structure]
 			#Power per tick while in use
 			#Range: 0 ~ 64000
-			energy_cost = 30
+			energy_cost = 56
 
 		[cyclic.blocks.ender_shelf]
 			#Controller Max distance to search (using manhattan distance)
@@ -313,7 +313,7 @@
 			[cyclic.blocks.cables.energy]
 				#How much buffer the energy cables hold (must not be smaller than flow)
 				#Range: 1 ~ 128000
-				buffer = 32000
+				buffer = 16000
 				#How fast energy flows in these cables (must not be greater than buffer)
 				#Range: 100 ~ 32000
 				flow = 1000
@@ -325,6 +325,35 @@
 			#Chance that the crop will grow after the interval
 			#Range: 0.0 ~ 1.0
 			growth_chance = 0.5
+
+		[cyclic.blocks.generator_solar]
+			#Base level of solar power generation (affected by weather contitions).
+			#Range: 1 ~ 100
+			energy = 4
+			#Ticks between power gen interval. Example: 40 ticks is 2 seconds. 0 means every tick it generates
+			#Range: 0 ~ 6400
+			ticks = 60
+
+		[cyclic.blocks.altar_destruction]
+			#Height for explosion prevention
+			#Range: 1 ~ 128
+			height = 8
+			#Reach for explosion prevention
+			#Range: 1 ~ 128
+			radius = 32
+
+		[cyclic.blocks.magnet_block]
+			#Reach for magnet distance to find items
+			#Range: 1 ~ 128
+			radius = 8
+
+		[cyclic.blocks.no_soliciting]
+			#Height reach of the no_soliciting for spawn prevention
+			#Range: 1 ~ 128
+			height = 32
+			#Reach of the no_soliciting for spawn prevention
+			#Range: 1 ~ 128
+			radius = 32
 
 	#####################################################################################
 	# Logging related configs
@@ -396,7 +425,36 @@
 
 		[cyclic.items.monster_ball]
 			#Entity ids that cannot be picked up with the Monster all
-			ignore_list = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:elder_guardian"]
+			ignore_list = [
+				"alexsmobs:void_portal",
+				"alexsmobs:void_worm_part",
+				"alexsmobs:void_worm_shot",
+				"alexsmobs:void_worm",
+				"ars_nouveau:wilden_boss",
+				"ars_nouveau:wilden_guardian",
+				"artifacts:mimic",
+				"blue_skies:alchemist",
+				"blue_skies:polargeist",
+				"blue_skies:starlit_crusher",
+				"blue_skies:arachnarch",
+				"doom:arch_makyr",
+				"doom:gladiator",
+				"doom:iconofsin",
+				"doom:motherdemon",
+				"goblinsanddungeons:goblin_king",
+				"goblinsanddungeons:ogre",
+				"minecraft:elder_guardian",
+				"minecraft:ender_dragon",
+				"minecraft:wither",
+				"stalwart_dungeons:awful_ghast",
+				"stalwart_dungeons:nether_keeper",
+				"stalwart_dungeons:reinforced_blaze",
+				"stalwart_dungeons:shelterer",
+				"undergarden:masticator",
+				"undergarden:forgotten_guardian",
+				"weaponthrow:weaponthrow",
+				"orcz:bigorcboss"
+				]
 
 		#Wand settings
 		[cyclic.items.teleport_wand]
@@ -416,6 +474,40 @@
 		[cyclic.items.spawner_seeker]
 			#Range in all directions to search for spawner
 			#Range: 1 ~ 256
+			range = 64
+
+		[cyclic.items.shield_leather]
+			#How much weaker than the regular shield is this item (used to calculate damage blocked)
+			#Range: 0 ~ 100
+			blocked_damage_percent = 20
+
+		[cyclic.items.shield_wood]
+			#How much weaker than the regular shield is this item (used to calculate damage blocked)
+			#Range: 0 ~ 100
+			blocked_damage_percent = 60
+
+		[cyclic.items.shield_flint]
+			#How much weaker than the regular shield is this item (used to calculate damage blocked)
+			#Range: 0 ~ 100
+			blocked_damage_percent = 30
+			#What % chance does this have to apply thorns damage against ranged non-explosive attackers
+			#Range: 0 ~ 100
+			damage = 50
+
+		[cyclic.items.wand_hypno]
+			#Energy cost per item use
+			#Range: 1 ~ 50000
+			energy = 500
+			#Range to search out enemies for this multi-target attack
+			#Range: 1 ~ 256
+			range = 16
+
+		[cyclic.items.wand_missile]
+			#Energy cost per item use
+			#Range: 1 ~ 50000
+			energy = 150
+			#Range to search out enemies for this attack
+			#Range: 1 ~ 512
 			range = 64
 
 	#####################################################################################

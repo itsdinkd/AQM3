@@ -1,0 +1,14 @@
+{
+    "mob_id": "stalwart_dungeons:awful_ghast",
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Awful Ghast Health",
+            "amount": {
+                "min": 10.0,
+                "max": 15.0
+            },
+            "operation": "multiply_base"
+        }
+    ]
+}

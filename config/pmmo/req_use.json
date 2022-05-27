@@ -44,6 +44,5 @@
 	"prefab:item_advanced_farm": { "building": 20, "farming": 15 },
 	"prefab:item_modern_farm": { "building": 10, "farming": 10 },
 	"prefab:item_starter_farm": { "building": 5, "farming": 5 },
-	"botania:mana_gun": { "magic": 20, "mining": 20 },
-	"electrodynamics:seismicscanner": { "mining": 60 }
+	"botania:mana_gun": { "magic": 20, "mining": 20 }
 }

@@ -1,14 +1,15 @@
 
-["Client Options"]
-	#Do you want to enable "Cool Dude Mode", enabling easter-egg/meme effects?
-	#There are no effects on gameplay, except some text, graphics, and names.
-	coolDudeMode = false
-	#If JEI is installed, should support be enabled?
-	jeiSupport = true
+[Client]
 	#Do you want to render custom tooltip frame colors for some specific items?
 	#If false, the tooltip will be standard.
 	customTooltipColors = true
 	#Do you want to render custom tooltip frame textures for some specific items?
 	#If false, the tooltip will be standard. This has no effect if customTooltipColors is false.
 	customTooltipFrames = true
+	#Do you want to receive a copy of Assembly Lines & You when you first connect to a server and you have Patchouli installed?
+	#If this is false, this will override the config of the server.
+	#If the server you connect to is configured as false, you will not receive a copy on that server.
+	receiveGuideBook = true
+	#Do you want to receive mod update messages when the mod is out of date and you connect to a server?
+	receiveUpdateMessages = false
 

@@ -1,0 +1,93 @@
+
+[Annihilation]
+	#Enable or disable the Annihilation Enchantment
+	AnnihilationEnchantEnabled = true
+	#Set rarity of the Annihilation Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	AnnihilationRarity = "UNCOMMON"
+
+[Antigravity]
+	#Enable or disable the Antigravity Enchantment
+	AntigravityEnchantEnabled = true
+	#Set rarity of the Antigravity Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	AntigravityRarity = "UNCOMMON"
+
+[Decay]
+	#Enable or disable the Decay Enchantment
+	DecayEnchantEnabled = true
+	#Set rarity of the Decay Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	DecayRarity = "UNCOMMON"
+
+[Grappling]
+	#Enable or disable the Grappling Enchantment
+	GrapplingEnchantEnabled = true
+	#Set rarity of the Grappling Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	GrapplingRarity = "COMMON"
+
+[Hex]
+	#Enable or disable the Hex Enchantment
+	HexEnchantEnabled = true
+	#Set rarity of the Hex Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	HexRarity = "UNCOMMON"
+
+[Shockwave]
+	#Enable or disable the Shockwave Enchantment
+	ShockwaveEnchantEnabled = true
+	#Set rarity of the Shockwave Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	ShockwaveRarity = "UNCOMMON"
+
+[Shattering]
+	#Enable or disable the Shattering Enchantment
+	ShatteringEnchantEnabled = true
+	#Set rarity of the Shattering Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	ShatteringRarity = "UNCOMMON"
+
+[Stun]
+	#Enable or disable the Stun Enchantment
+	StunEnchantEnabled = true
+	#Set rarity of the Stun Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	StunRarity = "UNCOMMON"
+
+[Voiding]
+	#Enable or disable the Voiding Enchantment
+	VoidingEnchantEnabled = true
+	#Set rarity of the Voiding Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	VoidingRarity = "COMMON"
+
+[Thunderbolt]
+	#Enable or disable the Thunderbolt Enchantment
+	ThunderboltEnchantEnabled = true
+	#Set rarity of the Thunderbolt Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	ThunderboltRarity = "RARE"
+
+[Immortal]
+	#Enable or disable the Immortal Enchantment
+	ImmortalEnchantEnabled = true
+
+["Death's Knell"]
+	#Enable or disable the Death's Knell Enchantment
+	DeathsKnellEnabled = true
+
+["Curse of Deflagration"]
+	#Enable or disable Curse of Deflagration
+	DeflagrationCurseEnabled = true
+	#Set rarity of Curse of Deflagration
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	DeflagrationCurseRarity = "UNCOMMON"
+
+[Incisive]
+	#Enable or disable the Incisive Enchantment
+	IncisiveEnchantEnabled = true
+	#Set rarity of the Incisive Enchantment
+	#Accepted values: COMMON, UNCOMMON, RARE, VERY_RARE
+	IncisiveRarity = "COMMON"
+

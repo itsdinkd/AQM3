@@ -1,0 +1,8 @@
+{
+	"type": "assemblylinemachines:enchantment_book",
+	"input":{
+		"item": "minecraft:zombie_head"
+	},
+	"enchantment": "minecraft:smite",
+	"cost": 75
+}

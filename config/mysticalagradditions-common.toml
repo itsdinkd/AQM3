@@ -12,6 +12,8 @@
 	#The duration of each Essence Apples effects in seconds.
 	#Range: > 1
 	essenceAppleDuration = 60
+	#Should Cruxes for disabled crops be hidden and not have recipes?
+	hideUnusedCruxes = true
 
 #World generation options.
 [World]

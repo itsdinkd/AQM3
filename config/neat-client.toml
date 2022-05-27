@@ -21,7 +21,7 @@
 	"Display on Bosses" = true
 	"Only show the health bar for the entity looked at" = false
 	"Show entities with full health" = true
-	"Show Debug Info with F3" = true
+	"Show Debug Info with F3" = false
 	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
-	Blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish"]
+	Blacklist = ["alexsmobs:void_worm", "minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish"]
 

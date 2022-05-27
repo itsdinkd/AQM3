@@ -1,0 +1,6 @@
+{
+  "spawn_camp_structure": true,
+  "spawn_camp_structure_the_other_dimension": true,
+  "spawn_orcz_nighttime": true,
+  "spawn_orcz_daylight": false
+}

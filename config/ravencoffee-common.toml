@@ -1,0 +1,21 @@
+
+[common]
+
+	[common.worldgen]
+
+		[common.worldgen.savannah]
+			#Generation enabled for this biome
+			enabled = true
+			#Count of trees pero trees patch
+			CoffeeTreeCountSav = 5
+			#The bigger the number the more likely it is to spawn.
+			CoffeeTreeRaritySav = 100
+
+		[common.worldgen.jungle]
+			#Generation enabled for this biome
+			enabled = true
+			#Count of trees pero trees patch
+			count = 10
+			#The bigger the number the more likely it is to spawn. More common for Jungle since jungle spawns a lot of plants
+			rarity = 20
+

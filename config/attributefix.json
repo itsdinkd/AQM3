@@ -1,5 +1,16 @@
 {
   "attributes": {
+    "forge:step_height_addition": {
+      "enabled": false,
+      "min": {
+        "default": -512,
+        "value": -512
+      },
+      "max": {
+        "default": 512,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.follow_range": {
       "enabled": false,
       "min": {
@@ -77,17 +88,6 @@
         "value": 10000000
       }
     },
-    "chococraft:chocobo_max_stamina": {
-      "enabled": false,
-      "min": {
-        "default": 10,
-        "value": 10
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -96,7 +96,7 @@
       },
       "max": {
         "default": 30,
-        "value": 100
+        "value": 300
       }
     },
     "doggytalents:generic.jump_power": {
@@ -195,7 +195,7 @@
       },
       "max": {
         "default": 1024,
-        "value": 5000
+        "value": 12000
       }
     },
     "paraglider:max_stamina": {
