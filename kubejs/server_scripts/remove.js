@@ -16,6 +16,7 @@ const recipeRemoveJei = [
 "evilcraft:spirit_reanimator",
 "sandwichable:tomato_seeds",
 "croptopia:tomato",
+"evilcraft:blook",
 "croptopia:cabbage_seed",
 "croptopia:cabbage",
 "croptopia:salt",

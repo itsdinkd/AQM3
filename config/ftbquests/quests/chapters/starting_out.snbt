@@ -587,14 +587,12 @@
 			y: 1.5d
 			subtitle: "Use Away from World Spawn"
 			description: ["You've done it. You have played AQM3 for 5+ Minutes and earned a starter house. Prefab features tons of pre-built structures that you can use, but for the other prefab's youll need to upgrade your PMMO attributes like building. "]
-			secret: true
 			id: "75ACA4C3F5E0CA41"
 			tasks: [{
-				id: "007A10849D5CADA1"
-				type: "questsadditions:time"
-				title: "Free Starting House"
-				icon: "prefab:item_start_house"
-				elapsedTime: 360L
+				id: "5B3D1D5C7A3737F3"
+				type: "xp"
+				value: 2L
+				points: false
 			}]
 			rewards: [{
 				id: "5F2CAFC68360C942"

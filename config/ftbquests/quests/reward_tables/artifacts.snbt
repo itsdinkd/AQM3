@@ -133,7 +133,15 @@
 				}
 			}
 		}
-		{ item: "artifacts:charm_of_sinking" }
+		{
+			item: {
+				id: "artifacts:charm_of_sinking"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{ item: "artifacts:cloud_in_a_bottle" }
 		{
 			item: {
@@ -172,7 +180,15 @@
 				}
 			}
 		}
-		{ item: "artifacts:digging_claws" }
+		{
+			item: {
+				id: "artifacts:digging_claws"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "artifacts:feral_claws"

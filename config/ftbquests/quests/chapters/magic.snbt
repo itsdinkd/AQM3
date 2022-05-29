@@ -1,0 +1,49 @@
+{
+	id: "39C0F8F232354487"
+	group: "30AC1CE19F5532E7"
+	order_index: 4
+	filename: "magic"
+	title: "Magic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.5d
+			subtitle: "Mana and Artifice (Ars Magica 2) - Learning the Basics"
+			description: ["The book of tell. You need to buy this from the Mana and Artifice Villager using the Magician Workbench to convert the Villager."]
+			id: "28CE2F417978A52E"
+			tasks: [{
+				id: "716AF992A50E02C8"
+				type: "item"
+				item: "mna:guide_book"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			id: "7715A501AF903169"
+			tasks: [{
+				id: "70E7F8CF3D138871"
+				type: "item"
+				item: "evilcraft:origins_of_darkness"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			id: "53A38A40F4D6B93F"
+			tasks: [{
+				id: "523B16AB907C7AC7"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+		}
+	]
+}

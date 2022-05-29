@@ -13,4 +13,5 @@ conflictRemoveJei.forEach(item => {
 
 onEvent('tags.items', event => {
   event.remove('minecraft:coals', 'doom:argent_energy')
+  event.add('forge:dirt', 'minecraft:dirt')
 })

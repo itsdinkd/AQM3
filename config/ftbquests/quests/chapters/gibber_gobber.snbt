@@ -16,6 +16,7 @@
 			tasks: [{
 				id: "33970CE27F99CB90"
 				type: "item"
+				icon: "gobber2:gobber2_ore_nether"
 				item: "gobber2:gobber2_globette_nether"
 			}]
 			rewards: [{
@@ -30,22 +31,12 @@
 			subtitle: "Are you tired of this yet?"
 			dependencies: ["79F4D4DA705033B9"]
 			id: "35B3650C5AC1562F"
-			tasks: [
-				{
-					id: "081FC071BD83F56E"
-					type: "item"
-					item: "gobber2:gobber2_globette_end"
-				}
-				{
-					id: "62EF7CF46107F6E5"
-					type: "questsadditions:break"
-					title: "Mine End Gobber"
-					icon: "gobber2:gobber2_ore_end"
-					block: "gobber2:gobber2_ore_end"
-					value: 1L
-					checkItem: false
-				}
-			]
+			tasks: [{
+				id: "081FC071BD83F56E"
+				type: "item"
+				icon: "gobber2:gobber2_ore_end"
+				item: "gobber2:gobber2_globette_end"
+			}]
 			rewards: [{
 				id: "3AF5AB5B66A16250"
 				type: "item"

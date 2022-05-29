@@ -22,6 +22,17 @@
         "value": 10000000
       }
     },
+    "additionalentityattributes:water_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
     "doggytalents:generic.crit_bonus": {
       "enabled": false,
       "min": {
@@ -44,6 +55,17 @@
         "value": 10000000
       }
     },
+    "origins_classes:projectile_strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -52,6 +74,17 @@
       },
       "max": {
         "default": 8,
+        "value": 10000000
+      }
+    },
+    "additionalentityattributes:water_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
         "value": 10000000
       }
     },
@@ -110,6 +143,17 @@
         "value": 10000000
       }
     },
+    "additionalentityattributes:critical_bonus_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": false,
       "min": {
@@ -140,6 +184,17 @@
       },
       "max": {
         "default": 2048,
+        "value": 10000000
+      }
+    },
+    "additionalentityattributes:lava_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
         "value": 10000000
       }
     },
@@ -196,6 +251,17 @@
       "max": {
         "default": 1024,
         "value": 12000
+      }
+    },
+    "additionalentityattributes:lava_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
       }
     },
     "paraglider:max_stamina": {
@@ -272,6 +338,17 @@
       },
       "max": {
         "default": 20,
+        "value": 10000000
+      }
+    },
+    "origins_classes:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
         "value": 10000000
       }
     },

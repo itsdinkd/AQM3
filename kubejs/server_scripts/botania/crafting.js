@@ -15,13 +15,13 @@ event.replaceInput(
 event.replaceInput(
   { id: "botania:clip" },
   "botania:dreamwood",
-  "ars_nouveau:end_fiber"
+  "evilcraft:werewolf_bone"
 );
 
 event.replaceInput(
   { id: "botania:mana_gun" },
   "botania:mana_diamond",
-  "ars_nouveau:archmage_spell_book"
+  "evilcraft:primed_pendant"
 );
 
 event.replaceInput(
@@ -35,7 +35,7 @@ event.shaped('mythicbotany:fire_ring', ['rie', 'i i', ' i '],
   {
     i: "mythicbotany:alfsteel_ingot",
     r: "mythicbotany:muspelheim_rune",
-    e: "ars_nouveau:fire_essence"
+    e: "mna:fire_rune"
   }
 );
 

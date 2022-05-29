@@ -103,7 +103,7 @@ event.replaceInput(
 event.replaceInput(
   { id:"cyclic:charm_magicdefense" },
     "cyclic:heart_empty",
-    "ars_nouveau:drygmy_charm"
+    "mna:brimstone_charm"
 );
 
 event.replaceInput(
@@ -347,43 +347,43 @@ banMaItems.forEach(item => {
 
   
   event.remove({output: 'angelring:itemring'});
-  event.recipes.extendedcrafting.shapedTable('angelring:itemring', [
-   'diwf fMid',
-   'Idi   idI',
-   'c1 iXi 2c',
-   'x ICiFI 8',
-   '  Ei iE  ',
-   '9 IFisI 0',
-   'c3 izi Tc',
-   'Idi   idI',
-   'di65 57id'
-   ],
-   {
-     d: 'gobber2:dragon_star',
-     C: 'alexsmobs:dimensional_carver',
-     i: 'mysticalagriculture:master_infusion_crystal',
-     z: 'extendedcrafting:the_ultimate_ingot',
-     F: 'extradisks:1048576k_fluid_storage_part',
-     E: 'assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser',
-     1: 'minecraft:apple',
-     2: 'minecraft:apple',
-     3: 'minecraft:apple',
-     s: 'armorplus:soul_slayer',
-     X: 'extendedcrafting:the_ultimate_catalyst',
-     I: 'botania:gaia_ingot',
-     T: 'assemblylinemachines:novasteel_fluid_tank',
-     f: 'assemblylinemachines:chaotic_fertilizer',
-     c: 'minecraft:apple',
-     w: 'mythicbotany:mjoellnir',
-     5: 'ironfurnaces:million_furnace',
-     6: 'ars_nouveau:archmage_spell_book',
-     7: 'ars_nouveau:whirlisprig_charm',
-     x: 'blue_skies:summoner_trophy',
-     8: 'blue_skies:alchemist_trophy',
-     9: 'blue_skies:starlit_crusher_trophy',
-     0: 'blue_skies:arachnarch_trophy',
-     M: 'minecraft:apple'
-   })
+  // event.recipes.extendedcrafting.shapedTable('angelring:itemring', [
+  //  'diwf fMid',
+  //  'Idi   idI',
+  //  'c1 iXi 2c',
+  //  'x ICiFI 8',
+  //  '  Ei iE  ',
+  //  '9 IFisI 0',
+  //  'c3 izi Tc',
+  //  'Idi   idI',
+  //  'di65 57id'
+  //  ],
+  //  {
+  //    d: 'gobber2:dragon_star',
+  //    C: 'alexsmobs:dimensional_carver',
+  //    i: 'mysticalagriculture:master_infusion_crystal',
+  //    z: 'extendedcrafting:the_ultimate_ingot',
+  //    F: 'extradisks:1048576k_fluid_storage_part',
+  //    E: 'assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser',
+  //    1: 'minecraft:apple',
+  //    2: 'minecraft:apple',
+  //    3: 'minecraft:apple',
+  //    s: 'armorplus:soul_slayer',
+  //    X: 'extendedcrafting:the_ultimate_catalyst',
+  //    I: 'botania:gaia_ingot',
+  //    T: 'assemblylinemachines:novasteel_fluid_tank',
+  //    f: 'assemblylinemachines:chaotic_fertilizer',
+  //    c: 'minecraft:apple',
+  //    w: 'mythicbotany:mjoellnir',
+  //    5: 'ironfurnaces:million_furnace',
+  //    6: '',
+  //    7: '',
+  //    x: 'blue_skies:summoner_trophy',
+  //    8: 'blue_skies:alchemist_trophy',
+  //    9: 'blue_skies:starlit_crusher_trophy',
+  //    0: 'blue_skies:arachnarch_trophy',
+  //    M: 'minecraft:apple'
+  //  })
 
   event.remove({id: 'extradisks:part/1024k_storage_part'})
   event.shaped('extradisks:1024k_storage_part', ['ltl', 'grg', 'lgl'],

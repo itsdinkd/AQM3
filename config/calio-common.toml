@@ -1,0 +1,7 @@
+
+[debug]
+	#Enable calio registry logging.
+	registry_logging = false
+	#Enable calio debug mode
+	debug_mode = false
+
