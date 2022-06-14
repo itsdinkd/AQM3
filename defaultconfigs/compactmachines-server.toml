@@ -7,7 +7,16 @@
 	# 'anyone' = Anyone can break while players are inside.
 	#Allowed Values: UNBREAKABLE, OWNER, ANYONE
 	breakHandling = "UNBREAKABLE"
-	#The Y-level to spawn machine floors at.
+	#The Y-dimension to spawn machine floors at.
 	#Range: 10 ~ 200
 	floor = 40
+
+[commands]
+
+	[commands.permLevels]
+		#0 = ALL, 1 = ADMIN, 2 = OP, 4 = OWNER
+		#Range: 0 ~ 4
+		rebind = 0
+		#Range: 0 ~ 4
+		give = 0
 

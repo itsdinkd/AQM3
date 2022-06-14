@@ -1,0 +1,34 @@
+{
+	id: "4F0B66BB76DF82A0"
+	group: "3A311A174F6148FB"
+	order_index: 1
+	filename: "food_time"
+	title: "Food Time"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -4.5d
+		y: 0.5d
+		subtitle: "Make your own sandwiches using any food"
+		description: [
+			""
+			"How to Use This Station"
+			"1. Place it down and right click it to open the GUI                                  -           "
+			"2. Base Slot: Insert any valid bread or bowl item here.                                -"
+			"3. Ingredient Slots 1-5: Insert any valid food item here. There are no other restrictions. If your base is a bowl, certain liquids like buckets of fluid and potions are also possible.      -"
+			"4. Custom Name: Insert a custom name for your food here. There's a maximum character limit of 35.                        - "
+			"5. Output: Your crafted sandwich or bowl will appear here. Crafting will always take only one item from each slot, but sandwiches can output multiple at a time depending on its ingredients."
+		]
+		id: "1E5EB25E036705A3"
+		tasks: [{
+			id: "498F006DC4C99308"
+			type: "item"
+			item: "culinaryconstruct:culinary_station"
+		}]
+		rewards: [{
+			id: "7EACBFEBEEA2E3A0"
+			type: "item"
+			item: "minecraft:bread"
+		}]
+	}]
+}

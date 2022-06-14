@@ -5,9 +5,9 @@
 	#Should the backup info screen on world load be hidden?
 	futurepack_hide_backup_screen = true
 	#Should the backup screen be replaced by a custom futurepack screen?
-	futurepack_replace_backup_screen_with_custom = true
+	futurepack_replace_backup_screen_with_custom = false
 	#Should your world be backuped on world load?
-	futurepack_backup_on_load = true
+	futurepack_backup_on_load = false
 	#Synchronize and show: Lasers from turrets
 	do_entity_eater_sync = true
 	#Synchronize and show: Itemflow in Pipes
@@ -66,7 +66,7 @@
 	#Range: 0.10000000149011612 ~ 10.0
 	erse_food_saturation = 0.30000001192092896
 	#Should all machines also accept RF (will be automatic converted to neon)
-	enable_RF_support = false
+	enable_RF_support = true
 
 [world_generation]
 	#Quantity of Bedrock Rifts
@@ -77,16 +77,16 @@
 	bedrock_rift_height = -63
 	#Chance of a huge Tecdungeon to spawn in a chunk
 	#Range: 0.0 ~ 0.1
-	huge_dungeon_spawnrate = 0.0012
+	huge_dungeon_spawnrate = 0.001
 	#Distance in Chunks ( so *16 for block coords) around the spawn were no huge dungeons will spawn.
 	#Range: > 0
-	huge_dungeon_mindis = 100
+	huge_dungeon_mindis = 150
 	#Chance of a normal Tecdungeon to spawn in a chunk
 	#Range: 0.0 ~ 0.2
 	tec_dungeon_spawnrate = 0.006670000031590462
 	#Distance in Chunks ( so *16 for block coords) around the spawn were no tec dungeons will spawn.
 	#Range: > 0
-	tec_dungeon_mindis = 70
+	tec_dungeon_mindis = 90
 	#The amount erse generation  loops per chunk. If greater then one it will run mutliple times, smaler then one will result in percentage per chunk. Keep in mind erse will only spawn if there is the tall grass ( not the grass block, not the 2-block tall grass)
 	#Range: 0.0 ~ 100.0
 	erse_count = 2.0
@@ -101,10 +101,10 @@
 		copper_ore = 10
 		#Quantity of Tin Ore
 		#Range: 0 ~ 25
-		tin_ore = 10
+		tin_ore = 0
 		#Quantity of Zinc Ore
 		#Range: 0 ~ 25
-		zinz_ore = 10
+		zinz_ore = 0
 		#Quantity of Bauxite Ore
 		#Range: 0 ~ 25
 		bauxite_ore = 7
@@ -171,7 +171,7 @@
 	#Disable this, to prevent glowmelows to fall down after they are fully grown.
 	glowmelow_drop = true
 	#If set to true, the claime will no longer load the chunk it is placed in.
-	disable_claime_chunkloading = false
+	disable_claime_chunkloading = true
 	#If set to true, the Miner will no longer load itself
 	disbale_miner_chunkloading = false
 	#This will force the ingame network (network cables) too use an extra thread, thus improving performance. This will most likely crash SpongeForge, so disable it when this happens (Will not corrupt your worlds).

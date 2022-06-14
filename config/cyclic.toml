@@ -425,36 +425,7 @@
 
 		[cyclic.items.monster_ball]
 			#Entity ids that cannot be picked up with the Monster all
-			ignore_list = [
-				"alexsmobs:void_portal",
-				"alexsmobs:void_worm_part",
-				"alexsmobs:void_worm_shot",
-				"alexsmobs:void_worm",
-				"ars_nouveau:wilden_boss",
-				"ars_nouveau:wilden_guardian",
-				"artifacts:mimic",
-				"blue_skies:alchemist",
-				"blue_skies:polargeist",
-				"blue_skies:starlit_crusher",
-				"blue_skies:arachnarch",
-				"doom:arch_makyr",
-				"doom:gladiator",
-				"doom:iconofsin",
-				"doom:motherdemon",
-				"goblinsanddungeons:goblin_king",
-				"goblinsanddungeons:ogre",
-				"minecraft:elder_guardian",
-				"minecraft:ender_dragon",
-				"minecraft:wither",
-				"stalwart_dungeons:awful_ghast",
-				"stalwart_dungeons:nether_keeper",
-				"stalwart_dungeons:reinforced_blaze",
-				"stalwart_dungeons:shelterer",
-				"undergarden:masticator",
-				"undergarden:forgotten_guardian",
-				"weaponthrow:weaponthrow",
-				"orcz:bigorcboss"
-				]
+			ignore_list = ["alexsmobs:void_portal", "alexsmobs:void_worm_part", "alexsmobs:void_worm_shot", "alexsmobs:void_worm", "artifacts:mimic", "blue_skies:alchemist", "blue_skies:polargeist", "blue_skies:starlit_crusher", "blue_skies:arachnarch", "doom:arch_makyr", "doom:gladiator", "doom:iconofsin", "doom:motherdemon", "goblinsanddungeons:goblin_king", "goblinsanddungeons:ogre", "minecraft:elder_guardian", "minecraft:ender_dragon", "minecraft:wither", "stalwart_dungeons:awful_ghast", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:reinforced_blaze", "stalwart_dungeons:shelterer", "undergarden:masticator", "undergarden:forgotten_guardian", "weaponthrow:weaponthrow", "orcz:bigorcboss"]
 
 		#Wand settings
 		[cyclic.items.teleport_wand]
@@ -509,6 +480,52 @@
 			#Range to search out enemies for this attack
 			#Range: 1 ~ 512
 			range = 64
+
+		#####################################################################################
+		# Emerald gear settings
+		#####################################################################################
+		[cyclic.items.emerald]
+			#Armor toughness
+			#Range: 0.10000000149011612 ~ 99.0
+			toughness = 3.0
+			#Weapon damage
+			#Range: 0.10000000149011612 ~ 99.0
+			damage = 4.5
+			#Damage Reduction
+			#Range: 1 ~ 99
+			boots = 4
+			#Damage Reduction
+			#Range: 1 ~ 99
+			helm = 4
+			#Damage Reduction
+			#Range: 1 ~ 99
+			chest = 9
+			#Damage Reduction
+			#Range: 1 ~ 99
+			leg = 7
+
+		#####################################################################################
+		# Obsidian gear settings
+		#####################################################################################
+		[cyclic.items.obsidian]
+			#Armor toughness
+			#Range: 0.10000000149011612 ~ 99.0
+			toughness = 6.0
+			#Weapon damage
+			#Range: 0.10000000149011612 ~ 99.0
+			damage = 10.5
+			#Damage Reduction
+			#Range: 1 ~ 99
+			boots = 7
+			#Damage Reduction
+			#Range: 1 ~ 99
+			helm = 7
+			#Damage Reduction
+			#Range: 1 ~ 99
+			chest = 11
+			#Damage Reduction
+			#Range: 1 ~ 99
+			leg = 10
 
 	#####################################################################################
 	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  

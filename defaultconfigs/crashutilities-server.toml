@@ -1,7 +1,7 @@
 
 ["Item Clear"]
 	#Enable regular ItemClear
-	enabled = true
+	enabled = false
 	#Waiting time between Checks in Minutes
 	#Range: 0 ~ 1440
 	timer = 30

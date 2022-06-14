@@ -200,3 +200,11 @@
 		#Range: 1 ~ 200
 		"Base Power" = 20
 
+[Crops]
+	#If TRUE, Glimmercap Mushrooms produce light when fully grown. Disabling this may improve performance.
+	"Glowstone Mushroom Light" = true
+	#If TRUE, Fluxtooth Mushrooms produce light when fully grown. Disabling this may improve performance.
+	"Redstone Mushroom Light" = true
+	#If TRUE, Fluxtooth Mushrooms emit a redstone signal when fully grown. Disabling this may improve performance.
+	"Redstone Mushroom Signal" = true
+

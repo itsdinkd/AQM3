@@ -2,7 +2,7 @@
 #Common Settings
 [common]
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
-	disallowedItems = ["minecraft:shulker_box", "tombstone:enchanted_bundle"]
+	disallowedItems = ["minecraft:shulker_box", "tombstone:enchanted_bundle", "thermal:satchel"]
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = true
 	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
@@ -215,16 +215,16 @@
 	#Stack Upgrade Settings
 	[common.stackUpgrade]
 		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
-		nonStackableItems = ["ender_bags:white_bag", "ender_bags:orange_bag", "ender_bags:magenta_bag", "ender_bags:light_blue_bag", "ender_bags:yellow_bag", "ender_bags:lime_bag", "ender_bags:pink_bag", "ender_bags:gray_bag", "ender_bags:light_gray_bag", "ender_bags:cyan_bag", "ender_bags:purple_bag", "ender_bags:blue_bag", "ender_bags:brown_bag", "ender_bags:green_bag", "ender_bags:red_bag", "ender_bags:black_bag"]
+		nonStackableItems = []
 
 	#Smelting Upgrade Settings
 	[common.smeltingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
-		smeltingSpeedMultiplier = 0.9
+		smeltingSpeedMultiplier = 1.0
 		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
 		#Range: 0.25 ~ 4.0
-		fuelEfficiencyMultiplier = 0.9
+		fuelEfficiencyMultiplier = 1.0
 
 	#Smoking Upgrade Settings
 	[common.smokingUpgrade]

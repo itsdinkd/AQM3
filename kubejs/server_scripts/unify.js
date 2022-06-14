@@ -17,7 +17,8 @@ global["unifypriorities"] = [
     "create",
     "futurepack",
     "tconstruct",
-    "tinkers_reforged"
+    "tinkers_reforged",
+    "ob_core"
 ]
 // Items to exclude (will not be unified)
 global["unifyexclude"] = new Set([

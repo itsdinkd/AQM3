@@ -212,6 +212,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "6C6CAFEC3C4A1FEC"
+					type: "item"
+					item: "cyclic:heart"
+				}
 			]
 		}
 		{
@@ -347,6 +352,269 @@
 				id: "4D1127E16E452D3E"
 				type: "item"
 				item: "paraglider:spirit_orb"
+			}]
+		}
+		{
+			title: "Tame other mobs using Domestication Innovation"
+			x: -6.5d
+			y: -3.5d
+			subtitle: "Tame other mobs and have them battle with Enchantments"
+			description: [
+				"You can command tame Axolotls, Parrots, Foxes, Rabbits, and of course wolves. With this mod, which differs from doggy talents, your pets can be enchanted with 37 different enchantments, be commanded by you or a drum, and will also make your pets not get hurt when you swing at a mob and they are in front of your weapon."
+				""
+				"Wander, Stay, and Follow - Right clicking on your mob will make them follow one of these commands. Later on we will discuss other items that can do this for you"
+				""
+				"Feather on a Stick: When used, this will send out a feather on a string in front of you. The closest pet of yours will then try to move onto the feather to play with it. This tool is useful for getting your mob out of places it shouldn't be, like if it's stuck in a doorway or on top of a chest. It's also useful for moving a pet onto its bed so you can set its respawn point."
+			]
+			id: "3E4E0291638937D2"
+			tasks: [{
+				id: "442251DFA74B219B"
+				type: "item"
+				item: {
+					id: "domesticationinnovation:feather_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "569F898751BD6AEB"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 16
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			description: ["Trustable mobs have always been somewhat scuffed in implementation. Thankfully, we've made it so that tamed foxes are actually tamed - and can be made to sit, wander and follow like the other pets. To get a tame fox, you need to breed two wild foxes with sweet berries and wait for it to grow up. Note that no matter how tame foxes are, they'll still want to kill any chickens and (untamed) rabbits they can see"]
+			dependencies: ["3E4E0291638937D2"]
+			id: "77037DD45AF22A4B"
+			tasks: [{
+				id: "021877F8360EFF8E"
+				type: "observation"
+				title: "How to Tame Fox"
+				icon: "minecraft:fox_spawn_egg"
+				timer: 10L
+				observe_type: 5
+				to_observe: "minecraft:fox"
+			}]
+			rewards: [{
+				id: "0A5E5BB30FE59A7E"
+				type: "item"
+				item: "minecraft:sweet_berries"
+				count: 3
+			}]
+		}
+		{
+			icon: "minecraft:axolotl_bucket"
+			x: -8.0d
+			y: -5.0d
+			description: ["Gone are the days of weirdly holding a tropical fish bucket if you want to use an Axolotl as a companion: These amphibians are now fully tameable! Simply feed a wild axolotl a few tropical fish to tame them. They can be made to sit, wander and follow like all the other tameable mobs. Note that axolotls are by default very slow on land, dry out and have low health - you have been warned. "]
+			dependencies: ["3E4E0291638937D2"]
+			id: "1569526FCD6650A4"
+			tasks: [{
+				id: "5A666DDF14E26465"
+				type: "observation"
+				title: "How to Tame Axolotl"
+				timer: 10L
+				observe_type: 0
+				to_observe: "minecraft:axolotl"
+			}]
+			rewards: [{
+				id: "4B0952428D786A37"
+				type: "item"
+				item: "minecraft:tropical_fish"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			description: ["To tame a rabbit, feed it several carrots. Rabbits only have 3 health by default and usually (see: Sinister Carrot) cannot attack. However, to make them useful rabbits will scare off ravagers"]
+			dependencies: ["3E4E0291638937D2"]
+			id: "2C15B84B88FFEDAA"
+			tasks: [{
+				id: "0D0C724400229A69"
+				type: "observation"
+				title: "How to Tame Rabbit"
+				icon: "minecraft:rabbit_spawn_egg"
+				timer: 10L
+				observe_type: 0
+				to_observe: "minecraft:rabbit"
+			}]
+			rewards: [{
+				id: "7250C29D823A2D58"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 3
+			}]
+		}
+		{
+			x: -9.0d
+			y: -6.0d
+			subtitle: "You're evil!"
+			description: ["Sinister Carrots are rarely found as loot in Woodland Mansions. They can be fed to a zombie horse in order to turn it into a skeleton horse. They can also be fed to a tamed rabbit to transform it into a Killer Rabbit, which can attack and is much stronger than a normal rabbit."]
+			dependencies: ["2C15B84B88FFEDAA"]
+			id: "4FBB619C171BFE7E"
+			tasks: [{
+				id: "5C0749CA02428F4D"
+				type: "item"
+				item: "domesticationinnovation:sinister_carrot"
+			}]
+			rewards: [{
+				id: "6DF355B886ED0722"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			subtitle: "Horse into a Zombie Horse?!?"
+			description: ["Rotten Apples have a chance to form if an apple item despawns on the ground. These green, wormy apples can be fed to a horse in order to turn it into a zombie horse. Note that you'll want to make sure the horse is tamed and saddled prior to this action. This zombification process will also preserve the speed and other aspects of the horse. Zombie horses cannot wear armor."]
+			dependencies: ["3E4E0291638937D2"]
+			id: "4A2A0EB1B3AB9989"
+			tasks: [{
+				id: "67B115C6A72EA3A9"
+				type: "item"
+				item: "domesticationinnovation:rotten_apple"
+			}]
+			rewards: [{
+				id: "7C428154BD32C902"
+				type: "item"
+				item: "minecraft:sugar"
+				count: 4
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.5d
+			subtitle: "Set your pets Respawn Point"
+			description: [
+				"By moving one of your tamed mobs onto a pet bed, you enable it to respawn there the next morning if it somehow dies. The visual indication for this is if you see a bunch of ZZZ particles appear above your pet's head: this means it has set its respawn point. To remove the respawn point, simply break the bed block."
+				""
+				"Mobs can only respawn at dawn, so if your pet dies some other time you will have to wait until then to see it again. Pet enchants are preserved with respawning, but more on that later."
+			]
+			dependencies: ["3E4E0291638937D2"]
+			id: "512EFBB4EFE973F8"
+			tasks: [{
+				id: "15D1080A080692BD"
+				type: "item"
+				title: "Any #domesticationinnovation:pet_beds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "domesticationinnovation:pet_beds"
+					}
+				}
+			}]
+			rewards: [{
+				id: "61AD382C5B395BF8"
+				type: "item"
+				item: "futurepack:ingot_copper"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			subtitle: "You'll want this for Enchantments"
+			description: [
+				"Like a nametag, these collar tags can be renamed in an anvil and used on a mob to rename it (unlike a nametag, this is only for animals that are your pets). However, their real use is that they can be enchanted"
+				""
+				"Pets can be enchanted by applying enchants to a collar tag in either an anvil or an enchanting table."
+				""
+				"These collars can then be placed on a tamed pet of yours by interacting with it. To get the enchanted collar back, you can simply swap it with any other collar, including an unenchanted one. You can view a pet's enchants by sneaking and looking at them."
+			]
+			dependencies: ["512EFBB4EFE973F8"]
+			id: "02BD8BA7E7189A79"
+			tasks: [{
+				id: "4CFB0E93B6C00B76"
+				type: "item"
+				item: "domesticationinnovation:collar_tag"
+			}]
+			rewards: [{
+				id: "002CC550980C4BAB"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 3
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			subtitle: "Automate commanding groups of mobs via redstone"
+			description: ["When interacted with, the drum will beat and change command modes, whilst ordering all tamed mobs of the user to follow, stay or wander depending on the beat. If given a redstone signal, it will command the mobs of the player that originally placed the block. The block also makes a funny sound if you jump on it."]
+			dependencies: ["02BD8BA7E7189A79"]
+			id: "1D08AB2D0C506C32"
+			tasks: [{
+				id: "43DE5F9BA5215F0B"
+				type: "item"
+				item: "domesticationinnovation:drum"
+			}]
+			rewards: [{
+				id: "6BBFB9BF81232648"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 2
+			}]
+		}
+		{
+			icon: "domesticationinnovation:pet_bed_white"
+			x: -5.0d
+			y: -5.0d
+			subtitle: "Place any pet bed next to unemployed villager"
+			description: ["Animal Tamers can be found in villages in their own unique houses or can be created with a unemployed villager using a pet bed as a workstation. They trade a variety of items related to animals from both vanilla minecraft and this mod, including unique pet enchants(charisma). Their houses also contain some untamed mobs and sometimes fish tanks."]
+			dependencies: ["512EFBB4EFE973F8"]
+			id: "54BA2FC8EE36B97E"
+			tasks: [{
+				id: "5616831499E7FC20"
+				type: "observation"
+				title: "Employ a Animal Tamer"
+				icon: "domesticationinnovation:pet_bed_white"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:dirt"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			subtitle: "Gift your tamed pet to another player"
+			description: ["The Deed of Ownership is an item that can be purchased from the Animal Tamer villager. By right clicking on a tamed pet that you are the owner of, you bind it to the deed. If you give the deed to any other player, and they use it on the bounded animal, then the ownership of the pet will pass onto them, making it effectively as if they were the ones who tamed the animal."]
+			dependencies: ["54BA2FC8EE36B97E"]
+			id: "6719AF76837D7189"
+			tasks: [{
+				id: "398F5D20B34F9CCC"
+				type: "item"
+				item: "domesticationinnovation:deed_of_ownership"
+			}]
+			rewards: [{
+				id: "626FDC48A272BA2B"
+				type: "item"
+				item: "croptopia:quesadilla"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			subtitle: "All Enchantments"
+			description: ["View all the enchantments this mod offers for your pets by using JEI and searching @Domest"]
+			id: "69A2B6F43ABCE7A5"
+			tasks: [{
+				id: "58E191720522C96A"
+				type: "custom"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:protection"
+						}]
+					}
+				}
 			}]
 		}
 	]

@@ -42,4 +42,7 @@
 	tent_floor = "minecraft:dirt"
 	#When true, tents will be the same size on the outside and inside
 	use_actual_size = false
+	#The number of progress stages added by one use of the tent mallet
+	#Range: 1 ~ 7
+	mallet_effectiveness = 2
 

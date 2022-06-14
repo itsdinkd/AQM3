@@ -1,0 +1,46 @@
+
+["Progression Crafting"]
+	#Should late-game (Mystium and beyond) Plates & Sheets require the Pneumatic Compressor to create?
+	lateGamePlatesRequireCompressor = true
+	#Should late game (Mystium and beyond) Gears require the Pneumatic Compressor to create?
+	lateGameGearsRequireCompressor = true
+
+["IMC Crafting"]
+	#Should the Grinder support creation of other-mod Ground Ores with Ingots, Ore Blocks, and Raw Ores?
+	grinderIMC = true
+	#Should the Alloy Smelter support creation of other-mod Alloys with various combinations of Ingots?
+	alloyIMC = true
+	#Should the Pneumatic Compressor support creation of other-mod Metal Blocks with Ingots?
+	compressorStorageBlockIMC = true
+	#Should the Pneumatic Compressor support creation of other-mod Ingots with Nuggets?
+	compressorNuggetIMC = true
+	#Should the Pneumatic Compressor support creation of other-mod Plates with Ingots?
+	compressorPlateIMC = true
+	#Should the Pneumatic Compressor support creation of other-mod Gears with Plates?
+	compressorGearIMC = true
+	#Should the Pneumatic Compressor support creation of other-mod Rods with Ingots?
+	compressorRodIMC = true
+
+[Ores]
+	#Should Titanium and Deepslate Titanium Ore generate in the overworld?
+	titaniumOre = true
+	#Should Black Granite generate in the Nether?
+	blackGranite = true
+	#Should Black Granite spawn with its natural property, preventing it from being collected with non-electric Pickaxes?
+	blackGraniteNaturalTag = true
+	#Should Chromium Ore generate in The End?
+	chromiumOre = true
+	#Should Chromium Ore generate on the Dragon Island?
+	chromiumOreOnDragonIsland = false
+	#Should all vanilla-counterpart Corrupt Ores generate in the Chaos Plane?
+	corruptOres = true
+	#Should Flerovium Ore spawn in the Chaos Plane?
+	fleroviumOre = true
+	#Should 20% of Corrupt Basalt Coal Ore be replaced with Corrupt Basalt Empowered Coal Ore?
+	empoweredCoalOre = true
+
+[Miscellaneous]
+	#Which modid should be preferred for IMC recipes?
+	#The first modid alphabetically is a fallback if this modid does not have an item in the requested tag.
+	preferredModid = "assemblylinemachines"
+

@@ -29,7 +29,7 @@
 
 	[Peripherals.Chunky_Turtle]
 		#Enable the Chunky Turtle or not.
-		enableChunkyTurtle = true
+		enableChunkyTurtle = false
 		#Time in seconds, while loaded chunk can be consider as valid without touch
 		#Range: > 60
 		chunkLoadValidTime = 1200

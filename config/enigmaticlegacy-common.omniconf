@@ -51,6 +51,9 @@
     # Whether or not bonus recipes for wool dyeing should be enabled. [default: true, synchronized: yes]
     B:BonusWoolRecipesEnabled=true
 
+    # Whether or not Bottle of Ichor should be enabled. [default: true, synchronized: yes]
+    B:BottleofIchorEnabled=true
+
     # Whether or not Bulwark of Blazing Pride should be enabled. [default: true, synchronized: yes]
     B:BulwarkofBlazingPrideEnabled=true
 
@@ -60,6 +63,9 @@
     # Whether or not Celestial Fruit should be enabled. [default: true, synchronized: yes]
     B:CelestialFruitEnabled=true
 
+    # Whether or not Charming Insignia should be enabled. [default: true, synchronized: yes]
+    B:CharmingInsigniaEnabled=true
+
     # Whether or not Charm of Treasure Hunter should be enabled. [default: true, synchronized: yes]
     B:CharmofTreasureHunterEnabled=false
 
@@ -68,6 +74,9 @@
 
     # Whether or not Corrupted Tome should be enabled. [default: true, synchronized: yes]
     B:CorruptedTomeEnabled=true
+
+    # Whether or not Cosmic Scroll should be enabled. [default: true, synchronized: yes]
+    B:CosmicScrollEnabled=true
 
     # Whether or not Enigmatic Legacy should purposefully crash client whenever any mod tries to inject unnamed LootPool into any loot table. If false, stacktraces will be printed to log but game will proceed as normal. [default: true, synchronized: no]
     B:CrashOnUnnamedPool=true
@@ -177,6 +186,9 @@
     # Whether or not Heart of the Guardian should be enabled. [default: true, synchronized: yes]
     B:HeartoftheGuardianEnabled=true
 
+    # Whether or not Inscrutable Eye should be enabled. [default: true, synchronized: yes]
+    B:InscrutableEyeEnabled=true
+
     # Whether or not Iron Ring should be enabled. [default: true, synchronized: yes]
     B:IronRingEnabled=true
 
@@ -188,6 +200,9 @@
 
     # Whether or not Magnet Ring should be enabled. [default: true, synchronized: yes]
     B:MagnetRingEnabled=false
+
+    # Whether or not Majestic Elytra should be enabled. [default: true, synchronized: yes]
+    B:MajesticElytraEnabled=true
 
     # Whether or not Megasponge should be enabled. [default: true, synchronized: yes]
     B:MegaspongeEnabled=true

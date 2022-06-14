@@ -34,6 +34,8 @@
 	"Grenade Damage" = 20.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Max Meathook Distance" = 32.0
+	#Adds mob to list of mobs that can hurt by the BFG. Supports Registry Names (minecraft:cow)
+	"BFG Damage Whitelist" = [""]
 
 ["Mob Settings:Imps"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -609,6 +611,14 @@
 	"Sets Turret Max Health" = 20.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Turret Ranged Damage" = 8.0
+	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
+	"Turret Biomes" = ["#nether"]
+	#Range: > 1
+	"Turret Spawn Weight" = 15
+	#Range: > 1
+	"Turret Min Group" = 1
+	#Range: > 1
+	"Turret Max Group" = 4
 
 ["Mob Settings:Icon of Sin"]
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -619,4 +629,18 @@
 	"Icon of Sin Wave Mobs" = ["doom:gladiator", "doom:mancubus", "doom:mancubus", "doom:marauder", "doom:marauder", "doom:firebronebaron", "doom:baron2016", "doom:baron2016", "doom:baron2016", "doom:baron2016", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul"]
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Icon of Sin Extra Melee Damage For 2nd Phase" = 7.0
+
+["PMMO Compat"]
+	#Range: > 1
+	"XP Value of crafting exp given for crafting" = 50
+	#Range: > 1
+	"XP Value of Inmortal Sphere Use" = 90
+	#Range: > 1
+	"XP Value of Invisible Sphere Use" = 35
+	#Range: > 1
+	"XP Value of Mega Sphere Use" = 105
+	#Range: > 1
+	"XP Value of Power Sphere Use" = 60
+	#Range: > 1
+	"XP Value of Soul Cube Final Use" = 50
 

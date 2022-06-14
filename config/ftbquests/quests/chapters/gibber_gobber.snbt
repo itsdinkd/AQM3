@@ -429,6 +429,11 @@
 					type: "random"
 					table_id: 5396437845961881468L
 				}
+				{
+					id: "1877A2C0885E065C"
+					type: "item"
+					item: "cyclic:heart"
+				}
 			]
 		}
 		{

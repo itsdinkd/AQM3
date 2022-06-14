@@ -1,0 +1,347 @@
+{
+	id: "75C6B2CED859A2D5"
+	group: "2BDFA6283B227A86"
+	order_index: 1
+	filename: "tools"
+	title: "Tools"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "Create Mystium Farmland to accelerate growth"
+			description: ["Shift + Right click to enable this secondary ability"]
+			id: "13702894D3137367"
+			tasks: [{
+				id: "5C607E540145FFCB"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:mystium_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Chop a whole tree down"
+			description: ["Shift + Right click to enable this secondary ability"]
+			id: "7A126D8DD862BEB5"
+			tasks: [{
+				id: "7C23EF03709AFC33"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:mystium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Break up to 5 dirt at once"
+			description: ["Shift + Right click to enable this secondary ability"]
+			id: "41F4FBE10581D97C"
+			tasks: [{
+				id: "0C77D03E9D6B0531"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:mystium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			subtitle: "Chance for Inhert Mob Crystals by killing mobs"
+			description: [
+				"Crystals are used for Powered Spawners"
+				""
+			]
+			id: "552A082D8938AFCD"
+			tasks: [{
+				id: "74C1177602D8FC1F"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:mystium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			subtitle: "3x3 Mining"
+			description: ["Shift + Right click to enable this secondary ability"]
+			id: "04963F20A1C88B3F"
+			tasks: [{
+				id: "499805F48107F3B4"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:mystium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Mining Quarry"
+			description: [
+				"Recommended to read the Assembly line machine guide to see all that you can do with this quarry. "
+				""
+				"You can use 3 different Quarry Addons. For your chest, place your chest on top of the quarry."
+			]
+			id: "7C0934DC987DBDE5"
+			tasks: [{
+				id: "2314F1E6C0C1DB29"
+				type: "item"
+				item: "assemblylinemachines:quarry"
+			}]
+			rewards: [{
+				id: "123888109971D687"
+				type: "item"
+				item: "chanceglobe:chance_globe"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["7C0934DC987DBDE5"]
+			id: "6206F0DFE2120525"
+			tasks: [{
+				id: "289D42ABD843B6AB"
+				type: "item"
+				item: "assemblylinemachines:quarry_fortune_addon"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["7C0934DC987DBDE5"]
+			id: "597065373A70E88A"
+			tasks: [{
+				id: "42C9BFD9950027D6"
+				type: "item"
+				item: "assemblylinemachines:quarry_speed_addon"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["7C0934DC987DBDE5"]
+			id: "16CB4A6672A3D444"
+			tasks: [{
+				id: "6D82A71A5B91621A"
+				type: "item"
+				item: "assemblylinemachines:quarry_void_addon"
+			}]
+			rewards: [{
+				id: "21528B74786941FA"
+				type: "random"
+				table_id: 5396437845961881468L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			subtitle: "Tier 1 Charging"
+			id: "0DAF103EA6C7C616"
+			tasks: [{
+				id: "7A9E967D40D0E71F"
+				type: "item"
+				item: "assemblylinemachines:simple_crank_charger"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			subtitle: "Tier 2 Charging"
+			dependencies: ["0DAF103EA6C7C616"]
+			id: "7C008C8F3EF12643"
+			tasks: [{
+				id: "2CAB984234988C7C"
+				type: "item"
+				item: "assemblylinemachines:tool_charger"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			subtitle: "Tier 3 Charging"
+			dependencies: ["7C008C8F3EF12643"]
+			id: "1CB3BC1118FDB390"
+			tasks: [{
+				id: "562FD7DA2BF3DFEF"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+			rewards: [{
+				id: "0E80477F943412C8"
+				type: "item"
+				item: "chanceglobe:chance_globe"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			subtitle: "Tier 4 Charging"
+			dependencies: ["1CB3BC1118FDB390"]
+			id: "055BBD3F8228DDBB"
+			tasks: [{
+				id: "013C21EC6273030F"
+				type: "item"
+				item: "mekanism:chargepad"
+			}]
+			rewards: [
+				{
+					id: "1799090D9F331C73"
+					type: "item"
+					item: "cyclic:heart"
+				}
+				{
+					id: "3FA22287282B21FF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "50CB2EF8CF8C4C28"
+					type: "random"
+					table_id: 5396437845961881468L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			subtitle: "Create Nova farmland which doesn't exhaust"
+			dependencies: ["13702894D3137367"]
+			id: "73A4221213A1FC62"
+			tasks: [{
+				id: "79095AC8C52F2531"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:novasteel_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "46B32FE2AFA311B6"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			subtitle: "5x5 Mining"
+			dependencies: ["04963F20A1C88B3F"]
+			id: "7503CFC9ABB87E75"
+			tasks: [{
+				id: "0BC7DABAC185A502"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:novasteel_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CA570AB814B408E"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			subtitle: "250% higher of a chance for Inert Crystals"
+			dependencies: ["552A082D8938AFCD"]
+			id: "2BE63F9C80A9123F"
+			tasks: [{
+				id: "050F6CC92E966CFE"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:novasteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E9D8790287DA938"
+				type: "item"
+				item: "chanceglobe:chance_globe"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			subtitle: "3x3x5 Dirt Breaking"
+			dependencies: ["41F4FBE10581D97C"]
+			id: "0F03BABC74C29A50"
+			tasks: [{
+				id: "2B85C2382E3FBE32"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:novasteel_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "636F3E61887E9D27"
+				type: "item"
+				item: "cyclic:heart"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Break full trees starting at bottom block"
+			dependencies: ["7A126D8DD862BEB5"]
+			id: "234447F1449B5171"
+			tasks: [{
+				id: "78C08A20B2858925"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:novasteel_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B5C861823D15E89"
+				type: "item"
+				item: "chanceglobe:chance_globe"
+			}]
+		}
+	]
+}

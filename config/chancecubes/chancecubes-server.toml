@@ -26,9 +26,9 @@
 	GenerateOnSurface = true
 	#Chance of a chunk to have a chance cube spawned on the surface. The math is 1/(surfaceGenerationAmount), so increase to make more rare, and decrese to make more common.
 	#Range: > 0
-	SurfaceGenerationAmount = 100
+	SurfaceGenerationAmount = 98
 	#Worlds that Chance cubes shold not generate in
-	BlockedWorlds = ["javd:void", "dimdungeons:dungeon_dimension", "blue_skies:everdawn", "blue_skies:everbright"]
+	BlockedWorlds = ["javd:void", "blue_skies:everdawn", "blue_skies:everbright"]
 	#True if Chance Cubes should generate as chest loot in the world. false if they should not
 	ChestLoot = true
 	#Blocks that should not be replaced when rewards are "restored" after a reward is over, i.e don't remove graves when the boss dome get's cleared

@@ -19,7 +19,8 @@
         "mekanism:deepslate_uranium_ore",
         "mekanism:lead_ore",
         "mekanism:tin_ore",
-        "tinkers_reforged:deepslate_aluminum_ore"
+        "tinkers_reforged:deepslate_aluminum_ore",
+        "ob_core:deepslate_platinum_ore"
         ];
    })
  });

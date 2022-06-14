@@ -1,0 +1,33 @@
+{
+	id: "0C1A9AE32A9FB916"
+	group: "2BDFA6283B227A86"
+	order_index: 2
+	filename: "build_your_gear"
+	title: "Build your Gear"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Tinkers Construct guide - Questline coming soon"
+			id: "67C869C42E0FADAD"
+			tasks: [{
+				id: "5499C79C1E6F0DA1"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Links to Wiki - Questline coming soon"
+			id: "5841C6D1E24BE1A0"
+			tasks: [{
+				id: "270E93FA4AEA2203"
+				type: "item"
+				item: "silentgear:guide_book"
+			}]
+		}
+	]
+}

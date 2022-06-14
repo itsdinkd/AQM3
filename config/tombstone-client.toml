@@ -51,7 +51,7 @@
 	fog_density = "LOW"
 	#Favorite grave
 	#Allowed Values: GRAVE_SIMPLE, GRAVE_NORMAL, GRAVE_CROSS, TOMBSTONE, SUBARAKI_GRAVE, GRAVE_ORIGINAL
-	favorite_grave = "SUBARAKI_GRAVE"
+	favorite_grave = "GRAVE_ORIGINAL"
 	#Favorite grave marble
 	#Allowed Values: DARK, WHITE
 	favorite_grave_marble = "WHITE"
@@ -66,7 +66,7 @@
 	auto_equip_rule = "ALWAYS"
 	#Defines the type of marker when holding in hand some items like the Grave's Key [WING/SPARK/NOTE/BOX|default:WING]
 	#Allowed Values: WING, SPARK, NOTE, BOX
-	marker_type = "SPARK"
+	marker_type = "WING"
 	#Display the combinations in item tooltip [false/true|default:true]
 	show_tooltip_combine = true
 	#Display an icon when fishing with the Rod of Misadventure showing if you're in openwater [false/true|default:true]

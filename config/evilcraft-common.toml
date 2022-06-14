@@ -37,6 +37,14 @@
 		#Minimum block height at which a dark temple can spawn.
 		darkTempleMinHeight = 64
 
+	[worldgeneration.dark_ore]
+		#If dark ore should be generated in the overworld.
+		generate = true
+
+	[worldgeneration.dark_ore_deepslate]
+		#If dark ore should be generated in the overworld.
+		generate = true
+
 [core]
 
 	[core.general]
@@ -51,7 +59,7 @@
 		#The amount of blood per HP (2HP = 1 heart) of the max mob health that will be added to this blockState when a mob dies from fall damage.
 		bloodMBPerHP = 12
 		#Blocks onto which no blood stains can be spawned. Regular expressions are allowed.
-		spawnBlacklist = ["tconstruct:.*", "botania:.*", "bonsaitrees3:.*", "silentgear:.*", "cyclic:.*"]
+		spawnBlacklist = ["cataclysm:.*", "tconstruct:.*", "botania:.*", "bonsaitrees3:.*", "silentgear:.*", "cyclic:.*"]
 		#If blood stains should be spawned on block entities.
 		spawnOnBlockEntities = false
 
@@ -107,7 +115,7 @@
 		#The required amount of ticks for each HP for cooking an entity.
 		requiredTicksPerHp = 25
 		#How much mB per tick this furnace should consume for boss mob spirit.
-		bossMBPerTick = 400
+		bossMBPerTick = 600
 		#Custom player drops. Maps player UUID to an itemstack. Expects the format domain:itemname:amount:meta for items where amount and meta are optional.
 		playerDrops = ["93b459be-ce4f-4700-b457-c1aa91b3b687|minecraft:stone_slab"]
 
@@ -339,7 +347,7 @@
 		#The area in which the spawn limit will be checked on each spawn attempt.
 		spawnLimitArea = 5
 		#The blacklisted entity spirits, by entity name. Regular expressions are allowed.
-		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon"]
+		entityBlacklist = ["cataclysm:.*", "stalwart_dungeons:.*", "alexsmobs:.*", "evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon"]
 		#Whether vengeance spirits should always be visible in creative mode.
 		alwaysVisibleInCreative = true
 		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.

@@ -330,7 +330,7 @@
 #Enable Dragon Armor Void Protect - immune to /kill command
 [dragon_armor_void]
 	#Enable Dragon Armor Void Protection [true / false]
-	enableDragonArmorVoidProtection = false
+	enableDragonArmorVoidProtection = true
 
 #Nether Gobber Armor Material Values
 [nether_gobber_armor_material]

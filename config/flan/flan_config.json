@@ -1,12 +1,16 @@
 {
   "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
   "configVersion": 4,
+  "lang": "en_us",
   "startingBlocks": 300,
-  "maxClaimBlocks": 6000,
-  "ticksForNextBlock": 1200,
+  "maxClaimBlocks": 9000,
+  "ticksForNextBlock": 900,
   "minClaimsize": 100,
   "defaultClaimDepth": 10,
-  "maxClaims": 5,
+  "maxClaims": 3,
+  "defaultClaimName": "",
+  "defaultEnterMessage": "",
+  "defaultLeaveMessage": "",
   "blacklistedWorlds": [
     "minecraft:overworld"
   ],
@@ -15,8 +19,14 @@
   "inspectionItem": "minecraft:stick",
   "claimDisplayTime": 1300,
   "permissionLevel": 2,
-  "sellPrice": -1,
-  "buyPrice": -1,
+  "buySellHandler": {
+    "buyType": "MONEY",
+    "sellType": "MONEY",
+    "buyValue": -1.0,
+    "sellValue": -1.0,
+    "ingredient": []
+  },
+  "maxBuyBlocks": -1,
   "lenientBlockEntityCheck": false,
   "breakBlockBlacklist": [
     "universal_graves:grave",

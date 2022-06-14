@@ -1,0 +1,330 @@
+{
+	id: "3F45D6646B6071A6"
+	group: "3A311A174F6148FB"
+	order_index: 0
+	filename: "youre_a_gardener"
+	title: "You're a Gardener"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Pulls seeds from your inventory and plants a batch"
+			id: "63EC1DFD4EF6309C"
+			tasks: [{
+				id: "4EA7B48871194F16"
+				type: "item"
+				item: {
+					id: "gardentools:planter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "354A664BD3BE0A47"
+				type: "item"
+				item: "farmersdelight:tomato_seeds"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Hoe Farmland at a range"
+			id: "023F2436A49E495F"
+			tasks: [{
+				id: "1DC1F1525C28B08B"
+				type: "item"
+				item: {
+					id: "gardentools:cultivator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FBD4D6766B30FF2"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			subtitle: "Slowly grow plants nearby"
+			id: "2A22777A7F5780A6"
+			tasks: [{
+				id: "1745AD8924B1CA23"
+				type: "item"
+				item: "gardentools:watering"
+			}]
+			rewards: [{
+				id: "3A79C6ADD8BAF0D7"
+				type: "item"
+				item: "croptopia:water_bottle"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Place on a container and pull filtered items"
+			id: "6A26FE3E52F8D718"
+			tasks: [{
+				id: "5F23975D79DD042F"
+				type: "item"
+				item: "gardentools:magnet"
+			}]
+			rewards: [
+				{
+					id: "7897EB268D76ECDA"
+					type: "item"
+					item: "minecraft:jack_o_lantern"
+				}
+				{
+					id: "66A8338CD19CE438"
+					type: "item"
+					item: "minecraft:chest"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Concentrated Bone Meal... Yum"
+			id: "5C5D93B9A6EB03FB"
+			tasks: [{
+				id: "1BE8785B94D2BD85"
+				type: "item"
+				item: "gardentools:fertilizer"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "Improves plant growth even faster"
+			dependencies: ["2A22777A7F5780A6"]
+			id: "3B3BD56AC15B1B8D"
+			tasks: [{
+				id: "2E9E9278E81A96D5"
+				type: "item"
+				item: {
+					id: "thermal:watering_can"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7DD6ED7BA01FBDC6"
+					type: "item"
+					item: "croptopia:cauliflower_seed"
+				}
+				{
+					id: "5B8AC8592A3487AE"
+					type: "item"
+					item: "croptopia:cabbage_seed"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Automatically Sheer sheep and uses buckets laying on the ground"
+			id: "026EB3A4B9071823"
+			tasks: [{
+				id: "637DB7DFDC16BED4"
+				type: "item"
+				item: "gardentools:rancher"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "This will automatically feed animals with food that is lying on the ground"
+			id: "6360557486F25DF4"
+			tasks: [{
+				id: "4A52BEB799D589CD"
+				type: "item"
+				item: "gardentools:feeder"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			subtitle: "Like the Cloche but Thermal duh"
+			description: [
+				"Grows trees and crops with the optional fertilizer usage"
+				""
+				"Supports Minecraft, Croptopia, and Thermal seeds and saplings. View recipes in JEI. More seed/sapling support coming soon"
+			]
+			id: "4946DD214A7F60BE"
+			tasks: [{
+				id: "581723F335F8EBBD"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [
+				{
+					id: "35709A74968A916C"
+					type: "item"
+					item: "quark:orange_blossom_sapling"
+				}
+				{
+					id: "1779CD56069BE689"
+					type: "item"
+					item: "croptopia:elderberry_seed"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			subtitle: "Another similar cloche item, but with specific augments!"
+			description: ["Refer to the Assembly Line Machines handbook if you need to learn more"]
+			id: "018D62FD670D253F"
+			tasks: [{
+				id: "53C3602593513032"
+				type: "item"
+				item: "assemblylinemachines:greenhouse"
+			}]
+			rewards: [
+				{
+					id: "0EB33C8AE6A5B1B6"
+					type: "item"
+					item: "croptopia:apple_sapling"
+				}
+				{
+					id: "3BFA1F7803E6B1F9"
+					type: "item"
+					item: "croptopia:vanilla_seeds"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			subtitle: "Augment to support Saplings"
+			dependencies: ["018D62FD670D253F"]
+			id: "26D818C43638261B"
+			tasks: [{
+				id: "57C2CF2C00F79B66"
+				type: "item"
+				item: "assemblylinemachines:greenhouse_upgrade_arborists_specialization"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			subtitle: "Allows darkness crops to grow in light and speeds up operation"
+			dependencies: ["018D62FD670D253F"]
+			id: "6A299994988062AF"
+			tasks: [{
+				id: "654EBBF59F471195"
+				type: "item"
+				item: "assemblylinemachines:greenhouse_upgrade_blackout_glass"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			subtitle: "Augment to support Flowers"
+			dependencies: ["018D62FD670D253F"]
+			id: "09C35152E8E08E77"
+			tasks: [{
+				id: "2208DEE0DEF338D2"
+				type: "item"
+				item: "assemblylinemachines:greenhouse_upgrade_florists_specialization"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			subtitle: "Augment to allow sunlight crops to grow in the dark"
+			dependencies: ["018D62FD670D253F"]
+			id: "66AB6F8C9DA5DF19"
+			tasks: [{
+				id: "7D0724DFAFD96958"
+				type: "item"
+				item: "assemblylinemachines:greenhouse_upgrade_internal_lamp"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			subtitle: "Harvest an area!"
+			id: "7CD0B8B2D0282837"
+			tasks: [{
+				id: "071CEF7ADEBED27D"
+				type: "item"
+				item: {
+					id: "cyclic:scythe_harvest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "15CFD3621935BC37"
+				type: "item"
+				item: "minecraft:tall_grass"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			subtitle: "Do your work but automatically"
+			description: ["Will gently harvest crops around it and replant the seeds, breaking crops once they are grown."]
+			dependencies: ["7CD0B8B2D0282837"]
+			id: "0EF9E0DA39011E79"
+			tasks: [{
+				id: "2D70E314B3F9D7C4"
+				type: "item"
+				item: "cyclic:harvester"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			subtitle: "Right click to fertizile and harvest"
+			description: [
+				"Shift+Scroll to use the other modes (Total of 3). "
+				""
+				"Can hold Bone Meal for fertilizing, Crops for planting, and can be used as a hoe with unlimited durability."
+				""
+				"Read the JEI Information tab for more info."
+			]
+			dependencies: ["0EF9E0DA39011E79"]
+			id: "6E457EC2B9212964"
+			tasks: [{
+				id: "3408CB25B27B4E5E"
+				type: "item"
+				item: {
+					id: "reliquary:harvest_rod"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:bone_meal"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0075C92A49445AB9"
+				type: "item"
+				item: "cyclic:heart"
+			}]
+		}
+	]
+}

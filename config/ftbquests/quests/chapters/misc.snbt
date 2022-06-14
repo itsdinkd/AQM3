@@ -1,0 +1,544 @@
+{
+	id: "0F373DCA0FF90BD9"
+	group: "2BDFA6283B227A86"
+	order_index: 3
+	filename: "misc"
+	title: "Contraptions on Trains and Water"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Floating or Rail Contraptions, including Create mod"
+			id: "33DABB81377680AF"
+			tasks: [{
+				id: "7308F38D40D0221E"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "littlelogistics:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["Vessels are the core of this mod. There are two types of vessels: Barges (that can do all sorts of useful things), and Tugs (that drag the barges). If vessels get stuck, they can be moved slightly using fishing rods (just like other entities). Tugs can also be dragged with leads, right click on the hook at the back of the boat to attach.Transport your items and fluids, or fish automatically using any existing natural waterways or create your own!"]
+			dependencies: ["2CB030EC47B87DF5"]
+			id: "53D1F618BD80B934"
+			tasks: [{
+				id: "4C73BF384E3ACE0D"
+				type: "item"
+				item: "littlelogistics:barge"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Tugs pull Barges, Barges do the fun automated transport stuff... on boats in water!"
+			dependencies: ["33DABB81377680AF"]
+			id: "2CB030EC47B87DF5"
+			tasks: [{
+				id: "041282544197D10D"
+				type: "item"
+				item: "littlelogistics:tug"
+			}]
+			rewards: [{
+				id: "6EDA7385A9AED855"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			subtitle: "Recommended to read guide for this dock  as it contains too much to write"
+			dependencies: ["2CB030EC47B87DF5"]
+			size: 0.6d
+			id: "6765ADB2D9D32394"
+			tasks: [{
+				id: "12610523CF61E320"
+				type: "item"
+				item: "littlelogistics:tug_dock"
+			}]
+			rewards: [{
+				id: "27F2D6652BC9C8A1"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "Used for inputs/outputs on barges"
+			description: ["Place a hopper underneath the barges path to have it pull resources"]
+			dependencies: ["53D1F618BD80B934"]
+			id: "1AE548F64008E689"
+			tasks: [{
+				id: "59EEB18D735351B1"
+				type: "item"
+				item: "littlelogistics:barge_dock"
+			}]
+			rewards: [{
+				id: "099E2C1BD335E12C"
+				type: "item"
+				item: "chanceglobe:chance_globe"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			subtitle: "Forces a path for a tug. Place on highest layer under water"
+			description: ["Shift+Right Click block once placed to rotate"]
+			dependencies: ["2CB030EC47B87DF5"]
+			size: 0.6d
+			id: "467771503A2DC0BF"
+			tasks: [{
+				id: "67CA895FA7493C20"
+				type: "item"
+				item: "littlelogistics:guide_rail_tug"
+			}]
+			rewards: [{
+				id: "4CCEF17C1AEC63B2"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 0.6d
+			y: -1.2d
+			subtitle: "Ride your locamotive "
+			dependencies: ["53D1F618BD80B934"]
+			size: 0.6d
+			optional: true
+			id: "36F6023AFF668005"
+			tasks: [{
+				id: "43678F67ED1D542D"
+				type: "item"
+				item: "littlelogistics:seater_barge"
+			}]
+			rewards: [{
+				id: "393899596BE4BA56"
+				type: "item"
+				item: "minecraft:firework_rocket"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.0d
+			subtitle: "Used to connect Create Contraptions on top of Little Logistic Train Cars"
+			dependencies: ["68B7CBAC0900DC7E"]
+			id: "5825383A9A9254AE"
+			tasks: [{
+				id: "1CBD7680B0D1452D"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [{
+				id: "2C218B924B8786F4"
+				type: "item"
+				item: "chanceglobe:chance_globe"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			subtitle: "Powered by Rails,. connect Little Logistics to your train for automated transportation on land instead of water"
+			dependencies: ["4149C4FB6F309B7B"]
+			id: "68B7CBAC0900DC7E"
+			tasks: [{
+				id: "3305821035E1F9CC"
+				type: "item"
+				item: "littlelogistics:seater_car"
+			}]
+			rewards: [{
+				id: "0854DB18165D5228"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -0.3d
+			y: -1.2d
+			subtitle: "Used to utilize Create contraptions on your Little Logistic Tugs and Barges"
+			dependencies: ["53D1F618BD80B934"]
+			size: 0.6d
+			id: "39FCD7E4032481D0"
+			tasks: [{
+				id: "65C5EFCC16600B5C"
+				type: "item"
+				item: "littlecontraptions:contraption_barge"
+			}]
+			rewards: [{
+				id: "678E5837278914CB"
+				type: "item"
+				item: "littlelogistics:spring"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			subtitle: "For Docking your Train"
+			description: ["This is to be used after the locomotive docking rail"]
+			dependencies: ["6E54565305595353"]
+			id: "2D4A0FC89E9ED458"
+			tasks: [{
+				id: "3464D7616BC638FF"
+				type: "item"
+				item: "littlelogistics:car_dock_rail"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["33DABB81377680AF"]
+			id: "4149C4FB6F309B7B"
+			tasks: [{
+				id: "42E53CE6DFAE8878"
+				type: "item"
+				item: "littlelogistics:steam_locomotive"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.2d
+			subtitle: "Chunk load your barge in a 3x3 area"
+			dependencies: ["53D1F618BD80B934"]
+			size: 0.6d
+			id: "154A64710498A063"
+			tasks: [{
+				id: "28F30AC30FAF65AF"
+				type: "item"
+				item: "littlelogistics:chunk_loader_barge"
+			}]
+			rewards: [{
+				id: "42267A2A297128D6"
+				type: "item"
+				item: "littlelogistics:spring"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.3d
+			subtitle: "Auto fish on your long routes in deep water"
+			description: ["Needs to be in open water for nets to be deployed. Avoid shallow waters otherwise overfishing could happen."]
+			dependencies: ["53D1F618BD80B934"]
+			size: 0.6d
+			id: "4C8992B6F4CB6F23"
+			tasks: [{
+				id: "404D25BE6BC9C979"
+				type: "item"
+				item: "littlelogistics:fishing_barge"
+			}]
+			rewards: [{
+				id: "604213B40F1FC6A3"
+				type: "item"
+				item: "littlelogistics:spring"
+			}]
+		}
+		{
+			x: -0.3d
+			y: 0.6d
+			subtitle: "Similar to the Cart Assembler, but used for Create Contraptions to be used with Tugs"
+			description: ["The possibilities are literally endless."]
+			dependencies: ["53D1F618BD80B934"]
+			size: 0.6d
+			id: "7DFD830EFB96DE4D"
+			tasks: [{
+				id: "21320F40BB16B95F"
+				type: "item"
+				item: "littlecontraptions:barge_assembler"
+			}]
+			rewards: [{
+				id: "3E7CA7565822A6A9"
+				type: "item"
+				item: "create:dough"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.6d
+			subtitle: "Transports Fluids, can be loaded with Fluid Hopper"
+			dependencies: ["53D1F618BD80B934"]
+			size: 0.6d
+			id: "13BA1FC0E0D8E81D"
+			tasks: [{
+				id: "72B688838BBEDD04"
+				type: "item"
+				item: "littlelogistics:fluid_barge"
+			}]
+			rewards: [{
+				id: "5E6A77DA4B06FD46"
+				type: "item"
+				item: "littlelogistics:spring"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			subtitle: "Used to Link Together your Tugs, Carts, Barges"
+			dependencies: ["33DABB81377680AF"]
+			id: "7F63ED080D31340C"
+			tasks: [{
+				id: "6096BAD0017ADD85"
+				type: "item"
+				item: "littlelogistics:spring"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			subtitle: "Used to store Forge Energy for your energy tug and locomotive"
+			description: ["Can recharge when docked in a vehicle charger. Comes with an extra slot for a capacitor"]
+			dependencies: ["2CB030EC47B87DF5"]
+			id: "64ADFE52311B7D2A"
+			tasks: [{
+				id: "39E17EFDEE3DEA7A"
+				type: "item"
+				item: "littlelogistics:vessel_charger"
+			}]
+			rewards: [{
+				id: "6568EA83E18DB97B"
+				type: "item"
+				item: "littlelogistics:energy_tug"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "Used to store and set Tugs route"
+			description: ["Read about this in the Little Contraption guide"]
+			dependencies: ["2CB030EC47B87DF5"]
+			size: 0.6d
+			id: "42773CCE51C322BC"
+			tasks: [{
+				id: "11428DB98C8BA57A"
+				type: "item"
+				item: "littlelogistics:tug_route"
+			}]
+			rewards: [{
+				id: "004E79C673014A54"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			subtitle: "Transport items"
+			dependencies: ["68B7CBAC0900DC7E"]
+			size: 0.6d
+			id: "7C0ADEEA81FFE016"
+			tasks: [{
+				id: "7AEFE1C7B8AE14AE"
+				type: "item"
+				item: "littlelogistics:chest_car"
+			}]
+			rewards: [{
+				id: "3EAD0A54E79DB931"
+				type: "item"
+				item: "littlelogistics:spring"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			subtitle: "Stores fluid for transportation. can be loaded with a Fluid hopper"
+			dependencies: ["68B7CBAC0900DC7E"]
+			size: 0.6d
+			id: "6DD55A73AE9A463A"
+			tasks: [{
+				id: "412FDE6C81BB1B70"
+				type: "item"
+				item: "littlelogistics:fluid_car"
+			}]
+			rewards: [{
+				id: "70CDF30705E99BC0"
+				type: "item"
+				item: "littlelogistics:spring"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			subtitle: "Chunkload your train route. This is a small chunk load, 3x3."
+			dependencies: ["68B7CBAC0900DC7E"]
+			size: 0.6d
+			id: "4C116F03D4F19ABF"
+			tasks: [{
+				id: "2C2A4F8AFDD31F36"
+				type: "item"
+				item: "littlelogistics:chunk_loader_car"
+			}]
+			rewards: [{
+				id: "79564D03D245D567"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "Similar to the Energy Tug, stores energy for your train."
+			dependencies: ["64ADFE52311B7D2A"]
+			id: "3E6D3E7757D0A3D5"
+			tasks: [{
+				id: "7C22672B4B66DE2F"
+				type: "item"
+				item: "littlelogistics:energy_locomotive"
+			}]
+			rewards: [{
+				id: "0A54B97EDAE8A202"
+				type: "item"
+				item: "minecraft:coal"
+				count: 6
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			subtitle: "Used to dock locomotives"
+			description: ["This should be in any rail setup for docking, the train car docking rail comes after this in a straight line."]
+			dependencies: ["4149C4FB6F309B7B"]
+			id: "6E54565305595353"
+			tasks: [{
+				id: "453E8195183C9793"
+				type: "item"
+				item: "littlelogistics:locomotive_dock_rail"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			subtitle: "All available little rails work with vanilla rails"
+			dependencies: ["2D4A0FC89E9ED458"]
+			id: "3113B9858E22674A"
+			tasks: [
+				{
+					id: "0AE6D0FADE83356B"
+					type: "item"
+					item: "littlelogistics:junction_rail"
+				}
+				{
+					id: "3D4F836AE843C178"
+					type: "item"
+					item: "littlelogistics:automatic_tee_junction_rail"
+				}
+				{
+					id: "44EF3516BD5A876B"
+					type: "item"
+					item: "littlelogistics:tee_junction_rail"
+				}
+				{
+					id: "6AC9E3C4A1949D7D"
+					type: "item"
+					item: "littlelogistics:automatic_switch_rail"
+				}
+				{
+					id: "0DCEDB7D4AED62FC"
+					type: "item"
+					item: "littlelogistics:switch_rail"
+				}
+			]
+			rewards: [{
+				id: "5A7DEAFCCC347C2E"
+				type: "random"
+				table_id: 5396437845961881468L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["64ADFE52311B7D2A"]
+			id: "19C8AE144788CB72"
+			tasks: [{
+				id: "7FD5F2C4A3B5F7F8"
+				type: "item"
+				item: "littlelogistics:energy_tug"
+			}]
+			rewards: [{
+				id: "3D683B612323B4D8"
+				type: "item"
+				item: "minecraft:coal"
+				count: 6
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			subtitle: "Store and set routes for your train"
+			description: ["Recommended to read the Little Logistics guide on how to use this item"]
+			dependencies: ["4149C4FB6F309B7B"]
+			id: "1673C8CDF4C66B47"
+			tasks: [{
+				id: "67B80B61257FAA0C"
+				type: "item"
+				item: "littlelogistics:locomotive_route"
+			}]
+			rewards: [{
+				id: "66FAD5CC3B994FF2"
+				type: "item"
+				item: "littlelogistics:transmitter_component"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["33DABB81377680AF"]
+			id: "0963911C3A9992FA"
+			tasks: [{
+				id: "4AF6D3715DE52479"
+				type: "item"
+				item: "littlelogistics:fluid_hopper"
+			}]
+			rewards: [{
+				id: "525F665DC22DD76A"
+				type: "item"
+				item: "littlelogistics:guide_rail_tug"
+			}]
+		}
+		{
+			x: -2.4d
+			y: 4.8d
+			subtitle: "Rotate vanilla and little logistic rails"
+			dependencies: ["4149C4FB6F309B7B"]
+			size: 0.6d
+			id: "5B76B90B65770B56"
+			tasks: [{
+				id: "2B73FAE0A7AE17F4"
+				type: "item"
+				item: "littlelogistics:conductors_wrench"
+			}]
+			rewards: [{
+				id: "132A47E7F220F52B"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["33DABB81377680AF"]
+			id: "1B379AD0F9934688"
+			tasks: [{
+				id: "7BBF11403395B3D8"
+				type: "item"
+				item: "littlelogistics:rapid_hopper"
+			}]
+			rewards: [{
+				id: "782918D41088FC9F"
+				type: "item"
+				item: "littlelogistics:vessel_detector"
+			}]
+		}
+	]
+}

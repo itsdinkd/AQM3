@@ -61,6 +61,8 @@
 	pigmentMixer = "200"
 	#Energy per operation tick (Joules).
 	paintingMachine = "100"
+	#Energy per chunk per tick (Joules).
+	dimensionalStabilizer = "5000"
 
 	#Teleporter
 	[usage.teleporter]

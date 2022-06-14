@@ -9,7 +9,7 @@
 		"endurance": [ 
 			{"perk":"pmmo:health",
 			"max_boost": 20,
-			"per_level": 0.0666666666666667
+			"per_level": 0.1
 			}
 		],
 		"building": [

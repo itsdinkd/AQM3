@@ -10,7 +10,7 @@
 		{
 			x: -1.0d
 			y: 0.5d
-			subtitle: "Mana and Artifice (Ars Magica 2) - Learning the Basics"
+			subtitle: "Mana and Artifice (Fork of Ars) - Learning the Basics"
 			description: ["The book of tell. You need to buy this from the Mana and Artifice Villager using the Magician Workbench to convert the Villager."]
 			id: "28CE2F417978A52E"
 			tasks: [{
@@ -22,6 +22,7 @@
 		{
 			x: 0.5d
 			y: 0.5d
+			subtitle: "EvilCraft"
 			id: "7715A501AF903169"
 			tasks: [{
 				id: "70E7F8CF3D138871"

@@ -25,6 +25,9 @@
     # Flips the parabolic function bearing responsibility for heat bar rendering when temporary fire resistance from Blazing Core is active. Instead of default behavior, it will start decreasing slowly, but will expotentially speed up the closer to the end it is. This is a purely visual effect - raw fire immunity time provided stays unchanged. [default: false]
     B:BlazingCoreTraitorBarEnabled=false
 
+    # If true, disables subtitles for The Architect's narration. [default: false]
+    B:DisableQuoteSubtitles=false
+
     # Whether or not button for accessing Ender Chest should be added to inventory GUI when player has Ring of Ender equipped. [default: true]
     B:EnderChestButtonEnabled=true
 
@@ -79,6 +82,9 @@
 ##########################################################################################################
 
 "The Seven Curses" {
+    # If true, tooltip of Ring of the Seven Curses cannot be read before it is equipped. Fun way to teach players that not every mystery is worth investigating. [default: false]
+    B:CursedRingConcealAbilities=false
+
     # Set to false to disable displaying lore on Ring of the Seven Curses. Useful if you are a modpack developer wanting to have your own. [default: true]
     B:CursedRingDisplayLore=true
 }

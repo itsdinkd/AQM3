@@ -2,5 +2,8 @@
 	chapter_groups: [
 		{ id: "0FAB4A14717CC291", title: "Humble Beginnings" }
 		{ id: "30AC1CE19F5532E7", title: "Getting into the Meat and Potatoes" }
+		{ id: "357818B443F9748C", title: "Adventure" }
+		{ id: "2BDFA6283B227A86", title: "Tech" }
+		{ id: "3A311A174F6148FB", title: "Chef Boyardeez" }
 	]
 }

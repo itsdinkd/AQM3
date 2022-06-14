@@ -288,6 +288,7 @@
 				"Each Level in each stat will increase something. Agility increases Jump heights, and speed. Combat increases attack damage, Endurance gives 1% damage resistence per level (caps at 50%). Endurance also gives 1 Heart every 7 levels, Magic and Gunslinging also increase attacks done. Crafting/Building gives longer reach (caps at 11 blocks)"
 				""
 				"There are several items gated behind stat levels. Like the Wormhole portal, you need to be a certain level to craft / use it (Items will tell you on tooltip if there is a required level in a stat)"
+				""
 			]
 			dependencies: ["24CA47E19CBB1738"]
 			size: 0.5d
@@ -298,16 +299,20 @@
 				title: "Stats, Skills, and More"
 			}]
 			rewards: [{
-				id: "71B0D5BD8F3DBDDF"
+				id: "017BA4E1A3158B14"
 				type: "item"
-				item: "scalinghealth:heart_crystal_shard"
+				item: "paraglider:spirit_orb"
 			}]
 		}
 		{
 			x: -1.5d
 			y: -1.75d
 			shape: "diamond"
-			description: ["The best way to see your stats and skills in PMMO is by using the keybinds to  open up the menu. \"Right CTRL\" will open up the PMMO Menu, which allows you to view everything, and even edit some GUI and In-game Settings like XP Drops"]
+			description: [
+				"The best way to see your stats and skills in PMMO is by using the keybinds to  open up the menu. \"Right CTRL\" will open up the PMMO Menu, which allows you to view everything, and even edit some GUI and In-game Settings like XP Drops"
+				""
+				"Since 1.18.2 PMMO has removed \"Skills\" and turned them into \"Perks\". You will not see this in your PMMO Skills Menu. they will not add a perks menu. take it up with them"
+			]
 			dependencies: ["5B1C211EE38A4861"]
 			hide: false
 			size: 0.5d
@@ -443,33 +448,6 @@
 			}]
 		}
 		{
-			x: 0.75d
-			y: 3.375d
-			subtitle: "Don't you want 3x3 mining?"
-			description: ["You did it, you are now ready for the ultimate hammer!"]
-			dependencies: ["6E6D7F4C37CD0CFC"]
-			size: 0.75d
-			id: "4BF8675CAEA1A8E2"
-			tasks: [{
-				id: "23C137F4ED27F333"
-				type: "item"
-				title: "Craft Gobber Hammer"
-				item: {
-					id: "gobber2:gobber2_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "7366F11F196998D7"
-				type: "item"
-				item: "gobber2:gobber2_globette"
-				count: 3
-			}]
-		}
-		{
 			x: 0.0d
 			y: 3.375d
 			subtitle: "Last material needed for the overworld tier"
@@ -520,10 +498,7 @@
 			y: 2.625d
 			subtitle: "Woooooooo"
 			description: ["Look at that armor, toughness, and resistance. You want this set :)"]
-			dependencies: [
-				"1B2E343F569AAA31"
-				"4BF8675CAEA1A8E2"
-			]
+			dependencies: ["1B2E343F569AAA31"]
 			size: 0.75d
 			id: "6F391B22B106059B"
 			tasks: [
@@ -583,6 +558,7 @@
 			}]
 		}
 		{
+			icon: "prefab:item_start_house"
 			x: 2.5d
 			y: 1.5d
 			subtitle: "Use Away from World Spawn"
@@ -598,6 +574,18 @@
 				id: "5F2CAFC68360C942"
 				type: "item"
 				item: "prefab:item_start_house"
+			}]
+		}
+		{
+			x: 0.18035714285714022d
+			y: -4.375d
+			subtitle: "I will be adding more quests over time, mainly from a huge quest update all at once."
+			size: 2.0d
+			id: "6515F80F256CBD9E"
+			tasks: [{
+				id: "5766FCA1626E6902"
+				type: "custom"
+				title: "Quests are WIP"
 			}]
 		}
 	]

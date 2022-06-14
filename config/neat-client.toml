@@ -18,10 +18,10 @@
 	"Show Current HP" = true
 	"Show HP Percentage" = true
 	"Display on Players" = true
-	"Display on Bosses" = true
+	"Display on Bosses" = false
 	"Only show the health bar for the entity looked at" = false
 	"Show entities with full health" = true
-	"Show Debug Info with F3" = false
+	"Show Debug Info with F3" = true
 	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
-	Blacklist = ["alexsmobs:void_worm", "minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish"]
+	Blacklist = ["alexsmobs:void_worm", "minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish", "littlecontraptions:contraption_barge", "littlelogistics:barge", "littlelogistics:chunk_loader_barge", "littlelogistics:fishing_barge", "littlelogistics:fluid_barge", "littlelogistics:seater_barge", "littlelogistics:tug", "littlelogistics:energy_tug", "littlelogistics:spring", "littlelogistics:chest_car", "littlelogistics:seater_car", "littlelogistics:fluid_car", "littlelogistics:chunk_loader_car", "littlelogistics:steam_locomotive", "littlelogistics:energy_locomotive"]
 

@@ -35,7 +35,7 @@ event.shaped('mythicbotany:fire_ring', ['rie', 'i i', ' i '],
   {
     i: "mythicbotany:alfsteel_ingot",
     r: "mythicbotany:muspelheim_rune",
-    e: "mna:fire_rune"
+    e: "mna:mote_fire"
   }
 );
 

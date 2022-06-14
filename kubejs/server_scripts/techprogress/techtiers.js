@@ -30,9 +30,9 @@ onEvent('recipes', event => {
 
     // Tier 1 of Mekanism requiring Tier 4ish of Assemblylines
     event.replaceInput({id: "mekanism:control_circuit/basic"}, "mekanism:ingot_osmium", "assemblylinemachines:attuned_titanium_ingot");
-    event.remove({id: "mekanism:control_circuit/advanced"})
     // Tier 2 of Mekanism requiring Tier 4 of Assmembly Lines
-    event.shaped("mekanism:chargepad", [' c ', 'pup', ' P '],
+    event.remove({id: "mekanism:control_circuit/advanced"})
+    event.shaped("mekanism:advanced_control_circuit", [' c ', 'pup', ' P '],
     {
         p: "mekanism:alloy_infused",
         u: "mekanism:basic_control_circuit",

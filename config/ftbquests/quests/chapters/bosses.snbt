@@ -60,7 +60,14 @@
 					id: "58428B4240BE657C"
 					type: "kill"
 					title: "Kill Awful Ghast"
-					icon: "ars_nouveau:whirlisprig_se"
+					icon: {
+						id: "reliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "stalwart_dungeons:awful_ghast"
+						}
+					}
 					entity: "stalwart_dungeons:awful_ghast"
 					value: 1L
 				}

@@ -12,12 +12,6 @@
 	"BossMusic(on/off)" = true
 
 ["Ender Guardian"]
-	#EnderGuardian's Health
-	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealth = 300.0
-	#EnderGuardian's Damage.
-	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamage = 16.0
 	#EnderGuardian's DamageCap
 	#Range: 0 ~ 1000000
 	EnderGuardianDamageCap = 22
@@ -35,6 +29,12 @@
 	#EnderGuardianBlockBreaking radius
 	#Range: 0 ~ 20
 	"EnderGuardianBlockBreaking Z" = 15
+	#EnderGuardian's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	EnderGuardianHealthMultiplier = 1.0
+	#EnderGuardian's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	EnderGuardianDamageMultiplier = 1.0
 
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
@@ -43,12 +43,6 @@
 	#Monstrosity's Lavabomb amount
 	#Range: 1 ~ 1000000
 	Lavabombamount = 3
-	#Monstrosity's Health
-	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealth = 360.0
-	#Monstrosity's Damage
-	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamage = 22.0
 	#Monstrosity's DamageCap
 	#Range: 0 ~ 1000000
 	MonstrosityDamageCap = 22
@@ -57,6 +51,12 @@
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Monstrosity's prevent attacks from far away Range" = 18.0
+	#Monstrosity's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MonstrosityHealthMultiplier = 1.0
+	#Monstrosity's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	MonstrosityDamageMultiplier = 1.0
 
 ["Ender Golem"]
 	#Ender Golem's block breaking ignore the MobGriefing
@@ -64,24 +64,24 @@
 	#Endergolem's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Endergolem's prevent attacks from far away Range" = 6.0
-	#Golem's Health
+	#Golem's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemHealth = 150.0
-	#Golem's Damage.
+	GolemHealthMultiplier = 1.0
+	#Golem's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemDamage = 10.0
+	GolemDamageMultiplier = 1.0
 
 [Ignis]
-	#Ignis's Health
-	#Range: 0.0 ~ 1000000.0
-	IgnisHealth = 333.0
-	#Ignis's Damage.
-	#Range: 0.0 ~ 1000000.0
-	IgnisDamage = 14.0
 	#Ignis's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Ignis's prevent attacks from far away Range" = 20.0
 	#Ignis's DamageCap
 	#Range: 0 ~ 1000000
 	IgnisDamageCap = 20
+	#Ignis's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	IgnisHealthMultiplier = 1.0
+	#Ignis's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	IgnisDamageMultiplier = 1.0
 

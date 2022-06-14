@@ -15,6 +15,16 @@ const gNetherIngot = "gobber2:gobber2_ingot_nether";
 
 onEvent('recipes', event => {
 
+// Origins
+event.shaped("origins:orb_of_origin", ['123'],
+{
+  1:"botania:mana_diamond",
+  2:"hexerei:mandrake_root",
+  3:"minecraft:netherite_ingot"
+})
+
+event.replaceInput({id: "ob_core:paladin_leggings"}, "ob_core:witchstone_shard", "undergarden:masticator_scales")
+event.replaceInput({id: "ob_core:paladin_chestplate"}, "ob_core:witchstone_shard", "ob_aquamirae:abyssal_amethyst")
 // Prefab
 
 event.remove({ output: "prefab:item_starter_farm" });

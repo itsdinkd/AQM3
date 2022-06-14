@@ -117,6 +117,9 @@ const recipeRemoveJei = [
 "cyclic:uncrafter",
 "cyclic:water_candle",
 "cyclic:wireless_item",
+"advancedperipherals:chunk_controller",
+"ob_core:lance_of_northern_star",
+"ob_core:prospectors_pick",
 "assemblylinemachines:enhanced_mystium_chestplate",
 "assemblylinemachines:mystium_flight_harness",
 "evilcraft:broom",
@@ -169,8 +172,8 @@ recipeRemoveJei.forEach(item => {
   event.remove({output: item})
 });
 
-event.remove({id: "mysticalagriculture:mystical_fertilizer"})
-
+event.remove({ id: "mysticalagriculture:mystical_fertilizer"})
+event.remove({ id: "mysticalagriculture:augment/flight" });
 
 // Armor Plus
 armorPMats = [

@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:rabbit_stew",
+  "order": 5,
+  "impact": 0,
+  "loading_priority": 100,
+	"unchoosable": true
+}

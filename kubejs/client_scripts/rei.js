@@ -2,6 +2,7 @@
 console.info('AQM3 -- Removing Items.... v1.0');
 const removeJei = [
   "angelring:itemdiamondring",
+  "ob_core:lance_of_northern_star",
   "armorplus:soul_box",
   "assemblylinemachines:enhanced_mystium_chestplate",
   "assemblylinemachines:mystium_flight_harness",
@@ -9,6 +10,7 @@ const removeJei = [
   "botania:blood_pendant",
   "botania:cocoon",
   "botania:diving_rod",
+  "ob_core:prospectors_pick",
   "evilcraft:blook",
   "botania:fel_pumpkin",
   "botania:flight_tiara_0",
@@ -233,7 +235,7 @@ onEvent('rei.add.items', event => {
 
 onEvent('rei.information', event => {
   event.add('kubejs:star_of_icon', 'Boss Item', ['To Retrieve..', 'Kill Icon of Sin']);
-  event.add('kubejs:demon_pearl', 'Boss Item', ['To Retrieve..', 'Kill Tyrant']);
+  event.add('kubejs:demon_pearl', 'Boss Item', ['To Retrieve..', 'Kill Arch Maykr']);
   event.add('kubejs:corrupted_emerald', 'Boss Item', ['To Retrieve..', 'Kill Mother Demon']);
   event.add('enigmaticlegacy:oblivion_stone', 'How to Use', [
   'In it\'s initial state, keystone does nothing due to having it\'s list empty. You will have to combine it in a crafting grid with any item or block in order to add it to that list',

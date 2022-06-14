@@ -1,0 +1,102 @@
+[
+  {
+    "mob": ["stalwart_dungeons:awful_ghast"],
+    "result": "default",
+    "healthmultiply": 14,
+    "damagemultiply": 3,
+    "speedmultiply": 1.3,
+    "onjoin": true
+  },
+  {
+    "mob": ["stalwart_dungeons:nether_keeper"],
+    "result": "default",
+    "healthmultiply": 10,
+    "damagemultiply": 2.5,
+    "speedmultiply": 1.2,
+    "onjoin": true
+  },
+  {
+    "mob": ["cataclysm:ignis"],
+    "result": "default",
+    "healthmultiply": 12,
+    "damagemultiply": 2.4,
+    "speedmultiply": 1.1,
+    "onjoin": true
+  },
+  {
+    "mob": ["cataclysm:netherite_monstrosity"],
+    "result": "default",
+    "healthmultiply": 12,
+    "damagemultiply": 2.1,
+    "speedmultiply": 1.1,
+    "onjoin": true
+  },
+  {
+    "mob": ["undergarden:masticator"],
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2.61,
+    "speedmultiply": 1.05,
+    "onjoin": true
+  },
+  {
+    "mob": ["goblinsanddungeons:goblin_king"],
+    "result": "default",
+    "healthmultiply": 3,
+    "damagemultiply": 2.2,
+    "onjoin": true
+  },
+  {
+    "mob": ["cataclysm:ender_golem"],
+    "result": "default",
+    "healthmultiply": 15,
+    "damagemultiply": 2.2,
+    "speedmultiply": 1.1,
+    "onjoin": true
+  },
+  {
+    "mob": ["cataclysm:ender_guardian"],
+    "result": "default",
+    "healthmultiply": 12,
+    "damagemultiply": 2.15,
+    "speedmultiply": 1.1,
+    "onjoin": true
+  },
+  {
+    "mob": ["stalwart_dungeons:shelterer"],
+    "result": "default",
+    "healthmultiply": 10,
+    "damagemultiply": 4,
+    "speedmultiply": 1.2,
+    "onjoin": true    
+  },
+  {
+    "mob": ["minecraft:creeper"],
+    "result": "default",
+    "speedmultiply": 1.3,
+    "damagemultiply": 1.7,
+    "random": 0.2
+  },
+  {
+    "mod": "stalwart_dungeons",
+    "result": "default",
+    "healthmultiply": 1.4,
+    "damagemultiply": 1.5,
+    "random": 0.85
+  },
+  {
+    "mod": "cataclysm",
+    "result": "default",
+    "healthmultiply": 2.0,
+    "damagemultiply": 1.5,
+    "random": 0.85,
+    "onjoin": true
+  },
+  {
+    "mod": "orcz",
+    "result": "default",
+    "healthmultiply": 1.8,
+    "damagemultiply": 1.4,
+    "onjoin": true
+  }
+]

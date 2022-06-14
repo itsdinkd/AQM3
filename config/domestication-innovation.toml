@@ -61,7 +61,7 @@
 	#true if frost fang enchant is enabled, false if disabled
 	frost_fang_enabled = true
 	#true if magnetic enchant is enabled, false if disabled
-	magnetic_enabled = false
+	magnetic_enabled = true
 	#true if linked inventory enchant is enabled, false if disabled
 	linked_inventory_enabled = true
 	#true if total recall enchant is enabled, false if disabled

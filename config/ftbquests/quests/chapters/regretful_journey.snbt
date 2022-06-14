@@ -1,0 +1,25 @@
+{
+	id: "09D3A0A1B7F55293"
+	group: "357818B443F9748C"
+	order_index: 0
+	filename: "regretful_journey"
+	title: "Regretful Journey"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.5d
+		subtitle: "Begin your Engimatic Journey"
+		description: ["Once you find the dormant eye and equip it, you will unlock the advancement group to begin this chapter"]
+		id: "3E6F8DA487CABE1A"
+		tasks: [{
+			id: "56E0D6C6B2865608"
+			type: "item"
+			item: {
+				id: "enigmaticlegacy:architect_eye"
+				Count: 1b
+				tag: { }
+			}
+		}]
+	}]
+}
