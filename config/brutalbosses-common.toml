@@ -8,4 +8,7 @@
 	#Global boss spawn chance, determines the chance per treasure chest spawn at which a boss can appear in a structure. Chance X in 100, default = 30
 	#Range: 1 ~ 100
 	globalBossSpawnChance = 5
+	#Minimum distance in blocks, between same bosses spawning, is not 100% guranteed, compares last 10 spawns. default = 50
+	#Range: 0 ~ 1000
+	minDistanceBetweenSame = 50
 

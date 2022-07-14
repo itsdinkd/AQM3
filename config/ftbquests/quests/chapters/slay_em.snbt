@@ -1,0 +1,20 @@
+{
+	id: "51EC7FA6A2228753"
+	group: "357818B443F9748C"
+	order_index: 4
+	filename: "slay_em"
+	title: "Monster Slayer"
+	default_quest_shape: "heart"
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -11.0d
+		y: -6.0d
+		id: "2406B54428525773"
+		tasks: [{
+			id: "648DE596BA4CF591"
+			type: "kill"
+			entity: "alexsmobs:anaconda"
+			value: 100L
+		}]
+	}]
+}

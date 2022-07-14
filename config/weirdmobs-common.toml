@@ -1,0 +1,459 @@
+
+[general]
+
+	#Spawn rate and biome settings:
+	#If you want to change where the mob should spawn then you have to do in this format:
+	#For vanilla minecraft biome --> minecraft:basalt_deltas
+	#For other mod biome --> modid:biome_name
+	#You can look up vanilla biomes at: https://minecraft.fandom.com/wiki/Biome
+	#
+	[general.spawnrate]
+		#
+		#Biome name where Blaze Creeper should spawn
+		bcr_biome = "minecraft:nether_wastes"
+		#
+		#Biome name where Blaze Wolf should spawn
+		bwo_biome = "minecraft:nether_wastes"
+		#
+		#Biome name where Ender Creeper should spawn
+		ecr_biome = "minecraft:the_end"
+		#
+		#Biome name where the Normal Phantom fox should spawn
+		pfo_biome = "minecraft:taiga"
+		#
+		#Biome name where the Arctic Phantom fox should spawn
+		afpo_biome = "minecraft:snowy_taiga"
+		#
+		#Biome name where Rabbit Wolf should spawn
+		rwo_biome = "minecraft:forest"
+		#
+		#Biome name where Spider Llama should spawn
+		sll_biome = "minecraft:desert"
+		#
+		#Biome name where Vex Piglin should spawn
+		vpi_biome = "minecraft:nether_wastes"
+		#
+		#Biome name where Warden Dragon should spawn
+		wdr_biome = "minecraft:swamp"
+		#
+		#Biome name where wolfman and wolfwoman should spawn
+		wma_biome = "minecraft:jungle"
+		#
+		#Biome name where Ender Ghast should spawn
+		egh_biome = "minecraft:end_highlands"
+		#
+		#Biome name where Giant Mosquito should spawn
+		gmo_biome = "minecraft:swamp"
+		#
+		#Biome name where Wither Spider should spawn
+		wsp_biome = "minecraft:warped_forest"
+		#
+		#Biome name where Basalt Snake should spawn
+		bsn_biome = "minecraft:basalt_deltas"
+		#
+		#Biome name where Soul Blaze should spawn
+		sbl_biome = "minecraft:soul_sand_valley"
+		#
+		#Biome name where Silverfish Creeper should spawn
+		sfc_biome = "minecraft:plains"
+		#
+		#Biome name where Bucketed Axolotl should spawn
+		bax_biome = "minecraft:plains"
+		#
+		#Biome name where Big Axolotl should spawn
+		gax_biome = "minecraft:swamp"
+		#
+		#Biome name where Ender Blaze should spawn
+		ebl_biome = "minecraft:the_end"
+		#
+		#Biome name where Fire Guardian should spawn
+		fgu_biome = "minecraft:nether_wastes"
+		#
+		#Biome name where Crimson Phantom should spawn
+		cph_biome = "minecraft:crimson_forest"
+		#
+		#Biome name where Warped Phantom should spawn
+		wph_biome = "minecraft:warped_forest"
+		#
+		#Biome name where Thorn Wolf should spawn
+		two_biome = "minecraft:dark_forest"
+		#
+		#Biome name where Thorn Corrupted Wolfman-1 should spawn
+		tw1_biome = "minecraft:dark_forest"
+		#
+		#Biome name where Thorn Corrupted Wolfman-2 should spawn
+		tw2_biome = "minecraft:dark_forest"
+		#
+		#Biome name where Feathered Serpent should spawn
+		fws_biome = "minecraft:windswept_hills"
+		#
+		#Biome name where Wind Serpent should spawn
+		mws_biome = "minecraft:swamp"
+		#
+		#Biome name where Nether Serpent should spawn
+		nws1_biome = "minecraft:crimson_forest"
+		#
+		#
+		#Biome name where Nether Serpent should spawn
+		nws2_biome = "minecraft:warped_forest"
+
+		#Blaze Creeper
+		[general.spawnrate.blazecreeper]
+			#Spawn Chance
+			#Range: > 0
+			weight = 10
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Blaze Wolf
+		[general.spawnrate.blazewolf]
+			#Spawn Chance
+			#Range: > 0
+			weight = 10
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Ender Creeper
+		[general.spawnrate.endercreeper]
+			#Spawn Chance
+			#Range: > 0
+			weight = 15
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Phantom Fox
+		[general.spawnrate.phantomfox]
+			#Spawn Chance
+			#Range: > 0
+			weight = 10
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Rabbit Wolf
+		[general.spawnrate.rabbitwolf]
+			#Spawn Chance
+			#Range: > 0
+			weight = 13
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 3
+
+		#Spider Llama
+		[general.spawnrate.spiderllama]
+			#Spawn Chance
+			#Range: > 0
+			weight = 11
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 2
+
+		#Vex Piglin
+		[general.spawnrate.vexpiglin]
+			#Spawn Chance
+			#Range: > 0
+			weight = 10
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Warden Dragon
+		[general.spawnrate.wardendragon]
+			#Spawn Chance
+			#Range: > 0
+			weight = 0
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 0
+
+		#Wolfkind
+		[general.spawnrate.wolfkind]
+			#Spawn Chance
+			#Range: > 0
+			weight = 12
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 3
+
+		#Ender Ghast
+		[general.spawnrate.enderghast]
+			#Spawn Chance
+			#Range: > 0
+			weight = 8
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Giant Mosquito
+		[general.spawnrate.giantmosquito]
+			#Spawn Chance
+			#Range: > 0
+			weight = 10
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 2
+
+		#Wither Spider
+		[general.spawnrate.witherspider]
+			#Spawn Chance
+			#Range: > 0
+			weight = 6
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Basalt Snake
+		[general.spawnrate.basaltsnake]
+			#Spawn Chance
+			#Range: > 0
+			weight = 6
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 2
+
+		#Soul Blaze
+		[general.spawnrate.soulblaze]
+			#Spawn Chance
+			#Range: > 0
+			weight = 5
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Silverfish Creeper
+		[general.spawnrate.silverfishcreeper]
+			#Spawn Chance
+			#Range: > 0
+			weight = 0
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 0
+
+		#Bucketed Axolotl
+		[general.spawnrate.bucketedaxolotl]
+			#Spawn Chance
+			#Range: > 0
+			weight = 7
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Big Axolotl
+		[general.spawnrate.bigaxolotl]
+			#Spawn Chance
+			#Range: > 0
+			weight = 7
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Creeper Spiderling
+		[general.spawnrate.creeper_spiderling]
+			#Spawn Chance
+			#Range: > 0
+			weight = 9
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Creeper Spider
+		[general.spawnrate.creeper_spider]
+			#Spawn Chance
+			#Range: > 0
+			weight = 7
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Creeper Spider Broodmother
+		[general.spawnrate.creeper_spider_broodmother]
+			#Spawn Chance
+			#Range: > 0
+			weight = 0
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 0
+
+		#Ender Blaze
+		[general.spawnrate.enderblaze]
+			#Spawn Chance
+			#Range: > 0
+			weight = 10
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Fire Guardian
+		[general.spawnrate.fire_guardian]
+			#Spawn Chance
+			#Range: > 0
+			weight = 6
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Crimson Phantom
+		[general.spawnrate.crimson_phantom]
+			#Spawn Chance
+			#Range: > 0
+			weight = 7
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Warped Phantom
+		[general.spawnrate.warped_phantom]
+			#Spawn Chance
+			#Range: > 0
+			weight = 7
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Thorn Wolf
+		[general.spawnrate.thorn_wolf]
+			#Spawn Chance
+			#Range: > 0
+			weight = 8
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Thorn Corrupted Wolfman First Stage 1
+		[general.spawnrate.thorn_wolf_1]
+			#Spawn Chance
+			#Range: > 0
+			weight = 8
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Thorn Corrupted Wolfman First Stage 2
+		[general.spawnrate.thorn_wolf_2]
+			#Spawn Chance
+			#Range: > 0
+			weight = 7
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Feathered Serpent
+		[general.spawnrate.feathered_serpent]
+			#Spawn Chance
+			#Range: > 0
+			weight = 10
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Wind Serpent
+		[general.spawnrate.wind_serpent]
+			#Spawn Chance
+			#Range: > 0
+			weight = 10
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Nether Serpent
+		[general.spawnrate.nether_serpent]
+			#Spawn Chance
+			#Range: > 0
+			weight = 8
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+

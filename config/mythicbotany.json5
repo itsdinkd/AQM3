@@ -3,6 +3,10 @@
   // the mead of kvasir as usual but the portal to alfheim will not work.
   "enableAlfheim": true,
   
+  // Whether players that manage to get to alfheim via another mod but have not drunk the mead of kvasir
+  // should get a blindness effect..
+  "lockAlfheim": true,
+  
   // Whether to replace the recipe for the Gaia Pylon with a recipe that requires Alfsteel.
   "replaceGaiaRecipe": true,
   
@@ -118,9 +122,7 @@
     "illusioner": {
     
       "max": 1,
-      
       "min": 1,
-      
       "weight": 1
     },
     
@@ -128,9 +130,7 @@
     "pixies": {
     
       "max": 8,
-      
       "min": 4,
-      
       "weight": 5
     },
     
@@ -138,9 +138,7 @@
     "witch": {
     
       "max": 2,
-      
       "min": 1,
-      
       "weight": 2
     }
   }

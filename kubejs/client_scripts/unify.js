@@ -101,9 +101,15 @@ const UNIFIED_REMOVAL = [
 "tinkers_reforged:aluminum_block",
 "tinkers_reforged:aluminum_dust",
 "tinkers_reforged:aluminum_ingot",
-"tinkers_reforged:deepslate_aluminum_ore"
+"tinkers_reforged:deepslate_aluminum_ore",
+"futurepack:iron_stick",
+"assemblylinemachines:iron_rod",
+"buildersaddition:iron_rod",
+"silentgear:iron_rod",
+"createaddition:gold_rod",
+"assemblylinemachines:copper_rod"
 ];
-onEvent('jei.hide.items', event => {
+onEvent('rei.hide.items', event => {
 UNIFIED_REMOVAL.forEach(item => {
     event.hide(item)
 })

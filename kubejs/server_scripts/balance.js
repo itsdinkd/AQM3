@@ -104,17 +104,36 @@ event.replaceInput(
     "gobber2:gobber2_ingot_end"
 );
 
+
 event.replaceInput(
   { id:"cyclic:charm_creeper" },
     "cyclic:eye_teleport",
     "thermal:lightning_tnt"
 );
 
+
 event.replaceInput(
-  { id:"cyclic:charm_magicdefense" },
-    "cyclic:heart_empty",
-    "mna:brimstone_charm"
+  { id:"cyclic:charm_luck" },
+    "minecraft:brain_coral_block",
+    "futurepack:upgrade_luck"
 );
+
+
+event.remove({id:"cyclic:charm_magicdefense"})
+event.shaped('cyclic:charm_magicdefense', ["ggg","fcf"," a "],
+{
+  g: "minecraft:polished_blackstone_pressure_plate",
+  c: "mna:brimstone_charm",
+  f: "minecraft:ender_pearl",
+  a: "cyclic:fireball_dark"
+})
+event.remove({id: "cyclic:shapeless/waxed_redstone"})
+
+event.replaceInput(
+  {id: "cyclic:wand_hypno"},
+  "minecraft:brown_mushroom",
+  "mekanism:advanced_control_circuit"
+)
 
 event.replaceInput(
   { id:"cyclic:charm_venom" },
@@ -357,43 +376,43 @@ banMaItems.forEach(item => {
 
   
   event.remove({output: 'angelring:itemring'});
-  // event.recipes.extendedcrafting.shapedTable('angelring:itemring', [
-  //  'diwf fMid',
-  //  'Idi   idI',
-  //  'c1 iXi 2c',
-  //  'x ICiFI 8',
-  //  '  Ei iE  ',
-  //  '9 IFisI 0',
-  //  'c3 izi Tc',
-  //  'Idi   idI',
-  //  'di65 57id'
-  //  ],
-  //  {
-  //    d: 'gobber2:dragon_star',
-  //    C: 'alexsmobs:dimensional_carver',
-  //    i: 'mysticalagriculture:master_infusion_crystal',
-  //    z: 'extendedcrafting:the_ultimate_ingot',
-  //    F: 'extradisks:1048576k_fluid_storage_part',
-  //    E: 'assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser',
-  //    1: 'minecraft:apple',
-  //    2: 'minecraft:apple',
-  //    3: 'minecraft:apple',
-  //    s: 'armorplus:soul_slayer',
-  //    X: 'extendedcrafting:the_ultimate_catalyst',
-  //    I: 'botania:gaia_ingot',
-  //    T: 'assemblylinemachines:novasteel_fluid_tank',
-  //    f: 'assemblylinemachines:chaotic_fertilizer',
-  //    c: 'minecraft:apple',
-  //    w: 'mythicbotany:mjoellnir',
-  //    5: 'ironfurnaces:million_furnace',
-  //    6: '',
-  //    7: '',
-  //    x: 'blue_skies:summoner_trophy',
-  //    8: 'blue_skies:alchemist_trophy',
-  //    9: 'blue_skies:starlit_crusher_trophy',
-  //    0: 'blue_skies:arachnarch_trophy',
-  //    M: 'minecraft:apple'
-  //  })
+   event.recipes.extendedcrafting.shapedTable('angelring:itemring', [
+    'diwf fMid',
+    'Idi   idI',
+    'c1 iXi 2c',
+    'x ICiFI 8',
+    '  Ei iE  ',
+    '9 IFisI 0',
+    'c3 izi Tc',
+    'Idi   idI',
+    'di65 57id'
+    ],
+    {
+      0: 'blue_skies:arachnarch_trophy',
+      1: "mna:faction_horn_undead",
+      2: "cataclysm:bulwark_of_the_flame",
+      3: "stalwart_dungeons:awful_crystal",
+      5: 'ironfurnaces:million_furnace',
+      6: 'mekanism:ultimate_control_circuit',
+      7: "evilcraft:sanguinary_environmental_accumulator",
+      8: 'blue_skies:alchemist_trophy',
+      9: 'blue_skies:starlit_crusher_trophy',
+      C: 'alexsmobs:dimensional_carver',
+      c: "stalwart_dungeons:void_crystal",
+      d: 'gobber2:dragon_star',
+      E: 'assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser',
+      f: 'assemblylinemachines:chaotic_fertilizer',
+      F: 'extradisks:1048576k_fluid_storage_part',
+      I: 'botania:gaia_ingot',
+      i: 'mysticalagriculture:master_infusion_crystal',
+      M: 'minecraft:apple',
+      s: 'armorplus:soul_slayer',
+      T: 'assemblylinemachines:novasteel_fluid_tank',
+      w: 'mythicbotany:mjoellnir',
+      x: 'blue_skies:summoner_trophy',
+      X: 'extendedcrafting:the_ultimate_catalyst',
+      z: 'extendedcrafting:the_ultimate_ingot'
+    })
 
   event.remove({id: 'extradisks:part/1024k_storage_part'})
   event.shaped('extradisks:1024k_storage_part', ['ltl', 'grg', 'lgl'],
@@ -697,4 +716,40 @@ event.replaceInput(
 "mysticalagriculture:prosperity_gemstone"
 );
 
+event.remove({id: "futurepack:timemanipulator_0"})
+event.remove({output: "futurepack:external_core"})
+event.custom(
+  {
+    "type": "futurepack:maschin_shaped",
+    "group": "futurepack",
+    "pattern": [
+      "QEQ",
+      "SMS",
+      "CTC"
+    ],
+    "key": {
+      "Q": {
+        "tag": "forge:ingots/quantanium"
+      },
+      "S": {
+        "item": "futurepack:coil_quantanium"
+      },
+      "C": {
+        "item": "futurepack:composite_metal"
+      },
+      "M": {
+        "item": "futurepack:maschineboard"
+      },
+      "T": {
+        "item": "futurepack:master_core"
+      },
+      "E": {
+        "item": "futurepack:extern_cooler"
+      }
+    },
+    "result": {
+      "item": "futurepack:external_core"
+    }
+  }
+)
 })

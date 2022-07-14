@@ -249,7 +249,7 @@
 #Mob Drops Configuration
 [drops]
 
-	#wither_boss drop configuration
+	#wither_boss drop configuration (CURRENTLY DISABLED BY THE MOD)
 	[drops.wither_boss]
 		#ArmorPlus's wither_boss trophy drops: enable/disable
 		enableTrophyDrops = true
@@ -258,7 +258,7 @@
 		#ArmorPlus's wither_boss soul drops: enable/disable
 		enableSoulDrops = true
 
-	#ender_dragon drop configuration
+	#ender_dragon drop configuration (CURRENTLY DISABLED BY THE MOD)
 	[drops.ender_dragon]
 		#ArmorPlus's ender_dragon trophy drops: enable/disable
 		enableTrophyDrops = true
@@ -267,7 +267,7 @@
 		#ArmorPlus's ender_dragon soul drops: enable/disable
 		enableSoulDrops = true
 
-	#elder_guardian drop configuration
+	#elder_guardian drop configuration (CURRENTLY DISABLED BY THE MOD)
 	[drops.elder_guardian]
 		#ArmorPlus's elder_guardian trophy drops: enable/disable
 		enableTrophyDrops = true

@@ -9,7 +9,7 @@
 		maxPower = 100000
 		#Base cost per block broken
 		#Range: > 0
-		baseCost = 250
+		baseCost = 175
 
 	#Upgrade Cost Settings
 	[power.upgrades]

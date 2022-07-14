@@ -94,6 +94,8 @@ const removeJei = [
   "cyclic:uncrafter",
   "cyclic:water_candle",
   "cyclic:wireless_item",
+  "cyclic:stirrups",
+  "cyclic:stirrups_reverse",
   "enigmaticlegacy:ultimate_potion_lingering",
   "enigmaticlegacy:ultimate_potion_splash",
   "enigmaticlegacy:ultimate_potion",
@@ -107,6 +109,9 @@ const removeJei = [
   "extradisks:infinite_storage_part",
   "futurepack:ore_tin_deepslate",
   "futurepack:ore_tin",
+  "reliquary:ender_staff",
+  "reliquary:alkahestry_tome",
+  "cyclic:apple_sprout_diamond",
   "gardentools:irrigation_core",
   "gobber2:gobber2_hammer_end",
   "gobber2:gobber2_hammer_nether",
@@ -146,11 +151,17 @@ const removeJei = [
   "prefab:item_swift_blade_steel",
   "prefab:item_swift_blade_stone",
   "prefab:item_swift_blade_wood",
-  "reliquary:midas_touchstone",
-  "reliquary:mob_charm_belt",
-  "reliquary:mob_charm_fragment",
-  "reliquary:mob_charm",
+  "reliquary:ender_staff",
+  "reliquary:wraith_node",
   "reliquary:rod_of_lyssa",
+  "reliquary:rending_gale",
+  "reliquary:alkahestry_tome",
+  "reliquary:infernal_tear",
+  "reliquary:mob_charm",
+  "reliquary:mob_charm_fragment",
+  "reliquary:mob_charm_belt",
+  "reliquary:infernal_chalice",
+  "reliquary:midas_touchstone",
   "reliquary:void_tear",
   "tinkers_reforged:aluminum_ore",
   "tinkers_reforged:deepslate_aluminum_ore",
@@ -166,13 +177,21 @@ const removeJei = [
   "tombstone:scroll_of_reach",
   "tombstone:tablet_of_assistance",
   "tombstone:tablet_of_home",
-  "tombstone:tablet_of_recall"
+  "tombstone:tablet_of_recall",
+  "futurepack:timemanipulator",
+  "cyclic:flute_summoning",
+  "cyclic:harvester",
+  "cyclic:crusher",
+  "cyclic:user"
   ];
 
-onEvent('jei.hide.items', event => {
+onEvent('rei.hide.items', event => {
   removeJei.forEach(item => {
     event.hide(item)
-  })
+
+
+  event.hide(Item.of('reliquary:mob_charm').ignoreNBT())
+  event.hide(Item.of('reliquary:mob_charm').ignoreNBT())
 
 // refined storage colors removal
 let rsColors = [
@@ -249,3 +268,8 @@ onEvent('rei.information', event => {
   '- List completely ignores damage, enchants and NBT of added items. Therefore, it\'s not possible to specify seperate item types that are divided by those parameters (for instance - if any vanilla Splash Potion is combined with the keystone, it will consume any Splash Potions regardless of effects);'
   ]);
 });
+
+onEvent('rei.remove.categories', event => {
+     event.yeet("reliquary:alkahestry_crafting")
+     event.yeet("reliquary:alkahestry_charging")
+   })

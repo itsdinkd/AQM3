@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:shiraz_palace",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 888377716,
+    "spacing": 244,
+    "separation": 160,
+    "type": "minecraft:random_spread"
+  }
+}

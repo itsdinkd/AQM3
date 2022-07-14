@@ -12,7 +12,7 @@
 
 	[Settings."FPS Counter"]
 		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "ADVANCED"
-		"FPS Counter Distance" = 12
+		"FPS Counter Distance" = 10
 
 	[Settings."Entity Distance"]
 		"Enable Max Distance Checks" = true

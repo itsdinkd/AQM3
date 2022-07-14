@@ -1,0 +1,39 @@
+{
+	id: "4F49AFFCF137C040"
+	order_index: 5
+	title: "Rare Loot"
+	loot_size: 1
+	rewards: [
+		{ item: "cyclic:heart" }
+		{ item: "paraglider:stamina_vessel" }
+		{
+			item: {
+				id: "reliquary:potion_essence"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 500
+						name: "reliquary:cure"
+						potency: 3
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "reliquary:potion"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 7500
+						name: "minecraft:health_boost"
+						potency: 2
+					}]
+				}
+			}
+		}
+		{ item: "reliquary:glowing_bread" }
+		{ item: "cyclic:apple_diamond" }
+		{ item: "cyclic:inventory_cake" }
+	]
+}

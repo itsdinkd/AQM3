@@ -1,0 +1,222 @@
+
+#Player Companion's (General configuration)
+[General]
+	#Respawn companion on death.
+	respawnOnDeath = true
+	#Respawn delay in seconds (1200 secs = in-game day).
+	#Range: 1 ~ 8400
+	respawnDelay = 1200
+	#Allow's damage to an owned companion by the owner or their owned companions.
+	friendlyFire = false
+
+["Level scaling"]
+	#The max base health a companion can get with level 60.
+	#Range: 0 ~ 200
+	maxHealth = 20
+	#The max base attack damage a companion can get with level 60.
+	#Range: 0 ~ 200
+	maxAttackDamage = 5
+
+[Gui]
+	#Position for the gui elements.
+	#Allowed Values: BOTTOM, BOTTOM_LEFT, BOTTOM_RIGHT, HOTBAR_LEFT, HOTBAR_RIGHT, LEFT, RIGHT, TOP, TOP_LEFT, TOP_RIGHT
+	guiPosition = "HOTBAR_RIGHT"
+	#The offset on X axis from chosen position.
+	#Range: > -2147483648
+	guiOffsetX = 0
+	#The offset on X axis from chosen position.
+	#Range: > -2147483648
+	guiOffsetY = 0
+
+[Hud]
+	#Enable hud.
+	hudEnabled = false
+	#Enable additional display of name tag.
+	hudNameTagEnabled = false
+	#Enable display of owner.
+	hudOwnerEnabled = true
+	#Enable display of status like sitting.
+	hudStatusEnabled = true
+	#Radius in which hud is displayed.
+	#Range: 0 ~ 256
+	hudDisplayRadius = 32
+
+["NPC Names"]
+	#List of female NPC names.
+	namesNPCFemale = ["Aika", "Amy", "Asuna", "Beatrice", "Calypso", "Cassandra", "Deedlit", "Elizabeth", "Enya", "Faith", "Freya", "Giselle", "Isolde", "Julia", "Meredith", "Monika", "Sonya"]
+	#List of male NPC names.
+	namesNPCMale = ["Adam", "Aron", "Beowulf", "Bob", "Cain", "Ethan", "Guy", "Jack", "Jason", "John", "Julian", "Kawo", "Luca", "Markus", "Miso", "Parn", "Romolo"]
+	#List of misc NPC names.
+	namesNPCMisc = ["Alexis", "Quinn"]
+
+["Player Companion Names"]
+	#List of female player companion names.
+	namesCompanionFemale = ["Alice", "Alina", "Amy", "Ayame", "Beauty", "Bella", "Bonnie", "Carla", "Carmen", "Celina", "Chiyo", "Chloe", "Conny", "Dina", "Emi", "Emma", "Fluffy", "Fuyumi", "Gina", "Haruhi", "Hope", "Iivy", "Isabell", "Itsumi", "Jessie", "Kacy", "Karin", "Kasumi", "Keira", "Lina", "Lucy", "Luna", "Mai", "Marina", "Megumi", "Melody", "Mia", "Mimi", "Mizue", "Nami", "Nicky", "Princess", "Rainy", "Reiko", "Sakura", "Sandy", "Takeko", "Trixie", "Umi", "Vivi", "Yona", "Yukari", "Zoe"]
+	#List of male player companion names.
+	namesCompanionMale = ["Alex", "Andrew", "Archie", "Benny", "Charlie", "Coco", "Derek", "Eric", "Felix", "Frankie", "Gustav", "Haruo", "Hector", "Henry", "Hunter", "Ikuo", "Jin", "Kasimir", "Kazuma", "Larry", "Leo", "Leonardo", "Loki", "Marin", "Masato", "Max", "Norio", "Osamu", "Oskar", "Prince", "Roker", "Rufus", "Ryu", "Shadow", "Shin", "Simba", "Snickers", "Sparky", "Spike", "Taizo", "Tiger", "Timmy", "Turbo", "Yoshi", "Yuma", "Zenjiro", "Zottel"]
+	#List of misc player companion names.
+	namesCompanionMisc = ["Alex", "Angel", "Buddy", "Cato", "Charlie", "Cheddar", "Creamy", "Curly", "Dakota", "Elisa", "Foxy", "Frana", "Inky", "Isa", "Jesse", "Jona", "Joyce", "Jule", "Kaya", "Luka", "Mika", "Morgan", "Patches", "Phantom", "Riley", "Robin", "Sam", "Sanja", "Sascha", "Sasha", "Skye", "Smokey", "Smokie", "Toni", "Yannie"]
+
+["Collector Type"]
+	#Defines the radius in which items are automatically collected.
+	#Range: 0 ~ 16
+	collectorTypeRadius = 3
+
+["Healer Type"]
+	#Defines the radius in which players are healed.
+	#Range: 0 ~ 32
+	healerTypeRadius = 8
+	#Defines the min. healing amount depending on the level.
+	#Range: 0 ~ 16
+	healerTypeMinAmount = 2
+	#Defines the max. healing amount depending on the level.
+	#Range: 0 ~ 16
+	healerTypeMaxAmount = 10
+
+["Supporter Type"]
+	#Defines the radius in which players are buffed.
+	#Range: 0 ~ 32
+	supporterTypeRadius = 8
+	#Defines the amount of ticks how long the damage boost is enabled.
+	#Range: 20 ~ 6000
+	supporterTypeDamageBoostDuration = 1200
+	#Defines the amount of ticks how long the damage resistance protection is enabled.
+	#Range: 20 ~ 6000
+	supporterTypeDamageResistanceDuration = 1200
+	#Defines the amount of ticks how long the fire resistance protection is enabled.
+	#Range: 20 ~ 6000
+	supporterTypeFireResistanceDuration = 1200
+
+[Dobutsu]
+	#Enable/Disable the dobutsu spawn.
+	dobutsuSpawnEnable = true
+	#Min group size.
+	#Range: 0 ~ 64
+	dobutsuMinGroup = 1
+	#Max group size.
+	#Range: 0 ~ 64
+	dobutsuMaxGroup = 2
+	#Spawn weight.
+	#Range: 0 ~ 100
+	dobutsuWeight = 6
+
+[Fairy]
+	#Enable/Disable the fairy spawn.
+	fairySpawnEnable = true
+	#Min group size.
+	#Range: 0 ~ 64
+	fairyMinGroup = 1
+	#Max group size.
+	#Range: 0 ~ 64
+	fairyMaxGroup = 2
+	#Spawn weight.
+	#Range: 0 ~ 100
+	fairyWeight = 6
+
+[Firefly]
+	#Enable/Disable the firefly spawn.
+	fireflySpawnEnable = true
+	#Min group size.
+	#Range: 0 ~ 64
+	fireflyMinGroup = 1
+	#Max group size.
+	#Range: 0 ~ 64
+	fireflyMaxGroup = 1
+	#Spawn weight.
+	#Range: 0 ~ 100
+	fireflyWeight = 6
+
+[Pig]
+	#Enable/Disable the pig spawn.
+	pigSpawnEnable = true
+	#Min group size.
+	#Range: 0 ~ 64
+	pigMinGroup = 1
+	#Max group size.
+	#Range: 0 ~ 64
+	pigMaxGroup = 1
+	#Spawn weight.
+	#Range: 0 ~ 100
+	pigWeight = 6
+
+[Rooster]
+	#Enable/Disable the rooster spawn.
+	roosterSpawnEnable = true
+	#Min group size.
+	#Range: 0 ~ 64
+	roosterMinGroup = 1
+	#Max group size.
+	#Range: 0 ~ 64
+	roosterMaxGroup = 2
+	#Spawn weight.
+	#Range: 0 ~ 100
+	roosterWeight = 6
+
+[Samurai]
+	#Enable/Disable the samurai spawn.
+	samuraiSpawnEnable = true
+	#Min group size.
+	#Range: 0 ~ 64
+	samuraiMinGroup = 1
+	#Max group size.
+	#Range: 0 ~ 64
+	samuraiMaxGroup = 1
+	#Spawn weight.
+	#Range: 0 ~ 100
+	samuraiWeight = 6
+
+["Small Slime"]
+	#Enable/Disable the small slime spawn.
+	smallSlimeSpawnEnable = true
+	#Min group size.
+	#Range: 0 ~ 64
+	smallSlimeMinGroup = 1
+	#Max group size.
+	#Range: 0 ~ 64
+	smallSlimeMaxGroup = 2
+	#Spawn weight.
+	#Range: 0 ~ 100
+	smallSlimeWeight = 6
+
+["Small Ghast"]
+	#Explosion power
+	#Range: 0 ~ 16
+	smallGhastExplosionPower = 0
+	#Enable/Disable the small ghast spawn.
+	smallGhastSpawnEnable = true
+	#Min group size.
+	#Range: 0 ~ 64
+	smallGhastMinGroup = 1
+	#Max group size.
+	#Range: 0 ~ 64
+	smallGhastMaxGroup = 2
+	#Spawn weight.
+	#Range: 0 ~ 100
+	smallGhastWeight = 6
+
+[Snail]
+	#Enable/Disable the snail spawn.
+	snailSpawnEnable = true
+	#Min group size.
+	#Range: 0 ~ 64
+	snailMinGroup = 1
+	#Max group size.
+	#Range: 0 ~ 64
+	snailMaxGroup = 2
+	#Spawn weight.
+	#Range: 0 ~ 100
+	snailWeight = 6
+
+["Welsh Corgi"]
+	#Enable/Disable the welsh corgi spawn.
+	welshCorgiSpawnEnable = true
+	#Min group size.
+	#Range: 0 ~ 64
+	welshCorgiMinGroup = 1
+	#Max group size.
+	#Range: 0 ~ 64
+	welshCorgiMaxGroup = 2
+	#Spawn weight.
+	#Range: 0 ~ 100
+	welshCorgiWeight = 6
+

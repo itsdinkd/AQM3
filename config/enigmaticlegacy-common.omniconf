@@ -397,6 +397,16 @@
     # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
     I:CursedScrollRegenBoost=2
 
+    # Chance that Dimensional Anchor will not spend a charge upon player respawn [range: 0 ~ 32768, default: 35, synchronized: yes]
+    I:EndAnchorChargeSaveChance=35
+
+    # List of specific dimensions in which Dimensional Anchor will not work. If you want it to only work in The End - use EndExclusiveMode instead. Examples: minecraft:overworld, minecraft:the_nether [default: , synchronized: no]
+    S:EndAnchorDimensionBlacklist <
+     >
+
+    # If true, Dimensional Anchor will only work in The End. [default: false, synchronized: yes]
+    B:EndAnchorEndExclusiveMode=true
+
     # Attack damage of The Ender Slayer, actual damage shown in tooltip will be is 4 + this_value. [range: 0 ~ 32768, default: 4, synchronized: yes]
     I:EnderSlayerAttackDamage=4
 
@@ -698,7 +708,7 @@
         orcz:bigorcboss
      >
 
-    # Maximum amount of Soul Crystals a player can loose before they won't drop anymore. Each crystal lost subtracts 10% of from their maximum possible health value. [range: 1 ~ 10, default: 9, synchronized: no]
+    # Maximum amount of Soul Crystals a player can lose before they won't drop anymore. If set to 10 - player can loose all of them, and doing so will result in permadeath. Each crystal lost subtracts 10% of from their maximum possible health value. [range: 1 ~ 10, default: 9, synchronized: no]
     I:MaxSoulCrystalLoss=9
 
     # Soul Crystals mechanic mode. 0 - disabled unless enforced by specific in-game items; 1 - also enabled when keepInventory is true; 2 - always enabled. [range: 0 ~ 2, default: 0, synchronized: no]

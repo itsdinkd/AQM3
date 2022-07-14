@@ -1,7 +1,7 @@
 
 [general]
 	#Automatically kill chunkloader vehicles, this is intended for servers that regulate chunkloading using different mods. Please consider adding a datapack to disable the recipe if using this option.
-	disableChunkLoading = true
+	disableChunkLoading = false
 
 [vessel]
 

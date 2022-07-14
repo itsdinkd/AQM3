@@ -64,12 +64,14 @@ onEvent('recipes', event => {
     // Tier 2 & 3 Assembly on Pure Iron Plate Requiring Thermal Press from TConstruct gold small plate 
     event.remove({output: 'assemblylinemachines:pure_iron_plate'})
     event.remove({id: 'assemblylinemachines:pneumatic/plates/pure_iron'})
+
     event.custom(
         {
             "type": "thermal:press",
             "ingredients": [
               {
-                "item": "assemblylinemachines:pure_iron_ingot"
+                "item": "assemblylinemachines:pure_iron_ingot",
+                "count": 3
               },
               {
                 "item": "tconstruct:plate_cast"
@@ -78,7 +80,7 @@ onEvent('recipes', event => {
             "result": [
               {
                 "item": "assemblylinemachines:pure_iron_plate",
-                "count": 3
+                "count": 9
               }
             ],
             "energy": 2400

@@ -109,6 +109,10 @@
 			#Do the four generate in the world.  If false, the 4 flower blocks and 3 features (flower_all, flower_tulip_ flower_lime) will still be registered and can be used externally (data packs etc), but the mod will not use the features to generate/place flowers in world-generation
 			enabled = true
 
+		[cyclic.worldgen.cyan_podzol_legacy]
+			#Enable the legacy feature that will spawn a Cyan flower when bonemeal is used on Podzol
+			enabled = false
+
 	#####################################################################################
 	# Block specific configs
 	#####################################################################################
@@ -291,7 +295,7 @@
 			#Range: 1 ~ 9999
 			ticks = 90
 			#ITEM IDS HERE.  Block ALL recipes that output this item, no matter which recipe they use
-			ignore_list = ["extendedcrafting:*", "minecraft:elytra", "minecraft:tipped_arrow", "minecraft:magma_block", "minecraft:stick", "minecraft:*_dye", "spectrite:spectrite_arrow", "spectrite:spectrite_arrow_special", "techreborn:uumatter", "projecte:*"]
+			ignore_list = ["extendedcrafting:*", "minecraft:elytra", "minecraft:tipped_arrow", "minecraft:magma_block", "minecraft:stick", "minecraft:*_dye", "spectrite:spectrite_arrow", "spectrite:spectrite_arrow_special", "techreborn:uumatter", "projecte:*", "mekanism:*"]
 			#RECIPE IDS HERE.  Block these recipe ids from being reversed, but do not block all recipes for this output item
 			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "attained*", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*", "forcecraft:transmutation*"]
 

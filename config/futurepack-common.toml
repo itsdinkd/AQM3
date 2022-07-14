@@ -181,5 +181,5 @@
 	#Change this if you dont not want to use the vanilla dimension as start but rather a differen one.
 	overworld_dimension = "overworld"
 	#A blacklist for disabling the repair of items with the recycler tool.
-	bl_recycler_repair = ["modid1:itemA", "modid2:itemB"]
+	bl_recycler_repair = ["modid1:itemA", "modid2:itemB", "aiotbotania:.*", "stalwart_dungeons:.*", "reliquary:.*", "cyclic:.*", "gobber2:.*", ".*", "*"]
 

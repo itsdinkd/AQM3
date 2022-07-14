@@ -558,10 +558,11 @@
 			}]
 		}
 		{
+			title: "Get your Starting House Prefab"
 			icon: "prefab:item_start_house"
-			x: 2.5d
-			y: 1.5d
-			subtitle: "Use Away from World Spawn"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Submit 2 Levels, Use Away from World Spawn"
 			description: ["You've done it. You have played AQM3 for 5+ Minutes and earned a starter house. Prefab features tons of pre-built structures that you can use, but for the other prefab's youll need to upgrade your PMMO attributes like building. "]
 			id: "75ACA4C3F5E0CA41"
 			tasks: [{
@@ -577,8 +578,8 @@
 			}]
 		}
 		{
-			x: 0.18035714285714022d
-			y: -4.375d
+			x: 0.008928571428576504d
+			y: -4.133928571428569d
 			subtitle: "I will be adding more quests over time, mainly from a huge quest update all at once."
 			size: 2.0d
 			id: "6515F80F256CBD9E"

@@ -14,7 +14,7 @@
 		# If the borders draw over items instead of under.
 		over_items = false
 		# If the borders should have a more prominent glow.
-		extra_glow = false
+		extra_glow = true
 		# If automatic borders (based on item rarity) should be enabled.
 		auto_borders = true
 
