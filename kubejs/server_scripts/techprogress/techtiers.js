@@ -15,7 +15,7 @@ onEvent('recipes', event => {
     {
         c: "thermal:charge_bench",
         p: "quark:obsidian_pressure_plate",
-        s: "#forge:ingots/steel",
+        s: "assemblylinemachines:strange_matter",
         e: "mekanism:energy_tablet"
     })
     // Thermal Chargepad requiring T1 charger
@@ -26,9 +26,7 @@ onEvent('recipes', event => {
     // Tier 2 of thermal requiring Tier 1 of Assembly
     event.replaceInput({id: "thermal:parts/invar_gear"}, "minecraft:iron_nugget", "assemblylinemachines:steel_ingot");
 
-
-
-    // Tier 1 of Mekanism requiring Tier 4ish of Assemblylines
+    // Tier 1 of Mekanism requiring Tier 3/4ish of Assemblylines
     event.replaceInput({id: "mekanism:control_circuit/basic"}, "mekanism:ingot_osmium", "assemblylinemachines:attuned_titanium_ingot");
     // Tier 2 of Mekanism requiring Tier 4 of Assmembly Lines
     event.remove({id: "mekanism:control_circuit/advanced"})
@@ -36,9 +34,26 @@ onEvent('recipes', event => {
     {
         p: "mekanism:alloy_infused",
         u: "mekanism:basic_control_circuit",
-        c: "assemblylinemachines:novasteel_ingot",
-        P: "oresabovediamonds:black_opal"
+        c: "assemblylinemachines:raw_novasteel_compound",
+        P: "oresabovediamonds:amethyst"
     })
+
+    event.remove({id: "mekanism:control_circuit/elite"})
+    event.shaped("mekanism:elite_control_circuit", ['ACA', ' D '],
+    {
+        A: "mekanism:advanced_control_circuit",
+        C: "#mekanism:alloys/reinforced",
+        D: "assemblylinemachines:novasteel_ingot",
+    })
+
+    event.remove({id: "mekanism:control_circuit/ultimate"})
+    event.shaped("mekanism:ultimate_control_circuit", ['ACA', ' P '],
+    {
+      A: "mekanism:elite_control_circuit",
+      C: "#mekanism:alloys/atomic",
+      P: "oresabovediamonds:black_opal"
+    })
+
 
     // Assembly Line Machines Reactor Core
     event.replaceInput({id:"mekanismgenerators:reactor/controller"}, "mekanism:basic_chemical_tank", "assemblylinemachines:entropy_reactor_core")

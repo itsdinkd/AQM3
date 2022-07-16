@@ -2,7 +2,7 @@
 #Idle power drain = idlePowerDrain + portal size * sizePowerDrain
 #Interdimensional teleport power drain = travelPowerDrain + dimensionPowerDrain
 #Same dimension teleport power drain = travelPowerDrain + (target distance)^(1/2) * distancePowerDrain
-[Power Consumption]
+["Power Consumption"]
     # How much idle power does the portal drain per block of its size?
     # Allowed range: 0.0 ~ 1000000.0 - Default: 0.5
     sizePowerDrain = 0.5
@@ -27,7 +27,7 @@
     # Allowed range: 0 ~ 1000000 - Default: 400
     dimensionPowerDrain = 400
 
-[Target Devices]
+["Target Devices"]
     # The maximum number of targets that can be stored in the advanced target definition device.
     # Allowed range: 1 ~ 10 - Default: 5
     advancedDeviceTargetCount = 5
@@ -49,7 +49,7 @@
     # Allowed values: true, false - Default: false
     requireCorners = false
 
-[Target Cells]
+["Target Cells"]
     # The number of targets the advanced target cell can store.
     # Allowed range: 1 ~ 20 - Default: 8
     advancedTargetCellCapacity = 8
@@ -62,7 +62,7 @@
     # Allowed range: 1 ~ 20 - Default: 1
     stabilizerTargetCapacity = 1
 
-[Energy Cells]
+["Energy Cells"]
     # The amount of energy the portal stabilizer can store.
     # Allowed range: 1 ~ 1000000 - Default: 5000
     stabilizerEnergyCapacity = 5000

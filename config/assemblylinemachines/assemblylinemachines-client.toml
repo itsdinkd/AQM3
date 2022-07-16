@@ -8,5 +8,5 @@ customTooltipFrames = true
 #This may be overridden by the server.
 receiveGuideBook = true
 #Do you want to receive mod update messages when the mod is out of date and you connect to a server?
-receiveUpdateMessages = true
+receiveUpdateMessages = false
 

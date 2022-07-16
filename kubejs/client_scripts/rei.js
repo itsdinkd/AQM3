@@ -178,6 +178,7 @@ const removeJei = [
   "tombstone:tablet_of_assistance",
   "tombstone:tablet_of_home",
   "tombstone:tablet_of_recall",
+  "reliquary:infernal_tear",
   "futurepack:timemanipulator",
   "cyclic:flute_summoning",
   "cyclic:harvester",
@@ -188,7 +189,7 @@ const removeJei = [
 onEvent('rei.hide.items', event => {
   removeJei.forEach(item => {
     event.hide(item)
-
+  })
 
   event.hide(Item.of('reliquary:mob_charm').ignoreNBT())
   event.hide(Item.of('reliquary:mob_charm').ignoreNBT())
@@ -268,8 +269,3 @@ onEvent('rei.information', event => {
   '- List completely ignores damage, enchants and NBT of added items. Therefore, it\'s not possible to specify seperate item types that are divided by those parameters (for instance - if any vanilla Splash Potion is combined with the keystone, it will consume any Splash Potions regardless of effects);'
   ]);
 });
-
-onEvent('rei.remove.categories', event => {
-     event.yeet("reliquary:alkahestry_crafting")
-     event.yeet("reliquary:alkahestry_charging")
-   })

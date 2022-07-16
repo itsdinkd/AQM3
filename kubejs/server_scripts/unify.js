@@ -33,7 +33,10 @@ global["unifyexclude"] = new Set([
     'thermal:deepslate_tin_ore',
     'minecraft:copper_ore',
     'futurepack:ore_copper',
-    'minecraft:copper_block'
+    'minecraft:copper_block',
+    'assemblylinemachines:steel_ingot',
+    'assemblylinemachines:steel_nugget',
+    'assemblylinemachines:ground_steel'
     
 ])
 

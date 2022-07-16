@@ -13,16 +13,16 @@
 	reactorExplosions = true
 	#Should the fluid bath return Sludge when an invalid recipe is made?
 	#If false, both of the component items will instead be returned.
-	invalidBathReturnsSludge = true
+	invalidBathReturnsSludge = false
 	#What should the multiplier from stirs or grinds to seconds in the Kinetic Fluid Mixer or Kinetic Grinder be?
 	#For example, a recipe taking 10 grinds or stirs would take 15 seconds to process with a multiplier of 1.5.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	kineticMachineCycleModifier = 1.0
+	kineticMachineCycleModifier = 1.15
 	#Should Interact Mode in the Interactor be enabled? Sometimes, this can cause exceptions and other bugs, like interacting with a block with a GUI.
 	interactMode = true
 	#If interact mode fails with an exception, what level of logging should be performed?
 	#Allowed Values: NONE, MESSAGE, STACK_TRACE
-	interactExceptionReporting = "MESSAGE"
+	interactExceptionReporting = "STACK_TRACE"
 
 [Tools]
 	#What should every level of the Overclock enchantment multiply the battery capacity of a tool by?

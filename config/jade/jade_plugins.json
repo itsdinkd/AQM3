@@ -1,4 +1,8 @@
 {
+  "tconstruct": {
+    "casting_table": true,
+    "drain": true
+  },
   "minecraft": {
     "horse_inventory": true,
     "total_ench_power": true,
@@ -42,9 +46,12 @@
     "slurry": true,
     "energy": true
   },
-  "strawgolem": {
-    "lifespan": true,
-    "hunger": true
+  "create": {
+    "contraption_inv": true,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "placard": true
   },
   "jade": {
     "block_states": false,
@@ -53,6 +60,9 @@
     "item_mod_name": true,
     "mod_name": true,
     "entity_hp": true
+  },
+  "mcjtylib": {
+    "jadeaddons": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

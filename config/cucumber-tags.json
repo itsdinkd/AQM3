@@ -1,5 +1,4 @@
 {
-  "__comment": "Instructions: https://mods.blakebr0.com/docs/cucumber/tags-config",
   "forge:silicon": "refinedstorage:silicon",
   "forge:ingots/lumium": "thermal:lumium_ingot",
   "forge:ingots/enderium": "thermal:enderium_ingot",

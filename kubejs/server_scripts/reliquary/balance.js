@@ -11,7 +11,8 @@ const reliquaryYeeter =[
   "reliquary:mob_charm_belt",
   "reliquary:midas_touchstone",
   "reliquary:void_tear",
-  "reliquary:mob_charm"
+  "reliquary:mob_charm",
+  "reliquary:infernal_tear"
 ]
 
 onEvent('recipes', event => {

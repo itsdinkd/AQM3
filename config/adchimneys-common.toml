@@ -20,3 +20,27 @@
 	#Range: 1 ~ 128
 	maxPipesAtOnce = 8
 
+[Paint]
+	#Whether a bucket of water is required to be in the player's inventory in order to paint
+	requiresWaterBucket = true
+	#Whether a dye is required to be in the player's inventory in order to paint
+	requiresDye = true
+
+[Pump]
+	#If set to True, the redstone signal will turn the pump off instead of turning it on
+	invertedRedstoneSignal = false
+	#Radius of the cylindrical area above the hopper within which the pollution will be sucked in.
+	#The height of this area is always 3 blocks.
+	#Range: 1 ~ 64
+	hopperSuctionRange = 8
+
+	[Pump.ForgeEnergy]
+		#Whether Forge Energy is required or not
+		enabled = false
+		#Maximum amount of energy that can be held
+		#Range: 0 ~ 100000
+		capacity = 10000
+		#Amount of energy consumed per operation or second
+		#Range: 0 ~ 1000
+		consumption = 50
+

@@ -741,7 +741,7 @@ event.custom(
         "item": "futurepack:maschineboard"
       },
       "T": {
-        "item": "futurepack:master_core"
+        "item": "futurepack:core_master"
       },
       "E": {
         "item": "futurepack:extern_cooler"

@@ -1,9 +1,8 @@
 {
 	"type": "assemblylinemachines:enchantment_book",
 	"input":{
-		"item": "minecraft:slime_ball",
-		"count": 10
+		"item": "gobber2:dragon_star"
 	},
 	"enchantment": "minecraft:mending",
-	"cost": 175
+	"cost": 10000
 }
