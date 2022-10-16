@@ -5,18 +5,9 @@
 #Setting this to 10000 will completely prevent artifacts from spawning
 #When set to 0, every container that can contain artifacts will contain an artifact
 #Range: 0.0 ~ 10000.0
-artifact_rarity = 4.0
+artifact_rarity = 1.0
 
 [campsite]
-	#List of biome IDs in which campsites are not allowed to generate
-	#End and nether biomes are excluded by default and do not have to be in this list
-	#To blacklist all biomes from a single mod, use "modid:*"
-	biome_blacklist = ["minecraft:void", "undergarden:*", "the_bumblezone:*", "twilightforest:*", "beyond_earth:*", "jamd:*", "javd:*", "voidscape:*", "blue_skies:*"]
-	#Rarity of campsites generating in the world
-	#You don't need this unless you want to make campsites rarer than 1 attempt per chunk
-	#Each attempt to generate a campsite will succeed with a chance of 1/rarity
-	#Range: > 1
-	rarity = 25
 	#Probability that a campsite has a mimic instead of a chest
 	#Range: 0.0 ~ 1.0
 	mimic_chance = 0.3
@@ -29,6 +20,11 @@ artifact_rarity = 4.0
 	#Set this to 0 to prevent campsites from generating entirely
 	#Range: > 0
 	count = 4
+	#Rarity of campsites generating in the world
+	#You don't need this unless you want to make campsites rarer than 1 attempt per chunk
+	#Each attempt to generate a campsite will succeed with a chance of 1/rarity
+	#Range: > 1
+	rarity = 1
 	#The minimum y-level campsites can spawn at
 	#Range: -2048 ~ 2048
 	min_y = -60
@@ -46,4 +42,8 @@ artifact_rarity = 4.0
 	#Set this to 0 to allow campsites to be placed regardless of ceiling height
 	#Range: 0 ~ 4096
 	max_ceiling_height = 6
+	#List of biome IDs in which campsites are not allowed to generate
+	#End and nether biomes are excluded by default and do not have to be in this list
+	#To blacklist all biomes from a single mod, use "modid:*"
+	biome_blacklist = ["minecraft:void", "undergarden:*", "the_bumblezone:*", "twilightforest:*"]
 

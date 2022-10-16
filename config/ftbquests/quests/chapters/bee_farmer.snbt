@@ -1,0 +1,28 @@
+{
+	id: "32EE6CD280ABD41F"
+	group: "3A311A174F6148FB"
+	order_index: 2
+	filename: "bee_farmer"
+	title: "Worker Bees"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		disable_toast: true
+		x: -0.5d
+		y: 0.0d
+		subtitle: "Productive Bee's are bee's that generate resources and more"
+		id: "60280AA41A1267FA"
+		tasks: [{
+			id: "1FD3647A1E81DC26"
+			type: "item"
+			disable_toast: true
+			item: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "productivebees:guide"
+				}
+			}
+		}]
+	}]
+}

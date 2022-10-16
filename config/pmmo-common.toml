@@ -83,7 +83,7 @@
 	maxVeinDisplay = 50
 	#How much is the lowest cost for each block veined? (1 = 1 charge, 1 charge regens per second)
 	#Range: 0.01 ~ 10000.0
-	minVeinCost = 2
+	minVeinCost = 2.0
 	#What is the lowest hardness for each block veined? (Crops have 0 hardness, this makes crops not infinitely veined)
 	#Range: 0.0 ~ 10000.0
 	minVeinHardness = 0.5
@@ -219,10 +219,10 @@
 	xpIncreasePerLevel = 95.0
 	#Every how many levels should a level up broadcast be sent to all players? (10 = every 10 levels)
 	#Range: 1 ~ 1000000
-	levelsPerMilestone = 100000
+	levelsPerMilestone = 100
 	#Every how many levels should a total level milestone broadcast be sent to all players? (50 = every 50 levels)
 	#Range: 1 ~ 1000000
-	levelsPerTotalLevelMilestone = 100000
+	levelsPerTotalLevelMilestone = 1000
 	#Should a player have all their skills wiped to level 1 upon death?
 	wipeAllSkillsUponDeathPermanently = false
 	#Should every 10th level up be broadcast to everyone?

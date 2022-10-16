@@ -46,6 +46,10 @@
     "slurry": true,
     "energy": true
   },
+  "strawgolem": {
+    "lifespan": true,
+    "hunger": true
+  },
   "create": {
     "contraption_inv": true,
     "blaze_burner": true,
@@ -63,6 +67,12 @@
   },
   "mcjtylib": {
     "jadeaddons": true
+  },
+  "lootr": {
+    "info": true
+  },
+  "productivebees": {
+    "bee_attributes": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

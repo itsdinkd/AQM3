@@ -4,7 +4,7 @@
 	title: "Rare Loot"
 	loot_size: 1
 	rewards: [
-		{ item: "cyclic:heart" }
+		{ item: "cyclic:heart", random_bonus: 1 }
 		{ item: "paraglider:stamina_vessel" }
 		{
 			item: {
@@ -12,12 +12,14 @@
 				Count: 1b
 				tag: {
 					effects: [{
-						duration: 500
 						name: "reliquary:cure"
+						duration: 500
 						potency: 3
 					}]
 				}
 			}
+			count: 2
+			random_bonus: 2
 		}
 		{
 			item: {
@@ -25,15 +27,18 @@
 				Count: 1b
 				tag: {
 					effects: [{
-						duration: 7500
 						name: "minecraft:health_boost"
+						duration: 7500
 						potency: 2
 					}]
 				}
 			}
+			count: 3
 		}
-		{ item: "reliquary:glowing_bread" }
+		{ item: "reliquary:glowing_bread", count: 5 }
 		{ item: "cyclic:apple_diamond" }
-		{ item: "cyclic:inventory_cake" }
+		{ item: "cyclic:inventory_cake", only_one: true }
+		{ item: "chancecubes:chance_cube", count: 3 }
+		{ item: "mysticalagriculture:prosperity_gemstone", count: 2, random_bonus: 2 }
 	]
 }

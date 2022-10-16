@@ -137,7 +137,7 @@ ticksForFullManaRegen = 1800
 	aumAmount = 4
 	#How common is Cerublossom in the biomes it spawns in (higher is more frequent)?  This is easiest to think of as 'on average one flower every x blocks' when in the correct biome.
 	#Range: 1 ~ 255
-	cerublossomRarity = 12
+	cerublossomRarity = 13
 	#When Cerublossom does spawn, how many should be in a clump on average?
 	#Range: 1 ~ 99
 	cerublossomAmount = 4
@@ -164,3 +164,15 @@ ticksForFullManaRegen = 1800
 	#The percent chance the fey armor will randomly teleport melee attackers.
 	#Range: 0.0 ~ 1.0
 	feyArmorTeleportChance = 0.0666600298023224
+
+#Mana and Artifice // Faction Modification
+[ma_faction_modification]
+	#How much extra damage should members of the demon faction be able to put on their spells?
+	#Range: 0 ~ 1000
+	demonBonusDamage = 5
+	#How much extra range should members of the demon faction be able to put on their spells?
+	#Range: 0 ~ 32
+	demonBonusRange = 4
+	#How much extra radius should members of the demon faction be able to put on their spells?
+	#Range: 0 ~ 3
+	demonBonusRadius = 1

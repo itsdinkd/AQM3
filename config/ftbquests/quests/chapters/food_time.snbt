@@ -6,29 +6,79 @@
 	title: "Food Time"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -4.5d
-		y: 0.5d
-		subtitle: "Make your own sandwiches using any food"
-		description: [
-			""
-			"How to Use This Station"
-			"1. Place it down and right click it to open the GUI                                  -           "
-			"2. Base Slot: Insert any valid bread or bowl item here.                                -"
-			"3. Ingredient Slots 1-5: Insert any valid food item here. There are no other restrictions. If your base is a bowl, certain liquids like buckets of fluid and potions are also possible.      -"
-			"4. Custom Name: Insert a custom name for your food here. There's a maximum character limit of 35.                        - "
-			"5. Output: Your crafted sandwich or bowl will appear here. Crafting will always take only one item from each slot, but sandwiches can output multiple at a time depending on its ingredients."
-		]
-		id: "1E5EB25E036705A3"
-		tasks: [{
-			id: "498F006DC4C99308"
-			type: "item"
-			item: "culinaryconstruct:culinary_station"
-		}]
-		rewards: [{
-			id: "7EACBFEBEEA2E3A0"
-			type: "item"
-			item: "minecraft:bread"
-		}]
-	}]
+	quests: [
+		{
+			x: -4.5d
+			y: 0.5d
+			subtitle: "Make your own sandwiches using any food"
+			description: [
+				""
+				"How to Use This Station"
+				"1. Place it down and right click it to open the GUI                                  -           "
+				"2. Base Slot: Insert any valid bread or bowl item here.                                -"
+				"3. Ingredient Slots 1-5: Insert any valid food item here. There are no other restrictions. If your base is a bowl, certain liquids like buckets of fluid and potions are also possible.      -"
+				"4. Custom Name: Insert a custom name for your food here. There's a maximum character limit of 35.                        - "
+				"5. Output: Your crafted sandwich or bowl will appear here. Crafting will always take only one item from each slot, but sandwiches can output multiple at a time depending on its ingredients."
+			]
+			id: "1E5EB25E036705A3"
+			tasks: [{
+				id: "498F006DC4C99308"
+				type: "item"
+				item: "culinaryconstruct:culinary_station"
+			}]
+			rewards: [{
+				id: "7EACBFEBEEA2E3A0"
+				type: "item"
+				item: "minecraft:bread"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			subtitle: "Keep track of what you ate/need to eat for Hearts"
+			id: "3D50B3D34117D30F"
+			tasks: [{
+				id: "61E774548B1E5C1D"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+			rewards: [{
+				id: "03B897FBBAC7DF3A"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			subtitle: "Refined Cooking to be used with Refined Storage and Cooking for Blockheads"
+			id: "0864FB76CD086255"
+			tasks: [{
+				id: "3D78CCEB51AB1A52"
+				type: "item"
+				item: "refinedcooking:kitchen_station"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["0864FB76CD086255"]
+			id: "699CFDD251C378B9"
+			tasks: [{
+				id: "46E1625E6E36075E"
+				type: "item"
+				item: "refinedcooking:kitchen_network_card"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			id: "56CC7364E770F993"
+			tasks: [{
+				id: "0D1643178888F8A4"
+				type: "item"
+				item: "refinedcooking:kitchen_access_point"
+			}]
+		}
+	]
 }

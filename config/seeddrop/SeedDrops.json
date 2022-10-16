@@ -15,14 +15,6 @@
     {
       "item": "minecraft:beetroot_seeds",
       "chance": 12.0
-    },
-    {
-      "item": "silentgear:flax_seeds",
-      "chance": 12.0
-    },
-    {
-      "item": "silentgear:fluffy_seeds",
-      "chance": 12.0
     }
   ]
 }

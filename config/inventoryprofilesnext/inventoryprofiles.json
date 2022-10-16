@@ -1,26 +1,46 @@
 {
     "ModSettings": {
         "highlight_foused_items": false,
-        "highlight_foused_items_foreground": false,
         "enable_auto_refill": false,
         "enable_updates_check": false,
+        "for_modpack_devs": true,
         "first_run": false
     },
     "GuiSettings": {
         "enable_profiles_ui": false,
         "enable_profiles_announcement": false,
-        "enable_inventory_buttons": false
+        "enable_inventory_editor_button": false,
+        "show_sort_in_columns_button": false,
+        "show_sort_in_rows_button": false,
+        "show_move_all_button": false
     },
     "AutoRefillSettings": {
         "refill_armor": false,
         "refill_before_tool_break": false,
         "visual_durability_notification": false,
-        "audio_durability_notification": false
+        "visual_replace_success_notification": false,
+        "visual_replace_failed_notification": false,
+        "type_visual_replace_failed_notification": "HOTBAR"
     },
     "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": "A,C"
+            }
+        },
+        "reload_custom_configs": {
+            "main": {
+                "keys": "A,Y"
+            }
+        },
         "sort_inventory": {
             "main": {
                 "keys": "BUTTON_3"
+            }
+        },
+        "open_gui_editor": {
+            "main": {
+                "keys": "A,G"
             }
         }
     }

@@ -8,6 +8,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			disable_toast: true
 			x: -1.5d
 			y: 2.0d
 			subtitle: "Floating or Rail Contraptions, including Create mod"

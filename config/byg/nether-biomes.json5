@@ -107,6 +107,22 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "cinderscapes:ashy_shoals",
 				"weight": 2
+			},
+			{
+				"data": "nourished_nether:abyss",
+				"weight": 2
+			},
+			{
+				"data": "nourished_nether:sulphur_springs",
+				"weight": 2
+			},
+			{
+				"data": "nourished_nether:ichor_fields",
+				"weight": 2
+			},
+			{
+				"data": "pyromancer:flaming_grove",
+				"weight": 2
 			}
 		]
 	},
@@ -211,6 +227,22 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "cinderscapes:ashy_shoals",
 				"weight": 2
+			},
+			{
+				"data": "nourished_nether:abyss",
+				"weight": 2
+			},
+			{
+				"data": "nourished_nether:sulphur_springs",
+				"weight": 2
+			},
+			{
+				"data": "nourished_nether:ichor_fields",
+				"weight": 2
+			},
+			{
+				"data": "pyromancer:flaming_grove",
+				"weight": 2
 			}
 		]
 	},
@@ -299,6 +331,22 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "cinderscapes:ashy_shoals",
+				"weight": 2
+			},
+			{
+				"data": "nourished_nether:abyss",
+				"weight": 2
+			},
+			{
+				"data": "nourished_nether:sulphur_springs",
+				"weight": 2
+			},
+			{
+				"data": "nourished_nether:ichor_fields",
+				"weight": 2
+			},
+			{
+				"data": "pyromancer:flaming_grove",
 				"weight": 2
 			}
 		]

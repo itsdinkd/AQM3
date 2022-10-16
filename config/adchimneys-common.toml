@@ -14,6 +14,8 @@
 	#Maximum smoke particles render distance
 	#Range: 16 ~ 256
 	maxRenderDistance = 100
+	#Whether to replace vanilla smoke particles from a campfire or not
+	replaceVanillaCampfireSmoke = true
 
 [Pipe]
 	#Number of pipes that can be placed(when holding pipe items in both hands) / broken(when crouching) at once
@@ -29,10 +31,6 @@
 [Pump]
 	#If set to True, the redstone signal will turn the pump off instead of turning it on
 	invertedRedstoneSignal = false
-	#Radius of the cylindrical area above the hopper within which the pollution will be sucked in.
-	#The height of this area is always 3 blocks.
-	#Range: 1 ~ 64
-	hopperSuctionRange = 8
 
 	[Pump.ForgeEnergy]
 		#Whether Forge Energy is required or not

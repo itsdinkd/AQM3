@@ -1,0 +1,11 @@
+{
+	id: "1A3CC60168A303AD"
+	order_index: 7
+	title: "Simple Chance Choice"
+	icon: "chancecubes:chance_cube"
+	loot_size: 1
+	rewards: [
+		{ item: "chanceglobe:chance_globe" }
+		{ item: "chancecubes:chance_cube" }
+	]
+}

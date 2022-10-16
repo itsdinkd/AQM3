@@ -4,6 +4,8 @@
 	"Weapon Trades Toggle" = true
 	"Toolsmith Trades Toggle" = false
 	"Mason Trades Toggle" = true
+	"Soulcube Effect Toggle" = false
+	"Daisy Effect Toggle" = false
 
 [Weapons]
 	#Range: > 1
@@ -36,6 +38,8 @@
 	"Max Meathook Distance" = 32.0
 	#Adds mob to list of mobs that can hurt by the BFG. Supports Registry Names (minecraft:cow)
 	"BFG Damage Whitelist" = [""]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Chainsaw Damage" = 2.0
 
 ["Mob Settings:Imps"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -570,7 +574,7 @@
 
 ["Mob Settings:Archmaykr"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
-	"Archmaykr Biomes" = ["minecraft:small_end_islands", "minecraft:end_midlands", "minecraft:end_barrens", "minecraft:end_highlands"]
+	"Archmaykr Biomes" = [""]
 	#Range: > 1
 	"Archmaykr Spawn Weight" = 1
 	#Range: > 1
@@ -632,7 +636,7 @@
 
 ["PMMO Compat"]
 	#Range: > 1
-	"XP Value of crafting exp given for crafting" = 50
+	"XP Value of crafting exp given for crafting" = 30
 	#Range: > 1
 	"XP Value of Inmortal Sphere Use" = 90
 	#Range: > 1
@@ -643,4 +647,18 @@
 	"XP Value of Power Sphere Use" = 60
 	#Range: > 1
 	"XP Value of Soul Cube Final Use" = 50
+
+["Armor Stats"]
+	#Range: > 1
+	"Doom Armor Helmet Stat" = 6
+	#Range: > 1
+	"Doom Armor Chestplate Stat" = 8
+	#Range: > 1
+	"Doom Armor Leggings Stat" = 8
+	#Range: > 1
+	"Doom Armor Boots Stat" = 6
+	#Range: > 1
+	"Doom Armor Toughness" = 1
+	#Range: > 1
+	"Doom Armor Knockback Res" = 2
 

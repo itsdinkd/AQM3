@@ -1,14 +1,14 @@
 {
   "main": {
     "1": {
-      "title": "Difficulty Meter (X)",
+      "title": "Building Gadgets Menu  (Must have gadget out)",
       "icon": {
-        "stack": "{Count:1b,id:\"minecraft:totem_of_undying\"}"
+        "stack": "{Count:1b,id:\"buildinggadgets:gadget_building\"}"
       },
       "action": {
         "key": {
-          "key": "key.scalinghealth.difficultyMeter",
-          "toggle": false
+          "key": "key.buildinggadgets.settings_menu",
+          "toggle": true
         }
       }
     },
@@ -39,7 +39,7 @@
     "4": {
       "title": "Skills and Stats",
       "icon": {
-        "stack": "{Count:1b,id:\"immersiveengineering:shader_bag_uncommon\"}"
+        "stack": "{Count:1b,id:\"minecraft:stone\"}"
       },
       "action": {
         "key": {
@@ -51,7 +51,7 @@
     "5": {
       "title": "Shoulder Surfing",
       "icon": {
-        "stack": "{Count:1b,id:\"securitycraft:security_camera\"}"
+        "stack": "{Count:1b,id:\"minecraft:stone\"}"
       },
       "action": {
         "key": {

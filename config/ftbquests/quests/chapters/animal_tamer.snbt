@@ -1,0 +1,134 @@
+{
+	id: "67EC7FC0F24E1E23"
+	group: "357818B443F9748C"
+	order_index: 5
+	filename: "animal_tamer"
+	title: "Animal Tamer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tame Capuchin Monkey"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Follows, Wanders, Attacks, and Sits on Shoulder"
+			description: [
+				"Like the other primates Capuchins share the jungle with, they have a fondness for bananas, which can be fed to them to tame them. Tame Capuchins are more sophisticated than other tamed creatures, like wolves, being able to follow, stay and wander, along with being able to use both ranged and melee attacks. They can also be made to ride their owner's shoulder, which they can also attack from, throwing stones at targets. "
+				""
+				"Capuchins can be fed a variety of other items. Feeding them eggs can be used to heal them, and they can be bred with Maggots. Occasionally, they can drop a Banana Peel when eating a Banana. These banana peels can be used to create a unique dish dubbed \"Sopa De Macaco\". "
+				""
+				"Given Ancient Darts, they will gain piercing attacks, allowing them to ignore armor and deal damage straight to the target without any resistances. "
+			]
+			id: "5DCE41D31152328B"
+			tasks: [
+				{
+					id: "188E7C706602F69C"
+					type: "item"
+					title: "Get 4 Bananas"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:crops/banana"
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "63C3E41AD86AD50E"
+					type: "observation"
+					title: "Tame Capuchin Monkey with 4-5 Bananas"
+					icon: "alexsmobs:spawn_egg_capuchin_monkey"
+					timer: 3L
+					observe_type: 5
+					to_observe: "alexsmobs:capuchin_monkey"
+				}
+			]
+			rewards: [{
+				id: "60D452D1A8BC1987"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			title: "Get Maggots to Breed Monkeys"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "You need Maggots"
+			description: ["These are dropped when you kill Flies or can be dug up by a Platypus that's been fed redstone"]
+			dependencies: ["5DCE41D31152328B"]
+			id: "68A29330C5BAE1BD"
+			tasks: [{
+				id: "46E6D00B945171F8"
+				type: "item"
+				item: "alexsmobs:maggot"
+			}]
+			rewards: [{
+				id: "320AE2A666C2B0C9"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			title: "Find an Ancient Dart"
+			x: 1.5d
+			y: -1.0d
+			subtitle: "Give this to your Monkey for it to Attack"
+			dependencies: ["5DCE41D31152328B"]
+			id: "62E796355F63AA85"
+			tasks: [{
+				id: "7B545F4F8F84E887"
+				type: "item"
+				item: "alexsmobs:ancient_dart"
+			}]
+			rewards: [{
+				id: "118E083C6DC8FC0A"
+				type: "item"
+				item: "alexsmobs:ancient_dart"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Taming item = Cosmic Rod (Found in another quest)"
+			description: ["Cosmaws are flying creatures resembling the elusive Tullimonstrum of the Carboniferous period. They are neutral creatures found in the End that can be tamed. Feeding them Cosmic Cod will tame them and make them follow you, and they are very useful for traversing the End dimension. They cannot be ridden, but instead save you from falling into the void, grabbing you with their trunks and placing you on the nearest End island. "]
+			id: "09AB6962C302CB31"
+			tasks: [{
+				id: "5271D37D7B104321"
+				type: "observation"
+				title: "Tame a Cosmaw"
+				icon: "alexsmobs:spawn_egg_cosmaw"
+				timer: 100L
+				observe_type: 5
+				to_observe: "alexsmobs:cosmaw"
+			}]
+			rewards: [{
+				id: "7B23C6D2C3046BD1"
+				type: "random"
+				table_id: 2573245064785096990L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Plant the Foliaath Seed and watch it attack your enemies in place"
+			description: ["You can receive the seed after killing a Foliaath which is a prerequisite quest"]
+			dependencies: ["22ABD96DC2D48468"]
+			id: "258F04149673A74E"
+			tasks: [{
+				id: "362E58ACB43DD433"
+				type: "observation"
+				title: "Create your Baby Foliaath Monster Plant"
+				icon: "mowziesmobs:foliaath_seed"
+				timer: 50L
+				observe_type: 5
+				to_observe: "mowziesmobs:baby_foliaath"
+			}]
+			rewards: [{
+				id: "20CAC4B1A282669E"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+	]
+}

@@ -2317,7 +2317,7 @@
 		minimum = 1.0
 		#Maximum Value
 		#Range: 0.0 ~ 9999.0
-		maximum = 8.0
+		maximum = 7.77
 		#Default Value
 		#Range: 0.0 ~ 9999.0
 		default = 1.0

@@ -617,5 +617,86 @@
 				}
 			}]
 		}
+		{
+			x: -18.0d
+			y: -6.5d
+			subtitle: "A Lava Sponge soaks up Lava but you need to cool it down first"
+			description: ["If you go the furnace route you must hold out the hot lavasponge while interacting with furnace. Place it in furnace as you would a coal"]
+			id: "27215B53159129F8"
+			tasks: [
+				{
+					id: "5FF831AB56676E61"
+					type: "observation"
+					title: "Convert Hot Lavasponge to Lavasponge"
+					icon: "lavasponge:hot_lavasponge"
+					timer: 60L
+					observe_type: 0
+					to_observe: "lavasponge:hot_lavasponge"
+				}
+				{
+					id: "64DB3DD6C0132E8A"
+					type: "questsadditions:place"
+					title: "Surround Hot Lavasponge with 5 Ice Blocks"
+					icon: "minecraft:ice"
+					block_type: 0
+					block: "minecraft:ice"
+					value: 5L
+					replaced: "minecraft:air"
+					replace: false
+				}
+				{
+					id: "598C2E6A1141EBB0"
+					type: "questsadditions:use"
+					title: "OR Use Hot Lavasponge in Furnace to Convert"
+					block_type: 0
+					block: "minecraft:furnace"
+					value: 1L
+					checkItem: true
+					isItemInteraction: false
+					item: "lavasponge:hot_lavasponge"
+				}
+			]
+			rewards: [{
+				id: "6D6E510D2853EC16"
+				type: "choice"
+				table_id: 1890603652941546413L
+			}]
+		}
+		{
+			title: "Table Top Games"
+			x: -14.0d
+			y: -6.5d
+			subtitle: "Chess and Tic Tac Toe"
+			description: [
+				"To play chess, place your chess board down, and Sneak + Right Click (if it gets picked up, move back and try again)"
+				""
+				"Once you opened the game menu of the table you can select pieces, start a new game and more. The pieces should be on your board once started. Right click them to select the piece, and then right click where you want to move it."
+			]
+			id: "5CC8341846747AF8"
+			tasks: [
+				{
+					id: "5098B3C389235C97"
+					type: "item"
+					title: "Any #table_top_craft:chess_boards"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "table_top_craft:chess_boards"
+						}
+					}
+				}
+				{
+					id: "2696C8C742A8C94D"
+					type: "item"
+					item: "table_top_craft:tic_tac_toe"
+				}
+			]
+			rewards: [{
+				id: "681F7966D41ABC71"
+				type: "item"
+				item: "cyclic:heart"
+			}]
+		}
 	]
 }

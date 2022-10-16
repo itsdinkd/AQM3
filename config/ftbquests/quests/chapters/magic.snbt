@@ -1,9 +1,9 @@
 {
 	id: "39C0F8F232354487"
 	group: "30AC1CE19F5532E7"
-	order_index: 4
+	order_index: 3
 	filename: "magic"
-	title: "Magic"
+	title: "Magic Introduction"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -11,7 +11,11 @@
 			x: -1.0d
 			y: 0.5d
 			subtitle: "Mana and Artifice (Fork of Ars) - Learning the Basics"
-			description: ["The book of tell. You need to buy this from the Mana and Artifice Villager using the Magician Workbench to convert the Villager."]
+			description: [
+				"The book of tell. You need to buy this from the Mana and Artifice Villager using the Magician Workbench to convert the Villager."
+				""
+				"In the future when its created, obtaining this book will unlock a chapter for this mod"
+			]
 			id: "28CE2F417978A52E"
 			tasks: [{
 				id: "716AF992A50E02C8"
@@ -23,6 +27,7 @@
 			x: 0.5d
 			y: 0.5d
 			subtitle: "EvilCraft"
+			description: ["In the future when its created, obtaining this book will unlock a chapter for this mod"]
 			id: "7715A501AF903169"
 			tasks: [{
 				id: "70E7F8CF3D138871"
@@ -33,6 +38,8 @@
 		{
 			x: 2.0d
 			y: 0.5d
+			subtitle: "Botania!"
+			description: ["In the future when its created, obtaining this book will unlock a chapter for this mod"]
 			id: "53A38A40F4D6B93F"
 			tasks: [{
 				id: "523B16AB907C7AC7"
@@ -42,6 +49,75 @@
 					Count: 1b
 					tag: {
 						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			subtitle: "Hexerei"
+			description: ["Craft the Altar after to place your book on it to read"]
+			id: "20814322D200CDEA"
+			tasks: [{
+				id: "5EC1871A2B2CA7A7"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "hexerei:book_of_shadows"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Place your Book of Shadows on Altar to read"
+			dependencies: ["20814322D200CDEA"]
+			id: "1816FF69E44C794E"
+			tasks: [{
+				id: "289429FF53096510"
+				type: "item"
+				item: "hexerei:book_of_shadows_altar"
+			}]
+			rewards: [{
+				id: "044615758116A380"
+				type: "item"
+				item: "hexerei:mahogany_leaves"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			subtitle: "You can use with your book to zoom in using \"Z\" while equipped"
+			dependencies: ["20814322D200CDEA"]
+			id: "18692E1C841E3236"
+			tasks: [{
+				id: "2CFBB388B0FD1A2D"
+				type: "item"
+				item: "hexerei:reading_glasses"
+			}]
+			rewards: [{
+				id: "09C4A8CBCCCBFA7D"
+				type: "item"
+				item: "hexerei:willow_vines"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			subtitle: "Blood Magic"
+			description: ["In the future when its created, obtaining this book will unlock a chapter for this mod"]
+			id: "42947F325DA25DA3"
+			tasks: [{
+				id: "54E046D66F870F87"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
 					}
 				}
 			}]

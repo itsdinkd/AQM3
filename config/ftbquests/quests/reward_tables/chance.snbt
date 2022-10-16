@@ -1,0 +1,31 @@
+{
+	id: "23B600C0B68AF11E"
+	order_index: 6
+	title: "Chance"
+	loot_size: 1
+	rewards: [
+		{ item: "chanceglobe:chance_globe", weight: 5 }
+		{ item: "chancecubes:chance_cube", weight: 5 }
+		{
+			item: {
+				id: "chancecubes:chance_pendant_tier1"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "chancecubes:chance_pendant_tier2"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "chanceglobe:chance_globe", count: 3 }
+		{ item: "chancecubes:compact_giant_chance_cube" }
+		{ item: "chancecubes:chance_cube", count: 2, weight: 2 }
+	]
+}

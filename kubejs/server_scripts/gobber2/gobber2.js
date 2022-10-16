@@ -4,18 +4,30 @@ console.info('AQM3 -- Modifying Gobber2)');
 
 const gobberRemove = [
 'gobber2:gobber2_medallion_glowing',
+'gobber2:gobber2_medallion_shielding',
+'gobber2:gobber2_medallion_suffering',
 'gobber2:gobber2_ring_airwalking',
 'gobber2:gobber2_ring_ascent',
 'gobber2:gobber2_ring_blaze',
 'gobber2:gobber2_ring_farmer',
 'gobber2:gobber2_ring_husbandry',
+'gobber2:gobber2_ring_phoenix',
 'gobber2:gobber2_ring_pyro',
 'gobber2:gobber2_ring_repair',
+'gobber2:gobber2_ring_sunshine',
 'gobber2:gobber2_ring_swiftness',
 'gobber2:gobber2_ring_vision',
 'gobber2:gobber2_staff_farmer',
 'gobber2:gobber2_staff_harvest',
-'gobber2:gobber2_sword_traveler'
+'gobber2:gobber2_sword_traveler',
+'gobber2:gobber2_hammer_end',
+'gobber2:gobber2_hammer_nether',
+'gobber2:gobber2_hammer',
+'gobber2:gobber2_staff_ensnarement',
+'gobber2:gobber2_tree_axe_end',
+'gobber2:gobber2_tree_axe_nether',
+'gobber2:gobber2_tree_axe',
+'gobber2:gobber2_ring_stealth'
 ];
 
 onEvent('recipes', event => {
@@ -78,6 +90,14 @@ event.replaceInput(
     "mysticalagradditions:insanium_essence"
 );
 
+event.remove({output: "gobber2:gobber2_ring_curing"})
+event.shaped("gobber2:gobber2_ring_curing", [
+["minecraft:glowstone_dust", "reliquary:witherless_rose", "minecraft:glowstone_dust"],
+[null, 'gobber2:gobber2_medallion_nether', null],
+["minecraft:glowstone_dust", 'finsandtails:spindly_gem_crab_gem_from_gems', "minecraft:glowstone_dust"],
+]);
+
+event.replaceInput({id:"gobber2:gobber2_ring_haste"},"minecraft:emerald","mowziesmobs:barakoa_mask_rage");
 
 //end
 });

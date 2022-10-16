@@ -11,7 +11,7 @@
 		#The X offset for the blood gui overlay.
 		bloodGuiOverlayPositionOffsetX = -5
 		#The amount of mB that can flow per tick out of machines and items.
-		mbFlowRate = 80
+		mbFlowRate = 100
 		#Evil stuff...
 		dieWithoutAnyReason = false
 		#The Y offset for the blood gui overlay.
@@ -25,17 +25,9 @@
 
 	[worldgeneration.general]
 		#The spawn chance for loot chests in dark temples, set to zero to completely disable.
-		darkTempleChestChance = 0.125
+		darkTempleChestChance = 0.15
 		#Spawn extra silverfish blocks in all biomes.
 		extraSilverfish = false
-
-	[worldgeneration.dark_temple]
-		#If dark temple should be added to all dimensions (except for the end and nether).
-		enabled = true
-		#Maximum blockState height at which a dark temple can spawn.
-		darkTempleMaxHeight = 90
-		#Minimum block height at which a dark temple can spawn.
-		darkTempleMinHeight = 64
 
 	[worldgeneration.dark_ore]
 		#If dark ore should be generated in the overworld.
@@ -45,31 +37,39 @@
 		#If dark ore should be generated in the overworld.
 		generate = true
 
+	[worldgeneration.dark_temple]
+		#If dark temple should be added to all dimensions (except for the end and nether).
+		enabled = true
+		#Maximum blockState height at which a dark temple can spawn.
+		darkTempleMaxHeight = 90
+		#Minimum block height at which a dark temple can spawn.
+		darkTempleMinHeight = 64
+
 [core]
 
 	[core.general]
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
-		analytics = false
+		analytics = true
 		#If the version checker should be enabled.
-		versionChecker = false
+		versionChecker = true
 
 [block]
 
 	[block.blood_stain]
 		#The amount of blood per HP (2HP = 1 heart) of the max mob health that will be added to this blockState when a mob dies from fall damage.
-		bloodMBPerHP = 12
+		bloodMBPerHP = 20
 		#Blocks onto which no blood stains can be spawned. Regular expressions are allowed.
-		spawnBlacklist = ["cataclysm:.*", "tconstruct:.*", "botania:.*", "bonsaitrees3:.*", "silentgear:.*", "cyclic:.*"]
+		spawnBlacklist = ["tconstruct:.*"]
 		#If blood stains should be spawned on block entities.
 		spawnOnBlockEntities = false
 
 	[block.undead_leaves]
 		#How much Blood (mB) can be produced at most as a Blood Stain on each random tick.
-		maxBloodStainAmount = 15
+		maxBloodStainAmount = 25
 
 	[block.spiked_plate]
 		#The multiplier for amount of mB to receive per mob HP.
-		mobMultiplier = 20.0
+		mobMultiplier = 40.0
 		#The amount of damage per time.
 		damage = 4.0
 
@@ -81,9 +81,9 @@
 
 	[machine.blood_chest]
 		#The amount of ticks required for repairing one damage value.
-		ticksPerDamage = 6
+		ticksPerDamage = 2
 		#Item names that can not be repaired. Regular expressions are allowed.
-		itemBlacklist = ["minecraft:stick", "silentgear:.*", "gobber2:.*", "artifacts:.*", "enigmaticlegacy:.*", "botania:.*", "ars_nouveau:.*", "create:.*"]
+		itemBlacklist = ["minecraft:stick"]
 		#The amount Blood mB required for repairing one damage value.
 		mBPerDamage = 5
 		#If the Blood Chest should add random bad enchants with a small chance to repairing items.
@@ -99,23 +99,23 @@
 
 	[machine.purifier]
 		#Item that can not be disenchanted. Regular expressions are allowed.
-		disenchantBlacklist = ["tetra:.*", "silentgear:.*", "enigmaticlegacy:.*", "tconstruct:.*"]
+		disenchantBlacklist = ["tetra:.*"]
 
 	[machine.spirit_furnace]
 		#How much mB per tick this furnace should consume.
-		mBPerTick = 50
+		mBPerTick = 25
 		#If the machine should play mob death sounds.
 		mobDeathSounds = true
 		#Custom mob drops. Maps entity names to a loot table resource location. Expects the format entityname|loottable. For example: 'minecraft:pig|minecraft:entities/sheep'
 		mobDrops = []
 		#The 1/X chance for villagers to drop emeralds. 0 means no drops.
-		villagerDropEmeraldChance = 100
+		villagerDropEmeraldChance = 20
 		#How much mB per tick this furnace should consume for player spirit.
-		playerMBPerTick = 150
+		playerMBPerTick = 100
 		#The required amount of ticks for each HP for cooking an entity.
-		requiredTicksPerHp = 25
+		requiredTicksPerHp = 10
 		#How much mB per tick this furnace should consume for boss mob spirit.
-		bossMBPerTick = 600
+		bossMBPerTick = 250
 		#Custom player drops. Maps player UUID to an itemstack. Expects the format domain:itemname:amount:meta for items where amount and meta are optional.
 		playerDrops = ["93b459be-ce4f-4700-b457-c1aa91b3b687|minecraft:stone_slab"]
 
@@ -127,15 +127,15 @@
 		#The maximum tank size possible by combining tanks. (Make sure that you do not cross the max int size.)
 		maxTankSize = 65536000
 		#If creative versions for all fluids should be added to the creative tab.
-		creativeTabFluids = false
+		creativeTabFluids = true
 
 	[machine.spirit_reanimator]
 		#The required amount of ticks for each reanimation.
-		requiredTicks = 30000
+		requiredTicks = 500
 		#If the Box of Eternal Closure should be cleared after a revival.
 		clearBoxContents = true
 		#How much mB per tick this machine should consume.
-		mBPerTick = 50000
+		mBPerTick = 5
 
 	[machine.entangled_chalice]
 		#If the fluid should be rendered statically. Fluids won't be shown fluently, but more efficiently.
@@ -145,13 +145,13 @@
 		#The base amount of concurrent items that need to be available before efficiency can rise.
 		baseConcurrentItems = 1
 		#The amount of ticks required for repairing one damage value.
-		ticksPerDamage = 4
+		ticksPerDamage = 2
 		#The amount Blood mB required for repairing one damage value.
-		baseMBPerDamage = 9
+		baseMBPerDamage = 5
 
 	[machine.sang_envir_acc]
 		#The base blood usage in mB for recipes, this is multiplied with the cooldown time per recipe.
-		baseUsage = 80
+		baseUsage = 50
 
 [item]
 
@@ -169,11 +169,11 @@
 
 	[item.flesh_werewolf]
 		#Humanoid flesh will drop in a 1/X chance.
-		humanoidFleshDropChance = 15
+		humanoidFleshDropChance = 5
 
 	[item.flesh_humanoid]
 		#Humanoid flesh will drop in a 1/X chance.
-		humanoidFleshDropChance = 15
+		humanoidFleshDropChance = 5
 
 	[item.redstone_grenade]
 		#If the redstone grenade should drop again as an item after it is being thrown.
@@ -191,15 +191,15 @@
 
 	[item.blood_pearl_of_teleportation]
 		#The amount of second slowness should be applied after each teleport.
-		slownessDuration = 1
+		slownessDuration = 0
 
 	[item.broom]
 		#The position to render the broom gui overlay at. (0=NE, 1=SE, 2=SW,3=NW)
 		guiOverlayPosition = 1
 		#The blood usage in mB per tick.
-		bloodUsage = 5
+		bloodUsage = 1
 		#If the broom should spawn in loot chests.
-		lootChests = false
+		lootChests = true
 		#Show broom part tooltips on source items.
 		broomPartTooltips = true
 		#The X offset for the broom gui overlay.
@@ -207,25 +207,25 @@
 		#The Y offset for the broom gui overlay.
 		guiOverlayPositionOffsetY = -10
 		#The blood usage in mB per block break.
-		bloodUsageBlockBreak = 60
+		bloodUsageBlockBreak = 1
 		#Show broom modifier tooltips on source items.
 		broomModifierTooltips = false
 
 	[item.kineticator]
 		#The amount of ticks inbetween each area checking for items.
-		tickHoldoff = 5
+		tickHoldoff = 1
 		#If the Kineticator should also attract XP orbs.
 		moveXP = true
 		#The amount of ticks in between each blood consumption when there are valid items in the area.
-		consumeHoldoff = 25
+		consumeHoldoff = 20
 
 	[item.kineticator_repelling]
 		#The amount of ticks in between each blood consumption when there are valid items in the area.
-		consumeHoldoff = 25
+		consumeHoldoff = 20
 		#If the Kineticator should also attract XP orbs.
 		moveXP = true
 		#The amount of ticks inbetween each area checking for items.
-		tickHoldoff = 5
+		tickHoldoff = 1
 
 	[item.vengeance_ring]
 		#The area of effect in # blocks of this ring.
@@ -233,7 +233,7 @@
 
 	[item.vengeance_pickaxe]
 		#The default fortune enchantment level on these pickaxes.
-		fortuneLevel = 4
+		fortuneLevel = 5
 		#The default vengeance enchantment level on these pickaxes.
 		vengeanceLevel = 3
 
@@ -265,19 +265,19 @@
 
 	[item.necromancer_staff]
 		#The capacity of the container.
-		capacity = 12000
+		capacity = 10000
 		#The amount of Blood that will be drained per usage.
-		usage = 4000
+		usage = 2000
 
 	[item.invig_pendant]
 		#The amount of Blood to drain after one reduction/clearing of fire. -1 to disable fire extinguishing.
-		fireUsage = -1
+		fireUsage = 500
 		#The amount of blood to drain after each clearing of one bad effect.
-		usage = 180
+		usage = 100
 		#The amount of seconds that will be reduced from the first found bad effect.
 		reduceDuration = 30
 		#The capacity of the pendant.
-		capacity = 4000
+		capacity = 5000
 
 	[item.ender_tear]
 		#If this item should be injected in loot tables..
@@ -289,7 +289,7 @@
 
 	[item.condensed_blood]
 		#If this item should be injected in loot tables..
-		injectLootTables = false
+		injectLootTables = true
 
 	[item.flesh_rejuvenated]
 		#The amount of blood (mB) this container can hold.
@@ -299,9 +299,9 @@
 
 	[item.primed_pendant]
 		#Usage multipliers. Potion ids are first, followed by floating numbers. A number smaller than one blacklists that potion.
-		potionMultipliers = ["minecraft:health_boost;-1", "minecraft:regeneration;2"]
+		potionMultipliers = ["minecraft:health_boost;-1", "minecraft:regeneration;10"]
 		#The amount of Blood to drain after one effect application.
-		usage = 100
+		usage = 10
 		#The capacity of the pendant.
 		capacity = 5000
 
@@ -335,9 +335,9 @@
 
 	[mob.poisonous_libelle]
 		#Should the Poisonous Libelle do damage, next to poisoning?
-		hasAttackDamage = true
+		hasAttackDamage = false
 		#1/X chance on getting poisoned when hit.
-		poisonChance = 50
+		poisonChance = 20
 		#The minimum Y-level this mob can spawn at.
 		minY = 55
 
@@ -345,11 +345,11 @@
 		#The 1/X chance that an actual spirit will spawn when doing actions like mining with the Vengeance Pickaxe.
 		nonDegradedSpawnChance = 5
 		#The area in which the spawn limit will be checked on each spawn attempt.
-		spawnLimitArea = 5
+		spawnLimitArea = 32
 		#The blacklisted entity spirits, by entity name. Regular expressions are allowed.
-		entityBlacklist = ["cataclysm:.*", "stalwart_dungeons:.*", "alexsmobs:.*", "evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon"]
+		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon"]
 		#Whether vengeance spirits should always be visible in creative mode.
-		alwaysVisibleInCreative = true
+		alwaysVisibleInCreative = false
 		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.
 		spawnLimit = 5
 
@@ -367,5 +367,5 @@
 
 	[enchantment.life_stealing]
 		#The final modifier that should be applied to the healing amount.
-		healModifier = 0.05
+		healModifier = 0.1
 

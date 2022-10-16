@@ -109,4 +109,7 @@
 		#Whether to enable compatibility with ProjectMMO; for example, award XP for chopping
 		#See https://www.curseforge.com/minecraft/mc-mods/project-mmo
 		projectMMO = true
+		#Whether to prevent conflicts with DynamicTrees
+		#See https://www.curseforge.com/minecraft/mc-mods/dynamictrees
+		dynamicTrees = true
 

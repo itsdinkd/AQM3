@@ -13,8 +13,6 @@
 	chopInCreativeMode = false
 
 [visuals]
-	#Whether to use procedural chopped log models; disable to use models added by a resource pack
-	useProceduralChoppedModels = true
 	#Whether to replace the interior sides of logs with a chopped texture instead of bark
 	removeBarkOnInteriorLogs = true
 

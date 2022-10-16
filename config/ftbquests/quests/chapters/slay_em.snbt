@@ -3,18 +3,1078 @@
 	group: "357818B443F9748C"
 	order_index: 4
 	filename: "slay_em"
-	title: "Monster Slayer"
-	default_quest_shape: "heart"
+	title: "Monster Master"
+	default_quest_shape: "circle"
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -11.0d
-		y: -6.0d
-		id: "2406B54428525773"
-		tasks: [{
-			id: "648DE596BA4CF591"
-			type: "kill"
-			entity: "alexsmobs:anaconda"
-			value: 100L
-		}]
-	}]
+	quests: [
+		{
+			x: -11.5d
+			y: -3.5d
+			subtitle: "One Giant Squid, One Cacholat Whale, One Death."
+			hide: true
+			id: "0281F09E5B5BC234"
+			tasks: [{
+				id: "1050DEE3CDA849FC"
+				type: "item"
+				item: "alexsmobs:lost_tentacle"
+			}]
+			rewards: [{
+				id: "6D1254802D6FDC16"
+				type: "item"
+				item: "alexsmobs:lost_tentacle"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.5d
+			subtitle: "Great Utility to Grapple onto Terrain"
+			dependencies: [
+				"68AC8B8E2AAC441D"
+				"0281F09E5B5BC234"
+			]
+			hide: true
+			id: "72FC59EEF0A2A8CD"
+			tasks: [{
+				id: "6417F5194E557800"
+				type: "item"
+				item: {
+					id: "alexsmobs:squid_grapple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "38C552E6452EAB43"
+					type: "item"
+					item: "minecraft:egg"
+				}
+				{
+					id: "38F72AFBF942C25F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Kill 2 Crimson Mosquitos"
+			x: -10.5d
+			y: -3.5d
+			subtitle: "The drops are requried for some goodies"
+			id: "29813939DA2BD176"
+			tasks: [{
+				id: "6908B395C2EE1654"
+				type: "kill"
+				title: "Kill 2 Crimson Mosquitos"
+				icon: "alexsmobs:spawn_egg_crimson_mosquito"
+				entity: "alexsmobs:crimson_mosquito"
+				value: 2L
+			}]
+			rewards: [{
+				id: "5437F1756A9EA3A2"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: -10.0d
+			y: -2.5d
+			dependencies: ["29813939DA2BD176"]
+			hide: true
+			id: "4057C53048DF7403"
+			tasks: [{
+				id: "37E8E47496A39C6E"
+				type: "item"
+				item: {
+					id: "alexsmobs:blood_sprayer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "086C1A6760F2A6D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.5d
+			subtitle: "Uses Hemolymph Sacs for ammo"
+			dependencies: [
+				"4057C53048DF7403"
+				"7E159AC43561D8C5"
+			]
+			hide: true
+			id: "12BD038F5DF38EC7"
+			tasks: [
+				{
+					id: "4DB0C31815A26200"
+					type: "item"
+					item: {
+						id: "alexsmobs:hemolymph_blaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "79CABBBCD45BCE2A"
+					type: "item"
+					item: "alexsmobs:mimicream"
+				}
+			]
+			rewards: [
+				{
+					id: "4B0533815873AD46"
+					type: "random"
+					table_id: 5396437845961881468L
+				}
+				{
+					id: "171601F4730DA214"
+					type: "random"
+					table_id: 5713291103209766976L
+				}
+				{
+					id: "1456AE6E860C9BBF"
+					type: "item"
+					item: "alexsmobs:hemolymph_sac"
+				}
+			]
+		}
+		{
+			title: "Summon and Kill 1 Warped Mosco"
+			x: -9.5d
+			y: -3.5d
+			subtitle: "Read to learn how to Summon"
+			description: ["The Warped Mosco is an aggressive mini-boss version of a Crimson Mosquito, appearing if a Crimson Mosquito sucks the blood of a Mungus that is covered in Warped Fungus while in the Overworld"]
+			dependencies: ["29813939DA2BD176"]
+			hide: true
+			id: "7E159AC43561D8C5"
+			tasks: [{
+				id: "4F7BFED74F19222B"
+				type: "kill"
+				icon: "alexsmobs:spawn_egg_warped_mosco"
+				entity: "alexsmobs:warped_mosco"
+				value: 1L
+			}]
+			rewards: [{
+				id: "498CD28D88418ACA"
+				type: "item"
+				item: "alexsmobs:hemolymph_sac"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -3.5d
+			subtitle: "These monsters can often be found guarding end cities"
+			description: ["Note: They will mimic your equipment. Try getting them stuck in cobwebs and hitting them from the top down"]
+			id: "17372178CAC39A10"
+			tasks: [{
+				id: "2D2D5972901A077C"
+				type: "kill"
+				icon: "alexsmobs:mimicream"
+				entity: "alexsmobs:mimicube"
+				value: 8L
+			}]
+			rewards: [
+				{
+					id: "218212A63639B43B"
+					type: "random"
+					table_id: 2573245064785096990L
+				}
+				{
+					id: "7B49BD0550E1BA3D"
+					type: "item"
+					item: "cyclic:heart"
+				}
+				{
+					id: "3E6FADDC284C7710"
+					type: "item"
+					item: "pamhc2foodcore:carrotcakeitem"
+				}
+			]
+		}
+		{
+			title: "Kill 3 Gusters"
+			x: -13.5d
+			y: -3.5d
+			subtitle: "Is there a further quest line to this? ;)"
+			description: ["Possibly in a desert biome?"]
+			id: "1EA707E9E12C7A8B"
+			tasks: [{
+				id: "7E32F782196CBE0C"
+				type: "kill"
+				icon: "alexsmobs:spawn_egg_guster"
+				entity: "alexsmobs:guster"
+				value: 3L
+			}]
+			rewards: [{
+				id: "26787A333557F862"
+				type: "item"
+				item: "alexsmobs:guster_eye"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -13.0d
+			y: -2.5d
+			subtitle: "Throw sand in your enemies face"
+			description: ["Uses sand for ammo, duh."]
+			dependencies: ["1EA707E9E12C7A8B"]
+			hide: true
+			id: "0A313221091EB662"
+			tasks: [{
+				id: "28F371C1B0522AF8"
+				type: "item"
+				item: {
+					id: "alexsmobs:pocket_sand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4378CFDAB3304AC8"
+				type: "item"
+				item: "minecraft:sand"
+				count: 6
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Collect Hammerhead Shark Teeth"
+			x: -14.5d
+			y: -3.5d
+			subtitle: "Hunt it, Don't kill it. Let it hunt prey so you can collect its teeth. It's well worth this task."
+			description: [
+				"The Hammerhead Shark will drop a tooth when it hunts prey. This quest involves you finding a shark, observing it, and collecting its teeth"
+				""
+				"Or you can trade a Alexs Mobs seal 3 fish by dropping them in front of it. It will then give you a item from its trade pool. The teeth are rare"
+			]
+			id: "17D1079A7FB2423E"
+			tasks: [
+				{
+					id: "7B1187B784D6EB8D"
+					type: "observation"
+					title: "Observe a Hammerhead Shark"
+					icon: "alexsmobs:spawn_egg_hammerhead_shark"
+					timer: 100L
+					observe_type: 5
+					to_observe: "alexsmobs:hammerhead_shark"
+				}
+				{
+					id: "04D04B2BD8F5D8DC"
+					type: "item"
+					item: "alexsmobs:shark_tooth"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "3E02A50E75E2A6BD"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: -14.0d
+			y: -2.5d
+			subtitle: "Get these teeth from Frilled Sharks while they attack prey"
+			dependencies: ["17D1079A7FB2423E"]
+			hide: true
+			id: "0EFFAE5CC3D6A83B"
+			tasks: [
+				{
+					id: "6C3A24DAC47748A7"
+					type: "item"
+					item: "alexsmobs:serrated_shark_tooth"
+					count: 3L
+				}
+				{
+					id: "3F29A21B018DBEB6"
+					type: "observation"
+					icon: "alexsmobs:spawn_egg_frilled_shark"
+					timer: 100L
+					observe_type: 0
+					to_observe: "alexsmobs:frilled_shark"
+				}
+			]
+			rewards: [{
+				id: "0D64EF1A1CD2D42C"
+				type: "random"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: -13.5d
+			y: -1.5d
+			subtitle: "An underwatah shield"
+			description: ["The Shield Of the Deep is an upgraded shield, suited for underwater use. When hit, the attacker is inflicted with Exsanguination causing them to uncontrollably loose health, and the shield is also more durable than a usual one"]
+			dependencies: ["0EFFAE5CC3D6A83B"]
+			hide: true
+			id: "581E9F82F26BB738"
+			tasks: [{
+				id: "096B1FB2405E8C11"
+				type: "item"
+				item: {
+					id: "alexsmobs:shield_of_the_deep"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DB5365314B67C3D"
+				type: "item"
+				item: "minecraft:prismarine_shard"
+			}]
+		}
+		{
+			x: -15.5d
+			y: -3.5d
+			subtitle: "You'll need to do this for a certain weapon"
+			description: [
+				"Drops a bone, or a fish bone, or rarely a Skelewag Skull weapon, or a novelty hat on even rarer occassions"
+				""
+			]
+			id: "6DC674B66DCF67FE"
+			tasks: [{
+				id: "729E2DA9CD720F9B"
+				type: "kill"
+				title: "Kill 3 Skelewags"
+				icon: "alexsmobs:spawn_egg_skelewag"
+				entity: "alexsmobs:skelewag"
+				value: 3L
+			}]
+			rewards: [{
+				id: "213BB83D03F647FD"
+				type: "item"
+				item: "farmersdelight:roasted_mutton_chops"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -2.5d
+			subtitle: "Cool skull, dude."
+			description: ["It can be used as a long ranged melee attack but it can also act like a Shield, meaning it can be used to block attacks from other mobs.If the player kills a Skelewag with this weapon then there is a very rare chance that it will drop a Novelty Hat"]
+			dependencies: ["6DC674B66DCF67FE"]
+			hide: true
+			id: "49236A8FA1F27894"
+			tasks: [{
+				id: "03F22A94844A7D5F"
+				type: "item"
+				item: {
+					id: "alexsmobs:skelewag_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B02C84381B11D3F"
+				type: "item"
+				item: "chanceglobe:chance_globe"
+			}]
+		}
+		{
+			icon: "alexsmobs:void_worm_eye"
+			x: -15.5d
+			y: 0.5d
+			subtitle: "Good luck! This is one of the requirements for Angel Ring"
+			description: ["Summoned by placing a Mysterious Worm in a Capsid"]
+			id: "1BECAB8BDA316AF7"
+			tasks: [{
+				id: "49D543918C497DFC"
+				type: "kill"
+				title: "Kill Alexs Mobs Boss; Void Worm"
+				icon: "alexsmobs:spawn_egg_void_worm"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [{
+				id: "66E51BEE5B20D186"
+				type: "random"
+				table_id: 2573245064785096990L
+			}]
+		}
+		{
+			x: -16.0d
+			y: 1.5d
+			subtitle: "Opens a portal to your spawn point or world spawn"
+			dependencies: ["1BECAB8BDA316AF7"]
+			hide: true
+			id: "091BAD3F867648FB"
+			tasks: [{
+				id: "6653A87A01962D31"
+				type: "item"
+				item: {
+					id: "alexsmobs:dimensional_carver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "56EFD68CC060CB89"
+				type: "random"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 1.5d
+			subtitle: "When powered with redstone enables the jaw to attack damaging entities"
+			description: ["Functions like a Ender Dragon Head"]
+			dependencies: ["1BECAB8BDA316AF7"]
+			hide: true
+			id: "0493E789AD1B616C"
+			tasks: [{
+				id: "2F72DF6EC2BE39FA"
+				type: "item"
+				item: "alexsmobs:void_worm_beak"
+			}]
+			rewards: [{
+				id: "3F0F82BF595D2360"
+				type: "choice"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 0.5d
+			subtitle: "Rarest entity in the game that only spawns in 1 chunk"
+			description: [
+				"Use an Echolocator tool to find it!"
+				""
+				"You'll need to save a beached Cachalot Whale to get Amergris which is required for Echolocator. Push the whale back into the sea without hurting it."
+				""
+				"Only during thunderstorms do Cachalot Whales become beached"
+			]
+			id: "4FA05A4E20EE6FB4"
+			tasks: [
+				{
+					id: "1954F47E1C922194"
+					type: "item"
+					item: "alexsmobs:devils_hole_pupfish_bucket"
+				}
+				{
+					id: "3DD1E3AA612A2423"
+					type: "item"
+					item: {
+						id: "alexsmobs:echolocator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "231C3E4D82850D61"
+					type: "random"
+					table_id: 5713291103209766976L
+				}
+				{
+					id: "33AA7E239F46CFE7"
+					type: "item"
+					item: "cyclic:heart"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 0.5d
+			subtitle: "Get Rockets and Capsids"
+			description: [
+				"Found in the End Midlands either Floating or walking slowly"
+				""
+				"You can also create an Enderiophage by placing an End Rod, then placing a Capsid and then an Eye Of Ender inside on top of the rod. If spawned in the Overworld or Nether, they will have unique designs. "
+			]
+			id: "700C05A0A84FB1DF"
+			tasks: [{
+				id: "57130C5013F5882B"
+				type: "kill"
+				title: "Kill 3 Enderiophages"
+				icon: "alexsmobs:spawn_egg_enderiophage"
+				entity: "alexsmobs:enderiophage"
+				value: 3L
+			}]
+			rewards: [{
+				id: "30BFBE6B453B9623"
+				type: "item"
+				item: "pamhc2foodextended:bananapieitem"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 1.5d
+			subtitle: "A replacement for Fireworks. Works best in The End"
+			dependencies: ["700C05A0A84FB1DF"]
+			id: "5C60BDFD256ED213"
+			tasks: [{
+				id: "67C8276C5FC1E824"
+				type: "item"
+				item: "alexsmobs:enderiophage_rocket"
+			}]
+			rewards: [{
+				id: "1ECE9E9697F23572"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -14.0d
+			y: 1.5d
+			subtitle: "Can be used to transport items placed inside by placing other capsids above or..."
+			description: ["Can be used to transform certain items"]
+			dependencies: ["700C05A0A84FB1DF"]
+			id: "21DDCADA50987A1A"
+			tasks: [{
+				id: "00C6944F46D3177F"
+				type: "questsadditions:place"
+				title: "Place a Capsid"
+				block_type: 0
+				block: "alexsmobs:capsid"
+				value: 1L
+				replaced: "minecraft:air"
+				replace: false
+			}]
+			rewards: [{
+				id: "29AA42B854121D45"
+				type: "item"
+				item: "croptopia:banana_nut_bread"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.5d
+			subtitle: "Place a Raw Cod in a Capsid to receive Cosmic Cod"
+			description: ["Save onto this guy to tame a different animal"]
+			dependencies: [
+				"700C05A0A84FB1DF"
+				"21DDCADA50987A1A"
+			]
+			id: "2D43A00357D49526"
+			tasks: [{
+				id: "199AB1EF191A6BF3"
+				type: "item"
+				item: "alexsmobs:cosmic_cod"
+			}]
+		}
+		{
+			title: "Kill 4 Foliaath"
+			icon: "mowziesmobs:foliaath_spawn_egg"
+			x: -15.5d
+			y: -6.5d
+			subtitle: "Hopefully you get the seed to have your own killer plant"
+			description: ["These jungle-lurking plant monsters want nothing more than to eat anything that moves! They may seem like ordinary ferns, but they'll emerge if you come close. You can't get close enough to strike them, so find some other way of killing them! They drop foliaath seeds.To grow a foliaath, obtain a seed and plant it by right clicking on grass or dirt. Every half-day for two days, feed the baby foliaath by tossing it a meat item. Then, it will emerge as a fully grown foliaath. Be careful: grown foliaaths aren't tamed and will still attack you!"]
+			id: "22ABD96DC2D48468"
+			tasks: [{
+				id: "244373A9C8ED4E45"
+				type: "kill"
+				icon: "mowziesmobs:foliaath_spawn_egg"
+				entity: "mowziesmobs:foliaath"
+				value: 4L
+			}]
+			rewards: [{
+				id: "156DE249A4B96A17"
+				type: "xp"
+				xp: 75
+			}]
+		}
+		{
+			x: -14.5d
+			y: -6.5d
+			subtitle: "Easy way for diamonds if youre quick enough and have the proper pickaxe"
+			description: ["These adorable crystal crustaceans live deep underground in caves and ravines. Sometimes called “living ore,” Grottols are prized as a rare source of diamonds. But only the quickest of adventurers can manage to catch them before they burrow away; grottols are very fast and surprisingly clever, even using minecarts to escape pursuers. Keep in mind that only iron or stronger pickaxes can penetrate their diamond shells."]
+			id: "078812BE9538B4D9"
+			tasks: [{
+				id: "7CCCA769234772CA"
+				type: "item"
+				item: "mowziesmobs:grottol_spawn_egg"
+			}]
+			rewards: [{
+				id: "69F8739D26ABEAE3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -15.0d
+			y: -5.5d
+			dependencies: ["078812BE9538B4D9"]
+			id: "28B3527BF8E3E989"
+			tasks: [{
+				id: "63A9634ABE47DA8E"
+				type: "item"
+				item: "mowziesmobs:captured_grottol"
+			}]
+			rewards: [{
+				id: "046D93429AEDD0E0"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -13.5d
+			y: -6.5d
+			subtitle: "A beautiful sight..."
+			description: ["Lanterns dot the canopy of roofed forests, glowing like jellyfish. Some cultures believe that these creatures contain the souls of the recently deceased. Others wish on them like stars. Adventurers, however, know that the luminous jelly inside lanterns is a great light snack that will briefly illuminate the darkest of nights."]
+			id: "40E8F23C560970B2"
+			tasks: [{
+				id: "0DFFCC60E0D59393"
+				type: "observation"
+				title: "Observe a Lantern"
+				icon: "mowziesmobs:lantern_spawn_egg"
+				timer: 100L
+				observe_type: 5
+				to_observe: "mowziesmobs:lantern"
+			}]
+			rewards: [{
+				id: "788E9818736D6C49"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5
+			}]
+		}
+		{
+			x: -12.5d
+			y: -6.5d
+			subtitle: "Flying Monsters.. Good Rewards"
+			description: ["Coastal cliffs are dangerous places. Adventurers tell of winged serpents called nagas with impressive speed and menacing acid venom. Though these drakes are evasive, a well-placed arrow can knock a naga right out of the sky; time your shots to hit when the naga is preparing an attack, and you can defeat it with ease.Naga acid is deadly, but can actually be used to neutralize other poisons. The fangs they drop upon death can be used to brew poison antidotes and preventatives."]
+			id: "3F8950A3564A6457"
+			tasks: [{
+				id: "0204ECCC3DDC19A8"
+				type: "kill"
+				title: "Slay 3 Naga's"
+				icon: "mowziesmobs:naga_spawn_egg"
+				entity: "mowziesmobs:naga"
+				value: 1L
+			}]
+			rewards: [{
+				id: "34AC87F8F195B54B"
+				type: "item"
+				item: "mowziesmobs:naga_fang"
+			}]
+		}
+		{
+			title: "Kill the Barak Gang 3x"
+			x: -11.5d
+			y: -6.5d
+			subtitle: "These guys..."
+			description: [
+				"Roaming the savanna, the Barakoa travel in small hunting packs. These goblin-like creatures are one with the masks on their heads, which cannot be removed. Some use bones as clubs while others use poisoned blowdarts. Each hunting pack is led by a Barakoana elite, wielding a spear and shield. The Barakoa make traversing the savanna quite dangerous, as they can surround their prey quickly and put up a good chase."
+				""
+				"When defeated, the Barakoa will sometimes drop their masks as items that the player can wear. Each mask bestows a different, small buff.Barakoa can also be found in villages scattered across the savanna plain."
+			]
+			id: "3816CAFCBAA0EE15"
+			tasks: [
+				{
+					id: "5B98EB71B66E7F16"
+					type: "kill"
+					title: "Kill 3 Barakoa"
+					icon: "mowziesmobs:barakoa_spawn_egg"
+					entity: "mowziesmobs:barakoan_barakoana"
+					value: 3L
+				}
+				{
+					id: "670716BCF1136076"
+					type: "kill"
+					title: "Barakoana"
+					icon: "mowziesmobs:barakoana_spawn_egg"
+					entity: "mowziesmobs:barakoana"
+					value: 3L
+				}
+				{
+					id: "5D64CDB1EA4E14D9"
+					type: "kill"
+					title: "Kill 3 Barakoaya"
+					icon: "mowziesmobs:barakoa_sunblocker_spawn_egg"
+					entity: "mowziesmobs:barakoa_sunblocker"
+					value: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "48B9C0D11156435F"
+					type: "random"
+					table_id: 5713291103209766976L
+				}
+				{
+					id: "4CBAB927D1DE5F3A"
+					type: "random"
+					table_id: 2573245064785096990L
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: -6.5d
+			subtitle: "Explodes and Shoots Fire, Oof."
+			id: "1F962B6752793B12"
+			tasks: [{
+				id: "4B825226A53D7A77"
+				type: "kill"
+				title: "Kill 10 Blaze Creepers"
+				icon: "weirdmobs:blazecreeper_entity_spawn_egg"
+				entity: "weirdmobs:blazecreeper_entity"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "1C404F41F4542802"
+					type: "item"
+					item: "gobberdelight:red_burger"
+				}
+				{
+					id: "6DA7CDF90A7E1390"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: -5.5d
+			subtitle: "You can also tame this beast with Blaze Rods"
+			id: "1AD8F1E7F8B7CFF3"
+			tasks: [{
+				id: "550C9917CB086BB3"
+				type: "kill"
+				title: "Kill 10 Blaze Wolfs"
+				icon: "weirdmobs:blazewolf_entity_spawn_egg"
+				entity: "weirdmobs:blazewolf_entity"
+				value: 10L
+			}]
+			rewards: [{
+				id: "709EEC14B00722D8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -21.5d
+			y: -7.5d
+			subtitle: "Fast Runner with BOOMs"
+			id: "74DBA3C18659A9DE"
+			tasks: [{
+				id: "6D340753289CFA21"
+				type: "kill"
+				title: "Kill 10 Ender Creeper"
+				icon: "weirdmobs:endercreeper_entity_spawn_egg"
+				entity: "weirdmobs:endercreeper_entity"
+				value: 10L
+			}]
+			rewards: [{
+				id: "5588265474D3B443"
+				type: "item"
+				item: "gobber2:gobber2_glob_end"
+			}]
+		}
+		{
+			x: -21.5d
+			y: -4.5d
+			subtitle: "Found in.... Taiga"
+			id: "731321A83F30C57A"
+			tasks: [{
+				id: "06F6F741584605AB"
+				type: "kill"
+				title: "Kill 10 Phantom Foxes"
+				icon: "weirdmobs:phantomfox_entity_spawn_egg"
+				entity: "weirdmobs:phantomfox_entity"
+				value: 100L
+			}]
+		}
+		{
+			x: -22.5d
+			y: -5.5d
+			dependencies: ["1AD8F1E7F8B7CFF3"]
+			hide: true
+			id: "160A7640D44DFBF2"
+			tasks: [{
+				id: "0A38FD352DD788EB"
+				type: "item"
+				item: {
+					id: "weirdmobs:blazewolf_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -22.5d
+			y: -4.5d
+			dependencies: ["731321A83F30C57A"]
+			hide: true
+			id: "7EE3222EBDD2A754"
+			tasks: [
+				{
+					id: "3CC0B0999DF568D9"
+					type: "item"
+					item: {
+						id: "weirdmobs:phantomfox_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "09E3AD96D5C1EBF3"
+					type: "item"
+					item: {
+						id: "weirdmobs:phantomfox_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36C59C26E445931E"
+					type: "item"
+					item: {
+						id: "weirdmobs:phantomfox_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7074EFC06509388F"
+					type: "item"
+					item: {
+						id: "weirdmobs:phantomfox_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2A7BC70C11342D05"
+				type: "item"
+				item: "chancecubes:chance_cube"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -21.5d
+			y: -3.5d
+			subtitle: "Spawns in Forest and is namable with bones"
+			id: "5C838255E9336456"
+			tasks: [{
+				id: "26301EC7738E5F85"
+				type: "kill"
+				title: "Kill 10 Rabbit Wolves"
+				icon: "weirdmobs:rabbitwolf_entity_spawn_egg"
+				entity: "weirdmobs:rabbitwolf_entity"
+				value: 10L
+			}]
+			rewards: [{
+				id: "6E6996308D648A15"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: -21.5d
+			y: -2.5d
+			subtitle: "Bring your poision res"
+			id: "51EA13DD6E6F4A9A"
+			tasks: [{
+				id: "779635352C908577"
+				type: "kill"
+				title: "Kill 10 Spider Llama's"
+				icon: "weirdmobs:spiderllama_entity_spawn_egg"
+				entity: "weirdmobs:spiderllama_entity"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "599B3AC8E5B09283"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 5
+				}
+				{
+					id: "73B2257C8FA7FDD5"
+					type: "item"
+					item: "gobber2:gobber2_gooey_bread"
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: -1.5d
+			subtitle: "Nether Beasts...."
+			id: "75B8F8CB497230C9"
+			tasks: [{
+				id: "64003C858DEC30CF"
+				type: "kill"
+				title: "Kill 10 Vex Piglins"
+				icon: "weirdmobs:vexpiglin_entity_spawn_egg"
+				entity: "weirdmobs:vexpiglin_entity"
+				value: 10L
+			}]
+		}
+		{
+			title: "Kill 5 Wolfman and 5 Wolfwoman"
+			x: -21.5d
+			y: -0.5d
+			subtitle: "Jungle Beasts..."
+			id: "64734C052DAD85F6"
+			tasks: [
+				{
+					id: "3A0DC037DD30AF92"
+					type: "kill"
+					title: "Kill 5 Wolfman"
+					icon: "weirdmobs:wolfman_entity_spawn_egg"
+					entity: "weirdmobs:wolfman_entity"
+					value: 5L
+				}
+				{
+					id: "681E1E23D535C36D"
+					type: "kill"
+					title: "Kill 5 Wolfwoman"
+					icon: "weirdmobs:wolfwoman_spawn_egg"
+					entity: "weirdmobs:wolfwoman"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "674296D71BD5893D"
+				type: "random"
+				table_id: 1890603652941546413L
+			}]
+		}
+		{
+			x: -21.5d
+			y: 0.5d
+			id: "1A97C4D22AC244F2"
+			tasks: [{
+				id: "7CA19F89A62C0B28"
+				type: "kill"
+				title: "Kill 7 Ender Ghasts"
+				icon: "weirdmobs:enderghast_spawn_egg"
+				entity: "weirdmobs:enderghast"
+				value: 7L
+			}]
+			rewards: [{
+				id: "02B85DFBACFED612"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: -22.5d
+			y: 0.5d
+			dependencies: ["1A97C4D22AC244F2"]
+			hide: true
+			id: "3FC2ECA07428B96A"
+			tasks: [{
+				id: "62B79AA325842795"
+				type: "item"
+				item: {
+					id: "weirdmobs:ender_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "048E63E6E28708F7"
+				type: "item"
+				item: "cyclic:heart"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -7.5d
+			subtitle: "Ooh, Shiny reward."
+			id: "2E913DFC2B5CA39E"
+			tasks: [{
+				id: "715E8313C8564A58"
+				type: "kill"
+				title: "Kill 10 Giant Mosquitos"
+				icon: "weirdmobs:giant_mosquito_spawn_egg"
+				entity: "minecraft:zombie"
+				value: 10L
+			}]
+			rewards: [{
+				id: "114A07F1FC85C037"
+				type: "item"
+				item: "mysticalagriculture:prosperity_gemstone"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -19.5d
+			y: -6.5d
+			subtitle: "Found in.... a specific biome in The Nether"
+			id: "3482A3EE3FAA3CCC"
+			tasks: [{
+				id: "3593D1532883E81C"
+				type: "kill"
+				title: "Kill 10 Wither Spiders"
+				icon: "weirdmobs:wither_spider_spawn_egg"
+				entity: "weirdmobs:wither_spider"
+				value: 10L
+			}]
+			rewards: [{
+				id: "0C1F63918FA1D3E9"
+				type: "random"
+				table_id: 2573245064785096990L
+			}]
+		}
+		{
+			x: -19.5d
+			y: -5.5d
+			id: "417FD7BEE80CA2AC"
+			tasks: [{
+				id: "3EA350C2A1F7B698"
+				type: "kill"
+				title: "Kill 10 Basalt Snakes"
+				icon: "weirdmobs:basalt_snake_spawn_egg"
+				entity: "weirdmobs:basalt_snake"
+				value: 10L
+			}]
+		}
+		{
+			x: -20.5d
+			y: -5.5d
+			id: "06966DA2B1C5FE7A"
+			tasks: [{
+				id: "716C96656A33A030"
+				type: "item"
+				item: {
+					id: "weirdmobs:basaltsnake_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
 }

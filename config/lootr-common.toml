@@ -57,4 +57,8 @@ refresh_all = false
 maximum_age = 3600
 #skip unloaded block entities that are eligible for conversion, set to false to potentially resolve issues with containers that aren't being converted [default: true]
 skip_unloaded = true
+#when true, comparators on Lootr containers will give an output of 1; when false, they will give an output of 0
+power_comparators = true
+#lootr chests cannot be destroyed by explosions
+blast_resistant = false
 

@@ -74,4 +74,7 @@
 	#Period where graves produce fog [DAY/NIGHT/BOTH|default:NIGHT]
 	#Allowed Values: DAY, NIGHT, BOTH, NEVER
 	fog_period = "NIGHT"
+	#Defines the font to use in Tombstone's screens (only for english, french and spanish languages) [FANTASY/VANILLA|default:FANTASY]
+	#Allowed Values: FANTASY, VANILLA
+	font_rule = "FANTASY"
 

@@ -17,7 +17,7 @@
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 2
+		"Max Level" = 3
 		#Adjust this value to set the chance per level of the Enchantment firing (in percentage).
 		#Range: 1 ~ 100
 		"Effect Chance" = 10
@@ -65,10 +65,10 @@
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 3
+		"Max Level" = 2
 		#Adjust this to change the max experience awarded per level of the Enchantment.
 		#Range: 1 ~ 1000
-		"Experience Amount" = 4
+		"Experience Amount" = 2
 
 	[Enchantments.Gourmand]
 		#If TRUE, the Gourmand Enchantment is available for Helmets.
@@ -86,7 +86,7 @@
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 1
+		"Max Level" = 3
 
 	[Enchantments.Vitality]
 		#If TRUE, the Vitality Enchantment is available for Chestplates.
@@ -181,19 +181,19 @@
 		"Max Level" = 3
 		#Adjust this value to set the base critical hit chance of the Enchantment (in percentage).
 		#Range: 0 ~ 100
-		"Base Critical Chance" = 2
+		"Base Critical Chance" = 3
 		#Adjust this value to set the additional critical hit chance per level of the Enchantment (in percentage).
 		#Range: 0 ~ 100
-		"Critical Chance / Level" = 3
+		"Critical Chance / Level" = 4
 		#Adjust this value to set the critical hit damage multiplier.
 		#Range: 0 ~ 1000
 		"Critical Damage Multiplier" = 5
 		#Adjust this value to set the base head drop chance for the Enchantment (in percentage).
 		#Range: 0 ~ 100
-		"Base Head Drop Chance" = 5
+		"Base Head Drop Chance" = 6
 		#Adjust this value to set the head drop chance per level of the Enchantment (in percentage).
 		#Range: 0 ~ 100
-		"Head Drop Chance / Level" = 5
+		"Head Drop Chance / Level" = 6
 
 	[Enchantments.Excavating]
 		#If TRUE, the Excavating Enchantment is available for various Tools.
@@ -261,7 +261,7 @@
 		#If TRUE, the Bulwark Enchantment is available for Shields.
 		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
-		Treasure = true
+		Treasure = false
 
 	[Enchantments.Phalanx]
 		#If TRUE, the Phalanx Enchantment is available for Shields.

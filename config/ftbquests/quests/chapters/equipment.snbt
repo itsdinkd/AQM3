@@ -1,10 +1,1386 @@
 {
-	id: "2A80706F06D65DB0"
+	id: "35562898C89B5756"
 	group: "30AC1CE19F5532E7"
-	order_index: 5
+	order_index: 4
 	filename: "equipment"
-	title: "Equipment"
+	title: "Armor Benefits"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			icon: "armorplus:soul_ender_dragon"
+			x: -4.9285714285714235d
+			y: -0.01785714285714235d
+			subtitle: "Build Armor from Common Materials with Special Effects"
+			description: ["Note: One of the end tier items in this mod is required for end game recipes"]
+			size: 2.25d
+			id: "32AF2AA6439C7AC7"
+			tasks: [{
+				id: "6E1FB4887369BD22"
+				type: "checkmark"
+				title: "Armor Plus"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Night Vision"
+			id: "7B2A9AE60034BF10"
+			tasks: [
+				{
+					id: "1F24ED0A9C3A089F"
+					type: "item"
+					item: {
+						id: "armorplus:coal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "300F5BB625287441"
+					type: "item"
+					item: {
+						id: "armorplus:coal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36235BA0BCBB0FCE"
+					type: "item"
+					item: {
+						id: "armorplus:coal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FE3928F9CD9D8B3"
+					type: "item"
+					item: {
+						id: "armorplus:coal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5177A4C92DEC7663"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Blindess on Hit"
+			dependencies: ["7B2A9AE60034BF10"]
+			id: "60C32585C3DA8A53"
+			tasks: [{
+				id: "7D6B42E03212B407"
+				type: "item"
+				item: {
+					id: "armorplus:coal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			subtitle: "Blindess on Hit"
+			dependencies: ["7B2A9AE60034BF10"]
+			id: "281CBB67D385F818"
+			tasks: [{
+				id: "0E42084A00CD4A8D"
+				type: "item"
+				item: {
+					id: "armorplus:coal_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["7B2A9AE60034BF10"]
+			id: "00340498D67C9FBE"
+			tasks: [{
+				id: "1D62D887923310C6"
+				type: "item"
+				item: {
+					id: "armorplus:coal_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Water Breathing"
+			dependencies: ["7B2A9AE60034BF10"]
+			id: "461820CDEACE2A05"
+			tasks: [
+				{
+					id: "3E4BA233D1086984"
+					type: "item"
+					item: {
+						id: "armorplus:lapis_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47559C4DADDDACD8"
+					type: "item"
+					item: {
+						id: "armorplus:lapis_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "261E25C28965E5E4"
+					type: "item"
+					item: {
+						id: "armorplus:lapis_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B57C29E22E9E404"
+					type: "item"
+					item: {
+						id: "armorplus:lapis_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "301EE8E9ADBF91D2"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			subtitle: "Nausea on Hit"
+			dependencies: ["461820CDEACE2A05"]
+			id: "38112E8356ECDE6A"
+			tasks: [{
+				id: "6C8EEAE5FEA43D19"
+				type: "item"
+				item: {
+					id: "armorplus:lapis_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "Nausea on Hit"
+			dependencies: ["461820CDEACE2A05"]
+			id: "281601ECFBD6B6C4"
+			tasks: [{
+				id: "123AF1D39AE87D37"
+				type: "item"
+				item: {
+					id: "armorplus:lapis_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["461820CDEACE2A05"]
+			id: "537A3776FF37BB7A"
+			tasks: [{
+				id: "23E9F6728063A628"
+				type: "item"
+				item: {
+					id: "armorplus:lapis_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Haste 2"
+			dependencies: ["461820CDEACE2A05"]
+			id: "50CAEC7F7ED4F16A"
+			tasks: [
+				{
+					id: "32D365DB56C5C672"
+					type: "item"
+					item: {
+						id: "armorplus:redstone_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4404351F0D3015AA"
+					type: "item"
+					item: {
+						id: "armorplus:redstone_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7B473F25BF9FEDAF"
+					type: "item"
+					item: {
+						id: "armorplus:redstone_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7345BDABB7AF7C0F"
+					type: "item"
+					item: {
+						id: "armorplus:redstone_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1A4B9B152045C8E5"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			subtitle: "Mining Fatigue 2 on Hit"
+			dependencies: ["50CAEC7F7ED4F16A"]
+			id: "4FB05C80E6659D4D"
+			tasks: [{
+				id: "30143DF44DE007CE"
+				type: "item"
+				item: {
+					id: "armorplus:redstone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "Mining Fatigue 2 on Hit"
+			dependencies: ["50CAEC7F7ED4F16A"]
+			id: "4980FDEB6F784412"
+			tasks: [{
+				id: "78493984C04DE834"
+				type: "item"
+				item: {
+					id: "armorplus:redstone_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["50CAEC7F7ED4F16A"]
+			id: "73E1816FC59C34CE"
+			tasks: [{
+				id: "49D85E8965FBC556"
+				type: "item"
+				item: {
+					id: "armorplus:redstone_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Speed 2"
+			dependencies: ["50CAEC7F7ED4F16A"]
+			id: "1A01D1A5BE57D8CC"
+			tasks: [
+				{
+					id: "2E785AA591E21036"
+					type: "item"
+					item: {
+						id: "armorplus:emerald_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ABF33419A37DCDA"
+					type: "item"
+					item: {
+						id: "armorplus:emerald_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E3641C89D55559D"
+					type: "item"
+					item: {
+						id: "armorplus:emerald_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "027F1260C1B48593"
+					type: "item"
+					item: {
+						id: "armorplus:emerald_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Slowness on Hit"
+			dependencies: ["1A01D1A5BE57D8CC"]
+			id: "1BB9BA827768A9EA"
+			tasks: [{
+				id: "23680695C5F18D8C"
+				type: "item"
+				item: {
+					id: "armorplus:emerald_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["1A01D1A5BE57D8CC"]
+			id: "7234E92B19906D31"
+			tasks: [{
+				id: "65C8D2C9B51D4ED8"
+				type: "item"
+				item: {
+					id: "armorplus:emerald_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["1A01D1A5BE57D8CC"]
+			id: "79487272DD0B5313"
+			tasks: [{
+				id: "193AFF69101E0D63"
+				type: "item"
+				item: {
+					id: "armorplus:emerald_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Resistence 2"
+			dependencies: ["1A01D1A5BE57D8CC"]
+			id: "3A21AE356F921A1A"
+			tasks: [
+				{
+					id: "2A9F6F5ABA49CD4B"
+					type: "item"
+					item: {
+						id: "armorplus:obsidian_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10DF305674C8CD47"
+					type: "item"
+					item: {
+						id: "armorplus:obsidian_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7B056383056E3D20"
+					type: "item"
+					item: {
+						id: "armorplus:obsidian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0344BB6002E82F23"
+					type: "item"
+					item: {
+						id: "armorplus:obsidian_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1B02141D60611E2C"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			subtitle: "Weakness 3 on Hit"
+			dependencies: ["3A21AE356F921A1A"]
+			id: "6B048656CBDCA25A"
+			tasks: [{
+				id: "511AFEF4F812783B"
+				type: "item"
+				item: {
+					id: "armorplus:obsidian_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			subtitle: "Weakness 3 on Hit"
+			dependencies: ["3A21AE356F921A1A"]
+			id: "0A3839C604B77072"
+			tasks: [{
+				id: "7794AF148538C85A"
+				type: "item"
+				item: {
+					id: "armorplus:obsidian_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["3A21AE356F921A1A"]
+			id: "2016E8C9310F4AEA"
+			tasks: [{
+				id: "202A99EF45E52B29"
+				type: "item"
+				item: {
+					id: "armorplus:obsidian_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "Fire Res 1, Fire Extinguish, Water Weakness"
+			dependencies: ["3A21AE356F921A1A"]
+			id: "70933370002BC988"
+			tasks: [
+				{
+					id: "4E4996571FC4FFC2"
+					type: "item"
+					item: {
+						id: "armorplus:infused_lava_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74B6D34AF7D4A7A8"
+					type: "item"
+					item: {
+						id: "armorplus:infused_lava_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C86A9E881ECEF40"
+					type: "item"
+					item: {
+						id: "armorplus:infused_lava_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F4C939B905A0FFF"
+					type: "item"
+					item: {
+						id: "armorplus:infused_lava_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "73A870896213A99E"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["70933370002BC988"]
+			id: "03EBFD133FA2A0FA"
+			tasks: [{
+				id: "4B00E9051A891ABD"
+				type: "item"
+				item: {
+					id: "armorplus:infused_lava_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["70933370002BC988"]
+			id: "02D8567A83D26349"
+			tasks: [{
+				id: "35296ECC5AE398E3"
+				type: "item"
+				item: {
+					id: "armorplus:infused_lava_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["70933370002BC988"]
+			id: "7B4AC2BB43ACA82F"
+			tasks: [{
+				id: "482AA6C4C506EA41"
+				type: "item"
+				item: {
+					id: "armorplus:infused_lava_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Jump Boost 4, Slow Falling 2"
+			dependencies: ["50CAEC7F7ED4F16A"]
+			optional: true
+			id: "0DB9E9235B217ACC"
+			tasks: [
+				{
+					id: "0779F88CB994E649"
+					type: "item"
+					item: {
+						id: "armorplus:slime_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5792879D2D69F029"
+					type: "item"
+					item: {
+						id: "armorplus:slime_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E0EA3A85E2827B0"
+					type: "item"
+					item: {
+						id: "armorplus:slime_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2AF43FDD1200E27C"
+					type: "item"
+					item: {
+						id: "armorplus:slime_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1D807ADB4F60D048"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			subtitle: "Speed 4"
+			dependencies: ["7B2A9AE60034BF10"]
+			id: "347722439C8DECFB"
+			tasks: [
+				{
+					id: "078C05CE678B71AF"
+					type: "item"
+					item: {
+						id: "armorplus:chicken_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68D888BF0D18274C"
+					type: "item"
+					item: {
+						id: "armorplus:chicken_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4DEED3B24AA8D8FC"
+					type: "item"
+					item: {
+						id: "armorplus:chicken_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1567D0B682ABC264"
+					type: "item"
+					item: {
+						id: "armorplus:chicken_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "57430EBC988F2E91"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Water Breathing"
+			description: ["You will need the Base guardian pieces, as well as the soul of elder guardian"]
+			dependencies: ["3BB753ABB4E3CA5D"]
+			id: "22FD42F1F4DA53B7"
+			tasks: [
+				{
+					id: "506A5377CACA16FE"
+					type: "item"
+					item: {
+						id: "armorplus:guardian_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4DF5E7DFE027B4FE"
+					type: "item"
+					item: {
+						id: "armorplus:guardian_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B0CEF2A97B3F340"
+					type: "item"
+					item: {
+						id: "armorplus:guardian_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23D832CB4E0163C7"
+					type: "item"
+					item: {
+						id: "armorplus:guardian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "458137AB0C84D8DD"
+				type: "random"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			subtitle: "Required Component for Guardian Armor"
+			dependencies: ["70933370002BC988"]
+			id: "3BB753ABB4E3CA5D"
+			tasks: [
+				{
+					id: "195C90B6B5082FF7"
+					type: "item"
+					item: "armorplus:guardian_boots_base"
+				}
+				{
+					id: "3A4285B56157098E"
+					type: "item"
+					item: "armorplus:guardian_leggings_base"
+				}
+				{
+					id: "7D6944585AB21BD5"
+					type: "item"
+					item: "armorplus:guardian_chestplate_base"
+				}
+				{
+					id: "6894CB59902C9BC2"
+					type: "item"
+					item: "armorplus:guardian_helmet_base"
+				}
+			]
+			rewards: [{
+				id: "1F0BF5916EF609E7"
+				type: "random"
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			title: "Soul Stealer Enchantment"
+			x: 6.0d
+			y: -2.0d
+			subtitle: "Enchant your weapon with this and slay minecraft bosses to steal their soul for recipes"
+			dependencies: ["70933370002BC988"]
+			id: "6F2800793E9D16BD"
+			tasks: [{
+				id: "663AB2630B550B9F"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "armorplus:soul_stealer"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F88B1C26894A08E"
+				type: "random"
+				table_id: 5396437845961881468L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			subtitle: "Recipe Component"
+			dependencies: ["22FD42F1F4DA53B7"]
+			id: "32EB7614402D7813"
+			tasks: [{
+				id: "7B702B40205FE138"
+				type: "item"
+				item: "armorplus:guardian_sword_base"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			subtitle: "Recipe Component"
+			dependencies: ["22FD42F1F4DA53B7"]
+			id: "38A70FE3F316EF75"
+			tasks: [{
+				id: "5D22FDCF3940D73F"
+				type: "item"
+				item: "armorplus:guardian_battle_axe_base"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			subtitle: "Recipe Component"
+			dependencies: ["22FD42F1F4DA53B7"]
+			id: "1CB57AE407EDAB81"
+			tasks: [
+				{
+					id: "4BE37A8DC4C23416"
+					type: "item"
+					item: "armorplus:super_star_helmet_base"
+				}
+				{
+					id: "21732D2C95062694"
+					type: "item"
+					item: "armorplus:super_star_chestplate_base"
+				}
+				{
+					id: "21062170B9FBE616"
+					type: "item"
+					item: "armorplus:super_star_leggings_base"
+				}
+				{
+					id: "6363753568F8A2A5"
+					type: "item"
+					item: "armorplus:super_star_boots_base"
+				}
+			]
+			rewards: [{
+				id: "22F83B1A02AC1686"
+				type: "random"
+				table_id: 5396437845961881468L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			subtitle: "Wither, Regen, Fire Res 1, Fire Extinguish"
+			description: ["Use a Soul Slayer enchanted weapon and kill the wither"]
+			dependencies: ["1CB57AE407EDAB81"]
+			id: "37CDB94FED607231"
+			tasks: [
+				{
+					id: "16D979A947428B72"
+					type: "item"
+					item: {
+						id: "armorplus:super_star_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D6BFAF94D5E08E7"
+					type: "item"
+					item: {
+						id: "armorplus:super_star_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45E2AA8212322891"
+					type: "item"
+					item: {
+						id: "armorplus:super_star_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0671FD73162996FB"
+					type: "item"
+					item: {
+						id: "armorplus:super_star_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "320EBF5269EC69B5"
+				type: "random"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			subtitle: "Weakness, Nausea 2 on Hit"
+			dependencies: ["32EB7614402D7813"]
+			id: "57D35AE409384B72"
+			tasks: [{
+				id: "0F859FB84A0A457D"
+				type: "item"
+				item: {
+					id: "armorplus:guardian_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			subtitle: "Weakness, Nausea 2 on Hit"
+			dependencies: ["38A70FE3F316EF75"]
+			id: "305EA25922FEA546"
+			tasks: [{
+				id: "02CB1B18BAE8836D"
+				type: "item"
+				item: {
+					id: "armorplus:guardian_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			dependencies: [
+				"32EB7614402D7813"
+				"38A70FE3F316EF75"
+			]
+			id: "0EFB650545A976F9"
+			tasks: [{
+				id: "4E55E2D205484D0C"
+				type: "item"
+				item: {
+					id: "armorplus:guardian_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			subtitle: "Recipe Component"
+			dependencies: ["37CDB94FED607231"]
+			id: "28F27371B496EBC5"
+			tasks: [{
+				id: "24148EE315FFED2A"
+				type: "item"
+				item: "armorplus:super_star_sword_base"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			subtitle: "Recipe Component"
+			dependencies: ["37CDB94FED607231"]
+			id: "4079ED640C822FD0"
+			tasks: [{
+				id: "43F2C6C8EAB64DE7"
+				type: "item"
+				item: "armorplus:super_star_battle_axe_base"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			subtitle: "Wither 2, Glowing 1 on Hit"
+			dependencies: ["28F27371B496EBC5"]
+			id: "0A67BDA09C5E0F90"
+			tasks: [{
+				id: "5C963964F058C016"
+				type: "item"
+				item: {
+					id: "armorplus:super_star_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			subtitle: "Wither 2, Glowing 1 on Hit"
+			dependencies: ["4079ED640C822FD0"]
+			id: "77E0206FD1B42AAC"
+			tasks: [{
+				id: "4330D4B5D8D27853"
+				type: "item"
+				item: {
+					id: "armorplus:super_star_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			dependencies: [
+				"4079ED640C822FD0"
+				"28F27371B496EBC5"
+			]
+			id: "7790763F72E50B5D"
+			tasks: [{
+				id: "3B8374F55486192A"
+				type: "item"
+				item: {
+					id: "armorplus:super_star_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.0d
+			subtitle: "Recipe Component"
+			dependencies: ["37CDB94FED607231"]
+			id: "66E3221D34C412B4"
+			tasks: [{
+				id: "2A8A26C33F4E93E6"
+				type: "item"
+				item: "armorplus:ender_dragon_sword_base"
+			}]
+			rewards: [{
+				id: "35458AAE79644B07"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.0d
+			subtitle: "Recipe Component"
+			dependencies: ["37CDB94FED607231"]
+			id: "6516C31AC5CA6560"
+			tasks: [{
+				id: "0E28A8FEBE7F7118"
+				type: "item"
+				item: "armorplus:ender_dragon_battle_axe_base"
+			}]
+			rewards: [{
+				id: "510635148D440D57"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			subtitle: "Wither 4, Slowness 2 on Hit"
+			dependencies: ["66E3221D34C412B4"]
+			id: "5B7576E070426CB9"
+			tasks: [{
+				id: "013B44723C0C1165"
+				type: "item"
+				item: {
+					id: "armorplus:ender_dragon_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "64364760DEBCA8EE"
+				type: "random"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.5d
+			dependencies: ["6516C31AC5CA6560"]
+			id: "3C1128C07EEAAE0F"
+			tasks: [{
+				id: "65AE454E2F63F3B4"
+				type: "item"
+				item: {
+					id: "armorplus:ender_dragon_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "21987E5783FB3A47"
+				type: "random"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.5d
+			dependencies: [
+				"6516C31AC5CA6560"
+				"66E3221D34C412B4"
+			]
+			id: "25A50E34B30B2DBC"
+			tasks: [{
+				id: "3049596D8824DE22"
+				type: "item"
+				item: {
+					id: "armorplus:ender_dragon_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E52D3500EBE72AC"
+				type: "random"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.0d
+			dependencies: ["66E3221D34C412B4"]
+			id: "5F019D5C6107409E"
+			tasks: [{
+				id: "596CF8FFB45B1CCB"
+				type: "item"
+				item: "armorplus:slayer_sword_base"
+			}]
+			rewards: [{
+				id: "214B12F7E1D26587"
+				type: "item"
+				item: "chanceglobe:chance_globe"
+				count: 3
+			}]
+		}
+		{
+			x: 14.5d
+			y: 2.0d
+			dependencies: ["6516C31AC5CA6560"]
+			id: "7D4522A2157EAAB4"
+			tasks: [{
+				id: "35668A429A54677D"
+				type: "item"
+				item: "armorplus:slayer_battle_axe_base"
+			}]
+			rewards: [{
+				id: "2A8BF4468C591F53"
+				type: "item"
+				item: "chanceglobe:chance_globe"
+				count: 3
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.5d
+			dependencies: ["5F019D5C6107409E"]
+			id: "6D7BBD12C5E218D3"
+			tasks: [{
+				id: "67E015725B60BB26"
+				type: "item"
+				item: {
+					id: "armorplus:slayer_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0DCF372285499451"
+					type: "choice"
+					table_id: 5396437845961881468L
+				}
+				{
+					id: "7BDCA62E91711B6B"
+					type: "random"
+					table_id: 5713291103209766976L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 2.5d
+			dependencies: ["7D4522A2157EAAB4"]
+			id: "4C7996878C5C2502"
+			tasks: [{
+				id: "55F880BF3DA62E00"
+				type: "item"
+				item: {
+					id: "armorplus:slayer_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "14D0F9B38959CDBF"
+					type: "choice"
+					table_id: 5396437845961881468L
+				}
+				{
+					id: "0A746CACE7383D94"
+					type: "random"
+					table_id: 5713291103209766976L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			subtitle: "The Guide Book"
+			id: "33E39C6CEE18241D"
+			tasks: [{
+				id: "33EB72274FA80D5D"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "armorplus:guide_book"
+					}
+				}
+			}]
+		}
+	]
 }

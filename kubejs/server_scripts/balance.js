@@ -241,7 +241,7 @@ event.replaceInput({output: "ironfurnaces:item_linker"}, "minecraft:netherite_nu
 // Argent Plate
 event.replaceInput(
 { id: "doom:argent_plate" },
-"minecraft:iron_ingot",
+"minecraft:netherite_scrap",
 "gobber2:gobber2_ingot_nether"
 );
 
@@ -300,16 +300,12 @@ event.replaceInput(
 
 // Mystical Agriculture
 const banMaItems =  [
-    'apatite',
     'chrome',
     'fluix',
     'graphite',
-    'invar',
     'iridium',
     'mithril',
     'rubber',
-    'ruby',
-    'sapphire',
     'tungsten'
   ]
 
@@ -751,5 +747,64 @@ event.custom(
       "item": "futurepack:external_core"
     }
   }
+);
+
+event.replaceInput({id: "nomadictents:mallet"},
+"minecraft:iron_ingot",
+"thermal:tin_ingot"
+);
+
+event.replaceInput({id: "nomadictents:golden_mallet"},
+"minecraft:gold_block",
+"thermal:rose_gold_block"
+);
+
+const cableTypes = [
+  "_exporter",
+  "_importer",
+  "_requester",
+  "_disk_manipulator",
+  "_constructor",
+  "_destructor"
+];
+
+event.replaceInput({output: "tombstone:enchanted_grave_key"},
+"minecraft:ender_pearl",
+"botania:ender_hand"
 )
-})
+
+cableTypes.forEach((type) => {
+    event.replaceInput({id: "cabletiers:elite" + type},
+      "minecraft:iron_block",
+      "thermal:tin_block"
+    );
+    event.replaceInput({id: "cabletiers:ultra" + type},
+      "minecraft:diamond_block",
+      "oresabovediamonds:amethyst_block"
+    )
+    event.replaceInput({id: "cabletiers:creative" + type},
+      "minecraft:netherite_block",
+      "oresabovediamonds:black_opal_block"
+    )
+  })
+
+event.custom(
+  {
+    "type":"create:compacting",
+    "ingredients":
+    [
+      {
+        "item":"nethers_exoticism:jaboticaba"
+      }
+    ],
+    "results":
+    [
+      {
+        "fluid":"nethers_exoticism:jaboticaba_juice",
+        "amount":250,
+        "nbt":"null"
+      }
+    ]
+  }
+)
+});

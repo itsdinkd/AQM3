@@ -17,7 +17,166 @@ event.shaped("mysticalagriculture:master_infusion_crystal", [
   ["mysticalagradditions:insanium_essence","mysticalagriculture:prosperity_gemstone","mysticalagradditions:insanium_essence"],
 ]);
 
+// steel
+event.custom(
+  {
+    "type":"minecraft:crafting_shaped",
+    "pattern":
+    [
+      "EEE","E E","EEE"
+    ],
+    "key":
+    {
+      "E":
+      {
+        "item":"mysticalagriculture:steel_essence"
+      }
+    },
+    "result":
+    {
+      "tag": "forge:ingots/steel",
+      "count":3
+    }
+  }
+)
 
+// lead
+event.custom(
+  {
+    "type":"minecraft:crafting_shaped",
+    "pattern":
+    [
+      "EEE","E E","EEE"
+    ],
+    "key":
+    {
+      "E":
+      {
+        "item":"mysticalagriculture:lead_essence"
+      }
+    },
+    "result":
+    {
+      "tag": "forge:ingots/lead",
+      "count":4
+    }
+  }
+)
+
+// zinc
+event.custom(
+  {
+    "type":"minecraft:crafting_shaped",
+    "pattern":
+    [
+      "EEE","E E","EEE"
+    ],
+    "key":
+    {
+      "E":
+      {
+        "item":"mysticalagriculture:zinc_essence"
+      }
+    },
+    "result":
+    {
+      "tag": "forge:ingots/zinc",
+      "count":4
+    }
+  }
+)
+
+// sulfur
+event.custom(
+  {
+    "type":"minecraft:crafting_shaped",
+    "pattern":
+    [
+      "EEE","   ","   "
+    ],
+    "key":
+    {
+      "E":
+      {
+        "item":"mysticalagriculture:sulfur_essence"
+      }
+    },
+    "result":
+    {
+      "tag": "forge:dusts/sulfur",
+      "count":4
+    }
+  }
+)
+
+// tin
+event.custom(
+  {
+    "type":"minecraft:crafting_shaped",
+    "pattern":
+    [
+      "EEE","E E","EEE"
+    ],
+    "key":
+    {
+      "E":
+      {
+        "item":"mysticalagriculture:tin_essence"
+      }
+    },
+    "result":
+    {
+      "tag": "forge:ingots/tin",
+      "count":4
+    }
+  }
+)
+
+// bronze
+event.custom(
+  {
+    "type":"minecraft:crafting_shaped",
+    "pattern":
+    [
+      "EEE","E E","EEE"
+    ],
+    "key":
+    {
+      "E":
+      {
+        "item":"mysticalagriculture:bronze_essence"
+      }
+    },
+    "result":
+    {
+      "tag":"forge:ingots/bronze",
+      "count":4
+    }
+  }
+)
+
+// aluminum
+event.custom(
+  {
+    "type":"minecraft:crafting_shaped",
+    "pattern":
+    [
+      "EEE","E E","EEE"
+    ],
+    "key":
+    {
+      "E":
+      {
+        "item":"mysticalagriculture:aluminum_essence"
+      }
+    },
+    "result":
+    {
+      "tag": "forge:ingots/aluminum",
+      "count":8
+    }
+  }
+)
 // onEvent('item.modification', event => {
 //   event.modify('minecraft:ender_pearl', item => {
 //     item.maxStackSize = 64
@@ -64,6 +223,12 @@ mystTools.forEach(function (item) {
     ["assemblylinemachines:mystium_ingot","mysticalagriculture:tertium_gemstone", "assemblylinemachines:mystium_ingot"],
   ]);
 })
+
+event.shaped("4x gobber2:gobber2_globette_end" ['iii','i i', 'iii'],
+{
+  i: 'mysticalagriculture:globette_end_essence'
+});
+
 
 // Mystical Agriculture Flight Augment
 event.remove({id:'mysticalagriculture:augment/flight'})

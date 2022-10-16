@@ -29,23 +29,30 @@
 
 	[Peripherals.Chunky_Turtle]
 		#Enable the Chunky Turtle or not.
-		enableChunkyTurtle = false
+		enableChunkyTurtle = true
 		#Time in seconds, while loaded chunk can be consider as valid without touch
 		#Range: > 60
-		chunkLoadValidTime = 1200
+		chunkLoadValidTime = 600
 
 	[Peripherals.Chat_Box]
 		#Enable the Chat Box or not.
 		enableChatBox = true
 		#Defines default chatbox prefix
-		defaultChatBoxPrefix = "[CC]"
+		defaultChatBoxPrefix = "AP"
 
 	[Peripherals.ME_Bridge]
 		#Enable the Me Bridge or not.
 		enableMeBridge = true
 		#Power consumption per tick.
 		#Range: > 0
-		mePowerConsumption = 500
+		mePowerConsumption = 10
+
+	[Peripherals.RS_Bridge]
+		#Enable the Rs Bridge or not.
+		enableRsBridge = true
+		#Power consumption per tick.
+		#Range: > 0
+		rsPowerConsumption = 10
 
 	[Peripherals.Environment_Detector]
 		#Enable the Environment Detector or not.
@@ -69,32 +76,36 @@
 
 	[Peripherals.Geo_Scanner]
 		#Enable the geo scanner or not.
-		enableGeoScanner = false
+		enableGeoScanner = true
 
 	[Peripherals.Colony_Integrator]
 		#Enable the colony integrator or not.
 		enableColonyIntegrator = true
 
+	[Peripherals.Compass_Turtle]
+		#Enable the compass turtle or not.
+		enableCompassTurtle = true
+
 	[Peripherals.Powered_Peripherals]
 		#Enable RF storage for peripherals, that could use it
-		enablePoweredPeripherals = true
+		enablePoweredPeripherals = false
 		#Defines max energy storage in any powered peripheral
 		#Range: > 1000000
-		poweredPeripheralMaxEnergyStored = 1000000
+		poweredPeripheralMaxEnergyStored = 100000000
 
 	[Peripherals.Operations]
 		#Range: > 1000
 		digCooldown = 1000
 		#Range: > 0
-		digCost = 5
+		digCost = 1
 		#Range: > 1000
 		useOnBlockCooldown = 5000
 		#Range: > 0
-		useOnBlockCost = 5
+		useOnBlockCost = 1
 		#Range: > 1000
 		suckCooldown = 1000
 		#Range: > 0
-		suckCost = 3
+		suckCost = 1
 		#Range: > 1000
 		useOnAnimalCooldown = 2500
 		#Range: > 0
@@ -125,15 +136,4 @@
 		scanEntitiesExtraBlockCost = 0.17
 		#Range: > 1000
 		chatMessageCooldown = 1000
-
-	[Peripherals.Compass_Turtle]
-		#Enable the compass turtle or not.
-		enableCompassTurtle = true
-
-	[Peripherals.RS_Bridge]
-		#Enable the Rs Bridge or not.
-		enableRsBridge = true
-		#Power consumption per tick.
-		#Range: > 0
-		rsPowerConsumption = 10
 

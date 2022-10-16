@@ -62,6 +62,7 @@ onEvent('recipes', event => {
     // Tier 2 Assembly requiring T3 Thermal
     event.replaceInput({output: "assemblylinemachines:kinetic_grinder"}, "minecraft:redstone", "thermal:upgrade_augment_2")
     event.replaceInput({output: "assemblylinemachines:electric_upgrade_kit"}, "assemblylinemachines:basic_battery", "thermal:upgrade_augment_2")
+    
     // Tier 3 Asssembly Requiring T4 Thermal
     event.replaceInput({output: "assemblylinemachines:crankmill"}, "assemblylinemachines:energy_pipe", "thermal:upgrade_augment_3")
 
@@ -71,7 +72,7 @@ onEvent('recipes', event => {
 		a: "#forge:plates/attuned_titanium",
 		b: "assemblylinemachines:enhanced_battery",
 		c: "assemblylinemachines:empowered_conduction_component",
-        1: "thermal:upgrade_augment_3"
+    1: "thermal:upgrade_augment_3"
 		
     })
 

@@ -3,20 +3,22 @@ chargeAnimation = true
 #Turn this off ONLY IF you're on an extremely large world with an exaggerated count of Mana Spreaders/Mana Pools and are experiencing TPS lag. This toggles whether flowers are strict with their checking for connecting to pools/spreaders or just check whenever possible.
 flowerBindingForceCheck = true
 #Set to false to disable the ability for the Hand of Ender to pickpocket other players' ender chests
-enderPickpocket = false
+enderPickpocket = true
 #Set this to false to disable the Mana Enchanter. Since some people find it OP or something. This only disables the entry and creation. Old ones that are already in the world will stay.
 manaEnchanter = true
 #Set this to false to disable the Relic System. This only disables the entries, drops and achievements. Old ones that are already in the world will stay.
-relics = false
+relics = true
 #Set this to true to invert the Ring of Magnetization's controls (from shift to stop to shift to work)
 invertMagnetRing = false
 #List of modids to prioritize when choosing a random ore from the tag.
 #By default, the chosen ore is randomly picked from all ores in the ore's tag.
 #Ores from mods present on this list will be picked over mods listed lower or not listed at all.
 #Applying changes at runtime requires /reload afterwards.
-orechidPriorityMods = ["minecraft"]
-#Set this to false to disable mystical flower and mushroom worldgen. More fine-tuned customization should be done with datapacks.
-worldgen = true
+orechidPriorityMods = []
+#Set this to false to disable mystical flower worldgen. More fine-tuned customization should be done with datapacks.
+worldgenFlowers = true
+#Set this to false to disable mushroom worldgen. More fine-tuned customization should be done with datapacks.
+worldgenMushrooms = true
 
 [blockBreakingParticles]
 	#Set this to false to remove the block breaking particles from the flowers and other items in the mod.
@@ -54,5 +56,5 @@ worldgen = true
 	itemBlacklist = []
 	#List of mod names for rannuncarpuses to ignore.
 	#Ignores Storage Drawers by default due to crashes with placing drawer blocks without player involvement.
-	modBlacklist = ["storagedrawers", "create", "refinedstorage"]
+	modBlacklist = ["storagedrawers"]
 

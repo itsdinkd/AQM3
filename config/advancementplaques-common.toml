@@ -7,7 +7,7 @@
 		on_top = true
 		# The distance from the top or bottom of the screen, in pixels.
 		#Range: 8 ~ 256
-		distance = 16
+		distance = 24
 		# Hide waila/hwyla/jade/wthit popups while plaques are showing.
 		hide_waila = false
 		# If plaques should show for task advancements (normal advancements).
@@ -18,7 +18,7 @@
 		challenges = true
 		# Text color to use for plaque titles (like "Advancement made!"). Can be entered as an 8-digit hex color code 0xAARRGGBB for convenience.
 		#Range: 0 ~ 4294967295
-		title_color = 4281541120
+		title_color = 4283759444
 		# Text color to use for advancement names on plaques. Can be entered as an 8-digit hex color code 0xAARRGGBB for convenience.
 		#Range: 0 ~ 4294967295
 		name_color = 4294967295

@@ -33,6 +33,10 @@
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
 		blacklist = ""
 
+	["Dimension-Level Blacklists"."mna:barkling"]
+		#Comma separated list of dimension ids that this mob type shouldn't spawn in
+		blacklist = ""
+
 [taiga]
 
 	[taiga."mna:demon_imp"]
@@ -122,6 +126,17 @@
 		#Max Pack Size
 		#Range: 1 ~ 5
 		maxPackSize = 3
+
+	[taiga."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
 
 [extreme_hills]
 
@@ -213,6 +228,17 @@
 		#Range: 1 ~ 5
 		maxPackSize = 3
 
+	[extreme_hills."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
+
 [jungle]
 
 	[jungle."mna:demon_imp"]
@@ -302,6 +328,17 @@
 		#Max Pack Size
 		#Range: 1 ~ 5
 		maxPackSize = 3
+
+	[jungle."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
 
 [mesa]
 
@@ -393,6 +430,17 @@
 		#Range: 1 ~ 5
 		maxPackSize = 3
 
+	[mesa."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
+
 [plains]
 
 	[plains."mna:demon_imp"]
@@ -482,6 +530,17 @@
 		#Max Pack Size
 		#Range: 1 ~ 5
 		maxPackSize = 3
+
+	[plains."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
 
 [savanna]
 
@@ -573,6 +632,17 @@
 		#Range: 1 ~ 5
 		maxPackSize = 3
 
+	[savanna."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
+
 [icy]
 
 	[icy."mna:demon_imp"]
@@ -662,6 +732,17 @@
 		#Max Pack Size
 		#Range: 1 ~ 5
 		maxPackSize = 3
+
+	[icy."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
 
 [beach]
 
@@ -753,6 +834,17 @@
 		#Range: 1 ~ 5
 		maxPackSize = 3
 
+	[beach."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
+
 [forest]
 
 	[forest."mna:demon_imp"]
@@ -842,6 +934,17 @@
 		#Max Pack Size
 		#Range: 1 ~ 5
 		maxPackSize = 3
+
+	[forest."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
 
 [ocean]
 
@@ -933,6 +1036,17 @@
 		#Range: 1 ~ 5
 		maxPackSize = 3
 
+	[ocean."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
+
 [desert]
 
 	[desert."mna:demon_imp"]
@@ -1022,6 +1136,17 @@
 		#Max Pack Size
 		#Range: 1 ~ 5
 		maxPackSize = 3
+
+	[desert."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
 
 [river]
 
@@ -1113,6 +1238,17 @@
 		#Range: 1 ~ 5
 		maxPackSize = 3
 
+	[river."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
+
 [swamp]
 
 	[swamp."mna:demon_imp"]
@@ -1202,6 +1338,17 @@
 		#Max Pack Size
 		#Range: 1 ~ 5
 		maxPackSize = 3
+
+	[swamp."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
 
 [nether]
 
@@ -1293,6 +1440,17 @@
 		#Range: 1 ~ 5
 		maxPackSize = 3
 
+	[nether."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
+
 [underground]
 
 	[underground."mna:demon_imp"]
@@ -1383,6 +1541,17 @@
 		#Range: 1 ~ 5
 		maxPackSize = 3
 
+	[underground."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
+
 [mountain]
 
 	[mountain."mna:demon_imp"]
@@ -1472,4 +1641,15 @@
 		#Max Pack Size
 		#Range: 1 ~ 5
 		maxPackSize = 3
+
+	[mountain."mna:barkling"]
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 3
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 5
 

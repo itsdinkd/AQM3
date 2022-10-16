@@ -1,7 +1,7 @@
 {
 	id: "4D20FF19192106E7"
 	group: "30AC1CE19F5532E7"
-	order_index: 3
+	order_index: 2
 	filename: "bosses"
 	title: "Bosses"
 	icon: "minecraft:dragon_head"
@@ -129,6 +129,136 @@
 					table_id: 5396437845961881468L
 				}
 			]
+		}
+		{
+			title: "Doom's Mother Demon"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "One of the hardest DOOM Bosses in Nether"
+			description: ["Find the Mother Demon Structure to have it spawn"]
+			id: "51CEABBA833BFA84"
+			tasks: [{
+				id: "1E73105D3D3C3A73"
+				type: "kill"
+				title: "Kill The Mother Demon"
+				icon: {
+					id: "doom:darklord_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "doom:motherdemon"
+				value: 1L
+			}]
+			rewards: [{
+				id: "109FDAAED3905B01"
+				type: "random"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			title: "Doom's Icon of Sin"
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Find structure in The Nether to summon Icon of Sin"
+			id: "3E2AE64ED64F9787"
+			tasks: [{
+				id: "620B99E6376A4854"
+				type: "kill"
+				icon: "kubejs:star_of_icon"
+				entity: "doom:iconofsin"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3055D173C53E9485"
+					type: "random"
+					table_id: 5713291103209766976L
+				}
+				{
+					id: "022739C91AC4C371"
+					type: "random"
+					table_id: 2573245064785096990L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			subtitle: "Discover its weakness or you'll become its prey"
+			description: ["It drops a powerful weapon"]
+			id: "79E96A9309E7065A"
+			tasks: [{
+				id: "39CA8811A5D38101"
+				type: "kill"
+				title: "Kill the Ferrous Wroughnaut"
+				icon: "mowziesmobs:wroughtnaut_spawn_egg"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7609620B3BAD0482"
+					type: "item"
+					item: "alexsdelight:bison_burger"
+				}
+				{
+					id: "51840D1E942D0543"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			subtitle: "This boss and its minions will give you a tough time and a nice item"
+			description: [
+				"Barako is the chief of the Barakoa tribe, residing in a stationary seat upon a throne in Barakoa villages. He draws his power from the sun, calling forth sunstrikes, solar flares, and massive solar beams. He can also create Barakoa followers - including healers called Barakoaya - from masks to defend him during combat. As such, his masked children revere him as a god. Unequipped travelers should keep their distance from his villages, lest they be smitten by his heliomancy."
+				""
+				"Those strong enough to face and defeat him, however, are rewarded with his mask: the Sol Visage. This mask allows its wearers to breathe life into masks to create Barakoa followers. Unfortunately, the mask does not bestow heliomancy upon its bearer; this power is innately carried by Barako, and thus dies with him. Perhaps there is another way...?"
+			]
+			id: "0BCBEB67994D764C"
+			tasks: [{
+				id: "43A3D2A0338D2E11"
+				type: "kill"
+				icon: "mowziesmobs:barako_spawn_egg"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5F46A0199B46065D"
+					type: "item"
+					item: "cyclic:heart"
+				}
+				{
+					id: "0C8D3A2FA6F511A7"
+					type: "random"
+					table_id: 5396437845961881468L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			subtitle: "Another hard boss, can you slay it and receive the reward it will drop?"
+			description: ["Frostmaws are dangerous beasts found rarely in snowy areas. Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents. If, on your travels, you encounter one sleeping in your path, it's likely best to take a different route and let it lay. The beast guards a precious ice crystal that can unleash pure winter energy when wielded."]
+			id: "6C1696D419405443"
+			tasks: [{
+				id: "0CDAE63778070FA8"
+				type: "kill"
+				title: "Kill the Frostmaw"
+				icon: "mowziesmobs:frostmaw_spawn_egg"
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4EC0AFC08D764C3B"
+				type: "choice"
+				table_id: 5713291103209766976L
+			}]
 		}
 	]
 }

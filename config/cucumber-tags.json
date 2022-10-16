@@ -11,7 +11,7 @@
   "forge:ingots/titanium": "assemblylinemachines:titanium_ingot",
   "forge:ingots/electrum": "thermal:electrum_ingot",
   "forge:ingots/nickel": "thermal:nickel_ingot",
-  "forge:dusts/saltpeter": "null",
+  "forge:dusts/saltpeter": "bloodmagic:saltpeter",
   "forge:ingots/uranium": "mekanism:ingot_uranium",
   "forge:ingots/tungsten": "stalwart_dungeons:tungsten_ingot",
   "forge:gems/apatite": "thermal:apatite",

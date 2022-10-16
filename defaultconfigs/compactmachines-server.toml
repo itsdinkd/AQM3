@@ -10,13 +10,22 @@
 	#The Y-dimension to spawn machine floors at.
 	#Range: 10 ~ 200
 	floor = 40
+	#default: false
+	allowOutside = false
 
 [commands]
 
 	[commands.permLevels]
-		#0 = ALL, 1 = ADMIN, 2 = OP, 4 = OWNER
+		#Command level required for using the rebind and unbind commands.
 		#Range: 0 ~ 4
 		rebind = 0
+		#Command level required for giving new machines to players.
 		#Range: 0 ~ 4
 		give = 0
+		#Command level required for changing room spawn information.
+		#Range: 0 ~ 4
+		spawn = 2
+		#Command level required for changing room upgrades.
+		#Range: 0 ~ 4
+		upgrades = 2
 

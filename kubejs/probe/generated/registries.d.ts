@@ -1,6 +1,6 @@
 /// <reference path="./globals.d.ts" />
 declare namespace Registry {
-    class Sound_event extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+    class SoundEvent extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.SoundEventBuilder;
         create(id: string): Internal.SoundEventBuilder;
     }
@@ -43,19 +43,19 @@ declare namespace Registry {
         create(id: string, type: "basic"): Internal.EnchantmentBuilder;
         create(id: string): Internal.EnchantmentBuilder;
     }
-    class Mob_effect extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+    class MobEffect extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.BasicMobEffect$Builder;
         create(id: string): Internal.BasicMobEffect$Builder;
     }
-    class Entity_type extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+    class EntityType extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
     }
-    class Block_entity_type extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+    class BlockEntityType extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
     }
     class Potion extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.PotionBuilder;
         create(id: string): Internal.PotionBuilder;
     }
-    class Particle_type extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+    class ParticleType extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.ParticleTypeBuilder;
         create(id: string): Internal.ParticleTypeBuilder;
     }
@@ -63,19 +63,19 @@ declare namespace Registry {
         create(id: string, type: "basic"): Internal.MotiveBuilder;
         create(id: string): Internal.MotiveBuilder;
     }
-    class Custom_stat extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+    class CustomStat extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.CustomStatBuilder;
         create(id: string): Internal.CustomStatBuilder;
     }
-    class Point_of_interest_type extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+    class PointOfInterestType extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.PoiTypeBuilder;
         create(id: string): Internal.PoiTypeBuilder;
     }
-    class Villager_type extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+    class VillagerType extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.VillagerTypeBuilder;
         create(id: string): Internal.VillagerTypeBuilder;
     }
-    class Villager_profession extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+    class VillagerProfession extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.VillagerProfessionBuilder;
         create(id: string): Internal.VillagerProfessionBuilder;
     }
@@ -83,7 +83,7 @@ declare namespace Registry {
         create(id: string, type: "basic"): Internal.KubeJSGasBuilder;
         create(id: string): Internal.KubeJSGasBuilder;
     }
-    class Infuse_type extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
+    class InfuseType extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.KubeJSInfuseTypeBuilder;
         create(id: string): Internal.KubeJSInfuseTypeBuilder;
     }

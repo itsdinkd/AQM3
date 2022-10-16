@@ -9,83 +9,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			subtitle: "Have some saplings for your hard work :)"
-			description: [
-				"These saplings are to help you for later quests."
-				"Try not to lose them :)"
-			]
-			dependencies: ["24CA47E19CBB1738"]
-			size: 0.75d
-			id: "0069E0015EB53D0D"
-			tasks: [{
-				id: "576F9DBE6384EBB0"
-				type: "item"
-				title: "THE LOGGENING"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-				count: 32L
-			}]
-			rewards: [
-				{
-					id: "24B05785F1793202"
-					type: "item"
-					item: "minecraft:oak_sapling"
-				}
-				{
-					id: "4105796186B48745"
-					type: "item"
-					item: "minecraft:spruce_sapling"
-				}
-				{
-					id: "478FB0908BD367E4"
-					type: "item"
-					item: "minecraft:birch_sapling"
-				}
-				{
-					id: "779461AC6AADDB68"
-					type: "item"
-					item: "minecraft:jungle_sapling"
-				}
-				{
-					id: "3F8861E2236545B6"
-					type: "item"
-					item: "minecraft:acacia_sapling"
-				}
-				{
-					id: "079CCAD5F2E0FB67"
-					type: "item"
-					item: "minecraft:dark_oak_sapling"
-				}
-				{
-					id: "523D479804D26D75"
-					type: "command"
-					title: "Woodcutting XP"
-					icon: {
-						id: "minecraft:wooden_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					command: "/pmmo admin @p add Woodcutting 10"
-					player_command: false
-				}
-			]
-		}
-		{
 			title: "Look at what I made!"
-			x: 1.125d
+			x: 1.5d
 			y: 0.0d
 			subtitle: "A better table"
 			description: ["This neat little crafting tab allows on the go crafting."]
-			dependencies: ["0069E0015EB53D0D"]
 			size: 0.75d
 			id: "54626924CE9BD31F"
 			tasks: [{
@@ -102,10 +30,14 @@
 		}
 		{
 			title: "A larger Storage"
-			x: 3.375d
+			x: 3.0d
 			y: 0.0d
 			subtitle: "Let me tell how much junk this baby can fit"
-			description: ["These chests are bigger then normal chests and are worth using for various automatic storages/processing."]
+			description: [
+				"These chests are bigger then normal chests and are worth using for various automatic storages/processing."
+				""
+				"You can also stack them vertically!"
+			]
 			hide: true
 			size: 0.75d
 			id: "05F8D5D9AA6FF76D"
@@ -168,7 +100,7 @@
 			}]
 		}
 		{
-			title: "I'm Spiderman"
+			title: "How to Wall Jump"
 			x: -2.25d
 			y: -0.75d
 			subtitle: "Wall Jumping Basics"
@@ -254,9 +186,9 @@
 		}
 		{
 			title: "BONSAI"
-			x: 4.5d
+			x: 3.75d
 			y: 0.0d
-			subtitle: "<3"
+			subtitle: "<3 Tree Automation"
 			description: [
 				"This grows trees and other things automatically."
 				"To learn how to upgrade your Bonsai plots, in JEI, hover over the plot and press 'U' to see all the upgrades available"
@@ -337,7 +269,7 @@
 			subtitle: "How to stop mob spawning in a area"
 			description: ["Torchmaster makes some great items to help stop mobs and even passive mobs from spawning. Craft this guy here, place it down, and you're all set!"]
 			dependencies: ["24CA47E19CBB1738"]
-			size: 0.75d
+			size: 0.5d
 			id: "53746435C74C767D"
 			tasks: [{
 				id: "7F062C68306017B1"
@@ -391,7 +323,6 @@
 				""
 				"Complete this questline to unlock all the other gobber quests in another chapter"
 			]
-			dependencies: ["0069E0015EB53D0D"]
 			size: 0.75d
 			id: "3D7A5E0801B65B73"
 			tasks: [{
@@ -558,28 +489,8 @@
 			}]
 		}
 		{
-			title: "Get your Starting House Prefab"
-			icon: "prefab:item_start_house"
 			x: 0.0d
-			y: -2.5d
-			subtitle: "Submit 2 Levels, Use Away from World Spawn"
-			description: ["You've done it. You have played AQM3 for 5+ Minutes and earned a starter house. Prefab features tons of pre-built structures that you can use, but for the other prefab's youll need to upgrade your PMMO attributes like building. "]
-			id: "75ACA4C3F5E0CA41"
-			tasks: [{
-				id: "5B3D1D5C7A3737F3"
-				type: "xp"
-				value: 2L
-				points: false
-			}]
-			rewards: [{
-				id: "5F2CAFC68360C942"
-				type: "item"
-				item: "prefab:item_start_house"
-			}]
-		}
-		{
-			x: 0.008928571428576504d
-			y: -4.133928571428569d
+			y: -5.0d
 			subtitle: "I will be adding more quests over time, mainly from a huge quest update all at once."
 			size: 2.0d
 			id: "6515F80F256CBD9E"
@@ -587,6 +498,248 @@
 				id: "5766FCA1626E6902"
 				type: "custom"
 				title: "Quests are WIP"
+			}]
+		}
+		{
+			title: "How to Claim Land"
+			x: 1.5d
+			y: -0.75d
+			subtitle: "Claim land using a hoe"
+			description: [
+				"To claim land, you can use a command, or a golden hoe. Everything is controllable mainly through the command though. You can claim X blocks, and you earn blocks every 900 ticks"
+				""
+				"/flan help - This will show you available commands"
+				"/flan menu - Brings up your menu to control your claim including permissions for visitors, teams, etc."
+			]
+			size: 0.75d
+			id: "5F2787816B7EA510"
+			tasks: [{
+				id: "14E88D7B4ABCDB81"
+				type: "item"
+				item: {
+					id: "minecraft:golden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "091A65A7DCC7E20F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "How to Sort"
+			x: -0.5d
+			y: 0.0d
+			subtitle: "Click middle mouse button in a empty slot"
+			dependencies: ["24CA47E19CBB1738"]
+			size: 0.5d
+			id: "0CFEA9008075DE46"
+			tasks: [{
+				id: "341DBE0CF31101CF"
+				type: "checkmark"
+				title: "Sort Items"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "The first tier of the only backpack type youll need. Add modular upgrades!"
+			description: [
+				""
+				"Make sure you upgrade your backup and craft more components!"
+			]
+			size: 0.75d
+			id: "7DF697E04A754E68"
+			tasks: [{
+				id: "0D729F130ABA4B8A"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [
+				{
+					id: "3270D431E00EB2F4"
+					type: "random"
+					table_id: 6433163600064979277L
+				}
+				{
+					id: "42EF05A5AAC045D8"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:crafting_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"polymorph:stack_recipe_data": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.25d
+			y: 0.75d
+			subtitle: "The command is: /wiki *search terms here*"
+			description: [
+				""
+				"Do note that there's a lot of outdated mod info on some of these wikis but its still worth trying"
+			]
+			dependencies: ["24CA47E19CBB1738"]
+			size: 0.5d
+			id: "28BC41E85FB09F03"
+			tasks: [{
+				id: "4E5C657C971899F7"
+				type: "checkmark"
+				title: "Ingame Wiki Search"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -0.75d
+			subtitle: "press \"a + c\" to open Inventory Plus config menu"
+			description: ["Great config options are here like auto fill, auto swap low durability, sorting rules, etc."]
+			dependencies: ["24CA47E19CBB1738"]
+			size: 0.5d
+			id: "5499F06D726F23E2"
+			tasks: [{
+				id: "0E5014E68927EC5B"
+				type: "checkmark"
+				title: "Inventory Profile Plus Menu"
+			}]
+		}
+		{
+			x: 5.25d
+			y: 0.0d
+			subtitle: "Tool Belt with 2 slots that you can upgrade to 9"
+			description: [
+				"Change your keybind to open"
+				"Once you craft your belt you need to add tools. Hold your belt in hand, right click to open the inventory. Place tools here."
+				""
+				"Then you can place your belt in your Curios Belt slot. Once placed, you can use '.' keybind to open the radial menu to select your tool, or cycle by using ' or ;"
+			]
+			size: 0.75d
+			id: "2660311A6D8C34A3"
+			tasks: [{
+				id: "524D7598123ADE61"
+				type: "item"
+				item: "toolbelt:belt"
+			}]
+			rewards: [{
+				id: "3D408112671D95EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Increase Belt Slots"
+			x: 5.25d
+			y: -0.75d
+			subtitle: "Craft a Belt Pouch and combine it with the belt in a anvil"
+			dependencies: ["2660311A6D8C34A3"]
+			size: 0.75d
+			id: "3652A107B4BCDDA6"
+			tasks: [{
+				id: "3CFE400CE67E9B41"
+				type: "item"
+				item: "toolbelt:pouch"
+			}]
+			rewards: [{
+				id: "0EA3533371781EFC"
+				type: "item"
+				item: "minecraft:bread"
+				count: 6
+			}]
+		}
+		{
+			title: "Easy Villager Automation"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Auto villager farm :)"
+			description: ["Capture a villager and place it in your Easy Villager block. Note: There are different types of Easy Villager Blocks"]
+			size: 0.75d
+			id: "4B5D29232A14E26C"
+			tasks: [{
+				id: "3C9D62305B08ADA4"
+				type: "item"
+				item: "easy_villagers:trader"
+			}]
+			rewards: [{
+				id: "2079ACD41BFBBFC7"
+				type: "item"
+				item: "minecraft:egg"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Place this bad boy down to get a free house! On Servers, be kind, dont generate by spawn."
+			description: ["You've done it. You have played AQM3 for 5+ Minutes and earned a starter house. Prefab features tons of pre-built structures that you can use, but for the other prefab's youll need to upgrade your PMMO attributes like building. "]
+			id: "20278054010EE5B1"
+			tasks: [{
+				id: "33298B38990CBE5E"
+				type: "questsadditions:time"
+				title: "You've won a Free Starting House"
+				icon: "prefab:item_start_house"
+				secret: true
+				elapsedTime: 300L
+			}]
+			rewards: [{
+				id: "22C41A39992D1F85"
+				type: "item"
+				item: "prefab:item_start_house"
+			}]
+		}
+		{
+			title: "Change your Origin"
+			icon: "origins:orb_of_origin"
+			x: 0.0d
+			y: -3.5d
+			subtitle: "1 Free Origin Change"
+			description: [
+				"Picked the wrong origin or want to change? Here is your free orb of origin to do so."
+				""
+				"You can also craft this"
+			]
+			id: "6A6AA181B8A7E5A4"
+			tasks: [{
+				id: "175C4325FAE35F4C"
+				type: "checkmark"
+				title: "Gimme"
+			}]
+			rewards: [{
+				id: "42564FD6E31E4D68"
+				type: "item"
+				item: "origins:orb_of_origin"
+			}]
+		}
+		{
+			title: "Store Curios Trinkets"
+			x: 5.25d
+			y: -1.5d
+			subtitle: "A Storage for your curios items"
+			hide_dependency_lines: false
+			size: 0.75d
+			id: "2D4E18B77A214C35"
+			tasks: [{
+				id: "61A6499B5FC14DB8"
+				type: "item"
+				item: {
+					id: "convenientcurioscontainer:curios_container"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 1
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "024E1D39C7DB8621"
+				type: "xp"
+				xp: 25
 			}]
 		}
 	]

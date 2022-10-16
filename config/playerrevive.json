@@ -2,6 +2,7 @@
   "banPlayerAfterDeath": false,
   "bleeding": {
     "bleedTime": 1200,
+    "triggerForCreative": true,
     "bleedingMessage": true,
     "bleedingMessageTrackingOnly": true,
     "shouldGlow": true,
@@ -16,7 +17,8 @@
     "bleedingHealth": 10,
     "disableMobDamage": true,
     "disablePlayerDamage": true,
-    "disableOtherDamage": false
+    "disableOtherDamage": false,
+    "hasShaderEffect": true
   },
   "revive": {
     "requiredReviveProgress": 100.0,
@@ -53,5 +55,6 @@
     "gorgon",
     "death.attack.sgcraft:transient",
     "death.attack.sgcraft:iris"
-  ]
+  ],
+  "bleedInSingleplayer": false
 }

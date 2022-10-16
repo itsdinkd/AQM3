@@ -278,19 +278,6 @@
 		{
 			x: -1.0d
 			y: 4.5d
-			subtitle: "Do your work but automatically"
-			description: ["Will gently harvest crops around it and replant the seeds, breaking crops once they are grown."]
-			dependencies: ["7CD0B8B2D0282837"]
-			id: "0EF9E0DA39011E79"
-			tasks: [{
-				id: "2D70E314B3F9D7C4"
-				type: "item"
-				item: "cyclic:harvester"
-			}]
-		}
-		{
-			x: -1.0d
-			y: 5.5d
 			subtitle: "Right click to fertizile and harvest"
 			description: [
 				"Shift+Scroll to use the other modes (Total of 3). "
@@ -299,7 +286,7 @@
 				""
 				"Read the JEI Information tab for more info."
 			]
-			dependencies: ["0EF9E0DA39011E79"]
+			dependencies: ["7CD0B8B2D0282837"]
 			id: "6E457EC2B9212964"
 			tasks: [{
 				id: "3408CB25B27B4E5E"
@@ -324,6 +311,140 @@
 				id: "0075C92A49445AB9"
 				type: "item"
 				item: "cyclic:heart"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			subtitle: "Give your buddy a hat to protect it from the sun"
+			description: ["Sneak + right click your your golem while holding your straw hat"]
+			dependencies: ["68AC8B8E2AAC441D"]
+			id: "1F36EA7B4DEF8080"
+			tasks: [{
+				id: "45F60C7B5484827A"
+				type: "item"
+				item: "strawgolem:straw_hat"
+			}]
+			rewards: [{
+				id: "0110C3ECFDF108BE"
+				type: "item"
+				item: "minecraft:hay_block"
+			}]
+		}
+		{
+			title: "Prepare Straw Golem"
+			x: -10.5d
+			y: 2.5d
+			subtitle: "Create your Straw Golem buddy for complete farm automation"
+			description: [
+				"Step 1. Place a Hay Block down"
+				""
+				"Step 2. Place your Carved Pumpkin on top of your Hay Block"
+				""
+				"Step 3. Success"
+				""
+				"Lifespan: 7 Days. Texture will change to show decay. Feed 1 Wheat per quarter of day to extend life"
+				""
+				"Make sure to give an apple occasionally otherwise they'll sit and pout"
+			]
+			id: "68AC8B8E2AAC441D"
+			tasks: [
+				{
+					id: "76BA36A181F2B328"
+					type: "questsadditions:place"
+					title: "Place 1 Hay Block"
+					icon: "minecraft:hay_block"
+					block_type: 0
+					block: "minecraft:hay_block"
+					value: 1L
+					replaced: "minecraft:air"
+					replace: false
+				}
+				{
+					id: "3F82F5AD0BC2E751"
+					type: "questsadditions:place"
+					title: "Place Carved Pumpkin on top of Hay"
+					icon: "minecraft:carved_pumpkin"
+					block_type: 0
+					block: "minecraft:carved_pumpkin"
+					value: 1L
+					replaced: "minecraft:air"
+					replace: false
+				}
+			]
+			rewards: [{
+				id: "4B3B4E3F3DD0691B"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 5
+			}]
+		}
+		{
+			title: "Feed your Golem"
+			x: -9.5d
+			y: 4.0d
+			subtitle: "Use Wheat to Feed"
+			description: [
+				"If you do not feed your golem they will decay in 7 days. 1 Wheat = 1/4 Day"
+				""
+				"They also love apples! If you give it an apple, it will extend life by 1 day. They will also sit and pout if they want an apple and havent been given one"
+			]
+			dependencies: ["68AC8B8E2AAC441D"]
+			id: "37E6439974F9AB84"
+			tasks: [{
+				id: "16DEAE16D2748325"
+				type: "questsadditions:interaction"
+				title: "Feed your Golem holding Wheat"
+				icon: "minecraft:hay_block"
+				entity: "strawgolem:strawgolem"
+				nbt: { }
+				value: 1L
+				checkItem: true
+				item: "minecraft:wheat"
+			}]
+			rewards: [
+				{
+					id: "7A8E4D423213F92A"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 6
+				}
+				{
+					id: "62476C0E4229C463"
+					type: "item"
+					item: "minecraft:apple"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Select Golem and Chest"
+			x: -11.5d
+			y: 4.0d
+			subtitle: "Sneak + Right Click to select"
+			description: [
+				"First, you select your golem. After selecting you will see \"Ordering Straw Golem\" on your screen."
+				""
+				"Once you see that, you can then select your chest for the golem to deposit resources to by Sneak + Right Clicking the chest."
+				""
+				"NOTE: If you end up PICKING UP your golem, place it back down and step a little back. dont get so close when you sneak + right click"
+			]
+			dependencies: ["68AC8B8E2AAC441D"]
+			id: "59DDC7F3BC3A34E6"
+			tasks: [{
+				id: "4E08A552198D6517"
+				type: "questsadditions:interaction"
+				title: "Select your Golem"
+				icon: "minecraft:carved_pumpkin"
+				entity: "strawgolem:strawgolem"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "03BD5CFC7EEE5D73"
+				type: "item"
+				item: "minecraft:chest"
 			}]
 		}
 	]

@@ -3,7 +3,7 @@
 	group: "2BDFA6283B227A86"
 	order_index: 1
 	filename: "tools"
-	title: "Tools"
+	title: "Tools and Stuff"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -24,6 +24,10 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "15826DD2128F2114"
+				type: "random"
+			}]
 		}
 		{
 			x: -2.5d
@@ -42,6 +46,10 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "48B1A675D5D58E5F"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.5d
@@ -59,6 +67,10 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "512C116666A37E4B"
+				type: "random"
 			}]
 		}
 		{
@@ -81,6 +93,10 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7CAB57C7288665F6"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.5d
@@ -98,6 +114,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "77343AE341F815C6"
+				type: "random"
+				table_id: 5396437845961881468L
 			}]
 		}
 		{
@@ -341,6 +362,31 @@
 				id: "0B5C861823D15E89"
 				type: "item"
 				item: "chanceglobe:chance_globe"
+			}]
+		}
+		{
+			title: "Redstone Voltmeter Gauge"
+			x: -5.5d
+			y: 2.5d
+			subtitle: "Using @RSGauge you can detect and modify redstone"
+			description: [
+				"This specific redstone tool will show you the voltage of redstone if attached to a block "
+				""
+				"If you are using redstone for powering, I highly recommend delving into RSGauges"
+				""
+				"Wiki: https://github.com/stfwi/rsgauges/blob/master/readme.md"
+			]
+			id: "21D7F4101A5BBAE4"
+			tasks: [{
+				id: "39B54E74F7C03177"
+				type: "item"
+				item: "rsgauges:industrial_analog_angular_gauge"
+			}]
+			rewards: [{
+				id: "1BAA04CD7D2828E1"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 7
 			}]
 		}
 	]

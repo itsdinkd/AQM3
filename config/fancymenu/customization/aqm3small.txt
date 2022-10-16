@@ -1,0 +1,409 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  smallerthanwidth = 2558
+}
+
+customization {
+  path = config/fancymenu/assets/am3/bhaqmbackground.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = 63
+  action = movebutton
+  y = -48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 119
+  action = resizebutton
+  height = 29
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmmultiplayerhover.png
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmmultiplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 0.45
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 63
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 119
+  action = resizebutton
+  height = 29
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmmodshover.png
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmmods.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  seconds = 0.55
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = 63
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 119
+  action = resizebutton
+  height = 29
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmsingleplayerhover.png
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmsingleplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 0.4
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = 63
+  action = movebutton
+  y = -11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 119
+  action = resizebutton
+  height = 29
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmoptionshover.png
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmoptions.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 0.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 63
+  action = movebutton
+  y = 62
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 119
+  action = resizebutton
+  height = 29
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmquitgamehover.png
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmquitgame.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 0.6
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 296
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = f81def24-818c-4b39-87ce-e270aadaefb01664315067935
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 3e7eef20-2212-4e7b-8a79-6e8bf91955031664315067938
+  y = 198
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 918
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 1e56e591-a4e6-4c5c-8b8b-68272e47d1c01664315067938
+  y = 460
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 676
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 9bcf0760-90ad-4412-8c03-ff316df3fd4b1664315067938
+  y = 220
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 436
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 64c2b467-d8fb-45e3-9b4b-df53027e666e1664315067938
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = fc724e49-f585-4a34-b434-c3003d292f471664315067938
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmserverhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -189
+  width = 51
+  actionid = 1ea8d6a2-9462-4cc7-81f9-7f82f9c6f5981640811245256
+  action = addbutton
+  y = 96
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmserver.png
+  value = 23.185.16.87:25566
+  height = 15
+}
+
+customization {
+  path = config/fancymenu/assets/am3/bhaqmseperator.png
+  orientation = mid-centered
+  x = -135
+  width = 5
+  action = addtexture
+  actionid = 7b0196dc-5aba-4aaf-9031-0c7753fe57c41640811334421
+  y = 95
+  height = 17
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmrentaserverhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -125
+  width = 51
+  actionid = dea5713d-be7b-4471-97b6-35169d279cb81640811348303
+  action = addbutton
+  y = 95
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmrentaserver.png
+  value = https://bisecthosting.com/itsdinkd
+  height = 15
+}
+
+customization {
+  path = config/fancymenu/assets/am3/bhaqmseperator.png
+  orientation = mid-centered
+  x = -70
+  width = 5
+  action = addtexture
+  actionid = f26e819c-00c6-464f-a495-f54bff1bf1f21640811399978
+  y = 95
+  height = 17
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\am3\bhaqmdiscordhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -59
+  width = 51
+  actionid = 38aec86a-fe3b-4e10-9d6d-7532cbbbfd161640811412675
+  action = addbutton
+  y = 95
+  backgroundnormal = config\fancymenu\assets\am3\bhaqmdiscord.png
+  value = https://discord.gg/y6Sby9BGVe
+  height = 15
+}
+
+customization {
+  orientation = mid-centered
+  name = identifier_4760f8a8f2624dc5
+  x = -194
+  width = 178
+  actionid = 38a48bc6-8d2e-410a-a39d-09ec62c63f021640886802537
+  action = addanimation
+  y = -113
+  height = 174
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #D07CF9
+  shadow = true
+  delayappearanceseconds = 1.25
+  rotation = -32.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 1.0
+  x = -96
+  actionid = ab19f10f-c077-4223-a764-c8fe61e737c01664315226905
+  action = addsplash
+  y = 16
+  delayappearance = true
+  text = Finally Updated!
+  delayappearanceeverytime = false
+}
+
+customization {
+  identifier = %id=376310%
+  action = hidebutton
+}
+

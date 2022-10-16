@@ -2,6 +2,22 @@
 console.info('AQM3 -- Removing Items.... v1.0');
 const removeJei = [
   "angelring:itemdiamondring",
+  "armorplus:ender_dragon_boots_base",
+  "armorplus:ender_dragon_chestplate_base",
+  "armorplus:ender_dragon_helmet_base",
+  "armorplus:ender_dragon_leggings_base",
+  "armorplus:ender_dragon_boots",
+  "armorplus:ender_dragon_chestplate",
+  "armorplus:ender_dragon_helmet",
+  "armorplus:ender_dragon_leggings",
+  "armorplus:slayer_boots_base",
+  "armorplus:slayer_chestplate_base",
+  "armorplus:slayer_helmet_base",
+  "armorplus:slayer_leggings_base",
+  "armorplus:slayer_boots",
+  "armorplus:slayer_helmet",
+  "armorplus:slayer_chestplate",
+  "armorplus:slayer_leggings",
   "ob_core:lance_of_northern_star",
   "armorplus:soul_box",
   "assemblylinemachines:enhanced_mystium_chestplate",
@@ -9,6 +25,7 @@ const removeJei = [
   "botania:balance_cloak",
   "botania:blood_pendant",
   "botania:cocoon",
+  "cyclic:sponge_lava",
   "botania:diving_rod",
   "ob_core:prospectors_pick",
   "evilcraft:blook",
@@ -48,6 +65,10 @@ const removeJei = [
   "cyclic:charm_knockback_resistance",
   "cyclic:charm_longfall",
   "cyclic:charm_speed",
+  "reliquary:angelheart_vial",
+  "reliquary:angelic_feather",
+  "reliquary:emperor_chalice",
+  "reliquary:infernal_chalice",
   "cyclic:charm_ultimate",
   "cyclic:charm_void",
   "cyclic:charm_water",
@@ -93,6 +114,7 @@ const removeJei = [
   "cyclic:tile_transporter",
   "cyclic:uncrafter",
   "cyclic:water_candle",
+  "cyclic:flight",
   "cyclic:wireless_item",
   "cyclic:stirrups",
   "cyclic:stirrups_reverse",
@@ -125,14 +147,16 @@ const removeJei = [
   "gobber2:gobber2_ring_repair",
   "gobber2:gobber2_ring_swiftness",
   "gobber2:gobber2_ring_vision",
+  "gobber2:gobber2_ring_stealth",
   "gobber2:gobber2_staff_ensnarement",
   "gobber2:gobber2_staff_farmer",
   "gobber2:gobber2_staff_harvest",
   "gobber2:gobber2_sword_traveler",
   "gobber2:gobber2_tree_axe_end",
   "gobber2:gobber2_tree_axe_nether",
-  "goober2:gobber2_hammer",
-  "goober2:gobber2_tree_axe",
+  "gobber2:gobber2_hammer",
+  "gobber2:gobber2_tree_axe",
+  "gobber2:gobber2_ring_sunshine",
   "mekanism:creative_fluid_tank",
   "paraglider:goddess_statue",
   "paraglider:goron_goddess_statue",
@@ -183,7 +207,11 @@ const removeJei = [
   "cyclic:flute_summoning",
   "cyclic:harvester",
   "cyclic:crusher",
-  "cyclic:user"
+  "cyclic:user",
+  'gobber2:gobber2_ring_phoenix',
+  "productivebees:gobber",
+  "productivebees:end_gobber",
+  "productivebees:nether_gobber"
   ];
 
 onEvent('rei.hide.items', event => {
@@ -193,6 +221,19 @@ onEvent('rei.hide.items', event => {
 
   event.hide(Item.of('reliquary:mob_charm').ignoreNBT())
   event.hide(Item.of('reliquary:mob_charm').ignoreNBT())
+
+  const rebornStorageDisksandPartsREI = [
+    "large_",
+    "larger_",
+    "small_",
+    "medium_"
+  ];
+  rebornStorageDisksandPartsREI.forEach((item) => {
+    event.hide("rebornstorage:" + item + "fluid_disk")
+    event.hide("rebornstorage:" + item + "item_disk")
+    event.hide("rebornstorage:" + item + "fluid_disk_part")
+    event.hide("rebornstorage:" + item + "item_disk_part")
+  })
 
 // refined storage colors removal
 let rsColors = [

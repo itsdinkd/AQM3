@@ -18,6 +18,7 @@ global["unifypriorities"] = [
     "futurepack",
     "tconstruct",
     "tinkers_reforged",
+    "tcintegrations",
     "ob_core"
 ]
 // Items to exclude (will not be unified)
@@ -62,7 +63,7 @@ if (Platform.isForge()) {
     // Easier way to add multiple tags on forge
     let tagGen = [
         "gold,diamond,redstone=gears,plates,dusts",
-        "copper,tin,aluminum,lead,silver,nickel,bronze,steel,platinum,uranium,iridium,zinc"
+        "copper,tin,aluminum,lead,silver,nickel,bronze,steel,platinum,uranium,iridium,zinc,rose_gold"
             + "=storage_blocks,ingots,nuggets,dusts,ores,gears,plates,raw_materials,deepslate_ores",
         "raw_copper,raw_tin,raw_aluminum,raw_lead,raw_silver,raw_nickel,raw_bronze,raw_steel,raw_platinum,raw_uranium,raw_iridium,raw_zinc=storage_blocks",
         "osmium=ingots,ores",
@@ -202,7 +203,7 @@ onEvent("recipes", event => {
     }
 })
 
-invnames = new Set([
+const invnames = new Set([
     "net.minecraft.inventory.container.PlayerContainer",
     "net.minecraft.class_1723",
     "net.minecraft.world.inventory.InventoryMenu"

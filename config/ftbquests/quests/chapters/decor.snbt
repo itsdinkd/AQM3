@@ -1,0 +1,225 @@
+{
+	id: "63DA8055FABF5C5F"
+	group: "30AC1CE19F5532E7"
+	order_index: 5
+	filename: "decor"
+	title: "Bob the Builder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -0.5d
+			subtitle: "Bridge Options - @mcwbridges or @prefab"
+			description: [
+				"Macaw's Bridges, or a Instant Prefab"
+				""
+				"For Macaw Bridges, you will need bridge pliers to make openings and such"
+			]
+			id: "2BFBF1BDD90EA2C3"
+			tasks: [
+				{
+					id: "0493C6EE790AE929"
+					type: "item"
+					item: "mcwbridges:rope_oak_bridge"
+				}
+				{
+					id: "556372B2ED1CBD52"
+					type: "item"
+					item: "mcwbridges:oak_log_bridge_middle"
+				}
+				{
+					id: "350DC42BFB973135"
+					type: "item"
+					item: {
+						id: "prefab:item_instant_bridge"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "30AC4489FBF6F37B"
+					type: "item"
+					item: "mcwbridges:oak_log_bridge_stair"
+				}
+				{
+					id: "5FA874284378A6B5"
+					type: "item"
+					item: "mcwbridges:oak_rope_bridge_stair"
+				}
+				{
+					id: "19E25F614E092EEE"
+					type: "item"
+					item: "mcwbridges:pliers"
+				}
+			]
+			rewards: [{
+				id: "32AE4D23568AF577"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			title: "Mr. Crayfish Furniture"
+			x: -3.5d
+			y: -0.5d
+			subtitle: "Mr Crayfish Furniture - @cfm"
+			id: "2E30CA350BAEE280"
+			tasks: [
+				{
+					id: "5D0861F7B582E730"
+					type: "item"
+					title: "Any #cfm:bedroom"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "cfm:bedroom"
+						}
+					}
+				}
+				{
+					id: "6DDC78D443037181"
+					type: "item"
+					title: "Any #cfm:general"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "cfm:general"
+						}
+					}
+				}
+				{
+					id: "5D38410EEB4DA700"
+					type: "item"
+					title: "Any #cfm:kitchen"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "cfm:kitchen"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3D4C3CDF36A3A4A7"
+					type: "item"
+					item: "minecraft:bread"
+					count: 16
+				}
+				{
+					id: "3092081B7D8F3E65"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 6
+				}
+				{
+					id: "3A954CEA63A74FBF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Macaw's Windows - @mcwwindows"
+			id: "0CB46989B90AFDE1"
+			tasks: [{
+				id: "43EA2C8A440E076C"
+				type: "item"
+				item: "mcwwindows:oak_window"
+			}]
+			rewards: [{
+				id: "7B1687B873A30253"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			subtitle: "Macaws Roofs - @mcwroofs"
+			id: "04FD3778649CB899"
+			tasks: [
+				{
+					id: "09A9D23C1FF5FB45"
+					type: "item"
+					item: "mcwroofs:oak_roof"
+				}
+				{
+					id: "7DC9934E9052195D"
+					type: "item"
+					item: "mcwroofs:oak_top_roof"
+				}
+				{
+					id: "11F656D1F9A4BE55"
+					type: "item"
+					item: "mcwroofs:oak_attic_roof"
+				}
+				{
+					id: "443EC1E93082B160"
+					type: "item"
+					item: "mcwroofs:oak_upper_lower_roof"
+				}
+			]
+			rewards: [{
+				id: "2CE6971A5C3F7BFD"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 2
+			}]
+		}
+		{
+			title: "Block Carpentry: Framed Blocks"
+			x: -3.5d
+			y: 2.5d
+			subtitle: "Place a frame and have it take form of any block"
+			description: [
+				"Once you craft a frame block and place it, you can then hold out a different block, like a furnace, and right click the frame block. It will now look like a furnace."
+				""
+				"Using the tools for Blocked Carpentry, You can change textures, rotation, designs, colors, and more."
+			]
+			id: "6752D659C4773565"
+			tasks: [{
+				id: "1ABD75605619D0BD"
+				type: "item"
+				item: "blockcarpentry:frameblock"
+			}]
+			rewards: [{
+				id: "4EF44A61E15EA507"
+				type: "item"
+				item: "blockcarpentry:hammer"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			subtitle: "Use this to reset the frame"
+			dependencies: ["6752D659C4773565"]
+			id: "3096B9E6303112FB"
+			tasks: [{
+				id: "75CDF207AB7FADC5"
+				type: "item"
+				item: "blockcarpentry:hammer"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			id: "172525BD2512A7B7"
+			tasks: [{
+				id: "6472392D38055D07"
+				type: "item"
+				item: "blockydoors:door_stone"
+			}]
+		}
+	]
+}

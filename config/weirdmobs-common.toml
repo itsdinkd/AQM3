@@ -46,7 +46,7 @@
 		gmo_biome = "minecraft:swamp"
 		#
 		#Biome name where Wither Spider should spawn
-		wsp_biome = "minecraft:warped_forest"
+		wsp_biome = "byg:crimson_gardens"
 		#
 		#Biome name where Basalt Snake should spawn
 		bsn_biome = "minecraft:basalt_deltas"
@@ -101,13 +101,13 @@
 		[general.spawnrate.blazecreeper]
 			#Spawn Chance
 			#Range: > 0
-			weight = 10
+			weight = 11
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
-			max = 1
+			max = 2
 
 		#Blaze Wolf
 		[general.spawnrate.blazewolf]
@@ -116,19 +116,19 @@
 			weight = 10
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
-			max = 1
+			max = 2
 
 		#Ender Creeper
 		[general.spawnrate.endercreeper]
 			#Spawn Chance
 			#Range: > 0
-			weight = 15
+			weight = 13
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
 			max = 1
@@ -140,7 +140,7 @@
 			weight = 10
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
 			max = 1
@@ -152,7 +152,7 @@
 			weight = 13
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
 			max = 3
@@ -164,7 +164,7 @@
 			weight = 11
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
 			max = 2
@@ -176,7 +176,7 @@
 			weight = 10
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
 			max = 1
@@ -212,7 +212,7 @@
 			weight = 8
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
 			max = 1
@@ -224,7 +224,7 @@
 			weight = 10
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
 			max = 2
@@ -236,7 +236,7 @@
 			weight = 6
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
 			max = 1
@@ -248,7 +248,7 @@
 			weight = 6
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
 			max = 2
@@ -260,7 +260,7 @@
 			weight = 5
 			#Monster Spawn Minimum Number
 			#Range: > 0
-			min = 0
+			min = 1
 			#Monster Spawn Maximum Number
 			#Range: > 0
 			max = 1

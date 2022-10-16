@@ -93,6 +93,14 @@
     "onjoin": true
   },
   {
+    "mod": "weirdmobs",
+    "result": "default",
+    "healthmultiply": 1.8,
+    "damagemultiply": 1.35,
+    "random": 0.85,
+    "onjoin": true
+  },
+  {
     "mod": "orcz",
     "result": "default",
     "healthmultiply": 1.8,

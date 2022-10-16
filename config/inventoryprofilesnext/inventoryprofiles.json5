@@ -1,0 +1,64 @@
+{
+    "ModSettings": {
+        "highlight_foused_items": {
+            "value": false
+        },
+        "highlight_foused_items_foreground": false,
+        "enable_auto_refill": {
+            "value": false
+        },
+        "enable_updates_check": false,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_inventory_editor_button": {
+            "value": false
+        },
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "enable_profiles_announcement": false,
+        "show_sort_in_columns_button": {
+            "value": false
+        },
+        "show_sort_in_rows_button": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "visual_durability_notification": {
+            "value": false
+        },
+        "audio_durability_notification": {
+            "value": false
+        }
+    },
+    "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": "A,C"
+            }
+        },
+        "reload_custom_configs": {
+            "main": {
+                "keys": "A,Y"
+            }
+        },
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        },
+        "open_gui_editor": {
+            "main": {
+                "keys": "A,G"
+            }
+        }
+    }
+}

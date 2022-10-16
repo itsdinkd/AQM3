@@ -12,6 +12,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{ item: "artifacts:everlasting_beef", only_one: true }
 		{
@@ -32,6 +33,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -41,6 +43,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -59,6 +62,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -68,6 +72,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -77,6 +82,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -86,6 +92,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -95,8 +102,9 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
-		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:cross_necklace", only_one: true }
 		{
 			item: {
 				id: "artifacts:panic_necklace"
@@ -105,6 +113,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -114,6 +123,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -123,6 +133,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -132,6 +143,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -141,8 +153,9 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
-		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:cloud_in_a_bottle", only_one: true }
 		{
 			item: {
 				id: "artifacts:obsidian_skull"
@@ -151,6 +164,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -160,8 +174,9 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
-		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:universal_attractor", only_one: true }
 		{
 			item: {
 				id: "artifacts:crystal_heart"
@@ -170,6 +185,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -179,6 +195,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -188,6 +205,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -197,6 +215,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -206,6 +225,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -215,6 +235,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -224,6 +245,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -233,8 +255,9 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
-		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:aqua_dashers", only_one: true }
 		{
 			item: {
 				id: "artifacts:bunny_hoppers"
@@ -243,6 +266,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -252,6 +276,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -261,6 +286,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
 		{
 			item: {
@@ -270,8 +296,9 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 		}
-		{ item: "artifacts:flippers" }
-		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:flippers", only_one: true }
+		{ item: "artifacts:whoopee_cushion", only_one: true }
 	]
 }

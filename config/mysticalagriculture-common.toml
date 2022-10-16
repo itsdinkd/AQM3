@@ -40,7 +40,7 @@
 	prosperitySpawnRate = 4
 	#The maximum amount of Prosperity Ore blocks that can spawn in a vein.
 	#Range: 0 ~ 64
-	prosperitySpawnSize = 3
+	prosperitySpawnSize = 4
 	#The minimum Y level that Prosperity Ore veins can spawn.
 	#Range: -64 ~ 319
 	prosperitySpawnMinY = -60
@@ -48,6 +48,7 @@
 	#Range: -64 ~ 319
 	prosperitySpawnMaxY = -10
 	#The list of biome IDs that Prosperity Ore veins can spawn in.
+	#Leaving this value empty will result in the default spawn behavior.
 	prosperityBiomeWhitelist = []
 	#Should Inferium Ore generate in the world?
 	generateInferiumOre = true
@@ -64,6 +65,7 @@
 	#Range: -64 ~ 319
 	inferiumSpawnMaxY = 14
 	#The list of biome IDs that Inferium Ore veins can spawn in.
+	#Leaving this value empty will result in the default spawn behavior.
 	inferiumBiomeWhitelist = []
 	#How many Soulstone veins should spawn in a chunk.
 	generateSoulstone = true
@@ -80,5 +82,6 @@
 	#Range: 0 ~ 128
 	soulstoneSpawnMaxY = 128
 	#The list of biome IDs that Soulstone veins can spawn in.
+	#Leaving this value empty will result in the default spawn behavior.
 	soulstoneBiomeWhitelist = []
 

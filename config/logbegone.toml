@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["[net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table", ]
+	regex = [".*[incontrol].*"]
+

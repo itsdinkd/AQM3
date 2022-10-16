@@ -12,6 +12,10 @@ const reliquaryYeeter =[
   "reliquary:midas_touchstone",
   "reliquary:void_tear",
   "reliquary:mob_charm",
+  "reliquary:angelheart_vial",
+  "reliquary:angelic_feather",
+  "reliquary:emperor_chalice",
+  "reliquary:infernal_chalice",
   "reliquary:infernal_tear"
 ]
 

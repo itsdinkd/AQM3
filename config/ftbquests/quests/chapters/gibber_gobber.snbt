@@ -1,7 +1,7 @@
 {
 	id: "2844CA4B7FEF5212"
 	group: "30AC1CE19F5532E7"
-	order_index: 2
+	order_index: 1
 	filename: "gibber_gobber"
 	title: "Gibber Gobber"
 	default_quest_shape: ""
@@ -119,10 +119,7 @@
 		{
 			x: 4.5d
 			y: 3.0d
-			dependencies: [
-				"5F87690E9ED5F080"
-				"40B65FA30052F614"
-			]
+			dependencies: ["40B65FA30052F614"]
 			id: "156DB03AE9BE4795"
 			tasks: [{
 				id: "542BA83CB52EA04D"
@@ -187,10 +184,11 @@
 			}]
 		}
 		{
-			x: 4.463265306122452d
-			y: -0.34795918367347767d
+			x: 4.502380952380946d
+			y: -0.12789115646258153d
 			subtitle: "Have fun with this one"
 			description: ["The Gobber Dragon Star is needed for several great items, but also requires a machine from another mod to create it!"]
+			dependencies: ["156DB03AE9BE4795"]
 			size: 2.0d
 			id: "5F87690E9ED5F080"
 			tasks: [{

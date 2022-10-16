@@ -23,4 +23,7 @@ textShadow = true
 color = 16777215
 #If true, hides the mod's info text when the debug screen (F3) is open.
 hideOnDebugScreen = true
+#The text alignment of the biome info.
+#Allowed Values: LEFT, MIDDLE, RIGHT
+textAlignment = "LEFT"
 

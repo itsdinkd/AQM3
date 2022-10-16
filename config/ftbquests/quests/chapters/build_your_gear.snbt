@@ -29,5 +29,18 @@
 				item: "silentgear:guide_book"
 			}]
 		}
+		{
+			disable_toast: true
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Tinkers Reforged"
+			id: "7A8B36AB93137175"
+			tasks: [{
+				id: "0946EF1ECD749B3C"
+				type: "item"
+				disable_toast: true
+				item: "tinkers_reforged:reforging_guide"
+			}]
+		}
 	]
 }

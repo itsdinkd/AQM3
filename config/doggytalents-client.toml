@@ -7,11 +7,11 @@
 	#If disabled will use the default minecraft wolf skin for all dog textures.
 	enable_dt_textures = true
 	#When enabled, dogs with points in guard dog will have armour.
-	render_armour = true
+	render_armour = false
 	#When enabled, dogs with points in wolf mount will have a saddle on.
 	render_saddle = true
 	#When enabled, Dogs will have wings when at level 5 pillow paw.
-	render_wings = true
+	render_wings = false
 	#When enabled, Dogs will show blood texture while incapacitated.
 	render_incapacitated_overlay = true
 

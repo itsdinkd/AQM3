@@ -1,0 +1,53 @@
+{
+  "dontChangeMe": "RandomString",
+  "printWarningMessage": true,
+  "enableDebugLog": false,
+  "whitelistLoggersTypes": [
+    "DebugFile"
+  ],
+  "loggers": [
+    "net.minecraft.Util",
+    "net.minecraft.commands.Commands",
+    "net.minecraftforge.registries.GameData",
+    "net.minecraftforge.common.ForgeConfigSpec",
+    "net.minecraftforge.fml.VersionChecker",
+    "net.minecraft.world.entity.EntityType",
+    "net.minecraft.client.ClientRecipeBook",
+    "net.minecraft.client.resources.model.ModelBakery",
+    "com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService",
+    "net.minecraft.world.level.chunk.storage.ChunkSerializer",
+    "net.minecraft.client.renderer.block.model.BlockModel",
+    "net.minecraft.client.renderer.texture.TextureAtlas",
+    "net.minecraft.world.level.storage.loot.LootTable",
+    "net.minecraft.world.item.crafting.Ingredient",
+    "net.minecraft.world.item.crafting.ShapelessRecipe",
+    "net.minecraftforge.common.loot.LootModifierManager",
+    "dev.architectury.networking.forge.NetworkManagerImpl",
+    "net.minecraft.network.syncher.SynchedEntityData",
+    "mezz.jei.load.PluginCaller",
+    "mezz.jei.ingredients.IngredientManager",
+    "com.davenonymous.bonsaitrees3.registry.RecipeEvents",
+    "ModdingLegacy/structure_gel",
+    "ObservableNet",
+    "configured",
+    "quark",
+    "patchouli",
+    "doggytalents",
+    "Waila",
+    "net.minecraft.world.level.storage.loot.LootTables",
+    "com.github.alexthe666.alexsmobs.AlexsMobs",
+    "com.bobmowzie.mowziesmobs.MowziesMobs",
+    "com.github.alexthe668.domesticationinnovation.DomesticationMod",
+    "publicguiannouncement",
+    "futurepack",
+    "com.mna.ManaAndArtifice",
+    "net.minecraftforge.common.loot.LootModifierManager",
+    "potionstudios.byg.BYG",
+    "com.brutalbosses.BrutalBosses",
+    "REI",
+    "net.minecraft.world.level.levelgen.heightproviders.VeryBiasedToBottomHeight"
+  ],
+  "ignoredExceptions": [
+    "com.mojang.authlib.exceptions.AuthenticationUnavailableException"
+  ]
+}

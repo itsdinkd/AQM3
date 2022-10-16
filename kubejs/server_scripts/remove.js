@@ -6,6 +6,14 @@ const recipeRemoveJei = [
 "armorplus:ender_dragon_chestplate_base",
 "armorplus:ender_dragon_helmet_base",
 "armorplus:ender_dragon_leggings_base",
+"armorplus:ender_dragon_boots",
+"armorplus:ender_dragon_chestplate",
+"armorplus:ender_dragon_helmet",
+"armorplus:ender_dragon_leggings",
+"armorplus:slayer_boots_base",
+"armorplus:slayer_chestplate_base",
+"armorplus:slayer_helmet_base",
+"armorplus:slayer_leggings_base",
 "armorplus:soul_box",
 "assemblylinemachines:enhanced_mystium_chestplate",
 "assemblylinemachines:iron_rod",
@@ -101,6 +109,7 @@ const recipeRemoveJei = [
 "cyclic:terra_preta",
 "cyclic:tile_transporter_empty",
 "cyclic:uncrafter",
+"cyclic:flight",
 "cyclic:water_candle",
 "cyclic:wireless_item",
 "evilcraft:blook",
@@ -115,13 +124,6 @@ const recipeRemoveJei = [
 "extradisks:infinite_storage_part",
 "futurepack:iron_stick",
 "gardentools:irrigation_core",
-"gobber2:gobber2_hammer_end",
-"gobber2:gobber2_hammer_nether",
-"gobber2:gobber2_hammer",
-"gobber2:gobber2_staff_ensnarement",
-"gobber2:gobber2_tree_axe_end",
-"gobber2:gobber2_tree_axe_nether",
-"goober2:gobber2_tree_axe",
 "ob_core:lance_of_northern_star",
 "ob_core:prospectors_pick",
 "paraglider:goddess_statue",
@@ -145,6 +147,10 @@ const recipeRemoveJei = [
 "thermal:steel_ingot",
 "thermal:steel_nugget",
 "thermal:steel_dust",
+"armorplus:slayer_boots",
+"armorplus:slayer_helmet",
+"armorplus:slayer_chestplate",
+"armorplus:slayer_leggings",
 "tombstone:scroll_of_aquatic_life",
 "tombstone:scroll_of_feather_fall",
 "tombstone:scroll_of_frost_resistance",
@@ -154,8 +160,13 @@ const recipeRemoveJei = [
 "tombstone:scroll_of_purification",
 "tombstone:scroll_of_reach",
 "tombstone:scroll_of_true_sight",
+"reliquary:mob_charm",
 "tombstone:scroll_of_unstable_intangibility",
-"assemblylinemachines:copper_rod"
+"assemblylinemachines:copper_rod",
+"productivebees:gobber",
+"productivebees:end_gobber",
+"cyclic:sponge_lava",
+"productivebees:nether_gobber"
 ];
 
 onEvent("recipes", event => {
@@ -166,21 +177,23 @@ recipeRemoveJei.forEach(item => {
 
 event.remove({ id: "mysticalagriculture:mystical_fertilizer"})
 event.remove({ id: "mysticalagriculture:augment/flight" });
-
+event.remove({ id: "productivebees:bee_breeding/gobber/end_gobber_bee" });
+event.remove({ id: "productivebees:bee_breeding/gobber/nether_gobber_bee" });
+event.remove({ id: "productivebees:bee_breeding/gobber/gobber_bee" });
 // Armor Plus
-armorPMats = [
-"helmet",
-"chestplate",
-"leggings",
-"boots"
+const armorPMats = [
+  "helmet",
+  "chestplate",
+  "leggings",
+  "boots"
 ]
 
-armorPMatsWeapons = [
-"sword",
-"battle_axe",
-"mace",
-"bow",
-"pickaxe"
+const armorPMatsWeapons = [
+  "sword",
+  "battle_axe",
+  "mace",
+  "bow",
+  "pickaxe"
 ]
 
 armorPMats.forEach(item => {
@@ -194,14 +207,26 @@ armorPMatsWeapons.forEach(item => {
 
 // Assembly Lines Enchantments
 const ieEnchantRemove = [
-"mending",
-"infinity",
-"unbreaking",
+  "mending",
+  "infinity",
+  "unbreaking",
 ];
 
 ieEnchantRemove.forEach(item => {
   event.remove({id: "assemblylinemachines:enchanted_book/" + item})
 })
 
+const rebornStorageDisksandParts = [
+  "large_",
+  "larger_",
+  "small_",
+  "medium_"
+];
+rebornStorageDisksandParts.forEach((item) => {
+  event.remove({output: "rebornstorage:" + item + "fluid_disk"})
+  event.remove({output: "rebornstorage:" + item + "item_disk"})
+  event.remove({output: "rebornstorage:" + item + "fluid_disk_part"})
+  event.remove({output: "rebornstorage:" + item + "item_disk_part"})
+})
 
 });

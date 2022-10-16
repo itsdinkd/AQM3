@@ -3,15 +3,17 @@
 	group: "2BDFA6283B227A86"
 	order_index: 0
 	filename: "the_big_3"
-	title: "The Big 3"
+	title: "The Big 3 and Others"
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			disable_toast: true
 			x: -9.5d
 			y: 0.5d
 			subtitle: "You will need to get through most of Assembly Lines to get to Mekanism"
 			description: ["Assembly lines is not well known yet, but it packs a punch in what it offers. I recommend reading through this book to see all the amazing things you can do"]
+			dependencies: ["546835A04A79AE3A"]
 			id: "2825EE5A023E25E7"
 			tasks: [{
 				id: "08B4EBC773640902"
@@ -26,6 +28,7 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: -9.5d
 			y: 1.5d
 			subtitle: "You will need to get through most of thermal to move to Assembly Lines"
@@ -45,10 +48,12 @@
 		{
 			title: "Mekanism"
 			icon: "minecraft:book"
+			disable_toast: true
 			x: -9.5d
 			y: -0.5d
 			subtitle: "They do not have a book, unfortunately."
 			description: ["This is the last tier of the big 3."]
+			dependencies: ["2825EE5A023E25E7"]
 			id: "72888DD3258A1385"
 			tasks: [{
 				id: "5ECC52E190A5576D"
@@ -66,6 +71,24 @@
 				id: "53D48A8EF2A966BB"
 				type: "checkmark"
 				title: "This will be filled out eventually. please be patient"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -13.0d
+			y: 3.0d
+			subtitle: "LaserIO is like an alternative to Pipes to transfer point to point energy, fluid, and items"
+			id: "79DE793538809948"
+			tasks: [{
+				id: "151A61E1C6258F5E"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "laserio:laseriobook"
+					}
+				}
 			}]
 		}
 	]

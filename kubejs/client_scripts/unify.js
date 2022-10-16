@@ -108,7 +108,13 @@ const UNIFIED_REMOVAL = [
 "buildersaddition:iron_rod",
 "silentgear:iron_rod",
 "createaddition:gold_rod",
-"assemblylinemachines:copper_rod"
+"assemblylinemachines:copper_rod",
+"tconstruct:rose_gold_ingot",
+"tconstruct:rose_gold_block",
+"tconstruct:rose_gold_nugget",
+"tcintegrations:bronze_ingot",
+"tcintegrations:bronze_block",
+"tcintegrations:bronze_nugget"
 ];
 onEvent('rei.hide.items', event => {
 UNIFIED_REMOVAL.forEach(item => {

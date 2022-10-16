@@ -25,7 +25,7 @@
 
     # How much energy is drained when an entity is teleported to another dimension?
     # Allowed range: 0 ~ 1000000 - Default: 400
-    dimensionPowerDrain = 400
+    dimensionPowerDrain = 1000
 
 ["Target Devices"]
     # The maximum number of targets that can be stored in the advanced target definition device.

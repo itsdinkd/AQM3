@@ -3,6 +3,7 @@ type = menu
 customization-meta {
   identifier = net.minecraft.client.gui.screens.TitleScreen
   randomgroup = 1
+  biggerthanwidth = 2559
   renderorder = foreground
   randommode = false
   randomonlyfirsttime = false
@@ -19,7 +20,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = 65
   action = movebutton
@@ -27,20 +28,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 143
   action = resizebutton
   height = 34
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -49,7 +50,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   seconds = 0.45
   onlyfirsttime = true
   fadein = true
@@ -58,7 +59,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
   x = 65
   action = movebutton
@@ -66,20 +67,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   width = 143
   action = resizebutton
   height = 34
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -88,7 +89,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   seconds = 0.55
   onlyfirsttime = true
   fadein = true
@@ -97,12 +98,17 @@ customization {
 }
 
 customization {
-  identifier = %id=604394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=376310%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
   x = 65
   action = movebutton
@@ -110,20 +116,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   width = 143
   action = resizebutton
   height = 34
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -132,7 +138,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   seconds = 0.4
   onlyfirsttime = true
   fadein = true
@@ -141,12 +147,12 @@ customization {
 }
 
 customization {
-  identifier = %id=400334%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
   x = 65
   action = movebutton
@@ -154,20 +160,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   width = 143
   action = resizebutton
   height = 34
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -176,7 +182,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   seconds = 0.5
   onlyfirsttime = true
   fadein = true
@@ -185,7 +191,7 @@ customization {
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 65
   action = movebutton
@@ -193,20 +199,20 @@ customization {
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 143
   action = resizebutton
   height = 34
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -215,7 +221,7 @@ customization {
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   seconds = 0.6
   onlyfirsttime = true
   fadein = true
@@ -224,8 +230,76 @@ customization {
 }
 
 customization {
-  identifier = %id=376394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 296
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = f81def24-818c-4b39-87ce-e270aadaefb01664315067935
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 3e7eef20-2212-4e7b-8a79-6e8bf91955031664315067938
+  y = 301
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 918
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 1e56e591-a4e6-4c5c-8b8b-68272e47d1c01664315067938
+  y = 460
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 676
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 9bcf0760-90ad-4412-8c03-ff316df3fd4b1664315067938
+  y = 220
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 436
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 64c2b467-d8fb-45e3-9b4b-df53027e666e1664315067938
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = fc724e49-f585-4a34-b434-c3003d292f471664315067938
+  y = 0
+  height = 30
 }
 
 customization {
@@ -310,5 +384,26 @@ customization {
   action = addanimation
   y = -138
   height = 194
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #D07CF9
+  shadow = true
+  delayappearanceseconds = 1.25
+  rotation = -32.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 1.0
+  x = -107
+  actionid = ab19f10f-c077-4223-a764-c8fe61e737c01664315226905
+  action = addsplash
+  y = 6
+  delayappearance = true
+  text = Finally Updated!
+  delayappearanceeverytime = false
 }
 

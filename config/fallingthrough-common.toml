@@ -12,7 +12,7 @@
 	#Use [first,second] to list multiple entries.
 	belowDimension = ["minecraft:overworld;minecraft:the_nether;8;8;AIR;4", "minecraft:the_end;minecraft:overworld;1;1;AIR;0", "minecraft:the_nether;minecraft:the_nether;1;1;CAVE;0"]
 	#Turn on teleporting when going above dimension height
-	enableAboveDimensionTP = true
+	enableAboveDimensionTP = false
 	#Requires enableAboveDimensionTP to be enabled! 
 	#List of dimension connections for players going above a dimension 
 	#Format: FromDimension,ToDimension,XCoordDivider, ZCoordDivider, Y-SpawnType, DimensionBorderTPDistance 

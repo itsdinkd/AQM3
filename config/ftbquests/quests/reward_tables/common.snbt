@@ -3,5 +3,22 @@
 	order_index: 3
 	title: "Common"
 	loot_size: 1
-	rewards: [ ]
+	rewards: [
+		{ item: "minecraft:stone", count: 16 }
+		{ item: "minecraft:oak_planks", count: 16 }
+		{ item: "minecraft:bread", count: 3 }
+		{ item: "minecraft:coal", count: 24 }
+		{ item: "minecraft:apple", count: 7 }
+		{ item: "minecraft:golden_apple" }
+		{
+			item: {
+				id: "enigmaticlegacy:common_potion"
+				Count: 1b
+				tag: {
+					EnigmaticPotion: "long_haste"
+				}
+			}
+		}
+		{ item: "blue_skies:defying_starlight" }
+	]
 }

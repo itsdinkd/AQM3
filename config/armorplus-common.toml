@@ -24,7 +24,7 @@
 	#redstone equipment Configuration
 	[items.redstone]
 		#redstone armor: enable/disable full set effects
-		enableArmorEffects = false
+		enableArmorEffects = true
 		#redstone weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
@@ -52,9 +52,9 @@
 	#obsidian equipment Configuration
 	[items.obsidian]
 		#obsidian armor: enable/disable full set effects
-		enableArmorEffects = false
+		enableArmorEffects = true
 		#obsidian weapons: enable/disable on hit effects
-		enableWeaponEffects = false
+		enableWeaponEffects = true
 
 	#infused_lava equipment Configuration
 	[items.infused_lava]
@@ -108,7 +108,7 @@
 	#slayer equipment Configuration
 	[items.slayer]
 		#slayer armor: enable/disable full set effects
-		enableArmorEffects = true
+		enableArmorEffects = false
 		#slayer weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
@@ -249,58 +249,52 @@
 #Mob Drops Configuration
 [drops]
 
-	#wither_boss drop configuration (CURRENTLY DISABLED BY THE MOD)
+	#wither_boss drop configuration
 	[drops.wither_boss]
-		#ArmorPlus's wither_boss trophy drops: enable/disable
-		enableTrophyDrops = true
-		#ArmorPlus's wither_boss regular drops: enable/disable
+		#ArmorPlus's wither_boss regular drops (the default mob drops): enable/disable
 		enableRegularDrops = true
-		#ArmorPlus's wither_boss soul drops: enable/disable
+		#ArmorPlus's wither_boss soul drops (acquired via the use of Soul Stealer): enable/disable
 		enableSoulDrops = true
 
-	#ender_dragon drop configuration (CURRENTLY DISABLED BY THE MOD)
+	#ender_dragon drop configuration
 	[drops.ender_dragon]
-		#ArmorPlus's ender_dragon trophy drops: enable/disable
-		enableTrophyDrops = true
-		#ArmorPlus's ender_dragon regular drops: enable/disable
+		#ArmorPlus's ender_dragon regular drops (the default mob drops): enable/disable
 		enableRegularDrops = true
-		#ArmorPlus's ender_dragon soul drops: enable/disable
+		#ArmorPlus's ender_dragon soul drops (acquired via the use of Soul Stealer): enable/disable
 		enableSoulDrops = true
 
-	#elder_guardian drop configuration (CURRENTLY DISABLED BY THE MOD)
+	#elder_guardian drop configuration
 	[drops.elder_guardian]
-		#ArmorPlus's elder_guardian trophy drops: enable/disable
-		enableTrophyDrops = true
-		#ArmorPlus's elder_guardian regular drops: enable/disable
+		#ArmorPlus's elder_guardian regular drops (the default mob drops): enable/disable
 		enableRegularDrops = true
-		#ArmorPlus's elder_guardian soul drops: enable/disable
+		#ArmorPlus's elder_guardian soul drops (acquired via the use of Soul Stealer): enable/disable
 		enableSoulDrops = true
 
 	#wither_skeleton drop configuration
 	[drops.wither_skeleton]
-		#ArmorPlus's wither_skeleton regular drops: enable/disable
+		#ArmorPlus's wither_skeleton regular drops (the default mob drops): enable/disable
 		enableRegularDrops = true
-		#ArmorPlus's wither_skeleton soul drops: enable/disable
+		#ArmorPlus's wither_skeleton soul drops (acquired via the use of Soul Stealer): enable/disable
 		enableSoulDrops = true
 
 	#guardian drop configuration
 	[drops.guardian]
-		#ArmorPlus's guardian regular drops: enable/disable
+		#ArmorPlus's guardian regular drops (the default mob drops): enable/disable
 		enableRegularDrops = false
-		#ArmorPlus's guardian soul drops: enable/disable
+		#ArmorPlus's guardian soul drops (acquired via the use of Soul Stealer): enable/disable
 		enableSoulDrops = true
 
 	#enderman drop configuration
 	[drops.enderman]
-		#ArmorPlus's enderman regular drops: enable/disable
+		#ArmorPlus's enderman regular drops (the default mob drops): enable/disable
 		enableRegularDrops = false
-		#ArmorPlus's enderman soul drops: enable/disable
+		#ArmorPlus's enderman soul drops (acquired via the use of Soul Stealer): enable/disable
 		enableSoulDrops = true
 
 	#blaze drop configuration
 	[drops.blaze]
-		#ArmorPlus's blaze regular drops: enable/disable
+		#ArmorPlus's blaze regular drops (the default mob drops): enable/disable
 		enableRegularDrops = false
-		#ArmorPlus's blaze soul drops: enable/disable
+		#ArmorPlus's blaze soul drops (acquired via the use of Soul Stealer): enable/disable
 		enableSoulDrops = true
 

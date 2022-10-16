@@ -18,7 +18,7 @@
 	#Range: > -2147483648
 	CosArmorToggleButton_Top = 72
 	#Whether or not to hide the button for opening CosmeticArmorInventory in CreativeInventory
-	CosArmorCreativeGuiButton_Hidden = true
+	CosArmorCreativeGuiButton_Hidden = false
 	#The horizontal pixel distance from the origin point of creative inventory gui
 	#Range: > -2147483648
 	CosArmorCreativeGuiButton_Left = 95

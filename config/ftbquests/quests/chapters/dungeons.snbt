@@ -1,7 +1,7 @@
 {
 	id: "09A8DB71B4CAF006"
 	group: "30AC1CE19F5532E7"
-	order_index: 1
+	order_index: 0
 	filename: "dungeons"
 	title: "Dungeons"
 	default_quest_shape: ""
