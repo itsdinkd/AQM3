@@ -84,4 +84,6 @@
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 1.0
+	#Ignis's cracked block breaking ignore the MobGriefing
+	IgnisBlockBreaking = true
 

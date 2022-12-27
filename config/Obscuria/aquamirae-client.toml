@@ -1,0 +1,7 @@
+
+[IceMazeAmbient]
+	SpawnParticles = true
+	PlayAmbientSounds = true
+	PlayBiomeTheme = true
+	PlayCorneliaTheme = true
+

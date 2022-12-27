@@ -1,0 +1,10 @@
+{
+  "name": "item.sebastrnlib.book",
+  "landing_text": "sebastrnlib.landing",
+  "show_progress": false,
+  "version": 1,
+  "book_texture": "sebastrnlib:textures/gui/book_maroon.png",
+  "model": "sebastrnlib:guidebook",
+  "i18n": true,
+  "index_icon": "minecraft:bookshelf"
+}

@@ -43,7 +43,7 @@
 		],
 		"endurance": [ 
 			{"perk":"pmmo:fall_save",
-			 "per_level": 0.016}
+			 "per_level": 0.009}
 		]
 	},
 	"DEAL_DAMAGE": { 
