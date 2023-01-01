@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "gobber2:gobber2_ore",
+    "gobber2:gobber2_ore_deepslate",
+    "gobber2:gobber2_ore_nether",
+    "gobber2:gobber2_ore_end",
+    "gobber2:gobber2_block",
+    "gobber2:gobber2_block_nether",
+    "gobber2:gobber2_block_end",
+    "gobber2:gobber2_lucky_block",
+    "gobber2:gobber2_lucky_block_deepslate",
+    "gobber2:gobber2_lucky_block_nether",
+    "gobber2:gobber2_glass",
+    "gobber2:gobber2_glass_nether",
+    "gobber2:gobber2_glass_end",
+    "gobber2:clear_glass",
+    "#minecraft:mineable/pickaxe",
+    "#minecraft:mineable/axe",
+    "#minecraft:mineable/hoe",
+    "#minecraft:mineable/shovel",
+    "#dynamictrees:branches"
+  ]
+}

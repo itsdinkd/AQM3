@@ -742,5 +742,41 @@
 				xp: 25
 			}]
 		}
+		{
+			title: "Dynamic Trees Note - Important Please Read!"
+			icon: {
+				id: "minecraft:stone_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -3.5d
+			subtitle: "Tree chopping mods are not compat with Dynamic Trees. Only Tree Chop (Sneak + Click) on regular logs."
+			id: "69CE4EDC9A14C592"
+			tasks: [
+				{
+					id: "26F678D99E0F3C27"
+					type: "checkmark"
+					title: "I understand"
+				}
+				{
+					id: "0ECF5553CEC20CE8"
+					type: "questsadditions:break"
+					title: "You cannot use Sneak + Click on Dynamic Trees"
+					block_type: 1
+					block: "dynamictrees:branches_that_burn"
+					value: 1L
+					checkItem: false
+				}
+			]
+			rewards: [{
+				id: "7AC27194BFA329BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
 	]
+	quest_links: [ ]
 }

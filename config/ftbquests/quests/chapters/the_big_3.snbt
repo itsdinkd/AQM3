@@ -62,21 +62,9 @@
 			}]
 		}
 		{
-			title: "This chapter be filled with quests eventually. please be patient"
-			x: -9.5d
-			y: 4.5d
-			size: 3.0d
-			id: "18EDF9EED57DACC0"
-			tasks: [{
-				id: "53D48A8EF2A966BB"
-				type: "checkmark"
-				title: "This will be filled out eventually. please be patient"
-			}]
-		}
-		{
 			disable_toast: true
-			x: -13.0d
-			y: 3.0d
+			x: -12.0d
+			y: 1.5d
 			subtitle: "LaserIO is like an alternative to Pipes to transfer point to point energy, fluid, and items"
 			id: "79DE793538809948"
 			tasks: [{
@@ -92,4 +80,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

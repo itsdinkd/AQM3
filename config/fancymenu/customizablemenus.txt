@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
 net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
@@ -19,5 +16,8 @@ net.minecraft.client.gui.screens.ConnectScreen {
 }
 
 net.minecraft.client.gui.screens.DisconnectedScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
 }
 

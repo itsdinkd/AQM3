@@ -8,8 +8,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -1.5d
-			y: 0.0d
+			x: -3.0d
+			y: 1.5d
 			subtitle: "Tinkers Construct guide - Questline coming soon"
 			id: "67C869C42E0FADAD"
 			tasks: [{
@@ -31,8 +31,8 @@
 		}
 		{
 			disable_toast: true
-			x: -1.5d
-			y: -1.5d
+			x: 0.0d
+			y: 1.5d
 			subtitle: "Tinkers Reforged"
 			id: "7A8B36AB93137175"
 			tasks: [{
@@ -43,4 +43,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

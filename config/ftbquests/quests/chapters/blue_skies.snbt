@@ -1,0 +1,56 @@
+{
+	id: "3740C3E876CD12E4"
+	group: "357818B443F9748C"
+	order_index: 6
+	filename: "blue_skies"
+	title: "Blue Skies"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "blue_skies:alchemist_trophy"
+				Count: 1b
+				tag: {
+					BlockStateTag: {
+						tier: "gold"
+					}
+				}
+			}
+			x: -1.0d
+			y: -1.0d
+			description: ["Blue Skies adds two dimensions called the Everbright and the Everdawn. It includes lots of new unique features, blocks, weapons, mobs and even massive dungeons! Each dimension has its own theme, with the Everbright being very bright, snowy and cold while the Everdawn is typically darker and warm. Each of these dimensions currently has two dungeons to explore, totaling up to 4 dungeons"]
+			id: "032E13E1E279EB6E"
+			tasks: [{
+				id: "703662A106D12D3D"
+				type: "checkmark"
+				title: "About Blue Skies"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			subtitle: "Found in a Blue Skies village in overworld"
+			description: ["The Blue Skies Village is a small village of two buildings with slanted roofs, here you can find the Gatekeeper, your ticket to the Everbright and Everdawn Dimensions. "]
+			id: "1D5DA5FC5E850B61"
+			tasks: [{
+				id: "6A5D482C87B564EB"
+				type: "observation"
+				title: "Find and Look at the Gatekeeper"
+				icon: "easy_villagers:villager"
+				timer: 0L
+				observe_type: 5
+				to_observe: "blue_skies:gatekeeper"
+			}]
+			rewards: [{
+				id: "7C78D741444CAD0D"
+				type: "pmmo:levelreward"
+				title: "1 Free Agility Level"
+				auto: "invisible"
+				skill: "agility"
+				amount: 1.0d
+			}]
+		}
+	]
+	quest_links: [ ]
+}

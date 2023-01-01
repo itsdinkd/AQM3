@@ -19,7 +19,8 @@ global["unifypriorities"] = [
     "tconstruct",
     "tinkers_reforged",
     "tcintegrations",
-    "ob_core"
+    "ob_core",
+    "obscure"
 ]
 // Items to exclude (will not be unified)
 global["unifyexclude"] = new Set([

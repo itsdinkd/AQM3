@@ -91,6 +91,14 @@
 	damageFactorLevels = 10
 	#If true, gear breaks permanently, like vanilla tools and armor
 	breaksPermanently = false
+	#The item tier assigned to gear tool items.
+	#Leave this alone unless you are trying to work around mod compatibility issues!
+	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	dummyToolTier = "WOOD"
+	#The armor material assigned to the gear armor items.
+	#Leave this alone unless you are trying to work around mod compatibility issues!
+	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	dummyArmorMaterial = "LEATHER"
 
 	[gear.enchanting]
 		#Allow gear items to be enchanted by normal means (enchanting table, etc.)

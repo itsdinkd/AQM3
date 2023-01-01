@@ -1,112 +1,105 @@
 
 [General]
-	"Stylized Bossbar" = true
-
-[IceMazeStructures]
-	#Range: 0.0 ~ 100.0
-	Ship = 1.0
-	#Range: 0.0 ~ 100.0
-	Outpost = 1.0
-	#Range: 0.0 ~ 100.0
-	Shelter = 1.0
+	stylizedBossbar = true
+	chatNotifications = true
 
 [Mobs]
 
 	[Mobs.GhostOfCaptainCornelia]
-		#Range: 0.0 ~ 10.0
-		MovementSpeed = 0.21
 		#Range: 1.0 ~ 100000.0
-		MaxHealth = 900.0
+		maxHealth = 900.0
 		#Range: 0.0 ~ 1000.0
-		Armor = 24.0
-		#Range: 1.0 ~ 1000.0
-		AttackDamage = 18.0
+		armor = 24.0
 		#Range: 0.0 ~ 10.0
-		KnockbackResistance = 0.75
+		knockbackResistance = 0.75
 		#Range: 0.0 ~ 10.0
-		AttackKnockback = 2.5
+		attackKnockback = 2.5
 		#Range: 1.0 ~ 256.0
-		FollowRange = 128.0
+		followRange = 128.0
+		#Range: 0.0 ~ 10.0
+		movementSpeed = 0.2
+		#Range: 1.0 ~ 1000.0
+		attackDamage = 1.0
 		#Range: 0 ~ 1000
-		RegenerationSkill = 3
+		regenerationSkillUses = 2
 
 	[Mobs.Anglerfish]
 		#Range: 0.0 ~ 100.0
-		SwimSpeed = 3.0
+		swimSpeed = 3.0
 		#Range: 1.0 ~ 100000.0
-		MaxHealth = 80.0
+		maxHealth = 80.0
 		#Range: 0.0 ~ 1000.0
-		Armor = 2.0
+		armor = 2.0
 		#Range: 0.0 ~ 10.0
-		KnockbackResistance = 0.0
-		#Range: 1.0 ~ 1000.0
-		AttackDamage = 9.0
+		knockbackResistance = 0.0
 		#Range: 0.0 ~ 10.0
-		AttackKnockback = 1.0
+		attackKnockback = 1.0
 		#Range: 1.0 ~ 256.0
-		FollowRange = 48.0
+		followRange = 48.0
+		#Range: 1.0 ~ 1000.0
+		attackDamage = 6.0
 
 	[Mobs.Maw]
-		#Range: 0.0 ~ 10.0
-		MovementSpeed = 0.2
 		#Range: 0.0 ~ 100.0
-		SwimSpeed = 5.0
+		swimSpeed = 5.0
 		#Range: 1.0 ~ 100000.0
-		MaxHealth = 40.0
+		maxHealth = 40.0
 		#Range: 0.0 ~ 1000.0
-		Armor = 1.0
+		armor = 1.0
 		#Range: 0.0 ~ 10.0
-		KnockbackResistance = 0.0
-		#Range: 1.0 ~ 1000.0
-		AttackDamage = 6.0
+		knockbackResistance = 0.0
 		#Range: 0.0 ~ 10.0
-		AttackKnockback = 0.3
+		attackKnockback = 0.3
 		#Range: 1.0 ~ 256.0
-		FollowRange = 24.0
+		followRange = 24.0
+		#Range: 0.0 ~ 10.0
+		movementSpeed = 0.2
+		#Range: 1.0 ~ 1000.0
+		attackDamage = 4.0
 
 	[Mobs.TorturedSoul]
-		#Range: 0.0 ~ 10.0
-		MovementSpeed = 0.2
 		#Range: 0.0 ~ 100.0
-		SwimSpeed = 3.0
+		swimSpeed = 3.0
 		#Range: 1.0 ~ 100000.0
-		MaxHealth = 50.0
+		maxHealth = 50.0
 		#Range: 0.0 ~ 1000.0
-		Armor = 4.0
+		armor = 4.0
 		#Range: 0.0 ~ 10.0
-		KnockbackResistance = 0.0
-		#Range: 1.0 ~ 1000.0
-		AttackDamage = 8.0
+		knockbackResistance = 0.0
 		#Range: 0.0 ~ 10.0
-		AttackKnockback = 0.7
+		attackKnockback = 0.7
 		#Range: 1.0 ~ 256.0
-		FollowRange = 24.0
+		followRange = 24.0
+		#Range: 0.0 ~ 10.0
+		movementSpeed = 0.2
+		#Range: 1.0 ~ 1000.0
+		attackDamage = 7.0
 
 	[Mobs.MotherOfTheMaze]
 		#Range: 0.0 ~ 100.0
-		SwimSpeed = 3.0
+		swimSpeed = 3.0
 		#Range: 1.0 ~ 100000.0
-		MaxHealth = 588.0
+		maxHealth = 588.0
 		#Range: 0.0 ~ 1000.0
-		Armor = 12.0
+		armor = 12.0
 		#Range: 0.0 ~ 10.0
-		KnockbackResistance = 0.2
-		#Range: 1.0 ~ 1000.0
-		AttackDamage = 10.0
+		knockbackResistance = 0.2
 		#Range: 0.0 ~ 10.0
-		AttackKnockback = 0.5
+		attackKnockback = 0.5
 		#Range: 1.0 ~ 256.0
-		FollowRange = 128.0
+		followRange = 128.0
+		#Range: 1.0 ~ 1000.0
+		attackDamage = 5.0
 
 	[Mobs.Eel]
 		#Range: 1.0 ~ 100000.0
-		MaxHealth = 180.0
+		maxHealth = 180.0
 		#Range: 0.0 ~ 1000.0
-		Armor = 30.0
-		#Range: 1.0 ~ 1000.0
-		AttackDamage = 8.0
+		armor = 30.0
 		#Range: 0.0 ~ 10.0
-		AttackKnockback = 2.0
+		attackKnockback = 2.0
 		#Range: 1.0 ~ 256.0
-		FollowRange = 32.0
+		followRange = 32.0
+		#Range: 1.0 ~ 1000.0
+		attackDamage = 8.0
 

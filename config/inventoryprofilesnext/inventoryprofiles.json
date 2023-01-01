@@ -7,9 +7,9 @@
         "first_run": false
     },
     "GuiSettings": {
+        "enable_inventory_editor_button": false,
         "enable_profiles_ui": false,
         "enable_profiles_announcement": false,
-        "enable_inventory_editor_button": false,
         "show_sort_in_columns_button": false,
         "show_sort_in_rows_button": false,
         "show_move_all_button": false
