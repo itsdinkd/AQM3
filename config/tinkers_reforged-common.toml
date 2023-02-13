@@ -1,5 +1,5 @@
 #Default Modifier Cap for adapting
-adaptingModifierCap = 10.0
+adaptingModifierCap = 15.0
 
 #Bauxite Ore Worldgen
 [bauxite_ore]

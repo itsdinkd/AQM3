@@ -84,33 +84,297 @@
 		#frost_lava weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#guardian equipment Configuration
+	#guardian extended equipment Configuration
 	[items.guardian]
 		#guardian armor: enable/disable full set effects
 		enableArmorEffects = true
 		#guardian weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#super_star equipment Configuration
+		[items.guardian.effects]
+			#guardian armor: enable/disable night vision
+			enableNIGHT_VISION = true
+			#guardian armor: night vision amplifier
+			amplifierNIGHT_VISION = 0
+			#guardian armor: enable/disable water breathing
+			enableWATER_BREATHING = true
+			#guardian armor: water breathing amplifier
+			amplifierWATER_BREATHING = 0
+			#guardian armor: enable/disable strength
+			enableSTRENGTH = false
+			#guardian armor: strength amplifier
+			amplifierSTRENGTH = 0
+			#guardian armor: enable/disable speed
+			enableSPEED = false
+			#guardian armor: speed amplifier
+			amplifierSPEED = 0
+			#guardian armor: enable/disable haste
+			enableHASTE = false
+			#guardian armor: haste amplifier
+			amplifierHASTE = 0
+			#guardian armor: enable/disable jump boost
+			enableJUMP_BOOST = true
+			#guardian armor: jump boost amplifier
+			amplifierJUMP_BOOST = 1
+			#guardian armor: enable/disable regeneration
+			enableREGENERATION = false
+			#guardian armor: regeneration amplifier
+			amplifierREGENERATION = 0
+			#guardian armor: enable/disable resistance
+			enableRESISTANCE = false
+			#guardian armor: resistance amplifier
+			amplifierRESISTANCE = 0
+			#guardian armor: enable/disable fire resistance
+			enableFIRE_RESISTANCE = false
+			#guardian armor: fire resistance amplifier
+			amplifierFIRE_RESISTANCE = 0
+			#guardian armor: enable/disable saturation
+			enableSATURATION = false
+			#guardian armor: saturation amplifier
+			amplifierSATURATION = 0
+			#guardian armor: enable/disable invisibility
+			enableINVISIBILITY = false
+			#guardian armor: invisibility amplifier
+			amplifierINVISIBILITY = 0
+			#guardian armor: enable/disable health boost
+			enableHEALTH_BOOST = false
+			#guardian armor: health boost amplifier
+			amplifierHEALTH_BOOST = 0
+			#guardian armor: enable/disable absorption
+			enableABSORPTION = false
+			#guardian armor: absorption amplifier
+			amplifierABSORPTION = 0
+			#guardian armor: enable/disable slow falling
+			enableSLOW_FALLING = false
+			#guardian armor: slow falling amplifier
+			amplifierSLOW_FALLING = 0
+			#guardian armor: enable/disable flight
+			enableFLIGHT = false
+			#guardian armor: enable/disable wither immunity
+			enableWITHER_IMMUNITY = false
+			#guardian armor: enable/disable natural immunity
+			enableNATURAL_IMMUNITY = false
+			#guardian armor: enable/disable fire extinguish
+			enableFIRE_EXTINGUISH = true
+
+	#super_star extended equipment Configuration
 	[items.super_star]
 		#super_star armor: enable/disable full set effects
 		enableArmorEffects = true
 		#super_star weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#ender_dragon equipment Configuration
+		[items.super_star.effects]
+			#super_star armor: enable/disable night vision
+			enableNIGHT_VISION = false
+			#super_star armor: night vision amplifier
+			amplifierNIGHT_VISION = 0
+			#super_star armor: enable/disable water breathing
+			enableWATER_BREATHING = false
+			#super_star armor: water breathing amplifier
+			amplifierWATER_BREATHING = 0
+			#super_star armor: enable/disable strength
+			enableSTRENGTH = false
+			#super_star armor: strength amplifier
+			amplifierSTRENGTH = 0
+			#super_star armor: enable/disable speed
+			enableSPEED = false
+			#super_star armor: speed amplifier
+			amplifierSPEED = 0
+			#super_star armor: enable/disable haste
+			enableHASTE = false
+			#super_star armor: haste amplifier
+			amplifierHASTE = 0
+			#super_star armor: enable/disable jump boost
+			enableJUMP_BOOST = false
+			#super_star armor: jump boost amplifier
+			amplifierJUMP_BOOST = 0
+			#super_star armor: enable/disable regeneration
+			enableREGENERATION = true
+			#super_star armor: regeneration amplifier
+			amplifierREGENERATION = 0
+			#super_star armor: enable/disable resistance
+			enableRESISTANCE = false
+			#super_star armor: resistance amplifier
+			amplifierRESISTANCE = 0
+			#super_star armor: enable/disable fire resistance
+			enableFIRE_RESISTANCE = true
+			#super_star armor: fire resistance amplifier
+			amplifierFIRE_RESISTANCE = 0
+			#super_star armor: enable/disable saturation
+			enableSATURATION = false
+			#super_star armor: saturation amplifier
+			amplifierSATURATION = 0
+			#super_star armor: enable/disable invisibility
+			enableINVISIBILITY = false
+			#super_star armor: invisibility amplifier
+			amplifierINVISIBILITY = 0
+			#super_star armor: enable/disable health boost
+			enableHEALTH_BOOST = false
+			#super_star armor: health boost amplifier
+			amplifierHEALTH_BOOST = 0
+			#super_star armor: enable/disable absorption
+			enableABSORPTION = true
+			#super_star armor: absorption amplifier
+			amplifierABSORPTION = 0
+			#super_star armor: enable/disable slow falling
+			enableSLOW_FALLING = false
+			#super_star armor: slow falling amplifier
+			amplifierSLOW_FALLING = 0
+			#super_star armor: enable/disable flight
+			enableFLIGHT = false
+			#super_star armor: enable/disable wither immunity
+			enableWITHER_IMMUNITY = true
+			#super_star armor: enable/disable natural immunity
+			enableNATURAL_IMMUNITY = false
+			#super_star armor: enable/disable fire extinguish
+			enableFIRE_EXTINGUISH = true
+
+	#ender_dragon extended equipment Configuration
 	[items.ender_dragon]
 		#ender_dragon armor: enable/disable full set effects
 		enableArmorEffects = false
 		#ender_dragon weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#slayer equipment Configuration
+		[items.ender_dragon.effects]
+			#ender_dragon armor: enable/disable night vision
+			enableNIGHT_VISION = false
+			#ender_dragon armor: night vision amplifier
+			amplifierNIGHT_VISION = 0
+			#ender_dragon armor: enable/disable water breathing
+			enableWATER_BREATHING = false
+			#ender_dragon armor: water breathing amplifier
+			amplifierWATER_BREATHING = 0
+			#ender_dragon armor: enable/disable strength
+			enableSTRENGTH = false
+			#ender_dragon armor: strength amplifier
+			amplifierSTRENGTH = 0
+			#ender_dragon armor: enable/disable speed
+			enableSPEED = false
+			#ender_dragon armor: speed amplifier
+			amplifierSPEED = 0
+			#ender_dragon armor: enable/disable haste
+			enableHASTE = false
+			#ender_dragon armor: haste amplifier
+			amplifierHASTE = 0
+			#ender_dragon armor: enable/disable jump boost
+			enableJUMP_BOOST = false
+			#ender_dragon armor: jump boost amplifier
+			amplifierJUMP_BOOST = 0
+			#ender_dragon armor: enable/disable regeneration
+			enableREGENERATION = false
+			#ender_dragon armor: regeneration amplifier
+			amplifierREGENERATION = 0
+			#ender_dragon armor: enable/disable resistance
+			enableRESISTANCE = false
+			#ender_dragon armor: resistance amplifier
+			amplifierRESISTANCE = 0
+			#ender_dragon armor: enable/disable fire resistance
+			enableFIRE_RESISTANCE = true
+			#ender_dragon armor: fire resistance amplifier
+			amplifierFIRE_RESISTANCE = 0
+			#ender_dragon armor: enable/disable saturation
+			enableSATURATION = false
+			#ender_dragon armor: saturation amplifier
+			amplifierSATURATION = 0
+			#ender_dragon armor: enable/disable invisibility
+			enableINVISIBILITY = false
+			#ender_dragon armor: invisibility amplifier
+			amplifierINVISIBILITY = 0
+			#ender_dragon armor: enable/disable health boost
+			enableHEALTH_BOOST = false
+			#ender_dragon armor: health boost amplifier
+			amplifierHEALTH_BOOST = 0
+			#ender_dragon armor: enable/disable absorption
+			enableABSORPTION = false
+			#ender_dragon armor: absorption amplifier
+			amplifierABSORPTION = 0
+			#ender_dragon armor: enable/disable slow falling
+			enableSLOW_FALLING = true
+			#ender_dragon armor: slow falling amplifier
+			amplifierSLOW_FALLING = 0
+			#ender_dragon armor: enable/disable flight
+			enableFLIGHT = false
+			#ender_dragon armor: enable/disable wither immunity
+			enableWITHER_IMMUNITY = true
+			#ender_dragon armor: enable/disable natural immunity
+			enableNATURAL_IMMUNITY = false
+			#ender_dragon armor: enable/disable fire extinguish
+			enableFIRE_EXTINGUISH = true
+
+	#slayer extended equipment Configuration
 	[items.slayer]
 		#slayer armor: enable/disable full set effects
-		enableArmorEffects = false
+		enableArmorEffects = true
 		#slayer weapons: enable/disable on hit effects
 		enableWeaponEffects = true
+
+		[items.slayer.effects]
+			#slayer armor: enable/disable night vision
+			enableNIGHT_VISION = false
+			#slayer armor: night vision amplifier
+			amplifierNIGHT_VISION = 0
+			#slayer armor: enable/disable water breathing
+			enableWATER_BREATHING = true
+			#slayer armor: water breathing amplifier
+			amplifierWATER_BREATHING = 0
+			#slayer armor: enable/disable strength
+			enableSTRENGTH = false
+			#slayer armor: strength amplifier
+			amplifierSTRENGTH = 0
+			#slayer armor: enable/disable speed
+			enableSPEED = false
+			#slayer armor: speed amplifier
+			amplifierSPEED = 0
+			#slayer armor: enable/disable haste
+			enableHASTE = false
+			#slayer armor: haste amplifier
+			amplifierHASTE = 0
+			#slayer armor: enable/disable jump boost
+			enableJUMP_BOOST = true
+			#slayer armor: jump boost amplifier
+			amplifierJUMP_BOOST = 1
+			#slayer armor: enable/disable regeneration
+			enableREGENERATION = true
+			#slayer armor: regeneration amplifier
+			amplifierREGENERATION = 0
+			#slayer armor: enable/disable resistance
+			enableRESISTANCE = false
+			#slayer armor: resistance amplifier
+			amplifierRESISTANCE = 0
+			#slayer armor: enable/disable fire resistance
+			enableFIRE_RESISTANCE = true
+			#slayer armor: fire resistance amplifier
+			amplifierFIRE_RESISTANCE = 0
+			#slayer armor: enable/disable saturation
+			enableSATURATION = false
+			#slayer armor: saturation amplifier
+			amplifierSATURATION = 0
+			#slayer armor: enable/disable invisibility
+			enableINVISIBILITY = false
+			#slayer armor: invisibility amplifier
+			amplifierINVISIBILITY = 0
+			#slayer armor: enable/disable health boost
+			enableHEALTH_BOOST = false
+			#slayer armor: health boost amplifier
+			amplifierHEALTH_BOOST = 0
+			#slayer armor: enable/disable absorption
+			enableABSORPTION = true
+			#slayer armor: absorption amplifier
+			amplifierABSORPTION = 0
+			#slayer armor: enable/disable slow falling
+			enableSLOW_FALLING = true
+			#slayer armor: slow falling amplifier
+			amplifierSLOW_FALLING = 0
+			#slayer armor: enable/disable flight
+			enableFLIGHT = false
+			#slayer armor: enable/disable wither immunity
+			enableWITHER_IMMUNITY = true
+			#slayer armor: enable/disable natural immunity
+			enableNATURAL_IMMUNITY = false
+			#slayer armor: enable/disable fire extinguish
+			enableFIRE_EXTINGUISH = true
 
 	#enhanced equipment Configuration
 	[items.enhanced]

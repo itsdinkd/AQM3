@@ -489,18 +489,6 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -5.0d
-			subtitle: "I will be adding more quests over time, mainly from a huge quest update all at once."
-			size: 2.0d
-			id: "6515F80F256CBD9E"
-			tasks: [{
-				id: "5766FCA1626E6902"
-				type: "custom"
-				title: "Quests are WIP"
-			}]
-		}
-		{
 			title: "How to Claim Land"
 			x: 1.5d
 			y: -0.75d

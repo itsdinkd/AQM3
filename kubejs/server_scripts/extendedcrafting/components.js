@@ -114,7 +114,6 @@ event.recipes.extendedcrafting.shapelessTable('extendedcrafting:the_ultimate_ing
 "mysticalagriculture:supremium_ingot",
 "mysticalagriculture:tertium_ingot",
 "mythicbotany:alfsteel_ingot",
-"nourished_end:voidsteel_ingot",
 "stalwart_dungeons:tungsten_ingot",
 "piglin_expansion:divinity_netherite_ingot",
 "silentgear:azure_electrum_ingot",

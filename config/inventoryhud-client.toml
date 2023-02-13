@@ -50,7 +50,7 @@
 #Settings for Potions HUD
 [potionshud]
 	#Is Potions HUD enabled
-	Potions = false
+	Potions = true
 	#Potion HUD alpha
 	#Range: 0 ~ 100
 	potAlpha = 100
@@ -58,7 +58,7 @@
 	#Range: -5 ~ 5
 	potGap = 0
 	#Potion HUD mini mode
-	potMini = false
+	potMini = true
 	#Potion HUD horizontal mode
 	potHor = false
 	#Full bar duration
@@ -99,10 +99,10 @@
 	potHalign = "LEFT"
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 16
+	xPotionPos = 7
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 31
+	yPotionPos = 27
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
 	helmPosX = 103

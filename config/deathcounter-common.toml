@@ -2,6 +2,7 @@
 #General settings
 [general]
 	#What kind of message should we send players when they die?
+	#Accepts: NONE, SHORT, LONG
 	#Allowed Values: NONE, SHORT, LONG
 	messageType = "SHORT"
 	#Number of names to show in the leaderboard
@@ -12,4 +13,8 @@
 	#Permission level required to use the op commands for Death Counter
 	#Range: 0 ~ 4
 	commandPermissionLevel = 2
+	#Should we broadcast the leaderboard to the player when they die?
+	#Accepts: NONE, SELF, ALL
+	#Allowed Values: NONE, SELF, ALL
+	broadcastOnDeath = "NONE"
 
