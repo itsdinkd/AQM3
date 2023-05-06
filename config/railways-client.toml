@@ -7,4 +7,6 @@
 	#Journeymap train overlay old marker removal check time (in ticks)
 	#Range: 10 ~ 1200
 	journeymapObsolescenceCheckTicks = 200
+	#Show extended debug info in coupler goggle overlay
+	extendedCouplerDebug = false
 

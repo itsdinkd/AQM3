@@ -15,6 +15,8 @@ global["unifypriorities"] = [
     "assemblylinemachines",
     "mekanism",
     "create",
+    "iceandfire",
+    "draconicevolution",
     "futurepack",
     "tconstruct",
     "tinkers_reforged",

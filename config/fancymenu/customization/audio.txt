@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = %fancymenu:universal_layout%
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  audio_source:9719a428-6542-4254-a9b7-4462f8e0c9a71683396044777 = kubejs/assets/minecraft/sounds/music/menu/menu1.ogg;EXTERNAL_LOCAL;100;0
+  loop = true
+  channel = music
+  x = 8
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 18a15c81-deea-493f-8250-f7bf8afeecea1683396038714
+  y = 79
+  once_per_session = false
+  height = 50
+}
+

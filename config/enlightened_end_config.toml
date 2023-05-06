@@ -12,13 +12,22 @@
 	"Adamantite Renewability" = true
 	#Defines whether Portal Flasks can capture or place End Portals
 	"Portal Flask Capturing" = true
-	"Bubble Chests Generation" = true
 	#Decreasing this value from 0 - 1 will make the generated biomes rarer
 	"Biome Frequency" = 1.0
 	#The amount of blocks enderneath tunnels will dig upwards before stopping
 	"Enderneath Tunnel Limit" = 70.0
-	#Defines whether new ambient particles will spawn in the End
-	"End Particles" = false
-	#Defines whether the ends fog is differently coloured and more dense ( may conflict with other end mods)
-	"Dense End Fog" = false
+	#Defines whether chorloam blocks will teleport the player to nearby chloram blocks
+	"Chorloam Teleporting" = true
+	#Defines whether chorloam will generate in patches on the end surface
+	"Chorloam Generation" = true
+	#Defines whether chorus roots will generate
+	"Chorus Root Generation" = true
+	#Defines whether ooze pools will generate on the end surface
+	"Ooze Pool Generation" = true
+	#Defines the amount of ticks of radiation you have to have before taking damage
+	"Fatal Radiation Amount" = 12000.0
+	#Defines whether held radioactive items will give off radiation
+	"Handheld Radiation" = true
+	#Defines the max amount of radiation that a player can have in ticks
+	"Max Radiation" = 16000.0
 

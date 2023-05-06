@@ -84,3 +84,6 @@ kubejs/jsconfig.json
 rhino.local.properties
 WailaErrorOutput.txt
 hs_err_pid64656.log
+automation/secrets.ps1
+automation/get-game-versions.ps1
+automation/game-versions.json

@@ -1,0 +1,74 @@
+{
+  "citadel_format": 0,
+  "biomes": [
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_overworld"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_rare"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_magical"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_overworld"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_dense"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": false,
+        "value": "forest"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "minecraft:is_mountain"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "minecraft:is_hill"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "forge:is_wet"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "forge:is_hot"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "forge:is_cold"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "forge:is_dry"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": true,
+        "value": "taiga"
+      }
+    ]
+  ]
+}

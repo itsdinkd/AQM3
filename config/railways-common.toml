@@ -16,4 +16,6 @@
 	nearTrainUpdateTicks = 1
 	#Conductor whistle is limited to the owner of a train
 	mustOwnBoundTrain = false
+	#Coupler will require points to be on the same or adjacent track edge, this will prevent the coupler from working if there is any form of junction in between the two points.
+	strictCoupler = false
 

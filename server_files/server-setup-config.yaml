@@ -1,0 +1,269 @@
+_specver: 2
+
+modpack:
+  name: Another Quality Modpack 3
+  description: Another Quality Modpack 3 | Featuring the best of Forge | aqm2.cc for discord
+  
+install:
+  mcVersion: 1.18.2
+  loaderVersion: 40.2.2
+  
+  modpackUrl: https://media.forgecdn.net/files/4524/287/AQM3-1.18.2-1.4.zip
+  installerUrl: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
+  
+  ignoreFiles:
+    - mods/Overrides.txt
+    - mods/optifine*.jar
+    - mods/optiforge*.jar
+    - resources/**
+    - packmenu/**
+    - openloader/resources/**
+    - kubejs/assets/**
+    - kubejs/client_scripts/**
+    - resourcepacks/**
+    - minemenu/**
+
+  additionalFiles:
+  localFiles:
+#    - from: server_overrides/
+#      to: /
+  
+  installerArguments:
+    - "--installServer"
+
+  modpackFormat: curse
+  
+  formatSpecific:
+    ignoreProject: 
+      - 242064 #Item Scroller
+      - 245733 #torohealth
+      - 250419 #enct descriptions
+      - 254284 #AmbientSounds
+      - 262366 #KEyboardWizard+
+      - 271492 #IKWID
+      - 277668 #Armor Sound Tweak
+      - 278476 #CustomCursor
+      - 279429 #Autorun
+      - 291480 #BiomeInfo
+      - 292908 #illuminations
+      - 296468 #NoFog
+      - 297038 #CraftPresence
+      - 306549 #Tips
+      - 308702 #Mod Menu
+      - 308793 #ClearDespawn
+      - 313219 #HealthOverlay
+      - 320163 #AmbientEnvironment
+      - 325492 #Light Overlay
+      - 328166 #BiomeInfo
+      - 331965 #enchantment tooltips
+      - 334259 #Presence Footsteps
+      - 335493 #Dynamic FPS
+      - 349630 #WI Zoom
+      - 355583 #Advancements Enlarger
+      - 356643 #authme
+      - 357540 #InventoryHUD
+      - 365521 #Pling
+      - 374274 #YOSBR
+      - 388252 #Notes
+      - 392805 #cleancut
+      - 393442 #lambdynamiclights
+      - 394468 #Sodium
+      - 396094 #ArmorPoints
+      - 397217 #chesttracker
+      - 400322 #lambdabettergrass
+      - 400929 #cAn i MiNe thIS bLOCk?
+      - 401648 #Better f3
+      - 401978 #Disable Custom Worlds Advice
+      - 405262 #clickthrough
+      - 407206 #Chatheads
+      - 407981 #Precise Block Placement
+      - 411557 #tooltipfix
+      - 415758 #Smooth Boot
+      - 416406 #breakprogress
+      - 416796 #Fancy Menu
+      - 416797 #Konkrete
+      - 417510 #fallingleaves
+      - 433518 #lazydfu
+      - 435044 #better3rdperson
+      - 435141 #No Angled brackets
+      - 437443 #bettersodiumoptions
+      - 444972 #big-items-duh
+      - 446173 #enhanced_attack_indicator
+      - 447673 #Extra sodium
+      - 448233 #Entity Culling
+      - 448311 #DripSounds
+      - 455508 #Iris
+      - 459496 #indium
+      - 463169 #Puddles Bugged
+      - 472772 # Dashloader
+      - 489631 #fuelinfo
+      - 495059 #Just Enough Keys
+      - 495267 #Inventory Profiles Next
+      - 506898 #DetailArmorBar
+      - 511319 #Reeses Sodium Options
+      - 514882 #advancement plaques
+      - 515172 #Drippy Loading
+      - 521126 #visuality
+      - 521480 #3dskinlayers
+      - 521480 #3dSkinLayers
+      - 521594 #WaveyCapes
+      - 530816 #no telemetary
+      - 531351 #continuity
+      - 537653 #End Goblin Traders
+      - 541329 #EquipmentCompare
+      - 541604 #Item borders
+      - 542478 #Legendary Tooltips
+      - 545836 #Mini effects
+      - 545836 #MiniEffects
+      - 547358 #wmitaf
+      - 547474 #PickUpNotifier
+      - 547692 #Client Tweaks
+      - 550387 #otter
+      - 556381 #Effective
+      - 582640 #better fps
+      - 582640 #BetterFPSDist
+      - 585406 #ProbeJS
+      - 585548 #bhmenu
+      - 585548 #BHMENU
+      - 594146 #aofemotes
+      - 613070 #Audioext
+      - 613072 #auudio
+      - 618770 #paginatedadvancements
+      - 619718 #CullLessLeaves
+      - 630620 #FastLoad
+      - 676136 #Model Gap Fix
+      - 231275 #Ding
+      - 232131
+      - 232791 #Itsthelittlethings
+      - 237701
+      - 243863
+      - 250398
+      - 250419 #Better Enchantments
+      - 254284 #AmbientSounds 5
+      - 261725
+      - 263420
+      - 271740
+      - 272515
+      - 277668 #armor sound tweak
+      - 278476 #cursormod
+      - 284324 #Emojiful
+      - 291480 #biomeinfo
+      - 291788
+      - 296468 #noFog
+      - 297038 #CraftPresence
+      - 305373
+      - 308240
+      - 317780
+      - 325492
+      - 326950
+      - 358191
+      - 358191
+      - 362791
+      - 363363
+      - 367706 #FancyMenu
+      - 368223 #Health Overlay
+      - 377109 #ToolStats ToolTips
+      - 390986 #Dripsounds
+      - 391382 #More Overlays
+      - 396094 #Armorpoints
+      - 401648 #Better F3
+      - 410295 #konkrete
+      - 428199
+      - 431430
+      - 448233 #entityculling
+      - 480816 #DrawerFPS
+      - 495693
+      - 511040 #DurabilityTooltips
+      - 521480 #3D Skin Layers
+      - 532127 #legendaryTooltips
+      - 541584 #mod button
+      - 549275 #Merchant Markers
+      - 551520 #BetterFPS
+      - 585546 #BHMenu
+      - 459701 #Catalogue
+      - 457570 #Configured
+      - 267602 #CTM
+      - 463155 #fallingleaves
+      - 513769 #ItemBorders
+      - 60089 #MouseTweaks
+      - 581495 #oculus
+      - 513857 #Oauth
+      - 222967 #ping
+      - 663125 #rubidium options
+      - 558905 #rubidium extras
+      - 574856 #Rubidium
+      - 407174 #Shutup
+
+  baseInstallPath: ~
+  
+  checkFolder: true
+  
+  installLoader: true
+  
+  installPack: true
+  
+  spongeBootstrapper: ~
+
+  connectTimeout: 90
+
+  readTimeout: 90
+
+launch:
+  # specifies the max amount of ram the server is supposed to launch with (Xmx) (Use G1C1 Akirs for anything less than 8. Shenandoah should be used for anything more than 13gb. do not use 9-12gb on anything)
+  # max and min ram should match. if you use 6gb of ram, make maxRam and minRam both 6G)
+  maxRam: 5G
+  # specifies the minimal amount of ram the server is supposed to launch with (Xms) (Minimum suggested ram is 4gb)
+  minRam: 4G
+  # specifies whether the server is supposed to auto restart after crash
+  autoRestart: true
+  #
+  # READ -- The following arguments are Akirs args which is widely supported. Most of these commands are made for java 7 so its not as optimized for newer versions of minecraft which uses java 17 
+  #
+  # Another thing is that this garbage collector, G1C1 which akirs uses, DOES NOT WORK WELL WITH HIGH AMOUNTS OF RAM. You will impact server performance if you use more than 8gb.
+  #
+  # HIGH RAM USAGE: (Need to use more than 13gb)
+  # If you want to use high amounts of ram, you need to use a new garbage collector which supports it. THIS COLLECTOR WILL HURT PERFORMACNE IF YOU DO NOT USE MORE THAN AT LEAST 14GB OF RAM. The higher the better. You can support more players as well.
+  #
+  # To use Shenandoah, erase everything under "javaArgs" that are not commented out with #, and then remove all the # below
+  #javaArgs:
+  #- "-XX:+UnlockExperimentalVMOptions"
+  #- "-XX:+UseShenandoahGC"
+  #- "-XX:+AlwaysPreTouch"
+  #- "-XX:+DisableExplicitGC"
+  #- "-XX:+UseStringDeduplication"
+  #- "-XX:-OmitStackTraceInFastThrow"
+  #- "-XX:+OptimizeStringConcat"
+  javaArgs:
+    - "-XX:+UseG1GC"
+    - "-XX:+ParallelRefProcEnabled"
+    - "-XX:MaxGCPauseMillis=200"
+    - "-XX:+UnlockExperimentalVMOptions"
+    - "-XX:+DisableExplicitGC"
+    - "-XX:+AlwaysPreTouch"
+    - "-XX:G1NewSizePercent=30"
+    - "-XX:G1MaxNewSizePercent=40"
+    - "-XX:G1HeapRegionSize=8M"
+    - "-XX:G1ReservePercent=20"
+    - "-XX:G1HeapWastePercent=5"
+    - "-XX:G1MixedGCCountTarget=4"
+    - "-XX:InitiatingHeapOccupancyPercent=15"
+    - "-XX:G1MixedGCLiveThresholdPercent=90"
+    - "-XX:G1RSetUpdatingPauseTimePercent=5"
+    - "-XX:SurvivorRatio=32"
+    - "-XX:+PerfDisableSharedMem"
+    - "-XX:MaxTenuringThreshold=1"
+    - "-Dfml.readTimeout=90"                        # servertimeout
+    - "-Dfml.queryResult=confirm"                   # auto /fmlconfirm
+    
+  spongefix: false
+  ramDisk: false
+  checkOffline: false
+  crashLimit: 4
+  crashTimer: 20min
+  preJavaArgs: ~
+  forcedJavaPath: ~
+  startFile: "forge-{{@mcversion@}}-{{@loaderversion@}}.jar"
+  # If your server host asks you to rename fabric server launch into server.jar, you must also rename it below as well.
+  startCommand:
+    - "@libraries/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/{{@os@}}_args.txt"
+    - "nogui"

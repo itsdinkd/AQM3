@@ -1,0 +1,22 @@
+{
+  "citadel_format": 0,
+  "biomes": [
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_overworld"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_snowy"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "forge:is_wet"
+      }
+    ]
+  ]
+}

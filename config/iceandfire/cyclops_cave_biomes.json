@@ -1,0 +1,29 @@
+{
+  "citadel_format": 0,
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "beach"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": false,
+        "value": "beach"
+      }
+    ]
+  ]
+}

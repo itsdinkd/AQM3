@@ -64,6 +64,10 @@
 	#Full bar duration
 	#Range: > 1
 	barDuration = 300
+	#Show hidden effects
+	showHiddenEffects = true
+	#Disable icons for effects in this list
+	effectsBlackList = []
 
 #DONT TOUCH THESE FIELDS!
 [positions]
@@ -199,4 +203,11 @@
 	#InvIcon vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	invVal = "BOTTOM"
+
+#Notification settings
+[notification]
+	#Last notified mod version
+	lastNotifiedVersion = "10.2.5"
+	#Notify more than once
+	keepNotifying = true
 

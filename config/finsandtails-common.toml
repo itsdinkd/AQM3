@@ -64,6 +64,9 @@
 	#Spawn weight of Rubber Belly Gliders
 	#Range: 1 ~ 1000
 	rubber_belly_glider_spawn_weight = 3
+	#Spawn weight of Crowned Horatee
+	#Range: 1 ~ 1000
+	crowned_horatee_spawn_weight = 4
 
 ["Ocean Creature Spawn Weight"]
 	#Spawn weight of High-finned Blue

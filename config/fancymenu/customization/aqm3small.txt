@@ -338,7 +338,7 @@ customization {
   action = addbutton
   y = 95
   backgroundnormal = config\fancymenu\assets\am3\bhaqmrentaserver.png
-  value = https://bisecthosting.com/itsdinkd
+  value = https://bisecthosting.com/itsdinkd?utm_source=aqm3&utm_medium=fancy-menu&utm_campaign=small-size
   height = 15
 }
 
@@ -366,7 +366,7 @@ customization {
   action = addbutton
   y = 95
   backgroundnormal = config\fancymenu\assets\am3\bhaqmdiscord.png
-  value = https://discord.gg/y6Sby9BGVe
+  value = http://aqm2.cc
   height = 15
 }
 

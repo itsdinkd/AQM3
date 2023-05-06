@@ -12,12 +12,39 @@ net.minecraft.client.gui.screens.OptionsScreen {
 fuzs.bettermodsbutton.compat.catalogue.CatalogueModListFactory$1 {
 }
 
-net.minecraft.client.gui.screens.ConnectScreen {
-}
-
 net.minecraft.client.gui.screens.DisconnectedScreen {
 }
 
 net.minecraft.client.gui.screens.TitleScreen {
+}
+
+com.bisecthosting.mods.bhmenu.BHMultiplayerScreen {
+}
+
+net.minecraft.client.gui.screens.AccessibilityOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.ChatOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.MouseSettingsScreen {
+}
+
+net.minecraft.client.gui.screens.SkinCustomizationScreen {
+}
+
+me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.LanguageSelectScreen {
+}
+
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+
+net.minecraft.client.gui.screens.ConnectScreen {
 }
 

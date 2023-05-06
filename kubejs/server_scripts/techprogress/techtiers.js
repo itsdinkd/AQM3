@@ -15,14 +15,79 @@ onEvent('recipes', event => {
     {
         c: "thermal:charge_bench",
         p: "quark:obsidian_pressure_plate",
-        s: "assemblylinemachines:strange_matter",
+        s: "assemblylinemachines:strange_matter", 
         e: "mekanism:energy_tablet"
     })
     // Thermal Chargepad requiring T1 charger
     event.replaceInput({output: "thermal:charge_bench"},"minecraft:redstone_block", "assemblylinemachines:tool_charger")
+    //draconic
+    event.remove({output: "draconicevolution:draconium_core"})
+    event.remove({id: "draconicevolution:components/draconium_core"})
+    event.shaped("draconicevolution:draconium_core", ['ici', 'cac', 'ici'],
+    {
+        i: "draconicevolution:draconium_ingot",
+        c: "thermal:invar_gear",
+        a: "minecraft:diamond"
+    })
+    event.remove({output: "draconicevolution:wyvern_core"})
+    event.remove({id: "draconicevolution:components/wyvern_core"})
+    event.shaped("draconicevolution:wyvern_core", ['ici', 'cac', 'ici'],
+    {
+        i: "mekanism:basic_control_circuit",
+        c: "draconicevolution:draconium_core",
+        a: "assemblylinemachines:strange_matter"
+    })
 
-
-    
+    event.remove({output: "draconicevolution:awakened_core"})
+    event.remove({id: "draconicevolution:components/awakened_core"})
+    event.custom(
+      {
+        "type": "draconicevolution:fusion_crafting",
+        "result": {
+          "item": "draconicevolution:awakened_core"
+        },
+        "catalyst": {
+          "tag": "forge:nether_stars"
+        },
+        "total_energy": 1000000,
+        "tier": "WYVERN",
+        "ingredients": [
+          {
+            "item": "draconicevolution:wyvern_core"
+          },
+          {
+            "item": "draconicevolution:wyvern_core"
+          },
+          {
+            "tag": "forge:ingots/draconium_awakened"
+          },
+          {
+            "tag": "forge:ingots/draconium_awakened"
+          },
+          {
+            "tag": "forge:ingots/draconium_awakened"
+          },
+          {
+            "tag": "forge:ingots/draconium_awakened"
+          },
+          {
+            "item": "draconicevolution:wyvern_core"
+          },
+          {
+            "item": "draconicevolution:wyvern_core"
+          },
+          {
+            "item": "iceandfire:dragonsteel_ice_ingot"
+          },
+          {
+            "item": "iceandfire:dragonsteel_fire_ingot"
+          },
+          {
+            "item": "iceandfire:dragonsteel_lightning_ingot"
+          }
+        ]
+      }
+    )
     // Tier 2 of thermal requiring Tier 1 of Assembly
     event.replaceInput({id: "thermal:parts/invar_gear"}, "minecraft:iron_nugget", "assemblylinemachines:steel_ingot");
 
