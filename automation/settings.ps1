@@ -30,12 +30,12 @@ $MODPACK_NAME = "another-quality-modpack-3"
 $CLIENT_NAME = "AQM3"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.4"
+$MODPACK_VERSION = "1.4.1"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "1.3.3"
+$LAST_MODPACK_VERSION = "1.4"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -52,7 +52,7 @@ $CLIENT_CHANGELOG_TYPE = "html"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "https://github.com/itsdinkd/AQM2/blob/master/changelogs/changelog.md)"
+$CLIENT_CHANGELOG = "https://github.com/itsdinkd/AQM3/blob/master/changelogs/changelog.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS

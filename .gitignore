@@ -32,7 +32,6 @@ patchouli_data.json
 options.txt
 servers.dat_old
 usercache.json
-minecraftinstance.json
 journeymap/*
 dimensions.txt
 knownkeys.txt

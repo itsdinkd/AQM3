@@ -154,13 +154,13 @@
 	#Range: > 1
 	"Gladiator Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gladiator Max Health" = 1500.0
+	"Sets Gladiator Max Health" = 1775.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Gladiator Ranged Damage" = 54.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Gladiator Melee Damage" = 48.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gladiator Ranged Damage For 2nd Phase" = 6.0
+	"Sets Gladiator Ranged Damage For 2nd Phase" = 10.0
 
 ["Mob Settings:Mancubus"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -582,17 +582,17 @@
 	#Range: > 1
 	"Archmaykr Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Max Health" = 1337.0
+	"Sets Archmaykr Max Health" = 1600.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Archmaykr Ranged Damage" = 52.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage For 2nd Phase" = 14.0
+	"Sets Archmaykr Ranged Damage For 2nd Phase" = 5.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage For 3nd Phase" = 28.0
+	"Sets Archmaykr Ranged Damage For 3nd Phase" = 7.8
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage For 4th Phase" = 42.0
+	"Sets Archmaykr Ranged Damage For 4th Phase" = 10.5
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage For 5th Phase" = 56.0
+	"Sets Archmaykr Ranged Damage For 5th Phase" = 14.7
 
 ["Mob Settings:Motherdemon"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -604,11 +604,11 @@
 	#Range: > 1
 	"Motherdemon Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Motherdemon Max Health" = 2750.0
+	"Sets Motherdemon Max Health" = 3000.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Motherdemon Ranged Damage" = 58.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Motherdemon Extra Ranged Damage For 2nd Phase" = 14.0
+	"Sets Motherdemon Extra Ranged Damage For 2nd Phase" = 11.0
 
 ["Mob Settings:Turret"]
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -626,13 +626,13 @@
 
 ["Mob Settings:Icon of Sin"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Icon of Sin Max Health" = 4360.0
+	"Sets Icon of Sin Max Health" = 3500.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Icon of Sin Melee Damage" = 65.0
+	"Sets Icon of Sin Melee Damage" = 62.0
 	#Icon of Sin Wave Mobs List
 	"Icon of Sin Wave Mobs" = ["doom:gladiator", "doom:mancubus", "doom:mancubus", "doom:marauder", "doom:marauder", "doom:firebronebaron", "doom:baron2016", "doom:baron2016", "doom:baron2016", "doom:baron2016", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Icon of Sin Extra Melee Damage For 2nd Phase" = 7.0
+	"Sets Icon of Sin Extra Melee Damage For 2nd Phase" = 10.0
 
 ["PMMO Compat"]
 	#Range: > 1

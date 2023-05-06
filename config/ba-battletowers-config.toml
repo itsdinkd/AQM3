@@ -1,0 +1,114 @@
+
+["General Settings -- Negative values are ignored"]
+	#The minimum possible distance between Land Towers measured in chunks. (due to structure changes in 1.18.2 there is now a self imposed 9 chunk minimum. Default: 20 Chunks
+	"Land minimum separation" = 30
+	#The minimum possible distance between Ocean Towers measured in chunks. (due to structure changes in 1.18.2 there is now a self imposed 6 chunk minimum. Default: 16 Chunks
+	"Ocean minimum separation" = 16
+	#Minimum distance from spawn a Tower can be measured in chunks (Applies to X and Z). Default: 25 chunks 
+	"First Tower Distance" = 50
+	#Whether to include acceptable Terralith biomes during the tower's Biome check.
+	"Terralith Biomes" = false
+	#Whether to include acceptable Biomes of Plenty biomes during the tower's Biome check.
+	"Biomes of Plenty Biomes" = false
+	#Whether to include acceptable Oh The Biomes You'll Go biomes during the tower's Biome check.
+	"Oh The Biomes You'll Go Biomes" = true
+
+["Advanced Settings -- take note of the range for each value, values outside the ranges will be discarded"]
+	#The total health of the Land Golem, divide by two per heart. I.E a value of 300 is 150 hearts
+	#Range: 200.0 ~ 1800.0
+	"Total health of the Land Golem" = 1000.0
+	#This value is added to the Land Tower minimum separation above to get the average separation between Land Towers for spawning measured in chunks.
+	#I.E. if you leave the minimum separation at 20, and change this value to 8 then Land Towers would spawn at:  minimum = 20 chunks | average = 28 chunks (20 + 8) | maximum = 36 chunks (20 + 16)
+	#Range: 1 ~ 100
+	"Land average separation modifier" = 8
+	#Length of time in seconds after Golem is defeated before the Land Tower collapses
+	#Range: 30 ~ 60
+	"Land Collapse Timer" = 45
+	#How much of the tower is destroyed after defeating the Golem. Default: 83% of tower.
+	#Range: 0.0 ~ 1.0
+	"Percent of Land Tower to destroy" = 0.83
+	#The total health of the Ocean Golem, divide by two per heart. I.E a value of 300 is 150 hearts
+	#Range: 250.0 ~ 2000.0
+	"Total health of the Ocean Golem" = 1100.0
+	#This value is added to the Ocean Tower minimum separation above to get the average separation between Ocean Towers for spawning measured in chunks.
+	#See Land Tower Average Separation for explanation of use.
+	#Range: 1 ~ 100
+	"Ocean average separation modifier" = 8
+	#Length of time in seconds after Golem is defeated before the Ocean Tower crumbles
+	#Range: 30 ~ 60
+	"Ocean Collapse Timer" = 30
+	#How much of the tower is destroyed after defeating the Golem. Default: 100% of tower.
+	#Range: 0.5 ~ 1.0
+	"Percent of Ocean Tower to destroy" = 1.0
+
+["Crash-able settings -- If you edit these, and the game crashes, its on you"]
+	#A list of mob ids of possible mobs to spawn in spawners inside the Land tower. Must contain at least one valueh
+	"Land Tower Mobs" = ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "orcz:orcshieldiron", "weirdmobs:blazecreeper_entity", "weirdmobs:wither_spider", "weirdmobs:crimson_phantom", "weirdmobs:spiderllama_entity", "weirdmobs:vexpiglin_entity", "weirdmobs:soul_blaze", "weirdmobs:thorn_wolf", "weirdmobs:feathered_winged_serpent", "weirdmobs:creeper_spider", "weirdmobs:creeper_spiderling"]
+	#A list of mob ids of possible mobs to spawn in spawners inside the Ocean tower. Must contain at least one value
+	"Ocean Tower Mobs" = ["minecraft:drowned", "minecraft:guardian", "minecraft:drowned", "alexsmobs:hammerhead_shark", "alexsmobs:skelewag", "alexsmobs:crocodile"]
+
+["Tower loot -- Loot rolls for tower chests are generated from these tables: EACH TABLE MUST CONTAIN AT LEAST ONE ITEM "]
+	#The number of xp levels books and tools are enchanted with in loot, Ie a 20 here means that books and tools that appear in loot will contain enchants as if enchanted with 20 levels of xp  up to 41 (3 extra per tower floor)
+	#Range: 0 ~ 40
+	"Book XP Levels" = 10
+	#Whether or not armor in loot should be enchanted
+	"Enchanted Armor" = true
+	#Whether or not tools/weapons in loot should be enchanted
+	"Enchanted Tools" = true
+	#A list of item ids of possible bad items.
+	"General Bad Loot" = ["minecraft:string", "minecraft:rotten_flesh", "minecraft:coal"]
+	#A list of combined minimum and maximum counts of each item in the loot list above, if the number is 25 that item will generate in groups of 2-5 a single integer like 3 is treated as a range of 0-3
+	"General Bad Loot Counts" = [13, 25, 14]
+	#A list of item ids of possible filler items.
+	"General Filler Loot" = ["minecraft:sugar", "minecraft:gold_nugget", "minecraft:glass_bottle", "minecraft:clay_ball", "minecraft:flower_pot", "minecraft:arrow", "minecraft:cookie", "minecraft:iron_nugget", "minecraft:iron_ingot", "minecraft:iron_ingot"]
+	#A list of combined minimum and maximum counts of each item in the loot list above
+	"General Filler Loot Counts" = [14, 26, 11, 24, 11, 26, 24, 36, 23, 23]
+	#A list of item ids of possible decent items.
+	"General Decent Loot" = ["minecraft:gunpowder", "minecraft:obsidian", "minecraft:bone", "minecraft:iron_ingot", "minecraft:bucket", "minecraft:honey_bottle", "minecraft:oak_wood", "minecraft:gold_ingot", "minecraft:redstone", "minecraft:crosbow", "minecraft:lava_bucket", "minecraft:paper", "minecraft:item_frame", "minecraft:sugar_cane", "minecraft:cauldron", "minecraft:diamond_hoe", "minecraft:iron_axe", "minecraft:iron_pickaxe", "minecraft:iron_shovel", "minecraft:iron_sword", "minecraft:arrow", "minecraft:iron_axe", "minecraft:iron_pickaxe", "minecraft:iron_shovel", "minecraft:iron_sword"]
+	#A list of combined minimum and maximum counts of each item in the loot list above
+	"General Decent Loot Counts" = [24, 13, 14, 23, 11, 11, 15, 12, 14, 11, 11, 3, 11, 13, 11, 11, 11, 11, 11, 11, 48, 11, 11, 11, 11, 11]
+	#A list of item ids of possible good items.
+	"General Good Loot" = ["gobber2:gobber2_globette", "gobber2:gobber2_foo", "minecraft:golden_carrot", "minecraft:golden_apple", "minecraft:enchanted_book", "minecraft:ender_pearl", "minecraft:diamond", "minecraft:diamond_axe", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_sword", "minecraft:experience_bottle", "minecraft:emerald", "minecraft:music_disc_11", "minecraft:music_disc_13", "minecraft:music_disc_blocks", "minecraft:music_disc_cat", "minecraft:music_disc_chirp", "minecraft:music_disc_far", "minecraft:amethyst_shard", "minecraft:music_disc_mall", "minecraft:music_disc_mellohi", "minecraft:music_disc_otherside", "minecraft:music_disc_stal", "minecraft:diamond"]
+	#A list of combined minimum and maximum couts of each item in the loot list above
+	"General Good Loot Counts" = [4, 2, 13, 11, 11, 25, 13, 11, 11, 11, 11, 37, 14, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 13]
+	#A list of item ids of possible bad items to spawn inside the Land tower. Each tower chest has a defined number of rolls per category (bad/filler/decent/good).
+	"Land Tower Bad Loot" = ["minecraft:cobblestone", "minecraft:iron_nugget", "minecraft:apple", "silentgear:flax_fiber"]
+	#A list of combined minimum and maximum counts of each item in the land bad loot list above
+	"Land Tower Bad Loot Counts" = [25, 48, 13, 3]
+	#A list of item ids of possible filler items to spawn inside the Land tower.
+	"Land Tower Filler Loot" = ["minecraft:sugar", "minecraft:flint", "minecraft:ladder", "minecraft:white_wool", "minecraft:torch", "minecraft:egg", "minecraft:rabbit", "minecraft:beef", "minecraft:porkchop", "minecraft:chicken", "minecraft:mutton", "minecraft:iron_ingot"]
+	#A list of combined minimum and maximum countsn of each item in the land filler loot list above
+	"Land Tower Filler Loot Counts" = [13, 35, 26, 14, 35, 12, 13, 13, 13, 13, 13, 23]
+	#A list of item ids of possible decent items to spawn inside the Land tower.
+	"Land Tower Decent Loot" = ["minecraft:gunpowder", "minecraft:saddle", "minecraft:cake", "minecraft:beetroot_soup", "minecraft:cookie", "minecraft:mushroom_stew", "minecraft:cooked_rabbit", "minecraft:cooked_beef", "minecraft:cooked_porkchop", "minecraft:cooked_chicken", "minecraft:cooked_mutton"]
+	#A list of combined minimum and maximum counts of each item in the land decent loot list above
+	"Land Tower Decent Loot Counts" = [14, 11, 11, 11, 36, 11, 13, 13, 13, 13, 13]
+	#A list of item ids of possible good items to spawn inside the Land tower.
+	"Land Tower Good Loot" = ["minecraft:golden_carrot", "minecraft:map", "minecraft:jukebox", "gobber2:gobber2_glob", "gobber2:gobber2_foo"]
+	#A list of combined minimum and maximum counts of each item in the land good loot list above
+	"Land Tower Good Loot Counts" = [24, 11, 11, 1, 13]
+	#A list of item ids of possible items to add to the land Golem chest item pool. A single value of air means no items are added
+	"Land Tower Golem Loot" = ["minecraft:netherite_scrap", "minecraft:diamond", "minecraft:ender_pearl"]
+	#A list of combined minimum and maximum counts of each item in the loot list above
+	"Land Golem Loot Counts" = [15, 26, 18]
+	#A list of item ids of possible bad items to spawn inside the Ocean tower.
+	"Ocean Tower Bad Loot" = ["minecraft:dirt", "minecraft:seagrass", "minecraft:gravel", "minecraft:kelp"]
+	#A list of combined minimum and maximum counts of each item in the ocean bad loot list above
+	"Ocean Tower Bad Loot Counts" = [14, 25, 25, 23]
+	#A list of item ids of possible filler items to spawn inside the Ocean tower.
+	"Ocean Tower Filler Loot" = ["minecraft:soul_sand", "minecraft:soul_sand", "minecraft:lily_pad", "minecraft:kelp", "minecraft:salmon", "minecraft:cod", "minecraft:prismarine_shard", "minecraft:copper_ingot", "minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:iron_ingot"]
+	#A list of combined minimum and maximum counts of each item in the ocean filler loot list above
+	"Ocean Tower Filler Loot Counts " = [24, 24, 14, 25, 13, 13, 24, 13, 25, 13, 25]
+	#A list of item ids of possible decent items to spawn inside the Ocean tower.
+	"Ocean Tower Decent Loot" = ["minecraft:soul_sand", "minecraft:oak_boat", "minecraft:birch_boat", "minecraft:glow_item_frame", "minecraft:glow_ink_sac", "minecraft:glowstone", "minecraft:magma_block", "minecraft:gold_ingot", "minecraft:copper_ingot", "minecraft:magma_block", "minecraft:gold_ingot", "minecraft:copper_ingot", "minecraft:diamond"]
+	#A list of combined minimum and maximum counts of each item in the ocean decent loot list above
+	"Ocean Tower Decent Loot Counts" = [24, 11, 11, 11, 23, 25, 14, 14, 14, 14, 14, 14, 13]
+	#A list of item ids of possible good items to spawn inside the Ocean tower.
+	"Ocean Tower Good Loot" = ["gobber2:gobber2_glob", "gobber2:gobber2_foo", "minecraft:trident", "minecraft:trident", "minecraft:axolotl_bucket", "minecraft:sponge", "minecraft:heart_of_the_sea", "minecraft:brewing_stand", "minecraft:prismarine_crystals", "minecraft:copper_ingot", "minecraft:gold_block", "minecraft:diamond"]
+	#A list of combined minimum and maximum counts of each item in the ocean filler loot list above
+	"Ocean Tower Good Loot Counts" = [1, 13, 11, 11, 11, 35, 11, 11, 24, 26, 11, 23]
+	#A list of item ids of possible items to add to the land Golem chest item pool, A single value of air means no items are added
+	"Ocean Tower Golem Loot" = ["minecraft:netherite_scrap", "minecraft:diamond", "minecraft:ender_pearl"]
+	#A list of combined minimum and maximum counts of each item in the ocean golem loot list above
+	"Ocean Golem Loot Counts" = [15, 26, 18]
+

@@ -388,7 +388,7 @@ banMaItems.forEach(item => {
       1: "mna:faction_horn_undead",
       2: "cataclysm:bulwark_of_the_flame",
       3: "stalwart_dungeons:awful_crystal",
-      5: 'ironfurnaces:million_furnace',
+      5: "draconicevolution:chaotic_core",
       6: 'mekanism:ultimate_control_circuit',
       7: "evilcraft:sanguinary_environmental_accumulator",
       8: 'blue_skies:alchemist_trophy',

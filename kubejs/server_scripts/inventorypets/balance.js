@@ -53,6 +53,7 @@ const invPetsRem = [
 "inventorypets:pet_cloud",
 "inventorypets:pet_pufferfish",
 "inventorypets:pet_slime",
+"inventorypets:pet_anvil",
 "inventorypets:pet_sun",
 "inventorypets:pet_wither",
 "inventorypets:item_petrifier"
@@ -62,6 +63,4 @@ onEvent('recipes', event => {
     invPetsRem.forEach(function(i) {
         event.remove({output: i})
     })
-
-    event.replaceInput({id: "inventorypets:pet_anvil"}, "minecraft:diamond", "ironfurnaces:million_furnace")
 })
