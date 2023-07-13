@@ -1,3 +1,12 @@
+### Another Quality Modpack 3 v1.4.3-Hotfix
+
+_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.2.md)_
+
+
+    ## FIXED
+    - Fixed Remove kubejs file typo -- broke removed recipes
+    - Server pack not on correct forge modloader version
+---
 
 ### Another Quality Modpack 3 v1.4.3
 
@@ -24,19 +33,11 @@ This update includes a lot of updated mods, including Tinkers, Create, Ice and F
     - Carry on not respecting Flan
     - Tons of Ice and Fire bugs fixed in regards to Dragon movement, and Mob AI
     - Simple Storage Network recipes not showing when pressing REI key
+    - Frost Maw will no longer be forced to be a infernal mob
 
     ## REMOVED
     - Little Contraptions mod due to not supporting Create 0.5.1
     - Fall Damage perk from Project MMO
----
-
-### Another Quality Modpack 3 v1.4.2
-
-_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.1.md)_
-
-    ## FIXED
-    - Frost Maw will no longer be forced to be a infernal mob
-
 ---
 
 ### Another Quality Modpack 3 v1.4.1

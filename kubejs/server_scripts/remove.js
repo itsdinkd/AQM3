@@ -34,7 +34,7 @@ const recipeRemoveJei = [
 "botania:laputa_shard",
 "botania:missile_rod",
 "botania:smelt_rod",
-"botania:rod"
+"botania:rod",
 "botania:spawner_claw",
 "botania:super_lava_pendant",
 "botania:terraform_rod",
