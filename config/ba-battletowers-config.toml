@@ -40,9 +40,19 @@
 	#How much of the tower is destroyed after defeating the Golem. Default: 100% of tower.
 	#Range: 0.5 ~ 1.0
 	"Percent of Ocean Tower to destroy" = 1.0
+	#Distance below Monolith the obelisk spawns, Only to be used in tandem with floor height for creation of own 'Towers'
+	#Range: 32 ~ 200
+	"Land Obelisk Spawn Distance" = 90
+	#Distance between Land tower floors, only to be used in tandem with Land Obelisk Spawn Distance
+	#Range: 4 ~ 24
+	"Land Tower Floor Height" = 11
+	#Whether to use the new spawner amounts for each floor, or old 2 spawners per floor
+	"Old Spawner Amounts" = false
+	#Makes the Ocean trench around the Ocean tower much smaller, reducing the lag on load
+	"Small Ocean Trench T/F" = false
 
 ["Crash-able settings -- If you edit these, and the game crashes, its on you"]
-	#A list of mob ids of possible mobs to spawn in spawners inside the Land tower. Must contain at least one valueh
+	#A list of mob ids of possible mobs to spawn in spawners inside the Land tower. Must contain at least one value
 	"Land Tower Mobs" = ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "orcz:orcshieldiron", "weirdmobs:blazecreeper_entity", "weirdmobs:wither_spider", "weirdmobs:crimson_phantom", "weirdmobs:spiderllama_entity", "weirdmobs:vexpiglin_entity", "weirdmobs:soul_blaze", "weirdmobs:thorn_wolf", "weirdmobs:feathered_winged_serpent", "weirdmobs:creeper_spider", "weirdmobs:creeper_spiderling"]
 	#A list of mob ids of possible mobs to spawn in spawners inside the Ocean tower. Must contain at least one value
 	"Ocean Tower Mobs" = ["minecraft:drowned", "minecraft:guardian", "minecraft:drowned", "alexsmobs:hammerhead_shark", "alexsmobs:skelewag", "alexsmobs:crocodile"]
@@ -69,7 +79,7 @@
 	"General Decent Loot Counts" = [24, 13, 14, 23, 11, 11, 15, 12, 14, 11, 11, 3, 11, 13, 11, 11, 11, 11, 11, 11, 48, 11, 11, 11, 11, 11]
 	#A list of item ids of possible good items.
 	"General Good Loot" = ["gobber2:gobber2_globette", "gobber2:gobber2_foo", "minecraft:golden_carrot", "minecraft:golden_apple", "minecraft:enchanted_book", "minecraft:ender_pearl", "minecraft:diamond", "minecraft:diamond_axe", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_sword", "minecraft:experience_bottle", "minecraft:emerald", "minecraft:music_disc_11", "minecraft:music_disc_13", "minecraft:music_disc_blocks", "minecraft:music_disc_cat", "minecraft:music_disc_chirp", "minecraft:music_disc_far", "minecraft:amethyst_shard", "minecraft:music_disc_mall", "minecraft:music_disc_mellohi", "minecraft:music_disc_otherside", "minecraft:music_disc_stal", "minecraft:diamond"]
-	#A list of combined minimum and maximum couts of each item in the loot list above
+	#A list of combined minimum and maximum counts of each item in the loot list above
 	"General Good Loot Counts" = [4, 2, 13, 11, 11, 25, 13, 11, 11, 11, 11, 37, 14, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 13]
 	#A list of item ids of possible bad items to spawn inside the Land tower. Each tower chest has a defined number of rolls per category (bad/filler/decent/good).
 	"Land Tower Bad Loot" = ["minecraft:cobblestone", "minecraft:iron_nugget", "minecraft:apple", "silentgear:flax_fiber"]
@@ -77,7 +87,7 @@
 	"Land Tower Bad Loot Counts" = [25, 48, 13, 3]
 	#A list of item ids of possible filler items to spawn inside the Land tower.
 	"Land Tower Filler Loot" = ["minecraft:sugar", "minecraft:flint", "minecraft:ladder", "minecraft:white_wool", "minecraft:torch", "minecraft:egg", "minecraft:rabbit", "minecraft:beef", "minecraft:porkchop", "minecraft:chicken", "minecraft:mutton", "minecraft:iron_ingot"]
-	#A list of combined minimum and maximum countsn of each item in the land filler loot list above
+	#A list of combined minimum and maximum counts of each item in the land filler loot list above
 	"Land Tower Filler Loot Counts" = [13, 35, 26, 14, 35, 12, 13, 13, 13, 13, 13, 23]
 	#A list of item ids of possible decent items to spawn inside the Land tower.
 	"Land Tower Decent Loot" = ["minecraft:gunpowder", "minecraft:saddle", "minecraft:cake", "minecraft:beetroot_soup", "minecraft:cookie", "minecraft:mushroom_stew", "minecraft:cooked_rabbit", "minecraft:cooked_beef", "minecraft:cooked_porkchop", "minecraft:cooked_chicken", "minecraft:cooked_mutton"]

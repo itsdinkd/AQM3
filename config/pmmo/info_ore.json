@@ -213,19 +213,19 @@
 	},
 	"iceandfire:amythest_ore":
 	{
-		"extraChance": 0.75
+		"extraChance": 0.15
 	},
 	"iceandfire:copper_ore":
 	{
-		"extraChance": 0.8
+		"extraChance": 0.0
 	},
 	"iceandfire:sapphire_ore":
 	{
-		"extraChance": 0.75
+		"extraChance": 0.15
 	},
 	"iceandfire:silver_ore":
 	{
-		"extraChance": 0.5
+		"extraChance": 0.3
 	},
 	"mekanism:fluorite_ore":
 	{
@@ -241,43 +241,43 @@
 	},
 	"mysticalagradditions:end_inferium_ore":
 	{
-		"extraChance": 1
+		"extraChance": 0.3
 	},
 	"mysticalagradditions:end_prosperity_ore":
 	{
-		"extraChance": 1
+		"extraChance": 0.75
 	},
 	"mysticalagradditions:nether_inferium_ore":
 	{
-		"extraChance": 1
+		"extraChance": 0.25
 	},
 	"mysticalagradditions:nether_prosperity_ore":
 	{
-		"extraChance": 1
+		"extraChance": 0.5
 	},
 	"mysticalagriculture:inferium_ore":
 	{
-		"extraChance": 1
+		"extraChance": 0.2
 	},
 	"mysticalagriculture:prosperity_ore":
 	{
-		"extraChance": 1
+		"extraChance": 0.5
 	},
 	"mysticalagriculture:soulium_ore":
 	{
-		"extraChance": 0.5
+		"extraChance": 0.1
 	},
 	"powah:uraninite_ore":
 	{
-		"extraChance": 0.5
+		"extraChance": 0.2
 	},
 	"powah:uraninite_ore_dense":
 	{
-		"extraChance": 0.33
+		"extraChance": 0.15
 	},
 	"powah:uraninite_ore_poor":
 	{
-		"extraChance": 0.75
+		"extraChance": 0.25
 	},
 	"rats:cheese_ore":
 	{

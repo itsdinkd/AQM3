@@ -20,6 +20,7 @@
   "claimDisplayTime": 1300,
   "claimDisplayActionBar": false,
   "permissionLevel": 2,
+  "autoClaimStructures": false,
   "ftbChunksCheck": true,
   "gomlReservedCheck": true,
   "mineColoniesCheck": true,
@@ -66,6 +67,8 @@
     "appliedenergistics2:certus_quartz_wrench-INTERACTBLOCK"
   ],
   "customBlockPermission": [],
+  "customEntityPermission": [],
+  "leftClickBlockPermission": [],
   "dropTicks": 6000,
   "inactivityTimeDays": 21,
   "inactivityBlocksMax": 5000,

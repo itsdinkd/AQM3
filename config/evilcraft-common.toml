@@ -100,6 +100,8 @@
 	[machine.purifier]
 		#Item that can not be disenchanted. Regular expressions are allowed.
 		disenchantBlacklist = ["tetra:.*", "silentgear:.*", "enigmaticlegacy:.*", "tconstruct:.*", "assemblylinemachines:.*", "hexcasting:.*", "hexerei:.*", "stalwart_dungeons:.*", "bygonenether:.*", "mowziesmobs:.*", "tconstruct:.*", "tcintegrations:.*", "tinkers_reforged:.*", "blue_skies:.*", "undergarden:.*"]
+		#The duration limit in ticks for which potion effect can be collected. Set to a negative value to allow any duration.
+		maxPotionEffectDuration = 6000
 
 	[machine.spirit_furnace]
 		#How much mB per tick this furnace should consume.

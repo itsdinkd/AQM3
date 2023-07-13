@@ -1,25 +1,54 @@
 {
     "ModSettings": {
-        "highlight_foused_items": false,
-        "enable_auto_refill": false,
+        "highlight_foused_items": {
+            "value": false
+        },
+        "enable_auto_refill": {
+            "value": false
+        },
         "enable_updates_check": false,
         "for_modpack_devs": true,
         "first_run": false
     },
     "GuiSettings": {
-        "enable_inventory_editor_button": false,
-        "enable_profiles_ui": false,
+        "enable_inventory_editor_button": {
+            "value": false
+        },
+        "enable_profiles_ui": {
+            "value": false
+        },
         "enable_profiles_announcement": false,
-        "show_sort_in_columns_button": false,
-        "show_sort_in_rows_button": false,
-        "show_move_all_button": false
+        "show_sort_in_columns_button": {
+            "value": false
+        },
+        "show_sort_in_rows_button": {
+            "value": false
+        },
+        "show_move_all_button": {
+            "value": false
+        }
+    },
+    "LockedSlotsSettings": {
+        "locked_slots_empty_hotbar_as_semi_locked": {
+            "value": false
+        }
     },
     "AutoRefillSettings": {
-        "refill_armor": false,
-        "refill_before_tool_break": false,
-        "visual_durability_notification": false,
-        "visual_replace_success_notification": false,
-        "visual_replace_failed_notification": false,
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "visual_durability_notification": {
+            "value": false
+        },
+        "visual_replace_success_notification": {
+            "value": false
+        },
+        "visual_replace_failed_notification": {
+            "value": false
+        },
         "type_visual_replace_failed_notification": "HOTBAR"
     },
     "Hotkeys": {

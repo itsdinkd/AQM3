@@ -1,7 +1,48 @@
+
+### Another Quality Modpack 3 v1.4.3
+
+_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.2.md)_
+
+This update includes a lot of updated mods, including Tinkers, Create, Ice and Fire, Artifacts, and more (56 total)
+
+    ## ADDED
+    - Ice and Fire adds terralith support
+    - Hostile Neural Network adds support to Thermal Mobs, and passive/neutral vanilla mobs
+
+    ## CHANGED
+    - Disabled Inventory Pets; Flying Saddle, Slime, Quiver, Pingot, Lead, Anvil, Black Hole
+    - For bed pet all players must be in bed to prevent any grief in servers
+    - Disabled Auto Refill by default (Mod; Inventory Profiles Next. Feel free to change back)
+    - Items will no longer automatically be moved to Inventory instead of hotbar (another Inventory profiles next config option)
+    - Blacklisted Ice and Fire, Inventory Pets, Draconic Evolution, Blue Skies, and several others from having a chance to drop with Chance Globe
+
+    ## FIXED
+    - Fixed crash when opening a loot chest
+    - Iron Stick recipe missing which is required for advancing in future pack
+    - dark items in inventory
+    - Artifacts drop rate bug
+    - Carry on not respecting Flan
+    - Tons of Ice and Fire bugs fixed in regards to Dragon movement, and Mob AI
+    - Simple Storage Network recipes not showing when pressing REI key
+
+    ## REMOVED
+    - Little Contraptions mod due to not supporting Create 0.5.1
+    - Fall Damage perk from Project MMO
+---
+
+### Another Quality Modpack 3 v1.4.2
+
+_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.1.md)_
+
+    ## FIXED
+    - Frost Maw will no longer be forced to be a infernal mob
+
+---
+
 ### Another Quality Modpack 3 v1.4.1
 
 
-_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.4.md)_
+_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.md)_
 
     ## ADDED
     - Audio extension

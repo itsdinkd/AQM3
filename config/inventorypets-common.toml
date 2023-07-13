@@ -63,7 +63,7 @@
 	#Allow Sun pet abilities to affect other players (default:false)
 	enableDubstepAffectsPlayers = false
 	#All players must be in bed for Bed Pet sleep ability (default:false)
-	allPlayersMustBeInBed = false
+	allPlayersMustBeInBed = true
 	#Disable all holiday pets (default:false)
 	disableHolidayPets = false
 	#Disable the April Fool pet and messages (default:false)
@@ -140,7 +140,7 @@
 	#Range: 1 ~ 10
 	pacManEatLevel = 8
 	#Disable the Anvil pet (default:false)
-	disableAnvil = false
+	disableAnvil = true
 	#Disable the Apple pet (default:false)
 	disableApple = false
 	#Disable the April Fool pet (default:false)
@@ -152,7 +152,7 @@
 	#Disable the Biome pet (default:false)
 	disableBiome = false
 	#Disable the Black Hole pet (default:false)
-	disableBlackHole = false
+	disableBlackHole = true
 	#Disable the (default:false)
 	disableBlaze = false
 	#Disable the (default:false)
@@ -190,7 +190,7 @@
 	#Disable the End Portal pet (default:false)
 	disableEndPortal = false
 	#Disable the Flying Saddle pet (default:false)
-	disableFlyingSaddle = false
+	disableFlyingSaddle = true
 	#Disable the Furnace pet (default:false)
 	disableFurnace = false
 	#Disable the Ghast pet (default:false)
@@ -210,7 +210,7 @@
 	#Disable the Jukebox pet (default:false)
 	disableJukebox = false
 	#Disable the Lead pet (default:false)
-	disableLead = false
+	disableLead = true
 	#Disable the Loot pet (default:false)
 	disableLoot = false
 	#Disable the Magma Cube pet (default:false)
@@ -236,7 +236,7 @@
 	#Disable the Pig pet (default:false)
 	disablePig = false
 	#Disable the Pingot pet (default:false)
-	disablePingot = false
+	disablePingot = true
 	#Disable the Pixie pet (default:false)
 	disablePixie = false
 	#Disable the Politically Correct pet (default:false)
@@ -248,7 +248,7 @@
 	#Disable the Quantum Crystal Monster pet (default:false)
 	disableQuantumCrystalMonster = false
 	#Disable the Quiver pet (default:false)
-	disableQuiver = false
+	disableQuiver = true
 	#Disable the Saddle pet (default:false)
 	disableSaddle = false
 	#Disable the Sated Chest pet (default:false)
@@ -264,7 +264,7 @@
 	#Disable the Silverfish pet (default:false)
 	disableSilverfish = true
 	#Disable the Slime pet (default:false)
-	disableSlime = false
+	disableSlime = true
 	#Disable the Snow Golem pet (default:false)
 	disableSnowGolem = false
 	#Disable the Spider pet (default:false)

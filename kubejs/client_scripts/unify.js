@@ -103,7 +103,6 @@ const UNIFIED_REMOVAL = [
 "tinkers_reforged:aluminum_dust",
 "tinkers_reforged:aluminum_ingot",
 "tinkers_reforged:deepslate_aluminum_ore",
-"futurepack:iron_stick",
 "assemblylinemachines:iron_rod",
 "buildersaddition:iron_rod",
 "silentgear:iron_rod",

@@ -35,17 +35,6 @@
 			"min_level": 45}
 		]
 	},
-	"FALL_DAMAGE": { 
-		"agility": [ 
-			{"perk":"pmmo:fall_save",
-			 "per_level": 0.002
-			}
-		],
-		"endurance": [ 
-			{"perk":"pmmo:fall_save",
-			 "per_level": 0.009}
-		]
-	},
 	"DEAL_DAMAGE": { 
 		"archery": [
 			{"perk":"pmmo:damage_boost",

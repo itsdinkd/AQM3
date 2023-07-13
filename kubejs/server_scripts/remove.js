@@ -129,7 +129,6 @@ const recipeRemoveJei = [
 "extradisks:infinite_storage_block",
 "extradisks:infinite_storage_disk",
 "extradisks:infinite_storage_part",
-"futurepack:iron_stick",
 "gardentools:irrigation_core",
 "ob_core:lance_of_northern_star",
 "ob_core:prospectors_pick",

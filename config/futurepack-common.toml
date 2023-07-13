@@ -52,6 +52,8 @@
 	#Factor to manipulate requirements of all Researches (Experience Bar). This entry should have the same value on server and client!
 	#Range: 0.0010000000474974513 ~ 100.0
 	xp_factor = 1.0
+	#if enabled this will try to load research jsons from <minecraft root folder>/researches/<modid>/<research file>.json
+	enable_custom_researches = false
 
 [common]
 	#Should smelt recipes allways be added for Futurepack materials. Only use this if Dust to Ingot recipes are missing!
@@ -182,4 +184,8 @@
 	overworld_dimension = "overworld"
 	#A blacklist for disabling the repair of items with the recycler tool. Use '#tagName' or regex 'modid:[\w]*'
 	bl_recycler_repair = ["modid1:itemA", "modid2:itemB", "aiotbotania:[\\w]*", "stalwart_dungeons:[\\w]*", "reliquary:[\\w]*", "cyclic:[\\w]*", "gobber2:[\\w]*", "[\\w]*", "[\\w]*:[\\w]*"]
+	#If set to true Quantanium (block in dugneons) will no longer start to glow when walked on.
+	disable_qananium_lightupdate = false
+	#A list to defien which potion sources should be blocked by the composite armor and which not (example, its a hazard suit so thrown potions have no effect, while food still has an effect). This is to allow envirourmental effects.
+	composite_armor_potion = ["empty=false"]
 

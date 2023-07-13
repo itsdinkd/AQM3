@@ -50,7 +50,7 @@
 		},
 		// Declares whether REI is visible.
 		"overlayVisible": true,
-		"cheatingStyle": "GRAB",
+		"cheatingStyle": "GIVE",
 		"motion": {
 			"favoritesAnimation": true
 		}
@@ -60,7 +60,8 @@
 			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}"
+				"{id:\"roughlyenoughitems:basic\",rule:{}}",
+				"{id:\"roughlyenoughitems:hidden_from_recipe_viewers\",rule:{}}"
 			],
 			"filteringQuickCraftCategories": { },
 			"filteredStacks": []
@@ -126,7 +127,8 @@
 			"clickableRecipeArrows": true,
 			"registerRecipesInAnotherThread": true,
 			"newFastEntryRendering": true,
-			"cachingFastEntryRendering": false
+			"cachingFastEntryRendering": false,
+			"cachingDisplayLookup": true
 		}
 	},
 	"appearance": {
