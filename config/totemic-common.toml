@@ -1,0 +1,6 @@
+
+#Totemic general configuration settings
+[general]
+	#Set to false to prevent Skeletons from shooting Buffalos
+	skeletonsShouldAttackBuffalos = true
+

@@ -10,7 +10,7 @@
 	#How many ticks must pass until a block's active state is synced with the client, if it has been rapidly changing.
 	blockDeactivationDelay = 60
 	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
-	cardboardModBlacklist = []
+	cardboardModBlacklist = ["evilcraft", "ba_bt", "bloodmagic", "futurepack", "draconicevolution", "iceandfire", "nethers_exoticism", "stalwart_dungeons", "botania", "inventorypets", "cataclysm"]
 	#Allow right clicking on Cables/Pipes/Tubes with alloys to upgrade the tier.
 	transmitterAlloyUpgrade = true
 	#Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).

@@ -86,3 +86,13 @@ hs_err_pid64656.log
 automation/secrets.ps1
 automation/get-game-versions.ps1
 automation/game-versions.json
+kubejs/probe/cache/cachedEvents.json
+kubejs/probe/cache/cachedForgedEvents.json
+kubejs/probe/cache/javaClasses.json
+kubejs/probe/cache/mergedClasses.json
+kubejs/probe/generated/constants.d.ts
+kubejs/probe/generated/events.d.ts
+kubejs/probe/generated/globals.d.ts
+kubejs/probe/generated/java.d.ts
+.vscode/probe.class-definitions.json
+.vscode/probe.lang-schema.json

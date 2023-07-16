@@ -38,6 +38,7 @@ const recipeRemoveJei = [
 "botania:spawner_claw",
 "botania:super_lava_pendant",
 "botania:terraform_rod",
+"irons_spellbooks:fireward_ring",
 "botania:tornado_rod",
 "botania:water_ring",
 "buildersaddition:iron_rod",

@@ -13,6 +13,7 @@ const removeJei = [
   "armorplus:slayer_boots_base",
   "armorplus:slayer_chestplate_base",
   "armorplus:slayer_helmet_base",
+  "irons_spellbooks:fireward_ring",
   "armorplus:slayer_leggings_base",
   "armorplus:slayer_boots",
   "armorplus:slayer_helmet",
