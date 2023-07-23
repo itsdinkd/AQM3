@@ -1,6 +1,15 @@
+## Another Quality Modpack 3 v1.4.3hf
+
+_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.3hf.md)_
+
+## Hotfix Change
+- Updated ModernFix and REI to prevent a failed mod crash
+
+---
+
 ## Another Quality Modpack 3 v1.4.3
 
-_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.2hf.md)_
+_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.3.md)_
 
 **Server Owners** due to flan auto claiming structures, you will need to delete a specfic file to remove these claims. While this aqm3 update will prevent flan from claiming structures automatically, it can not stop the ones already claimed.
 
@@ -49,7 +58,7 @@ Read more about the iron spells and spellbooks mod at https://www.curseforge.com
 
 ---
 
-## Another Quality Modpack 3 v1.4.3-Hotfix
+## Another Quality Modpack 3 v1.4.2-Hotfix
 
 _Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.2.md)_
 
@@ -59,7 +68,7 @@ _Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/c
 - Server pack not on correct forge modloader version
 ---
 
-## Another Quality Modpack 3 v1.4.3    
+## Another Quality Modpack 3 v1.4.2    
 
 _Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.2.md)_
 
