@@ -30,12 +30,12 @@ $MODPACK_NAME = "another-quality-modpack-3"
 $CLIENT_NAME = "AQM3"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.4.3hf"
+$MODPACK_VERSION = "1.5"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "1.4.3"
+$LAST_MODPACK_VERSION = "1.4.3hf"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"

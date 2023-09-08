@@ -36,6 +36,11 @@
 		[cyclic.enchantment.disarm]
 			#Set false to disable enchantment
 			enabled = true
+			#Enchant level drop rate.  % = drop + (level-1)*drop
+			#Range: 1 ~ 100
+			percentPerLevel = 7
+			#Mobs in this list cannot be disarmed and have their weapon stolen by the disarm enchantment
+			ingoredMobs = ["cataclysm:ignis", "cataclysm:ender_golem", "cataclysm:ender_guardian", "cataclysm:nameless_sorcerer", "cataclysm:netherite_monstrosity", "cataclysm:endermaptera", "cataclysm:ignited_revenant", "conjurer_illager:conjurer", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "mowziesmobs:barako", "mowziesmobs:foliaath", "mowziesmobs:naga", "mowziesmobs:baby_foliaath", "mowziesmobs:barakoana", "mowziesmobs:barakoaya", "alexsmobs:void_portal", "alexsmobs:mimicube", "alexsmobs:void_worm_part", "alexsmobs:void_worm_shot", "alexsmobs:void_worm", "artifacts:mimic", "blue_skies:alchemist", "blue_skies:polargeist", "blue_skies:starlit_crusher", "blue_skies:arachnarch", "doom:arch_makyr", "doom:gladiator", "doom:iconofsin", "doom:motherdemon", "goblinsanddungeons:goblin_king", "goblinsanddungeons:ogre", "minecraft:elder_guardian", "minecraft:ender_dragon", "minecraft:wither", "stalwart_dungeons:awful_ghast", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:reinforced_blaze", "stalwart_dungeons:shelterer", "undergarden:masticator", "undergarden:forgotten_guardian", "weaponthrow:weaponthrow", "orcz:bigorcboss", "evilcraft:vengeance_spirit"]
 
 		[cyclic.enchantment.excavate]
 			#Set false to disable enchantment
@@ -245,6 +250,7 @@
 			#Range: 0.0010000000474974513 ~ 1.0
 			conversion_chance = 0.01999999821186066
 
+		#Sprinkler settings
 		[cyclic.blocks.sprinkler]
 			#Tick rate.  20 will fire one block per second
 			#Range: 1 ~ 20
@@ -428,13 +434,15 @@
 
 		[cyclic.items.chorus_spectral]
 			#Seconds of noClip per chorus_spectral
-			#Range: 1 ~ 20000
+			#Range: 1 ~ 20000	
 			ticks = 1
 
 		#Sack of Holding settings
 		[cyclic.items.tile_transporter]
 			#Block these from being picked up
-			disable_pickup = ["cabletiers:*", "rsrequestify:*", "sophisticatedbackpacks:*", "sophisticatedstorage:*", "sophisticatedcore:*", "bonsaitrees3:bonsaipot", "#forge:immovable", "#forge:relocation_not_supported", "cyclic:*", "minecraft:spawner", "minecraft:end_portal", "minecraft:end_gateway", "minecraft:tall_grass", "minecraft:large_fern", "minecraft:peony", "minecraft:rose_bush", "minecraft:lilac", "naturesaura:*", "minecraft:sunflower", "minecraft:*_bed", "minecraft:oak_door", "minecraft:iron_door", "minecraft:spruce_door", "minecraft:birch_door", "minecraft:jungle_door", "minecraft:acacia_door", "minecraft:dark_oak_door", "minecraft:waterlily", "minecraft:cake", "minecraft:nether_portal", "minecraft:tall_seagrass", "animania:block_trough", "animania:block_invisiblock", "colossalchests:*", "ic2:*", "bigreactors:*", "forestry:*", "tconstruct:*", "rustic:*", "botania:*", "astralsorcery:*", "quark:colored_bed_*", "immersiveengineering:*", "embers:block_furnace", "embers:ember_bore", "embers:ember_activator", "embers:mixer", "embers:heat_coil", "embers:large_tank", "embers:crystal_cell", "embers:alchemy_pedestal", "embers:boiler", "embers:combustor", "embers:catalzyer", "embers:field_chart", "embers:inferno_forge", "storagedrawers:framingtable", "skyresources:*", "lootbags:*", "exsartagine:*", "aquamunda:tank", "opencomputers:*", "malisisdoors:*", "industrialforegoing:*", "minecolonies:*", "thaumcraft:pillar*", "tombstone:*", "thaumcraft:infernal_furnace", "thaumcraft:placeholder*", "corail_pillar:*", "thaumcraft:infusion_matrix", "thaumcraft:golem_builder", "thaumcraft:thaumatorium*", "engineersdecor:*", "computercraft:*", "advancedperipherals:*", "adchimneys:*", "magneticraft:oil_heater", "magneticraft:solar_panel", "magneticraft:steam_engine", "magneticraft:shelving_unit", "magneticraft:grinder", "magneticraft:sieve", "magneticraft:solar_tower", "magneticraft:solar_mirror", "magneticraft:container", "magneticraft:pumpjack", "magneticraft:solar_panel", "magneticraft:refinery", "magneticraft:oil_heater", "magneticraft:hydraulic_press", "magneticraft:multiblock_gap", "mahoutsukai:*", "refinedstorage:*", "mcmultipart:*", "enderstorage:*", "betterstorage:*", "practicallogistics2:*", "wearablebackpacks:*", "ars_nouveau:*", "rftools:screen", "rftools:creative_screen", "create:*", "magic_doorknob:*", "lootr:*", "iceandfire:*", "ftbquests:*", "waystones:*"]
+			disable_pickup = ["iceandfire:*", "draconicevolution:*", "cabletiers:*", "rsrequestify:*", "sophisticatedbackpacks:*", "sophisticatedstorage:*", "sophisticatedcore:*", "bonsaitrees3:bonsaipot", "#forge:immovable", "#forge:relocation_not_supported", "cyclic:*", "minecraft:spawner", "minecraft:end_portal", "minecraft:end_gateway", "minecraft:tall_grass", "minecraft:large_fern", "minecraft:peony", "minecraft:rose_bush", "minecraft:lilac", "naturesaura:*", "minecraft:sunflower", "minecraft:*_bed", "minecraft:oak_door", "minecraft:iron_door", "minecraft:spruce_door", "minecraft:birch_door", "minecraft:jungle_door", "minecraft:acacia_door", "minecraft:dark_oak_door", "minecraft:waterlily", "minecraft:cake", "minecraft:nether_portal", "minecraft:tall_seagrass", "animania:block_trough", "animania:block_invisiblock", "colossalchests:*", "ic2:*", "bigreactors:*", "forestry:*", "tconstruct:*", "rustic:*", "botania:*", "astralsorcery:*", "quark:colored_bed_*", "immersiveengineering:*", "embers:block_furnace", "embers:ember_bore", "embers:ember_activator", "embers:mixer", "embers:heat_coil", "embers:large_tank", "embers:crystal_cell", "embers:alchemy_pedestal", "embers:boiler", "embers:combustor", "embers:catalzyer", "embers:field_chart", "embers:inferno_forge", "storagedrawers:framingtable", "skyresources:*", "lootbags:*", "exsartagine:*", "aquamunda:tank", "opencomputers:*", "malisisdoors:*", "industrialforegoing:*", "minecolonies:*", "thaumcraft:pillar*", "tombstone:*", "thaumcraft:infernal_furnace", "thaumcraft:placeholder*", "corail_pillar:*", "thaumcraft:infusion_matrix", "thaumcraft:golem_builder", "thaumcraft:thaumatorium*", "engineersdecor:*", "computercraft:*", "advancedperipherals:*", "adchimneys:*", "magneticraft:oil_heater", "magneticraft:solar_panel", "magneticraft:steam_engine", "magneticraft:shelving_unit", "magneticraft:grinder", "magneticraft:sieve", "magneticraft:solar_tower", "magneticraft:solar_mirror", "magneticraft:container", "magneticraft:pumpjack", "magneticraft:solar_panel", "magneticraft:refinery", "magneticraft:oil_heater", "magneticraft:hydraulic_press", "magneticraft:multiblock_gap", "mahoutsukai:*", "refinedstorage:*", "mcmultipart:*", "enderstorage:*", "betterstorage:*", "practicallogistics2:*", "wearablebackpacks:*", "ars_nouveau:*", "rftools:screen", "rftools:creative_screen", "create:*", "magic_doorknob:*", "lootr:*", "iceandfire:*", "ftbquests:*", "waystones:*"]
+			#Override chest placement when a 1/2 split chest is picked up, and set placed block as a singleton chests (prevents visual glitch of the open-sided half chest).  Set to false to restore old behavior and allow the split-chest placement.
+			overrideChestSingle = true
 
 		[cyclic.items.charm_luck]
 			#Boost given by item charm_luck
@@ -464,10 +472,12 @@
 			#Range: 1 ~ 20000
 			ticks = 1
 
+		#####################################################################################
 		# Caving Torch Charm settings
+		#####################################################################################
 		[cyclic.items.caving_torch]
 			#Light level at which to start placing down a torch
-			#Range: 0 ~ 13
+			#Range: 0 ~ 14
 			light_limit = 7
 			#Light level of the current block after placing down a torch. Must be greater than light_limit
 			#Higher values means torches will be placed closer to you. Lower values means torches will overlap less,
@@ -482,7 +492,7 @@
 
 		[cyclic.items.monster_ball]
 			#Entity ids that cannot be picked up with the Monster all
-			ignore_list = ["alexsmobs:void_portal", "alexsmobs:void_worm_part", "alexsmobs:void_worm_shot", "alexsmobs:void_worm", "artifacts:mimic", "blue_skies:alchemist", "blue_skies:polargeist", "blue_skies:starlit_crusher", "blue_skies:arachnarch", "doom:arch_makyr", "doom:gladiator", "doom:iconofsin", "doom:motherdemon", "goblinsanddungeons:goblin_king", "goblinsanddungeons:ogre", "minecraft:elder_guardian", "minecraft:ender_dragon", "minecraft:wither", "stalwart_dungeons:awful_ghast", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:reinforced_blaze", "stalwart_dungeons:shelterer", "undergarden:masticator", "undergarden:forgotten_guardian", "weaponthrow:weaponthrow", "orcz:bigorcboss"]
+			ignore_list = ["cataclysm:ignis", "cataclysm:ender_golem", "cataclysm:ender_guardian", "cataclysm:nameless_sorcerer", "cataclysm:netherite_monstrosity", "cataclysm:endermaptera", "cataclysm:ignited_revenant", "conjurer_illager:conjurer", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "mowziesmobs:barako", "mowziesmobs:foliaath", "mowziesmobs:naga", "mowziesmobs:baby_foliaath", "mowziesmobs:barakoana", "mowziesmobs:barakoaya", "alexsmobs:void_portal", "alexsmobs:void_worm_part", "alexsmobs:void_worm_shot", "alexsmobs:void_worm", "artifacts:mimic", "blue_skies:alchemist", "blue_skies:polargeist", "blue_skies:starlit_crusher", "blue_skies:arachnarch", "doom:arch_makyr", "doom:gladiator", "doom:iconofsin", "doom:motherdemon", "goblinsanddungeons:goblin_king", "goblinsanddungeons:ogre", "minecraft:elder_guardian", "minecraft:ender_dragon", "minecraft:wither", "stalwart_dungeons:awful_ghast", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:reinforced_blaze", "stalwart_dungeons:shelterer", "undergarden:masticator", "undergarden:forgotten_guardian", "weaponthrow:weaponthrow", "orcz:bigorcboss", "evilcraft:vengeance_spirit"]
 
 		#Wand settings
 		[cyclic.items.teleport_wand]
@@ -584,37 +594,49 @@
 			#Range: 1 ~ 99
 			leg = 10
 
+		#####################################################################################
 		# scythe_brush settings. note radius is halved while player is sneaking
+		#####################################################################################
 		[cyclic.items.scythe_brush]
 			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
 			#Range: 0 ~ 32
 			radius = 6
 
+		#####################################################################################
 		# scythe_forage settings. note radius is halved while player is sneaking
+		#####################################################################################
 		[cyclic.items.scythe_forage]
 			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
 			#Range: 0 ~ 32
 			radius = 6
 
-		# scythe_leaves settings.  radius is halved while player is sneaking
+		#####################################################################################
+		# scythe_leaves settings. note radius is halved while player is sneaking
+		#####################################################################################
 		[cyclic.items.scythe_leaves]
 			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
 			#Range: 0 ~ 32
 			radius = 6
 
-		# scythe_harvest settings. radius is halved while player is sneaking
+		#####################################################################################
+		# scythe_harvest settings. note radius is halved while player is sneaking
+		#####################################################################################
 		[cyclic.items.scythe_harvest]
 			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
 			#Range: 0 ~ 32
 			radius = 6
 
+		#####################################################################################
 		# spell_water settings
+		#####################################################################################
 		[cyclic.items.spell_water]
 			#Radius defines how far it reaches
 			#Range: 0 ~ 32
 			radius = 3
 
+		#####################################################################################
 		# spell_ice settings
+		#####################################################################################
 		[cyclic.items.spell_ice]
 			#Radius defines how far it reaches
 			#Range: 0 ~ 32

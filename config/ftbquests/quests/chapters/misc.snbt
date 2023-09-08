@@ -167,24 +167,6 @@
 			}]
 		}
 		{
-			x: -0.3d
-			y: -1.2d
-			subtitle: "Used to utilize Create contraptions on your Little Logistic Tugs and Barges"
-			dependencies: ["53D1F618BD80B934"]
-			size: 0.6d
-			id: "39FCD7E4032481D0"
-			tasks: [{
-				id: "65C5EFCC16600B5C"
-				type: "item"
-				item: "littlecontraptions:contraption_barge"
-			}]
-			rewards: [{
-				id: "678E5837278914CB"
-				type: "item"
-				item: "littlelogistics:spring"
-			}]
-		}
-		{
 			x: -4.5d
 			y: 4.0d
 			subtitle: "For Docking your Train"
@@ -243,25 +225,6 @@
 				id: "604213B40F1FC6A3"
 				type: "item"
 				item: "littlelogistics:spring"
-			}]
-		}
-		{
-			x: -0.3d
-			y: 0.6d
-			subtitle: "Similar to the Cart Assembler, but used for Create Contraptions to be used with Tugs"
-			description: ["The possibilities are literally endless."]
-			dependencies: ["53D1F618BD80B934"]
-			size: 0.6d
-			id: "7DFD830EFB96DE4D"
-			tasks: [{
-				id: "21320F40BB16B95F"
-				type: "item"
-				item: "littlecontraptions:barge_assembler"
-			}]
-			rewards: [{
-				id: "3E7CA7565822A6A9"
-				type: "item"
-				item: "create:dough"
 			}]
 		}
 		{

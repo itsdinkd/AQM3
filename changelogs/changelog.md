@@ -1,3 +1,51 @@
+## Another Quality Modpack 3 v1.5
+
+_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.5.md)_
+
+## REMOVED
+- Create Deco due to not being compatible with Create 0.5.1c causing init crashes
+
+## ADDED
+- Better Fishing Rods (Great showcase; https://www.youtube.com/watch?v=ZoYod1gefGg&t=1s)
+  * Adds new fishing system overriding the vanilla one
+  * You can now increase fishing levels which increase loot chances such as looting rare enchantments.
+    * These levels appear as enchantments on the rod.
+  * This mod also provides new rods with abilities.
+- Blood Smeltery
+  - Adds more tinker construct integration (And is compatible with Thermal and Create) into Blood Magic, featuring new runes, tools, modifiers, fluids, and blocks.
+  - View the mod page for more information on what this adds and how to use it https://www.curseforge.com/minecraft/mc-mods/blood-smeltery
+- Infernal Expansion
+  - Overhauls Nether adding biomes, mobs, foods, structures, blocks, and more.
+
+## CHANGES/HIGHLIGHTS
+- New Macaw Doors from latest update
+- Enabled Armor inventory hud by default
+- Added Cataclysm Boss obtainables to the boss quest chapter
+- Latest graveyard update fixes a lot of past issues, along with having better terralith compatibility
+- Blacklisted boss and unique mobs from being disarmed and caught in balls
+- Lowered disarm percent per level
+- Tinkers Construct Integrations mod now supports Ice and Fire
+
+## FIXED
+- Fixed Crashing in Nether **(Bygone Nether)**
+- Prevent villager bosses from filling in trades during worldgen **(Brutal Bosses)**
+- Fixed 32 signed integer overflow with RS Bridge functions when too many  external storages(Or high sized storages) or too many disks were used. **(Advanced Peripherals)**
+- Hordes of mobs will no longer spawn in light level > 1 **(Graveyard)**
+- Fixed Tesla Coil crash **(Create Additions)**
+- Fixed Barbed Wires crash **(Create Additions)**
+- Fixed Roling Mill JEI crash **(Create Additions)**
+- Fixed blocks not being able to be mined by Pickaxe **(Create Additions)**
+- Fixed LevelMixin crash **(Create Slice n Dice)**
+- Errors from rendering blocks inside entangled blocks will now be reported instead of crashing the game **(Entangled)**
+- Fix Envir Acc crash when degrading biome **(Evilcraft)**
+- Fixed crash with certain mods when transferring items **(Item Collectors)**
+- Fixed storage tier upgrade recipes JEI integration to not crash when additional alternatives to upgrade materials exist and by extension stop this from breaking the whole Storage JEI integration **(Sophisticated Storage)**
+- Life Leech no longer refills hunger **(Cyclic)**
+- Fix items that use RF not charging items on servers **(Cyclic)**
+- Fixed tesseracts getting stuck not transferring **(Tesseract)**
+- Fixed player skins inside the tesseract screen not rendering sometimes **(Tesserect)**
+---
+
 ## Another Quality Modpack 3 v1.4.3hf
 
 _Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.4.3hf.md)_

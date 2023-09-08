@@ -260,6 +260,128 @@
 				table_id: 5713291103209766976L
 			}]
 		}
+		{
+			x: -8.0d
+			y: 0.0d
+			dependencies: ["084DD87B99F1540C"]
+			size: 0.75d
+			id: "35B0691842F007E6"
+			tasks: [
+				{
+					id: "03B2ED2DAB848E0A"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00A28EB60B251C60"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24763566FAB03341"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17EB6F6EAF8E3034"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "23971089CE083BBC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			subtitle: "Can you best Ignitium?"
+			id: "084DD87B99F1540C"
+			tasks: [{
+				id: "02C744CD6E3ADE3A"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+			}]
+			rewards: [{
+				id: "437E390A3D02B07D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2573245064785096990L
+			}]
+		}
+		{
+			x: -8.25d
+			y: 0.75d
+			dependencies: ["084DD87B99F1540C"]
+			size: 0.75d
+			id: "7926AFADA2D216C9"
+			tasks: [{
+				id: "64528DB95C1DC07A"
+				type: "item"
+				item: "cataclysm:the_incinerator"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			subtitle: "Defeat the Ender Golem"
+			description: [
+				"Right clicking this item casts a damaging spell to mobs"
+				""
+				"Dropped by Ender Golem"
+			]
+			id: "525A94B4BBB6C73C"
+			tasks: [{
+				id: "1B51CD093B4F834A"
+				type: "item"
+				item: "cataclysm:void_core"
+			}]
+			rewards: [{
+				id: "3CE877A14F3B01A7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2573245064785096990L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			subtitle: "Defeat Ender Guardian"
+			description: ["This weapon will pull entities towards you. Dropped by Ender Guardian"]
+			id: "0BF9D17AAC1FADB6"
+			tasks: [{
+				id: "1805C7EFB4E27D7F"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

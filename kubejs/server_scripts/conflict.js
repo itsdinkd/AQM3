@@ -17,5 +17,5 @@ event.replaceInput({id:'compressium:cobblestone_2'}, 'compressium:cobblestone_1'
 onEvent('tags.items', event => {
   event.remove('minecraft:coals', 'doom:argent_energy')
   event.add('forge:dirt', 'minecraft:dirt')
-  event.add('forge:compressed/coblestone', 'cyclic:compressed_cobblestone')
+  event.add('forge:compressed/cobblestone', 'cyclic:compressed_cobblestone')
 })

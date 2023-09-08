@@ -58,17 +58,14 @@
 			x: 2.25d
 			y: 0.0d
 			subtitle: "Look man, I don't like waiting to process"
-			description: [
-				"These new furnaces are upgradable and process better then normal chests."
-				"Each Upgraded Tier increase smelt time, and decrease fuel usage"
-			]
+			description: ["Modular furnace which you can increase burn times, fuel costs, and more via Furnace MK2"]
 			hide: true
 			size: 0.75d
 			id: "2150D0C07467C6F3"
 			tasks: [{
-				id: "739B0D5337674C1E"
+				id: "5FD5C765063F982D"
 				type: "item"
-				item: "ironfurnaces:iron_furnace"
+				item: "furnacemk2:furnacemk2"
 			}]
 			rewards: [{
 				id: "2155D35450D5F1B9"

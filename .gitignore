@@ -96,3 +96,4 @@ kubejs/probe/generated/globals.d.ts
 kubejs/probe/generated/java.d.ts
 .vscode/probe.class-definitions.json
 .vscode/probe.lang-schema.json
+config/spirit.toml
