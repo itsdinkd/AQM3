@@ -1,6 +1,6 @@
 ## Another Quality Modpack 3 v1.6
 
-_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.6.md)_
+_Forge Loader 40.2.7_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.6.md)_
 
 ## REMOVED
 - Advanced Chimneys -- Lag issues, and crashes
