@@ -434,7 +434,7 @@
 
 		[cyclic.items.chorus_spectral]
 			#Seconds of noClip per chorus_spectral
-			#Range: 1 ~ 20000	
+			#Range: 1 ~ 20000
 			ticks = 1
 
 		#Sack of Holding settings

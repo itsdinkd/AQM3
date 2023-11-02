@@ -26,4 +26,6 @@
 	"Mystical Agriculture" = true
 	#If TRUE, mod integration support for Redstone Arsenal is enabled, if the mod is loaded.
 	"Redstone Arsenal" = true
+	#If TRUE, mod integration support for Mekanism is enabled, if the mod is loaded.
+	Mekanism = true
 

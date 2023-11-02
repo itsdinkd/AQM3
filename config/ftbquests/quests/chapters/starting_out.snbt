@@ -256,7 +256,6 @@
 				type: "command"
 				team_reward: false
 				command: "/pmmo admin @p add agility xp 20 true"
-				player_command: false
 			}]
 		}
 		{
@@ -758,6 +757,22 @@
 			]
 			rewards: [{
 				id: "7AC27194BFA329BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 3.4375d
+			y: -1.607142857142854d
+			subtitle: "Track your Ice and Fire creature kills"
+			id: "46DD0AB31D5CD29D"
+			tasks: [{
+				id: "2C52DCAC336B9B61"
+				type: "item"
+				item: "iceandfire:bestiary"
+			}]
+			rewards: [{
+				id: "283388FEB2712BEB"
 				type: "xp_levels"
 				xp_levels: 1
 			}]

@@ -108,22 +108,22 @@
 	juggernautShieldWallDuration = 1
 	#Frequency of Sky Dungeons (default: 5)
 	#Range: 1 ~ 10
-	frequencySkyDungeons = 7
+	frequencySkyDungeons = 3
 	#Frequency of Underground Dungeons (default: 5)
 	#Range: 1 ~ 10
-	frequencyUndergroundDungeons = 6
+	frequencyUndergroundDungeons = 5
 	#Frequency of Sea Cave Dungeons (default: 5)
 	#Range: 1 ~ 10
-	frequencySeaCaveDungeons = 8
+	frequencySeaCaveDungeons = 4
 	#Frequency of Tree Tops (default: 5)
 	#Range: 1 ~ 10
-	frequencyTreeTops = 6
+	frequencyTreeTops = 4
 	#Frequency of Space Dungeons (default: 5)
 	#Range: 1 ~ 10
-	frequencySpaceDungeons = 6
+	frequencySpaceDungeons = 3
 	#Frequency of Nether Dungeons (default: 5)
 	#Range: 1 ~ 10
-	frequencyNetherDungeons = 7
+	frequencyNetherDungeons = 4
 	#Frequency of Pet Eating (default: 120)
 	#Range: 1 ~ 5000
 	petEatTimerFactor = 120

@@ -237,7 +237,7 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 296
+  x = 439
   width = 268
   action = deep_customization_element:title_screen_forge_top
   actionid = f81def24-818c-4b39-87ce-e270aadaefb01664315067935
@@ -305,17 +305,16 @@ customization {
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  buttonaction = joinserver
+  buttonaction = joinserver;23.185.16.87:25566%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\assets\am3\bhaqmserverhover.png
   label = 
   loopbackgroundanimations = true
   x = -232
   width = 66
-  actionid = 1ea8d6a2-9462-4cc7-81f9-7f82f9c6f5981640811245256
   action = addbutton
+  actionid = 1ea8d6a2-9462-4cc7-81f9-7f82f9c6f5981640811245256
   y = 95
   backgroundnormal = config\fancymenu\assets\am3\bhaqmserver.png
-  value = 23.185.16.87:25566
   height = 20
 }
 
@@ -333,17 +332,16 @@ customization {
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://bisecthosting.com/itsdinkd?utm_source=aqm3&utm_medium=fancy-menu&utm_campaign=regular-size%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\assets\am3\bhaqmrentaserverhover.png
   label = 
   loopbackgroundanimations = true
   x = -150
   width = 70
-  actionid = dea5713d-be7b-4471-97b6-35169d279cb81640811348303
   action = addbutton
+  actionid = dea5713d-be7b-4471-97b6-35169d279cb81640811348303
   y = 95
   backgroundnormal = config\fancymenu\assets\am3\bhaqmrentaserver.png
-  value = https://bisecthosting.com/itsdinkd?utm_source=aqm3&utm_medium=fancy-menu&utm_campaign=regular-size
   height = 20
 }
 
@@ -361,17 +359,16 @@ customization {
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;http://aqm2.cc%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\assets\am3\bhaqmdiscordhover.png
   label = 
   loopbackgroundanimations = true
   x = -63
   width = 70
-  actionid = 38aec86a-fe3b-4e10-9d6d-7532cbbbfd161640811412675
   action = addbutton
+  actionid = 38aec86a-fe3b-4e10-9d6d-7532cbbbfd161640811412675
   y = 97
   backgroundnormal = config\fancymenu\assets\am3\bhaqmdiscord.png
-  value = http://aqm2.cc
   height = 16
 }
 
@@ -384,26 +381,5 @@ customization {
   action = addanimation
   y = -138
   height = 194
-}
-
-customization {
-  orientation = mid-centered
-  basecolor = #D07CF9
-  shadow = true
-  delayappearanceseconds = 1.25
-  rotation = -32.0
-  scale = 1.0
-  refresh = false
-  bouncing = true
-  fadein = true
-  vanilla-like = false
-  fadeinspeed = 1.0
-  x = -107
-  actionid = ab19f10f-c077-4223-a764-c8fe61e737c01664315226905
-  action = addsplash
-  y = 6
-  delayappearance = true
-  text = Finally Updated!
-  delayappearanceeverytime = false
 }
 

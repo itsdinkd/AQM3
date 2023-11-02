@@ -14,6 +14,8 @@
 	animatedInv = true
 	#Hide background if inventory is empty
 	hideBackground = true
+	#Show Inventory HUD when debug menu is open
+	invWithDebug = true
 
 #Settings for ArmorStatus HUD
 [armorhud]
@@ -46,6 +48,10 @@
 	#ArmorHUD scale in persentage from 50 to 150
 	#Range: 50 ~ 150
 	armScale = 75
+	#Show Armor HUD when debug menu is open
+	armWithDebug = true
+	#Show arrows count when no weapon in your hands
+	showArrowsWithoutWeapon = true
 
 #Settings for Potions HUD
 [potionshud]
@@ -68,6 +74,10 @@
 	showHiddenEffects = true
 	#Disable icons for effects in this list
 	effectsBlackList = []
+	#Show Potion HUD when debug menu is open
+	potWithDebug = true
+	#Show all levels of effects
+	potionLevels = false
 
 #DONT TOUCH THESE FIELDS!
 [positions]
@@ -207,7 +217,7 @@
 #Notification settings
 [notification]
 	#Last notified mod version
-	lastNotifiedVersion = "3.4.17"
+	lastNotifiedVersion = "3.4.18"
 	#Notify more than once
 	keepNotifying = false
 

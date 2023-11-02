@@ -97,3 +97,4 @@ kubejs/probe/generated/java.d.ts
 .vscode/probe.class-definitions.json
 .vscode/probe.lang-schema.json
 config/spirit.toml
+config/forgeendertech/cached.dat

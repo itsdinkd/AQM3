@@ -14,7 +14,7 @@
 		# Set wiki definitions here, in the format <mod id> = "<URL>".  Each URL MUST contain one and only one set of curly braces {} to indicate where the query parameter goes.
 		# For mod id, use _ for the default wiki (will be used for any queries not tied to other configured mod id).
 		[client.options.wiki_definitions]
-			minecraft = "https://minecraft.fandom.com/wiki/Special:Search?go=Search&search={}"
+			minecraft = "https://minecraft.wiki/w/Special:Search?search={}"
 			_ = "https://ftb.fandom.com/wiki/Special:Search?fulltext=1&query={}&scope=internal"
 			alexsmobs = "https://alexs-mobs-bestiary.fandom.com/wiki/Special:Search?query={}"
 

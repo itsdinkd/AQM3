@@ -231,6 +231,17 @@
         "value": 10000000
       }
     },
+    "enlightened_end:radiationresistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 999,
+        "value": 10000000
+      }
+    },
     "paraglider:max_stamina": {
       "enabled": false,
       "min": {

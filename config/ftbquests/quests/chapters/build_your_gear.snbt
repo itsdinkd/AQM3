@@ -21,7 +21,7 @@
 		{
 			x: -1.5d
 			y: 1.5d
-			subtitle: "Links to Wiki - Questline coming soon"
+			subtitle: "Links to Wiki"
 			id: "5841C6D1E24BE1A0"
 			tasks: [{
 				id: "270E93FA4AEA2203"

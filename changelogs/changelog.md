@@ -1,3 +1,52 @@
+## Another Quality Modpack 3 v1.6
+
+_Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.6.md)_
+
+## REMOVED
+- Advanced Chimneys -- Lag issues, and crashes
+
+## CHANGES/HIGHLIGHTS
+- Reduced frequency of Inventory Pet dungeons
+- Enlightend has been remade from the ground up, porting its 1.19 version to 1.18.2. I unfortunately do not have a list of changes as none was actually provided anywhere
+- **BlockCarpentry**
+  - Added guide book, 5 new modifiers, new signs, and more.
+- **Corail Tombstone**
+  - Prevents to use exorcism with bad alignment
+  - Prevents to find familiar Receptacle with 'mounted undead'
+- Flan provides better protection support
+- Thermal now has built in support with Mekanism
+- Kobolds had a 1.20.1 backport to 1.18.2 which means new features / changes
+- Macaws Windows updates with windows being able to be opened again, and as well as fixes, changes, and additions
+
+## FIXED
+- Fixed potential crash from unexpectedly large health/absorption values **(AppleSkin)**
+- Lot of bug fixes for Botany pots **(Botany Pots)**
+- Crash confliction with Jade and Saturn **(Jade)**
+- Remove unnecessary Vec2 optimization which fixes incompatibility with a lot of mods. **(Saturn)**
+- Fixed some blocks not visually connecting to the entangled block **(Entangled)**
+- Fixed poorly-balanced Create crushing recipes for warped nether brick **(Bygone Nether)**
+- Fixed crash with Create copycat blocks **(Connected Glass)**
+- Fixed tesseract resource transferring with neighboring blocks sometimes breaking **Tesseract)**
+- Fix wrong wool sometimes being dropped for specific modded items **(Energetic Sheep)**
+- Fixed Book of Recycling **(Corails Tombstone)**
+- **EvilCraft**
+  - Fix Spirit Furnace not always producing player drops
+  - Add Farming for Blockheads merchant to spirit blacklist due to a rendering issue crash
+  - Fix crash when reanimating mobs without spawn egg
+- **Create**
+  - Fixed Deployers not able to interact with blocks using block-like items
+  - Fixed Elevator Contraptions sometimes powering multiple contacts upon arrival
+  - Fixed rollers in fill mode consuming blocks from a train without placing any
+  - Fixed crash when applying trapdoors to copycat panels
+  - Fixed unlit campfires providing boiler heat
+  - Fixed pipe-based cobblestone generation not working correctly
+  - Fixed Turntable handler causing a crash during world shutdown
+  - Fixed Schematics failing to load when containing items with sensitive nbt
+  - plus more fixes.
+- Fixed minor rendering bug with energy core particles. **(Draconic Evolution)**
+---
+
+
 ## Another Quality Modpack 3 v1.5
 
 _Forge Loader 40.2.2_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.5.md)_
