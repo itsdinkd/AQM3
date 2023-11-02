@@ -2,8 +2,12 @@
 
 _Forge Loader 40.2.7_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.6.md)_
 
+## ADDED
+- Observable (scans the world for mspt on tile entities. helps with finding laggy bases)
+
 ## REMOVED
 - Advanced Chimneys -- Lag issues, and crashes
+- Spirit (This was accidently added into 1.5 on accident. This was never balanced. You may add back if you'd like though) 
 
 ## CHANGES/HIGHLIGHTS
 - Reduced frequency of Inventory Pet dungeons
