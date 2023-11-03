@@ -83,7 +83,6 @@
   * [CosmeticArmorReworked-1.18.2-v2a.jar](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked/files/4016730) (by [LainMI](https://www.curseforge.com/members/LainMI/projects))
   * [crashutilities-4.1.jar](https://www.curseforge.com/minecraft/mc-mods/crash-utilities/files/3808085) (by [Darkere](https://www.curseforge.com/members/Darkere/projects))
   * [create-1.18.2-0.5.1.f.jar](https://www.curseforge.com/minecraft/mc-mods/create/files/4835188) (by [simibubi](https://www.curseforge.com/members/simibubi/projects))
-  * [Steam_Rails-1.4.5+forge-mc1.18.2-build.18.jar](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails/files/4836191) (by [mattentosh](https://www.curseforge.com/members/mattentosh/projects))
   * [createaddition-1.18.2-1.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/createaddition/files/4683727) (by [MRHminer](https://www.curseforge.com/members/MRHminer/projects))
   * [CreativeCore_FORGE_v2.6.17_mc1.18.2.jar](https://www.curseforge.com/minecraft/mc-mods/creativecore/files/4629846) (by [CreativeMD](https://www.curseforge.com/members/CreativeMD/projects))
   * [Croptopia-1.18.2-FORGE-2.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/croptopia/files/3947782) (by [thethonk](https://www.curseforge.com/members/thethonk/projects))
