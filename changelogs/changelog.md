@@ -1,3 +1,15 @@
+## Another Quality Modpack 3 v1.6.1
+
+_Forge Loader 40.2.7_ | [Mod Changes](https://github.com/itsdinkd/AQM3/blob/master/changelogs/changelog_mods_1.6.1.md) |  [Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.6.1.md)
+
+## REMOVED
+- Steam and Rails (Due to incompatibility on server end with Create. I apologize for any inconvenience this may have caused.)
+
+## CHANGED
+- Fixed BCC config to reflect latest version
+---
+
+
 ## Another Quality Modpack 3 v1.6
 
 _Forge Loader 40.2.7_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.6.md)_

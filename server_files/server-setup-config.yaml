@@ -6,9 +6,9 @@ modpack:
   
 install:
   mcVersion: 1.18.2
-  loaderVersion: 40.2.4
+  loaderVersion: 40.2.7
   
-  modpackUrl: https://media.forgecdn.net/files/4835/932/AQM3-1.18.2-1.6.zip
+  modpackUrl: https://media.forgecdn.net/files/4838/90/AQM3-1.18.2-1.6.1.zip
   installerUrl: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
   
   ignoreFiles:
