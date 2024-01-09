@@ -35,6 +35,7 @@ const UNIFIED_REMOVAL = [
 "ob_core:deepslate_platinum_ore",
 "ob_core:raw_platinum_block",
 "ob_core:platinum_raw",
+"iceandfire:silver_ore",
 "ob_core:platinum_ingot",
 "ob_core:platinum_nugget",
 "createdeco:zinc_sheet",

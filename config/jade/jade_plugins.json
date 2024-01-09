@@ -46,6 +46,10 @@
     "slurry": true,
     "energy": true
   },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud.redstone": true
+  },
   "strawgolem": {
     "lifespan": true,
     "hunger": true

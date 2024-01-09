@@ -30,12 +30,12 @@ $MODPACK_NAME = "another-quality-modpack-3"
 $CLIENT_NAME = "AQM3"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.6.1"
+$MODPACK_VERSION = "1.7"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "1.6"
+$LAST_MODPACK_VERSION = "1.6.1"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -90,7 +90,9 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "minemenu",
     "shaderpacks",
     "simple-rpc",
-    "servers.dat"
+    "servers.dat",
+    "mods/iceandfire-2.1.13-1.18.2+build.beta-3.jar",
+    "mods/expandedstorage-8.3.3+1.18.2-forge.jar"
 )
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems", "oculus.properties", "xaerominimap.txt", "xaeroworldmap.json", "oculus.properties", "rubidium-options.json", "rubidium-mixins.properties", "rubidium_extra.toml")

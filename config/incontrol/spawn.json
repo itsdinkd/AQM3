@@ -50,7 +50,7 @@
     "mob": ["cataclysm:ender_golem"],
     "result": "default",
     "healthmultiply": 15,
-    "damagemultiply": 2.756,
+    "damagemultiply": 3.15,
     "speedmultiply": 1.1,
     "onjoin": true
   },
@@ -105,6 +105,13 @@
     "result": "default",
     "healthmultiply": 1.8,
     "damagemultiply": 1.4,
+    "onjoin": true
+  },
+  {
+    "mod": "wrd",
+    "result": "default",
+    "healthmultiply": 2.5,
+    "damagemultiply": 3.0,
     "onjoin": true
   }
 ]

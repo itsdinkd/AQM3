@@ -1,0 +1,33 @@
+#This configuration is meant to allow turning off mod integration that has stopped working. All integrations are enabled by default. To disable a specific integration, set the relevant config value to "false".
+#Should you encounter any crashes when using Ceiling Torch, please report them to https://github.com/bl4ckscor3/CeilingTorch/issues
+#If you turn off a mod integration using this config, you can continue playing without needing an update of Ceiling Torch; However do note that the ceiling torches from that integration will disappear from your world. Note, that if you do not place a block in a space where a ceiling torch was, and then re-enable the respective integration, the torch will reappear.
+#Turning off integration with a mod that you are not using will not have any effect, as Ceiling Torch automatically checks for the presence of mods it integrates with.
+additional_lights = true
+adorn = true
+aquatictorches = true
+bambooeverything = true
+bonetorch = true
+chipped = true
+hardcore_torches = true
+iceandfire = true
+ilikewood = true
+infernalexp = true
+inspirations = true
+integrateddynamics = true
+magical_torches = true
+malum = true
+#Mo' Shiz Mod
+ms = true
+nethersdelight = true
+pokecube_legends = true
+occultism = true
+projecte = true
+reliquary = true
+secretroomsmod = true
+silentgear = true
+tofucraft = true
+torchbandolier = true
+torchmaster = true
+undergarden = true
+upgrade_aquatic = true
+

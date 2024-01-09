@@ -12,7 +12,8 @@
     "maxHeartsPerLine": 10,
     "fluidMode": "NONE",
     "reachDistance": 0.0,
-    "debug": false
+    "debug": false,
+    "hintOverlayToggle": true
   },
   "overlay": {
     "overlayPosX": 0.5093497,
@@ -23,7 +24,7 @@
     "overlaySquare": false,
     "flipMainHand": false,
     "color": {
-      "alpha": 0.828283,
+      "alpha": 0.9515072,
       "themes": {
         "jade:waila": {
           "id": "jade:waila",

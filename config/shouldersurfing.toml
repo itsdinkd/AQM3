@@ -28,6 +28,8 @@
 	hide_player_when_looking_up_angle = 15.0
 	#Whether or not to dynamically adjust camera offsets depending on space constraints.
 	dynamically_adjust_offsets = true
+	#Whether or not to skip the third person front perspective.
+	skip_third_person_front_perspective = false
 
 	[perspective.offset]
 		#Third person camera x-offset.
@@ -69,6 +71,30 @@
 			unlimited_offset_y = false
 			#Whether or not z-offset adjustment has limits.
 			unlimited_offset_z = false
+
+		[perspective.offset.multiplier]
+
+			[perspective.offset.multiplier.passenger]
+				#x-offset multiplier for when the player is a passenger.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_x = 1.0
+				#y-offset multiplier for when the player is a passenger.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_y = 1.0
+				#z-offset multiplier for when the player is a passenger.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_z = 1.0
+
+			[perspective.offset.multiplier.sprint]
+				#x-offset multiplier for when the player is sprinting.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_x = 1.0
+				#y-offset multiplier for when the player is sprinting.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_y = 1.0
+				#z-offset multiplier for when the player is sprinting.
+				#Range: 0.0 ~ 1.7976931348623157E308
+				multiplier_offset_z = 1.0
 
 [crosshair]
 	#Crosshair type to use for shoulder surfing.

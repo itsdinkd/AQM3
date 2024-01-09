@@ -98,3 +98,12 @@ kubejs/probe/generated/java.d.ts
 .vscode/probe.lang-schema.json
 config/spirit.toml
 config/forgeendertech/cached.dat
+kubejs/probe/generated/java.d.ts
+kubejs/probe/generated/globals.d.ts
+kubejs/probe/generated/events.d.ts
+kubejs/probe/generated/constants.d.ts
+kubejs/probe/cache/mergedClasses.json
+kubejs/probe/cache/javaClasses.json
+kubejs/probe/cache/cachedJava.json
+kubejs/probe/cache/cachedForgedEvents.json
+kubejs/probe/cache/cachedEvents.json

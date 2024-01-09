@@ -20,7 +20,8 @@
         "mekanism:lead_ore",
         "mekanism:tin_ore",
         "tinkers_reforged:deepslate_aluminum_ore",
-        "ob_core:deepslate_platinum_ore"
+        "ob_core:deepslate_platinum_ore",
+        "iceandfire:silver_ore"
         ];
    })
  });

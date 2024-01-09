@@ -35,6 +35,7 @@ const removeJei = [
   "botania:flight_tiara",
   "botania:laputa_shard",
   "botania:missile_rod",
+  "iceandfire:silver_ore",
   "botania:smelt_rod",
   "botania:spawner_claw",
   "botania:super_lava_pendant",
@@ -210,9 +211,18 @@ const removeJei = [
   "cyclic:crusher",
   "cyclic:user",
   'gobber2:gobber2_ring_phoenix',
-  "productivebees:gobber",
+  "productivebees:nether_gobber",
   "productivebees:end_gobber",
-  "productivebees:nether_gobber"
+  "productivebees:gobber",
+  "productivebees:ice_dragonsteel",
+  "productivebees:fire_dragonsteel",
+  "productivebees:lightning_dragonsteel",
+  "productivebees:ice_dragonsteel_incubation",
+  "productivebees:fire_dragonsteel_incubation",
+  "productivebees:lightning_dragonsteel_incubation",
+  "productivebees:nether_gobber_incubation",
+  "productivebees:gobber_incubation",
+  "productivebees:end_gobber_incubation"
   ];
 
 onEvent('rei.hide.items', event => {

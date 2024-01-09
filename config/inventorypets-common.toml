@@ -281,4 +281,6 @@
 	disableWither = false
 	#Disable the Wolf pet (default:false)
 	disableWolf = true
+	#Disable Cloud Fly ability (default:false)
+	disableCloudFly = true
 

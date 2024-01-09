@@ -11,7 +11,9 @@ conflictRemoveJei.forEach(item => {
 });
 
 event.replaceInput({id:'compressium:cobblestone_2'}, 'compressium:cobblestone_1', 'cyclic:compressed_cobblestone')
-
+event.remove({id: "oresabovediamonds:smelting_amethyst"})
+event.smelting('1x oresabovediamonds:amethyst', "#forge:ores/amethyst_ore")
+event.smelting('1x oresabovediamonds:amethyst', "oresabovediamonds:nether_amethyst_ore")
 });
 
 onEvent('tags.items', event => {

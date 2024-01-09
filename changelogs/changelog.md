@@ -1,3 +1,65 @@
+## Another Quality Modpack 3 v1.7
+
+_Forge Loader 40.2.7_ | [Mod Changes](https://github.com/itsdinkd/AQM3/blob/master/changelogs/changelog_mods_1.7.md) |  [Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.7.md)
+
+## HIGHLIGHTS
+- Ceiling Torch compatibility with Ice and Fire
+- New permission added for flan; INTERACTSIGN, If true players can edit signs, e.g. via dyeing them etc
+- New content for macaws windows
+- Updated ice and fire with a beta build from their github which contains tons of bug fixes
+- Anvil Upgrade added (Sophisticated X)
+- Removed productive bee ice and fire compatibility
+- Backpack open keybind now works in all container screens if the backpack in player's inventory is hovered. That also means that from backpack screen another backpack in player's inventory can be open without the need to go back to player's inventory and open from there (Sophisticated Backpacks)
+
+## ADDED
+- Biomancy
+  - Bio-Organic-Tech-Magic mod which was inspired by putting concepts of Bio-Manipulation (Biomancy), Biopunk and Flesh Magic into a blender. This mod tries to be the opposite of vile things such as Necromancy and other practices related to harnessing death, instead Biomancy wants to exploit the energy of the living and create new life.
+  - Great full showcase video to get started https://youtu.be/Geeo7KTK3Qg
+ - Wesleys Roguelike Dungeons
+   - Adds uniquely generated dungeons throughout the overworld and nether that are themed to biomes where one dungeon will never look like another, with linear progression, at the end of the dungeon you will fight 1 of the 12 dungeon bosses. Featuring key and chest system similar to Treasure2 to distribute loot with some keys only obtainable in special challenges
+   - I have configured the mod to allow natural generation (disabled by default) but it is incredibly rare in Overworld, with Nether being much more common. The main way to generate dungeons is by crafting and using a vessel of vision. These dungeons are mid game
+- Tinkers Leveling Addon
+  - Adds a 'Improveable' trait to tinkers which essentially allows you to upgrade your tool/armor piece that this is applied to via XP that is now gained from said tool and doing that tools job ie; mining, slaying mobs (if sword), etc etc. Each level gives a attribute. 
+  - This is a end game trait and has a pricy recipe cost
+- Tinkers Planner
+  - Adds a client side full scale GUI to allow the player to plan their blueprint for tinkers
+  - This can be accessed via the new Planner icon (looks like a blueprint) in Tinkers Station UI and Tinkers Anvil UI
+  - You can bookmark saved plans, and when you are ready to actually craft it you would star a bookmark which will pin it to the station/anvil ui, clicking on the tools icon will automatically place all that is needed into the correct slots as well as tell you whats missing if you do not have it
+ 
+## FIXED
+- Forge mod loader updated to 40.2.8 to fix fluid issue from 40.2.7
+- issue where ‘counting’ advancements were not working on Server. Be prepared, you may get a lot of advancements on login (inventory pets)
+- Inventory book mixin being unable to apply (BYG)
+- Durability will now show on equipment in REI / when durability is full
+- Amethyst Ore not smelting Amethyst and Black Opal Ore smithing amethyst. this is now corrected.
+- serverstart.sh not working for linux
+- Broken recipes (BYG)
+- Ether Grass crash (BYG)
+- Fixed Double Chest Pets not opening (inventory pets)
+- Chest Pet(s) Dupe exploit (inventory pets)
+- Mod updates to fix rare crash instances
+- Dislocators vanishing when dropped (Draconnic Evolution)
+- Stacks of items being attached to Eccentric Tome
+- Temple generation hanging in void worlds
+- Several issues where chunks would unintentionally be loaded by RS (Refined Storage)
+- JEI transfer crash for larger processing recipes (Refined Storage)
+- Rare autocrafting crash (Refined Storage)
+- Duplication bug with the Crafting Grid (Refined Storage)
+- Fluid duplication bug with the Importer in certain situations (Refined Storage)
+- Reduced block updates when a controller is turning on and off constantly (Refined Storage)
+- Attempted to fix issue where Grid doesn't load items and requires a client restart (Refined Storage)
+- Improve block breaking prevention (Flan)
+- Item collectors trying to collect empty item entities
+- World lockup with entity data handlers (Structure Gel API)
+- Buckets not having any effect on waterlogged waystones (Waystones)
+- Warp stone cooldown getting corrupted into millions of seconds (Waystones)
+- Removed ice and fire silver ore as there is thermal silver ore
+
+## REMOVED
+- SeedDrops due to causing incompatibility issues and preventing seeds naturally dropping from other mods that are not added into the config
+- Infernal Expansion conflicts with Amplified Nether causing very slow chunk generation 
+---
+
 ## Another Quality Modpack 3 v1.6.1
 
 _Forge Loader 40.2.7_ | [Mod Changes](https://github.com/itsdinkd/AQM3/blob/master/changelogs/changelog_mods_1.6.1.md) |  [Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.6.1.md)
@@ -15,7 +77,7 @@ _Forge Loader 40.2.7_ | [Mod Changes](https://github.com/itsdinkd/AQM3/blob/mast
 _Forge Loader 40.2.7_  _[Modlist](https://github.com/itsdinkd/AQM3/blob/master/changelogs/modlist_1.6.md)_
 
 ## ADDED
-- Observable (scans the world for mspt on tile entities. helps with finding laggy bases)
+- Observable (scans the world for mspt on tile entities. helps with finding laggy bases) 
 
 ## REMOVED
 - Advanced Chimneys -- Lag issues, and crashes

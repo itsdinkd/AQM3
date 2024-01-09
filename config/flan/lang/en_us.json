@@ -175,6 +175,9 @@
     "Fallback to OPENCONTAINER",
     "Gets used for all blocks OPENCONTAINER doesn't check for"
   ],
+  "INTERACTSIGN.desc": [
+    "Permission to edit signs (e.g. dyeing them)"
+  ],
   "ANVIL.desc": [
     "Permission to use anvils"
   ],

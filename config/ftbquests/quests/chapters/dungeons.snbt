@@ -6,6 +6,97 @@
 	title: "Dungeons"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -1.5d
+			y: -2.0d
+			subtitle: "Generate Roguelike Dungeon"
+			description: ["Crafting and using this item will generate in the world at random a dungeon from the WRD mod which features a boss at the end of the dungeon"]
+			id: "6A5D96BE06CE7AC4"
+			tasks: [{
+				id: "4E157561E45F63FA"
+				type: "item"
+				item: "wrd:magic_cauldron"
+			}]
+			rewards: [{
+				id: "7382104327B434C8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1890603652941546413L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			subtitle: "Generate dungeon in desert biomes"
+			dependencies: ["6A5D96BE06CE7AC4"]
+			id: "6ABF6B84007B0A81"
+			tasks: [{
+				id: "4E76BEE2A47B24D1"
+				type: "item"
+				item: "wrd:magic_cauldron_desert"
+			}]
+			rewards: [{
+				id: "5A76DB138EEAF240"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			subtitle: "Generate biome in snowy biomes"
+			dependencies: ["6A5D96BE06CE7AC4"]
+			id: "0567F9E814C85EAB"
+			tasks: [{
+				id: "44A86A9ABD1E65B3"
+				type: "item"
+				item: "wrd:magic_cauldron_ice"
+			}]
+			rewards: [{
+				id: "69EC10A217E7259C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			subtitle: "Generate dungeon in jungle biome"
+			dependencies: ["6A5D96BE06CE7AC4"]
+			id: "78C8B2843128EBB7"
+			tasks: [{
+				id: "365F148E43C89F68"
+				type: "item"
+				item: "wrd:magic_cauldron_jungle"
+			}]
+			rewards: [{
+				id: "5CF9AC22044AF25D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6433163600064979277L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			subtitle: "Generate dungeon in nether"
+			dependencies: ["6A5D96BE06CE7AC4"]
+			id: "3C12EC5619FFD54F"
+			tasks: [{
+				id: "736E08A4B36BB5B1"
+				type: "item"
+				item: "wrd:magic_cauldron_nether"
+			}]
+			rewards: [{
+				id: "3EECDEF19CB71FC5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6433163600064979277L
+			}]
+		}
+	]
 	quest_links: [ ]
 }

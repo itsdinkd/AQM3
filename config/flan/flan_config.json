@@ -20,6 +20,7 @@
   "inspectionItem": "minecraft:barrier",
   "inspectionNBT": {},
   "claimDisplayTime": 1300,
+  "particleDisplay": false,
   "claimDisplayActionBar": false,
   "permissionLevel": 2,
   "autoClaimStructures": false,

@@ -369,8 +369,33 @@ banMaItems.forEach(item => {
 // });
   // reliquary void tear to nebulous heart
   event.replaceInput({}, 'reliquary:void_tear', "reliquary:nebulous_heart")
-
-  
+  event.remove({id: "tinkerslevellingaddon:tools/modifiers/ability/improvable"})
+  event.custom({
+    "type": "tconstruct:modifier",
+    "inputs": [
+      {
+        "item": "gobber2:dragon_star"
+      },
+      {
+        "item": "iceandfire:fire_dragon_blood"
+      },
+      {
+        "item": "kubejs:demon_pearl"
+      }
+    ],
+    "tools": {
+      "tag": "tconstruct:modifiable"
+    },
+    "slots": {
+      "abilities": 1
+    },
+    "allow_crystal": true,
+    "result": {
+      "name": "tinkerslevellingaddon:improvable",
+      "level": 1
+    },
+    "max_level": 1
+  })
   event.remove({output: 'angelring:itemring'});
    event.recipes.extendedcrafting.shapedTable('angelring:itemring', [
     'diwf fMid',

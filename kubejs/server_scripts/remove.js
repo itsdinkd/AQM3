@@ -150,8 +150,6 @@ const recipeRemoveJei = [
 "prefab:item_swift_blade_steel",
 "prefab:item_swift_blade_stone",
 "prefab:item_swift_blade_wood",
-"productivebees:end_gobber",
-"productivebees:gobber",
 "reliquary:mob_charm",
 "silentgear:iron_rod",
 "thermal:steel_dust",
@@ -167,8 +165,34 @@ const recipeRemoveJei = [
 "tombstone:scroll_of_reach",
 "tombstone:scroll_of_true_sight",
 "tombstone:scroll_of_unstable_intangibility",
-"productivebees:nether_gobber"
+"productivebees:nether_gobber",
+"productivebees:end_gobber",
+"productivebees:gobber",
+"productivebees:ice_dragonsteel",
+"productivebees:fire_dragonsteel",
+"productivebees:lightning_dragonsteel",
+"productivebees:ice_dragonsteel_incubation",
+"productivebees:fire_dragonsteel_incubation",
+"productivebees:lightning_dragonsteel_incubation",
+"productivebees:nether_gobber_incubation",
+"productivebees:gobber_incubation",
+"productivebees:end_gobber_incubation"
 ];
+
+const idRecipeRemoveJei = [
+"mysticalagriculture:mystical_fertilizer",
+"mysticalagriculture:augment/flight",
+"productivebees:bee_breeding/gobber/end_gobber_bee",
+"productivebees:bee_breeding/gobber/nether_gobber_bee",
+"productivebees:bee_breeding/gobber/gobber_bee",
+"productivebees:bee_produce/iceandfire/lightning_dragonsteel_bee",
+"productivebees:bee_produce/iceandfire/ice_dragonsteel_bee",
+"productivebees:bee_produce/iceandfire/fire_dragonsteel_bee",
+"productivebees:bee_produce/gobber/end_gobber_bee",
+"productivebees:bee_produce/gobber/gobber_bee",
+"productivebees:bee_produce/gobber/nether_gobber_bee",
+
+]
 
 onEvent("recipes", event => {
 
@@ -176,11 +200,10 @@ recipeRemoveJei.forEach(item => {
   event.remove({output: item})
 });
 
-event.remove({ id: "mysticalagriculture:mystical_fertilizer"})
-event.remove({ id: "mysticalagriculture:augment/flight" });
-event.remove({ id: "productivebees:bee_breeding/gobber/end_gobber_bee" });
-event.remove({ id: "productivebees:bee_breeding/gobber/nether_gobber_bee" });
-event.remove({ id: "productivebees:bee_breeding/gobber/gobber_bee" });
+idRecipeRemoveJei.forEach(item => {
+  event.remove({id: item})
+});
+
 // Armor Plus
 const armorPMats = [
   "helmet",
