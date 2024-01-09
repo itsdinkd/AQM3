@@ -4,10 +4,12 @@ _Forge Loader 40.2.7_ | [Mod Changes](https://github.com/itsdinkd/AQM3/blob/mast
 
 ## HIGHLIGHTS
 - Ceiling Torch compatibility with Ice and Fire
+- Placing water has been fixed
 - New permission added for flan; INTERACTSIGN, If true players can edit signs, e.g. via dyeing them etc
 - New content for macaws windows
 - Updated ice and fire with a beta build from their github which contains tons of bug fixes
 - Anvil Upgrade added (Sophisticated X)
+- Nether crashing / slow chunk loading has been fixed
 - Removed productive bee ice and fire compatibility
 - Backpack open keybind now works in all container screens if the backpack in player's inventory is hovered. That also means that from backpack screen another backpack in player's inventory can be open without the need to go back to player's inventory and open from there (Sophisticated Backpacks)
 
@@ -15,7 +17,7 @@ _Forge Loader 40.2.7_ | [Mod Changes](https://github.com/itsdinkd/AQM3/blob/mast
 - Biomancy
   - Bio-Organic-Tech-Magic mod which was inspired by putting concepts of Bio-Manipulation (Biomancy), Biopunk and Flesh Magic into a blender. This mod tries to be the opposite of vile things such as Necromancy and other practices related to harnessing death, instead Biomancy wants to exploit the energy of the living and create new life.
   - Great full showcase video to get started https://youtu.be/Geeo7KTK3Qg
- - Wesleys Roguelike Dungeons
+- Wesleys Roguelike Dungeons
    - Adds uniquely generated dungeons throughout the overworld and nether that are themed to biomes where one dungeon will never look like another, with linear progression, at the end of the dungeon you will fight 1 of the 12 dungeon bosses. Featuring key and chest system similar to Treasure2 to distribute loot with some keys only obtainable in special challenges
    - I have configured the mod to allow natural generation (disabled by default) but it is incredibly rare in Overworld, with Nether being much more common. The main way to generate dungeons is by crafting and using a vessel of vision. These dungeons are mid game
 - Tinkers Leveling Addon
@@ -30,6 +32,7 @@ _Forge Loader 40.2.7_ | [Mod Changes](https://github.com/itsdinkd/AQM3/blob/mast
 - Forge mod loader updated to 40.2.8 to fix fluid issue from 40.2.7
 - issue where ‘counting’ advancements were not working on Server. Be prepared, you may get a lot of advancements on login (inventory pets)
 - Inventory book mixin being unable to apply (BYG)
+- Nether chunks loading very very slow due to infernal expansion and amplified nether
 - Durability will now show on equipment in REI / when durability is full
 - Amethyst Ore not smelting Amethyst and Black Opal Ore smithing amethyst. this is now corrected.
 - serverstart.sh not working for linux
