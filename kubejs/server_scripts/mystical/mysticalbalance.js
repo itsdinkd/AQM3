@@ -34,7 +34,7 @@ event.custom(
     },
     "result":
     {
-      "tag": "forge:ingots/steel",
+      "item": "assemblylinemachines:steel_ingot",
       "count":3
     }
   }
@@ -57,7 +57,7 @@ event.custom(
     },
     "result":
     {
-      "tag": "forge:ingots/lead",
+      "item": "thermal:lead_ingot",
       "count":4
     }
   }
@@ -80,7 +80,7 @@ event.custom(
     },
     "result":
     {
-      "tag": "forge:ingots/zinc",
+      "item": "create:zinc_ingot",
       "count":4
     }
   }
@@ -103,7 +103,7 @@ event.custom(
     },
     "result":
     {
-      "tag": "forge:dusts/sulfur",
+      "item": "thermal:sulfur_dust",
       "count":4
     }
   }
@@ -126,7 +126,7 @@ event.custom(
     },
     "result":
     {
-      "tag": "forge:ingots/tin",
+      "item": "thermal:tin_ingot",
       "count":4
     }
   }
@@ -149,7 +149,7 @@ event.custom(
     },
     "result":
     {
-      "tag":"forge:ingots/bronze",
+      "item": "thermal:bronze_ingot",
       "count":4
     }
   }
@@ -172,7 +172,7 @@ event.custom(
     },
     "result":
     {
-      "tag": "forge:ingots/aluminum",
+      "item": "futurepack:ingot_aluminium",
       "count":8
     }
   }

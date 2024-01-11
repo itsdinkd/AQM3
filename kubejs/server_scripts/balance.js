@@ -812,24 +812,4 @@ cableTypes.forEach((type) => {
       "oresabovediamonds:black_opal_block"
     )
   })
-
-event.custom(
-  {
-    "type":"create:compacting",
-    "ingredients":
-    [
-      {
-        "item":"nethers_exoticism:jaboticaba"
-      }
-    ],
-    "results":
-    [
-      {
-        "fluid":"nethers_exoticism:jaboticaba_juice",
-        "amount":250,
-        "nbt":"null"
-      }
-    ]
-  }
-)
 });
